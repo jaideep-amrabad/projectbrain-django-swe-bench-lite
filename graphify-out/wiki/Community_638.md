@@ -1,45 +1,42 @@
 # Community 638
 
-> 19 nodes · cohesion 0.11
+> 16 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **TestInlinePermissions** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_fk_add_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_fk_noperm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_m2m_add_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_m2m_noperm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_m2m_view_only_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **Make sure the admin respects permissions for objects that are edited inline.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_add_change_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_add_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_all_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_change_del_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_change_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_noperm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_m2m_add_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_m2m_change_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_m2m_noperm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_m2m_view_only_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **smartif.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **TokenBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **EndToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **test_smartif.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **infix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.display()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.nud()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **Parser and utilities for the smart 'if' tag** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **Base class for operators and literals, mainly for debugging and for throwing…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **Return what to display in error messages for this node** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **Create an infix operator, given a binding power and a function that evaluates…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **Create a prefix operator, given a binding power and a function that evaluates…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.led()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.nud()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
 
 ## Relationships
 
-- [Community 19](Community_19.md) (7 shared connections)
-- [Community 49](Community_49.md) (5 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 409](Community_409.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
+- [Community 639](Community_639.md) (3 shared connections)
+- [Community 897](Community_897.md) (2 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 521](Community_521.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (88%)
-- INFERRED: 4 (12%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,41 +1,32 @@
 # Community 846
 
-> 10 nodes · cohesion 0.24
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **swappable_models/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
-- **swappable_models/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
-- **SwappableModelTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
-- **.test_case_insensitive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
-- **.test_generated_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
-- **AlternateArticle** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
-- **Permissions and content types are not created for a swapped model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
-- **Model names are case insensitive. Model swapping honors this.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
+- **SessionStore** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **test_client_regress/session.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **A simple cookie-based session storage implementation. The session key is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 46](Community_46.md) (2 shared connections)
-- [Community 192](Community_192.md) (2 shared connections)
-- [Community 409](Community_409.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 155](Community_155.md) (2 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

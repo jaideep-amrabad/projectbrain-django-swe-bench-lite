@@ -1,33 +1,44 @@
 # Community 832
 
-> 9 nodes · cohesion 0.22
+> 14 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Account** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **BarAccount** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FooAccount** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **BarAccountAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **FooAccountAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple, generic account encapsulating the information shared by all types of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A service-specific account of type Foo.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A service-specific account of type Bar.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **test/html.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **assert_and_parse_html()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **HTMLParseError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **._assert_contains()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertContains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertHTMLEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertHTMLNotEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertNotContains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that a response indicates that some content was retrieved successfully,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertInHTML()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Exception** (1 connections)
+- **Compare two HTML documents.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **Assert that two HTML snippets are semantically the same. Whitespace in most…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that two HTML snippets are not semantically equivalent.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 69](Community_69.md) (4 shared connections)
-- [Community 98](Community_98.md) (3 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 451](Community_451.md) (5 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 569](Community_569.md) (3 shared connections)
+- [Community 346](Community_346.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 261](Community_261.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (87%)
-- INFERRED: 2 (13%)
+- EXTRACTED: 33 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **tests/urls.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urls.py`
-- **This URLconf exists because Django expects ROOT_URLCONF to exist. URLs should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urls.py`
+- **.test_empty_ordered_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Ordering fields are allowed to be left blank. If they are left blank, they'll…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 469](Community_469.md) (1 shared connections)
+- [Community 547](Community_547.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

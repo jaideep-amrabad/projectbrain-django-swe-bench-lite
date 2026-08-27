@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **SelectFilter2.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectFilter2.js`
+- **openlayers.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/openlayers.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectFilter2.js`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/openlayers.js`
 
 ## Audit Trail
 

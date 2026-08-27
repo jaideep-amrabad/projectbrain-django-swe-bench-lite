@@ -1,45 +1,39 @@
 # Community 634
 
-> 15 nodes · cohesion 0.19
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **SessionStore** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.create_model_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.get_model_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **._get_session_from_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.create()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.load()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **Implement database session store.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **Return a new instance of the session model object, which represents the current…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **Save the current session data to the database. If 'must_create' is True, raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **make_immutable_fields_list()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.local_concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **Return a list of all forward fields on the model and its parents, excluding…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **Return a list of all concrete fields on the model and its parents. Private API…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **Return a list of all concrete fields on the model. Private API intended only to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **Return a list of all many to many fields on the model and its parents. Private…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **Return all related objects pointing to the current model. The related objects…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **Return a list of fields associated to the model. By default, include forward…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **Internal helper function to return fields of the model. * If forward=True, then…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 
 ## Relationships
 
-- [Community 382](Community_382.md) (4 shared connections)
-- [Community 327](Community_327.md) (3 shared connections)
-- [Community 27](Community_27.md) (3 shared connections)
-- [Community 156](Community_156.md) (1 shared connections)
-- [Community 757](Community_757.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 747](Community_747.md) (1 shared connections)
-- [Community 431](Community_431.md) (1 shared connections)
-- [Community 257](Community_257.md) (1 shared connections)
+- [Community 588](Community_588.md) (7 shared connections)
+- [Community 88](Community_88.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (78%)
-- INFERRED: 8 (22%)
+- EXTRACTED: 23 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

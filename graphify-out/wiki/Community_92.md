@@ -1,59 +1,65 @@
 # Community 92
 
-> 33 nodes · cohesion 0.07
+> 96 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Origin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **Loader** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
-- **Loader** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **cached.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **loaders/base.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
-- **loaders/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
-- **Loader** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
-- **.get_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
-- **.get_template_sources()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **Loader** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
-- **.get_template_sources()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
-- **.get_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
-- **.reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
-- **.get_contents()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **.get_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **.get_contents()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
-- **.get_template_sources()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
-- **FilesystemLoader** (1 connections)
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.loader_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
-- **Call self.get_template_sources() and return a Template object for the first…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
-- **An iterator that yields possible matching template paths for a template name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
-- *... and 8 more nodes in this community*
+- **PostgreSQLSimpleTestCase** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
+- **postgres_tests/test_indexes.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **SchemaTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **postgres_tests/test_operations.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.get_constraints()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **BrinIndex** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **postgres/indexes.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **BloomIndex** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **BTreeIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **GinIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **PostgresIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **GistIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **HashIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **SpGistIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **IndexTestMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **BloomIndexTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **CharFieldModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **.deconstruct()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **BrinIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **BTreeIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **GinIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **GistIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **HashIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **SpGistIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- *... and 71 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (10 shared connections)
-- [Community 26](Community_26.md) (6 shared connections)
-- [Community 698](Community_698.md) (5 shared connections)
-- [Community 35](Community_35.md) (3 shared connections)
-- [Community 731](Community_731.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
+- [Community 167](Community_167.md) (10 shared connections)
+- [Community 505](Community_505.md) (8 shared connections)
+- [Community 4](Community_4.md) (7 shared connections)
+- [Community 13](Community_13.md) (6 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 187](Community_187.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 74](Community_74.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 200](Community_200.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_integration.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (94%)
-- INFERRED: 4 (6%)
+- EXTRACTED: 272 (92%)
+- INFERRED: 23 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

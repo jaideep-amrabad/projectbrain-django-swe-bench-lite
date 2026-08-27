@@ -1,6 +1,6 @@
 # Community 581
 
-> 19 nodes · cohesion 0.13
+> 17 nodes · cohesion 0.15
 
 ## Key Concepts
 
@@ -10,9 +10,7 @@
 - **TextChoices** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
 - **IntegerChoices** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
 - **Class for creating enumerated choices.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.labels()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
 - **int** (1 connections)
 - **.choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
 - **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
@@ -26,20 +24,19 @@
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 365](Community_365.md) (1 shared connections)
+- [Community 252](Community_252.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 294](Community_294.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (89%)
-- INFERRED: 3 (11%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,32 +1,31 @@
 # Community 896
 
-> 7 nodes · cohesion 0.43
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **PythonGlobalState** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **MIMEText** (6 connections)
-- **.test_7bit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_8bit_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_8bit_non_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_utf8()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Tests for #12422 -- Django smarts (#2472/#11212) with charset of utf-8 text…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **TemplateLiteral** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **TemplateIfParser** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.create_var()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.eval()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
 
 ## Relationships
 
-- [Community 318](Community_318.md) (1 shared connections)
-- [Community 123](Community_123.md) (1 shared connections)
-- [Community 396](Community_396.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 112](Community_112.md) (3 shared connections)
+- [Community 639](Community_639.md) (1 shared connections)
+- [Community 897](Community_897.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (62%)
-- INFERRED: 5 (38%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

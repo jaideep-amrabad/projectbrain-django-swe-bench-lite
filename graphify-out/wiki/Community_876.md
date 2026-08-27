@@ -1,34 +1,35 @@
 # Community 876
 
-> 8 nodes · cohesion 0.25
+> 11 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **OSError** (6 connections)
-- **.test_file_move_copystat_cifs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **FileMoveSafeTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.writelines()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.test_file_move_overwrite()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **file_move_safe() ignores a copystat() EPERM PermissionError. This happens when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **Point** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.geos()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the X coordinate for this Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **._create_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **._geos_ptr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.z()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return a GEOSGeometry object from this OGRGeometry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the tuple of this point.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Relationships
 
-- [Community 201](Community_201.md) (3 shared connections)
-- [Community 698](Community_698.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 178](Community_178.md) (1 shared connections)
+- [Community 42](Community_42.md) (3 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (67%)
-- INFERRED: 5 (33%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

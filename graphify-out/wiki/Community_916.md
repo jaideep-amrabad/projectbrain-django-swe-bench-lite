@@ -1,32 +1,29 @@
 # Community 916
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.48
 
 ## Key Concepts
 
-- **._setup_and_call()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Wrapper around default __call__ method to perform common Django test set up.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Perform the same as __call__(), without catching the exception.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Perform the following in order: pre-setup, run test, post-teardown, skipping…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **UnorderedListTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **setup** (5 connections)
+- **.test_unordered_list03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_unordered_list04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_unordered_list01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_unordered_list02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_unordered_list05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 185](Community_185.md) (1 shared connections)
-- [Community 446](Community_446.md) (1 shared connections)
-- [Community 409](Community_409.md) (1 shared connections)
-- [Community 514](Community_514.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

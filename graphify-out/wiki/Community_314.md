@@ -1,63 +1,54 @@
 # Community 314
 
-> 35 nodes · cohesion 0.08
+> 36 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **urls/converters.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **urlpatterns/views.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
-- **DynamicConverter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **urlpatterns/__init__.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/__init__.py`
-- **urlpatterns/converters.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **path_base64_urls.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_base64_urls.py`
-- **IntConverter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **register_converter()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **StringConverter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **path_dynamic_urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_dynamic_urls.py`
-- **path_same_name_urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_same_name_urls.py`
-- **get_converter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **urlpatterns/included_urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/included_urls.py`
-- **path_urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_urls.py`
-- **UUIDConverter** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **converter_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converter_urls.py`
-- **Base64Converter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **more_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/more_urls.py`
-- **get_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **PathConverter** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **SlugConverter** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **.regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- *... and 10 more nodes in this community*
+- **IntrospectionTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **introspection/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **introspection/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **ArticleReporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **CheckConstraintModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **District** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **.test_get_constraints_indexes_orders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_relations_alt_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_bigautofield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_postgresql_real_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_smallautofield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_table_names_with_views()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_django_table_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_django_table_names_retval_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_constraints_index_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_primary_key_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (17 shared connections)
-- [Community 138](Community_138.md) (4 shared connections)
-- [Community 222](Community_222.md) (2 shared connections)
-- [Community 459](Community_459.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
+- [Community 22](Community_22.md) (7 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 261](Community_261.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converter_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/included_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/more_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_base64_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_dynamic_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_same_name_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 70 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 62 (87%)
+- INFERRED: 9 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

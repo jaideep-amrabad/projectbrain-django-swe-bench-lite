@@ -1,30 +1,29 @@
 # Community 923
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **._setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **.__reduce__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **unpickle_lazyobject()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **.__delattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **.__setattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **Used to unpickle lazy objects. Just return its argument, which will be the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **TestArchive** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.test_extract_file_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **skipIf** (1 connections)
+- **archive.extract() preserves file permissions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.test_extract_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
 
 ## Relationships
 
-- [Community 698](Community_698.md) (3 shared connections)
-- [Community 274](Community_274.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (90%)
-- INFERRED: 1 (10%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

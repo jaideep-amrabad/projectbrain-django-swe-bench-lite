@@ -1,55 +1,36 @@
 # Community 818
 
-> 20 nodes · cohesion 0.12
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **TextField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **citext.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **CIText** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **.test_rename_keep_null_status()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **CICharField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **CIEmailField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **CITextField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **.test_rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Tests simple altering of fields** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_add_textfield_unhashable_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_text_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **CharField** (1 connections)
-- **EmailField** (1 connections)
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Renaming a field shouldn't affect the not null status.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.get_handler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.inner_run()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.execute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Return the default WSGI handler for the runner.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Run the server, using the autoreloader if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 
 ## Relationships
 
-- [Community 37](Community_37.md) (6 shared connections)
-- [Community 61](Community_61.md) (3 shared connections)
-- [Community 299](Community_299.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 99](Community_99.md) (1 shared connections)
-- [Community 157](Community_157.md) (1 shared connections)
-- [Community 183](Community_183.md) (1 shared connections)
-- [Community 575](Community_575.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 441](Community_441.md) (1 shared connections)
+- [Community 343](Community_343.md) (1 shared connections)
+- [Community 195](Community_195.md) (1 shared connections)
+- [Community 142](Community_142.md) (1 shared connections)
+- [Community 261](Community_261.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (79%)
-- INFERRED: 9 (21%)
+- EXTRACTED: 17 (85%)
+- INFERRED: 3 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

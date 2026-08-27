@@ -1,6 +1,6 @@
 # Community 211
 
-> 108 nodes · cohesion 0.04
+> 106 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -29,34 +29,33 @@
 - **.test_unique_together_normalization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
 - **AvatarProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
 - **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- *... and 83 more nodes in this community*
+- *... and 81 more nodes in this community*
 
 ## Relationships
 
-- [Community 125](Community_125.md) (7 shared connections)
-- [Community 442](Community_442.md) (6 shared connections)
-- [Community 409](Community_409.md) (4 shared connections)
-- [Community 192](Community_192.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
+- [Community 120](Community_120.md) (7 shared connections)
+- [Community 14](Community_14.md) (7 shared connections)
+- [Community 448](Community_448.md) (6 shared connections)
+- [Community 49](Community_49.md) (3 shared connections)
 - [Community 4](Community_4.md) (2 shared connections)
-- [Community 575](Community_575.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 249](Community_249.md) (2 shared connections)
-- [Community 140](Community_140.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
+- [Community 251](Community_251.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 138](Community_138.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
 - `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
 
 ## Audit Trail
 
-- EXTRACTED: 197 (81%)
+- EXTRACTED: 195 (81%)
 - INFERRED: 47 (19%)
 - AMBIGUOUS: 0 (0%)
 

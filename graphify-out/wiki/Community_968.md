@@ -1,27 +1,28 @@
 # Community 968
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **._check_autocomplete_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_autocomplete_fields_item()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that `autocomplete_fields` is a list or tuple of model fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that an item in `autocomplete_fields` is a ForeignKey or a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **SuccessMessageMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
+- **messages/views.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
+- **.form_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
+- **.get_success_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
+- **Add a success message on successful form submission.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
 
 ## Relationships
 
-- [Community 279](Community_279.md) (3 shared connections)
-- [Community 311](Community_311.md) (2 shared connections)
-- [Community 817](Community_817.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 209](Community_209.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

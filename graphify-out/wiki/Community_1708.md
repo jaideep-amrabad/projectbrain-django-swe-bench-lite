@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_send_messages_after_open_failed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **send_messages() shouldn't try to send messages if open() raises an exception…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_save_clears_annotations_from_base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **Model.save() clears annotations from the base manager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
 
 ## Relationships
 
-- [Community 84](Community_84.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 443](Community_443.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

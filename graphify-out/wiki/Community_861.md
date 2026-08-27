@@ -1,39 +1,38 @@
 # Community 861
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **PositiveIntegerField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_alter_null_to_not_null_keeping_default()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_field_default_doesnt_perform_queries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_null_to_not_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **No queries are performed if a field default changes and the field's not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **#23609 - Tests handling of default values when altering from NULL to NOT NULL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **#23738 - Can change a nullable field with default to non-nullable with the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.get_order_by()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.find_ordering_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_distinct()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **._setup_joins()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Return a list of 2-tuples of form (expr, (sql, params, is_ref)) for the ORDER…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Return a quoted list of fields to use in DISTINCT ON part of the query. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Return the table alias (the name might be ambiguous, the alias will not be) and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Helper method for get_order_by() and get_distinct(). get_ordering() and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Relationships
 
-- [Community 61](Community_61.md) (3 shared connections)
-- [Community 37](Community_37.md) (3 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 381](Community_381.md) (1 shared connections)
-- [Community 860](Community_860.md) (1 shared connections)
-- [Community 183](Community_183.md) (1 shared connections)
-- [Community 299](Community_299.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 449](Community_449.md) (5 shared connections)
+- [Community 488](Community_488.md) (4 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 128](Community_128.md) (2 shared connections)
+- [Community 119](Community_119.md) (2 shared connections)
+- [Community 90](Community_90.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 858](Community_858.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (80%)
-- INFERRED: 4 (20%)
+- EXTRACTED: 27 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

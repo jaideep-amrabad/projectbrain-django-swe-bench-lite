@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **.test_backend_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Test backend argument of mail.get_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **ParentWithDependentChildren** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Issue #20522 Model where the validation of child foreign-key relationships…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 84](Community_84.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

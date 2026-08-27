@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_formset_calls_forms_is_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Formsets call is_valid() on each form.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_ordering_blank_fieldsets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Ordering works with blank fieldsets.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 464](Community_464.md) (1 shared connections)
-- [Community 544](Community_544.md) (1 shared connections)
+- [Community 469](Community_469.md) (1 shared connections)
+- [Community 547](Community_547.md) (1 shared connections)
 
 ## Source Files
 

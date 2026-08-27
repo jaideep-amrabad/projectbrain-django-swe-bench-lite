@@ -1,13 +1,12 @@
 # Community 587
 
-> 18 nodes · cohesion 0.20
+> 17 nodes · cohesion 0.21
 
 ## Key Concepts
 
 - **OperationWriter** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
 - **OperationWriterTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 - **.serialize()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **OperationSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
 - **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
 - **.feed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
 - **.indent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
@@ -25,12 +24,12 @@
 
 ## Relationships
 
-- [Community 165](Community_165.md) (4 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 519](Community_519.md) (1 shared connections)
-- [Community 149](Community_149.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 163](Community_163.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 538](Community_538.md) (1 shared connections)
+- [Community 147](Community_147.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
@@ -40,8 +39,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 38 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 35 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

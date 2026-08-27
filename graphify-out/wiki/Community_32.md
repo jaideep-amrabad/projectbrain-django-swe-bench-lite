@@ -1,72 +1,42 @@
 # Community 32
 
-> 162 nodes · cohesion 0.02
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **backends/tests.py** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **no_style()** (44 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
-- **backends/models.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **sqlite/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **base/test_operations.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **base/test_creation.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **Person** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **LastExecutedQueryTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **FkConstraintsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **base/test_base.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **Square** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **mysql/test_operations.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_operations.py`
-- **oracle/test_operations.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
-- **OperationsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
-- **postgresql/test_operations.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_operations.py`
-- **sqlite/test_operations.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_operations.py`
-- **SchemaTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **test_server_side_cursors.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **LongNameTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **ThreadTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **PostgreSQLOperationsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_operations.py`
-- **SQLiteOperationsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_operations.py`
-- **LastExecutedQueryTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **DBConstraintTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- *... and 137 more nodes in this community*
+- **servers/views.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/models.py`
+- **servers/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/models.py`
+- **servers/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/urls.py`
+- **check_model_instance_from_subview()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **create_model_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **model_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **subview_calling_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **environ_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **example_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **subview()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **tests/servers/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/__init__.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (22 shared connections)
-- [Community 185](Community_185.md) (19 shared connections)
-- [Community 409](Community_409.md) (18 shared connections)
-- [Community 4](Community_4.md) (18 shared connections)
-- [Community 2](Community_2.md) (13 shared connections)
-- [Community 575](Community_575.md) (7 shared connections)
-- [Community 6](Community_6.md) (7 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 145](Community_145.md) (5 shared connections)
-- [Community 425](Community_425.md) (5 shared connections)
-- [Community 132](Community_132.md) (5 shared connections)
-- [Community 12](Community_12.md) (4 shared connections)
+- [Community 3](Community_3.md) (13 shared connections)
+- [Community 195](Community_195.md) (5 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 391 (95%)
-- INFERRED: 21 (5%)
+- EXTRACTED: 32 (89%)
+- INFERRED: 4 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

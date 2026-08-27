@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **.test_response_resolver_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **The response contains a ResolverMatch instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **UserMessenger** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Dummy class for testing message_user functions on ModelAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 564](Community_564.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

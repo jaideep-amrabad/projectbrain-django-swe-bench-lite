@@ -1,37 +1,32 @@
 # Community 872
 
-> 9 nodes · cohesion 0.28
+> 8 nodes · cohesion 0.46
 
 ## Key Concepts
 
-- **str/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
-- **str/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
-- **SimpleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
-- **InternationalArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
-- **.test_defaults()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
-- **Adding __str__() to models Although it's not a strict requirement, each model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
-- **The default implementation of __str__ and __repr__ should return instances of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
-- **.test_international()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
+- **ReverseQueryNameClashTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **._test_reverse_query_name_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 409](Community_409.md) (2 shared connections)
-- [Community 95](Community_95.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 75](Community_75.md) (2 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/str/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

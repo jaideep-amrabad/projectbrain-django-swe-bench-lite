@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_form_kwargs_formset_dynamic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Form kwargs can be passed dynamically in a formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_non_form_errors_run_full_clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **If non_form_errors() is called without calling is_valid() first, it should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 464](Community_464.md) (1 shared connections)
-- [Community 544](Community_544.md) (1 shared connections)
+- [Community 469](Community_469.md) (1 shared connections)
+- [Community 547](Community_547.md) (1 shared connections)
 
 ## Source Files
 

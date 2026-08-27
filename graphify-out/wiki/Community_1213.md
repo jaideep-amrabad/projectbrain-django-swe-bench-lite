@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **POST some data to a view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_valid_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **POST valid data to a form** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 476](Community_476.md) (1 shared connections)
+- [Community 479](Community_479.md) (1 shared connections)
 
 ## Source Files
 

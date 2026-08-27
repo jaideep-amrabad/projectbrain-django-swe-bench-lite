@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_insecure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **GET a URL through http** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_response_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Check the value of HTTP headers returned in a response** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 476](Community_476.md) (1 shared connections)
+- [Community 479](Community_479.md) (1 shared connections)
 
 ## Source Files
 

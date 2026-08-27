@@ -1,43 +1,35 @@
 # Community 800
 
-> 12 nodes · cohesion 0.21
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **servers/views.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/models.py`
-- **servers/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/models.py`
-- **servers/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/urls.py`
-- **check_model_instance_from_subview()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- **create_model_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- **model_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- **subview_calling_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- **environ_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- **example_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- **subview()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- **tests/servers/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/__init__.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **PropertyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **properties/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **properties/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **.test_setter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **._get_full_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **._set_full_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **Using properties on models Use properties on models just like on any other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **.test_getter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
 
 ## Relationships
 
-- [Community 27](Community_27.md) (12 shared connections)
-- [Community 724](Community_724.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 199](Community_199.md) (2 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 465](Community_465.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/servers/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (89%)
-- INFERRED: 4 (11%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

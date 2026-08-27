@@ -1,37 +1,47 @@
 # Community 650
 
-> 15 nodes · cohesion 0.13
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **SelectMultipleTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- **.test_multiple_options_same_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- **.test_multiple_values_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- **.test_optgroup_select_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- **.test_render_value_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- **If the value is None, none of the options are selected, even if the choices…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- **If the value corresponds to a label (but not to an option value), none of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- **Multiple options with the same value can be selected (#8103).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- **If multiple values are given, but some of them are not valid, the valid ones…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- **.test_compare_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- **.test_format_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- **.test_render_multiple_selected()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- **.test_render_selected()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **template.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- **templatize()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- **Lexer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.create_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **DebugLexer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **TranslatorCommentWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **.tokenize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.tokenize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **trim_whitespace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **blankout()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- **templatize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Return a list of tokens from a given template_string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Convert the given token string into a new Token object and return it. If in_tag…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Split a template string into tokens and annotates each token with its start and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Change every non-whitespace character to the given char. Used in the templatize…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- **Turn a Django template into something that is understood by xgettext. It does…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- **SyntaxWarning** (1 connections)
 
 ## Relationships
 
-- [Community 17](Community_17.md) (3 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 490](Community_490.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 326](Community_326.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 39 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

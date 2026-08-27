@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_sanitize_address()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Email addresses are properly sanitized.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_delete_related_on_filtered_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **Deleting related objects should also not be distracted by a restricted manager…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 84](Community_84.md) (1 shared connections)
+- [Community 443](Community_443.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
