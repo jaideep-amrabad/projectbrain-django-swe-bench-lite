@@ -105,7 +105,7 @@ class AdminDocViewTests(TestDataMixin, AdminDocsTestCase):
 
     def test_template_detail(self):
         response = self.client.get(reverse('django-admindocs-templates', args=['admin_doc/template_detail.html']))
-        self.assertContains(response, '<h1>Template: "admin_doc/template_detail.html"</h1>', html=True)
+        self.assertContains(response, '<h1>Template: <q>admin_doc/template_detail.html</q></h1>', html=True)
 
     def test_missing_docutils(self):
         utils.docutils_is_available = False
@@ -348,9 +348,13 @@ class AdminDocViewFunctionsTests(SimpleTestCase):
             (r'^a', '/a'),
             (r'^(?P<a>\w+)/b/(?P<c>\w+)/$', '/<a>/b/<c>/'),
             (r'^(?P<a>\w+)/b/(?P<c>\w+)$', '/<a>/b/<c>'),
+            (r'^(?P<a>\w+)/b/(?P<c>\w+)', '/<a>/b/<c>'),
             (r'^(?P<a>\w+)/b/(\w+)$', '/<a>/b/<var>'),
+            (r'^(?P<a>\w+)/b/(\w+)', '/<a>/b/<var>'),
             (r'^(?P<a>\w+)/b/((x|y)\w+)$', '/<a>/b/<var>'),
+            (r'^(?P<a>\w+)/b/((x|y)\w+)', '/<a>/b/<var>'),
             (r'^(?P<a>(x|y))/b/(?P<c>\w+)$', '/<a>/b/<c>'),
+            (r'^(?P<a>(x|y))/b/(?P<c>\w+)', '/<a>/b/<c>'),
             (r'^(?P<a>(x|y))/b/(?P<c>\w+)ab', '/<a>/b/<c>ab'),
             (r'^(?P<a>(x|y)(\(|\)))/b/(?P<c>\w+)ab', '/<a>/b/<c>ab'),
             (r'^a/?$', '/a/'),

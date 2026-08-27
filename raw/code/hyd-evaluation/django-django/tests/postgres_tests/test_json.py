@@ -5,9 +5,12 @@ from decimal import Decimal
 
 from django.core import checks, exceptions, serializers
 from django.core.serializers.json import DjangoJSONEncoder
-from django.db.models import Count, Q
+from django.db import connection
+from django.db.models import Count, F, OuterRef, Q, Subquery
+from django.db.models.expressions import RawSQL
+from django.db.models.functions import Cast
 from django.forms import CharField, Form, widgets
-from django.test.utils import isolate_apps
+from django.test.utils import CaptureQueriesContext, isolate_apps
 from django.utils.html import escape
 
 from . import PostgreSQLSimpleTestCase, PostgreSQLTestCase
@@ -185,6 +188,40 @@ class TestQuerying(PostgreSQLTestCase):
             operator.itemgetter('key', 'count'),
         )
 
+    def test_key_transform_raw_expression(self):
+        expr = RawSQL('%s::jsonb', ['{"x": "bar"}'])
+        self.assertSequenceEqual(
+            JSONModel.objects.filter(field__foo=KeyTransform('x', expr)),
+            [self.objs[-1]],
+        )
+
+    def test_key_transform_expression(self):
+        self.assertSequenceEqual(
+            JSONModel.objects.filter(field__d__0__isnull=False).annotate(
+                key=KeyTransform('d', 'field'),
+                chain=KeyTransform('0', 'key'),
+                expr=KeyTransform('0', Cast('key', JSONField())),
+            ).filter(chain=F('expr')),
+            [self.objs[8]],
+        )
+
+    def test_nested_key_transform_raw_expression(self):
+        expr = RawSQL('%s::jsonb', ['{"x": {"y": "bar"}}'])
+        self.assertSequenceEqual(
+            JSONModel.objects.filter(field__foo=KeyTransform('y', KeyTransform('x', expr))),
+            [self.objs[-1]],
+        )
+
+    def test_nested_key_transform_expression(self):
+        self.assertSequenceEqual(
+            JSONModel.objects.filter(field__d__0__isnull=False).annotate(
+                key=KeyTransform('d', 'field'),
+                chain=KeyTransform('f', KeyTransform('1', 'key')),
+                expr=KeyTransform('f', KeyTransform('1', Cast('key', JSONField()))),
+            ).filter(chain=F('expr')),
+            [self.objs[8]],
+        )
+
     def test_deep_values(self):
         query = JSONModel.objects.values_list('field__k__l')
         self.assertSequenceEqual(
@@ -266,6 +303,12 @@ class TestQuerying(PostgreSQLTestCase):
             [self.objs[7], self.objs[8]]
         )
 
+    def test_obj_subquery_lookup(self):
+        qs = JSONModel.objects.annotate(
+            value=Subquery(JSONModel.objects.filter(pk=OuterRef('pk')).values('field')),
+        ).filter(value__a='b')
+        self.assertSequenceEqual(qs, [self.objs[7], self.objs[8]])
+
     def test_deep_lookup_objs(self):
         self.assertSequenceEqual(
             JSONModel.objects.filter(field__k__l='m'),
@@ -330,6 +373,18 @@ class TestQuerying(PostgreSQLTestCase):
 
     def test_iregex(self):
         self.assertTrue(JSONModel.objects.filter(field__foo__iregex=r'^bAr$').exists())
+
+    def test_key_sql_injection(self):
+        with CaptureQueriesContext(connection) as queries:
+            self.assertFalse(
+                JSONModel.objects.filter(**{
+                    """field__test' = '"a"') OR 1 = 1 OR ('d""": 'x',
+                }).exists()
+            )
+        self.assertIn(
+            """."field" -> 'test'' = ''"a"'') OR 1 = 1 OR (''d') = '"x"' """,
+            queries[0]['sql'],
+        )
 
 
 @isolate_apps('postgres_tests')
@@ -426,7 +481,7 @@ class TestFormField(PostgreSQLSimpleTestCase):
         field = forms.JSONField()
         with self.assertRaises(exceptions.ValidationError) as cm:
             field.clean('{some badly formed: json}')
-        self.assertEqual(cm.exception.messages[0], "'{some badly formed: json}' value must be valid JSON.")
+        self.assertEqual(cm.exception.messages[0], '“{some badly formed: json}” value must be valid JSON.')
 
     def test_formfield(self):
         model_field = JSONField()

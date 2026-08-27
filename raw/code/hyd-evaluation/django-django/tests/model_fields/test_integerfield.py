@@ -125,7 +125,7 @@ class IntegerFieldTests(TestCase):
                         ranged_value_field.run_validators(max_backend_value + 1)
 
     def test_types(self):
-        instance = self.model(value=0)
+        instance = self.model(value=1)
         self.assertIsInstance(instance.value, int)
         instance.save()
         self.assertIsInstance(instance.value, int)
@@ -136,6 +136,23 @@ class IntegerFieldTests(TestCase):
         self.model.objects.create(value='10')
         instance = self.model.objects.get(value='10')
         self.assertEqual(instance.value, 10)
+
+    def test_invalid_value(self):
+        tests = [
+            (TypeError, ()),
+            (TypeError, []),
+            (TypeError, {}),
+            (TypeError, set()),
+            (TypeError, object()),
+            (TypeError, complex()),
+            (ValueError, 'non-numeric string'),
+            (ValueError, b'non-numeric byte-string'),
+        ]
+        for exception, value in tests:
+            with self.subTest(value):
+                msg = "Field 'value' expected a number but got %r." % (value,)
+                with self.assertRaisesMessage(exception, msg):
+                    self.model.objects.create(value=value)
 
 
 class SmallIntegerFieldTests(IntegerFieldTests):
@@ -166,6 +183,9 @@ class PositiveIntegerFieldTests(IntegerFieldTests):
 
 
 class ValidationTests(SimpleTestCase):
+
+    class Choices(models.IntegerChoices):
+        A = 1
 
     def test_integerfield_cleans_valid_string(self):
         f = models.IntegerField()
@@ -200,3 +220,14 @@ class ValidationTests(SimpleTestCase):
         f = models.IntegerField(choices=((1, 1),))
         with self.assertRaises(ValidationError):
             f.clean('0', None)
+
+    def test_enum_choices_cleans_valid_string(self):
+        f = models.IntegerField(choices=self.Choices.choices)
+        self.assertEqual(f.clean('1', None), 1)
+
+    def test_enum_choices_invalid_input(self):
+        f = models.IntegerField(choices=self.Choices.choices)
+        with self.assertRaises(ValidationError):
+            f.clean('A', None)
+        with self.assertRaises(ValidationError):
+            f.clean('3', None)

@@ -67,7 +67,15 @@ from django.core.exceptions import FieldError
 from django.db import connections, router, transaction
 from django.db.models import Q, signals
 from django.db.models.query import QuerySet
+from django.db.models.query_utils import DeferredAttribute
 from django.utils.functional import cached_property
+
+
+class ForeignKeyDeferredAttribute(DeferredAttribute):
+    def __set__(self, instance, value):
+        if instance.__dict__.get(self.field.attname) != value and self.field.is_cached(instance):
+            self.field.delete_cached_value(instance)
+        instance.__dict__[self.field.attname] = value
 
 
 class ForwardManyToOneDescriptor:
@@ -938,11 +946,14 @@ def create_forward_many_to_many_manager(superclass, rel, reverse):
                     through_defaults=through_defaults,
                 )
                 # If this is a symmetrical m2m relation to self, add the mirror
-                # entry in the m2m table. `through_defaults` aren't used here
-                # because of the system check error fields.E332: Many-to-many
-                # fields with intermediate tables must not be symmetrical.
+                # entry in the m2m table.
                 if self.symmetrical:
-                    self._add_items(self.target_field_name, self.source_field_name, *objs)
+                    self._add_items(
+                        self.target_field_name,
+                        self.source_field_name,
+                        *objs,
+                        through_defaults=through_defaults,
+                    )
         add.alters_data = True
 
         def remove(self, *objs):

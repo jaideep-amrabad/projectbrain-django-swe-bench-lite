@@ -11,6 +11,7 @@ import weakref
 import zipfile
 from importlib import import_module
 from pathlib import Path
+from subprocess import CompletedProcess
 from unittest import mock, skip, skipIf
 
 from django.apps.registry import Apps
@@ -131,6 +132,25 @@ class TestIterModulesAndFiles(SimpleTestCase):
         module = types.ModuleType('test_module')
         del module.__spec__
         self.assertEqual(autoreload.iter_modules_and_files((module,), frozenset()), frozenset())
+
+    def test_main_module_is_resolved(self):
+        main_module = sys.modules['__main__']
+        self.assertFileFound(Path(main_module.__file__))
+
+    def test_main_module_without_file_is_not_resolved(self):
+        fake_main = types.ModuleType('__main__')
+        self.assertEqual(autoreload.iter_modules_and_files((fake_main,), frozenset()), frozenset())
+
+    def test_path_with_embedded_null_bytes(self):
+        for path in (
+            'embedded_null_byte\x00.py',
+            'di\x00rectory/embedded_null_byte.py',
+        ):
+            with self.subTest(path=path):
+                self.assertEqual(
+                    autoreload.iter_modules_and_files((), frozenset([path])),
+                    frozenset(),
+                )
 
 
 class TestCommonRoots(SimpleTestCase):
@@ -291,12 +311,42 @@ class TestRaiseLastException(SimpleTestCase):
             with self.assertRaisesMessage(MyException, 'Test Message'):
                 autoreload.raise_last_exception()
 
+    def test_raises_custom_exception(self):
+        class MyException(Exception):
+            def __init__(self, msg, extra_context):
+                super().__init__(msg)
+                self.extra_context = extra_context
+        # Create an exception.
+        try:
+            raise MyException('Test Message', 'extra context')
+        except MyException:
+            exc_info = sys.exc_info()
+
+        with mock.patch('django.utils.autoreload._exception', exc_info):
+            with self.assertRaisesMessage(MyException, 'Test Message'):
+                autoreload.raise_last_exception()
+
+    def test_raises_exception_with_context(self):
+        try:
+            raise Exception(2)
+        except Exception as e:
+            try:
+                raise Exception(1) from e
+            except Exception:
+                exc_info = sys.exc_info()
+
+        with mock.patch('django.utils.autoreload._exception', exc_info):
+            with self.assertRaises(Exception) as cm:
+                autoreload.raise_last_exception()
+            self.assertEqual(cm.exception.args[0], 1)
+            self.assertEqual(cm.exception.__cause__.args[0], 2)
+
 
 class RestartWithReloaderTests(SimpleTestCase):
     executable = '/usr/bin/python'
 
     def patch_autoreload(self, argv):
-        patch_call = mock.patch('django.utils.autoreload.subprocess.call', return_value=0)
+        patch_call = mock.patch('django.utils.autoreload.subprocess.run', return_value=CompletedProcess(argv, 0))
         patches = [
             mock.patch('django.utils.autoreload.sys.argv', argv),
             mock.patch('django.utils.autoreload.sys.executable', self.executable),
@@ -367,15 +417,6 @@ class ReloaderTests(SimpleTestCase):
 
 
 class IntegrationTests:
-    @mock.patch('django.utils.autoreload.BaseReloader.notify_file_changed')
-    @mock.patch('django.utils.autoreload.iter_all_python_module_files', return_value=frozenset())
-    def test_file(self, mocked_modules, notify_mock):
-        self.reloader.watch_file(self.existing_file)
-        with self.tick_twice():
-            self.increment_mtime(self.existing_file)
-        self.assertEqual(notify_mock.call_count, 1)
-        self.assertCountEqual(notify_mock.call_args[0], [self.existing_file])
-
     @mock.patch('django.utils.autoreload.BaseReloader.notify_file_changed')
     @mock.patch('django.utils.autoreload.iter_all_python_module_files', return_value=frozenset())
     def test_glob(self, mocked_modules, notify_mock):
@@ -459,14 +500,11 @@ class IntegrationTests:
 class BaseReloaderTests(ReloaderTests):
     RELOADER_CLS = autoreload.BaseReloader
 
-    def test_watch_without_absolute(self):
-        with self.assertRaisesMessage(ValueError, 'test.py must be absolute.'):
-            self.reloader.watch_file('test.py')
-
-    def test_watch_with_single_file(self):
-        self.reloader.watch_file(self.existing_file)
-        watched_files = list(self.reloader.watched_files())
-        self.assertIn(self.existing_file, watched_files)
+    def test_watch_dir_with_unresolvable_path(self):
+        path = Path('unresolvable_directory')
+        with mock.patch.object(Path, 'absolute', side_effect=FileNotFoundError):
+            self.reloader.watch_dir(path, '**/*.mo')
+        self.assertEqual(list(self.reloader.directory_globs), [])
 
     def test_watch_with_glob(self):
         self.reloader.watch_dir(self.tempdir, '*.py')
@@ -624,6 +662,16 @@ class StatReloaderTests(ReloaderTests, IntegrationTests):
         super().setUp()
         # Shorten the sleep time to speed up tests.
         self.reloader.SLEEP_TIME = 0.01
+
+    @mock.patch('django.utils.autoreload.StatReloader.notify_file_changed')
+    def test_tick_does_not_trigger_twice(self, mock_notify_file_changed):
+        with mock.patch.object(self.reloader, 'watched_files', return_value=[self.existing_file]):
+            ticker = self.reloader.tick()
+            next(ticker)
+            self.increment_mtime(self.existing_file)
+            next(ticker)
+            next(ticker)
+            self.assertEqual(mock_notify_file_changed.call_count, 1)
 
     def test_snapshot_files_ignores_missing_files(self):
         with mock.patch.object(self.reloader, 'watched_files', return_value=[self.nonexistent_file]):
