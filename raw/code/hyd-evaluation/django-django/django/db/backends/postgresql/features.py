@@ -1,7 +1,7 @@
 import operator
 
+from django.db import InterfaceError
 from django.db.backends.base.features import BaseDatabaseFeatures
-from django.db.utils import InterfaceError
 from django.utils.functional import cached_property
 
 
@@ -12,6 +12,7 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     has_real_datatype = True
     has_native_uuid_field = True
     has_native_duration_field = True
+    has_native_json_field = True
     can_defer_constraint_checks = True
     has_select_for_update = True
     has_select_for_update_nowait = True
@@ -52,9 +53,11 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     $$ LANGUAGE plpgsql;"""
     requires_casted_case_in_updates = True
     supports_over_clause = True
+    only_supports_unbounded_with_preceding_and_following = True
     supports_aggregate_filter_clause = True
     supported_explain_formats = {'JSON', 'TEXT', 'XML', 'YAML'}
     validates_explain_options = False  # A query will error on invalid options.
+    supports_deferrable_unique_constraints = True
 
     @cached_property
     def is_postgresql_9_6(self):

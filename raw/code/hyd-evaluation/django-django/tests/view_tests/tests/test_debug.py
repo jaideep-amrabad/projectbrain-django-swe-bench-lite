@@ -20,11 +20,13 @@ from django.test.utils import LoggingCaptureMixin
 from django.urls import path, reverse
 from django.urls.converters import IntConverter
 from django.utils.functional import SimpleLazyObject
+from django.utils.regex_helper import _lazy_re_compile
 from django.utils.safestring import mark_safe
 from django.views.debug import (
-    CLEANSED_SUBSTITUTE, CallableSettingWrapper, ExceptionReporter,
-    Path as DebugPath, cleanse_setting, default_urlconf,
-    technical_404_response, technical_500_response,
+    CallableSettingWrapper, ExceptionReporter, Path as DebugPath,
+    SafeExceptionReporterFilter, default_urlconf,
+    get_default_exception_reporter_filter, technical_404_response,
+    technical_500_response,
 )
 from django.views.decorators.debug import (
     sensitive_post_parameters, sensitive_variables,
@@ -247,6 +249,17 @@ class DebugViewTests(SimpleTestCase):
             response = self.client.get('/path-post/1/')
             self.assertContains(response, 'Page not found', status_code=404)
 
+    def test_exception_reporter_from_request(self):
+        with self.assertLogs('django.request', 'ERROR'):
+            response = self.client.get('/custom_reporter_class_view/')
+        self.assertContains(response, 'custom traceback text', status_code=500)
+
+    @override_settings(DEFAULT_EXCEPTION_REPORTER='view_tests.views.CustomExceptionReporter')
+    def test_exception_reporter_from_settings(self):
+        with self.assertLogs('django.request', 'ERROR'):
+            response = self.client.get('/raises500/')
+        self.assertContains(response, 'custom traceback text', status_code=500)
+
 
 class DebugViewQueriesAllowedTests(SimpleTestCase):
     # May need a query to initialize MySQL connection
@@ -425,7 +438,14 @@ class ExceptionReporterTests(SimpleTestCase):
         self.assertEqual(last_frame['function'], 'funcName')
         self.assertEqual(last_frame['lineno'], 2)
         html = reporter.get_traceback_html()
-        self.assertIn('generated in funcName, line 2', html)
+        self.assertIn(
+            '<span class="fname">generated</span>, line 2, in funcName',
+            html,
+        )
+        self.assertIn(
+            '<code class="fname">generated</code>, line 2, in funcName',
+            html,
+        )
         self.assertIn(
             '"generated", line 2, in funcName\n'
             '    &lt;source code not available&gt;',
@@ -459,7 +479,14 @@ class ExceptionReporterTests(SimpleTestCase):
             self.assertEqual(last_frame['function'], 'funcName')
             self.assertEqual(last_frame['lineno'], 2)
             html = reporter.get_traceback_html()
-            self.assertIn('generated in funcName, line 2', html)
+            self.assertIn(
+                '<span class="fname">generated</span>, line 2, in funcName',
+                html,
+            )
+            self.assertIn(
+                '<code class="fname">generated</code>, line 2, in funcName',
+                html,
+            )
             self.assertIn(
                 '"generated", line 2, in funcName\n'
                 '    &lt;source code not available&gt;',
@@ -1199,18 +1226,131 @@ class ExceptionReporterFilterTests(ExceptionReportTestMixin, LoggingCaptureMixin
                 response = self.client.get('/raises500/')
                 self.assertNotContains(response, 'should not be displayed', status_code=500)
 
+    def test_cleanse_setting_basic(self):
+        reporter_filter = SafeExceptionReporterFilter()
+        self.assertEqual(reporter_filter.cleanse_setting('TEST', 'TEST'), 'TEST')
+        self.assertEqual(
+            reporter_filter.cleanse_setting('PASSWORD', 'super_secret'),
+            reporter_filter.cleansed_substitute,
+        )
 
-class AjaxResponseExceptionReporterFilter(ExceptionReportTestMixin, LoggingCaptureMixin, SimpleTestCase):
+    def test_cleanse_setting_ignore_case(self):
+        reporter_filter = SafeExceptionReporterFilter()
+        self.assertEqual(
+            reporter_filter.cleanse_setting('password', 'super_secret'),
+            reporter_filter.cleansed_substitute,
+        )
+
+    def test_cleanse_setting_recurses_in_dictionary(self):
+        reporter_filter = SafeExceptionReporterFilter()
+        initial = {'login': 'cooper', 'password': 'secret'}
+        self.assertEqual(
+            reporter_filter.cleanse_setting('SETTING_NAME', initial),
+            {'login': 'cooper', 'password': reporter_filter.cleansed_substitute},
+        )
+
+    def test_cleanse_setting_recurses_in_list_tuples(self):
+        reporter_filter = SafeExceptionReporterFilter()
+        initial = [
+            {
+                'login': 'cooper',
+                'password': 'secret',
+                'apps': (
+                    {'name': 'app1', 'api_key': 'a06b-c462cffae87a'},
+                    {'name': 'app2', 'api_key': 'a9f4-f152e97ad808'},
+                ),
+                'tokens': ['98b37c57-ec62-4e39', '8690ef7d-8004-4916'],
+            },
+            {'SECRET_KEY': 'c4d77c62-6196-4f17-a06b-c462cffae87a'},
+        ]
+        cleansed = [
+            {
+                'login': 'cooper',
+                'password': reporter_filter.cleansed_substitute,
+                'apps': (
+                    {'name': 'app1', 'api_key': reporter_filter.cleansed_substitute},
+                    {'name': 'app2', 'api_key': reporter_filter.cleansed_substitute},
+                ),
+                'tokens': reporter_filter.cleansed_substitute,
+            },
+            {'SECRET_KEY': reporter_filter.cleansed_substitute},
+        ]
+        self.assertEqual(
+            reporter_filter.cleanse_setting('SETTING_NAME', initial),
+            cleansed,
+        )
+        self.assertEqual(
+            reporter_filter.cleanse_setting('SETTING_NAME', tuple(initial)),
+            tuple(cleansed),
+        )
+
+    def test_request_meta_filtering(self):
+        request = self.rf.get('/', HTTP_SECRET_HEADER='super_secret')
+        reporter_filter = SafeExceptionReporterFilter()
+        self.assertEqual(
+            reporter_filter.get_safe_request_meta(request)['HTTP_SECRET_HEADER'],
+            reporter_filter.cleansed_substitute,
+        )
+
+    def test_exception_report_uses_meta_filtering(self):
+        response = self.client.get('/raises500/', HTTP_SECRET_HEADER='super_secret')
+        self.assertNotIn(b'super_secret', response.content)
+        response = self.client.get(
+            '/raises500/',
+            HTTP_SECRET_HEADER='super_secret',
+            HTTP_ACCEPT='application/json',
+        )
+        self.assertNotIn(b'super_secret', response.content)
+
+
+class CustomExceptionReporterFilter(SafeExceptionReporterFilter):
+    cleansed_substitute = 'XXXXXXXXXXXXXXXXXXXX'
+    hidden_settings = _lazy_re_compile('API|TOKEN|KEY|SECRET|PASS|SIGNATURE|DATABASE_URL', flags=re.I)
+
+
+@override_settings(
+    ROOT_URLCONF='view_tests.urls',
+    DEFAULT_EXCEPTION_REPORTER_FILTER='%s.CustomExceptionReporterFilter' % __name__,
+)
+class CustomExceptionReporterFilterTests(SimpleTestCase):
+    def setUp(self):
+        get_default_exception_reporter_filter.cache_clear()
+
+    def tearDown(self):
+        get_default_exception_reporter_filter.cache_clear()
+
+    def test_setting_allows_custom_subclass(self):
+        self.assertIsInstance(
+            get_default_exception_reporter_filter(),
+            CustomExceptionReporterFilter,
+        )
+
+    def test_cleansed_substitute_override(self):
+        reporter_filter = get_default_exception_reporter_filter()
+        self.assertEqual(
+            reporter_filter.cleanse_setting('password', 'super_secret'),
+            reporter_filter.cleansed_substitute,
+        )
+
+    def test_hidden_settings_override(self):
+        reporter_filter = get_default_exception_reporter_filter()
+        self.assertEqual(
+            reporter_filter.cleanse_setting('database_url', 'super_secret'),
+            reporter_filter.cleansed_substitute,
+        )
+
+
+class NonHTMLResponseExceptionReporterFilter(ExceptionReportTestMixin, LoggingCaptureMixin, SimpleTestCase):
     """
     Sensitive information can be filtered out of error reports.
 
-    Here we specifically test the plain text 500 debug-only error page served
-    when it has been detected the request was sent by JS code. We don't check
-    for (non)existence of frames vars in the traceback information section of
-    the response content because we don't include them in these error pages.
+    The plain text 500 debug-only error page is served when it has been
+    detected the request doesn't accept HTML content. Don't check for
+    (non)existence of frames vars in the traceback information section of the
+    response content because they're not included in these error pages.
     Refs #14614.
     """
-    rf = RequestFactory(HTTP_X_REQUESTED_WITH='XMLHttpRequest')
+    rf = RequestFactory(HTTP_ACCEPT='application/json')
 
     def test_non_sensitive_request(self):
         """
@@ -1257,24 +1397,9 @@ class AjaxResponseExceptionReporterFilter(ExceptionReportTestMixin, LoggingCaptu
             self.verify_unsafe_response(custom_exception_reporter_filter_view, check_for_vars=False)
 
     @override_settings(DEBUG=True, ROOT_URLCONF='view_tests.urls')
-    def test_ajax_response_encoding(self):
-        response = self.client.get('/raises500/', HTTP_X_REQUESTED_WITH='XMLHttpRequest')
+    def test_non_html_response_encoding(self):
+        response = self.client.get('/raises500/', HTTP_ACCEPT='application/json')
         self.assertEqual(response['Content-Type'], 'text/plain; charset=utf-8')
-
-
-class HelperFunctionTests(SimpleTestCase):
-
-    def test_cleanse_setting_basic(self):
-        self.assertEqual(cleanse_setting('TEST', 'TEST'), 'TEST')
-        self.assertEqual(cleanse_setting('PASSWORD', 'super_secret'), CLEANSED_SUBSTITUTE)
-
-    def test_cleanse_setting_ignore_case(self):
-        self.assertEqual(cleanse_setting('password', 'super_secret'), CLEANSED_SUBSTITUTE)
-
-    def test_cleanse_setting_recurses_in_dictionary(self):
-        initial = {'login': 'cooper', 'password': 'secret'}
-        expected = {'login': 'cooper', 'password': CLEANSED_SUBSTITUTE}
-        self.assertEqual(cleanse_setting('SETTING_NAME', initial), expected)
 
 
 class DecoratorsTests(SimpleTestCase):
