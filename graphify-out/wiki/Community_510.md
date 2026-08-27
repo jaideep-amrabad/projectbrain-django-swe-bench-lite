@@ -1,50 +1,45 @@
 # Community 510
 
-> 22 nodes · cohesion 0.15
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **query_performing_app/apps.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **BaseAppConfig** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **CursorQueryAppConfig** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **CursorQueryManyAppConfig** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **ModelQueryAppConfig** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **StoredProcedureQueryAppConfig** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **TotallyNormal** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/models.py`
-- **.ready()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **QueryDefaultDatabaseCursorAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **QueryDefaultDatabaseCursorManyAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **QueryDefaultDatabaseModelAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **QueryDefaultDatabaseStoredProcedureAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **QueryOtherDatabaseCursorAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **QueryOtherDatabaseCursorManyAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **QueryOtherDatabaseModelAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **QueryOtherDatabaseStoredProcedureAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **._perform_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **._perform_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **._perform_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **._perform_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
-- **._perform_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **TimezoneTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_get_default_timezone_utc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_activate_invalid_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_fixedoffset_negative_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_fixedoffset_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_get_default_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_is_aware()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_is_naive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_localdate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_no_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_pytz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_pytz_ambiguous()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_pytz_non_existent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_naive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_naive_no_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_override()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_override_decorator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_override_fixed_offset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_override_string_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
 
 ## Relationships
 
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 290](Community_290.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/apps/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 25 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

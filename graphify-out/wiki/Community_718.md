@@ -1,38 +1,37 @@
 # Community 718
 
-> 14 nodes · cohesion 0.14
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **CSPMiddlewareWithDecoratedViewsTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **.test_csp_disabled_both()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **.test_csp_disabled_enforced()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **.test_csp_override_both_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **.test_csp_override_enforced()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **.test_csp_report_only_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **.test_csp_report_only_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **.test_no_decorators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **`csp_override({})` only disables the enforced CSP header.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **`csp_report_only_override({})` only disables the report-only header.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **Using both CSP decorators with empty mappings will clear both headers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **`csp_override` only overrides the enforced header.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **`csp_report_only_override` only overrides the report-only header.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **Using both CSP decorators overrides both CSP Django settings.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **ActiveTranslationField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **ArticleTranslationDescriptor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **ColConstraint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_extra_restriction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **ActiveTranslationFieldWithQ** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_extra_descriptor_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_extra_descriptor_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **This field will allow querying and fetching the currently active translation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **The set of articletranslation should not set any local fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
 
 ## Relationships
 
-- [Community 625](Community_625.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 641](Community_641.md) (4 shared connections)
+- [Community 273](Community_273.md) (3 shared connections)
+- [Community 382](Community_382.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

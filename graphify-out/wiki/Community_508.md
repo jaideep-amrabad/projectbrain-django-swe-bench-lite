@@ -1,46 +1,44 @@
 # Community 508
 
-> 22 nodes · cohesion 0.21
+> 22 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **CSPBuildPolicyTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **build_policy()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **.assertPolicyEqual()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_value_as_set()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_value_as_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_value_as_tuple()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_value_none()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_with_nonce_arg()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_multiple_directives()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_value_boolean_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_value_boolean_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_value_multiple_boolean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_with_empty_directive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_with_multiple_nonces()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_with_nonce()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **Test when the `CSP.NONCE` is not in the defined policy, the nonce argument has…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **Test that a single value can be passed as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **Test that a tuple can be passed as a value.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **Test that a set can be passed as a value. Sets are often used in Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **Test that `None` removes the directive from the policy. Useful in cases where…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **TimesinceTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **setup** (18 connections)
+- **.test_timesince12()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince13()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **requires_tz_support** (2 connections)
+- **.test_timesince01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince17()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_timesince18()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **#20246 - \xa0 in output avoids line-breaks between value and unit** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
 
 ## Relationships
 
-- [Community 625](Community_625.md) (4 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 41 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

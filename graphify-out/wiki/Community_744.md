@@ -1,35 +1,38 @@
 # Community 744
 
-> 13 nodes · cohesion 0.28
+> 12 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **archive_eol_stable_branches.py** (8 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **main()** (7 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **run()** (7 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **create_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **delete_remote_and_local_branch()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **get_branch_info()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **get_remote_branches()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **validate_env()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **Return list of remote branches filtered by include_fn.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **Return (commit_hash, last_update_date) for a given branch.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **Create a tag locally for a given branch at its last update.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **Delete a remote branch from origin and the maching local branch.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **Run a command with optional dry-run behavior.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **SeleniumTestCaseBase** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.create_webdriver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.import_webdriver()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **ActionSelenium** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.create_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.import_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.__new__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.get_capability()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **Dynamically create new classes and add them to the test module when multiple…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **Validate the comma-separated list of requested browsers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
 
 ## Relationships
 
-- [Community 37](Community_37.md) (1 shared connections)
+- [Community 47](Community_47.md) (3 shared connections)
+- [Community 511](Community_511.md) (2 shared connections)
+- [Community 436](Community_436.md) (1 shared connections)
+- [Community 140](Community_140.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

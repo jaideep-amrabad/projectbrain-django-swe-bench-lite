@@ -1,42 +1,43 @@
 # Community 636
 
-> 17 nodes · cohesion 0.16
+> 16 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **PlaywrightTestCase** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **ChangeViewportSize** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.desktop_size()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.rtl()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **._close_browser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.dark()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.high_contrast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.mobile_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **._quit_playwright()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.small_screen_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.__init_subclass__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **._restore_async_unsafe()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.take_screenshot()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **time()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **TimeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **setup** (8 connections)
+- **FunctionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time00_l10n()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time00()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_inputs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **Format a time according to the given format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **.test_no_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **#20693: Timezone support for the time template filter** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
 
 ## Relationships
 
-- [Community 426](Community_426.md) (4 shared connections)
-- [Community 625](Community_625.md) (3 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 507](Community_507.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 8](Community_8.md) (6 shared connections)
+- [Community 699](Community_699.md) (2 shared connections)
+- [Community 273](Community_273.md) (1 shared connections)
+- [Community 502](Community_502.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 37 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

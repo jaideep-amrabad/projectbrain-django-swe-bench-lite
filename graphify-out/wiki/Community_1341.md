@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **jsi18n-mocks.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/jsi18n-mocks.test.js`
+- **sqlite/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/admin/jsi18n-mocks.test.js`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/__init__.py`
 
 ## Audit Trail
 

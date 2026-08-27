@@ -1,30 +1,37 @@
 # Community 816
 
-> 7 nodes · cohesion 0.29
+> 14 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **TestCheckPrTitleHasTicket** (9 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_empty_title_fails()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_failure_message_contains_ticket_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_refs_format_passes()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_ticket_in_title_passes()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_ticket_missing_from_title_fails()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_wrong_ticket_number_fails()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
+- **._create_object_from_params()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.update_or_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.get_or_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.select_for_update()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._extract_model_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a new QuerySet instance that will select objects with a FOR UPDATE lock.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Perform the query and return a single object matching the given keyword…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Create a new object with the given kwargs, saving it to the database and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Look up an object with the given kwargs, creating one if necessary. Return a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Look up an object with the given kwargs, updating one with defaults if it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Try to create an object using passed params. Used by get_or_create() and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Prepare `params` for creating a model instance based on the given kwargs; for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 299](Community_299.md) (2 shared connections)
-- [Community 298](Community_298.md) (1 shared connections)
+- [Community 60](Community_60.md) (9 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

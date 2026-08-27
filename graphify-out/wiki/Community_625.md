@@ -1,64 +1,54 @@
 # Community 625
 
-> 27 nodes · cohesion 0.13
+> 24 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **middleware/test_csp.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **utils/csp.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **playwright_tests/admin.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/admin.py`
-- **StaticLiveServerTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
-- **utils_tests/test_csp.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **StaticFilesHandler** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **CSP** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **LazyNonce** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **testing.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
-- **CSPPlaywrightTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **LazyNonceTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **generate_nonce()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **CSPConstantsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **nonce_attr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **.test_generates_on_usage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_returns_same_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **WSGI middleware that intercepts calls to the static files directory, as defined…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **Extend django.test.LiveServerTestCase to transparently overlay at test…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **Content Security Policy constants for directive values and special tokens.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **Lazily generates a cryptographically secure nonce string, for use in CSP…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- **.test_reports_are_generated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- *... and 2 more nodes in this community*
+- **HStoreField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **TestFormField** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **CheckFieldDefaultMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **TestValidation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_valid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **._check_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.test_model_field_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_none_allowed_as_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_not_a_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **Field** (1 connections)
+- **.test_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_field_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_invalid_json()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_non_dict_json()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_none_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_not_string_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_valid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 27](Community_27.md) (5 shared connections)
-- [Community 426](Community_426.md) (5 shared connections)
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 508](Community_508.md) (4 shared connections)
-- [Community 170](Community_170.md) (3 shared connections)
-- [Community 465](Community_465.md) (3 shared connections)
-- [Community 37](Community_37.md) (3 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
-- [Community 636](Community_636.md) (3 shared connections)
-- [Community 393](Community_393.md) (2 shared connections)
-- [Community 507](Community_507.md) (2 shared connections)
+- [Community 48](Community_48.md) (7 shared connections)
+- [Community 110](Community_110.md) (3 shared connections)
+- [Community 269](Community_269.md) (1 shared connections)
+- [Community 148](Community_148.md) (1 shared connections)
+- [Community 500](Community_500.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 553](Community_553.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
-- `raw/code/hyd-evaluation/django-django/tests/playwright_tests/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (91%)
-- INFERRED: 9 (9%)
+- EXTRACTED: 39 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

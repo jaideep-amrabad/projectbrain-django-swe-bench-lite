@@ -1,6 +1,6 @@
 # Community 350
 
-> 33 nodes · cohesion 0.09
+> 32 nodes · cohesion 0.10
 
 ## Key Concepts
 
@@ -12,7 +12,7 @@
 - **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
 - **BaseSignalSetup** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
 - **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **Car** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **Car** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
 - **.receiver()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
 - **.test_disconnect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
 - **.test_register_model_class_senders_immediately()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
@@ -27,20 +27,21 @@
 - **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
 - **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
 - **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
 - **Testing signals before/after saving and deleting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- *... and 8 more nodes in this community*
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 95](Community_95.md) (3 shared connections)
-- [Community 144](Community_144.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 246](Community_246.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 53](Community_53.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 89](Community_89.md) (3 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 343](Community_343.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
@@ -49,7 +50,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 62 (90%)
+- EXTRACTED: 61 (90%)
 - INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 

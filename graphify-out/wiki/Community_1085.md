@@ -1,26 +1,25 @@
 # Community 1085
 
-> 4 nodes · cohesion 0.67
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **wildcard_module.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_module.py`
-- **wildcard_base.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_base.py`
-- **WildcardMixin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_base.py`
-- **WildcardClass** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_module.py`
+- **.test_inheritance30()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance33()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Base template, putting block in a conditional {% if %} tag** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 793](Community_793.md) (2 shared connections)
+- [Community 825](Community_825.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_module.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

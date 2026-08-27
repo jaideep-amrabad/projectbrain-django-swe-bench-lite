@@ -1,44 +1,41 @@
 # Community 550
 
-> 20 nodes · cohesion 0.18
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **WarnAboutImplementationTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.assertWarnsAboutLine()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_classmethod()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_decorated_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_class_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_decorated_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_decorated_staticmethod()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_missing_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_my_own_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_no_source_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_non_standard_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_staticmethod()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_subclass_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_creates_warning_registry_if_needed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_rejects_invalid_target()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
-- **.test_respects_warning_registry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **devDependencies** (6 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **package.json** (5 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **scripts** (3 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **eslint** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-cli** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-contrib-qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **engines** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **eslint** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-cli** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-contrib-qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **npm** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **name** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **private** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **pretest** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **test** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
 
 ## Relationships
 
-- [Community 672](Community_672.md) (4 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- `raw/code/hyd-evaluation/django-django/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (90%)
-- INFERRED: 4 (10%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

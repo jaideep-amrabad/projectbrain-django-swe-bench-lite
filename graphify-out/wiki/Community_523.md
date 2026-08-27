@@ -1,48 +1,50 @@
 # Community 523
 
-> 21 nodes · cohesion 0.17
+> 21 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **DeprecatedEmailSettingsTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.init_simulated_settings()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_warn_about_no_default_mailer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **override_deprecated_email_settings** (5 connections)
-- **.test_multiple_deprecated_settings_are_all_reported()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_warn_when_defining_deprecated_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.mock_settings_module()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_deprecated_settings_not_allowed_with_mailers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_no_default_mailer_warning_if_any_email_setting_defined()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.assertHasOnlyDefaultEmailSettings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.assertNotWarnsMessage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_deprecated_settings_defaults_unchanged()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_direct_settings_manipulation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_error_when_using_conflicting_setting_via_override_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_error_when_using_deprecated_settings_with_mailers_defined()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_deprecated_settings_do_not_exist_when_mailers_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_deprecated_settings_not_in_dir_when_mailers_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_email_backend_override_during_tests()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_warn_when_using_deprecated_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_deprecated_settings_are_in_dir_without_mailers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **Deprecations and compatibility errors related to MAILERS.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **distinct_on_fields/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **DistinctOnTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **distinct_on_fields/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **Celebrity** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **Staff** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **StaffTag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **Fan** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **.test_basic_distinct_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **.test_distinct_not_implemented_checks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **.test_distinct_on_get_ordering_preserved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **.test_distinct_on_in_ordered_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **Ordering shouldn't be cleared when distinct on fields are specified. refs #25081** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **QuerySet.distinct('field', ...) works** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 524](Community_524.md) (4 shared connections)
-- [Community 404](Community_404.md) (4 shared connections)
-- [Community 55](Community_55.md) (2 shared connections)
-- [Community 968](Community_968.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 49](Community_49.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (93%)
-- INFERRED: 4 (7%)
+- EXTRACTED: 38 (86%)
+- INFERRED: 6 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **test_auto_now_add/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_auto_now_add/__init__.py`
+- **select_related/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_auto_now_add/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related/__init__.py`
 
 ## Audit Trail
 

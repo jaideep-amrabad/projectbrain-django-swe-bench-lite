@@ -1,29 +1,29 @@
 # Community 895
 
-> 6 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **UndocumentedFeatureErrorTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_undocumented_alternative_subtype()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_undocumented_mixed_subtype()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **Trying to use the previously undocumented, now unsupported…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **These undocumented features were removed without going through deprecation. In…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **.test_undocumented_get_connection_override_no_longer_supported()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **LoremTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
+- **setup** (6 connections)
+- **.test_lorem1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
+- **.test_lorem_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
+- **.test_lorem_incorrect_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
+- **.test_lorem_multiple_paragraphs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
+- **.test_lorem_random()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
+- **.test_lorem_syntax()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
 
 ## Relationships
 
-- [Community 55](Community_55.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

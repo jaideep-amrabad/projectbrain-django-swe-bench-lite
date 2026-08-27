@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **sessions/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/__init__.py`
+- **localized.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/additional_dir/localized.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/additional_dir/localized.py`
 
 ## Audit Trail
 

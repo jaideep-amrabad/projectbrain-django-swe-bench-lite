@@ -1,12 +1,11 @@
 # Community 1100
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **verify_release.sh** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/verify_release.sh`
-- **cleanup()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/verify_release.sh`
-- **verify_release.sh script** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/verify_release.sh`
+- **rpm-install.sh** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
+- **rpm-install.sh script** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
 
 ## Relationships
 
@@ -14,11 +13,11 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/verify_release.sh`
+- `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

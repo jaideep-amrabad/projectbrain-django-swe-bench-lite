@@ -1,33 +1,40 @@
 # Community 684
 
-> 10 nodes · cohesion 0.31
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **ChoiceIteratorTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **SimpleChoiceIterator** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_eq_instances()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_getitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_getitem_indexerror()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_not_equal_subset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_not_equal_superset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_not_implemented_error_on_missing_iter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- **RegexField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **RegexFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **._set_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_change_regex_after_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_get_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_strip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_unicode_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **regex can be either a string or a compiled regular expression object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **._get_regex()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
 
 ## Relationships
 
-- [Community 387](Community_387.md) (4 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 207](Community_207.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 18 (67%)
+- INFERRED: 9 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

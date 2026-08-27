@@ -1,55 +1,55 @@
 # Community 299
 
-> 37 nodes · cohesion 0.07
+> 35 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **test_check_pr.py** (23 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **BaseTestCase** (16 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **TestExtractTicketId** (9 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **TestWriteJobSummary** (9 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **TestFetchTracTicket** (7 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **TestStripHtmlComments** (7 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **TestGetRecentCommitCount** (6 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **patch_urlopen()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_success_returns_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_uses_trac_api_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **._make_github_request_mock()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_http_404_returns_ticket_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_http_500_returns_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_no_commits_returns_zero()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_returns_number_of_commits()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_skipped_checks()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **pr_quality/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/__init__.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **Tests for the PR quality checks in check_pr.py.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_case_insensitive()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_na_returns_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_no_ticket_returns_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_returns_first_ticket_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_ticket_in_sentence_returns_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_ticket_placeholder_returns_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- *... and 12 more nodes in this community*
+- **must_be()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **ModelAdminChecks** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **.check()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_date_hierarchy()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_inlines()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_inlines_item()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display_links()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_editable()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_max_show_all()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_per_page()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_select_related()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_save_as()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_save_on_top()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_search_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_action_permission_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_actions_uniqueness()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_editable_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display_links_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that every action has a unique __name__.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check save_as is a boolean.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check save_on_top is a boolean.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check all inline model admin classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 238](Community_238.md) (9 shared connections)
-- [Community 443](Community_443.md) (7 shared connections)
-- [Community 298](Community_298.md) (5 shared connections)
-- [Community 595](Community_595.md) (3 shared connections)
-- [Community 816](Community_816.md) (2 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 220](Community_220.md) (1 shared connections)
+- [Community 176](Community_176.md) (11 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 530](Community_530.md) (4 shared connections)
+- [Community 841](Community_841.md) (4 shared connections)
+- [Community 987](Community_987.md) (3 shared connections)
+- [Community 115](Community_115.md) (2 shared connections)
+- [Community 1144](Community_1144.md) (2 shared connections)
+- [Community 1017](Community_1017.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/pr_quality/__init__.py`
-- `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 93 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,41 +1,43 @@
 # Community 602
 
-> 15 nodes · cohesion 0.13
+> 17 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **LocmemBackendTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **ConsoleBackendTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.test_locmem_shared_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.test_console_stream_kwarg()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.test_outbox_not_mutated_after_send()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.test_validate_multiline_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.test_fail_silently_arg_accepted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.test_adds_sent_using_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.get_mailbox_content()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **.get_mailbox_content()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **Make sure that the locmem backend populates the outbox.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- **SplitArrayWidget** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **TestSplitFormWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.test_checkbox_get_context_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_render()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_render_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.get_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.is_hidden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.media()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.needs_multipart_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
 
 ## Relationships
 
-- [Community 71](Community_71.md) (7 shared connections)
-- [Community 28](Community_28.md) (5 shared connections)
-- [Community 55](Community_55.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 424](Community_424.md) (1 shared connections)
+- [Community 48](Community_48.md) (2 shared connections)
+- [Community 88](Community_88.md) (1 shared connections)
+- [Community 188](Community_188.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (81%)
+- INFERRED: 5 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

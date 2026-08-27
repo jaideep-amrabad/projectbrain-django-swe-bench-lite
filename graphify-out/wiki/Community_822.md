@@ -1,31 +1,36 @@
 # Community 822
 
-> 7 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **PlaywrightAuthTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_password_form.py`
-- **.test_add_new_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_password_form.py`
-- **.test_change_password_for_existing_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_password_form.py`
-- **.test_fieldset_legend_wide_alignment()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_password_form.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_password_form.py`
-- **A user with no password can be added. Enabling/disabling the usable password…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_password_form.py`
-- **A user can have their password changed or unset. Enabling/disabling the usable…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_password_form.py`
+- **Person** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **save_delete_hooks/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **save_delete_hooks/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- **SaveDeleteHookTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **Adding hooks before/after saving and deleting To execute arbitrary code around…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
 
 ## Relationships
 
-- [Community 426](Community_426.md) (3 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_password_form.py`
+- `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

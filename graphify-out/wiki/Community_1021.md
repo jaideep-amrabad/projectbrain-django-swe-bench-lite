@@ -1,24 +1,22 @@
 # Community 1021
 
-> 5 nodes · cohesion 0.40
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **SignedCookieLegacySaltFallbackDeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
-- **.test_settings_assignment_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
-- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
-- **.test_access()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
-- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
+- **BuiltinsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- **setup** (3 connections)
+- **.test_builtins01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- **.test_builtins02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- **.test_builtins03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 524](Community_524.md) (1 shared connections)
-- [Community 500](Community_500.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
 
 ## Audit Trail
 

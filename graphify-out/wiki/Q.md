@@ -1,14 +1,15 @@
 # Q
 
-> God node · 287 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+> God node · 266 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 53](Community_53.md)
+**Community:** [Community 24](Community_24.md)
 
 ## Connections by Relation
 
 ### calls
 - .test_expressions() `EXTRACTED`
 - .test_filtered_aggregates() `EXTRACTED`
+- .test_date_case_subtraction() `EXTRACTED`
 - .test_invalid_filter() `EXTRACTED`
 - .test_aggregate() `EXTRACTED`
 - .test_string_agg_array_agg_filter_in_subquery() `EXTRACTED`
@@ -23,10 +24,9 @@
 - .__init__() `EXTRACTED`
 - .test_annotation_disjunction() `EXTRACTED`
 - .test_conditional_aggregate_on_complex_condition() `EXTRACTED`
+- .test_filtered_aggregate_ref_multiple_subquery_annotation() `EXTRACTED`
 - .test_filtered_aggregate_ref_subquery_annotation() `EXTRACTED`
 - .test_combined_q_object() `EXTRACTED`
-- .test_m2m_exclude() `EXTRACTED`
-- .test_m2m_reuse() `EXTRACTED`
 
 ### contains
 - query_utils.py `EXTRACTED`
@@ -41,10 +41,9 @@
 - sql/query.py `EXTRACTED`
 - schema/tests.py `EXTRACTED`
 - model_fields/test_jsonfield.py `EXTRACTED`
-- postgres_tests/test_json.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
-- generic_relations_regress/tests.py `EXTRACTED`
 - sql/compiler.py `EXTRACTED`
+- generic_relations_regress/tests.py `EXTRACTED`
 - distapp/tests.py `EXTRACTED`
 - aggregation_regress/tests.py `EXTRACTED`
 - postgres_tests/test_indexes.py `EXTRACTED`
@@ -52,6 +51,7 @@
 - generic_relations/tests.py `EXTRACTED`
 - test_query.py `EXTRACTED`
 - test_rasterfield.py `EXTRACTED`
+- related_descriptors.py `EXTRACTED`
 
 ### method
 - ._combine() `EXTRACTED`

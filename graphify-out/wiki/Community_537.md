@@ -1,43 +1,48 @@
 # Community 537
 
-> 21 nodes · cohesion 0.13
+> 20 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **GitHubLinkTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **last_n_parts()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_cached_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_forwarded_import()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_forwarded_import_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_func()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_wildcard_import()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_module_name_to_file_path_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_module_name_to_file_path_package()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_code_locator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_branch_latest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_branch_stable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_github_linkcode_resolve_link_to_class_older_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_github_linkcode_resolve_link_to_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_github_linkcode_resolve_not_found()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_github_linkcode_resolve_unspecified_domain()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_github_linkcode_resolve_unspecified_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_import_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **DatabaseCreationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **DatabaseCreation** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **.check_sql_table_creation_suffix()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_create_test_db()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **._clone_test_db()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **._get_database_create_suffix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **._database_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **._execute_create_test_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **._quote_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **.sql_table_creation_suffix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **.changed_test_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **._execute_raise_database_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **._execute_raise_permission_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.patch_test_db_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_sql_table_creation_suffix_with_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_sql_table_creation_suffix_with_encoding_and_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_sql_table_creation_suffix_with_none_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_sql_table_creation_suffix_with_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **patch** (1 connections)
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
+- [Community 101](Community_101.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 201](Community_201.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 41 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

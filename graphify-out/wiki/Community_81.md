@@ -1,70 +1,61 @@
 # Community 81
 
-> 81 nodes · cohesion 0.04
+> 92 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **crypto.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **get_random_string()** (23 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **test_tasks.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **tasks/base.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **salted_hmac()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **immediate.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
-- **oracle/creation.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **tasks/backends/dummy.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/dummy.py`
-- **TaskResult** (11 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **tasks/backends/base.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/base.py`
-- **DummyBackend** (10 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/dummy.py`
-- **normalize_json()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/json.py`
-- **enums.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **ImmediateBackend** (9 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
-- **pbkdf2()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **test_crypto.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **tasks/exceptions.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
-- **TaskResultDoesNotExist** (8 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
-- **TaskResultMismatch** (8 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
-- **utils_tests/test_json.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_json.py`
-- **TextChoices** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **._execute_task()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
-- **TaskResultStatus** (6 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **TaskException** (6 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
-- **InvalidAlgorithm** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- *... and 56 more nodes in this community*
+- **SpatialReference** (79 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **SpatialRefTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.attr_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.import_user_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.import_wkt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.test12_coordtransform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test_axis_order()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **._get_srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **._set_srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.import_epsg()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.srid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.test01_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test02_bad_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test03_get_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test04_proj()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test07_boolean_props()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test08_angular_linear()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test09_authority()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test10_attributes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test11_wellknown()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test13_attr_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test_axis_order_non_traditional_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- *... and 67 more nodes in this community*
 
 ## Relationships
 
-- [Community 37](Community_37.md) (9 shared connections)
-- [Community 34](Community_34.md) (8 shared connections)
-- [Community 246](Community_246.md) (8 shared connections)
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 87](Community_87.md) (6 shared connections)
-- [Community 572](Community_572.md) (6 shared connections)
-- [Community 85](Community_85.md) (6 shared connections)
-- [Community 144](Community_144.md) (5 shared connections)
-- [Community 571](Community_571.md) (5 shared connections)
-- [Community 38](Community_38.md) (5 shared connections)
-- [Community 107](Community_107.md) (5 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
+- [Community 98](Community_98.md) (11 shared connections)
+- [Community 92](Community_92.md) (7 shared connections)
+- [Community 33](Community_33.md) (6 shared connections)
+- [Community 67](Community_67.md) (4 shared connections)
+- [Community 258](Community_258.md) (2 shared connections)
+- [Community 396](Community_396.md) (2 shared connections)
+- [Community 83](Community_83.md) (2 shared connections)
+- [Community 43](Community_43.md) (2 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 445](Community_445.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- `raw/code/hyd-evaluation/django-django/django/tasks/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/tasks/backends/dummy.py`
-- `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
-- `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/json.py`
-- `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_json.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
 
 ## Audit Trail
 
-- EXTRACTED: 251 (97%)
-- INFERRED: 7 (3%)
+- EXTRACTED: 150 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

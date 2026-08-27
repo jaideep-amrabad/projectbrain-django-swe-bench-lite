@@ -1,54 +1,69 @@
 # Community 442
 
-> 26 nodes · cohesion 0.14
+> 40 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **scripts/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **do_django_release.py** (10 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
-- **parse_major_version()** (9 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
-- **ParseMajorVersionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.d()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **main()** (6 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
-- **create_checksum_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
-- **find_release_artifacts()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
-- **CreateChecksumFileTests** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.generate_checksum_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **FindReleaseArtifactsTests** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_empty_directory_returns_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_finds_wheel_and_tarball()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **build_artifacts()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
-- **do_checksum()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
-- **get_commit_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
-- **.test_artifact_checksums()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_release_metadata()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_alpha()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_beta()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_final_dot_zero_release()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_final_patch_release()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_release_candidate()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_two_digit_minor()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **Day of the month, 2 digits with leading zeros; i.e. '01' to '31** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- *... and 1 more nodes in this community*
+- **Site** (42 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **sites/models.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **flatpages/models.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/models.py`
+- **FlatPage** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/models.py`
+- **flatpages_tests/test_forms.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **flatpages_tests/test_csrf.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **geoapp/test_sitemaps.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
+- **FlatpageModelTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- **flatpages_tests/test_sitemaps.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_sitemaps.py`
+- **GeoSitemapTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
+- **flatpages_tests/test_models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- **FlatpagesSitemapTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_sitemaps.py`
+- **sites/migrations/0001_initial.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/migrations/0001_initial.py`
+- **sites/admin.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/admin.py`
+- **0002_alter_domain_unique.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/migrations/0002_alter_domain_unique.py`
+- **_simple_domain_name_validator()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **.test_geositemap_kml()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
+- **.test_get_absolute_url_with_hardcoded_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- **.assertChildNodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- **.test_get_absolute_url_honors_script_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- **.test_get_absolute_url_include()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- **.test_get_absolute_url_include_no_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 473](Community_473.md) (3 shared connections)
-- [Community 37](Community_37.md) (2 shared connections)
-- [Community 369](Community_369.md) (1 shared connections)
-- [Community 619](Community_619.md) (1 shared connections)
-- [Community 112](Community_112.md) (1 shared connections)
+- [Community 580](Community_580.md) (13 shared connections)
+- [Community 4](Community_4.md) (10 shared connections)
+- [Community 5](Community_5.md) (9 shared connections)
+- [Community 31](Community_31.md) (9 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 578](Community_578.md) (6 shared connections)
+- [Community 42](Community_42.md) (6 shared connections)
+- [Community 314](Community_314.md) (6 shared connections)
+- [Community 273](Community_273.md) (5 shared connections)
+- [Community 538](Community_538.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
-- `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/migrations/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/migrations/0002_alter_domain_unique.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_sitemaps.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 197 (98%)
+- INFERRED: 5 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

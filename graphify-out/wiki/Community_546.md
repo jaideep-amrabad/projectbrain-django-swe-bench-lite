@@ -1,55 +1,46 @@
 # Community 546
 
-> 20 nodes · cohesion 0.14
+> 20 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **FieldCacheMixin** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **Foo** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **FieldCacheMixinTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
-- **Example** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
-- **.get_cache_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
-- **.delete_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **.get_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **.is_cached()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **.set_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **.test_cache_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
-- **.test_cache_name_not_implemented()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
-- **Provide an API for working with the model's fields value cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **.cache_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
-- **.test_delete_cached_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
-- **.test_get_cached_value_after_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
-- **.test_get_cached_value_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
-- **.test_get_cached_value_missing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
-- **.test_is_cached_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
-- **.test_is_cached_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
+- **NestedForeignKeysTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **nested_foreign_keys/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **nested_foreign_keys/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **DeeplyNestedForeignKeysTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **Event** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **Screening** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **Movie** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **Package** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **ScreeningNullFK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **PackageNullFK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_explicit_ForeignKey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_explicit_ForeignKey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_explicit_ForeignKey_NullFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_inheritance_null_FK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_null_exclude()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
 
 ## Relationships
 
-- [Community 37](Community_37.md) (6 shared connections)
-- [Community 580](Community_580.md) (2 shared connections)
-- [Community 95](Community_95.md) (2 shared connections)
-- [Community 793](Community_793.md) (2 shared connections)
-- [Community 79](Community_79.md) (1 shared connections)
-- [Community 246](Community_246.md) (1 shared connections)
-- [Community 119](Community_119.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 425](Community_425.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 418](Community_418.md) (1 shared connections)
-- [Community 914](Community_914.md) (1 shared connections)
+- [Community 42](Community_42.md) (3 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (84%)
-- INFERRED: 8 (16%)
+- EXTRACTED: 34 (74%)
+- INFERRED: 12 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

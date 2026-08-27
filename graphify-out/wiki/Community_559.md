@@ -1,47 +1,53 @@
 # Community 559
 
-> 20 nodes · cohesion 0.17
+> 19 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **task** (21 connections)
-- **tasks.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
-- **hang()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
-- **calculate_meaning_of_life()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
-- **complex_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
-- **complex_return_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
-- **exit_task()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
-- **failing_task_keyboard_interrupt()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
-- **failing_task_system_exit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
-- **failing_task_value_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
-- **get_task_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
-- **noop_task()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
-- **noop_task_async()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
-- **noop_task_from_bare_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
-- **sleep_for()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
-- **test_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
-- **.test_invalid_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_run_after_in_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **.test_takes_context_without_taking_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
-- **Do nothing for 5 minutes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **Question** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **AutocompleteJsonViewTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **DateHierarchyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **QuestionAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.test_get_paginator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_choice_links()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **.test_choice_links_datetime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **.test_has_view_or_change_permission_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_search_use_distinct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_missing_search_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_must_be_logged_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_success()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **AdminViewBasicTestCase** (1 connections)
+- **Search results are paginated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **Users require the change permission for the related model to the autocomplete…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **Searching across model relations use QuerySet.distinct() to avoid duplicates.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
 
 ## Relationships
 
-- [Community 1038](Community_1038.md) (4 shared connections)
-- [Community 302](Community_302.md) (3 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 571](Community_571.md) (1 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 163](Community_163.md) (3 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 63](Community_63.md) (2 shared connections)
+- [Community 115](Community_115.md) (2 shared connections)
+- [Community 322](Community_322.md) (1 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
-- `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (84%)
-- INFERRED: 7 (16%)
+- EXTRACTED: 35 (85%)
+- INFERRED: 6 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

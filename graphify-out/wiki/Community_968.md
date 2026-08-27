@@ -4,26 +4,27 @@
 
 ## Key Concepts
 
-- **MailersCompatibilityTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
-- **.test_default_mailer_with_deprecated_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
-- **.test_default_mailer_with_no_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
-- **ignore_no_default_mailer_warning** (1 connections)
-- **.test_unknown_mailer_with_no_settings()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
-- **mailers.default is usable even when MAILERS is not defined.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
+- **MailTimeZoneTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_date_header_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_date_header_utc()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **requires_tz_support** (1 connections)
+- **EMAIL_USE_LOCALTIME=False creates a datetime in UTC.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **EMAIL_USE_LOCALTIME=True creates a datetime in the local time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 55](Community_55.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 523](Community_523.md) (1 shared connections)
+- [Community 143](Community_143.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 173](Community_173.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

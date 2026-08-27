@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **autocomplete.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/autocomplete.js`
+- **Gruntfile.js** (0 connections) — `raw/code/hyd-evaluation/django-django/Gruntfile.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/autocomplete.js`
+- `raw/code/hyd-evaluation/django-django/Gruntfile.js`
 
 ## Audit Trail
 

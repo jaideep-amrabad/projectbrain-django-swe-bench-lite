@@ -1,39 +1,36 @@
 # Community 818
 
-> 11 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **module.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **MyClass** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **my_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **.test_basic_processing_in_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **other_module.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/other_module.py`
-- **MyOtherClass** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/other_module.py`
-- **package/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/__init__.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **.my_cached_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **.my_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **object** (1 connections)
+- **max_lengths/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **MaxLengthArgumentsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **max_lengths/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
+- **PersonWithCustomMaxLengths** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
+- **MaxLengthORMTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **PersonWithDefaultMaxLengths** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
+- **.verify_max_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **.test_custom_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **.test_default_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **.test_custom_max_lengths()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
 
 ## Relationships
 
-- [Community 151](Community_151.md) (2 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/other_module.py`
+- `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (81%)
-- INFERRED: 3 (19%)
+- EXTRACTED: 18 (86%)
+- INFERRED: 3 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

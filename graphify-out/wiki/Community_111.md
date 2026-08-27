@@ -1,6 +1,6 @@
 # Community 111
 
-> 106 nodes · cohesion 0.03
+> 77 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -15,36 +15,36 @@
 - **.test_alter_to_fk()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.test_db_table()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.test_fk_db_constraint()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m_create()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m_create_through()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m_through_alter()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.test_no_db_constraint_added_during_primary_key_change()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_unique_no_unnecessary_fk_drops()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.assertForeignKeyNotExists()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.get_constraints_count()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.test_add_foreign_key_quoted_db_table()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.test_fk()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.test_fk_to_proxy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.test_inline_fk()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_add_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.test_add_foreign_key_long_names()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.test_alter_fk_checks_deferred_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- *... and 81 more nodes in this community*
+- **.test_char_field_with_db_index_to_fk()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_referenced_field_without_constraint_rename_inside_atomic_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_referenced_table_without_constraint_rename_inside_atomic_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_rename_referenced_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_text_field_with_db_index_to_fk()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_no_index_for_foreignkey()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- *... and 52 more nodes in this community*
 
 ## Relationships
 
-- [Community 67](Community_67.md) (68 shared connections)
-- [Community 115](Community_115.md) (19 shared connections)
-- [Community 29](Community_29.md) (14 shared connections)
-- [Community 246](Community_246.md) (7 shared connections)
-- [Community 95](Community_95.md) (7 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 208](Community_208.md) (5 shared connections)
-- [Community 143](Community_143.md) (3 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 133](Community_133.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 677](Community_677.md) (1 shared connections)
+- [Community 56](Community_56.md) (54 shared connections)
+- [Community 21](Community_21.md) (13 shared connections)
+- [Community 352](Community_352.md) (9 shared connections)
+- [Community 51](Community_51.md) (8 shared connections)
+- [Community 416](Community_416.md) (7 shared connections)
+- [Community 89](Community_89.md) (6 shared connections)
+- [Community 381](Community_381.md) (5 shared connections)
+- [Community 327](Community_327.md) (5 shared connections)
+- [Community 975](Community_975.md) (4 shared connections)
+- [Community 141](Community_141.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
 
 ## Source Files
 
@@ -55,8 +55,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 250 (86%)
-- INFERRED: 41 (14%)
+- EXTRACTED: 202 (83%)
+- INFERRED: 40 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

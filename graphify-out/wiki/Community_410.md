@@ -1,49 +1,51 @@
 # Community 410
 
-> 34 nodes · cohesion 0.06
+> 27 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **CompositePKTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.get_primary_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_get_primary_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_batching()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_pk_not_set_db_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_totally_ordered()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_composite_pk_in_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_error_on_comment_pk_conflict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_error_on_user_pk_conflict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values_list_fields_are_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values_list_flat()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values_list_flat_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values_list_flat_tenant()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values_list_multiple_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_pk_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_pk_must_be_list_or_tuple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- *... and 9 more nodes in this community*
+- **gis/feeds.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_georss_element()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **GeoFeedMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **GeoAtom1Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **GeoRSSFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **W3CGeoFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **Rss201rev2Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **Feed** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_georss_point()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.georss_coords()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_root_elements()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **BaseFeed** (1 connections)
+- **.feed_extra_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.item_extra_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.root_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **In GeoRSS coordinate pairs are ordered by lat/lon and separated by a single…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **This is a subclass of the `Feed` from `django.contrib.syndication`. This allows…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **Adds a GeoRSS point with the given coords using the given handler. Handles the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 66](Community_66.md) (4 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 398](Community_398.md) (1 shared connections)
+- [Community 63](Community_63.md) (4 shared connections)
+- [Community 460](Community_460.md) (3 shared connections)
+- [Community 801](Community_801.md) (1 shared connections)
+- [Community 520](Community_520.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

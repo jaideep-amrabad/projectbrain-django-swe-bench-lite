@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **Django** (0 connections) — `raw/code/hyd-evaluation/django-django/pyproject.toml`
+- **loaders/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/pyproject.toml`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/__init__.py`
 
 ## Audit Trail
 

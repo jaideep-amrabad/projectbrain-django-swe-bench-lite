@@ -1,55 +1,53 @@
 # Community 387
 
-> 45 nodes · cohesion 0.08
+> 29 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **normalize_choices()** (27 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **NormalizeFieldChoicesTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **test_choices.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **BaseChoiceIterator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **choices.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **CallableChoiceIterator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **flatten_choices()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **BlankChoiceIterator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **FlattenChoicesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **.test_nested_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_non_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_callable_non_canonical()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_iterable_non_canonical()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_iterable_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_iterator_non_canonical()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_nested_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- *... and 20 more nodes in this community*
+- **TestRelatedFieldsAdminOrdering** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **TestAdminOrdering** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **TestInlineModelAdminOrdering** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **Band** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **Song** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **.check_ordering_of_field_choices()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **SongInlineDefaultOrdering** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **.test_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_dynamic_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_specified_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_specified_ordering_by_f_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_specified_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_custom_queryset_still_wins()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **Let's make sure that ModelAdmin.get_queryset uses the ordering we define in…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **The default ordering should be by name, as specified in the inner Meta class.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_admin_ordering_beats_model_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_admin_with_no_ordering_fallback_to_model_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_no_admin_fallback_to_model_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **Let's check with ordering set to something different than the default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **Custom queryset has still precedence (#21405)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **Let's use a custom ModelAdmin that changes the ordering, and make sure it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 684](Community_684.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 613](Community_613.md) (2 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 5](Community_5.md) (13 shared connections)
+- [Community 42](Community_42.md) (3 shared connections)
+- [Community 115](Community_115.md) (3 shared connections)
+- [Community 274](Community_274.md) (2 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 88 (95%)
-- INFERRED: 5 (5%)
+- EXTRACTED: 49 (80%)
+- INFERRED: 12 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

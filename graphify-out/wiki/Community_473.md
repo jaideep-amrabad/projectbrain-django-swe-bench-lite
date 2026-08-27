@@ -1,48 +1,51 @@
 # Community 473
 
-> 24 nodes · cohesion 0.15
+> 24 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **process_commit_message()** (22 connections) — `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
-- **ProcessCommitMessageTests** (20 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **prepare_commit_msg.py** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
-- **.test_adds_backport_note()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_adds_stable_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_adds_trailing_period()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_backport_note_separated_by_blank_line()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_capitalizes_first_letter()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_capitalizes_first_letter_after_existing_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_does_not_double_add_backport_note()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_does_not_double_add_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_does_not_double_add_trailing_period()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_empty_body_unchanged()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_git_comments_preserved_at_end()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_leading_blank_lines_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_no_cherry_sha_no_backport_note()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_non_stable_branch_no_prefix_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_non_stable_branch_period_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_non_stable_branch_with_period_unchanged()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_only_blank_lines_unchanged()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_prefix_and_period_and_backport_combined()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **.test_summary_leading_whitespace_no_double_space_before_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
-- **Adjust commit message lines for a potential backport. - Separates body lines…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
-- **run()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
+- **UpdateOnlyFieldsTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **update_only_fields/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **update_only_fields/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Employee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **ProxyEmployee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Account** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Profile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **.test_empty_update_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_num_queries_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_select_related_only_interaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_basic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_deferred()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_fk_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_incorrect_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_inheritance_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_inheritance_with_proxy_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_only_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_only_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_only_repeated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_signals()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
 
 ## Relationships
 
-- [Community 442](Community_442.md) (3 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
-- `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 36 (88%)
+- INFERRED: 5 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

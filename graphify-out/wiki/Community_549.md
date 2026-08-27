@@ -4,42 +4,50 @@
 
 ## Key Concepts
 
-- **CompositePKChecksTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_can_include_fk_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_be_editable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_have_a_database_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_have_a_db_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_have_a_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_include_composite_pk_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_include_db_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_include_non_local_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_include_nullable_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_include_same_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_be_a_primary_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_be_blank()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_be_named_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_be_unique_strings()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_include_at_least_2_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_not_have_other_pk_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_foreign_object_can_refer_composite_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_proxy_model_can_subclass_model_with_composite_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_proxy_model_does_not_check_superclass_composite_pk_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **ClientTest** (87 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_exc_info_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_external_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_follow_307_and_308_get_head_query_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_follow_307_and_308_preserves_get_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_follow_307_and_308_preserves_post_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_follow_307_and_308_preserves_put_body()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_follow_307_and_308_preserves_query_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_get_data_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_get_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_post_data_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_put()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_query_string_encoding()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_relative_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_relative_redirect_no_trailing_slash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_trace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_unknown_page()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_uploading_named_temp_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_uploading_temp_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 1023](Community_1023.md) (4 shared connections)
+- [Community 1064](Community_1064.md) (3 shared connections)
+- [Community 1065](Community_1065.md) (3 shared connections)
+- [Community 1087](Community_1087.md) (2 shared connections)
+- [Community 1089](Community_1089.md) (2 shared connections)
+- [Community 1088](Community_1088.md) (2 shared connections)
+- [Community 1090](Community_1090.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 1206](Community_1206.md) (1 shared connections)
+- [Community 1205](Community_1205.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 86 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

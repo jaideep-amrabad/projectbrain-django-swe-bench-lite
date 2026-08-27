@@ -1,42 +1,43 @@
 # Community 595
 
-> 18 nodes · cohesion 0.20
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **TestIntegration** (20 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.call_main()** (16 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_warnings_alongside_failures_still_closes()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_autoclose_false_posts_comment_does_not_close()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_established_author_skips_all_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_missing_pr_author_treated_as_untrusted()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_new_contributor_cannot_omit_ticket()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_no_ticket_results_include_skipped_sentinels()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_non_accepted_ticket_skips_has_patch()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_pr_before_ai_disclosure_date_skips_ai_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_pr_before_template_date_skips_all_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_trusted_author_failures_no_close()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_untrusted_author_failures_posts_comment_and_closes()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_warnings_only_posts_comment_does_not_close()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_fully_valid_pr_no_comment_posted()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_no_ticket_skips_trac_status_and_has_patch()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_blank_body_fails_non_status_checks()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- **.test_unedited_template_fails_all_checks()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
+- **DecimalFieldTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **BigD** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_save_without_float_conversion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_fetch_from_db_without_float_rounding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_filter_with_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_lookup_really_big_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_roundtrip_with_trailing_zeros()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_max_decimal_places_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_max_digits_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_max_whole_digits_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **skipIf** (1 connections)
+- **Should be able to filter decimal fields using strings (#8023).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **Ensure decimals don't go through a corrupting float conversion during save…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **Really big values can be used in a filter statement.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **Trailing zeros in the fractional part aren't truncated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
 
 ## Relationships
 
-- [Community 238](Community_238.md) (11 shared connections)
-- [Community 443](Community_443.md) (5 shared connections)
-- [Community 299](Community_299.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 854](Community_854.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (91%)
+- INFERRED: 2 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

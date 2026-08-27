@@ -1,15 +1,15 @@
 # call_command()
 
-> God node · 282 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+> God node · 290 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
-**Community:** [Community 116](Community_116.md)
+**Community:** [Community 10](Community_10.md)
 
 ## Connections by Relation
 
 ### calls
 - CommandError `EXTRACTED`
-- .create_test_db() `EXTRACTED`
 - .setUpClass() `EXTRACTED`
+- .create_test_db() `EXTRACTED`
 - .get_actions() `INFERRED`
 - get_commands() `EXTRACTED`
 - .test_include_partitions() `EXTRACTED`
@@ -33,8 +33,8 @@
 
 ### imports
 - testcases.py `EXTRACTED`
-- test_array.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
+- test_array.py `EXTRACTED`
 - staticfiles_tests/test_management.py `EXTRACTED`
 - geoapp/tests.py `EXTRACTED`
 - auth_tests/test_management.py `EXTRACTED`
@@ -42,16 +42,16 @@
 - test/runner.py `EXTRACTED`
 - check_framework/tests.py `EXTRACTED`
 - migrations/test_commands.py `EXTRACTED`
-- i18n/test_compilation.py `EXTRACTED`
-- migrations/base.py `EXTRACTED`
+- test_compilation.py `EXTRACTED`
 - inspectapp/tests.py `EXTRACTED`
-- cases.py `EXTRACTED`
 - test_storage.py `EXTRACTED`
+- cases.py `EXTRACTED`
 - base/creation.py `EXTRACTED`
 - contenttypes_tests/test_management.py `EXTRACTED`
 - contenttypes_tests/test_operations.py `EXTRACTED`
 - proxy_model_inheritance/tests.py `EXTRACTED`
 - inspectdb/tests.py `EXTRACTED`
+- manage_translations.py `EXTRACTED`
 
 ### rationale_for
 - Call the given command, with the given options and args/kwargs. This is the… `EXTRACTED`

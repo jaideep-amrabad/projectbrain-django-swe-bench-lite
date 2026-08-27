@@ -1,52 +1,61 @@
 # Community 283
 
-> 39 nodes · cohesion 0.09
+> 38 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **DeprecatePosargsTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **deprecate_posargs** (24 connections)
-- **.assertDeprecated()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_applied_to_lambda()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_class_methods()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_all_keyword_only_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_allows_reordering_keyword_only_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_async()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_bare_init()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_some_keyword_only_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_decorator_rejects_var_positional_param_with_deferred_annotation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_decorator_requires_remappable_names_be_keyword_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_decorator_requires_remappable_names_exist()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_detects_duplicate_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_incorrect_classmethod_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_incorrect_staticmethod_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_positional_only_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_variable_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_warning_source_location()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_avoids_remapping_to_new_keyword_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_decorator_does_not_apply_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_decorator_preserves_signature_and_metadata()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_decorator_rejects_var_positional_param()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_decorator_requires_keyword_only_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- **.test_detects_extra_positional_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
-- *... and 14 more nodes in this community*
+- **timesince()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- **TimesinceTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **timeuntil()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- **timesince.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- **utils_tests/test_timesince.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **timesince_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **avoid_wrapping()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_different_timezones()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_date_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_explicit_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_both_date_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_display_first_unit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_display_second_before_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_ignore_microseconds_and_seconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_leap_year()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_leap_year_new_years_eve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_naive_datetime_with_tzinfo_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_second_before_equal_first_humanize_time_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_thousand_years_ago()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_no_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_since_now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_equal_datetimes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_multiple_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_other_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 985](Community_985.md) (2 shared connections)
-- [Community 704](Community_704.md) (1 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 672](Community_672.md) (1 shared connections)
+- [Community 8](Community_8.md) (8 shared connections)
+- [Community 273](Community_273.md) (7 shared connections)
+- [Community 63](Community_63.md) (4 shared connections)
+- [Community 519](Community_519.md) (3 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 1001](Community_1001.md) (1 shared connections)
+- [Community 1044](Community_1044.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (66%)
-- INFERRED: 26 (34%)
+- EXTRACTED: 91 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---
