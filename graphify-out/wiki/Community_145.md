@@ -1,6 +1,6 @@
 # Community 145
 
-> 57 nodes · cohesion 0.04
+> 59 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -19,6 +19,7 @@
 - **.local_concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 - **.many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 - **._populate_directed_relation_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._property_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 - **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 - **.setup_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 - **.swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
@@ -28,23 +29,22 @@
 - **.can_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 - **.get_ancestor_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 - **.get_path_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- *... and 32 more nodes in this community*
+- *... and 34 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 733](Community_733.md) (1 shared connections)
-- [Community 234](Community_234.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 191](Community_191.md) (1 shared connections)
-- [Community 365](Community_365.md) (1 shared connections)
-- [Community 480](Community_480.md) (1 shared connections)
-- [Community 1041](Community_1041.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 366](Community_366.md) (1 shared connections)
-- [Community 869](Community_869.md) (1 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 738](Community_738.md) (1 shared connections)
+- [Community 347](Community_347.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 190](Community_190.md) (1 shared connections)
+- [Community 361](Community_361.md) (1 shared connections)
+- [Community 1004](Community_1004.md) (1 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
+- [Community 362](Community_362.md) (1 shared connections)
+- [Community 503](Community_503.md) (1 shared connections)
+- [Community 567](Community_567.md) (1 shared connections)
 
 ## Source Files
 
@@ -52,8 +52,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 87 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 88 (96%)
+- INFERRED: 4 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

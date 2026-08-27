@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **grandchild_module.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/child_module/grandchild_module.py`
+- **syntax_tests/i18n/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/child_module/grandchild_module.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/__init__.py`
 
 ## Audit Trail
 

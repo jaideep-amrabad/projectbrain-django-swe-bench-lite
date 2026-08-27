@@ -1,6 +1,6 @@
 # Community 405
 
-> 28 nodes · cohesion 0.11
+> 30 nodes · cohesion 0.10
 
 ## Key Concepts
 
@@ -11,6 +11,7 @@
 - **.test_datetime_callable_default_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 - **.test_filter_deferred()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 - **.test_filter_reverse_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_model_pickle_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 - **.test_order_by_model_with_abstract_inheritance_and_meta_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 - **.test_pickle_exists_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 - **.test_pickle_subquery_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
@@ -28,17 +29,15 @@
 - **.test_multipleobjectsreturned_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 - **.test_pickle_exists_queryset_still_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 - **.test_pickle_prefetch_queryset_not_evaluated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_pickle_prefetch_queryset_still_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- *... and 3 more nodes in this community*
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 691](Community_691.md) (7 shared connections)
-- [Community 1138](Community_1138.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 1239](Community_1239.md) (1 shared connections)
-- [Community 1237](Community_1237.md) (1 shared connections)
-- [Community 1238](Community_1238.md) (1 shared connections)
+- [Community 698](Community_698.md) (7 shared connections)
+- [Community 1160](Community_1160.md) (2 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
+- [Community 1263](Community_1263.md) (1 shared connections)
+- [Community 1261](Community_1261.md) (1 shared connections)
 
 ## Source Files
 
@@ -46,7 +45,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 47 (89%)
+- EXTRACTED: 48 (89%)
 - INFERRED: 6 (11%)
 - AMBIGUOUS: 0 (0%)
 

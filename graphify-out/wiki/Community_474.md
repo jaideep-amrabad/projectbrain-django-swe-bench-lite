@@ -1,11 +1,10 @@
 # Community 474
 
-> 24 nodes · cohesion 0.08
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
 - **ModelChoiceFieldTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_disabled_multiplemodelchoicefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
 - **.test_overridable_choice_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
 - **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
 - **.test_basics()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
@@ -31,11 +30,10 @@
 
 ## Relationships
 
-- [Community 86](Community_86.md) (4 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 403](Community_403.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 473](Community_473.md) (1 shared connections)
+- [Community 89](Community_89.md) (6 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
+- [Community 403](Community_403.md) (1 shared connections)
 
 ## Source Files
 
@@ -43,8 +41,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 27 (82%)
-- INFERRED: 6 (18%)
+- EXTRACTED: 27 (84%)
+- INFERRED: 5 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

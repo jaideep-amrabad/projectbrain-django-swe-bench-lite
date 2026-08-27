@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **simple/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/__init__.py`
+- **test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/test.js`
 
 ## Audit Trail
 

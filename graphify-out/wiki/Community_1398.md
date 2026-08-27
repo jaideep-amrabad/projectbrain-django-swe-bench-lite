@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **additional_file.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/additional_dir/additional_file.py`
+- **SelectBox.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectBox.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/additional_dir/additional_file.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectBox.test.js`
 
 ## Audit Trail
 

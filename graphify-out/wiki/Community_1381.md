@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **admin_custom_urls/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/__init__.py`
+- **django/db/backends/base/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/__init__.py`
 
 ## Audit Trail
 

@@ -1,6 +1,6 @@
 # Community 481
 
-> 23 nodes · cohesion 0.09
+> 24 nodes · cohesion 0.09
 
 ## Key Concepts
 
@@ -14,6 +14,7 @@
 - **.test_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
 - **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
 - **.test_use_both_settings_init_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **.test_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 - **.test_settings_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 - **.test_no_secret_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 - **.test_tuple_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
@@ -30,13 +31,12 @@
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 251](Community_251.md) (4 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 459](Community_459.md) (2 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 41](Community_41.md) (6 shared connections)
+- [Community 245](Community_245.md) (4 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 503](Community_503.md) (3 shared connections)
+- [Community 458](Community_458.md) (2 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
 - [Community 142](Community_142.md) (1 shared connections)
 
 ## Source Files
@@ -48,7 +48,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 41 (93%)
+- EXTRACTED: 42 (93%)
 - INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
