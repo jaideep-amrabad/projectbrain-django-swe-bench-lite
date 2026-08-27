@@ -18,11 +18,11 @@
 
 ## Relationships
 
-- [Community 308](Community_308.md) (13 shared connections)
-- [Community 840](Community_840.md) (2 shared connections)
-- [Community 720](Community_720.md) (2 shared connections)
-- [Community 633](Community_633.md) (1 shared connections)
-- [Community 522](Community_522.md) (1 shared connections)
+- [Community 305](Community_305.md) (13 shared connections)
+- [Community 838](Community_838.md) (2 shared connections)
+- [Community 721](Community_721.md) (2 shared connections)
+- [Community 631](Community_631.md) (1 shared connections)
+- [Community 520](Community_520.md) (1 shared connections)
 
 ## Source Files
 

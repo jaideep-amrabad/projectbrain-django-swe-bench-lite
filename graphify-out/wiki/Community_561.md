@@ -31,11 +31,11 @@
 
 ## Relationships
 
-- [Community 385](Community_385.md) (5 shared connections)
-- [Community 615](Community_615.md) (3 shared connections)
-- [Community 407](Community_407.md) (2 shared connections)
-- [Community 1012](Community_1012.md) (1 shared connections)
-- [Community 250](Community_250.md) (1 shared connections)
+- [Community 381](Community_381.md) (5 shared connections)
+- [Community 613](Community_613.md) (3 shared connections)
+- [Community 402](Community_402.md) (2 shared connections)
+- [Community 1011](Community_1011.md) (1 shared connections)
+- [Community 247](Community_247.md) (1 shared connections)
 - [Community 732](Community_732.md) (1 shared connections)
 - [Community 768](Community_768.md) (1 shared connections)
 

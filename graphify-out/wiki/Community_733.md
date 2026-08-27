@@ -19,10 +19,10 @@
 
 ## Relationships
 
-- [Community 476](Community_476.md) (18 shared connections)
-- [Community 304](Community_304.md) (6 shared connections)
-- [Community 857](Community_857.md) (2 shared connections)
-- [Community 1065](Community_1065.md) (2 shared connections)
+- [Community 473](Community_473.md) (18 shared connections)
+- [Community 301](Community_301.md) (6 shared connections)
+- [Community 855](Community_855.md) (2 shared connections)
+- [Community 1063](Community_1063.md) (2 shared connections)
 
 ## Source Files
 

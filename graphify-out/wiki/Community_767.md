@@ -18,10 +18,10 @@
 
 ## Relationships
 
-- [Community 526](Community_526.md) (7 shared connections)
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 506](Community_506.md) (5 shared connections)
-- [Community 661](Community_661.md) (5 shared connections)
+- [Community 524](Community_524.md) (7 shared connections)
+- [Community 13](Community_13.md) (5 shared connections)
+- [Community 505](Community_505.md) (5 shared connections)
+- [Community 660](Community_660.md) (5 shared connections)
 
 ## Source Files
 

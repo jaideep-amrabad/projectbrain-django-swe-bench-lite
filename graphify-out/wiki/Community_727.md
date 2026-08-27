@@ -20,10 +20,10 @@
 ## Relationships
 
 - [Community 763](Community_763.md) (5 shared connections)
-- [Community 911](Community_911.md) (2 shared connections)
-- [Community 1048](Community_1048.md) (1 shared connections)
-- [Community 1058](Community_1058.md) (1 shared connections)
-- [Community 1107](Community_1107.md) (1 shared connections)
+- [Community 908](Community_908.md) (2 shared connections)
+- [Community 1045](Community_1045.md) (1 shared connections)
+- [Community 1104](Community_1104.md) (1 shared connections)
+- [Community 1105](Community_1105.md) (1 shared connections)
 
 ## Source Files
 
