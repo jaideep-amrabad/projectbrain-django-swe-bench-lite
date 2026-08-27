@@ -38,8 +38,8 @@ __all__ = [
     'EmailField', 'Empty', 'Field', 'FieldDoesNotExist', 'FilePathField',
     'FloatField', 'GenericIPAddressField', 'IPAddressField', 'IntegerField',
     'NOT_PROVIDED', 'NullBooleanField', 'PositiveIntegerField',
-    'PositiveSmallIntegerField', 'SlugField', 'SmallIntegerField', 'TextField',
-    'TimeField', 'URLField', 'UUIDField',
+    'PositiveSmallIntegerField', 'SlugField', 'SmallAutoField',
+    'SmallIntegerField', 'TextField', 'TimeField', 'URLField', 'UUIDField',
 ]
 
 
@@ -122,6 +122,8 @@ class Field(RegisterLookupMixin):
     one_to_many = None
     one_to_one = None
     related_model = None
+
+    descriptor_class = DeferredAttribute
 
     # Generic field type description, usually overridden by subclasses
     def _description(self):
@@ -738,7 +740,7 @@ class Field(RegisterLookupMixin):
             # if you have a classmethod and a field with the same name, then
             # such fields can't be deferred (we don't have a check for this).
             if not getattr(cls, self.attname, None):
-                setattr(cls, self.attname, DeferredAttribute(self.attname))
+                setattr(cls, self.attname, self.descriptor_class(self))
         if self.choices is not None:
             setattr(cls, 'get_%s_display' % self.name,
                     partialmethod(cls._get_FIELD_display, field=self))
@@ -962,7 +964,12 @@ class AutoField(Field):
         value = super().get_prep_value(value)
         if value is None or isinstance(value, OuterRef):
             return value
-        return int(value)
+        try:
+            return int(value)
+        except (TypeError, ValueError) as e:
+            raise e.__class__(
+                "Field '%s' expected a number but got %r." % (self.name, value),
+            ) from e
 
     def contribute_to_class(self, cls, name, **kwargs):
         assert not cls._meta.auto_field, "Model %s can't have more than one AutoField." % cls._meta.label
@@ -981,6 +988,16 @@ class BigAutoField(AutoField):
 
     def rel_db_type(self, connection):
         return BigIntegerField().db_type(connection=connection)
+
+
+class SmallAutoField(AutoField):
+    description = _('Small integer')
+
+    def get_internal_type(self):
+        return 'SmallAutoField'
+
+    def rel_db_type(self, connection):
+        return SmallIntegerField().db_type(connection=connection)
 
 
 class BooleanField(Field):
@@ -1733,7 +1750,12 @@ class FloatField(Field):
         value = super().get_prep_value(value)
         if value is None:
             return None
-        return float(value)
+        try:
+            return float(value)
+        except (TypeError, ValueError) as e:
+            raise e.__class__(
+                "Field '%s' expected a number but got %r." % (self.name, value),
+            ) from e
 
     def get_internal_type(self):
         return "FloatField"
@@ -1815,7 +1837,12 @@ class IntegerField(Field):
         value = super().get_prep_value(value)
         if value is None:
             return None
-        return int(value)
+        try:
+            return int(value)
+        except (TypeError, ValueError) as e:
+            raise e.__class__(
+                "Field '%s' expected a number but got %r." % (self.name, value),
+            ) from e
 
     def get_internal_type(self):
         return "IntegerField"
