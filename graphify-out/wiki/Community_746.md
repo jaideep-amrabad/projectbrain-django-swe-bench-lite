@@ -1,11 +1,12 @@
 # Community 746
 
-> 9 nodes · cohesion 0.31
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
 - **HttpHeaders** (9 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 - **HttpHeadersTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 - **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 - **.parse_header_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 - **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
@@ -16,10 +17,10 @@
 
 ## Relationships
 
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 442](Community_442.md) (1 shared connections)
-- [Community 210](Community_210.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 219](Community_219.md) (2 shared connections)
+- [Community 450](Community_450.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
@@ -29,8 +30,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -22,9 +22,9 @@
 
 ## Relationships
 
-- [Community 308](Community_308.md) (1 shared connections)
-- [Community 669](Community_669.md) (1 shared connections)
-- [Community 693](Community_693.md) (1 shared connections)
+- [Community 310](Community_310.md) (1 shared connections)
+- [Community 671](Community_671.md) (1 shared connections)
+- [Community 688](Community_688.md) (1 shared connections)
 
 ## Source Files
 

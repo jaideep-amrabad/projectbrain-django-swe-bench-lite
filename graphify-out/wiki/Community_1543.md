@@ -1,23 +1,26 @@
 # Community 1543
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_reverse_relationship_cache_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Regression test for #9023: accessing the reverse relationship shouldn't result…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **test_migrations_atomic_operation/0001_initial.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_atomic_operation/0001_initial.py`
+- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_atomic_operation/0001_initial.py`
+- **raise_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_atomic_operation/0001_initial.py`
 
 ## Relationships
 
-- [Community 351](Community_351.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 22](Community_22.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_atomic_operation/0001_initial.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
