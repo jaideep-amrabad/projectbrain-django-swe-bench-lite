@@ -1,23 +1,24 @@
 # Community 1045
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **compress.py** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
-- **main()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
+- **GenericViewError** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
+- **Exception** (1 connections)
+- **A problem in a generic view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 72](Community_72.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
