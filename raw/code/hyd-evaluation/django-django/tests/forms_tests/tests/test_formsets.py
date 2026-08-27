@@ -11,6 +11,7 @@ from django.forms.formsets import BaseFormSet, all_valid, formset_factory
 from django.forms.utils import ErrorList
 from django.forms.widgets import HiddenInput
 from django.test import SimpleTestCase
+from tests.forms_tests.tests import jinja2_tests
 
 
 class Choice(Form):
@@ -337,6 +338,10 @@ class FormsFormsetTestCase(SimpleTestCase):
         formset = ChoiceFormSet(data, auto_id=False, prefix='choices')
         self.assertFalse(formset.is_valid())
         self.assertEqual(formset.non_form_errors(), ['Please submit at most 1 form.'])
+        self.assertEqual(
+            str(formset.non_form_errors()),
+            '<ul class="errorlist nonform"><li>Please submit at most 1 form.</li></ul>',
+        )
 
     def test_formset_validate_min_flag(self):
         """
@@ -359,6 +364,11 @@ class FormsFormsetTestCase(SimpleTestCase):
         formset = ChoiceFormSet(data, auto_id=False, prefix='choices')
         self.assertFalse(formset.is_valid())
         self.assertEqual(formset.non_form_errors(), ['Please submit at least 3 forms.'])
+        self.assertEqual(
+            str(formset.non_form_errors()),
+            '<ul class="errorlist nonform"><li>'
+            'Please submit at least 3 forms.</li></ul>',
+        )
 
     def test_formset_validate_min_unchanged_forms(self):
         """
@@ -542,6 +552,38 @@ class FormsFormsetTestCase(SimpleTestCase):
         self.assertEqual(formset._errors, [])
         self.assertEqual(len(formset.deleted_forms), 1)
 
+    def test_formset_with_deletion_custom_widget(self):
+        class DeletionAttributeFormSet(BaseFormSet):
+            deletion_widget = HiddenInput
+
+        class DeletionMethodFormSet(BaseFormSet):
+            def get_deletion_widget(self):
+                return HiddenInput(attrs={'class': 'deletion'})
+
+        tests = [
+            (DeletionAttributeFormSet, '<input type="hidden" name="form-0-DELETE">'),
+            (
+                DeletionMethodFormSet,
+                '<input class="deletion" type="hidden" name="form-0-DELETE">',
+            ),
+        ]
+        for formset_class, delete_html in tests:
+            with self.subTest(formset_class=formset_class.__name__):
+                ArticleFormSet = formset_factory(
+                    ArticleForm,
+                    formset=formset_class,
+                    can_delete=True,
+                )
+                formset = ArticleFormSet(auto_id=False)
+                self.assertHTMLEqual(
+                    '\n'.join([form.as_ul() for form in formset.forms]),
+                    (
+                        f'<li>Title: <input type="text" name="form-0-title"></li>'
+                        f'<li>Pub date: <input type="text" name="form-0-pub_date">'
+                        f'{delete_html}</li>'
+                    ),
+                )
+
     def test_formsets_with_ordering(self):
         """
         formset_factory's can_order argument adds an integer field to each
@@ -593,8 +635,8 @@ class FormsFormsetTestCase(SimpleTestCase):
             ],
         )
 
-    def test_formsets_with_order_custom_widget(self):
-        class OrderingAttributFormSet(BaseFormSet):
+    def test_formsets_with_ordering_custom_widget(self):
+        class OrderingAttributeFormSet(BaseFormSet):
             ordering_widget = HiddenInput
 
         class OrderingMethodFormSet(BaseFormSet):
@@ -602,7 +644,7 @@ class FormsFormsetTestCase(SimpleTestCase):
                 return HiddenInput(attrs={'class': 'ordering'})
 
         tests = (
-            (OrderingAttributFormSet, '<input type="hidden" name="form-0-ORDER">'),
+            (OrderingAttributeFormSet, '<input type="hidden" name="form-0-ORDER">'),
             (OrderingMethodFormSet, '<input class="ordering" type="hidden" name="form-0-ORDER">'),
         )
         for formset_class, order_html in tests:
@@ -983,6 +1025,11 @@ class FormsFormsetTestCase(SimpleTestCase):
         formset = FavoriteDrinksFormSet(data, prefix='drinks')
         self.assertFalse(formset.is_valid())
         self.assertEqual(formset.non_form_errors(), ['You may only specify a drink once.'])
+        self.assertEqual(
+            str(formset.non_form_errors()),
+            '<ul class="errorlist nonform"><li>'
+            'You may only specify a drink once.</li></ul>',
+        )
 
     def test_formset_iteration(self):
         """Formset instances are iterable."""
@@ -1242,6 +1289,35 @@ class FormsFormsetTestCase(SimpleTestCase):
         self.assertIs(formset._should_delete_form(formset.forms[1]), False)
         self.assertIs(formset._should_delete_form(formset.forms[2]), False)
 
+    def test_custom_renderer(self):
+        """
+        A custom renderer passed to a formset_factory() is passed to all forms
+        and ErrorList.
+        """
+        from django.forms.renderers import Jinja2
+        renderer = Jinja2()
+        data = {
+            'choices-TOTAL_FORMS': '2',
+            'choices-INITIAL_FORMS': '0',
+            'choices-MIN_NUM_FORMS': '0',
+            'choices-0-choice': 'Zero',
+            'choices-0-votes': '',
+            'choices-1-choice': 'One',
+            'choices-1-votes': '',
+        }
+        ChoiceFormSet = formset_factory(Choice, renderer=renderer)
+        formset = ChoiceFormSet(data, auto_id=False, prefix='choices')
+        self.assertEqual(formset.renderer, renderer)
+        self.assertEqual(formset.forms[0].renderer, renderer)
+        self.assertEqual(formset.management_form.renderer, renderer)
+        self.assertEqual(formset.non_form_errors().renderer, renderer)
+        self.assertEqual(formset.empty_form.renderer, renderer)
+
+
+@jinja2_tests
+class Jinja2FormsFormsetTestCase(FormsFormsetTestCase):
+    pass
+
 
 class FormsetAsTagTests(SimpleTestCase):
     def setUp(self):
@@ -1291,6 +1367,11 @@ class FormsetAsTagTests(SimpleTestCase):
         )
 
 
+@jinja2_tests
+class Jinja2FormsetAsTagTests(FormsetAsTagTests):
+    pass
+
+
 class ArticleForm(Form):
     title = CharField()
     pub_date = DateField()
@@ -1313,7 +1394,7 @@ class TestIsBoundBehavior(SimpleTestCase):
         )
         self.assertEqual(formset.errors, [])
         # Can still render the formset.
-        self.assertEqual(
+        self.assertHTMLEqual(
             str(formset),
             '<tr><td colspan="2">'
             '<ul class="errorlist nonfield">'
@@ -1344,7 +1425,7 @@ class TestIsBoundBehavior(SimpleTestCase):
         )
         self.assertEqual(formset.errors, [])
         # Can still render the formset.
-        self.assertEqual(
+        self.assertHTMLEqual(
             str(formset),
             '<tr><td colspan="2">'
             '<ul class="errorlist nonfield">'
@@ -1409,6 +1490,11 @@ class TestIsBoundBehavior(SimpleTestCase):
         self.assertFalse(empty_forms[1].is_bound)
         # The empty forms should be equal.
         self.assertHTMLEqual(empty_forms[0].as_p(), empty_forms[1].as_p())
+
+
+@jinja2_tests
+class TestIsBoundBehavior(TestIsBoundBehavior):
+    pass
 
 
 class TestEmptyFormSet(SimpleTestCase):

@@ -1,3 +1,4 @@
+import argparse
 import ctypes
 import faulthandler
 import hashlib
@@ -11,6 +12,7 @@ import random
 import sys
 import textwrap
 import unittest
+import warnings
 from collections import defaultdict
 from contextlib import contextmanager
 from importlib import import_module
@@ -25,6 +27,7 @@ from django.test.utils import (
     teardown_databases as _teardown_databases, teardown_test_environment,
 )
 from django.utils.datastructures import OrderedSet
+from django.utils.deprecation import RemovedInDjango50Warning
 
 try:
     import ipdb as pdb
@@ -333,8 +336,10 @@ class RemoteTestRunner:
         return result
 
 
-def default_test_processes():
-    """Default number of test processes when using the --parallel option."""
+def get_max_test_processes():
+    """
+    The maximum number of test processes when using the --parallel option.
+    """
     # The current implementation of the parallel test runner requires
     # multiprocessing to start subprocesses with fork().
     if multiprocessing.get_start_method() != 'fork':
@@ -343,6 +348,18 @@ def default_test_processes():
         return int(os.environ['DJANGO_TEST_PROCESSES'])
     except KeyError:
         return multiprocessing.cpu_count()
+
+
+def parallel_type(value):
+    """Parse value passed to the --parallel option."""
+    if value == 'auto':
+        return value
+    try:
+        return int(value)
+    except ValueError:
+        raise argparse.ArgumentTypeError(
+            f"{value!r} is not an integer or the string 'auto'"
+        )
 
 
 _worker_id = 0
@@ -544,7 +561,7 @@ class DiscoverRunner:
                  reverse=False, debug_mode=False, debug_sql=False, parallel=0,
                  tags=None, exclude_tags=None, test_name_patterns=None,
                  pdb=False, buffer=False, enable_faulthandler=True,
-                 timing=False, shuffle=False, **kwargs):
+                 timing=False, shuffle=False, logger=None, **kwargs):
 
         self.pattern = pattern
         self.top_level = top_level
@@ -578,6 +595,7 @@ class DiscoverRunner:
             }
         self.shuffle = shuffle
         self._shuffler = None
+        self.logger = logger
 
     @classmethod
     def add_arguments(cls, parser):
@@ -610,9 +628,12 @@ class DiscoverRunner:
             help='Prints logged SQL queries on failure.',
         )
         parser.add_argument(
-            '--parallel', nargs='?', default=1, type=int,
-            const=default_test_processes(), metavar='N',
-            help='Run tests using up to N parallel processes.',
+            '--parallel', nargs='?', const='auto', default=0,
+            type=parallel_type, metavar='N',
+            help=(
+                'Run tests using up to N parallel processes. Use the value '
+                '"auto" to run one test process for each processor core.'
+            ),
         )
         parser.add_argument(
             '--tag', action='append', dest='tags',
@@ -657,16 +678,23 @@ class DiscoverRunner:
 
     def log(self, msg, level=None):
         """
-        Log the given message at the given logging level.
+        Log the message at the given logging level (the default is INFO).
 
-        A verbosity of 1 logs INFO (the default level) or above, and verbosity
-        2 or higher logs all levels.
+        If a logger isn't set, the message is instead printed to the console,
+        respecting the configured verbosity. A verbosity of 0 prints no output,
+        a verbosity of 1 prints INFO and above, and a verbosity of 2 or higher
+        prints all levels.
         """
-        if self.verbosity <= 0 or (
-            self.verbosity == 1 and level is not None and level < logging.INFO
-        ):
-            return
-        print(msg)
+        if level is None:
+            level = logging.INFO
+        if self.logger is None:
+            if self.verbosity <= 0 or (
+                self.verbosity == 1 and level < logging.INFO
+            ):
+                return
+            print(msg)
+        else:
+            self.logger.log(level, msg)
 
     def setup_test_environment(self, **kwargs):
         setup_test_environment(debug=self.debug_mode)
@@ -727,6 +755,12 @@ class DiscoverRunner:
         return tests
 
     def build_suite(self, test_labels=None, extra_tests=None, **kwargs):
+        if extra_tests is not None:
+            warnings.warn(
+                'The extra_tests argument is deprecated.',
+                RemovedInDjango50Warning,
+                stacklevel=2,
+            )
         test_labels = test_labels or ['.']
         extra_tests = extra_tests or []
 
@@ -775,6 +809,9 @@ class DiscoverRunner:
             # Since tests are distributed across processes on a per-TestCase
             # basis, there's no need for more processes than TestCases.
             processes = min(self.parallel, len(subsuites))
+            # Update also "parallel" because it's used to determine the number
+            # of test databases.
+            self.parallel = processes
             if processes > 1:
                 suite = self.parallel_test_suite(
                     subsuites,
@@ -866,11 +903,14 @@ class DiscoverRunner:
         Test labels should be dotted Python paths to test modules, test
         classes, or test methods.
 
-        A list of 'extra' tests may also be provided; these tests
-        will be added to the test suite.
-
         Return the number of tests that failed.
         """
+        if extra_tests is not None:
+            warnings.warn(
+                'The extra_tests argument is deprecated.',
+                RemovedInDjango50Warning,
+                stacklevel=2,
+            )
         self.setup_test_environment()
         suite = self.build_suite(test_labels, extra_tests)
         databases = self.get_databases(suite)

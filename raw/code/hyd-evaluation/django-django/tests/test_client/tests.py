@@ -291,6 +291,13 @@ class ClientTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.request['PATH_INFO'], '/accounts/login/')
 
+    def test_redirect_to_querystring_only(self):
+        """A URL that consists of a querystring only can be followed"""
+        response = self.client.post('/post_then_get_view/', follow=True)
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.request['PATH_INFO'], '/post_then_get_view/')
+        self.assertEqual(response.content, b'The value of success is true.')
+
     def test_follow_307_and_308_redirect(self):
         """
         A 307 or 308 redirect preserves the request method after the redirect.
@@ -1010,6 +1017,10 @@ class AsyncClientTest(TestCase):
                 with self.assertRaisesMessage(NotImplementedError, msg):
                     await method('/redirect_view/', follow=True)
 
+    async def test_get_data(self):
+        response = await self.async_client.get('/get_view/', {'var': 'val'})
+        self.assertContains(response, 'This is a test. val is the value.')
+
 
 @override_settings(ROOT_URLCONF='test_client.urls')
 class AsyncRequestFactoryTest(SimpleTestCase):
@@ -1063,3 +1074,8 @@ class AsyncRequestFactoryTest(SimpleTestCase):
         self.assertIn('HTTP_AUTHORIZATION', request.META)
         self.assertEqual(request.headers['x-another-header'], 'some other value')
         self.assertIn('HTTP_X_ANOTHER_HEADER', request.META)
+
+    def test_request_factory_query_string(self):
+        request = self.request_factory.get('/somewhere/', {'example': 'data'})
+        self.assertNotIn('Query-String', request.headers)
+        self.assertEqual(request.GET['example'], 'data')

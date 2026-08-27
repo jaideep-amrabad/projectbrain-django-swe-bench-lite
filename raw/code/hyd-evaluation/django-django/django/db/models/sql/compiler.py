@@ -9,7 +9,7 @@ from django.db import DatabaseError, NotSupportedError
 from django.db.models.constants import LOOKUP_SEP
 from django.db.models.expressions import F, OrderBy, RawSQL, Ref, Value
 from django.db.models.functions import Cast, Random
-from django.db.models.query_utils import Q, select_related_descend
+from django.db.models.query_utils import select_related_descend
 from django.db.models.sql.constants import (
     CURSOR, GET_ITERATOR_CHUNK_SIZE, MULTI, NO_RESULTS, ORDER_DIR, SINGLE,
 )
@@ -266,8 +266,12 @@ class SQLCompiler:
             try:
                 sql, params = self.compile(col)
             except EmptyResultSet:
-                # Select a predicate that's always False.
-                sql, params = '0', ()
+                empty_result_set_value = getattr(col, 'empty_result_set_value', NotImplemented)
+                if empty_result_set_value is NotImplemented:
+                    # Select a predicate that's always False.
+                    sql, params = '0', ()
+                else:
+                    sql, params = self.compile(Value(empty_result_set_value))
             else:
                 sql, params = col.select_format(self, sql, params)
             ret.append((col, (sql, params), alias))
@@ -631,10 +635,10 @@ class SQLCompiler:
                     result.append('HAVING %s' % having)
                     params.extend(h_params)
 
-            if self.query.explain_query:
+            if self.query.explain_info:
                 result.insert(0, self.connection.ops.explain_query_prefix(
-                    self.query.explain_format,
-                    **self.query.explain_options
+                    self.query.explain_info.format,
+                    **self.query.explain_info.options
                 ))
 
             if order_by:
@@ -1223,15 +1227,11 @@ class SQLCompiler:
             chunk_size,
         )
         if not chunked_fetch or not self.connection.features.can_use_chunked_reads:
-            try:
-                # If we are using non-chunked reads, we return the same data
-                # structure as normally, but ensure it is all read into memory
-                # before going any further. Use chunked_fetch if requested,
-                # unless the database doesn't support it.
-                return list(result)
-            finally:
-                # done with the cursor
-                cursor.close()
+            # If we are using non-chunked reads, we return the same data
+            # structure as normally, but ensure it is all read into memory
+            # before going any further. Use chunked_fetch if requested,
+            # unless the database doesn't support it.
+            return list(result)
         return result
 
     def as_subquery_condition(self, alias, columns, compiler):
@@ -1251,7 +1251,7 @@ class SQLCompiler:
         result = list(self.execute_sql())
         # Some backends return 1 item tuples with strings, and others return
         # tuples with integers and strings. Flatten them out into strings.
-        output_formatter = json.dumps if self.query.explain_format == 'json' else str
+        output_formatter = json.dumps if self.query.explain_info.format == 'json' else str
         for row in result[0]:
             if not isinstance(row, str):
                 yield ' '.join(output_formatter(c) for c in row)
@@ -1508,13 +1508,12 @@ class SQLDeleteCompiler(SQLCompiler):
             pk.get_col(self.query.get_initial_alias())
         ]
         outerq = Query(self.query.model)
-        outerq.where = self.query.where_class()
         if not self.connection.features.update_can_self_select:
             # Force the materialization of the inner query to allow reference
             # to the target table on MySQL.
             sql, params = innerq.get_compiler(connection=self.connection).as_sql()
             innerq = RawSQL('SELECT * FROM (%s) subquery' % sql, params)
-        outerq.add_q(Q(pk__in=innerq))
+        outerq.add_filter('pk__in', innerq)
         return self._as_sql(outerq)
 
 
@@ -1630,7 +1629,7 @@ class SQLUpdateCompiler(SQLCompiler):
 
         # Now we adjust the current query: reset the where clause and get rid
         # of all the tables we don't need (since they're in the sub-select).
-        self.query.where = self.query.where_class()
+        self.query.clear_where()
         if self.query.related_updates or must_pre_select:
             # Either we're using the idents in multiple update queries (so
             # don't want them to change), or the db backend doesn't support
@@ -1638,11 +1637,11 @@ class SQLUpdateCompiler(SQLCompiler):
             idents = []
             for rows in query.get_compiler(self.using).execute_sql(MULTI):
                 idents.extend(r[0] for r in rows)
-            self.query.add_filter(('pk__in', idents))
+            self.query.add_filter('pk__in', idents)
             self.query.related_ids = idents
         else:
             # The fast path. Filters and updates in one query.
-            self.query.add_filter(('pk__in', query))
+            self.query.add_filter('pk__in', query)
         self.query.reset_refcounts(refcounts_before)
 
 

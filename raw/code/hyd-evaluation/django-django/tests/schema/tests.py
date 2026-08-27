@@ -520,7 +520,6 @@ class SchemaTests(TransactionTestCase):
             'column': editor.quote_name(new_field.name),
         }
         self.assertFalse(any(drop_default_sql in query['sql'] for query in ctx.captured_queries))
-        # Ensure the field is right afterwards
         columns = self.column_classes(Author)
         self.assertEqual(columns['age'][0], connection.features.introspected_field_types['IntegerField'])
         self.assertTrue(columns['age'][1][6])
@@ -554,7 +553,6 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("surname")
         with connection.schema_editor() as editor:
             editor.add_field(Author, new_field)
-        # Ensure the field is right afterwards
         columns = self.column_classes(Author)
         self.assertEqual(columns['surname'][0], connection.features.introspected_field_types['CharField'])
         self.assertEqual(columns['surname'][1][6],
@@ -579,7 +577,6 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("awesome")
         with connection.schema_editor() as editor:
             editor.add_field(Author, new_field)
-        # Ensure the field is right afterwards
         columns = self.column_classes(Author)
         # BooleanField are stored as TINYINT(1) on MySQL.
         field_type = columns['awesome'][0]
@@ -632,7 +629,6 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("bits")
         with connection.schema_editor() as editor:
             editor.add_field(Author, new_field)
-        # Ensure the field is right afterwards
         columns = self.column_classes(Author)
         # MySQL annoyingly uses the same backend, so it'll come back as one of
         # these two types.
@@ -672,7 +668,6 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("name")
         with connection.schema_editor() as editor:
             editor.alter_field(Author, old_field, new_field, strict=True)
-        # Ensure the field is right afterwards
         columns = self.column_classes(Author)
         self.assertEqual(columns['name'][0], "TextField")
         self.assertTrue(columns['name'][1][6])
@@ -681,7 +676,6 @@ class SchemaTests(TransactionTestCase):
         new_field2.set_attributes_from_name("name")
         with connection.schema_editor() as editor:
             editor.alter_field(Author, new_field, new_field2, strict=True)
-        # Ensure the field is right afterwards
         columns = self.column_classes(Author)
         self.assertEqual(columns['name'][0], "TextField")
         self.assertEqual(bool(columns['name'][1][6]), bool(connection.features.interprets_empty_strings_as_nulls))
@@ -747,6 +741,13 @@ class SchemaTests(TransactionTestCase):
         with connection.schema_editor() as editor:
             editor.remove_field(Author, Author._meta.get_field('id'))
             editor.alter_field(Author, old_field, new_field, strict=True)
+        # Redundant unique constraint is not added.
+        count = self.get_constraints_count(
+            Author._meta.db_table,
+            Author._meta.get_field('uuid').column,
+            None,
+        )
+        self.assertLessEqual(count['uniques'], 1)
 
     @isolate_apps('schema')
     def test_alter_primary_key_quoted_db_table(self):
@@ -869,6 +870,27 @@ class SchemaTests(TransactionTestCase):
         with self.assertRaises(IntegrityError):
             Note.objects.create(info=None)
 
+    @skipUnlessDBFeature('interprets_empty_strings_as_nulls')
+    def test_alter_textual_field_not_null_to_null(self):
+        """
+        Nullability for textual fields is preserved on databases that
+        interpret empty strings as NULLs.
+        """
+        with connection.schema_editor() as editor:
+            editor.create_model(Author)
+        columns = self.column_classes(Author)
+        # Field is nullable.
+        self.assertTrue(columns['uuid'][1][6])
+        # Change to NOT NULL.
+        old_field = Author._meta.get_field('uuid')
+        new_field = SlugField(null=False, blank=True)
+        new_field.set_attributes_from_name('uuid')
+        with connection.schema_editor() as editor:
+            editor.alter_field(Author, old_field, new_field, strict=True)
+        columns = self.column_classes(Author)
+        # Nullability is preserved.
+        self.assertTrue(columns['uuid'][1][6])
+
     def test_alter_numeric_field_keep_null_status(self):
         """
         Changing a field type shouldn't affect the not null status.
@@ -907,7 +929,6 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("height")
         with connection.schema_editor() as editor:
             editor.alter_field(Author, old_field, new_field, strict=True)
-        # Ensure the field is right afterwards
         columns = self.column_classes(Author)
         self.assertFalse(columns['height'][1][6])
         # Verify default value
@@ -917,7 +938,7 @@ class SchemaTests(TransactionTestCase):
     def test_alter_charfield_to_null(self):
         """
         #24307 - Should skip an alter statement on databases with
-        interprets_empty_strings_as_null when changing a CharField to null.
+        interprets_empty_strings_as_nulls when changing a CharField to null.
         """
         # Create the table
         with connection.schema_editor() as editor:
@@ -1015,7 +1036,7 @@ class SchemaTests(TransactionTestCase):
     def test_alter_textfield_to_null(self):
         """
         #24307 - Should skip an alter statement on databases with
-        interprets_empty_strings_as_null when changing a TextField to null.
+        interprets_empty_strings_as_nulls when changing a TextField to null.
         """
         # Create the table
         with connection.schema_editor() as editor:
@@ -1045,7 +1066,6 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("height")
         with connection.schema_editor() as editor:
             editor.alter_field(AuthorWithDefaultHeight, old_field, new_field, strict=True)
-        # Ensure the field is right afterwards
         columns = self.column_classes(AuthorWithDefaultHeight)
         self.assertFalse(columns['height'][1][6])
 
@@ -1068,7 +1088,6 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("author")
         with connection.schema_editor() as editor:
             editor.alter_field(Book, old_field, new_field, strict=True)
-        # Ensure the field is right afterwards
         columns = self.column_classes(Book)
         self.assertEqual(columns['author_id'][0], connection.features.introspected_field_types['IntegerField'])
         self.assertForeignKeyExists(Book, 'author_id', 'schema_author')
@@ -1130,7 +1149,6 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("author")
         with connection.schema_editor() as editor:
             editor.alter_field(BookWithO2O, old_field, new_field, strict=True)
-        # Ensure the field is right afterwards
         columns = self.column_classes(Book)
         self.assertEqual(columns['author_id'][0], connection.features.introspected_field_types['IntegerField'])
         # Ensure the field is not unique anymore
@@ -1162,7 +1180,6 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("author")
         with connection.schema_editor() as editor:
             editor.alter_field(Book, old_field, new_field, strict=True)
-        # Ensure the field is right afterwards
         columns = self.column_classes(BookWithO2O)
         self.assertEqual(columns['author_id'][0], connection.features.introspected_field_types['IntegerField'])
         # Ensure the field is unique now
@@ -1523,7 +1540,6 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("display_name")
         with connection.schema_editor() as editor:
             editor.alter_field(Author, old_field, new_field, strict=True)
-        # Ensure the field is right afterwards
         columns = self.column_classes(Author)
         self.assertEqual(columns['display_name'][0], connection.features.introspected_field_types['CharField'])
         self.assertNotIn("name", columns)
@@ -2603,7 +2619,6 @@ class SchemaTests(TransactionTestCase):
         # Alter the table
         with connection.schema_editor(atomic=connection.features.supports_atomic_references_rename) as editor:
             editor.alter_db_table(Author, "schema_author", "schema_otherauthor")
-        # Ensure the table is there afterwards
         Author._meta.db_table = "schema_otherauthor"
         columns = self.column_classes(Author)
         self.assertEqual(columns['name'][0], connection.features.introspected_field_types['CharField'])

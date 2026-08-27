@@ -43,6 +43,11 @@ TIME_ZONE = 'America/Chicago'
 # If you set this to True, Django will use timezone-aware datetimes.
 USE_TZ = False
 
+# RemovedInDjango50Warning: It's a transitional setting helpful in migrating
+# from pytz tzinfo to ZoneInfo(). Set True to continue using pytz tzinfo
+# objects during the Django 4.x release cycle.
+USE_DEPRECATED_PYTZ = False
+
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGE_CODE = 'en-us'
@@ -167,7 +172,7 @@ LANGUAGE_COOKIE_SAMESITE = None
 
 # If you set this to True, Django will format dates, numbers and calendars
 # according to user current locale.
-USE_L10N = False
+USE_L10N = True
 
 # Not-necessarily-technical managers of the site. They get broken link
 # notifications and other various emails.
@@ -471,7 +476,7 @@ SESSION_COOKIE_HTTPONLY = True
 SESSION_COOKIE_SAMESITE = 'Lax'
 # Whether to save the session data on every request.
 SESSION_SAVE_EVERY_REQUEST = False
-# Whether a user's session cookie expires when the Web browser is closed.
+# Whether a user's session cookie expires when the web browser is closed.
 SESSION_EXPIRE_AT_BROWSER_CLOSE = False
 # The module to store session data
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
@@ -520,6 +525,7 @@ PASSWORD_HASHERS = [
     'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
     'django.contrib.auth.hashers.Argon2PasswordHasher',
     'django.contrib.auth.hashers.BCryptSHA256PasswordHasher',
+    'django.contrib.auth.hashers.ScryptPasswordHasher',
 ]
 
 AUTH_PASSWORD_VALIDATORS = []

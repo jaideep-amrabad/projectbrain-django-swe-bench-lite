@@ -146,7 +146,8 @@ class WhereNode(tree.Node):
         value) tuples, or objects supporting .clone().
         """
         clone = self.__class__._new_instance(
-            children=[], connector=self.connector, negated=self.negated)
+            children=None, connector=self.connector, negated=self.negated,
+        )
         for child in self.children:
             if hasattr(child, 'clone'):
                 clone.children.append(child.clone())
@@ -181,10 +182,6 @@ class WhereNode(tree.Node):
     @cached_property
     def contains_over_clause(self):
         return self._contains_over_clause(self)
-
-    @property
-    def is_summary(self):
-        return any(child.is_summary for child in self.children)
 
     @staticmethod
     def _resolve_leaf(expr, query, *args, **kwargs):

@@ -291,10 +291,14 @@ class QuerySet:
                 'QuerySet indices must be integers or slices, not %s.'
                 % type(k).__name__
             )
-        assert ((not isinstance(k, slice) and (k >= 0)) or
-                (isinstance(k, slice) and (k.start is None or k.start >= 0) and
-                 (k.stop is None or k.stop >= 0))), \
-            "Negative indexing is not supported."
+        if (
+            (isinstance(k, int) and k < 0) or
+            (isinstance(k, slice) and (
+                (k.start is not None and k.start < 0) or
+                (k.stop is not None and k.stop < 0)
+            ))
+        ):
+            raise ValueError('Negative indexing is not supported.')
 
         if self._result_cache is not None:
             return self._result_cache[k]
@@ -321,6 +325,7 @@ class QuerySet:
         return cls
 
     def __and__(self, other):
+        self._check_operator_queryset(other, '&')
         self._merge_sanity_check(other)
         if isinstance(other, EmptyQuerySet):
             return other
@@ -332,6 +337,7 @@ class QuerySet:
         return combined
 
     def __or__(self, other):
+        self._check_operator_queryset(other, '|')
         self._merge_sanity_check(other)
         if isinstance(self, EmptyQuerySet):
             return other
@@ -480,7 +486,8 @@ class QuerySet:
         # PostgreSQL via the RETURNING ID clause. It should be possible for
         # Oracle as well, but the semantics for extracting the primary keys is
         # trickier so it's not done yet.
-        assert batch_size is None or batch_size > 0
+        if batch_size is not None and batch_size <= 0:
+            raise ValueError('Batch size must be a positive integer.')
         # Check that the parents share the same concrete model with the our
         # model to detect the inheritance pattern ConcreteGrandParent ->
         # MultiTableParent -> ProxyChild. Simply checking self.model._meta.proxy
@@ -491,7 +498,6 @@ class QuerySet:
         if not objs:
             return objs
         self._for_write = True
-        connection = connections[self.db]
         opts = self.model._meta
         fields = opts.concrete_fields
         objs = list(objs)
@@ -514,6 +520,7 @@ class QuerySet:
                 returned_columns = self._batched_insert(
                     objs_without_pk, fields, batch_size, ignore_conflicts=ignore_conflicts,
                 )
+                connection = connections[self.db]
                 if connection.features.can_return_rows_from_bulk_insert and not ignore_conflicts:
                     assert len(returned_columns) == len(objs_without_pk)
                 for obj_without_pk, results in zip(objs_without_pk, returned_columns):
@@ -544,9 +551,10 @@ class QuerySet:
             return 0
         # PK is used twice in the resulting update query, once in the filter
         # and once in the WHEN. Each field will also have one CAST.
-        max_batch_size = connections[self.db].ops.bulk_batch_size(['pk', 'pk'] + fields, objs)
+        connection = connections[self.db]
+        max_batch_size = connection.ops.bulk_batch_size(['pk', 'pk'] + fields, objs)
         batch_size = min(batch_size, max_batch_size) if batch_size else max_batch_size
-        requires_casting = connections[self.db].features.requires_casted_case_in_updates
+        requires_casting = connection.features.requires_casted_case_in_updates
         batches = (objs[i:i + batch_size] for i in range(0, len(objs), batch_size))
         updates = []
         for batch_objs in batches:
@@ -900,10 +908,10 @@ class QuerySet:
         Return a list of date objects representing all available dates for
         the given field_name, scoped to 'kind'.
         """
-        assert kind in ('year', 'month', 'week', 'day'), \
-            "'kind' must be one of 'year', 'month', 'week', or 'day'."
-        assert order in ('ASC', 'DESC'), \
-            "'order' must be either 'ASC' or 'DESC'."
+        if kind not in ('year', 'month', 'week', 'day'):
+            raise ValueError("'kind' must be one of 'year', 'month', 'week', or 'day'.")
+        if order not in ('ASC', 'DESC'):
+            raise ValueError("'order' must be either 'ASC' or 'DESC'.")
         return self.annotate(
             datefield=Trunc(field_name, kind, output_field=DateField()),
             plain_field=F(field_name)
@@ -911,15 +919,20 @@ class QuerySet:
             'datefield', flat=True
         ).distinct().filter(plain_field__isnull=False).order_by(('-' if order == 'DESC' else '') + 'datefield')
 
-    def datetimes(self, field_name, kind, order='ASC', tzinfo=None, is_dst=None):
+    # RemovedInDjango50Warning: when the deprecation ends, remove is_dst
+    # argument.
+    def datetimes(self, field_name, kind, order='ASC', tzinfo=None, is_dst=timezone.NOT_PASSED):
         """
         Return a list of datetime objects representing all available
         datetimes for the given field_name, scoped to 'kind'.
         """
-        assert kind in ('year', 'month', 'week', 'day', 'hour', 'minute', 'second'), \
-            "'kind' must be one of 'year', 'month', 'week', 'day', 'hour', 'minute', or 'second'."
-        assert order in ('ASC', 'DESC'), \
-            "'order' must be either 'ASC' or 'DESC'."
+        if kind not in ('year', 'month', 'week', 'day', 'hour', 'minute', 'second'):
+            raise ValueError(
+                "'kind' must be one of 'year', 'month', 'week', 'day', "
+                "'hour', 'minute', or 'second'."
+            )
+        if order not in ('ASC', 'DESC'):
+            raise ValueError("'order' must be either 'ASC' or 'DESC'.")
         if settings.USE_TZ:
             if tzinfo is None:
                 tzinfo = timezone.get_current_timezone()
@@ -1296,13 +1309,14 @@ class QuerySet:
         """
         Helper method for bulk_create() to insert objs one batch at a time.
         """
-        if ignore_conflicts and not connections[self.db].features.supports_ignore_conflicts:
+        connection = connections[self.db]
+        if ignore_conflicts and not connection.features.supports_ignore_conflicts:
             raise NotSupportedError('This database backend does not support ignoring conflicts.')
-        ops = connections[self.db].ops
+        ops = connection.ops
         max_batch_size = max(ops.bulk_batch_size(fields, objs), 1)
         batch_size = min(batch_size, max_batch_size) if batch_size else max_batch_size
         inserted_rows = []
-        bulk_return = connections[self.db].features.can_return_rows_from_bulk_insert
+        bulk_return = connection.features.can_return_rows_from_bulk_insert
         for item in [objs[i:i + batch_size] for i in range(0, len(objs), batch_size)]:
             if bulk_return and not ignore_conflicts:
                 inserted_rows.extend(self._insert(
@@ -1314,7 +1328,7 @@ class QuerySet:
                 self._insert(item, fields=fields, using=self.db, ignore_conflicts=ignore_conflicts)
         return inserted_rows
 
-    def _chain(self, **kwargs):
+    def _chain(self):
         """
         Return a copy of the current QuerySet that's ready for another
         operation.
@@ -1323,7 +1337,6 @@ class QuerySet:
         if obj._sticky_filter:
             obj.query.filter_is_sticky = True
             obj._sticky_filter = False
-        obj.__dict__.update(kwargs)
         return obj
 
     def _clone(self):
@@ -1421,6 +1434,10 @@ class QuerySet:
                 % (operation_name, self.query.combinator)
             )
 
+    def _check_operator_queryset(self, other, operator_):
+        if self.query.combinator or other.query.combinator:
+            raise TypeError(f'Cannot use {operator_} operator with combined queryset.')
+
 
 class InstanceCheckMeta(type):
     def __instancecheck__(self, instance):
@@ -1508,10 +1525,8 @@ class RawQuerySet:
     def iterator(self):
         # Cache some things for performance reasons outside the loop.
         db = self.db
-        compiler = connections[db].ops.compiler('SQLCompiler')(
-            self.query, connections[db], db
-        )
-
+        connection = connections[db]
+        compiler = connection.ops.compiler('SQLCompiler')(self.query, connection, db)
         query = iter(self.query)
 
         try:
@@ -1614,11 +1629,11 @@ class Prefetch:
     def __getstate__(self):
         obj_dict = self.__dict__.copy()
         if self.queryset is not None:
+            queryset = self.queryset._chain()
             # Prevent the QuerySet from being evaluated
-            obj_dict['queryset'] = self.queryset._chain(
-                _result_cache=[],
-                _prefetch_done=True,
-            )
+            queryset._result_cache = []
+            queryset._prefetch_done = True
+            obj_dict['queryset'] = queryset
         return obj_dict
 
     def add_prefix(self, prefix):

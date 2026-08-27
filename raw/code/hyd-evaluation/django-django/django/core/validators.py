@@ -1,12 +1,10 @@
 import ipaddress
 import re
-import warnings
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 from django.core.exceptions import ValidationError
 from django.utils.deconstruct import deconstructible
-from django.utils.deprecation import RemovedInDjango41Warning
 from django.utils.encoding import punycode
 from django.utils.ipv6 import is_valid_ipv6_address
 from django.utils.regex_helper import _lazy_re_compile
@@ -87,7 +85,7 @@ class URLValidator(RegexValidator):
         r'^(?:[a-z0-9.+-]*)://'  # scheme is validated separately
         r'(?:[^\s:@/]+(?::[^\s:@/]*)?@)?'  # user:pass authentication
         r'(?:' + ipv4_re + '|' + ipv6_re + '|' + host_re + ')'
-        r'(?::\d{2,5})?'  # port
+        r'(?::\d{1,5})?'  # port
         r'(?:[/?#][^\s]*)?'  # resource path
         r'\Z', re.IGNORECASE)
     message = _('Enter a valid URL.')
@@ -129,7 +127,7 @@ class URLValidator(RegexValidator):
                 raise
         else:
             # Now verify IPv6 in the netloc part
-            host_match = re.search(r'^\[(.+)\](?::\d{2,5})?$', urlsplit(value).netloc)
+            host_match = re.search(r'^\[(.+)\](?::\d{1,5})?$', urlsplit(value).netloc)
             if host_match:
                 potential_ip = host_match[1]
                 try:
@@ -170,38 +168,11 @@ class EmailValidator:
         re.IGNORECASE)
     literal_regex = _lazy_re_compile(
         # literal form, ipv4 or ipv6 address (SMTP 4.1.3)
-        r'\[([A-f0-9:.]+)\]\Z',
+        r'\[([A-F0-9:.]+)\]\Z',
         re.IGNORECASE)
     domain_allowlist = ['localhost']
 
-    @property
-    def domain_whitelist(self):
-        warnings.warn(
-            'The domain_whitelist attribute is deprecated in favor of '
-            'domain_allowlist.',
-            RemovedInDjango41Warning,
-            stacklevel=2,
-        )
-        return self.domain_allowlist
-
-    @domain_whitelist.setter
-    def domain_whitelist(self, allowlist):
-        warnings.warn(
-            'The domain_whitelist attribute is deprecated in favor of '
-            'domain_allowlist.',
-            RemovedInDjango41Warning,
-            stacklevel=2,
-        )
-        self.domain_allowlist = allowlist
-
-    def __init__(self, message=None, code=None, allowlist=None, *, whitelist=None):
-        if whitelist is not None:
-            allowlist = whitelist
-            warnings.warn(
-                'The whitelist argument is deprecated in favor of allowlist.',
-                RemovedInDjango41Warning,
-                stacklevel=2,
-            )
+    def __init__(self, message=None, code=None, allowlist=None):
         if message is not None:
             self.message = message
         if code is not None:

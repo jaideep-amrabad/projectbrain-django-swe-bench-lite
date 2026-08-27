@@ -1,4 +1,5 @@
 import logging
+import multiprocessing
 import os
 import unittest.loader
 from argparse import ArgumentParser
@@ -8,7 +9,7 @@ from unittest import TestSuite, TextTestRunner, defaultTestLoader, mock
 
 from django.db import connections
 from django.test import SimpleTestCase
-from django.test.runner import DiscoverRunner
+from django.test.runner import DiscoverRunner, get_max_test_processes
 from django.test.utils import (
     NullTimeKeeper, TimeKeeper, captured_stderr, captured_stdout,
 )
@@ -34,6 +35,55 @@ def change_loader_patterns(patterns):
         yield
     finally:
         DiscoverRunner.test_loader.testNamePatterns = original_patterns
+
+
+# Isolate from the real environment.
+@mock.patch.dict(os.environ, {}, clear=True)
+@mock.patch.object(multiprocessing, 'cpu_count', return_value=12)
+# Python 3.8 on macOS defaults to 'spawn' mode.
+@mock.patch.object(multiprocessing, 'get_start_method', return_value='fork')
+class DiscoverRunnerParallelArgumentTests(SimpleTestCase):
+    def get_parser(self):
+        parser = ArgumentParser()
+        DiscoverRunner.add_arguments(parser)
+        return parser
+
+    def test_parallel_default(self, *mocked_objects):
+        result = self.get_parser().parse_args([])
+        self.assertEqual(result.parallel, 0)
+
+    def test_parallel_flag(self, *mocked_objects):
+        result = self.get_parser().parse_args(['--parallel'])
+        self.assertEqual(result.parallel, 'auto')
+
+    def test_parallel_auto(self, *mocked_objects):
+        result = self.get_parser().parse_args(['--parallel', 'auto'])
+        self.assertEqual(result.parallel, 'auto')
+
+    def test_parallel_count(self, *mocked_objects):
+        result = self.get_parser().parse_args(['--parallel', '17'])
+        self.assertEqual(result.parallel, 17)
+
+    def test_parallel_invalid(self, *mocked_objects):
+        with self.assertRaises(SystemExit), captured_stderr() as stderr:
+            self.get_parser().parse_args(['--parallel', 'unaccepted'])
+        msg = "argument --parallel: 'unaccepted' is not an integer or the string 'auto'"
+        self.assertIn(msg, stderr.getvalue())
+
+    def test_get_max_test_processes(self, *mocked_objects):
+        self.assertEqual(get_max_test_processes(), 12)
+
+    @mock.patch.dict(os.environ, {'DJANGO_TEST_PROCESSES': '7'})
+    def test_get_max_test_processes_env_var(self, *mocked_objects):
+        self.assertEqual(get_max_test_processes(), 7)
+
+    def test_get_max_test_processes_spawn(
+        self, mocked_get_start_method, mocked_cpu_count,
+    ):
+        mocked_get_start_method.return_value = 'spawn'
+        self.assertEqual(get_max_test_processes(), 1)
+        with mock.patch.dict(os.environ, {'DJANGO_TEST_PROCESSES': '7'}):
+            self.assertEqual(get_max_test_processes(), 1)
 
 
 class DiscoverRunnerTests(SimpleTestCase):
@@ -407,6 +457,26 @@ class DiscoverRunnerTests(SimpleTestCase):
         suite = runner.build_suite(['test_runner_apps.tagged'])
         self.assertEqual(suite.processes, len(suite.subsuites))
 
+    def test_number_of_databases_parallel_test_suite(self):
+        """
+        Number of databases doesn't exceed the number of TestCases with
+        parallel tests.
+        """
+        runner = DiscoverRunner(parallel=8, verbosity=0)
+        suite = runner.build_suite(['test_runner_apps.tagged'])
+        self.assertEqual(suite.processes, len(suite.subsuites))
+        self.assertEqual(runner.parallel, suite.processes)
+
+    def test_number_of_databases_no_parallel_test_suite(self):
+        """
+        Number of databases doesn't exceed the number of TestCases with
+        non-parallel tests.
+        """
+        runner = DiscoverRunner(parallel=8, verbosity=0)
+        suite = runner.build_suite(['test_runner_apps.simple.tests.DjangoCase1'])
+        self.assertEqual(runner.parallel, 1)
+        self.assertIsInstance(suite, TestSuite)
+
     def test_buffer_mode_test_pass(self):
         runner = DiscoverRunner(buffer=True, verbosity=0)
         with captured_stdout() as stdout, captured_stderr() as stderr:
@@ -552,6 +622,27 @@ class DiscoverRunnerTests(SimpleTestCase):
                     runner = DiscoverRunner(verbosity=verbosity)
                     runner.log(msg, level)
                     self.assertEqual(stdout.getvalue(), f'{msg}\n' if output else '')
+
+    def test_log_logger(self):
+        logger = logging.getLogger('test.logging')
+        cases = [
+            (None, 'INFO:test.logging:log message'),
+            # Test a low custom logging level.
+            (5, 'Level 5:test.logging:log message'),
+            (logging.DEBUG, 'DEBUG:test.logging:log message'),
+            (logging.INFO, 'INFO:test.logging:log message'),
+            (logging.WARNING, 'WARNING:test.logging:log message'),
+            # Test a high custom logging level.
+            (45, 'Level 45:test.logging:log message'),
+        ]
+        for level, expected in cases:
+            with self.subTest(level=level):
+                runner = DiscoverRunner(logger=logger)
+                # Pass a logging level smaller than the smallest level in cases
+                # in order to capture all messages.
+                with self.assertLogs('test.logging', level=1) as cm:
+                    runner.log('log message', level)
+                self.assertEqual(cm.output, [expected])
 
 
 class DiscoverRunnerGetDatabasesTests(SimpleTestCase):

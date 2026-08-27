@@ -188,7 +188,9 @@ class TruncBase(TimezoneMixin, Transform):
     kind = None
     tzinfo = None
 
-    def __init__(self, expression, output_field=None, tzinfo=None, is_dst=None, **extra):
+    # RemovedInDjango50Warning: when the deprecation ends, remove is_dst
+    # argument.
+    def __init__(self, expression, output_field=None, tzinfo=None, is_dst=timezone.NOT_PASSED, **extra):
         self.tzinfo = tzinfo
         self.is_dst = is_dst
         super().__init__(expression, output_field=output_field, **extra)
@@ -214,9 +216,10 @@ class TruncBase(TimezoneMixin, Transform):
         copy = super().resolve_expression(query, allow_joins, reuse, summarize, for_save)
         field = copy.lhs.output_field
         # DateTimeField is a subclass of DateField so this works for both.
-        assert isinstance(field, (DateField, TimeField)), (
-            "%r isn't a DateField, TimeField, or DateTimeField." % field.name
-        )
+        if not isinstance(field, (DateField, TimeField)):
+            raise TypeError(
+                "%r isn't a DateField, TimeField, or DateTimeField." % field.name
+            )
         # If self.output_field was None, then accessing the field will trigger
         # the resolver to assign it to self.lhs.output_field.
         if not isinstance(copy.output_field, (DateField, DateTimeField, TimeField)):
@@ -263,7 +266,9 @@ class TruncBase(TimezoneMixin, Transform):
 
 class Trunc(TruncBase):
 
-    def __init__(self, expression, kind, output_field=None, tzinfo=None, is_dst=None, **extra):
+    # RemovedInDjango50Warning: when the deprecation ends, remove is_dst
+    # argument.
+    def __init__(self, expression, kind, output_field=None, tzinfo=None, is_dst=timezone.NOT_PASSED, **extra):
         self.kind = kind
         super().__init__(
             expression, output_field=output_field, tzinfo=tzinfo,
