@@ -711,6 +711,7 @@ class QuerySet:
 
     def delete(self):
         """Delete the records in the current QuerySet."""
+        self._not_support_combined_queries('delete')
         assert not self.query.is_sliced, \
             "Cannot use 'limit' or 'offset' with delete."
 
@@ -756,6 +757,7 @@ class QuerySet:
         Update all elements in the current QuerySet, setting all the given
         fields to the appropriate values.
         """
+        self._not_support_combined_queries('update')
         assert not self.query.is_sliced, \
             "Cannot update a query once a slice has been taken."
         self._for_write = True
@@ -1534,8 +1536,16 @@ class Prefetch:
         self.prefetch_through = lookup
         # `prefetch_to` is the path to the attribute that stores the result.
         self.prefetch_to = lookup
-        if queryset is not None and not issubclass(queryset._iterable_class, ModelIterable):
-            raise ValueError('Prefetch querysets cannot use values().')
+        if queryset is not None and (
+            isinstance(queryset, RawQuerySet) or (
+                hasattr(queryset, '_iterable_class') and
+                not issubclass(queryset._iterable_class, ModelIterable)
+            )
+        ):
+            raise ValueError(
+                'Prefetch querysets cannot use raw(), values(), and '
+                'values_list().'
+            )
         if to_attr:
             self.prefetch_to = LOOKUP_SEP.join(lookup.split(LOOKUP_SEP)[:-1] + [to_attr])
 

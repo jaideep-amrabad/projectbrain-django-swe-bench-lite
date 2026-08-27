@@ -158,8 +158,9 @@ class RegexPattern(CheckURLMixin):
             # If there are any named groups, use those as kwargs, ignoring
             # non-named groups. Otherwise, pass all non-named arguments as
             # positional arguments.
-            kwargs = {k: v for k, v in match.groupdict().items() if v is not None}
+            kwargs = match.groupdict()
             args = () if kwargs else match.groups()
+            kwargs = {k: v for k, v in kwargs.items() if v is not None}
             return path[match.end():], args, kwargs
         return None
 
@@ -631,11 +632,18 @@ class URLResolver:
                     candidate_subs = kwargs
                 # Convert the candidate subs to text using Converter.to_url().
                 text_candidate_subs = {}
+                match = True
                 for k, v in candidate_subs.items():
                     if k in converters:
-                        text_candidate_subs[k] = converters[k].to_url(v)
+                        try:
+                            text_candidate_subs[k] = converters[k].to_url(v)
+                        except ValueError:
+                            match = False
+                            break
                     else:
                         text_candidate_subs[k] = str(v)
+                if not match:
+                    continue
                 # WSGI provides decoded URLs, without %xx escapes, and the URL
                 # resolver operates on such URLs. First substitute arguments
                 # without quoting to build a decoded URL and look for a match.
