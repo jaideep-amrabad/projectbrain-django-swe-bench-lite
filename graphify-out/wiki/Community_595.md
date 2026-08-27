@@ -23,11 +23,11 @@
 
 ## Relationships
 
-- [Community 127](Community_127.md) (8 shared connections)
-- [Community 74](Community_74.md) (8 shared connections)
-- [Community 106](Community_106.md) (8 shared connections)
-- [Community 243](Community_243.md) (2 shared connections)
-- [Community 271](Community_271.md) (1 shared connections)
+- [Community 119](Community_119.md) (8 shared connections)
+- [Community 73](Community_73.md) (8 shared connections)
+- [Community 228](Community_228.md) (8 shared connections)
+- [Community 245](Community_245.md) (2 shared connections)
+- [Community 273](Community_273.md) (1 shared connections)
 
 ## Source Files
 

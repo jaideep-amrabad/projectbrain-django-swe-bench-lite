@@ -1,6 +1,6 @@
 # Community 4
 
-> 360 nodes · cohesion 0.01
+> 374 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -28,23 +28,23 @@
 - **import_library()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
 - **RenderingTemplatesWithPercentSigns** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
 - **TemplateTagLoadingTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **ContextDict** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- *... and 335 more nodes in this community*
+- **test_nodelist.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_nodelist.py`
+- *... and 349 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (82 shared connections)
-- [Community 7](Community_7.md) (30 shared connections)
-- [Community 9](Community_9.md) (20 shared connections)
-- [Community 5](Community_5.md) (17 shared connections)
-- [Community 39](Community_39.md) (15 shared connections)
-- [Community 11](Community_11.md) (12 shared connections)
+- [Community 1](Community_1.md) (86 shared connections)
+- [Community 10](Community_10.md) (23 shared connections)
+- [Community 15](Community_15.md) (19 shared connections)
+- [Community 18](Community_18.md) (15 shared connections)
+- [Community 5](Community_5.md) (14 shared connections)
+- [Community 7](Community_7.md) (13 shared connections)
 - [Community 474](Community_474.md) (10 shared connections)
-- [Community 247](Community_247.md) (8 shared connections)
-- [Community 73](Community_73.md) (8 shared connections)
-- [Community 27](Community_27.md) (7 shared connections)
-- [Community 453](Community_453.md) (5 shared connections)
-- [Community 181](Community_181.md) (5 shared connections)
+- [Community 249](Community_249.md) (8 shared connections)
+- [Community 71](Community_71.md) (8 shared connections)
+- [Community 86](Community_86.md) (6 shared connections)
+- [Community 112](Community_112.md) (5 shared connections)
+- [Community 452](Community_452.md) (5 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 773 (79%)
-- INFERRED: 200 (21%)
+- EXTRACTED: 797 (80%)
+- INFERRED: 200 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

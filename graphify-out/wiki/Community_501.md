@@ -28,8 +28,8 @@
 ## Relationships
 
 - [Community 473](Community_473.md) (4 shared connections)
-- [Community 390](Community_390.md) (2 shared connections)
-- [Community 250](Community_250.md) (1 shared connections)
+- [Community 410](Community_410.md) (2 shared connections)
+- [Community 252](Community_252.md) (1 shared connections)
 
 ## Source Files
 

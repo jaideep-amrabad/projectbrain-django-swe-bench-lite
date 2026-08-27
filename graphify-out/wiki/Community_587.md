@@ -24,10 +24,10 @@
 
 ## Relationships
 
-- [Community 487](Community_487.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
+- [Community 515](Community_515.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
 - [Community 5](Community_5.md) (1 shared connections)
-- [Community 121](Community_121.md) (1 shared connections)
+- [Community 116](Community_116.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 - [Community 209](Community_209.md) (1 shared connections)
 
