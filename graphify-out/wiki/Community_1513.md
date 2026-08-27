@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **foo/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/faulty_migrations/namespace/foo/__init__.py`
+- **model_formsets/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/faulty_migrations/namespace/foo/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/__init__.py`
 
 ## Audit Trail
 

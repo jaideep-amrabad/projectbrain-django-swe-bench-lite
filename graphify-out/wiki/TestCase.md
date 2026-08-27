@@ -2,7 +2,7 @@
 
 > God node · 973 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 600](Community_600.md)
+**Community:** [Community 21](Community_21.md)
 
 ## Connections by Relation
 
@@ -34,8 +34,8 @@
 ### inherits
 - AutodetectorTests `EXTRACTED`
 - TransactionTestCase `EXTRACTED`
-- ChangeListTests `EXTRACTED`
 - Queries1Tests `EXTRACTED`
+- ChangeListTests `EXTRACTED`
 - ClientTest `EXTRACTED`
 - CaseExpressionTests `EXTRACTED`
 - AggregateTestCase `EXTRACTED`

@@ -1,10 +1,11 @@
 # Community 442
 
-> 24 nodes · cohesion 0.13
+> 25 nodes · cohesion 0.13
 
 ## Key Concepts
 
 - **PasswordResetTokenGenerator** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
+- **test_tokens.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
 - **TokenGeneratorTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
 - **.check_token()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
 - **._make_token_with_timestamp()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
@@ -31,13 +32,15 @@
 
 ## Relationships
 
-- [Community 41](Community_41.md) (4 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 440](Community_440.md) (2 shared connections)
-- [Community 452](Community_452.md) (2 shared connections)
-- [Community 742](Community_742.md) (2 shared connections)
-- [Community 245](Community_245.md) (1 shared connections)
-- [Community 600](Community_600.md) (1 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 576](Community_576.md) (2 shared connections)
+- [Community 587](Community_587.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 712](Community_712.md) (2 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
@@ -46,8 +49,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 48 (92%)
-- INFERRED: 4 (8%)
+- EXTRACTED: 55 (93%)
+- INFERRED: 4 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

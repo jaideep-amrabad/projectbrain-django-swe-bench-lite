@@ -1,6 +1,6 @@
 # Community 106
 
-> 73 nodes · cohesion 0.04
+> 81 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -9,6 +9,7 @@
 - **GetOrCreateTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 - **get_or_create/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
 - **GetOrCreateTestsWithManualPKs** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **InvalidCreateArgumentsTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 - **Thing** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
 - **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
 - **GetOrCreateThroughManyToMany** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
@@ -28,20 +29,21 @@
 - **.test_get_or_create_invalid_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 - **.test_get_or_create_redundant_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 - **.test_get_or_create_with_model_property_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_with_pk_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- *... and 48 more nodes in this community*
+- *... and 56 more nodes in this community*
 
 ## Relationships
 
-- [Community 600](Community_600.md) (6 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 54](Community_54.md) (3 shared connections)
-- [Community 30](Community_30.md) (3 shared connections)
-- [Community 165](Community_165.md) (3 shared connections)
-- [Community 893](Community_893.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
-- [Community 245](Community_245.md) (1 shared connections)
+- [Community 21](Community_21.md) (6 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 92](Community_92.md) (3 shared connections)
+- [Community 377](Community_377.md) (3 shared connections)
+- [Community 173](Community_173.md) (3 shared connections)
+- [Community 22](Community_22.md) (1 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
@@ -50,8 +52,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 111 (85%)
-- INFERRED: 20 (15%)
+- EXTRACTED: 119 (86%)
+- INFERRED: 20 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---
