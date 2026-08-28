@@ -779,7 +779,13 @@ class Query(BaseExpression):
         # Only include fields mentioned in the mask.
         for field_name, field_mask in mask.items():
             field = opts.get_field(field_name)
-            field_select_mask = select_mask.setdefault(field, {})
+            # Retrieve the actual field associated with reverse relationships
+            # as that's what is expected in the select mask.
+            if field in opts.related_objects:
+                field_key = field.field
+            else:
+                field_key = field
+            field_select_mask = select_mask.setdefault(field_key, {})
             if field_mask:
                 if not field.is_relation:
                     raise FieldError(next(iter(field_mask)))
@@ -2014,10 +2020,11 @@ class Query(BaseExpression):
             lookup = lookup_class(pk.get_col(query.select[0].alias), pk.get_col(alias))
             query.where.add(lookup, AND)
             query.external_aliases[alias] = True
+        else:
+            lookup_class = select_field.get_lookup("exact")
+            lookup = lookup_class(col, ResolvedOuterRef(trimmed_prefix))
+            query.where.add(lookup, AND)
 
-        lookup_class = select_field.get_lookup("exact")
-        lookup = lookup_class(col, ResolvedOuterRef(trimmed_prefix))
-        query.where.add(lookup, AND)
         condition, needed_inner = self.build_filter(Exists(query))
 
         if contains_louter:
@@ -2029,11 +2036,10 @@ class Query(BaseExpression):
             )
             condition.add(or_null_condition, OR)
             # Note that the end result will be:
-            # (outercol NOT IN innerq AND outercol IS NOT NULL) OR outercol IS NULL.
-            # This might look crazy but due to how IN works, this seems to be
-            # correct. If the IS NOT NULL check is removed then outercol NOT
-            # IN will return UNKNOWN. If the IS NULL check is removed, then if
-            # outercol IS NULL we will not match the row.
+            #   NOT EXISTS (inner_q) OR outercol IS NULL
+            # this might look crazy but due to how NULL works, this seems to be
+            # correct. If the IS NULL check is removed, then if outercol
+            # IS NULL we will not match the row.
         return condition, needed_inner
 
     def set_empty(self):
