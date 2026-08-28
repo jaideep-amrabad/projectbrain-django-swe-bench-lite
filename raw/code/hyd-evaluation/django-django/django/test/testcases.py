@@ -1,6 +1,7 @@
 import asyncio
 import difflib
 import json
+import logging
 import posixpath
 import sys
 import threading
@@ -43,6 +44,7 @@ from django.test.utils import (
 )
 from django.utils.deprecation import RemovedInDjango41Warning
 from django.utils.functional import classproperty
+from django.utils.version import PY310
 from django.views.static import serve
 
 __all__ = ('TestCase', 'TransactionTestCase',
@@ -474,7 +476,7 @@ class SimpleTestCase(unittest.TestCase):
         """
         Assert that a response indicates that some content was retrieved
         successfully, (i.e., the HTTP status code was as expected) and that
-        ``text`` doesn't occurs in the content of the response.
+        ``text`` doesn't occur in the content of the response.
         """
         text_repr, real_count, msg_prefix = self._assert_contains(
             response, text, status_code, msg_prefix, html)
@@ -729,6 +731,29 @@ class SimpleTestCase(unittest.TestCase):
             self.assertWarns, 'warning', expected_warning, expected_message,
             *args, **kwargs
         )
+
+    # A similar method is available in Python 3.10+.
+    if not PY310:
+        @contextmanager
+        def assertNoLogs(self, logger, level=None):
+            """
+            Assert no messages are logged on the logger, with at least the
+            given level.
+            """
+            if isinstance(level, int):
+                level = logging.getLevelName(level)
+            elif level is None:
+                level = 'INFO'
+            try:
+                with self.assertLogs(logger, level) as cm:
+                    yield
+            except AssertionError as e:
+                msg = e.args[0]
+                expected_msg = f'no logs of level {level} or higher triggered on {logger}'
+                if msg != expected_msg:
+                    raise e
+            else:
+                self.fail(f'Unexpected logs found: {cm.output!r}')
 
     def assertFieldOutput(self, fieldclass, valid, invalid, field_args=None,
                           field_kwargs=None, empty_value=''):
@@ -1056,18 +1081,21 @@ class TransactionTestCase(SimpleTestCase):
                     "on a queryset when compared to string values. Set an "
                     "explicit 'transform' to silence this warning.",
                     category=RemovedInDjango41Warning,
+                    stacklevel=2,
                 )
                 transform = repr
         items = qs
         if transform is not None:
             items = map(transform, items)
         if not ordered:
-            return self.assertEqual(Counter(items), Counter(values), msg=msg)
+            return self.assertDictEqual(Counter(items), Counter(values), msg=msg)
         # For example qs.iterator() could be passed as qs, but it does not
         # have 'ordered' attribute.
         if len(values) > 1 and hasattr(qs, 'ordered') and not qs.ordered:
-            raise ValueError("Trying to compare non-ordered queryset "
-                             "against more than one ordered values")
+            raise ValueError(
+                'Trying to compare non-ordered queryset against more than one '
+                'ordered value.'
+            )
         return self.assertEqual(list(items), values, msg=msg)
 
     def assertNumQueries(self, num, func=None, *args, using=DEFAULT_DB_ALIAS, **kwargs):

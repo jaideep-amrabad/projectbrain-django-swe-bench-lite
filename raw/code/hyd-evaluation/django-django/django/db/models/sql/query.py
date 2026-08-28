@@ -574,8 +574,8 @@ class Query(BaseExpression):
         """
         assert self.model == rhs.model, \
             "Cannot combine queries on two different base models."
-        assert not self.is_sliced, \
-            "Cannot combine queries once a slice has been taken."
+        if self.is_sliced:
+            raise TypeError('Cannot combine queries once a slice has been taken.')
         assert self.distinct == rhs.distinct, \
             "Cannot combine a unique query with a non-unique query."
         assert self.distinct_fields == rhs.distinct_fields, \
@@ -1072,7 +1072,7 @@ class Query(BaseExpression):
     def get_external_cols(self):
         exprs = chain(self.annotations.values(), self.where.children)
         return [
-            col for col in self._gen_cols(exprs)
+            col for col in self._gen_cols(exprs, include_external=True)
             if col.alias in self.external_aliases
         ]
 
@@ -1707,12 +1707,17 @@ class Query(BaseExpression):
         return targets, joins[-1], joins
 
     @classmethod
-    def _gen_cols(cls, exprs):
+    def _gen_cols(cls, exprs, include_external=False):
         for expr in exprs:
             if isinstance(expr, Col):
                 yield expr
+            elif include_external and callable(getattr(expr, 'get_external_cols', None)):
+                yield from expr.get_external_cols()
             else:
-                yield from cls._gen_cols(expr.get_source_expressions())
+                yield from cls._gen_cols(
+                    expr.get_source_expressions(),
+                    include_external=include_external,
+                )
 
     @classmethod
     def _gen_col_aliases(cls, exprs):
