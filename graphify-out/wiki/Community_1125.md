@@ -10,10 +10,10 @@
 
 ## Relationships
 
-- [Community 593](Community_593.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 540](Community_540.md) (1 shared connections)
-- [Community 784](Community_784.md) (1 shared connections)
+- [Community 693](Community_693.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 517](Community_517.md) (1 shared connections)
+- [Community 714](Community_714.md) (1 shared connections)
 
 ## Source Files
 

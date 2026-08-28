@@ -9,8 +9,8 @@
 
 ## Relationships
 
-- [Community 849](Community_849.md) (1 shared connections)
-- [Community 848](Community_848.md) (1 shared connections)
+- [Community 842](Community_842.md) (1 shared connections)
+- [Community 841](Community_841.md) (1 shared connections)
 
 ## Source Files
 

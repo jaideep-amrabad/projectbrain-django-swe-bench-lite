@@ -33,7 +33,7 @@
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
 
 ## Source Files
 

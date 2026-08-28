@@ -30,8 +30,8 @@
 
 ## Relationships
 
-- [Community 9](Community_9.md) (5 shared connections)
-- [Community 615](Community_615.md) (2 shared connections)
+- [Community 32](Community_32.md) (5 shared connections)
+- [Community 613](Community_613.md) (2 shared connections)
 
 ## Source Files
 

@@ -1,6 +1,6 @@
 # Community 10
 
-> 280 nodes · cohesion 0.01
+> 282 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
 - **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/or_lookups/models.py`
 - **.test_check_constraint_timedelta_param()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- *... and 255 more nodes in this community*
+- *... and 257 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (40 shared connections)
-- [Community 19](Community_19.md) (35 shared connections)
-- [Community 21](Community_21.md) (34 shared connections)
-- [Community 16](Community_16.md) (27 shared connections)
-- [Community 38](Community_38.md) (27 shared connections)
-- [Community 40](Community_40.md) (23 shared connections)
-- [Community 129](Community_129.md) (18 shared connections)
-- [Community 67](Community_67.md) (17 shared connections)
-- [Community 3](Community_3.md) (12 shared connections)
-- [Community 35](Community_35.md) (12 shared connections)
+- [Community 11](Community_11.md) (40 shared connections)
+- [Community 18](Community_18.md) (38 shared connections)
+- [Community 19](Community_19.md) (34 shared connections)
+- [Community 15](Community_15.md) (27 shared connections)
+- [Community 35](Community_35.md) (27 shared connections)
+- [Community 38](Community_38.md) (21 shared connections)
+- [Community 130](Community_130.md) (19 shared connections)
+- [Community 86](Community_86.md) (17 shared connections)
+- [Community 4](Community_4.md) (12 shared connections)
+- [Community 37](Community_37.md) (12 shared connections)
 - [Community 110](Community_110.md) (9 shared connections)
-- [Community 29](Community_29.md) (9 shared connections)
+- [Community 23](Community_23.md) (9 shared connections)
 
 ## Source Files
 
@@ -65,8 +65,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 791 (90%)
-- INFERRED: 84 (10%)
+- EXTRACTED: 794 (90%)
+- INFERRED: 85 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

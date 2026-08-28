@@ -12,7 +12,7 @@
 ## Relationships
 
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 388](Community_388.md) (1 shared connections)
+- [Community 384](Community_384.md) (1 shared connections)
 
 ## Source Files
 

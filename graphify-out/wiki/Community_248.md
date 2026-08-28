@@ -1,6 +1,6 @@
 # Community 248
 
-> 35 nodes · cohesion 0.07
+> 37 nodes · cohesion 0.07
 
 ## Key Concepts
 
@@ -17,6 +17,7 @@
 - **.get_all_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
 - **._get_user_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
 - **.has_module_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.user_can_authenticate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
 - **ImportedModelBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 - **CustomModelBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 - **.has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
@@ -28,22 +29,21 @@
 - **CustomModelBackend** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 - **NewModelBackend** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 - **OtherModelBackend** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **TestClientBackend** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/auth_backends.py`
-- *... and 10 more nodes in this community*
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (9 shared connections)
-- [Community 46](Community_46.md) (7 shared connections)
+- [Community 14](Community_14.md) (9 shared connections)
+- [Community 62](Community_62.md) (7 shared connections)
 - [Community 8](Community_8.md) (4 shared connections)
-- [Community 513](Community_513.md) (3 shared connections)
-- [Community 860](Community_860.md) (2 shared connections)
+- [Community 514](Community_514.md) (3 shared connections)
+- [Community 897](Community_897.md) (2 shared connections)
 - [Community 51](Community_51.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 805](Community_805.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 582](Community_582.md) (1 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 317](Community_317.md) (1 shared connections)
+- [Community 639](Community_639.md) (1 shared connections)
 
 ## Source Files
 
@@ -58,8 +58,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 72 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 73 (94%)
+- INFERRED: 5 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

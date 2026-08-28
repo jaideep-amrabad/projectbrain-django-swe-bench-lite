@@ -34,10 +34,9 @@
 ## Relationships
 
 - [Community 429](Community_429.md) (9 shared connections)
-- [Community 760](Community_760.md) (4 shared connections)
-- [Community 195](Community_195.md) (4 shared connections)
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 25](Community_25.md) (4 shared connections)
+- [Community 757](Community_757.md) (4 shared connections)
+- [Community 200](Community_200.md) (4 shared connections)
 
 ## Source Files
 
