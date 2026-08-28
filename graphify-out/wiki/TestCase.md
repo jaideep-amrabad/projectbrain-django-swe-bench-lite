@@ -24,8 +24,8 @@
 - admin_filters/tests.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
 - admin_inlines/tests.py `EXTRACTED`
-- urlpatterns_reverse/tests.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
+- urlpatterns_reverse/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
@@ -42,8 +42,8 @@
 - BasicExpressionsTests `EXTRACTED`
 - AggregationTests `EXTRACTED`
 - TestQuerying `EXTRACTED`
-- BulkCreateTests `EXTRACTED`
 - ModelFormsetTest `EXTRACTED`
+- BulkCreateTests `EXTRACTED`
 - NonAggregateAnnotationTestCase `EXTRACTED`
 - LookupTests `EXTRACTED`
 - TestInline `EXTRACTED`

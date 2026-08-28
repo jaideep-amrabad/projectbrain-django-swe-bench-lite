@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **field_deconstruction/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/__init__.py`
+- **custom_managers/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/__init__.py`
 
 ## Audit Trail
 

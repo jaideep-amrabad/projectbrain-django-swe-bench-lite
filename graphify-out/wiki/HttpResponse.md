@@ -38,7 +38,7 @@
 - test_utils/tests.py `EXTRACTED`
 - auth_tests/test_views.py `EXTRACTED`
 - test_client/views.py `EXTRACTED`
-- test_debug.py `EXTRACTED`
+- tests/test_debug.py `EXTRACTED`
 - view_tests/views.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
@@ -51,7 +51,7 @@
 - patterns/tests.py `EXTRACTED`
 - auth_tests/urls.py `EXTRACTED`
 - sites_tests/tests.py `EXTRACTED`
-- urls/http.py `EXTRACTED`
+- test_client/tests.py `EXTRACTED`
 
 ### inherits
 - HttpResponseBase `EXTRACTED`

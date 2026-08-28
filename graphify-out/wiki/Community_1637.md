@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **select_related_regress/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/__init__.py`
+- **nested_foreign_keys/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/__init__.py`
 
 ## Audit Trail
 

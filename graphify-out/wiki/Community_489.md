@@ -30,9 +30,9 @@
 
 ## Relationships
 
-- [Community 105](Community_105.md) (7 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
+- [Community 707](Community_707.md) (7 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
