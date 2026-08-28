@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **absolute_root.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/absolute_root.js`
+- **_util.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_private/_util.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/absolute_root.js`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_private/_util.py`
 
 ## Audit Trail
 

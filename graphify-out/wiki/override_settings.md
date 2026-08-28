@@ -1,8 +1,8 @@
 # override_settings
 
-> God node · 1375 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+> God node · 1381 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
-**Community:** [Community 6](Community_6.md)
+**Community:** [Community 76](Community_76.md)
 
 ## Connections by Relation
 
@@ -39,14 +39,14 @@
 - admin_changelist/tests.py `EXTRACTED`
 - i18n/tests.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
+- admin_scripts/tests.py `EXTRACTED`
 - test_auth_backends.py `EXTRACTED`
 - auth_tests/test_views.py `EXTRACTED`
-- admin_scripts/tests.py `EXTRACTED`
 - test_debug.py `EXTRACTED`
+- admin_filters/tests.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
 - test_array.py `EXTRACTED`
 - admin_inlines/tests.py `EXTRACTED`
-- admin_filters/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
@@ -56,7 +56,6 @@
 ### inherits
 - modify_settings `EXTRACTED`
 - TestContextDecorator `EXTRACTED`
-- override_settings_tags `EXTRACTED`
 
 ### method
 - .enable() `EXTRACTED`

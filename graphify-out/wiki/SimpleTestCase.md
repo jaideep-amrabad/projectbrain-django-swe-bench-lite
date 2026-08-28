@@ -1,8 +1,8 @@
 # SimpleTestCase
 
-> God node · 1300 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1311 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 7](Community_7.md)
+**Community:** [Community 8](Community_8.md)
 
 ## Connections by Relation
 
@@ -16,10 +16,10 @@
 - model_forms/tests.py `EXTRACTED`
 - cache/tests.py `EXTRACTED`
 - i18n/tests.py `EXTRACTED`
-- expressions/tests.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
-- test_auth_backends.py `EXTRACTED`
+- expressions/tests.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
+- test_auth_backends.py `EXTRACTED`
 - test_debug.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
@@ -38,8 +38,8 @@
 - GEOSTest `EXTRACTED`
 - FormsFormsetTestCase `EXTRACTED`
 - SystemChecksTestCase `EXTRACTED`
-- WriterTests `EXTRACTED`
 - DiscoverRunnerTests `EXTRACTED`
+- WriterTests `EXTRACTED`
 - WidgetTest `EXTRACTED`
 - MailTests `EXTRACTED`
 - AdminScriptTestCase `EXTRACTED`
@@ -58,10 +58,14 @@
 - ._setup_and_call() `EXTRACTED`
 - .assertRedirects() `EXTRACTED`
 - .setUpClass() `EXTRACTED`
+- ._check_test_client_response() `EXTRACTED`
 - ._validate_databases() `EXTRACTED`
 - ._add_databases_failures() `EXTRACTED`
 - .modify_settings() `EXTRACTED`
 - ._assert_contains() `EXTRACTED`
+- .assertFormError() `EXTRACTED`
+- .assertFormsetError() `EXTRACTED`
+- ._assert_template_used() `EXTRACTED`
 - .assertTemplateUsed() `EXTRACTED`
 - .assertTemplateNotUsed() `EXTRACTED`
 - ._assertFooMessage() `EXTRACTED`
@@ -70,10 +74,6 @@
 - .assertURLEqual() `EXTRACTED`
 - .assertContains() `EXTRACTED`
 - .assertNotContains() `EXTRACTED`
-- .assertFormError() `EXTRACTED`
-- .assertFormsetError() `EXTRACTED`
-- ._assert_template_used() `EXTRACTED`
-- ._assert_raises_or_warns_cm() `EXTRACTED`
 
 ---
 
