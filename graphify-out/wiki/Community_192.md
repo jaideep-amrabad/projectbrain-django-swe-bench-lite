@@ -34,11 +34,11 @@
 ## Relationships
 
 - [Community 2](Community_2.md) (12 shared connections)
-- [Community 105](Community_105.md) (1 shared connections)
-- [Community 591](Community_591.md) (1 shared connections)
-- [Community 114](Community_114.md) (1 shared connections)
-- [Community 307](Community_307.md) (1 shared connections)
-- [Community 297](Community_297.md) (1 shared connections)
+- [Community 102](Community_102.md) (1 shared connections)
+- [Community 590](Community_590.md) (1 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 303](Community_303.md) (1 shared connections)
+- [Community 294](Community_294.md) (1 shared connections)
 - [Community 70](Community_70.md) (1 shared connections)
 - [Community 53](Community_53.md) (1 shared connections)
 - [Community 373](Community_373.md) (1 shared connections)

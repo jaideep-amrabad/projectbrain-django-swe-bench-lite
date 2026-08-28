@@ -1,6 +1,6 @@
 # Community 2
 
-> 842 nodes · cohesion 0.01
+> 840 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **related.py** (66 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
 - **admin/utils.py** (63 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
 - **test_array.py** (63 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- *... and 817 more nodes in this community*
+- *... and 815 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (227 shared connections)
-- [Community 33](Community_33.md) (194 shared connections)
+- [Community 4](Community_4.md) (243 shared connections)
+- [Community 36](Community_36.md) (194 shared connections)
+- [Community 48](Community_48.md) (157 shared connections)
 - [Community 0](Community_0.md) (150 shared connections)
-- [Community 21](Community_21.md) (146 shared connections)
-- [Community 3](Community_3.md) (137 shared connections)
-- [Community 591](Community_591.md) (135 shared connections)
+- [Community 3](Community_3.md) (147 shared connections)
+- [Community 20](Community_20.md) (146 shared connections)
 - [Community 17](Community_17.md) (125 shared connections)
-- [Community 1](Community_1.md) (103 shared connections)
-- [Community 245](Community_245.md) (99 shared connections)
-- [Community 45](Community_45.md) (85 shared connections)
-- [Community 9](Community_9.md) (75 shared connections)
-- [Community 27](Community_27.md) (57 shared connections)
+- [Community 590](Community_590.md) (123 shared connections)
+- [Community 1](Community_1.md) (105 shared connections)
+- [Community 364](Community_364.md) (99 shared connections)
+- [Community 26](Community_26.md) (57 shared connections)
+- [Community 133](Community_133.md) (46 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 6555 (97%)
-- INFERRED: 217 (3%)
+- EXTRACTED: 6559 (97%)
+- INFERRED: 220 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

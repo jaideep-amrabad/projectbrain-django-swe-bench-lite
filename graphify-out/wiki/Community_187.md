@@ -1,6 +1,6 @@
 # Community 187
 
-> 54 nodes · cohesion 0.05
+> 58 nodes · cohesion 0.05
 
 ## Key Concepts
 
@@ -24,27 +24,27 @@
 - **.test_full_clear()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **.from_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
 - **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
 - **.test_not_a_directory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_file_mode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_filefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
-- **.test_filefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
-- **.test_filefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
-- *... and 29 more nodes in this community*
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
 - [Community 2](Community_2.md) (8 shared connections)
 - [Community 3](Community_3.md) (7 shared connections)
-- [Community 96](Community_96.md) (7 shared connections)
-- [Community 423](Community_423.md) (5 shared connections)
-- [Community 221](Community_221.md) (5 shared connections)
-- [Community 24](Community_24.md) (4 shared connections)
-- [Community 36](Community_36.md) (3 shared connections)
-- [Community 157](Community_157.md) (3 shared connections)
-- [Community 333](Community_333.md) (3 shared connections)
+- [Community 93](Community_93.md) (7 shared connections)
+- [Community 427](Community_427.md) (5 shared connections)
+- [Community 212](Community_212.md) (5 shared connections)
+- [Community 30](Community_30.md) (4 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 158](Community_158.md) (3 shared connections)
+- [Community 331](Community_331.md) (3 shared connections)
 - [Community 17](Community_17.md) (3 shared connections)
-- [Community 230](Community_230.md) (2 shared connections)
-- [Community 60](Community_60.md) (2 shared connections)
+- [Community 228](Community_228.md) (2 shared connections)
+- [Community 63](Community_63.md) (2 shared connections)
 
 ## Source Files
 
@@ -58,7 +58,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 118 (85%)
+- EXTRACTED: 122 (85%)
 - INFERRED: 21 (15%)
 - AMBIGUOUS: 0 (0%)
 

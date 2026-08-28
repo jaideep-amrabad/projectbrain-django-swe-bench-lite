@@ -11,10 +11,10 @@
 
 ## Relationships
 
-- [Community 681](Community_681.md) (4 shared connections)
-- [Community 574](Community_574.md) (2 shared connections)
-- [Community 319](Community_319.md) (2 shared connections)
-- [Community 998](Community_998.md) (1 shared connections)
+- [Community 676](Community_676.md) (4 shared connections)
+- [Community 576](Community_576.md) (2 shared connections)
+- [Community 317](Community_317.md) (2 shared connections)
+- [Community 996](Community_996.md) (1 shared connections)
 
 ## Source Files
 

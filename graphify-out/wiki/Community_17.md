@@ -1,6 +1,6 @@
 # Community 17
 
-> 277 nodes · cohesion 0.02
+> 269 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **test_iriencode.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
 - **test_unordered_list.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
 - **TimezoneTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/timezone_utils.py`
-- *... and 252 more nodes in this community*
+- *... and 244 more nodes in this community*
 
 ## Relationships
 
 - [Community 4](Community_4.md) (137 shared connections)
 - [Community 2](Community_2.md) (125 shared connections)
-- [Community 6](Community_6.md) (106 shared connections)
-- [Community 26](Community_26.md) (100 shared connections)
-- [Community 51](Community_51.md) (92 shared connections)
+- [Community 6](Community_6.md) (105 shared connections)
+- [Community 29](Community_29.md) (100 shared connections)
+- [Community 55](Community_55.md) (92 shared connections)
 - [Community 8](Community_8.md) (62 shared connections)
-- [Community 11](Community_11.md) (50 shared connections)
-- [Community 12](Community_12.md) (26 shared connections)
-- [Community 21](Community_21.md) (22 shared connections)
-- [Community 33](Community_33.md) (19 shared connections)
-- [Community 9](Community_9.md) (19 shared connections)
-- [Community 45](Community_45.md) (17 shared connections)
+- [Community 10](Community_10.md) (49 shared connections)
+- [Community 48](Community_48.md) (23 shared connections)
+- [Community 20](Community_20.md) (22 shared connections)
+- [Community 16](Community_16.md) (20 shared connections)
+- [Community 36](Community_36.md) (19 shared connections)
+- [Community 196](Community_196.md) (15 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 2398 (100%)
-- INFERRED: 5 (0%)
+- EXTRACTED: 2385 (100%)
+- INFERRED: 4 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
