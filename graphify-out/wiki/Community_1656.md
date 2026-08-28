@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **known_related_objects/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/__init__.py`
+- **many_to_many/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/known_related_objects/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/__init__.py`
 
 ## Audit Trail
 

@@ -1,6 +1,6 @@
 # Community 0
 
-> 770 nodes · cohesion 0.01
+> 765 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **basic/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 - **test_autodetector.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **migrations/test_operations.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- *... and 745 more nodes in this community*
+- *... and 740 more nodes in this community*
 
 ## Relationships
 
-- [Community 13](Community_13.md) (192 shared connections)
-- [Community 403](Community_403.md) (183 shared connections)
-- [Community 5](Community_5.md) (178 shared connections)
-- [Community 630](Community_630.md) (174 shared connections)
-- [Community 32](Community_32.md) (146 shared connections)
-- [Community 24](Community_24.md) (128 shared connections)
-- [Community 4](Community_4.md) (100 shared connections)
-- [Community 1](Community_1.md) (98 shared connections)
-- [Community 47](Community_47.md) (98 shared connections)
-- [Community 681](Community_681.md) (91 shared connections)
-- [Community 55](Community_55.md) (87 shared connections)
-- [Community 154](Community_154.md) (73 shared connections)
+- [Community 4](Community_4.md) (177 shared connections)
+- [Community 1](Community_1.md) (174 shared connections)
+- [Community 34](Community_34.md) (162 shared connections)
+- [Community 691](Community_691.md) (155 shared connections)
+- [Community 3](Community_3.md) (149 shared connections)
+- [Community 18](Community_18.md) (102 shared connections)
+- [Community 8](Community_8.md) (96 shared connections)
+- [Community 39](Community_39.md) (95 shared connections)
+- [Community 680](Community_680.md) (90 shared connections)
+- [Community 485](Community_485.md) (89 shared connections)
+- [Community 59](Community_59.md) (87 shared connections)
+- [Community 17](Community_17.md) (79 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 6122 (100%)
-- INFERRED: 29 (0%)
+- EXTRACTED: 6108 (100%)
+- INFERRED: 28 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

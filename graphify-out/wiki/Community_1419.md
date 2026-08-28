@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **gis/db/backends/base/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/__init__.py`
+- **redirects/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/redirects/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/redirects/__init__.py`
 
 ## Audit Trail
 
