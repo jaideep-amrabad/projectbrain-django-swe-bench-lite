@@ -1,6 +1,6 @@
 # Community 5
 
-> 405 nodes · cohesion 0.01
+> 416 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -26,30 +26,32 @@
 - **Ref** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 - **.build_filter()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 - **TestQuery** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
+- **Col** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 - **comparison.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
 - **Transform** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **DeferredAttribute** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- *... and 380 more nodes in this community*
+- *... and 391 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (118 shared connections)
-- [Community 995](Community_995.md) (67 shared connections)
-- [Community 12](Community_12.md) (53 shared connections)
-- [Community 43](Community_43.md) (28 shared connections)
-- [Community 8](Community_8.md) (25 shared connections)
-- [Community 40](Community_40.md) (25 shared connections)
-- [Community 135](Community_135.md) (24 shared connections)
-- [Community 94](Community_94.md) (23 shared connections)
-- [Community 89](Community_89.md) (22 shared connections)
-- [Community 4](Community_4.md) (20 shared connections)
-- [Community 11](Community_11.md) (17 shared connections)
-- [Community 101](Community_101.md) (16 shared connections)
+- [Community 0](Community_0.md) (122 shared connections)
+- [Community 23](Community_23.md) (81 shared connections)
+- [Community 11](Community_11.md) (56 shared connections)
+- [Community 42](Community_42.md) (28 shared connections)
+- [Community 87](Community_87.md) (27 shared connections)
+- [Community 8](Community_8.md) (26 shared connections)
+- [Community 39](Community_39.md) (26 shared connections)
+- [Community 106](Community_106.md) (25 shared connections)
+- [Community 134](Community_134.md) (24 shared connections)
+- [Community 4](Community_4.md) (19 shared connections)
+- [Community 104](Community_104.md) (18 shared connections)
+- [Community 97](Community_97.md) (18 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
 - `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/constants.py`
@@ -66,13 +68,11 @@
 - `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1523 (97%)
-- INFERRED: 51 (3%)
+- EXTRACTED: 1560 (97%)
+- INFERRED: 54 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

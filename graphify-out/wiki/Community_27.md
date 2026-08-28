@@ -1,6 +1,6 @@
 # Community 27
 
-> 182 nodes · cohesion 0.01
+> 189 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -11,6 +11,7 @@
 - **._databases_names()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 - **._setup_and_call()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 - **._databases_support_transactions()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **NullInExcludeTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 - **Queries2Tests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 - **AsyncClientTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 - **SetupTestDataIsolationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
@@ -28,23 +29,22 @@
 - **._post_teardown()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 - **mysql/test_introspection.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
 - **DatabaseSequenceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
-- **empty/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
-- *... and 157 more nodes in this community*
+- *... and 164 more nodes in this community*
 
 ## Relationships
 
-- [Community 189](Community_189.md) (42 shared connections)
-- [Community 15](Community_15.md) (40 shared connections)
-- [Community 18](Community_18.md) (29 shared connections)
-- [Community 30](Community_30.md) (29 shared connections)
-- [Community 2](Community_2.md) (29 shared connections)
-- [Community 0](Community_0.md) (17 shared connections)
-- [Community 11](Community_11.md) (15 shared connections)
-- [Community 9](Community_9.md) (15 shared connections)
+- [Community 14](Community_14.md) (44 shared connections)
+- [Community 187](Community_187.md) (42 shared connections)
+- [Community 17](Community_17.md) (29 shared connections)
+- [Community 0](Community_0.md) (29 shared connections)
+- [Community 12](Community_12.md) (19 shared connections)
+- [Community 2](Community_2.md) (17 shared connections)
+- [Community 18](Community_18.md) (16 shared connections)
+- [Community 42](Community_42.md) (15 shared connections)
+- [Community 6](Community_6.md) (15 shared connections)
 - [Community 8](Community_8.md) (14 shared connections)
-- [Community 54](Community_54.md) (14 shared connections)
-- [Community 81](Community_81.md) (14 shared connections)
-- [Community 36](Community_36.md) (13 shared connections)
+- [Community 82](Community_82.md) (14 shared connections)
+- [Community 37](Community_37.md) (13 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 1263 (99%)
-- INFERRED: 8 (1%)
+- EXTRACTED: 1272 (99%)
+- INFERRED: 10 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

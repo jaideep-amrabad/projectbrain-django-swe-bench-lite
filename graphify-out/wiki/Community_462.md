@@ -32,9 +32,9 @@
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
-- [Community 79](Community_79.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
