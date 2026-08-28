@@ -503,7 +503,10 @@ class SQLCompiler:
                         part_sql = 'SELECT * FROM ({})'.format(part_sql)
                     # Add parentheses when combining with compound query if not
                     # already added for all compound queries.
-                    elif not features.supports_slicing_ordering_in_compound:
+                    elif (
+                        self.query.subquery or
+                        not features.supports_slicing_ordering_in_compound
+                    ):
                         part_sql = '({})'.format(part_sql)
                 parts += ((part_sql, part_args),)
             except EmptyResultSet:
@@ -517,7 +520,9 @@ class SQLCompiler:
         combinator_sql = self.connection.ops.set_operators[combinator]
         if all and combinator == 'union':
             combinator_sql += ' ALL'
-        braces = '({})' if features.supports_slicing_ordering_in_compound else '{}'
+        braces = '{}'
+        if not self.query.subquery and features.supports_slicing_ordering_in_compound:
+            braces = '({})'
         sql_parts, args_parts = zip(*((braces.format(sql), args) for sql, args in parts))
         result = [' {} '.format(combinator_sql).join(sql_parts)]
         params = []
@@ -1382,7 +1387,9 @@ class SQLInsertCompiler(SQLCompiler):
         # going to be column names (so we can avoid the extra overhead).
         qn = self.connection.ops.quote_name
         opts = self.query.get_meta()
-        insert_statement = self.connection.ops.insert_statement(ignore_conflicts=self.query.ignore_conflicts)
+        insert_statement = self.connection.ops.insert_statement(
+            on_conflict=self.query.on_conflict,
+        )
         result = ['%s %s' % (insert_statement, qn(opts.db_table))]
         fields = self.query.fields or [opts.pk]
         result.append('(%s)' % ', '.join(qn(f.column) for f in fields))
@@ -1405,8 +1412,11 @@ class SQLInsertCompiler(SQLCompiler):
 
         placeholder_rows, param_rows = self.assemble_as_sql(fields, value_rows)
 
-        ignore_conflicts_suffix_sql = self.connection.ops.ignore_conflicts_suffix_sql(
-            ignore_conflicts=self.query.ignore_conflicts
+        on_conflict_suffix_sql = self.connection.ops.on_conflict_suffix_sql(
+            fields,
+            self.query.on_conflict,
+            self.query.update_fields,
+            self.query.unique_fields,
         )
         if self.returning_fields and self.connection.features.can_return_columns_from_insert:
             if self.connection.features.can_return_rows_from_bulk_insert:
@@ -1415,8 +1425,8 @@ class SQLInsertCompiler(SQLCompiler):
             else:
                 result.append("VALUES (%s)" % ", ".join(placeholder_rows[0]))
                 params = [param_rows[0]]
-            if ignore_conflicts_suffix_sql:
-                result.append(ignore_conflicts_suffix_sql)
+            if on_conflict_suffix_sql:
+                result.append(on_conflict_suffix_sql)
             # Skip empty r_sql to allow subclasses to customize behavior for
             # 3rd party backends. Refs #19096.
             r_sql, self.returning_params = self.connection.ops.return_insert_columns(self.returning_fields)
@@ -1427,12 +1437,12 @@ class SQLInsertCompiler(SQLCompiler):
 
         if can_bulk:
             result.append(self.connection.ops.bulk_insert_sql(fields, placeholder_rows))
-            if ignore_conflicts_suffix_sql:
-                result.append(ignore_conflicts_suffix_sql)
+            if on_conflict_suffix_sql:
+                result.append(on_conflict_suffix_sql)
             return [(" ".join(result), tuple(p for ps in param_rows for p in ps))]
         else:
-            if ignore_conflicts_suffix_sql:
-                result.append(ignore_conflicts_suffix_sql)
+            if on_conflict_suffix_sql:
+                result.append(on_conflict_suffix_sql)
             return [
                 (" ".join(result + ["VALUES (%s)" % ", ".join(p)]), vals)
                 for p, vals in zip(placeholder_rows, param_rows)
