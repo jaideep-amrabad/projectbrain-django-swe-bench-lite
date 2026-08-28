@@ -1,8 +1,8 @@
 # SimpleTestCase
 
-> God node · 1301 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1299 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 11](Community_11.md)
+**Community:** [Community 0](Community_0.md)
 
 ## Connections by Relation
 
@@ -29,15 +29,15 @@
 - timezones/tests.py `EXTRACTED`
 - auth_tests/test_forms.py `EXTRACTED`
 - test_runner/tests.py `EXTRACTED`
-- file_storage/tests.py `EXTRACTED`
+- test/runner.py `EXTRACTED`
 
 ### inherits
 - TransactionTestCase `EXTRACTED`
-- FormsTestCase `EXTRACTED`
 - IfTagTests `EXTRACTED`
+- FormsTestCase `EXTRACTED`
 - GEOSTest `EXTRACTED`
-- SystemChecksTestCase `EXTRACTED`
 - FormsFormsetTestCase `EXTRACTED`
+- SystemChecksTestCase `EXTRACTED`
 - WriterTests `EXTRACTED`
 - DiscoverRunnerTests `EXTRACTED`
 - WidgetTest `EXTRACTED`

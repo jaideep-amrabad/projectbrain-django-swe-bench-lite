@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **test_no_submodule.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_no_submodule.py`
+- **tests/serializers/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_no_submodule.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/__init__.py`
 
 ## Audit Trail
 

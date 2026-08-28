@@ -1,54 +1,47 @@
 # Community 290
 
-> 19 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **template/context_processors.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **csrf()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **test_context_processor.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
-- **get_current_timezone_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **get_default_timezone_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **_get_timezone_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **TestContextProcessor** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
-- **.test_force_token_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
-- **media()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **static()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **A set of request processors that return dictionaries to be merged into a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **Context processor that provides a CSRF token, or the string 'NOTPROVIDED' if it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **Add static-related context variables to the context.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **Add media-related context variables to the context.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **request()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **Return the name of the default time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Return the name of the currently active time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Return the offset for fixed offset timezones, or the name of timezone if not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **ModelTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Event** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **.test_metaclass_can_access_attribute_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_timezones()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_chained_fks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_get_next_prev_by_field_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_related_gte_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_related_lte_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Regression test for #10153: foreign key __gte lookups.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_date_filter_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_date_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_empty_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_get_next_prev_by_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_long_textfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_long_unicode_textfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_primary_key_foreign_key_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Regression for #18432: Chained foreign keys with to_field produce incorrect…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Model metaclasses have access to the class attribute dict in __init__()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (7 shared connections)
-- [Community 64](Community_64.md) (4 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 73](Community_73.md) (3 shared connections)
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 189](Community_189.md) (2 shared connections)
-- [Community 304](Community_304.md) (2 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 787](Community_787.md) (1 shared connections)
+- [Community 454](Community_454.md) (8 shared connections)
+- [Community 528](Community_528.md) (3 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
+- [Community 737](Community_737.md) (1 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 27 (77%)
+- INFERRED: 8 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

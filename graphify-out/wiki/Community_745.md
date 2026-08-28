@@ -1,37 +1,51 @@
 # Community 745
 
-> 12 nodes · cohesion 0.24
+> 18 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **DatabaseCreationTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_create_test_db()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_create_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.patch_execute_statements()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_oracle_managed_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **object** (3 connections)
-- **._execute_raise_insufficient_privileges()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._execute_raise_tablespace_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._execute_raise_user_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._test_database_passwd()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **patch** (1 connections)
-- **skipUnless** (1 connections)
+- **punycode()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **smart_urlquote()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.handle_word()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **Urlizer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **CachedDnsName** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- **.get_fqdn()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.is_email_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.trim_punctuation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- **.trim_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.test_smart_urlquote()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **Return the Punycode of the given domain if it's non-ASCII.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **Quote a URL if it isn't already quoted.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **Convert any URLs in text into clickable links. Work on http://, https://, www.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **If trim_url_limit is not None, truncate the URLs in the link text longer than…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **Trim trailing and wrapping punctuation from `word`. Return the items of the new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **Return True if value looks like an email address.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 342](Community_342.md) (3 shared connections)
-- [Community 32](Community_32.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 165](Community_165.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 964](Community_964.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
+- [Community 588](Community_588.md) (1 shared connections)
+- [Community 377](Community_377.md) (1 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (89%)
-- INFERRED: 3 (11%)
+- EXTRACTED: 42 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

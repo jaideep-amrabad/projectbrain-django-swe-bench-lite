@@ -1,8 +1,8 @@
 # override_settings
 
-> God node · 1361 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+> God node · 1368 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
-**Community:** [Community 3](Community_3.md)
+**Community:** [Community 6](Community_6.md)
 
 ## Connections by Relation
 
@@ -11,6 +11,7 @@
 - .override_router() `EXTRACTED`
 - .settings() `EXTRACTED`
 - require_jinja2() `EXTRACTED`
+- jinja2_tests() `EXTRACTED`
 - .test_swappable_changed() `EXTRACTED`
 - .test_create_model4() `EXTRACTED`
 - .test_calendar_show_date_from_input() `EXTRACTED`
@@ -26,7 +27,6 @@
 - .test_media_static_dirs_ignored() `EXTRACTED`
 - .test_dont_set_if_set() `EXTRACTED`
 - .test_is_extendable() `EXTRACTED`
-- .test_response_exempt() `EXTRACTED`
 
 ### contains
 - test/utils.py `EXTRACTED`
@@ -45,8 +45,8 @@
 - test_debug.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
 - test_array.py `EXTRACTED`
-- admin_filters/tests.py `EXTRACTED`
 - admin_inlines/tests.py `EXTRACTED`
+- admin_filters/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
@@ -76,9 +76,9 @@
 - UrlTagTests `EXTRACTED`
 - DateFunctionTests `EXTRACTED`
 - TestUtilsHashPass `EXTRACTED`
+- CreatesuperuserManagementCommandTestCase `EXTRACTED`
 - AdminActionsTest `EXTRACTED`
 - NewDatabaseTests `EXTRACTED`
-- CreatesuperuserManagementCommandTestCase `EXTRACTED`
 - CommandTests `EXTRACTED`
 - FileUploadTests `EXTRACTED`
 - CommonMiddlewareTest `EXTRACTED`
