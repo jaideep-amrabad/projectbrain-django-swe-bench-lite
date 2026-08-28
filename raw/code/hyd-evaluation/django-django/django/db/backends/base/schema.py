@@ -11,7 +11,7 @@ from django.db.backends.ddl_references import (
     Statement,
     Table,
 )
-from django.db.backends.utils import names_digest, split_identifier
+from django.db.backends.utils import names_digest, split_identifier, truncate_name
 from django.db.models import Deferrable, Index
 from django.db.models.sql import Query
 from django.db.transaction import TransactionManagementError, atomic
@@ -1726,6 +1726,8 @@ class BaseDatabaseSchemaEditor:
         }
 
     def _create_check_sql(self, model, name, check):
+        if not self.connection.features.supports_table_check_constraints:
+            return None
         return Statement(
             self.sql_create_check,
             table=Table(model._meta.db_table, self.quote_name),
@@ -1760,7 +1762,11 @@ class BaseDatabaseSchemaEditor:
         """Return all constraint names matching the columns and conditions."""
         if column_names is not None:
             column_names = [
-                self.connection.introspection.identifier_converter(name)
+                self.connection.introspection.identifier_converter(
+                    truncate_name(name, self.connection.ops.max_name_length())
+                )
+                if self.connection.features.truncates_names
+                else self.connection.introspection.identifier_converter(name)
                 for name in column_names
             ]
         with self.connection.cursor() as cursor:
