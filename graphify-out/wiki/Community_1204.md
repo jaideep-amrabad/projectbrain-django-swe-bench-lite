@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **postgis/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/__init__.py`
+- **core/servers/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/servers/__init__.py`
 
 ## Audit Trail
 

@@ -1,6 +1,6 @@
 # Community 133
 
-> 78 nodes · cohesion 0.04
+> 80 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **.test_app_command_invalid_app_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.test_app_command_no_apps()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.test_app_command_some_invalid_app_labels()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- *... and 53 more nodes in this community*
+- *... and 55 more nodes in this community*
 
 ## Relationships
 
-- [Community 125](Community_125.md) (26 shared connections)
-- [Community 221](Community_221.md) (20 shared connections)
-- [Community 254](Community_254.md) (14 shared connections)
+- [Community 96](Community_96.md) (26 shared connections)
+- [Community 302](Community_302.md) (21 shared connections)
+- [Community 554](Community_554.md) (20 shared connections)
 - [Community 294](Community_294.md) (12 shared connections)
-- [Community 600](Community_600.md) (10 shared connections)
-- [Community 546](Community_546.md) (9 shared connections)
-- [Community 603](Community_603.md) (9 shared connections)
-- [Community 604](Community_604.md) (8 shared connections)
-- [Community 584](Community_584.md) (8 shared connections)
-- [Community 53](Community_53.md) (6 shared connections)
-- [Community 9](Community_9.md) (6 shared connections)
-- [Community 694](Community_694.md) (1 shared connections)
+- [Community 284](Community_284.md) (9 shared connections)
+- [Community 610](Community_610.md) (9 shared connections)
+- [Community 611](Community_611.md) (8 shared connections)
+- [Community 593](Community_593.md) (8 shared connections)
+- [Community 13](Community_13.md) (8 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 814](Community_814.md) (3 shared connections)
+- [Community 680](Community_680.md) (1 shared connections)
 
 ## Source Files
 
@@ -52,7 +52,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 243 (100%)
+- EXTRACTED: 247 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

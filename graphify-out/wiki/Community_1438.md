@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **known_related_objects/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/__init__.py`
+- **migration_test_data_persistence/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/known_related_objects/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/__init__.py`
 
 ## Audit Trail
 
