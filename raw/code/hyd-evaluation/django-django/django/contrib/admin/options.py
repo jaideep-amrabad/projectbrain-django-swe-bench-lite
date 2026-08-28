@@ -1,8 +1,7 @@
 import copy
 import json
-import operator
 import re
-from functools import partial, reduce, update_wrapper
+from functools import partial, update_wrapper
 from urllib.parse import quote as urlquote
 
 from django import forms
@@ -559,6 +558,7 @@ class ModelAdmin(BaseModelAdmin):
     list_max_show_all = 200
     list_editable = ()
     search_fields = ()
+    search_help_text = None
     date_hierarchy = None
     save_as = False
     save_as_continue = True
@@ -592,6 +592,12 @@ class ModelAdmin(BaseModelAdmin):
 
     def __str__(self):
         return "%s.%s" % (self.model._meta.app_label, self.__class__.__name__)
+
+    def __repr__(self):
+        return (
+            f'<{self.__class__.__qualname__}: model={self.model.__qualname__} '
+            f'site={self.admin_site!r}>'
+        )
 
     def get_inline_instances(self, request, obj=None):
         inline_instances = []
@@ -747,6 +753,7 @@ class ModelAdmin(BaseModelAdmin):
             self.list_editable,
             self,
             sortable_by,
+            self.search_help_text,
         )
 
     def get_object(self, request, object_id, from_field=None):
@@ -801,7 +808,7 @@ class ModelAdmin(BaseModelAdmin):
     def get_paginator(self, request, queryset, per_page, orphans=0, allow_empty_first_page=True):
         return self.paginator(queryset, per_page, orphans, allow_empty_first_page)
 
-    def log_addition(self, request, object, message):
+    def log_addition(self, request, obj, message):
         """
         Log that an object has been successfully added.
 
@@ -810,14 +817,14 @@ class ModelAdmin(BaseModelAdmin):
         from django.contrib.admin.models import ADDITION, LogEntry
         return LogEntry.objects.log_action(
             user_id=request.user.pk,
-            content_type_id=get_content_type_for_model(object).pk,
-            object_id=object.pk,
-            object_repr=str(object),
+            content_type_id=get_content_type_for_model(obj).pk,
+            object_id=obj.pk,
+            object_repr=str(obj),
             action_flag=ADDITION,
             change_message=message,
         )
 
-    def log_change(self, request, object, message):
+    def log_change(self, request, obj, message):
         """
         Log that an object has been successfully changed.
 
@@ -826,14 +833,14 @@ class ModelAdmin(BaseModelAdmin):
         from django.contrib.admin.models import CHANGE, LogEntry
         return LogEntry.objects.log_action(
             user_id=request.user.pk,
-            content_type_id=get_content_type_for_model(object).pk,
-            object_id=object.pk,
-            object_repr=str(object),
+            content_type_id=get_content_type_for_model(obj).pk,
+            object_id=obj.pk,
+            object_repr=str(obj),
             action_flag=CHANGE,
             change_message=message,
         )
 
-    def log_deletion(self, request, object, object_repr):
+    def log_deletion(self, request, obj, object_repr):
         """
         Log that an object will be deleted. Note that this method must be
         called before the deletion.
@@ -843,8 +850,8 @@ class ModelAdmin(BaseModelAdmin):
         from django.contrib.admin.models import DELETION, LogEntry
         return LogEntry.objects.log_action(
             user_id=request.user.pk,
-            content_type_id=get_content_type_for_model(object).pk,
-            object_id=object.pk,
+            content_type_id=get_content_type_for_model(obj).pk,
+            object_id=obj.pk,
             object_repr=object_repr,
             action_flag=DELETION,
         )
@@ -1027,9 +1034,11 @@ class ModelAdmin(BaseModelAdmin):
             for bit in smart_split(search_term):
                 if bit.startswith(('"', "'")) and bit[0] == bit[-1]:
                     bit = unescape_string_literal(bit)
-                or_queries = [models.Q(**{orm_lookup: bit})
-                              for orm_lookup in orm_lookups]
-                queryset = queryset.filter(reduce(operator.or_, or_queries))
+                or_queries = models.Q(
+                    *((orm_lookup, bit) for orm_lookup in orm_lookups),
+                    _connector=models.Q.OR,
+                )
+                queryset = queryset.filter(or_queries)
             may_have_duplicates |= any(
                 lookup_spawns_duplicates(self.opts, search_spec)
                 for search_spec in orm_lookups

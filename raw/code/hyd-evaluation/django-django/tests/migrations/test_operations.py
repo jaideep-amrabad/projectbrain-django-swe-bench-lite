@@ -8,6 +8,7 @@ from django.db.migrations.state import ModelState, ProjectState
 from django.db.models.functions import Abs
 from django.db.transaction import atomic
 from django.test import SimpleTestCase, override_settings, skipUnlessDBFeature
+from django.test.utils import CaptureQueriesContext
 
 from .models import FoodManager, FoodQuerySet, UnicodeModel
 from .test_base import OperationTestBase
@@ -1504,6 +1505,79 @@ class OperationTests(OperationTestBase):
             operation.database_backwards("test_alflpkfk", editor, new_state, project_state)
         assertIdTypeEqualsFkType()
 
+    def test_alter_field_pk_mti_fk(self):
+        app_label = 'test_alflpkmtifk'
+        project_state = self.set_up_test_model(app_label, mti_model=True)
+        project_state = self.apply_operations(app_label, project_state, [
+            migrations.CreateModel('ShetlandRider', fields=[
+                (
+                    'pony',
+                    models.ForeignKey(f'{app_label}.ShetlandPony', models.CASCADE),
+                ),
+            ]),
+        ])
+        operation = migrations.AlterField(
+            'Pony',
+            'id',
+            models.BigAutoField(primary_key=True),
+        )
+        new_state = project_state.clone()
+        operation.state_forwards(app_label, new_state)
+        self.assertIsInstance(
+            new_state.models[app_label, 'pony'].fields['id'],
+            models.BigAutoField,
+        )
+
+        def _get_column_id_type(cursor, table, column):
+            return [
+                c.type_code
+                for c in connection.introspection.get_table_description(
+                    cursor,
+                    f'{app_label}_{table}',
+                )
+                if c.name == column
+            ][0]
+
+        def assertIdTypeEqualsMTIFkType():
+            with connection.cursor() as cursor:
+                parent_id_type = _get_column_id_type(cursor, 'pony', 'id')
+                child_id_type = _get_column_id_type(cursor, 'shetlandpony', 'pony_ptr_id')
+                mti_id_type = _get_column_id_type(cursor, 'shetlandrider', 'pony_id')
+            self.assertEqual(parent_id_type, child_id_type)
+            self.assertEqual(parent_id_type, mti_id_type)
+
+        assertIdTypeEqualsMTIFkType()
+        # Alter primary key.
+        with connection.schema_editor() as editor:
+            operation.database_forwards(app_label, editor, project_state, new_state)
+        assertIdTypeEqualsMTIFkType()
+        if connection.features.supports_foreign_keys:
+            self.assertFKExists(
+                f'{app_label}_shetlandpony',
+                ['pony_ptr_id'],
+                (f'{app_label}_pony', 'id'),
+            )
+            self.assertFKExists(
+                f'{app_label}_shetlandrider',
+                ['pony_id'],
+                (f'{app_label}_shetlandpony', 'pony_ptr_id'),
+            )
+        # Reversal.
+        with connection.schema_editor() as editor:
+            operation.database_backwards(app_label, editor, new_state, project_state)
+        assertIdTypeEqualsMTIFkType()
+        if connection.features.supports_foreign_keys:
+            self.assertFKExists(
+                f'{app_label}_shetlandpony',
+                ['pony_ptr_id'],
+                (f'{app_label}_pony', 'id'),
+            )
+            self.assertFKExists(
+                f'{app_label}_shetlandrider',
+                ['pony_id'],
+                (f'{app_label}_shetlandpony', 'pony_ptr_id'),
+            )
+
     @skipUnlessDBFeature('supports_foreign_keys')
     def test_alter_field_reloads_state_on_fk_with_to_field_target_type_change(self):
         app_label = 'test_alflrsfkwtflttc'
@@ -2395,7 +2469,7 @@ class OperationTests(OperationTestBase):
         self.assertEqual(len(new_state.models[app_label, 'pony'].options['constraints']), 1)
         Pony = new_state.apps.get_model(app_label, 'Pony')
         self.assertEqual(len(Pony._meta.constraints), 1)
-        with connection.schema_editor() as editor:
+        with connection.schema_editor() as editor, CaptureQueriesContext(connection) as ctx:
             operation.database_forwards(app_label, editor, project_state, new_state)
         Pony.objects.create(pink=1, weight=4.0)
         if connection.features.supports_deferrable_unique_constraints:
@@ -2413,6 +2487,7 @@ class OperationTests(OperationTestBase):
                     obj.pink = 3
                     obj.save()
         else:
+            self.assertEqual(len(ctx), 0)
             Pony.objects.create(pink=1, weight=4.0)
         # Reversal.
         with connection.schema_editor() as editor:
@@ -2447,11 +2522,13 @@ class OperationTests(OperationTestBase):
         self.assertEqual(len(new_state.models[app_label, 'pony'].options['constraints']), 0)
         Pony = new_state.apps.get_model(app_label, 'Pony')
         self.assertEqual(len(Pony._meta.constraints), 0)
-        with connection.schema_editor() as editor:
+        with connection.schema_editor() as editor, CaptureQueriesContext(connection) as ctx:
             operation.database_forwards(app_label, editor, project_state, new_state)
         # Constraint doesn't work.
         Pony.objects.create(pink=1, weight=4.0)
         Pony.objects.create(pink=1, weight=4.0).delete()
+        if not connection.features.supports_deferrable_unique_constraints:
+            self.assertEqual(len(ctx), 0)
         # Reversal.
         with connection.schema_editor() as editor:
             operation.database_backwards(app_label, editor, new_state, project_state)
@@ -2499,13 +2576,14 @@ class OperationTests(OperationTestBase):
         self.assertEqual(len(new_state.models[app_label, 'pony'].options['constraints']), 1)
         Pony = new_state.apps.get_model(app_label, 'Pony')
         self.assertEqual(len(Pony._meta.constraints), 1)
-        with connection.schema_editor() as editor:
+        with connection.schema_editor() as editor, CaptureQueriesContext(connection) as ctx:
             operation.database_forwards(app_label, editor, project_state, new_state)
         Pony.objects.create(pink=1, weight=4.0)
         if connection.features.supports_covering_indexes:
             with self.assertRaises(IntegrityError):
                 Pony.objects.create(pink=1, weight=4.0)
         else:
+            self.assertEqual(len(ctx), 0)
             Pony.objects.create(pink=1, weight=4.0)
         # Reversal.
         with connection.schema_editor() as editor:
@@ -2540,11 +2618,13 @@ class OperationTests(OperationTestBase):
         self.assertEqual(len(new_state.models[app_label, 'pony'].options['constraints']), 0)
         Pony = new_state.apps.get_model(app_label, 'Pony')
         self.assertEqual(len(Pony._meta.constraints), 0)
-        with connection.schema_editor() as editor:
+        with connection.schema_editor() as editor, CaptureQueriesContext(connection) as ctx:
             operation.database_forwards(app_label, editor, project_state, new_state)
         # Constraint doesn't work.
         Pony.objects.create(pink=1, weight=4.0)
         Pony.objects.create(pink=1, weight=4.0).delete()
+        if not connection.features.supports_covering_indexes:
+            self.assertEqual(len(ctx), 0)
         # Reversal.
         with connection.schema_editor() as editor:
             operation.database_backwards(app_label, editor, new_state, project_state)
