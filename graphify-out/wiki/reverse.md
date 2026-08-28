@@ -35,8 +35,8 @@
 - django/urls/__init__.py `EXTRACTED`
 - contrib/admin/options.py `EXTRACTED`
 - admin_changelist/tests.py `EXTRACTED`
-- test_utils/tests.py `EXTRACTED`
 - defaulttags.py `EXTRACTED`
+- test_utils/tests.py `EXTRACTED`
 - generic_views/views.py `EXTRACTED`
 - auth_tests/test_views.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
@@ -48,7 +48,7 @@
 - admin/sites.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
-- contrib/admin/widgets.py `EXTRACTED`
+- admin/widgets.py `EXTRACTED`
 - proxy_models/tests.py `EXTRACTED`
 - helpers.py `EXTRACTED`
 - main.py `EXTRACTED`

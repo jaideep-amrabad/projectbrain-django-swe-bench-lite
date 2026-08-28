@@ -1,6 +1,6 @@
 # call_command()
 
-> God node · 360 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+> God node · 362 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
 **Community:** [Community 9](Community_9.md)
 
@@ -22,11 +22,11 @@
 - .test_stdin_read_inline_function_call() `EXTRACTED`
 - load_command_class() `EXTRACTED`
 - update_catalogs() `EXTRACTED`
+- .test_swappable_user() `EXTRACTED`
 - .test_migrate_gis() `EXTRACTED`
 - .make_field_type_asserter() `EXTRACTED`
 - .test_include_materialized_views() `EXTRACTED`
 - .test_include_partitions() `EXTRACTED`
-- .test_makemigrations_inconsistent_history() `EXTRACTED`
 
 ### contains
 - core/management/__init__.py `EXTRACTED`
@@ -36,10 +36,10 @@
 - admin_scripts/tests.py `EXTRACTED`
 - test_array.py `EXTRACTED`
 - test_runner/tests.py `EXTRACTED`
-- test/runner.py `EXTRACTED`
 - staticfiles_tests/test_management.py `EXTRACTED`
-- geoapp/tests.py `EXTRACTED`
+- test/runner.py `EXTRACTED`
 - auth_tests/test_management.py `EXTRACTED`
+- geoapp/tests.py `EXTRACTED`
 - migrations/test_commands.py `EXTRACTED`
 - check_framework/tests.py `EXTRACTED`
 - test_compilation.py `EXTRACTED`

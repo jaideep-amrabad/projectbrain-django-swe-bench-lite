@@ -1,8 +1,8 @@
 # SimpleTestCase
 
-> God node · 1326 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1309 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 6](Community_6.md)
+**Community:** [Community 7](Community_7.md)
 
 ## Connections by Relation
 
@@ -24,12 +24,12 @@
 - tests/test_debug.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - auth_tests/test_forms.py `EXTRACTED`
+- file_storage/tests.py `EXTRACTED`
 - modeladmin/test_checks.py `EXTRACTED`
-- test_runner/tests.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
-- timezones/tests.py `EXTRACTED`
-- test/runner.py `EXTRACTED`
+- test_runner/tests.py `EXTRACTED`
+- custom_lookups/tests.py `EXTRACTED`
 
 ### inherits
 - TransactionTestCase `EXTRACTED`
@@ -44,9 +44,9 @@
 - AdminScriptTestCase `EXTRACTED`
 - OptimizerTests `EXTRACTED`
 - UrlTagTests `EXTRACTED`
-- TestUtilsHashPass `EXTRACTED`
 - InheritanceTests `EXTRACTED`
 - OGRGeomTest `EXTRACTED`
+- TestUtilsHashPass `EXTRACTED`
 - BasicSyntaxTests `EXTRACTED`
 - OtherModelTests `EXTRACTED`
 - RequestsTests `EXTRACTED`
@@ -57,26 +57,25 @@
 - .settings() `EXTRACTED`
 - ._setup_and_call() `EXTRACTED`
 - .assertRedirects() `EXTRACTED`
-- .assertFormError() `EXTRACTED`
-- .assertFormsetError() `EXTRACTED`
 - .setUpClass() `EXTRACTED`
 - .assertTemplateUsed() `EXTRACTED`
 - ._validate_databases() `EXTRACTED`
 - ._add_databases_failures() `EXTRACTED`
 - .modify_settings() `EXTRACTED`
 - ._assert_contains() `EXTRACTED`
+- .assertFormError() `EXTRACTED`
+- .assertFormsetError() `EXTRACTED`
 - ._get_template_used() `EXTRACTED`
 - .assertTemplateNotUsed() `EXTRACTED`
 - ._assertFooMessage() `EXTRACTED`
-- .assertHTMLEqual() `EXTRACTED`
-- .assertHTMLNotEqual() `EXTRACTED`
-- .assertXMLEqual() `EXTRACTED`
-- .assertXMLNotEqual() `EXTRACTED`
 - .__call__() `EXTRACTED`
 - .debug() `EXTRACTED`
+- .assertURLEqual() `EXTRACTED`
+- .assertContains() `EXTRACTED`
+- .assertNotContains() `EXTRACTED`
+- ._check_test_client_response() `EXTRACTED`
 
 ### uses
-- RemovedInDjango50Warning `INFERRED`
 - RemovedInDjango51Warning `INFERRED`
 
 ---
