@@ -1,6 +1,6 @@
 # Community 64
 
-> 172 nodes · cohesion 0.02
+> 180 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -23,28 +23,28 @@
 - **urlize()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 - **PasswordValidationTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
 - **tests/test_utils.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_utils.py`
+- **join()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 - **format_html_join()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 - **BoundWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 - **flatatt()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
 - **template/backends/utils.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/utils.py`
 - **smart_urlquote()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **._html_output()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- *... and 147 more nodes in this community*
+- *... and 155 more nodes in this community*
 
 ## Relationships
 
-- [Community 28](Community_28.md) (67 shared connections)
-- [Community 11](Community_11.md) (37 shared connections)
-- [Community 25](Community_25.md) (30 shared connections)
-- [Community 1](Community_1.md) (14 shared connections)
-- [Community 38](Community_38.md) (11 shared connections)
-- [Community 43](Community_43.md) (11 shared connections)
-- [Community 12](Community_12.md) (9 shared connections)
-- [Community 381](Community_381.md) (8 shared connections)
-- [Community 61](Community_61.md) (8 shared connections)
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 200](Community_200.md) (8 shared connections)
-- [Community 125](Community_125.md) (7 shared connections)
+- [Community 21](Community_21.md) (67 shared connections)
+- [Community 10](Community_10.md) (41 shared connections)
+- [Community 25](Community_25.md) (31 shared connections)
+- [Community 0](Community_0.md) (14 shared connections)
+- [Community 44](Community_44.md) (12 shared connections)
+- [Community 53](Community_53.md) (11 shared connections)
+- [Community 13](Community_13.md) (9 shared connections)
+- [Community 389](Community_389.md) (8 shared connections)
+- [Community 89](Community_89.md) (8 shared connections)
+- [Community 4](Community_4.md) (8 shared connections)
+- [Community 203](Community_203.md) (8 shared connections)
+- [Community 127](Community_127.md) (7 shared connections)
 
 ## Source Files
 
@@ -63,15 +63,15 @@
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_utils.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaksbr.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_striptags.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
 
 ## Audit Trail
 
-- EXTRACTED: 571 (97%)
+- EXTRACTED: 588 (97%)
 - INFERRED: 16 (3%)
 - AMBIGUOUS: 0 (0%)
 

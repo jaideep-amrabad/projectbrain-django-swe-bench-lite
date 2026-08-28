@@ -17,8 +17,8 @@
 ## Relationships
 
 - [Community 101](Community_101.md) (8 shared connections)
-- [Community 238](Community_238.md) (4 shared connections)
-- [Community 215](Community_215.md) (2 shared connections)
+- [Community 241](Community_241.md) (4 shared connections)
+- [Community 217](Community_217.md) (2 shared connections)
 
 ## Source Files
 

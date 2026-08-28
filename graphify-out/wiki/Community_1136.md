@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_custom_field_none_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **__exact=value is transformed to __isnull=True if Field.get_prep_value()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **.test_exact_none_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **Transforms are used for __exact=None.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
 
 ## Relationships
 
-- [Community 148](Community_148.md) (1 shared connections)
+- [Community 151](Community_151.md) (1 shared connections)
 
 ## Source Files
 
