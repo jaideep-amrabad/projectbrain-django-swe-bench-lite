@@ -1,8 +1,8 @@
 # F
 
-> God node · 475 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+> God node · 483 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 8](Community_8.md)
+**Community:** [Community 12](Community_12.md)
 
 ## Connections by Relation
 
@@ -39,19 +39,19 @@
 - models/query.py `EXTRACTED`
 - sql/query.py `EXTRACTED`
 - modeladmin/test_checks.py `EXTRACTED`
+- main.py `EXTRACTED`
 - model_fields/test_jsonfield.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
 - test_extract_trunc.py `EXTRACTED`
-- main.py `EXTRACTED`
 - geoapp/tests.py `EXTRACTED`
-- sql/compiler.py `EXTRACTED`
-- aggregation/tests.py `EXTRACTED`
-- test_ranges.py `EXTRACTED`
 - lookup/tests.py `EXTRACTED`
+- aggregation/tests.py `EXTRACTED`
+- sql/compiler.py `EXTRACTED`
+- test_ranges.py `EXTRACTED`
+- annotations/tests.py `EXTRACTED`
 - test_query.py `EXTRACTED`
 - postgres_tests/test_indexes.py `EXTRACTED`
-- aggregation_regress/tests.py `EXTRACTED`
 
 ### inherits
 - OuterRef `EXTRACTED`

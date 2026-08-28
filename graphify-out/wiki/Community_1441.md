@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **same_tags_app_2/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/template_test_apps/same_tags_app_2/__init__.py`
+- **managers_regress/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/template_test_apps/same_tags_app_2/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/managers_regress/__init__.py`
 
 ## Audit Trail
 

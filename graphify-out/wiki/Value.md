@@ -1,17 +1,17 @@
 # Value
 
-> God node · 267 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+> God node · 270 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 87](Community_87.md)
+**Community:** [Community 42](Community_42.md)
 
 ## Connections by Relation
 
 ### calls
 - ._combine() `EXTRACTED`
 - .__init__() `EXTRACTED`
+- .process_rhs() `EXTRACTED`
 - .test_expressions() `EXTRACTED`
 - ._save_table() `EXTRACTED`
-- .process_rhs() `EXTRACTED`
 - .test_default_argument() `EXTRACTED`
 - .__init__() `EXTRACTED`
 - .get_select() `EXTRACTED`
@@ -43,15 +43,15 @@
 - sql/query.py `EXTRACTED`
 - model_fields/test_jsonfield.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
+- lookup/tests.py `EXTRACTED`
+- aggregation/tests.py `EXTRACTED`
 - postgis/operations.py `EXTRACTED`
 - query_utils.py `EXTRACTED`
 - sql/compiler.py `EXTRACTED`
-- aggregation/tests.py `EXTRACTED`
 - test_ranges.py `EXTRACTED`
-- lookup/tests.py `EXTRACTED`
+- annotations/tests.py `EXTRACTED`
 - test_query.py `EXTRACTED`
 - functions/text.py `EXTRACTED`
-- aggregation_regress/tests.py `EXTRACTED`
 
 ### inherits
 - Expression `EXTRACTED`
