@@ -259,6 +259,9 @@ class DatabaseWrapper(BaseDatabaseWrapper):
         conn.create_aggregate('VAR_POP', 1, list_aggregate(statistics.pvariance))
         conn.create_aggregate('VAR_SAMP', 1, list_aggregate(statistics.variance))
         conn.execute('PRAGMA foreign_keys = ON')
+        # The macOS bundled SQLite defaults legacy_alter_table ON, which
+        # prevents atomic table renames (feature supports_atomic_references_rename)
+        conn.execute('PRAGMA legacy_alter_table = OFF')
         return conn
 
     def init_connection_state(self):
@@ -360,8 +363,8 @@ class DatabaseWrapper(BaseDatabaseWrapper):
                     primary_key_column_name = self.introspection.get_primary_key_column(cursor, table_name)
                     if not primary_key_column_name:
                         continue
-                    key_columns = self.introspection.get_key_columns(cursor, table_name)
-                    for column_name, referenced_table_name, referenced_column_name in key_columns:
+                    relations = self.introspection.get_relations(cursor, table_name)
+                    for column_name, (referenced_column_name, referenced_table_name) in relations:
                         cursor.execute(
                             """
                             SELECT REFERRING.`%s`, REFERRING.`%s` FROM `%s` as REFERRING
@@ -434,14 +437,11 @@ def _sqlite_datetime_parse(dt, tzname=None, conn_tzname=None):
     if conn_tzname:
         dt = dt.replace(tzinfo=timezone_constructor(conn_tzname))
     if tzname is not None and tzname != conn_tzname:
-        sign_index = tzname.find('+') + tzname.find('-') + 1
-        if sign_index > -1:
-            sign = tzname[sign_index]
-            tzname, offset = tzname.split(sign)
-            if offset:
-                hours, minutes = offset.split(':')
-                offset_delta = datetime.timedelta(hours=int(hours), minutes=int(minutes))
-                dt += offset_delta if sign == '+' else -offset_delta
+        tzname, sign, offset = backend_utils.split_tzname_delta(tzname)
+        if offset:
+            hours, minutes = offset.split(':')
+            offset_delta = datetime.timedelta(hours=int(hours), minutes=int(minutes))
+            dt += offset_delta if sign == '+' else -offset_delta
         dt = timezone.localtime(dt, timezone_constructor(tzname))
     return dt
 
@@ -451,17 +451,17 @@ def _sqlite_date_trunc(lookup_type, dt, tzname, conn_tzname):
     if dt is None:
         return None
     if lookup_type == 'year':
-        return "%i-01-01" % dt.year
+        return '%04i-01-01' % dt.year
     elif lookup_type == 'quarter':
         month_in_quarter = dt.month - (dt.month - 1) % 3
-        return '%i-%02i-01' % (dt.year, month_in_quarter)
+        return '%04i-%02i-01' % (dt.year, month_in_quarter)
     elif lookup_type == 'month':
-        return "%i-%02i-01" % (dt.year, dt.month)
+        return '%04i-%02i-01' % (dt.year, dt.month)
     elif lookup_type == 'week':
         dt = dt - datetime.timedelta(days=dt.weekday())
-        return "%i-%02i-%02i" % (dt.year, dt.month, dt.day)
+        return '%04i-%02i-%02i' % (dt.year, dt.month, dt.day)
     elif lookup_type == 'day':
-        return "%i-%02i-%02i" % (dt.year, dt.month, dt.day)
+        return '%04i-%02i-%02i' % (dt.year, dt.month, dt.day)
 
 
 def _sqlite_time_trunc(lookup_type, dt, tzname, conn_tzname):
@@ -520,23 +520,23 @@ def _sqlite_datetime_trunc(lookup_type, dt, tzname, conn_tzname):
     if dt is None:
         return None
     if lookup_type == 'year':
-        return "%i-01-01 00:00:00" % dt.year
+        return '%04i-01-01 00:00:00' % dt.year
     elif lookup_type == 'quarter':
         month_in_quarter = dt.month - (dt.month - 1) % 3
-        return '%i-%02i-01 00:00:00' % (dt.year, month_in_quarter)
+        return '%04i-%02i-01 00:00:00' % (dt.year, month_in_quarter)
     elif lookup_type == 'month':
-        return "%i-%02i-01 00:00:00" % (dt.year, dt.month)
+        return '%04i-%02i-01 00:00:00' % (dt.year, dt.month)
     elif lookup_type == 'week':
         dt = dt - datetime.timedelta(days=dt.weekday())
-        return "%i-%02i-%02i 00:00:00" % (dt.year, dt.month, dt.day)
+        return '%04i-%02i-%02i 00:00:00' % (dt.year, dt.month, dt.day)
     elif lookup_type == 'day':
-        return "%i-%02i-%02i 00:00:00" % (dt.year, dt.month, dt.day)
+        return '%04i-%02i-%02i 00:00:00' % (dt.year, dt.month, dt.day)
     elif lookup_type == 'hour':
-        return "%i-%02i-%02i %02i:00:00" % (dt.year, dt.month, dt.day, dt.hour)
+        return '%04i-%02i-%02i %02i:00:00' % (dt.year, dt.month, dt.day, dt.hour)
     elif lookup_type == 'minute':
-        return "%i-%02i-%02i %02i:%02i:00" % (dt.year, dt.month, dt.day, dt.hour, dt.minute)
+        return '%04i-%02i-%02i %02i:%02i:00' % (dt.year, dt.month, dt.day, dt.hour, dt.minute)
     elif lookup_type == 'second':
-        return "%i-%02i-%02i %02i:%02i:%02i" % (dt.year, dt.month, dt.day, dt.hour, dt.minute, dt.second)
+        return '%04i-%02i-%02i %02i:%02i:%02i' % (dt.year, dt.month, dt.day, dt.hour, dt.minute, dt.second)
 
 
 def _sqlite_time_extract(lookup_type, dt):

@@ -1,5 +1,5 @@
 from functools import update_wrapper, wraps
-from unittest import TestCase
+from unittest import TestCase, mock
 
 from django.contrib.admin.views.decorators import staff_member_required
 from django.contrib.auth.decorators import (
@@ -493,28 +493,68 @@ class XFrameOptionsDecoratorsTests(TestCase):
         self.assertIsNone(r.get('X-Frame-Options', None))
 
 
+class HttpRequestProxy:
+    def __init__(self, request):
+        self._request = request
+
+    def __getattr__(self, attr):
+        """Proxy to the underlying HttpRequest object."""
+        return getattr(self._request, attr)
+
+
 class NeverCacheDecoratorTest(SimpleTestCase):
-    def test_never_cache_decorator(self):
+
+    @mock.patch('time.time')
+    def test_never_cache_decorator_headers(self, mocked_time):
         @never_cache
         def a_view(request):
             return HttpResponse()
-        r = a_view(HttpRequest())
+
+        mocked_time.return_value = 1167616461.0
+        response = a_view(HttpRequest())
         self.assertEqual(
-            set(r.headers['Cache-Control'].split(', ')),
-            {'max-age=0', 'no-cache', 'no-store', 'must-revalidate', 'private'},
+            response.headers['Expires'],
+            'Mon, 01 Jan 2007 01:54:21 GMT',
         )
+        self.assertEqual(
+            response.headers['Cache-Control'],
+            'max-age=0, no-cache, no-store, must-revalidate, private',
+        )
+
+    def test_never_cache_decorator_expires_not_overridden(self):
+        @never_cache
+        def a_view(request):
+            return HttpResponse(headers={'Expires': 'tomorrow'})
+
+        response = a_view(HttpRequest())
+        self.assertEqual(response.headers['Expires'], 'tomorrow')
 
     def test_never_cache_decorator_http_request(self):
         class MyClass:
             @never_cache
             def a_view(self, request):
                 return HttpResponse()
+
+        request = HttpRequest()
         msg = (
             "never_cache didn't receive an HttpRequest. If you are decorating "
             "a classmethod, be sure to use @method_decorator."
         )
         with self.assertRaisesMessage(TypeError, msg):
-            MyClass().a_view(HttpRequest())
+            MyClass().a_view(request)
+        with self.assertRaisesMessage(TypeError, msg):
+            MyClass().a_view(HttpRequestProxy(request))
+
+    def test_never_cache_decorator_http_request_proxy(self):
+        class MyClass:
+            @method_decorator(never_cache)
+            def a_view(self, request):
+                return HttpResponse()
+
+        request = HttpRequest()
+        response = MyClass().a_view(HttpRequestProxy(request))
+        self.assertIn('Cache-Control', response.headers)
+        self.assertIn('Expires', response.headers)
 
 
 class CacheControlDecoratorTest(SimpleTestCase):
@@ -528,5 +568,18 @@ class CacheControlDecoratorTest(SimpleTestCase):
             "cache_control didn't receive an HttpRequest. If you are "
             "decorating a classmethod, be sure to use @method_decorator."
         )
+        request = HttpRequest()
         with self.assertRaisesMessage(TypeError, msg):
-            MyClass().a_view(HttpRequest())
+            MyClass().a_view(request)
+        with self.assertRaisesMessage(TypeError, msg):
+            MyClass().a_view(HttpRequestProxy(request))
+
+    def test_cache_control_decorator_http_request_proxy(self):
+        class MyClass:
+            @method_decorator(cache_control(a='b'))
+            def a_view(self, request):
+                return HttpResponse()
+
+        request = HttpRequest()
+        response = MyClass().a_view(HttpRequestProxy(request))
+        self.assertEqual(response.headers['Cache-Control'], 'a=b')

@@ -1,5 +1,3 @@
-from unittest import mock, skipUnless
-
 from django.db import DatabaseError, connection
 from django.db.models import Index
 from django.test import TransactionTestCase, skipUnlessDBFeature
@@ -151,31 +149,6 @@ class IntrospectionTests(TransactionTestCase):
         with connection.schema_editor() as editor:
             editor.add_field(Article, body)
         self.assertEqual(relations, expected_relations)
-
-    @skipUnless(connection.vendor == 'sqlite', "This is an sqlite-specific issue")
-    def test_get_relations_alt_format(self):
-        """
-        With SQLite, foreign keys can be added with different syntaxes and
-        formatting.
-        """
-        create_table_statements = [
-            "CREATE TABLE track(id, art_id INTEGER, FOREIGN KEY(art_id) REFERENCES {}(id));",
-            "CREATE TABLE track(id, art_id INTEGER, FOREIGN KEY (art_id) REFERENCES {}(id));"
-        ]
-        for statement in create_table_statements:
-            with connection.cursor() as cursor:
-                cursor.fetchone = mock.Mock(return_value=[statement.format(Article._meta.db_table), 'table'])
-                relations = connection.introspection.get_relations(cursor, 'mocked_table')
-            self.assertEqual(relations, {'art_id': ('id', Article._meta.db_table)})
-
-    @skipUnlessDBFeature('can_introspect_foreign_keys')
-    def test_get_key_columns(self):
-        with connection.cursor() as cursor:
-            key_columns = connection.introspection.get_key_columns(cursor, Article._meta.db_table)
-        self.assertEqual(set(key_columns), {
-            ('reporter_id', Reporter._meta.db_table, 'id'),
-            ('response_to_id', Article._meta.db_table, 'id'),
-        })
 
     def test_get_primary_key_column(self):
         with connection.cursor() as cursor:

@@ -2,7 +2,7 @@ from functools import wraps
 
 from django.db import IntegrityError, connections, transaction
 from django.test import TestCase, skipUnlessDBFeature
-from django.test.testcases import TestData
+from django.test.testcases import DatabaseOperationForbidden, TestData
 
 from .models import Car, Person, PossessedCar
 
@@ -28,9 +28,9 @@ class TestTestCase(TestCase):
             "Add 'other' to test_utils.test_testcase.TestTestCase.databases to "
             "ensure proper test isolation and silence this failure."
         )
-        with self.assertRaisesMessage(AssertionError, message):
+        with self.assertRaisesMessage(DatabaseOperationForbidden, message):
             connections['other'].connect()
-        with self.assertRaisesMessage(AssertionError, message):
+        with self.assertRaisesMessage(DatabaseOperationForbidden, message):
             connections['other'].temporary_connection()
 
     def test_disallowed_database_queries(self):
@@ -39,7 +39,7 @@ class TestTestCase(TestCase):
             "Add 'other' to test_utils.test_testcase.TestTestCase.databases to "
             "ensure proper test isolation and silence this failure."
         )
-        with self.assertRaisesMessage(AssertionError, message):
+        with self.assertRaisesMessage(DatabaseOperationForbidden, message):
             Car.objects.using('other').get()
 
     def test_reset_sequences(self):
@@ -74,10 +74,15 @@ class TestDataTests(TestCase):
             belongs_to=cls.jim_douglas,
         )
 
+        cls.person_binary = Person.objects.create(name='Person', data=b'binary data')
+        cls.person_binary_get = Person.objects.get(pk=cls.person_binary.pk)
+
     @assert_no_queries
     def test_class_attribute_equality(self):
         """Class level test data is equal to instance level test data."""
         self.assertEqual(self.jim_douglas, self.__class__.jim_douglas)
+        self.assertEqual(self.person_binary, self.__class__.person_binary)
+        self.assertEqual(self.person_binary_get, self.__class__.person_binary_get)
 
     @assert_no_queries
     def test_class_attribute_identity(self):
@@ -85,6 +90,21 @@ class TestDataTests(TestCase):
         Class level test data is not identical to instance level test data.
         """
         self.assertIsNot(self.jim_douglas, self.__class__.jim_douglas)
+        self.assertIsNot(self.person_binary, self.__class__.person_binary)
+        self.assertIsNot(self.person_binary_get, self.__class__.person_binary_get)
+
+    @assert_no_queries
+    def test_binaryfield_data_type(self):
+        self.assertEqual(bytes(self.person_binary.data), b'binary data')
+        self.assertEqual(bytes(self.person_binary_get.data), b'binary data')
+        self.assertEqual(
+            type(self.person_binary_get.data),
+            type(self.__class__.person_binary_get.data),
+        )
+        self.assertEqual(
+            type(self.person_binary.data),
+            type(self.__class__.person_binary.data),
+        )
 
     @assert_no_queries
     def test_identity_preservation(self):

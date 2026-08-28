@@ -117,6 +117,7 @@ LANGUAGES = [
     ('ml', gettext_noop('Malayalam')),
     ('mn', gettext_noop('Mongolian')),
     ('mr', gettext_noop('Marathi')),
+    ('ms', gettext_noop('Malay')),
     ('my', gettext_noop('Burmese')),
     ('nb', gettext_noop('Norwegian Bokmål')),
     ('ne', gettext_noop('Nepali')),
@@ -555,6 +556,10 @@ CSRF_COOKIE_SAMESITE = 'Lax'
 CSRF_HEADER_NAME = 'HTTP_X_CSRFTOKEN'
 CSRF_TRUSTED_ORIGINS = []
 CSRF_USE_SESSIONS = False
+
+# Whether to mask CSRF cookie value. It's a transitional setting helpful in
+# migrating multiple instance of the same project to Django 4.1+.
+CSRF_COOKIE_MASKED = False
 
 ############
 # MESSAGES #

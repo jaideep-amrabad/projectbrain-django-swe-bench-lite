@@ -1,8 +1,8 @@
-import re
 from collections import namedtuple
 
 import sqlparse
 
+from django.db import DatabaseError
 from django.db.backends.base.introspection import (
     BaseDatabaseIntrospection, FieldInfo as BaseFieldInfo, TableInfo,
 )
@@ -84,6 +84,8 @@ class DatabaseIntrospection(BaseDatabaseIntrospection):
         """
         cursor.execute('PRAGMA table_info(%s)' % self.connection.ops.quote_name(table_name))
         table_info = cursor.fetchall()
+        if not table_info:
+            raise DatabaseError(f'Table {table_name} does not exist (empty pragma).')
         collations = self._get_column_collations(cursor, table_name)
         json_columns = set()
         if self.connection.features.can_introspect_json_field:
@@ -114,90 +116,16 @@ class DatabaseIntrospection(BaseDatabaseIntrospection):
 
     def get_relations(self, cursor, table_name):
         """
-        Return a dictionary of {field_name: (field_name_other_table, other_table)}
-        representing all relationships to the given table.
+        Return a dictionary of {column_name: (ref_column_name, ref_table_name)}
+        representing all foreign keys in the given table.
         """
-        # Dictionary of relations to return
-        relations = {}
-
-        # Schema for this table
         cursor.execute(
-            "SELECT sql, type FROM sqlite_master "
-            "WHERE tbl_name = %s AND type IN ('table', 'view')",
-            [table_name]
+            'PRAGMA foreign_key_list(%s)' % self.connection.ops.quote_name(table_name)
         )
-        create_sql, table_type = cursor.fetchone()
-        if table_type == 'view':
-            # It might be a view, then no results will be returned
-            return relations
-        results = create_sql[create_sql.index('(') + 1:create_sql.rindex(')')]
-
-        # Walk through and look for references to other tables. SQLite doesn't
-        # really have enforced references, but since it echoes out the SQL used
-        # to create the table we can look for REFERENCES statements used there.
-        for field_desc in results.split(','):
-            field_desc = field_desc.strip()
-            if field_desc.startswith("UNIQUE"):
-                continue
-
-            m = re.search(r'references (\S*) ?\(["|]?(.*)["|]?\)', field_desc, re.I)
-            if not m:
-                continue
-            table, column = [s.strip('"') for s in m.groups()]
-
-            if field_desc.startswith("FOREIGN KEY"):
-                # Find name of the target FK field
-                m = re.match(r'FOREIGN KEY\s*\(([^\)]*)\).*', field_desc, re.I)
-                field_name = m[1].strip('"')
-            else:
-                field_name = field_desc.split()[0].strip('"')
-
-            cursor.execute("SELECT sql FROM sqlite_master WHERE tbl_name = %s", [table])
-            result = cursor.fetchall()[0]
-            other_table_results = result[0].strip()
-            li, ri = other_table_results.index('('), other_table_results.rindex(')')
-            other_table_results = other_table_results[li + 1:ri]
-
-            for other_desc in other_table_results.split(','):
-                other_desc = other_desc.strip()
-                if other_desc.startswith('UNIQUE'):
-                    continue
-
-                other_name = other_desc.split(' ', 1)[0].strip('"')
-                if other_name == column:
-                    relations[field_name] = (other_name, table)
-                    break
-
-        return relations
-
-    def get_key_columns(self, cursor, table_name):
-        """
-        Return a list of (column_name, referenced_table_name, referenced_column_name)
-        for all key columns in given table.
-        """
-        key_columns = []
-
-        # Schema for this table
-        cursor.execute("SELECT sql FROM sqlite_master WHERE tbl_name = %s AND type = %s", [table_name, "table"])
-        results = cursor.fetchone()[0].strip()
-        results = results[results.index('(') + 1:results.rindex(')')]
-
-        # Walk through and look for references to other tables. SQLite doesn't
-        # really have enforced references, but since it echoes out the SQL used
-        # to create the table we can look for REFERENCES statements used there.
-        for field_index, field_desc in enumerate(results.split(',')):
-            field_desc = field_desc.strip()
-            if field_desc.startswith("UNIQUE"):
-                continue
-
-            m = re.search(r'"(.*)".*references (.*) \(["|](.*)["|]\)', field_desc, re.I)
-            if not m:
-                continue
-
-            # This will append (column_name, referenced_table_name, referenced_column_name) to key_columns
-            key_columns.append(tuple(s.strip('"') for s in m.groups()))
-
-        return key_columns
+        return {
+            column_name: (ref_column_name, ref_table_name)
+            for _, _, ref_table_name, column_name, ref_column_name, *_ in cursor.fetchall()
+        }
 
     def get_primary_key_column(self, cursor, table_name):
         """Return the column name of the primary key for the given table."""
@@ -208,22 +136,6 @@ class DatabaseIntrospection(BaseDatabaseIntrospection):
             if pk:
                 return name
         return None
-
-    def _get_foreign_key_constraints(self, cursor, table_name):
-        constraints = {}
-        cursor.execute('PRAGMA foreign_key_list(%s)' % self.connection.ops.quote_name(table_name))
-        for row in cursor.fetchall():
-            # Remaining on_update/on_delete/match values are of no interest.
-            id_, _, table, from_, to = row[:5]
-            constraints['fk_%d' % id_] = {
-                'columns': [from_],
-                'primary_key': False,
-                'unique': False,
-                'foreign_key': (table, to),
-                'check': False,
-                'index': False,
-            }
-        return constraints
 
     def _parse_column_or_constraint_definition(self, tokens, columns):
         token = None
@@ -421,7 +333,18 @@ class DatabaseIntrospection(BaseDatabaseIntrospection):
                 "check": False,
                 "index": False,
             }
-        constraints.update(self._get_foreign_key_constraints(cursor, table_name))
+        relations = enumerate(self.get_relations(cursor, table_name).items())
+        constraints.update({
+            f'fk_{index}': {
+                'columns': [column_name],
+                'primary_key': False,
+                'unique': False,
+                'foreign_key': (ref_table_name, ref_column_name),
+                'check': False,
+                'index': False,
+            }
+            for index, (column_name, (ref_column_name, ref_table_name)) in relations
+        })
         return constraints
 
     def _get_index_columns_orders(self, sql):

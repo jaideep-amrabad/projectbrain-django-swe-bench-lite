@@ -5,7 +5,9 @@ from functools import lru_cache
 from django.conf import settings
 from django.db import DatabaseError, NotSupportedError
 from django.db.backends.base.operations import BaseDatabaseOperations
-from django.db.backends.utils import strip_quotes, truncate_name
+from django.db.backends.utils import (
+    split_tzname_delta, strip_quotes, truncate_name,
+)
 from django.db.models import AutoField, Exists, ExpressionWrapper, Lookup
 from django.db.models.expressions import RawSQL
 from django.db.models.sql.where import WhereNode
@@ -70,7 +72,12 @@ END;
     }
 
     def cache_key_culling_sql(self):
-        return 'SELECT cache_key FROM %s ORDER BY cache_key OFFSET %%s ROWS FETCH FIRST 1 ROWS ONLY'
+        cache_key = self.quote_name('cache_key')
+        return (
+            f'SELECT {cache_key} '
+            f'FROM %s '
+            f'ORDER BY {cache_key} OFFSET %%s ROWS FETCH FIRST 1 ROWS ONLY'
+        )
 
     def date_extract_sql(self, lookup_type, field_name):
         if lookup_type == 'week_day':
@@ -108,11 +115,8 @@ END;
     _tzname_re = _lazy_re_compile(r'^[\w/:+-]+$')
 
     def _prepare_tzname_delta(self, tzname):
-        if '+' in tzname:
-            return tzname[tzname.find('+'):]
-        elif '-' in tzname:
-            return tzname[tzname.find('-'):]
-        return tzname
+        tzname, sign, offset = split_tzname_delta(tzname)
+        return f'{sign}{offset}' if offset else tzname
 
     def _convert_field_to_tz(self, field_name, tzname):
         if not (settings.USE_TZ and tzname):

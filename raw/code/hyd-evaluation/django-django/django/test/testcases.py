@@ -139,13 +139,17 @@ class _AssertTemplateNotUsedContext(_AssertTemplateUsedContext):
         return '%s was rendered.' % self.template_name
 
 
+class DatabaseOperationForbidden(AssertionError):
+    pass
+
+
 class _DatabaseFailure:
     def __init__(self, wrapped, message):
         self.wrapped = wrapped
         self.message = message
 
     def __call__(self):
-        raise AssertionError(self.message)
+        raise DatabaseOperationForbidden(self.message)
 
 
 class SimpleTestCase(unittest.TestCase):
@@ -473,11 +477,23 @@ class SimpleTestCase(unittest.TestCase):
 
         self.assertEqual(real_count, 0, msg_prefix + "Response should not contain %s" % text_repr)
 
+    def _check_test_client_response(self, response, attribute, method_name):
+        """
+        Raise a ValueError if the given response doesn't have the required
+        attribute.
+        """
+        if not hasattr(response, attribute):
+            raise ValueError(
+                f"{method_name}() is only usable on responses fetched using "
+                "the Django test Client."
+            )
+
     def assertFormError(self, response, form, field, errors, msg_prefix=''):
         """
         Assert that a form used to render the response has a specific field
         error.
         """
+        self._check_test_client_response(response, 'context', 'assertFormError')
         if msg_prefix:
             msg_prefix += ": "
 
@@ -539,6 +555,7 @@ class SimpleTestCase(unittest.TestCase):
         For non-form errors, specify ``form_index`` as None and the ``field``
         as None.
         """
+        self._check_test_client_response(response, 'context', 'assertFormsetError')
         # Add punctuation to msg_prefix
         if msg_prefix:
             msg_prefix += ": "
@@ -555,7 +572,7 @@ class SimpleTestCase(unittest.TestCase):
         # Search all contexts for the error.
         found_formset = False
         for i, context in enumerate(contexts):
-            if formset not in context:
+            if formset not in context or not hasattr(context[formset], 'forms'):
                 continue
             found_formset = True
             for err in errors:
@@ -608,7 +625,7 @@ class SimpleTestCase(unittest.TestCase):
         if not found_formset:
             self.fail(msg_prefix + "The formset '%s' was not used to render the response" % formset)
 
-    def _assert_template_used(self, response, template_name, msg_prefix):
+    def _assert_template_used(self, response, template_name, msg_prefix, method_name):
 
         if response is None and template_name is None:
             raise TypeError('response and/or template_name argument must be provided')
@@ -616,11 +633,8 @@ class SimpleTestCase(unittest.TestCase):
         if msg_prefix:
             msg_prefix += ": "
 
-        if template_name is not None and response is not None and not hasattr(response, 'templates'):
-            raise ValueError(
-                "assertTemplateUsed() and assertTemplateNotUsed() are only "
-                "usable on responses fetched using the Django test Client."
-            )
+        if template_name is not None and response is not None:
+            self._check_test_client_response(response, 'templates', method_name)
 
         if not hasattr(response, 'templates') or (response is None and template_name):
             if response:
@@ -638,8 +652,8 @@ class SimpleTestCase(unittest.TestCase):
         the response. Also usable as context manager.
         """
         context_mgr_template, template_names, msg_prefix = self._assert_template_used(
-            response, template_name, msg_prefix)
-
+            response, template_name, msg_prefix, 'assertTemplateUsed',
+        )
         if context_mgr_template:
             # Use assertTemplateUsed as context manager.
             return _AssertTemplateUsedContext(self, context_mgr_template)
@@ -667,7 +681,7 @@ class SimpleTestCase(unittest.TestCase):
         rendering the response. Also usable as context manager.
         """
         context_mgr_template, template_names, msg_prefix = self._assert_template_used(
-            response, template_name, msg_prefix
+            response, template_name, msg_prefix, 'assertTemplateNotUsed',
         )
         if context_mgr_template:
             # Use assertTemplateNotUsed as context manager.
@@ -1146,8 +1160,10 @@ class TestCase(TransactionTestCase):
         """Open atomic blocks for multiple databases."""
         atomics = {}
         for db_name in cls._databases_names():
-            atomics[db_name] = transaction.atomic(using=db_name)
-            atomics[db_name].__enter__()
+            atomic = transaction.atomic(using=db_name)
+            atomic._from_testcase = True
+            atomic.__enter__()
+            atomics[db_name] = atomic
         return atomics
 
     @classmethod
@@ -1166,35 +1182,27 @@ class TestCase(TransactionTestCase):
         super().setUpClass()
         if not cls._databases_support_transactions():
             return
-        # Disable the durability check to allow testing durable atomic blocks
-        # in a transaction for performance reasons.
-        transaction.Atomic._ensure_durability = False
-        try:
-            cls.cls_atomics = cls._enter_atomics()
+        cls.cls_atomics = cls._enter_atomics()
 
-            if cls.fixtures:
-                for db_name in cls._databases_names(include_mirrors=False):
-                    try:
-                        call_command('loaddata', *cls.fixtures, **{'verbosity': 0, 'database': db_name})
-                    except Exception:
-                        cls._rollback_atomics(cls.cls_atomics)
-                        raise
-            pre_attrs = cls.__dict__.copy()
-            try:
-                cls.setUpTestData()
-            except Exception:
-                cls._rollback_atomics(cls.cls_atomics)
-                raise
-            for name, value in cls.__dict__.items():
-                if value is not pre_attrs.get(name):
-                    setattr(cls, name, TestData(name, value))
+        if cls.fixtures:
+            for db_name in cls._databases_names(include_mirrors=False):
+                try:
+                    call_command('loaddata', *cls.fixtures, **{'verbosity': 0, 'database': db_name})
+                except Exception:
+                    cls._rollback_atomics(cls.cls_atomics)
+                    raise
+        pre_attrs = cls.__dict__.copy()
+        try:
+            cls.setUpTestData()
         except Exception:
-            transaction.Atomic._ensure_durability = True
+            cls._rollback_atomics(cls.cls_atomics)
             raise
+        for name, value in cls.__dict__.items():
+            if value is not pre_attrs.get(name):
+                setattr(cls, name, TestData(name, value))
 
     @classmethod
     def tearDownClass(cls):
-        transaction.Atomic._ensure_durability = True
         if cls._databases_support_transactions():
             cls._rollback_atomics(cls.cls_atomics)
             for conn in connections.all():
