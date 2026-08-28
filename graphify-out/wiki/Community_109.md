@@ -1,6 +1,6 @@
 # Community 109
 
-> 82 nodes · cohesion 0.05
+> 74 nodes · cohesion 0.05
 
 ## Key Concepts
 
@@ -10,7 +10,6 @@
 - **XFrameOptionsMiddleware** (17 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
 - **get_response_empty()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 - **XFrameOptionsMiddlewareTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **XFrameOptionsDecoratorsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 - **.test_append_slash_quoted()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 - **.test_append_slash_quoted_custom_urlconf()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 - **.test_defaults_sameorigin()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
@@ -29,33 +28,32 @@
 - **.test_append_slash_opt_out()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 - **.test_append_slash_redirect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 - **.test_append_slash_redirect_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- *... and 57 more nodes in this community*
+- **.test_append_slash_redirect_querystring()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- *... and 49 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (32 shared connections)
-- [Community 7](Community_7.md) (17 shared connections)
-- [Community 62](Community_62.md) (9 shared connections)
-- [Community 270](Community_270.md) (5 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 771](Community_771.md) (1 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 11](Community_11.md) (32 shared connections)
+- [Community 45](Community_45.md) (17 shared connections)
+- [Community 48](Community_48.md) (8 shared connections)
+- [Community 132](Community_132.md) (5 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 964](Community_964.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 244](Community_244.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
 - `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 187 (81%)
-- INFERRED: 44 (19%)
+- EXTRACTED: 175 (80%)
+- INFERRED: 44 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -32,9 +32,11 @@
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 305](Community_305.md) (1 shared connections)
-- [Community 135](Community_135.md) (1 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 221](Community_221.md) (1 shared connections)
+- [Community 474](Community_474.md) (1 shared connections)
+- [Community 393](Community_393.md) (1 shared connections)
 
 ## Source Files
 

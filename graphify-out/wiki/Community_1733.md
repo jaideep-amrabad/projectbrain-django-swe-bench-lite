@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **filter_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/__init__.py`
+- **test_no_submodule.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_no_submodule.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_no_submodule.py`
 
 ## Audit Trail
 

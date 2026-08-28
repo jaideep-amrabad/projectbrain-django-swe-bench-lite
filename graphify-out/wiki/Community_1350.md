@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **core.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/core.test.js`
+- **extra.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/additional_dir/extra.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/admin/core.test.js`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/additional_dir/extra.py`
 
 ## Audit Trail
 

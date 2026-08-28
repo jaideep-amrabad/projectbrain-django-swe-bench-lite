@@ -2,7 +2,7 @@
 
 > God node · 318 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
-**Community:** [Community 7](Community_7.md)
+**Community:** [Community 9](Community_9.md)
 
 ## Connections by Relation
 
@@ -17,9 +17,9 @@
 - ensure_csrf_cookie_view() `EXTRACTED`
 - render_flatpage() `EXTRACTED`
 - render_to_kmz() `EXTRACTED`
+- default_urlconf() `EXTRACTED`
 - set_language() `EXTRACTED`
 - trace_view() `EXTRACTED`
-- default_urlconf() `EXTRACTED`
 - non_token_view_using_request_processor() `EXTRACTED`
 - hello_world_view() `EXTRACTED`
 - .get_response() `EXTRACTED`

@@ -1,8 +1,8 @@
 # reverse()
 
-> God node · 397 connections · `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+> God node · 398 connections · `raw/code/hyd-evaluation/django-django/django/urls/base.py`
 
-**Community:** [Community 32](Community_32.md)
+**Community:** [Community 15](Community_15.md)
 
 ## Connections by Relation
 

@@ -4,23 +4,22 @@
 
 ## Key Concepts
 
-- **DecadeFilterBookAdminWithFailingQueryset** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_filter_with_failing_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **When a filter's queryset method fails, it fails loudly and the corresponding…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **two_configs_app/apps.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_app/apps.py`
+- **TwoConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_app/apps.py`
+- **TwoConfigBis** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_app/apps.py`
 
 ## Relationships
 
-- [Community 348](Community_348.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 490](Community_490.md) (1 shared connections)
+- [Community 255](Community_255.md) (3 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_app/apps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

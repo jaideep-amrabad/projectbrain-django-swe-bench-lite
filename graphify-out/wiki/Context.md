@@ -2,19 +2,19 @@
 
 > God node · 253 connections · `raw/code/hyd-evaluation/django-django/django/template/context.py`
 
-**Community:** [Community 11](Community_11.md)
+**Community:** [Community 6](Community_6.md)
 
 ## Connections by Relation
 
 ### calls
 - .humanize_tester() `EXTRACTED`
 - floatformat() `INFERRED`
+- technical_404_response() `EXTRACTED`
 - page_not_found() `EXTRACTED`
 - .handle() `EXTRACTED`
 - csrf_failure() `EXTRACTED`
-- technical_404_response() `EXTRACTED`
-- trace_view() `EXTRACTED`
 - default_urlconf() `EXTRACTED`
+- trace_view() `EXTRACTED`
 - .assertRenderEqual() `EXTRACTED`
 - submit_row() `EXTRACTED`
 - .test_result_list_empty_changelist_value() `EXTRACTED`

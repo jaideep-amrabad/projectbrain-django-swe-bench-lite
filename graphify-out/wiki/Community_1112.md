@@ -4,18 +4,17 @@
 
 ## Key Concepts
 
-- **FilePathFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filepathfield.py`
-- **.test_callable_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filepathfield.py`
-- **.test_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filepathfield.py`
+- **.test_view_with_force_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that is protected with…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 523](Community_523.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filepathfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 

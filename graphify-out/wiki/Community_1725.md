@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **good/templatetags/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/__init__.py`
+- **views_broken.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views_broken.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views_broken.py`
 
 ## Audit Trail
 
