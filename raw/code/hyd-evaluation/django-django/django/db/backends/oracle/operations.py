@@ -295,7 +295,7 @@ END;
         ) if sql)
 
     def last_executed_query(self, cursor, sql, params):
-        # https://cx-oracle.readthedocs.io/en/latest/cursor.html#Cursor.statement
+        # https://cx-oracle.readthedocs.io/en/latest/api_manual/cursor.html#Cursor.statement
         # The DB API definition does not define this attribute.
         statement = cursor.statement
         # Unlike Psycopg's `query` and MySQLdb`'s `_executed`, cx_Oracle's
@@ -377,7 +377,8 @@ END;
     def __foreign_key_constraints(self, table_name, recursive):
         with self.connection.cursor() as cursor:
             if recursive:
-                cursor.execute("""
+                cursor.execute(
+                    """
                     SELECT
                         user_tables.table_name, rcons.constraint_name
                     FROM
@@ -394,9 +395,12 @@ END;
                         user_tables.table_name, rcons.constraint_name
                     HAVING user_tables.table_name != UPPER(%s)
                     ORDER BY MAX(level) DESC
-                """, (table_name, table_name))
+                    """,
+                    (table_name, table_name),
+                )
             else:
-                cursor.execute("""
+                cursor.execute(
+                    """
                     SELECT
                         cons.table_name, cons.constraint_name
                     FROM
@@ -404,7 +408,9 @@ END;
                     WHERE
                         cons.constraint_type = 'R'
                         AND cons.table_name = UPPER(%s)
-                """, (table_name,))
+                    """,
+                    (table_name,),
+                )
             return cursor.fetchall()
 
     @cached_property

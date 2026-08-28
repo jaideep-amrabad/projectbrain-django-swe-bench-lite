@@ -651,6 +651,9 @@ class FilterExpression:
         >>> fe.var
         <Variable: 'variable'>
     """
+
+    __slots__ = ('token', 'filters', 'var', 'is_var')
+
     def __init__(self, token, parser):
         self.token = token
         matches = filter_re.finditer(token)
@@ -672,8 +675,9 @@ class FilterExpression:
                     except VariableDoesNotExist:
                         var_obj = None
                 elif var is None:
-                    raise TemplateSyntaxError("Could not find variable at "
-                                              "start of %s." % token)
+                    raise TemplateSyntaxError(
+                        "Could not find variable at start of %s." % token
+                    )
                 else:
                     var_obj = Variable(var)
             else:
@@ -777,6 +781,8 @@ class Variable:
     (The example assumes VARIABLE_ATTRIBUTE_SEPARATOR is '.')
     """
 
+    __slots__ = ('var', 'literal', 'lookups', 'translate', 'message_context')
+
     def __init__(self, var):
         self.var = var
         self.literal = None
@@ -879,9 +885,10 @@ class Variable:
                                 ValueError,  # invalid literal for int()
                                 KeyError,    # current is a dict without `int(bit)` key
                                 TypeError):  # unsubscriptable object
-                            raise VariableDoesNotExist("Failed lookup for key "
-                                                       "[%s] in %r",
-                                                       (bit, current))  # missing attribute
+                            raise VariableDoesNotExist(
+                                "Failed lookup for key [%s] in %r",
+                                (bit, current),
+                            )  # missing attribute
                 if callable(current):
                     if getattr(current, 'do_not_call_in_templates', False):
                         pass

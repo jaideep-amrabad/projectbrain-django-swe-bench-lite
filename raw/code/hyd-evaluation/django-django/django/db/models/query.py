@@ -5,7 +5,7 @@ The main QuerySet implementation. This provides the public API for the ORM.
 import copy
 import operator
 import warnings
-from itertools import chain
+from itertools import chain, islice
 
 import django
 from django.conf import settings
@@ -17,12 +17,13 @@ from django.db import (
 from django.db.models import AutoField, DateField, DateTimeField, sql
 from django.db.models.constants import LOOKUP_SEP, OnConflict
 from django.db.models.deletion import Collector
-from django.db.models.expressions import Case, Expression, F, Ref, Value, When
+from django.db.models.expressions import Case, F, Ref, Value, When
 from django.db.models.functions import Cast, Trunc
 from django.db.models.query_utils import FilteredRelation, Q
 from django.db.models.sql.constants import CURSOR, GET_ITERATOR_CHUNK_SIZE
 from django.db.models.utils import create_namedtuple_class, resolve_callables
 from django.utils import timezone
+from django.utils.deprecation import RemovedInDjango50Warning
 from django.utils.functional import cached_property, partition
 
 # The maximum number of results to fetch in a get() query.
@@ -356,14 +357,40 @@ class QuerySet:
     ####################################
 
     def _iterator(self, use_chunked_fetch, chunk_size):
-        yield from self._iterable_class(self, chunked_fetch=use_chunked_fetch, chunk_size=chunk_size)
+        iterable = self._iterable_class(
+            self,
+            chunked_fetch=use_chunked_fetch,
+            chunk_size=chunk_size or 2000,
+        )
+        if not self._prefetch_related_lookups or chunk_size is None:
+            yield from iterable
+            return
 
-    def iterator(self, chunk_size=2000):
+        iterator = iter(iterable)
+        while results := list(islice(iterator, chunk_size)):
+            prefetch_related_objects(results, *self._prefetch_related_lookups)
+            yield from results
+
+    def iterator(self, chunk_size=None):
         """
         An iterator over the results from applying this QuerySet to the
-        database.
+        database. chunk_size must be provided for QuerySets that prefetch
+        related objects. Otherwise, a default chunk_size of 2000 is supplied.
         """
-        if chunk_size <= 0:
+        if chunk_size is None:
+            if self._prefetch_related_lookups:
+                # When the deprecation ends, replace with:
+                # raise ValueError(
+                #     'chunk_size must be provided when using '
+                #     'QuerySet.iterator() after prefetch_related().'
+                # )
+                warnings.warn(
+                    'Using QuerySet.iterator() after prefetch_related() '
+                    'without specifying chunk_size is deprecated.',
+                    category=RemovedInDjango50Warning,
+                    stacklevel=2,
+                )
+        elif chunk_size <= 0:
             raise ValueError('Chunk size must be strictly positive.')
         use_chunked_fetch = not connections[self.db].settings_dict.get('DISABLE_SERVER_SIDE_CURSORS')
         return self._iterator(use_chunked_fetch, chunk_size)
@@ -496,8 +523,7 @@ class QuerySet:
                 )
             if not unique_fields and db_features.supports_update_conflicts_with_target:
                 raise ValueError(
-                    'Unique fields that can trigger the upsert must be '
-                    'provided.'
+                    'Unique fields that can trigger the upsert must be provided.'
                 )
             # Updating primary keys and non-concrete fields is forbidden.
             update_fields = [self.model._meta.get_field(name) for name in update_fields]
@@ -643,7 +669,7 @@ class QuerySet:
                 when_statements = []
                 for obj in batch_objs:
                     attr = getattr(obj, field.attname)
-                    if not isinstance(attr, Expression):
+                    if not hasattr(attr, 'resolve_expression'):
                         attr = Value(attr, output_field=field)
                     when_statements.append(When(pk=obj.pk, then=attr))
                 case_statement = Case(*when_statements, output_field=field)
@@ -903,8 +929,7 @@ class QuerySet:
         self._not_support_combined_queries('contains')
         if self._fields is not None:
             raise TypeError(
-                'Cannot call QuerySet.contains() after .values() or '
-                '.values_list().'
+                'Cannot call QuerySet.contains() after .values() or .values_list().'
             )
         try:
             if obj._meta.concrete_model != self.model._meta.concrete_model:
@@ -1712,8 +1737,7 @@ class Prefetch:
             )
         ):
             raise ValueError(
-                'Prefetch querysets cannot use raw(), values(), and '
-                'values_list().'
+                'Prefetch querysets cannot use raw(), values(), and values_list().'
             )
         if to_attr:
             self.prefetch_to = LOOKUP_SEP.join(lookup.split(LOOKUP_SEP)[:-1] + [to_attr])

@@ -409,16 +409,22 @@ class BasicExpressionsTests(TestCase):
 
     def test_order_by_multiline_sql(self):
         raw_order_by = (
-            RawSQL('''
+            RawSQL(
+                """
                 CASE WHEN num_employees > 1000
                      THEN num_chairs
                      ELSE 0 END
-            ''', []).desc(),
-            RawSQL('''
+                """,
+                [],
+            ).desc(),
+            RawSQL(
+                """
                 CASE WHEN num_chairs > 1
                      THEN 1
                      ELSE 0 END
-            ''', []).asc()
+                """,
+                [],
+            ).asc()
         )
         for qs in (
             Company.objects.all(),
@@ -1904,6 +1910,13 @@ class ExistsTests(TestCase):
             captured_sql,
         )
         self.assertNotIn('ORDER BY', captured_sql)
+
+    def test_negated_empty_exists(self):
+        manager = Manager.objects.create()
+        qs = Manager.objects.filter(
+            ~Exists(Manager.objects.none()) & Q(pk=manager.pk)
+        )
+        self.assertSequenceEqual(qs, [manager])
 
 
 class FieldTransformTests(TestCase):
