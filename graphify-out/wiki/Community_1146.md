@@ -1,23 +1,28 @@
 # Community 1146
 
-> 2 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **SchoolManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **model_options/apps.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
+- **ModelDefaultPKConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
+- **ModelPKConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
+- **ModelPKNonAutoConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
+- **ModelPKNoneConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
+- **ModelPKNonexistentConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
 
 ## Relationships
 
-- [Community 524](Community_524.md) (1 shared connections)
+- [Community 162](Community_162.md) (6 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

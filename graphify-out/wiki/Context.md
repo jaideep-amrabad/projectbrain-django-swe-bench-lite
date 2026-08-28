@@ -1,8 +1,8 @@
 # Context
 
-> God node · 257 connections · `raw/code/hyd-evaluation/django-django/django/template/context.py`
+> God node · 259 connections · `raw/code/hyd-evaluation/django-django/django/template/context.py`
 
-**Community:** [Community 8](Community_8.md)
+**Community:** [Community 5](Community_5.md)
 
 ## Connections by Relation
 

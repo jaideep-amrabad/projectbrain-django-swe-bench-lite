@@ -1,6 +1,6 @@
 # Community 183
 
-> 58 nodes · cohesion 0.07
+> 56 nodes · cohesion 0.08
 
 ## Key Concepts
 
@@ -29,19 +29,18 @@
 - **.test_append_slash_slashless_resource_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 - **.test_append_slash_slashless_unknown()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 - **.test_append_slash_slashless_unknown_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- *... and 33 more nodes in this community*
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (27 shared connections)
-- [Community 30](Community_30.md) (5 shared connections)
-- [Community 281](Community_281.md) (5 shared connections)
-- [Community 76](Community_76.md) (5 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 580](Community_580.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 6](Community_6.md) (26 shared connections)
+- [Community 24](Community_24.md) (7 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 276](Community_276.md) (5 shared connections)
+- [Community 34](Community_34.md) (4 shared connections)
+- [Community 321](Community_321.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
@@ -50,8 +49,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 136 (78%)
-- INFERRED: 39 (22%)
+- EXTRACTED: 132 (77%)
+- INFERRED: 39 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

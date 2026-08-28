@@ -1,8 +1,8 @@
 # SimpleTestCase
 
-> God node · 1321 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1319 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 0](Community_0.md)
+**Community:** [Community 1](Community_1.md)
 
 ## Connections by Relation
 
@@ -69,11 +69,11 @@
 - ._get_template_used() `EXTRACTED`
 - .assertTemplateNotUsed() `EXTRACTED`
 - ._assertFooMessage() `EXTRACTED`
+- .assertXMLEqual() `EXTRACTED`
+- .assertXMLNotEqual() `EXTRACTED`
 - .__call__() `EXTRACTED`
 - .debug() `EXTRACTED`
 - .assertURLEqual() `EXTRACTED`
-- .assertContains() `EXTRACTED`
-- .assertNotContains() `EXTRACTED`
 
 ### uses
 - RemovedInDjango50Warning `INFERRED`
