@@ -1,4 +1,5 @@
 import collections
+import json
 import re
 from functools import partial
 from itertools import chain
@@ -26,10 +27,13 @@ class SQLCompiler:
         re.MULTILINE | re.DOTALL,
     )
 
-    def __init__(self, query, connection, using):
+    def __init__(self, query, connection, using, elide_empty=True):
         self.query = query
         self.connection = connection
         self.using = using
+        # Some queries, e.g. coalesced aggregation, need to be executed even if
+        # they would return an empty result set.
+        self.elide_empty = elide_empty
         self.quote_cache = {'*': '*'}
         # The select, klass_info, and annotations are needed by QuerySet.iterator()
         # these are set as a side-effect of executing the query. Note that we calculate
@@ -458,7 +462,7 @@ class SQLCompiler:
     def get_combinator_sql(self, combinator, all):
         features = self.connection.features
         compilers = [
-            query.get_compiler(self.using, self.connection)
+            query.get_compiler(self.using, self.connection, self.elide_empty)
             for query in self.query.combined_queries if not query.is_empty()
         ]
         if not features.supports_slicing_ordering_in_compound:
@@ -535,7 +539,13 @@ class SQLCompiler:
                 # This must come after 'select', 'ordering', and 'distinct'
                 # (see docstring of get_from_clause() for details).
                 from_, f_params = self.get_from_clause()
-                where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+                try:
+                    where, w_params = self.compile(self.where) if self.where is not None else ('', [])
+                except EmptyResultSet:
+                    if self.elide_empty:
+                        raise
+                    # Use a predicate that's always False.
+                    where, w_params = '0 = 1', []
                 having, h_params = self.compile(self.having) if self.having is not None else ("", [])
                 result = ['SELECT']
                 params = []
@@ -1213,15 +1223,11 @@ class SQLCompiler:
             chunk_size,
         )
         if not chunked_fetch or not self.connection.features.can_use_chunked_reads:
-            try:
-                # If we are using non-chunked reads, we return the same data
-                # structure as normally, but ensure it is all read into memory
-                # before going any further. Use chunked_fetch if requested,
-                # unless the database doesn't support it.
-                return list(result)
-            finally:
-                # done with the cursor
-                cursor.close()
+            # If we are using non-chunked reads, we return the same data
+            # structure as normally, but ensure it is all read into memory
+            # before going any further. Use chunked_fetch if requested,
+            # unless the database doesn't support it.
+            return list(result)
         return result
 
     def as_subquery_condition(self, alias, columns, compiler):
@@ -1241,9 +1247,10 @@ class SQLCompiler:
         result = list(self.execute_sql())
         # Some backends return 1 item tuples with strings, and others return
         # tuples with integers and strings. Flatten them out into strings.
+        output_formatter = json.dumps if self.query.explain_format == 'json' else str
         for row in result[0]:
             if not isinstance(row, str):
-                yield ' '.join(str(c) for c in row)
+                yield ' '.join(output_formatter(c) for c in row)
             else:
                 yield row
 
@@ -1652,7 +1659,7 @@ class SQLAggregateCompiler(SQLCompiler):
         params = tuple(params)
 
         inner_query_sql, inner_query_params = self.query.inner_query.get_compiler(
-            self.using
+            self.using, elide_empty=self.elide_empty,
         ).as_sql(with_col_aliases=True)
         sql = 'SELECT %s FROM (%s) subquery' % (sql, inner_query_sql)
         params = params + inner_query_params

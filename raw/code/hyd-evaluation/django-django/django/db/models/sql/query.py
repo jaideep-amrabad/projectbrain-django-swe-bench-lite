@@ -273,12 +273,12 @@ class Query(BaseExpression):
         memo[id(self)] = result
         return result
 
-    def get_compiler(self, using=None, connection=None):
+    def get_compiler(self, using=None, connection=None, elide_empty=True):
         if using is None and connection is None:
             raise ValueError("Need either using or connection")
         if using:
             connection = connections[using]
-        return connection.ops.compiler(self.compiler)(self, connection, using)
+        return connection.ops.compiler(self.compiler)(self, connection, using, elide_empty)
 
     def get_meta(self):
         """
@@ -490,14 +490,19 @@ class Query(BaseExpression):
             self.default_cols = False
             self.extra = {}
 
+        empty_aggregate_result = [
+            expression.empty_aggregate_value
+            for expression in outer_query.annotation_select.values()
+        ]
+        elide_empty = not any(result is NotImplemented for result in empty_aggregate_result)
         outer_query.clear_ordering(force=True)
         outer_query.clear_limits()
         outer_query.select_for_update = False
         outer_query.select_related = False
-        compiler = outer_query.get_compiler(using)
+        compiler = outer_query.get_compiler(using, elide_empty=elide_empty)
         result = compiler.execute_sql(SINGLE)
         if result is None:
-            result = [None] * len(outer_query.annotation_select)
+            result = empty_aggregate_result
 
         converters = compiler.get_converters(outer_query.annotation_select.values())
         result = next(compiler.apply_converters((result,), converters))
@@ -562,14 +567,14 @@ class Query(BaseExpression):
         The 'connector' parameter describes how to connect filters from the
         'rhs' query.
         """
-        assert self.model == rhs.model, \
-            "Cannot combine queries on two different base models."
+        if self.model != rhs.model:
+            raise TypeError('Cannot combine queries on two different base models.')
         if self.is_sliced:
             raise TypeError('Cannot combine queries once a slice has been taken.')
-        assert self.distinct == rhs.distinct, \
-            "Cannot combine a unique query with a non-unique query."
-        assert self.distinct_fields == rhs.distinct_fields, \
-            "Cannot combine queries with different distinct fields."
+        if self.distinct != rhs.distinct:
+            raise TypeError('Cannot combine a unique query with a non-unique query.')
+        if self.distinct_fields != rhs.distinct_fields:
+            raise TypeError('Cannot combine queries with different distinct fields.')
 
         # Work out how to relabel the rhs aliases, if necessary.
         change_map = {}
@@ -1257,12 +1262,10 @@ class Query(BaseExpression):
         if hasattr(filter_expr, 'resolve_expression'):
             if not getattr(filter_expr, 'conditional', False):
                 raise TypeError('Cannot filter against a non-conditional expression.')
-            condition = self.build_lookup(
-                ['exact'], filter_expr.resolve_expression(self, allow_joins=allow_joins), True
-            )
-            clause = self.where_class()
-            clause.add(condition, AND)
-            return clause, []
+            condition = filter_expr.resolve_expression(self, allow_joins=allow_joins)
+            if not isinstance(condition, Lookup):
+                condition = self.build_lookup(['exact'], condition, True)
+            return self.where_class([condition], connector=AND), []
         arg, value = filter_expr
         if not arg:
             raise FieldError("Cannot parse keyword query %r" % arg)
@@ -1281,11 +1284,9 @@ class Query(BaseExpression):
         if check_filterable:
             self.check_filterable(value)
 
-        clause = self.where_class()
         if reffed_expression:
             condition = self.build_lookup(lookups, reffed_expression, value)
-            clause.add(condition, AND)
-            return clause, []
+            return self.where_class([condition], connector=AND), []
 
         opts = self.get_meta()
         alias = self.get_initial_alias()
@@ -1328,7 +1329,7 @@ class Query(BaseExpression):
 
         condition = self.build_lookup(lookups, col, value)
         lookup_type = condition.lookup_name
-        clause.add(condition, AND)
+        clause = self.where_class([condition], connector=AND)
 
         require_outer = lookup_type == 'isnull' and condition.rhs is True and not current_negated
         if current_negated and (lookup_type != 'isnull' or condition.rhs is False) and condition.rhs is not None:
