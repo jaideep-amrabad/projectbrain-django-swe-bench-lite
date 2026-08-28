@@ -25,11 +25,11 @@
 
 ## Relationships
 
-- [Community 18](Community_18.md) (4 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
 - [Community 2](Community_2.md) (3 shared connections)
-- [Community 110](Community_110.md) (3 shared connections)
-- [Community 32](Community_32.md) (2 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 113](Community_113.md) (3 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
 

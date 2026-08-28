@@ -1,6 +1,6 @@
 # Community 0
 
-> 958 nodes · cohesion 0.01
+> 977 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -16,42 +16,45 @@
 - **defaulttags.py** (84 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
 - **safestring.py** (79 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
 - **tag()** (73 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **utils/html.py** (63 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 - **template/base.py** (61 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **trans_real.py** (48 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
 - **Node** (45 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
 - **TemplateDoesNotExist** (40 connections) — `raw/code/hyd-evaluation/django-django/django/template/exceptions.py`
 - **templatetags/i18n.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
 - **Library** (35 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **escape()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 - **test_blocktranslate.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
 - **SafeData** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
 - **Variable** (27 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
 - **library.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **test_translate.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **django.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **SafeString** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
-- **engine.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
-- *... and 933 more nodes in this community*
+- **conditional_escape()** (27 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- *... and 952 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (284 shared connections)
-- [Community 2](Community_2.md) (223 shared connections)
-- [Community 42](Community_42.md) (144 shared connections)
-- [Community 5](Community_5.md) (143 shared connections)
-- [Community 60](Community_60.md) (79 shared connections)
-- [Community 4](Community_4.md) (78 shared connections)
-- [Community 197](Community_197.md) (53 shared connections)
-- [Community 8](Community_8.md) (46 shared connections)
-- [Community 17](Community_17.md) (41 shared connections)
-- [Community 38](Community_38.md) (37 shared connections)
-- [Community 32](Community_32.md) (37 shared connections)
-- [Community 250](Community_250.md) (32 shared connections)
+- [Community 5](Community_5.md) (296 shared connections)
+- [Community 2](Community_2.md) (238 shared connections)
+- [Community 1](Community_1.md) (232 shared connections)
+- [Community 11](Community_11.md) (84 shared connections)
+- [Community 4](Community_4.md) (76 shared connections)
+- [Community 532](Community_532.md) (68 shared connections)
+- [Community 41](Community_41.md) (53 shared connections)
+- [Community 40](Community_40.md) (48 shared connections)
+- [Community 3](Community_3.md) (41 shared connections)
+- [Community 7](Community_7.md) (34 shared connections)
+- [Community 29](Community_29.md) (32 shared connections)
+- [Community 413](Community_413.md) (30 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/template/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/utils.py`
 - `raw/code/hyd-evaluation/django-django/django/template/base.py`
 - `raw/code/hyd-evaluation/django-django/django/template/context.py`
 - `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
@@ -63,16 +66,13 @@
 - `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
 - `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
 - `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
 - `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- `raw/code/hyd-evaluation/django-django/django/test/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5135 (97%)
-- INFERRED: 133 (3%)
+- EXTRACTED: 5364 (97%)
+- INFERRED: 156 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

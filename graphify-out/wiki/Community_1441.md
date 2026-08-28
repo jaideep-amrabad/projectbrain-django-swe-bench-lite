@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **navigation.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/navigation.test.js`
+- **i18n_catalog.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/views/templates/i18n_catalog.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/admin/navigation.test.js`
+- `raw/code/hyd-evaluation/django-django/django/views/templates/i18n_catalog.js`
 
 ## Audit Trail
 

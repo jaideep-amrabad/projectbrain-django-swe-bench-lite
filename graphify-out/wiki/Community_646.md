@@ -1,6 +1,6 @@
 # Community 646
 
-> 17 nodes · cohesion 0.15
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
@@ -10,6 +10,7 @@
 - **.params()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
 - **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
 - **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
 - **.__references_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
 - **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
 - **.verify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
@@ -24,12 +25,12 @@
 
 ## Relationships
 
-- [Community 145](Community_145.md) (8 shared connections)
-- [Community 157](Community_157.md) (4 shared connections)
-- [Community 443](Community_443.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
-- [Community 276](Community_276.md) (1 shared connections)
+- [Community 151](Community_151.md) (8 shared connections)
+- [Community 162](Community_162.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 441](Community_441.md) (3 shared connections)
+- [Community 244](Community_244.md) (1 shared connections)
+- [Community 274](Community_274.md) (1 shared connections)
 - [Community 45](Community_45.md) (1 shared connections)
 
 ## Source Files
@@ -39,8 +40,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 37 (90%)
-- INFERRED: 4 (10%)
+- EXTRACTED: 39 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

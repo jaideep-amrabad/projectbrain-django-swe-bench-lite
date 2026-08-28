@@ -1,6 +1,6 @@
 # Community 638
 
-> 41 nodes · cohesion 0.08
+> 42 nodes · cohesion 0.08
 
 ## Key Concepts
 
@@ -20,7 +20,7 @@
 - **Model3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
 - **Party** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
 - **.test_metaclass_can_access_attribute_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.test_timezones()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_sql_insert_compiler_return_id_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 - **.test_model_with_evaluate_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 - **.test_chained_fks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 - **.test_get_next_prev_by_field_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
@@ -29,18 +29,18 @@
 - **.test_related_lte_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 - **.test_pk_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 - **Regression test for #10153: foreign key __gte lookups.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- *... and 16 more nodes in this community*
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (9 shared connections)
-- [Community 25](Community_25.md) (5 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 84](Community_84.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 23](Community_23.md) (5 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 85](Community_85.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 1109](Community_1109.md) (1 shared connections)
 
 ## Source Files
 
@@ -49,8 +49,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 76 (85%)
-- INFERRED: 13 (15%)
+- EXTRACTED: 75 (84%)
+- INFERRED: 14 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

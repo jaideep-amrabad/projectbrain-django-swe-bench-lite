@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **contenttypes/management/commands/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/__init__.py`
+- **prepopulate.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/prepopulate.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/prepopulate.js`
 
 ## Audit Trail
 
