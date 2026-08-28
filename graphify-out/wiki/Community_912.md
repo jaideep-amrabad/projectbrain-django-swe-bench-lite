@@ -18,8 +18,9 @@
 ## Relationships
 
 - [Community 913](Community_913.md) (15 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 1230](Community_1230.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 1229](Community_1229.md) (2 shared connections)
+- [Community 1291](Community_1291.md) (1 shared connections)
 - [Community 1292](Community_1292.md) (1 shared connections)
 - [Community 1293](Community_1293.md) (1 shared connections)
 - [Community 1294](Community_1294.md) (1 shared connections)
@@ -28,7 +29,6 @@
 - [Community 1297](Community_1297.md) (1 shared connections)
 - [Community 1298](Community_1298.md) (1 shared connections)
 - [Community 1299](Community_1299.md) (1 shared connections)
-- [Community 1300](Community_1300.md) (1 shared connections)
 
 ## Source Files
 

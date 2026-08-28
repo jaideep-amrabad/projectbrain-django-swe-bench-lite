@@ -22,9 +22,9 @@
 
 ## Relationships
 
-- [Community 410](Community_410.md) (9 shared connections)
+- [Community 405](Community_405.md) (9 shared connections)
 - [Community 602](Community_602.md) (4 shared connections)
-- [Community 1190](Community_1190.md) (1 shared connections)
+- [Community 1194](Community_1194.md) (1 shared connections)
 
 ## Source Files
 

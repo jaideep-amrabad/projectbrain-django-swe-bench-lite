@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **async_queryset/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/__init__.py`
+- **auth_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async_queryset/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/__init__.py`
 
 ## Audit Trail
 

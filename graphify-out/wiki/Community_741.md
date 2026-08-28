@@ -21,11 +21,11 @@
 
 ## Relationships
 
-- [Community 207](Community_207.md) (4 shared connections)
-- [Community 47](Community_47.md) (4 shared connections)
-- [Community 198](Community_198.md) (2 shared connections)
-- [Community 688](Community_688.md) (1 shared connections)
-- [Community 508](Community_508.md) (1 shared connections)
+- [Community 205](Community_205.md) (4 shared connections)
+- [Community 39](Community_39.md) (4 shared connections)
+- [Community 195](Community_195.md) (2 shared connections)
+- [Community 687](Community_687.md) (1 shared connections)
+- [Community 505](Community_505.md) (1 shared connections)
 
 ## Source Files
 

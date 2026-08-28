@@ -18,8 +18,8 @@
 
 ## Relationships
 
-- [Community 204](Community_204.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 202](Community_202.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 

@@ -20,9 +20,9 @@
 ## Relationships
 
 - [Community 1](Community_1.md) (8 shared connections)
-- [Community 157](Community_157.md) (1 shared connections)
-- [Community 502](Community_502.md) (1 shared connections)
-- [Community 189](Community_189.md) (1 shared connections)
+- [Community 160](Community_160.md) (1 shared connections)
+- [Community 499](Community_499.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 

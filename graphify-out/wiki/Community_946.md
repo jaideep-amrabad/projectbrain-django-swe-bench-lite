@@ -16,9 +16,9 @@
 
 ## Relationships
 
-- [Community 407](Community_407.md) (6 shared connections)
+- [Community 402](Community_402.md) (6 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 687](Community_687.md) (2 shared connections)
+- [Community 686](Community_686.md) (2 shared connections)
 
 ## Source Files
 

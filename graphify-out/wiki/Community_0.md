@@ -1,6 +1,6 @@
 # Community 0
 
-> 665 nodes · cohesion 0.01
+> 745 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -11,11 +11,14 @@
 - **models/fields/__init__.py** (93 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - **django/db/models/lookups.py** (89 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 - **skipIfDBFeature()** (89 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **management/base.py** (88 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
 - **models/expressions.py** (87 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 - **NotSupportedError** (84 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 - **FieldError** (71 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
 - **db/transaction.py** (70 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **related.py** (66 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
 - **models/query.py** (65 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **db/models/base.py** (64 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 - **DatabaseError** (64 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 - **sql/query.py** (62 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 - **collections.py** (61 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
@@ -26,25 +29,22 @@
 - **test_query.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
 - **django/db/backends/oracle/base.py** (42 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
 - **query_utils.py** (42 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **sql/compiler.py** (42 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **migrations/test_commands.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **postgres_tests/test_constraints.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- *... and 640 more nodes in this community*
+- *... and 720 more nodes in this community*
 
 ## Relationships
 
-- [Community 189](Community_189.md) (339 shared connections)
-- [Community 3](Community_3.md) (163 shared connections)
-- [Community 7](Community_7.md) (121 shared connections)
-- [Community 69](Community_69.md) (114 shared connections)
-- [Community 29](Community_29.md) (108 shared connections)
-- [Community 13](Community_13.md) (84 shared connections)
-- [Community 17](Community_17.md) (78 shared connections)
-- [Community 1](Community_1.md) (77 shared connections)
-- [Community 37](Community_37.md) (52 shared connections)
-- [Community 53](Community_53.md) (44 shared connections)
-- [Community 10](Community_10.md) (40 shared connections)
-- [Community 16](Community_16.md) (40 shared connections)
+- [Community 2](Community_2.md) (355 shared connections)
+- [Community 5](Community_5.md) (153 shared connections)
+- [Community 8](Community_8.md) (130 shared connections)
+- [Community 66](Community_66.md) (113 shared connections)
+- [Community 1](Community_1.md) (100 shared connections)
+- [Community 12](Community_12.md) (84 shared connections)
+- [Community 4](Community_4.md) (78 shared connections)
+- [Community 21](Community_21.md) (55 shared connections)
+- [Community 55](Community_55.md) (49 shared connections)
+- [Community 45](Community_45.md) (46 shared connections)
+- [Community 122](Community_122.md) (45 shared connections)
+- [Community 20](Community_20.md) (43 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 4374 (99%)
-- INFERRED: 50 (1%)
+- EXTRACTED: 4810 (99%)
+- INFERRED: 70 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

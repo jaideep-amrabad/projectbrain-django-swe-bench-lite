@@ -20,10 +20,10 @@
 ## Relationships
 
 - [Community 569](Community_569.md) (3 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 - [Community 97](Community_97.md) (1 shared connections)
 - [Community 944](Community_944.md) (1 shared connections)
-- [Community 270](Community_270.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 

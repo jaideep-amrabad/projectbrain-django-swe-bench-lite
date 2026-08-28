@@ -15,10 +15,10 @@
 
 ## Relationships
 
-- [Community 524](Community_524.md) (3 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 189](Community_189.md) (1 shared connections)
+- [Community 520](Community_520.md) (3 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 

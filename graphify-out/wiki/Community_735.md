@@ -22,10 +22,10 @@
 
 ## Relationships
 
-- [Community 103](Community_103.md) (5 shared connections)
+- [Community 112](Community_112.md) (5 shared connections)
 - [Community 0](Community_0.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
