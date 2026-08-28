@@ -5,7 +5,6 @@ from django.db import models
 from django.forms import CharField, FileField, Form, ModelForm
 from django.forms.models import ModelFormMetaclass
 from django.test import SimpleTestCase, TestCase
-from tests.forms_tests.tests import jinja2_tests
 
 from ..models import (
     BoundaryModel, ChoiceFieldModel, ChoiceModel, ChoiceOptionModel, Defaults,
@@ -373,8 +372,3 @@ class EmptyLabelTestCase(TestCase):
 <option value="2">Bar</option>
 </select></p>"""
         )
-
-
-@jinja2_tests
-class Jinja2EmptyLabelTestCase(EmptyLabelTestCase):
-    pass

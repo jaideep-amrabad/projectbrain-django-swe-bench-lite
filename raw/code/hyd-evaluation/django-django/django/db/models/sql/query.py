@@ -143,7 +143,6 @@ class Query(BaseExpression):
     """A single SQL query."""
 
     alias_prefix = 'T'
-    empty_result_set_value = None
     subq_aliases = frozenset([alias_prefix])
 
     compiler = 'SQLCompiler'
@@ -307,10 +306,7 @@ class Query(BaseExpression):
         obj.annotations = self.annotations.copy()
         if self.annotation_select_mask is not None:
             obj.annotation_select_mask = self.annotation_select_mask.copy()
-        if self.combined_queries:
-            obj.combined_queries = tuple([
-                query.clone() for query in self.combined_queries
-            ])
+        obj.combined_queries = tuple(query.clone() for query in self.combined_queries)
         # _annotation_select_cache cannot be copied, as doing so breaks the
         # (necessary) state in which both annotations and
         # _annotation_select_cache point to the same underlying objects.
@@ -488,11 +484,11 @@ class Query(BaseExpression):
             self.default_cols = False
             self.extra = {}
 
-        empty_set_result = [
-            expression.empty_result_set_value
+        empty_aggregate_result = [
+            expression.empty_aggregate_value
             for expression in outer_query.annotation_select.values()
         ]
-        elide_empty = not any(result is NotImplemented for result in empty_set_result)
+        elide_empty = not any(result is NotImplemented for result in empty_aggregate_result)
         outer_query.clear_ordering(force=True)
         outer_query.clear_limits()
         outer_query.select_for_update = False
@@ -500,7 +496,7 @@ class Query(BaseExpression):
         compiler = outer_query.get_compiler(using, elide_empty=elide_empty)
         result = compiler.execute_sql(SINGLE)
         if result is None:
-            result = empty_set_result
+            result = empty_aggregate_result
 
         converters = compiler.get_converters(outer_query.annotation_select.values())
         result = next(compiler.apply_converters((result,), converters))
@@ -513,7 +509,10 @@ class Query(BaseExpression):
         """
         obj = self.clone()
         obj.add_annotation(Count('*'), alias='__count', is_summary=True)
-        return obj.get_aggregation(using, ['__count'])['__count']
+        number = obj.get_aggregation(using, ['__count'])['__count']
+        if number is None:
+            number = 0
+        return number
 
     def has_filters(self):
         return self.where
@@ -1760,7 +1759,7 @@ class Query(BaseExpression):
             )
         """
         # Generate the inner query.
-        query = self.__class__(self.model)
+        query = Query(self.model)
         query._filtered_relations = self._filtered_relations
         filter_lhs, filter_rhs = filter_expr
         if isinstance(filter_rhs, OuterRef):
@@ -2330,10 +2329,10 @@ class Query(BaseExpression):
         # used. The proper fix would be to defer all decisions where
         # is_nullable() is needed to the compiler stage, but that is not easy
         # to do currently.
-        return field.null or (
-            field.empty_strings_allowed and
-            connections[DEFAULT_DB_ALIAS].features.interprets_empty_strings_as_nulls
-        )
+        return (
+            connections[DEFAULT_DB_ALIAS].features.interprets_empty_strings_as_nulls and
+            field.empty_strings_allowed
+        ) or field.null
 
 
 def get_order_dir(field, default='ASC'):

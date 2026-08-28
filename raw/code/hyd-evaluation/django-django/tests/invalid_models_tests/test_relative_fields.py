@@ -862,8 +862,8 @@ class AccessorClashTests(SimpleTestCase):
 
         self.assertEqual(Model.check(), [
             Error(
-                "Reverse accessor 'Target.model_set' for "
-                "'invalid_models_tests.Model.rel' clashes with field name "
+                "Reverse accessor for 'invalid_models_tests.Model.rel' "
+                "clashes with field name "
                 "'invalid_models_tests.Target.model_set'.",
                 hint=(
                     "Rename field 'invalid_models_tests.Target.model_set', or "
@@ -885,9 +885,9 @@ class AccessorClashTests(SimpleTestCase):
 
         self.assertEqual(Model.check(), [
             Error(
-                "Reverse accessor 'Target.model_set' for "
-                "'invalid_models_tests.Model.foreign' clashes with reverse "
-                "accessor for 'invalid_models_tests.Model.m2m'.",
+                "Reverse accessor for 'invalid_models_tests.Model.foreign' "
+                "clashes with reverse accessor for "
+                "'invalid_models_tests.Model.m2m'.",
                 hint=(
                     "Add or change a related_name argument to the definition "
                     "for 'invalid_models_tests.Model.foreign' or "
@@ -897,9 +897,9 @@ class AccessorClashTests(SimpleTestCase):
                 id='fields.E304',
             ),
             Error(
-                "Reverse accessor 'Target.model_set' for "
-                "'invalid_models_tests.Model.m2m' clashes with reverse "
-                "accessor for 'invalid_models_tests.Model.foreign'.",
+                "Reverse accessor for 'invalid_models_tests.Model.m2m' "
+                "clashes with reverse accessor for "
+                "'invalid_models_tests.Model.foreign'.",
                 hint=(
                     "Add or change a related_name argument to the definition "
                     "for 'invalid_models_tests.Model.m2m' or "
@@ -927,9 +927,9 @@ class AccessorClashTests(SimpleTestCase):
 
         self.assertEqual(Model.check(), [
             Error(
-                "Reverse accessor 'Child.m2m_clash' for "
-                "'invalid_models_tests.Model.children' clashes with field "
-                "name 'invalid_models_tests.Child.m2m_clash'.",
+                "Reverse accessor for 'invalid_models_tests.Model.children' "
+                "clashes with field name "
+                "'invalid_models_tests.Child.m2m_clash'.",
                 hint=(
                     "Rename field 'invalid_models_tests.Child.m2m_clash', or "
                     "add/change a related_name argument to the definition for "
@@ -1085,9 +1085,8 @@ class ExplicitRelatedNameClashTests(SimpleTestCase):
 
         self.assertEqual(Model.check(), [
             Error(
-                "Reverse accessor 'Target.clash' for "
-                "'invalid_models_tests.Model.rel' clashes with field name "
-                "'invalid_models_tests.Target.clash'.",
+                "Reverse accessor for 'invalid_models_tests.Model.rel' "
+                "clashes with field name 'invalid_models_tests.Target.clash'.",
                 hint=(
                     "Rename field 'invalid_models_tests.Target.clash', or "
                     "add/change a related_name argument to the definition for "
@@ -1219,9 +1218,9 @@ class SelfReferentialM2MClashTests(SimpleTestCase):
 
         self.assertEqual(Model.check(), [
             Error(
-                "Reverse accessor 'Model.model_set' for "
-                "'invalid_models_tests.Model.first_m2m' clashes with reverse "
-                "accessor for 'invalid_models_tests.Model.second_m2m'.",
+                "Reverse accessor for 'invalid_models_tests.Model.first_m2m' "
+                "clashes with reverse accessor for "
+                "'invalid_models_tests.Model.second_m2m'.",
                 hint=(
                     "Add or change a related_name argument to the definition "
                     "for 'invalid_models_tests.Model.first_m2m' or "
@@ -1231,9 +1230,9 @@ class SelfReferentialM2MClashTests(SimpleTestCase):
                 id='fields.E304',
             ),
             Error(
-                "Reverse accessor 'Model.model_set' for "
-                "'invalid_models_tests.Model.second_m2m' clashes with reverse "
-                "accessor for 'invalid_models_tests.Model.first_m2m'.",
+                "Reverse accessor for 'invalid_models_tests.Model.second_m2m' "
+                "clashes with reverse accessor for "
+                "'invalid_models_tests.Model.first_m2m'.",
                 hint=(
                     "Add or change a related_name argument to the definition "
                     "for 'invalid_models_tests.Model.second_m2m' or "
@@ -1250,9 +1249,9 @@ class SelfReferentialM2MClashTests(SimpleTestCase):
 
         self.assertEqual(Model.check(), [
             Error(
-                "Reverse accessor 'Model.model_set' for "
-                "'invalid_models_tests.Model.model_set' clashes with field "
-                "name 'invalid_models_tests.Model.model_set'.",
+                "Reverse accessor for 'invalid_models_tests.Model.model_set' "
+                "clashes with field name "
+                "'invalid_models_tests.Model.model_set'.",
                 hint=(
                     "Rename field 'invalid_models_tests.Model.model_set', or "
                     "add/change a related_name argument to the definition for "
@@ -1288,9 +1287,8 @@ class SelfReferentialM2MClashTests(SimpleTestCase):
 
         self.assertEqual(Model.check(), [
             Error(
-                "Reverse accessor 'Model.clash' for "
-                "'invalid_models_tests.Model.m2m' clashes with field name "
-                "'invalid_models_tests.Model.clash'.",
+                "Reverse accessor for 'invalid_models_tests.Model.m2m' "
+                "clashes with field name 'invalid_models_tests.Model.clash'.",
                 hint=(
                     "Rename field 'invalid_models_tests.Model.clash', or "
                     "add/change a related_name argument to the definition for "
@@ -1329,9 +1327,9 @@ class SelfReferentialFKClashTests(SimpleTestCase):
 
         self.assertEqual(Model.check(), [
             Error(
-                "Reverse accessor 'Model.model_set' for "
-                "'invalid_models_tests.Model.model_set' clashes with field "
-                "name 'invalid_models_tests.Model.model_set'.",
+                "Reverse accessor for 'invalid_models_tests.Model.model_set' "
+                "clashes with field name "
+                "'invalid_models_tests.Model.model_set'.",
                 hint=(
                     "Rename field 'invalid_models_tests.Model.model_set', or "
                     "add/change a related_name argument to the definition for "
@@ -1367,9 +1365,8 @@ class SelfReferentialFKClashTests(SimpleTestCase):
 
         self.assertEqual(Model.check(), [
             Error(
-                "Reverse accessor 'Model.clash' for "
-                "'invalid_models_tests.Model.foreign' clashes with field name "
-                "'invalid_models_tests.Model.clash'.",
+                "Reverse accessor for 'invalid_models_tests.Model.foreign' "
+                "clashes with field name 'invalid_models_tests.Model.clash'.",
                 hint=(
                     "Rename field 'invalid_models_tests.Model.clash', or "
                     "add/change a related_name argument to the definition for "
@@ -1416,9 +1413,8 @@ class ComplexClashTests(SimpleTestCase):
 
         self.assertEqual(Model.check(), [
             Error(
-                "Reverse accessor 'Target.id' for "
-                "'invalid_models_tests.Model.foreign_1' clashes with field "
-                "name 'invalid_models_tests.Target.id'.",
+                "Reverse accessor for 'invalid_models_tests.Model.foreign_1' "
+                "clashes with field name 'invalid_models_tests.Target.id'.",
                 hint=(
                     "Rename field 'invalid_models_tests.Target.id', or "
                     "add/change a related_name argument to the definition for "
@@ -1439,9 +1435,9 @@ class ComplexClashTests(SimpleTestCase):
                 id='fields.E303',
             ),
             Error(
-                "Reverse accessor 'Target.id' for "
-                "'invalid_models_tests.Model.foreign_1' clashes with reverse "
-                "accessor for 'invalid_models_tests.Model.m2m_1'.",
+                "Reverse accessor for 'invalid_models_tests.Model.foreign_1' "
+                "clashes with reverse accessor for "
+                "'invalid_models_tests.Model.m2m_1'.",
                 hint=(
                     "Add or change a related_name argument to the definition "
                     "for 'invalid_models_tests.Model.foreign_1' or "
@@ -1464,9 +1460,9 @@ class ComplexClashTests(SimpleTestCase):
             ),
 
             Error(
-                "Reverse accessor 'Target.src_safe' for "
-                "'invalid_models_tests.Model.foreign_2' clashes with reverse "
-                "accessor for 'invalid_models_tests.Model.m2m_2'.",
+                "Reverse accessor for 'invalid_models_tests.Model.foreign_2' "
+                "clashes with reverse accessor for "
+                "'invalid_models_tests.Model.m2m_2'.",
                 hint=(
                     "Add or change a related_name argument to the definition "
                     "for 'invalid_models_tests.Model.foreign_2' or "
@@ -1489,9 +1485,8 @@ class ComplexClashTests(SimpleTestCase):
             ),
 
             Error(
-                "Reverse accessor 'Target.id' for "
-                "'invalid_models_tests.Model.m2m_1' clashes with field name "
-                "'invalid_models_tests.Target.id'.",
+                "Reverse accessor for 'invalid_models_tests.Model.m2m_1' "
+                "clashes with field name 'invalid_models_tests.Target.id'.",
                 hint=(
                     "Rename field 'invalid_models_tests.Target.id', or "
                     "add/change a related_name argument to the definition for "
@@ -1512,9 +1507,9 @@ class ComplexClashTests(SimpleTestCase):
                 id='fields.E303',
             ),
             Error(
-                "Reverse accessor 'Target.id' for "
-                "'invalid_models_tests.Model.m2m_1' clashes with reverse "
-                "accessor for 'invalid_models_tests.Model.foreign_1'.",
+                "Reverse accessor for 'invalid_models_tests.Model.m2m_1' "
+                "clashes with reverse accessor for "
+                "'invalid_models_tests.Model.foreign_1'.",
                 hint=(
                     "Add or change a related_name argument to the definition "
                     "for 'invalid_models_tests.Model.m2m_1' or "
@@ -1536,9 +1531,9 @@ class ComplexClashTests(SimpleTestCase):
                 id='fields.E305',
             ),
             Error(
-                "Reverse accessor 'Target.src_safe' for "
-                "'invalid_models_tests.Model.m2m_2' clashes with reverse "
-                "accessor for 'invalid_models_tests.Model.foreign_2'.",
+                "Reverse accessor for 'invalid_models_tests.Model.m2m_2' "
+                "clashes with reverse accessor for "
+                "'invalid_models_tests.Model.foreign_2'.",
                 hint=(
                     "Add or change a related_name argument to the definition "
                     "for 'invalid_models_tests.Model.m2m_2' or "
@@ -1569,16 +1564,16 @@ class ComplexClashTests(SimpleTestCase):
             other_parent = models.OneToOneField(Parent, models.CASCADE)
 
         errors = [
-            ('fields.E304', 'accessor', " 'Parent.child'", 'parent_ptr', 'other_parent'),
-            ('fields.E305', 'query name', '', 'parent_ptr', 'other_parent'),
-            ('fields.E304', 'accessor', " 'Parent.child'", 'other_parent', 'parent_ptr'),
-            ('fields.E305', 'query name', '', 'other_parent', 'parent_ptr'),
+            ('fields.E304', 'accessor', 'parent_ptr', 'other_parent'),
+            ('fields.E305', 'query name', 'parent_ptr', 'other_parent'),
+            ('fields.E304', 'accessor', 'other_parent', 'parent_ptr'),
+            ('fields.E305', 'query name', 'other_parent', 'parent_ptr'),
         ]
         self.assertEqual(Child.check(), [
             Error(
-                "Reverse %s%s for 'invalid_models_tests.Child.%s' clashes with "
+                "Reverse %s for 'invalid_models_tests.Child.%s' clashes with "
                 "reverse %s for 'invalid_models_tests.Child.%s'."
-                % (attr, rel_name, field_name, attr, clash_name),
+                % (attr, field_name, attr, clash_name),
                 hint=(
                     "Add or change a related_name argument to the definition "
                     "for 'invalid_models_tests.Child.%s' or "
@@ -1587,7 +1582,7 @@ class ComplexClashTests(SimpleTestCase):
                 obj=Child._meta.get_field(field_name),
                 id=error_id,
             )
-            for error_id, attr, rel_name, field_name, clash_name in errors
+            for error_id, attr, field_name, clash_name in errors
         ])
 
 

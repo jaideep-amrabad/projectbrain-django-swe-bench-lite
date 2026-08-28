@@ -8,7 +8,7 @@ from django.contrib import admin
 from django.contrib.admin.views.decorators import staff_member_required
 from django.contrib.admindocs import utils
 from django.contrib.admindocs.utils import (
-    replace_metacharacters, replace_named_groups, replace_unnamed_groups,
+    replace_named_groups, replace_unnamed_groups,
 )
 from django.core.exceptions import ImproperlyConfigured, ViewDoesNotExist
 from django.db import models
@@ -412,7 +412,8 @@ def simplify_regex(pattern):
     """
     pattern = replace_named_groups(pattern)
     pattern = replace_unnamed_groups(pattern)
-    pattern = replace_metacharacters(pattern)
+    # clean up any outstanding regex-y characters.
+    pattern = pattern.replace('^', '').replace('$', '').replace('?', '')
     if not pattern.startswith('/'):
         pattern = '/' + pattern
     return pattern

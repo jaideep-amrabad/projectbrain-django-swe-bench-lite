@@ -1481,13 +1481,12 @@ class SeleniumTests(AdminSeleniumTestCase):
         question = self.selenium.find_element_by_css_selector('.actions > .question')
         clear = self.selenium.find_element_by_css_selector('.actions > .clear')
         select_all = self.selenium.find_element_by_id('action-toggle')
-        select_across = self.selenium.find_elements_by_name('select_across')
+        select_across = self.selenium.find_element_by_name('select_across')
 
         self.assertIs(question.is_displayed(), False)
         self.assertIs(clear.is_displayed(), False)
         self.assertIs(select_all.get_property('checked'), False)
-        for hidden_input in select_across:
-            self.assertEqual(hidden_input.get_property('value'), '0')
+        self.assertEqual(select_across.get_property('value'), '0')
         self.assertIs(selection_indicator.is_displayed(), True)
         self.assertEqual(selection_indicator.text, '0 of 100 selected')
         self.assertIs(select_all_indicator.is_displayed(), False)
@@ -1496,8 +1495,7 @@ class SeleniumTests(AdminSeleniumTestCase):
         self.assertIs(question.is_displayed(), True)
         self.assertIs(clear.is_displayed(), False)
         self.assertIs(select_all.get_property('checked'), True)
-        for hidden_input in select_across:
-            self.assertEqual(hidden_input.get_property('value'), '0')
+        self.assertEqual(select_across.get_property('value'), '0')
         self.assertIs(selection_indicator.is_displayed(), True)
         self.assertEqual(selection_indicator.text, '100 of 100 selected')
         self.assertIs(select_all_indicator.is_displayed(), False)
@@ -1506,8 +1504,7 @@ class SeleniumTests(AdminSeleniumTestCase):
         self.assertIs(question.is_displayed(), False)
         self.assertIs(clear.is_displayed(), True)
         self.assertIs(select_all.get_property('checked'), True)
-        for hidden_input in select_across:
-            self.assertEqual(hidden_input.get_property('value'), '1')
+        self.assertEqual(select_across.get_property('value'), '1')
         self.assertIs(selection_indicator.is_displayed(), False)
         self.assertIs(select_all_indicator.is_displayed(), True)
 
@@ -1515,8 +1512,7 @@ class SeleniumTests(AdminSeleniumTestCase):
         self.assertIs(question.is_displayed(), False)
         self.assertIs(clear.is_displayed(), False)
         self.assertIs(select_all.get_property('checked'), False)
-        for hidden_input in select_across:
-            self.assertEqual(hidden_input.get_property('value'), '0')
+        self.assertEqual(select_across.get_property('value'), '0')
         self.assertIs(selection_indicator.is_displayed(), True)
         self.assertEqual(selection_indicator.text, '0 of 100 selected')
         self.assertIs(select_all_indicator.is_displayed(), False)

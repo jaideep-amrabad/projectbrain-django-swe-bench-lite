@@ -1050,9 +1050,3 @@ class ReadOnlyRelatedField(models.Model):
 
 class Héllo(models.Model):
     pass
-
-
-class Box(models.Model):
-    title = models.CharField(max_length=100)
-    next_box = models.ForeignKey("self", null=True, on_delete=models.SET_NULL, blank=True)
-    next_box = models.ForeignKey("self", null=True, on_delete=models.SET_NULL, blank=True)

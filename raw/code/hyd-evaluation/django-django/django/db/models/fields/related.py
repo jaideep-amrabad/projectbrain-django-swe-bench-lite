@@ -239,9 +239,7 @@ class RelatedField(FieldCacheMixin, Field):
             if not rel_is_hidden and clash_field.name == rel_name:
                 errors.append(
                     checks.Error(
-                        f"Reverse accessor '{rel_opts.object_name}.{rel_name}' "
-                        f"for '{field_name}' clashes with field name "
-                        f"'{clash_name}'.",
+                        "Reverse accessor for '%s' clashes with field name '%s'." % (field_name, clash_name),
                         hint=("Rename field '%s', or add/change a related_name "
                               "argument to the definition for field '%s'.") % (clash_name, field_name),
                         obj=self,
@@ -273,9 +271,7 @@ class RelatedField(FieldCacheMixin, Field):
             if not rel_is_hidden and clash_field.get_accessor_name() == rel_name:
                 errors.append(
                     checks.Error(
-                        f"Reverse accessor '{rel_opts.object_name}.{rel_name}' "
-                        f"for '{field_name}' clashes with reverse accessor for "
-                        f"'{clash_name}'.",
+                        "Reverse accessor for '%s' clashes with reverse accessor for '%s'." % (field_name, clash_name),
                         hint=("Add or change a related_name argument "
                               "to the definition for '%s' or '%s'.") % (field_name, clash_name),
                         obj=self,

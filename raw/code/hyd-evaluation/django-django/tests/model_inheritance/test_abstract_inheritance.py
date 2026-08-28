@@ -292,9 +292,8 @@ class AbstractInheritanceTests(SimpleTestCase):
             Foo._meta.get_field('foo').check(),
             [
                 Error(
-                    "Reverse accessor 'Descendant.foo' for "
-                    "'model_inheritance.Foo.foo' clashes with field name "
-                    "'model_inheritance.Descendant.foo'.",
+                    "Reverse accessor for 'model_inheritance.Foo.foo' clashes "
+                    "with field name 'model_inheritance.Descendant.foo'.",
                     hint=(
                         "Rename field 'model_inheritance.Descendant.foo', or "
                         "add/change a related_name argument to the definition "

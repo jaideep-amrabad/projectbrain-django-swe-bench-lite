@@ -11,7 +11,6 @@ from django.forms.formsets import BaseFormSet, all_valid, formset_factory
 from django.forms.utils import ErrorList
 from django.forms.widgets import HiddenInput
 from django.test import SimpleTestCase
-from tests.forms_tests.tests import jinja2_tests
 
 
 class Choice(Form):
@@ -1289,35 +1288,6 @@ class FormsFormsetTestCase(SimpleTestCase):
         self.assertIs(formset._should_delete_form(formset.forms[1]), False)
         self.assertIs(formset._should_delete_form(formset.forms[2]), False)
 
-    def test_custom_renderer(self):
-        """
-        A custom renderer passed to a formset_factory() is passed to all forms
-        and ErrorList.
-        """
-        from django.forms.renderers import Jinja2
-        renderer = Jinja2()
-        data = {
-            'choices-TOTAL_FORMS': '2',
-            'choices-INITIAL_FORMS': '0',
-            'choices-MIN_NUM_FORMS': '0',
-            'choices-0-choice': 'Zero',
-            'choices-0-votes': '',
-            'choices-1-choice': 'One',
-            'choices-1-votes': '',
-        }
-        ChoiceFormSet = formset_factory(Choice, renderer=renderer)
-        formset = ChoiceFormSet(data, auto_id=False, prefix='choices')
-        self.assertEqual(formset.renderer, renderer)
-        self.assertEqual(formset.forms[0].renderer, renderer)
-        self.assertEqual(formset.management_form.renderer, renderer)
-        self.assertEqual(formset.non_form_errors().renderer, renderer)
-        self.assertEqual(formset.empty_form.renderer, renderer)
-
-
-@jinja2_tests
-class Jinja2FormsFormsetTestCase(FormsFormsetTestCase):
-    pass
-
 
 class FormsetAsTagTests(SimpleTestCase):
     def setUp(self):
@@ -1367,11 +1337,6 @@ class FormsetAsTagTests(SimpleTestCase):
         )
 
 
-@jinja2_tests
-class Jinja2FormsetAsTagTests(FormsetAsTagTests):
-    pass
-
-
 class ArticleForm(Form):
     title = CharField()
     pub_date = DateField()
@@ -1394,7 +1359,7 @@ class TestIsBoundBehavior(SimpleTestCase):
         )
         self.assertEqual(formset.errors, [])
         # Can still render the formset.
-        self.assertHTMLEqual(
+        self.assertEqual(
             str(formset),
             '<tr><td colspan="2">'
             '<ul class="errorlist nonfield">'
@@ -1425,7 +1390,7 @@ class TestIsBoundBehavior(SimpleTestCase):
         )
         self.assertEqual(formset.errors, [])
         # Can still render the formset.
-        self.assertHTMLEqual(
+        self.assertEqual(
             str(formset),
             '<tr><td colspan="2">'
             '<ul class="errorlist nonfield">'
@@ -1490,11 +1455,6 @@ class TestIsBoundBehavior(SimpleTestCase):
         self.assertFalse(empty_forms[1].is_bound)
         # The empty forms should be equal.
         self.assertHTMLEqual(empty_forms[0].as_p(), empty_forms[1].as_p())
-
-
-@jinja2_tests
-class TestIsBoundBehavior(TestIsBoundBehavior):
-    pass
 
 
 class TestEmptyFormSet(SimpleTestCase):

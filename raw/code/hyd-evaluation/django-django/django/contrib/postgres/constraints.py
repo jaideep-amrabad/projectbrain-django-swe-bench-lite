@@ -45,6 +45,10 @@ class ExclusionConstraint(BaseConstraint):
             raise ValueError(
                 'ExclusionConstraint.include must be a list or tuple.'
             )
+        if include and index_type and index_type.lower() != 'gist':
+            raise ValueError(
+                'Covering exclusion constraints only support GiST indexes.'
+            )
         if not isinstance(opclasses, (list, tuple)):
             raise ValueError(
                 'ExclusionConstraint.opclasses must be a list or tuple.'
@@ -120,23 +124,9 @@ class ExclusionConstraint(BaseConstraint):
         )
 
     def check_supported(self, schema_editor):
-        if (
-            self.include and
-            self.index_type.lower() == 'gist' and
-            not schema_editor.connection.features.supports_covering_gist_indexes
-        ):
+        if self.include and not schema_editor.connection.features.supports_covering_gist_indexes:
             raise NotSupportedError(
-                'Covering exclusion constraints using a GiST index require '
-                'PostgreSQL 12+.'
-            )
-        if (
-            self.include and
-            self.index_type.lower() == 'spgist' and
-            not schema_editor.connection.features.supports_covering_spgist_indexes
-        ):
-            raise NotSupportedError(
-                'Covering exclusion constraints using an SP-GiST index '
-                'require PostgreSQL 14+.'
+                'Covering exclusion constraints requires PostgreSQL 12+.'
             )
 
     def deconstruct(self):

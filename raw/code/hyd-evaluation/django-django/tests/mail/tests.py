@@ -1,18 +1,21 @@
+import asyncore
+import base64
 import mimetypes
 import os
 import shutil
-import socket
+import smtpd
 import sys
 import tempfile
+import threading
 from email import charset, message_from_binary_file, message_from_bytes
 from email.header import Header
 from email.mime.text import MIMEText
 from email.utils import parseaddr
 from io import StringIO
 from pathlib import Path
-from smtplib import SMTP, SMTPException
+from smtplib import SMTP, SMTPAuthenticationError, SMTPException
 from ssl import SSLError
-from unittest import mock, skipUnless
+from unittest import mock
 
 from django.core import mail
 from django.core.mail import (
@@ -24,12 +27,6 @@ from django.core.mail.message import BadHeaderError, sanitize_address
 from django.test import SimpleTestCase, override_settings
 from django.test.utils import requires_tz_support
 from django.utils.translation import gettext_lazy
-
-try:
-    from aiosmtpd.controller import Controller
-    HAS_AIOSMTPD = True
-except ImportError:
-    HAS_AIOSMTPD = False
 
 
 class HeadersCheckMixin:
@@ -1340,78 +1337,132 @@ class ConsoleBackendTests(BaseEmailBackendTests, SimpleTestCase):
         self.assertIn(b'\nDate: ', message)
 
 
-class SMTPHandler:
+class FakeSMTPChannel(smtpd.SMTPChannel):
+
+    def collect_incoming_data(self, data):
+        try:
+            smtpd.SMTPChannel.collect_incoming_data(self, data)
+        except UnicodeDecodeError:
+            # Ignore decode error in SSL/TLS connection tests as the test only
+            # cares whether the connection attempt was made.
+            pass
+
+    def smtp_AUTH(self, arg):
+        if arg == 'CRAM-MD5':
+            # This is only the first part of the login process. But it's enough
+            # for our tests.
+            challenge = base64.b64encode(b'somerandomstring13579')
+            self.push('334 %s' % challenge.decode())
+        else:
+            self.push('502 Error: login "%s" not implemented' % arg)
+
+
+class FakeSMTPServer(smtpd.SMTPServer, threading.Thread):
+    """
+    Asyncore SMTP server wrapped into a thread. Based on DummyFTPServer from:
+    http://svn.python.org/view/python/branches/py3k/Lib/test/test_ftplib.py?revision=86061&view=markup
+    """
+    channel_class = FakeSMTPChannel
+
     def __init__(self, *args, **kwargs):
-        self.mailbox = []
+        threading.Thread.__init__(self)
+        smtpd.SMTPServer.__init__(self, *args, decode_data=True, **kwargs)
+        self._sink = []
+        self.active = False
+        self.active_lock = threading.Lock()
+        self.sink_lock = threading.Lock()
 
-    async def handle_DATA(self, server, session, envelope):
-        data = envelope.content
-        mail_from = envelope.mail_from
+    def process_message(self, peer, mailfrom, rcpttos, data):
+        data = data.encode()
+        m = message_from_bytes(data)
+        maddr = parseaddr(m.get('from'))[1]
 
-        message = message_from_bytes(data.rstrip())
-        message_addr = parseaddr(message.get('from'))[1]
-        if mail_from != message_addr:
-            # According to the spec, mail_from does not necessarily match the
+        if mailfrom != maddr:
+            # According to the spec, mailfrom does not necessarily match the
             # From header - this is the case where the local part isn't
             # encoded, so try to correct that.
-            lp, domain = mail_from.split('@', 1)
+            lp, domain = mailfrom.split('@', 1)
             lp = Header(lp, 'utf-8').encode()
-            mail_from = '@'.join([lp, domain])
+            mailfrom = '@'.join([lp, domain])
 
-        if mail_from != message_addr:
-            return f"553 '{mail_from}' != '{message_addr}'"
-        self.mailbox.append(message)
-        return '250 OK'
+        if mailfrom != maddr:
+            return "553 '%s' != '%s'" % (mailfrom, maddr)
+        with self.sink_lock:
+            self._sink.append(m)
 
-    def flush_mailbox(self):
-        self.mailbox[:] = []
+    def get_sink(self):
+        with self.sink_lock:
+            return self._sink[:]
+
+    def flush_sink(self):
+        with self.sink_lock:
+            self._sink[:] = []
+
+    def start(self):
+        assert not self.active
+        self.__flag = threading.Event()
+        threading.Thread.start(self)
+        self.__flag.wait()
+
+    def run(self):
+        self.active = True
+        self.__flag.set()
+        while self.active and asyncore.socket_map:
+            with self.active_lock:
+                asyncore.loop(timeout=0.1, count=1)
+        asyncore.close_all()
+
+    def stop(self):
+        if self.active:
+            self.active = False
+            self.join()
 
 
-@skipUnless(HAS_AIOSMTPD, 'No aiosmtpd library detected.')
+class FakeAUTHSMTPConnection(SMTP):
+    """
+    A SMTP connection pretending support for the AUTH command. It does not, but
+    at least this can allow testing the first part of the AUTH process.
+    """
+
+    def ehlo(self, name=''):
+        response = SMTP.ehlo(self, name=name)
+        self.esmtp_features.update({
+            'auth': 'CRAM-MD5 PLAIN LOGIN',
+        })
+        return response
+
+
 class SMTPBackendTestsBase(SimpleTestCase):
 
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
-        # Find a free port.
-        with socket.socket() as s:
-            s.bind(('127.0.0.1', 0))
-            port = s.getsockname()[1]
-        cls.smtp_handler = SMTPHandler()
-        cls.smtp_controller = Controller(
-            cls.smtp_handler, hostname='127.0.0.1', port=port,
-        )
+        cls.server = FakeSMTPServer(('127.0.0.1', 0), None)
         cls._settings_override = override_settings(
-            EMAIL_HOST=cls.smtp_controller.hostname,
-            EMAIL_PORT=cls.smtp_controller.port,
-        )
+            EMAIL_HOST="127.0.0.1",
+            EMAIL_PORT=cls.server.socket.getsockname()[1])
         cls._settings_override.enable()
         cls.addClassCleanup(cls._settings_override.disable)
-        cls.smtp_controller.start()
-        cls.addClassCleanup(cls.stop_smtp)
-
-    @classmethod
-    def stop_smtp(cls):
-        cls.smtp_controller.stop()
+        cls.server.start()
+        cls.addClassCleanup(cls.server.stop)
 
 
-@skipUnless(HAS_AIOSMTPD, 'No aiosmtpd library detected.')
 class SMTPBackendTests(BaseEmailBackendTests, SMTPBackendTestsBase):
     email_backend = 'django.core.mail.backends.smtp.EmailBackend'
 
     def setUp(self):
         super().setUp()
-        self.smtp_handler.flush_mailbox()
+        self.server.flush_sink()
 
     def tearDown(self):
-        self.smtp_handler.flush_mailbox()
+        self.server.flush_sink()
         super().tearDown()
 
     def flush_mailbox(self):
-        self.smtp_handler.flush_mailbox()
+        self.server.flush_sink()
 
     def get_mailbox_content(self):
-        return self.smtp_handler.mailbox
+        return self.server.get_sink()
 
     @override_settings(
         EMAIL_HOST_USER="not empty username",
@@ -1466,6 +1517,19 @@ class SMTPBackendTests(BaseEmailBackendTests, SMTPBackendTestsBase):
         # Simulate an already open connection.
         backend.connection = mock.Mock(spec=object())
         self.assertIs(backend.open(), False)
+
+    def test_server_login(self):
+        """
+        Even if the Python SMTP server doesn't support authentication, the
+        login process starts and the appropriate exception is raised.
+        """
+        class CustomEmailBackend(smtp.EmailBackend):
+            connection_class = FakeAUTHSMTPConnection
+
+        backend = CustomEmailBackend(username='username', password='password')
+        with self.assertRaises(SMTPAuthenticationError):
+            with backend:
+                pass
 
     @override_settings(EMAIL_USE_TLS=True)
     def test_email_tls_use_settings(self):
@@ -1630,18 +1694,17 @@ class SMTPBackendTests(BaseEmailBackendTests, SMTPBackendTestsBase):
         self.assertEqual(sent, 0)
 
 
-@skipUnless(HAS_AIOSMTPD, 'No aiosmtpd library detected.')
 class SMTPBackendStoppedServerTests(SMTPBackendTestsBase):
+    """
+    These tests require a separate class, because the FakeSMTPServer is shut
+    down in setUpClass(), and it cannot be restarted ("RuntimeError: threads
+    can only be started once").
+    """
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
         cls.backend = smtp.EmailBackend(username='', password='')
-        cls.smtp_controller.stop()
-
-    @classmethod
-    def stop_smtp(cls):
-        # SMTP controller is stopped in setUpClass().
-        pass
+        cls.server.stop()
 
     def test_server_stopped(self):
         """

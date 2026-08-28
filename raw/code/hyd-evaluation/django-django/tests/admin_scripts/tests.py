@@ -120,10 +120,9 @@ class AdminScriptTestCase(SimpleTestCase):
 
         p = subprocess.run(
             [sys.executable, *args],
-            capture_output=True,
+            stdout=subprocess.PIPE, stderr=subprocess.PIPE,
             cwd=self.test_dir,
-            env=test_environ,
-            text=True,
+            env=test_environ, universal_newlines=True,
         )
         return p.stdout, p.stderr
 

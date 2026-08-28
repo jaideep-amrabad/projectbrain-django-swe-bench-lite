@@ -101,7 +101,7 @@ class BigAutoFieldModel(models.Model):
 # Scene/Character/Line models are used to test full text search. They're
 # populated with content from Monty Python and the Holy Grail.
 class Scene(models.Model):
-    scene = models.TextField()
+    scene = models.CharField(max_length=255)
     setting = models.CharField(max_length=255)
 
 
@@ -160,7 +160,6 @@ class AggregateTestModel(PostgreSQLModel):
     To test postgres-specific general aggregation functions
     """
     char_field = models.CharField(max_length=30, blank=True)
-    text_field = models.TextField(blank=True)
     integer_field = models.IntegerField(null=True)
     boolean_field = models.BooleanField(null=True)
     json_field = models.JSONField(null=True)
