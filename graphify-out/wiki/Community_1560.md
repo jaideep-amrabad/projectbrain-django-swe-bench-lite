@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **fake_client.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/fake_client.py`
+- **check_framework/urls/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/fake_client.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/__init__.py`
 
 ## Audit Trail
 
