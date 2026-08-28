@@ -1,25 +1,22 @@
 # Community 1285
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **NoModelTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
-- **.test_no_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
-- **It's possible to load an app with no models.py file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
+- **mapwidget.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/gis/mapwidget.test.js`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/gis/mapwidget.test.js`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

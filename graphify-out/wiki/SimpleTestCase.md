@@ -1,8 +1,8 @@
 # SimpleTestCase
 
-> God node · 1312 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1314 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 22](Community_22.md)
+**Community:** [Community 4](Community_4.md)
 
 ## Connections by Relation
 
@@ -33,8 +33,8 @@
 
 ### inherits
 - TransactionTestCase `EXTRACTED`
-- IfTagTests `EXTRACTED`
 - FormsTestCase `EXTRACTED`
+- IfTagTests `EXTRACTED`
 - GEOSTest `EXTRACTED`
 - FormsFormsetTestCase `EXTRACTED`
 - SystemChecksTestCase `EXTRACTED`

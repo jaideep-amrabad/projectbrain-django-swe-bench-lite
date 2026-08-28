@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **DateTimeShortcuts.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/DateTimeShortcuts.test.js`
+- **m2m_and_m2o/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/admin/DateTimeShortcuts.test.js`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/__init__.py`
 
 ## Audit Trail
 

@@ -1,33 +1,30 @@
 # Community 897
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.48
 
 ## Key Concepts
 
-- **model_regress/test_state.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_state.py`
-- **ModelStateCacheDescriptor** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **ModelStateTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_state.py`
-- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.__set_name__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Upon first access, replace itself with an empty dictionary on the instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.test_fields_cache_descriptor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_state.py`
-- **.test_related_managers_descriptor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_state.py`
+- **LoginRedirectUrlTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.assertLoginRedirectURLEqual()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_custom()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_named()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_remote()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Tests for settings.LOGIN_REDIRECT_URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 75](Community_75.md) (2 shared connections)
 - [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_regress/test_state.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

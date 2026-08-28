@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **sessions/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/migrations/__init__.py`
+- **humanize_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/migrations/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/humanize_tests/__init__.py`
 
 ## Audit Trail
 
