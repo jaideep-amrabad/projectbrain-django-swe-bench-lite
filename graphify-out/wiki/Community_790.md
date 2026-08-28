@@ -20,8 +20,9 @@
 ## Relationships
 
 - [Community 146](Community_146.md) (4 shared connections)
-- [Community 93](Community_93.md) (2 shared connections)
-- [Community 479](Community_479.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 754](Community_754.md) (1 shared connections)
 
 ## Source Files
 

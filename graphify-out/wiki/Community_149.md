@@ -1,6 +1,6 @@
 # Community 149
 
-> 57 nodes · cohesion 0.07
+> 58 nodes · cohesion 0.07
 
 ## Key Concepts
 
@@ -8,6 +8,7 @@
 - **register()** (44 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
 - **_sqlite_datetime_parse()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
 - **sqlite/test_functions.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_functions.py`
+- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
 - **_sqlite_time_trunc()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
 - **typecast_timestamp()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 - **_sqlite_date_trunc()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
@@ -28,34 +29,35 @@
 - **_sqlite_time_extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
 - **_sqlite_acos()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
 - **_sqlite_asin()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_atan()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- *... and 32 more nodes in this community*
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Community 578](Community_578.md) (10 shared connections)
-- [Community 901](Community_901.md) (5 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 202](Community_202.md) (3 shared connections)
-- [Community 21](Community_21.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 213](Community_213.md) (2 shared connections)
-- [Community 1058](Community_1058.md) (1 shared connections)
+- [Community 62](Community_62.md) (8 shared connections)
+- [Community 919](Community_919.md) (5 shared connections)
+- [Community 210](Community_210.md) (4 shared connections)
+- [Community 377](Community_377.md) (3 shared connections)
+- [Community 571](Community_571.md) (3 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 1057](Community_1057.md) (1 shared connections)
 - [Community 316](Community_316.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
 - `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
 - `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 - `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_functions.py`
 
 ## Audit Trail
 
-- EXTRACTED: 107 (71%)
-- INFERRED: 44 (29%)
+- EXTRACTED: 111 (72%)
+- INFERRED: 44 (28%)
 - AMBIGUOUS: 0 (0%)
 
 ---

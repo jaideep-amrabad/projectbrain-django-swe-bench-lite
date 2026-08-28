@@ -1,13 +1,16 @@
 # Community 781
 
-> 12 nodes · cohesion 0.18
+> 15 nodes · cohesion 0.15
 
 ## Key Concepts
 
 - **JSONField** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **CheckFieldDefaultMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
 - **.test_func_index_json_key_transform()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **._check_supported()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **._check_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
 - **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **.from_db_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
@@ -19,25 +22,28 @@
 
 ## Relationships
 
-- [Community 80](Community_80.md) (3 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 578](Community_578.md) (1 shared connections)
-- [Community 353](Community_353.md) (1 shared connections)
-- [Community 186](Community_186.md) (1 shared connections)
-- [Community 336](Community_336.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 183](Community_183.md) (2 shared connections)
+- [Community 199](Community_199.md) (2 shared connections)
+- [Community 32](Community_32.md) (2 shared connections)
 - [Community 13](Community_13.md) (1 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 384](Community_384.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
 - `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

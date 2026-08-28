@@ -17,8 +17,8 @@
 
 ## Relationships
 
-- [Community 409](Community_409.md) (6 shared connections)
-- [Community 930](Community_930.md) (2 shared connections)
+- [Community 410](Community_410.md) (6 shared connections)
+- [Community 928](Community_928.md) (2 shared connections)
 
 ## Source Files
 

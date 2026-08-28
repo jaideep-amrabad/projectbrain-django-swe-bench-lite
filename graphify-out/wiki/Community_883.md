@@ -19,16 +19,16 @@
 
 - [Community 882](Community_882.md) (15 shared connections)
 - [Community 1158](Community_1158.md) (2 shared connections)
-- [Community 1224](Community_1224.md) (1 shared connections)
-- [Community 1225](Community_1225.md) (1 shared connections)
-- [Community 1226](Community_1226.md) (1 shared connections)
-- [Community 1227](Community_1227.md) (1 shared connections)
-- [Community 1228](Community_1228.md) (1 shared connections)
-- [Community 1229](Community_1229.md) (1 shared connections)
 - [Community 1230](Community_1230.md) (1 shared connections)
 - [Community 1231](Community_1231.md) (1 shared connections)
 - [Community 1232](Community_1232.md) (1 shared connections)
 - [Community 1233](Community_1233.md) (1 shared connections)
+- [Community 1234](Community_1234.md) (1 shared connections)
+- [Community 1235](Community_1235.md) (1 shared connections)
+- [Community 1236](Community_1236.md) (1 shared connections)
+- [Community 1237](Community_1237.md) (1 shared connections)
+- [Community 1238](Community_1238.md) (1 shared connections)
+- [Community 1239](Community_1239.md) (1 shared connections)
 
 ## Source Files
 

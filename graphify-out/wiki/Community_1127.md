@@ -11,7 +11,7 @@
 
 ## Relationships
 
-- [Community 593](Community_593.md) (2 shared connections)
+- [Community 589](Community_589.md) (2 shared connections)
 
 ## Source Files
 

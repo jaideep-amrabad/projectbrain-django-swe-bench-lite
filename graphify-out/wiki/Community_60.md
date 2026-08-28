@@ -1,6 +1,6 @@
 # Community 60
 
-> 121 nodes · cohesion 0.02
+> 119 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **.skew()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.warp()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- *... and 96 more nodes in this community*
+- *... and 94 more nodes in this community*
 
 ## Relationships
 
-- [Community 61](Community_61.md) (18 shared connections)
-- [Community 79](Community_79.md) (5 shared connections)
-- [Community 780](Community_780.md) (4 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 285](Community_285.md) (3 shared connections)
-- [Community 29](Community_29.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 64](Community_64.md) (2 shared connections)
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 578](Community_578.md) (1 shared connections)
+- [Community 61](Community_61.md) (15 shared connections)
+- [Community 78](Community_78.md) (5 shared connections)
+- [Community 830](Community_830.md) (4 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 218](Community_218.md) (3 shared connections)
+- [Community 284](Community_284.md) (3 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 62](Community_62.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
 
 ## Source Files
 
@@ -56,7 +56,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 204 (93%)
+- EXTRACTED: 202 (93%)
 - INFERRED: 15 (7%)
 - AMBIGUOUS: 0 (0%)
 

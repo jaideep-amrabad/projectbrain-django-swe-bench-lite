@@ -1,6 +1,6 @@
 # Community 146
 
-> 64 nodes · cohesion 0.05
+> 69 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -12,6 +12,7 @@
 - **.assertNotMsgId()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 - **IgnoredExtractorTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 - **CopyPluralFormsExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **CustomLayoutExtractionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 - **JavaScriptExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 - **.test_media_static_dirs_ignored()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 - **KeepPotFileExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
@@ -28,21 +29,19 @@
 - **SymlinkExtractorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 - **.test_blocktranslate_trimmed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 - **.test_translate_and_plural_blocktranslate_collision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **._get_token_line_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- *... and 39 more nodes in this community*
+- *... and 44 more nodes in this community*
 
 ## Relationships
 
 - [Community 93](Community_93.md) (12 shared connections)
 - [Community 310](Community_310.md) (4 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
 - [Community 790](Community_790.md) (4 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 1078](Community_1078.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 755](Community_755.md) (1 shared connections)
-- [Community 442](Community_442.md) (1 shared connections)
-- [Community 231](Community_231.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 754](Community_754.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 336](Community_336.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
+- [Community 329](Community_329.md) (1 shared connections)
 
 ## Source Files
 
@@ -50,7 +49,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 121 (99%)
+- EXTRACTED: 127 (99%)
 - INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
