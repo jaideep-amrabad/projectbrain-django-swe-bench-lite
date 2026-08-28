@@ -1,6 +1,6 @@
 # Community 19
 
-> 198 nodes · cohesion 0.01
+> 211 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -16,6 +16,7 @@
 - **flatpages_tests/test_forms.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
 - **flatpages_tests/test_csrf.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
 - **FlatpageAdminFormTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **RedirectTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
 - **FlatpageMiddlewareTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
 - **FullyDecoratedTranTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 - **PermissionDeniedBackendTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
@@ -28,23 +29,22 @@
 - **GeoFeedTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
 - **FlatpageModelTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
 - **flatpages_tests/test_sitemaps.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_sitemaps.py`
-- **GeoSitemapTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
-- *... and 173 more nodes in this community*
+- *... and 186 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (37 shared connections)
+- [Community 6](Community_6.md) (41 shared connections)
+- [Community 41](Community_41.md) (22 shared connections)
+- [Community 29](Community_29.md) (22 shared connections)
 - [Community 0](Community_0.md) (21 shared connections)
-- [Community 31](Community_31.md) (21 shared connections)
-- [Community 21](Community_21.md) (16 shared connections)
 - [Community 1](Community_1.md) (15 shared connections)
-- [Community 2](Community_2.md) (15 shared connections)
-- [Community 29](Community_29.md) (15 shared connections)
-- [Community 89](Community_89.md) (12 shared connections)
-- [Community 173](Community_173.md) (9 shared connections)
-- [Community 7](Community_7.md) (9 shared connections)
-- [Community 199](Community_199.md) (8 shared connections)
-- [Community 81](Community_81.md) (8 shared connections)
+- [Community 45](Community_45.md) (15 shared connections)
+- [Community 92](Community_92.md) (12 shared connections)
+- [Community 172](Community_172.md) (9 shared connections)
+- [Community 8](Community_8.md) (9 shared connections)
+- [Community 20](Community_20.md) (8 shared connections)
+- [Community 84](Community_84.md) (8 shared connections)
+- [Community 86](Community_86.md) (8 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 582 (99%)
+- EXTRACTED: 601 (99%)
 - INFERRED: 6 (1%)
 - AMBIGUOUS: 0 (0%)
 

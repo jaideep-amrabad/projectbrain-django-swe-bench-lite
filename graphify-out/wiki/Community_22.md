@@ -1,6 +1,6 @@
 # Community 22
 
-> 363 nodes · cohesion 0.01
+> 368 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,25 +29,26 @@
 - **Expression** (33 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 - **django/db/backends/mysql/base.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
 - **db/utils.py** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- *... and 338 more nodes in this community*
+- *... and 343 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (175 shared connections)
-- [Community 5](Community_5.md) (148 shared connections)
-- [Community 1](Community_1.md) (87 shared connections)
-- [Community 29](Community_29.md) (84 shared connections)
+- [Community 4](Community_4.md) (179 shared connections)
+- [Community 3](Community_3.md) (147 shared connections)
+- [Community 1](Community_1.md) (90 shared connections)
+- [Community 45](Community_45.md) (81 shared connections)
 - [Community 0](Community_0.md) (77 shared connections)
-- [Community 2](Community_2.md) (48 shared connections)
-- [Community 16](Community_16.md) (48 shared connections)
-- [Community 131](Community_131.md) (46 shared connections)
-- [Community 31](Community_31.md) (46 shared connections)
-- [Community 21](Community_21.md) (38 shared connections)
+- [Community 16](Community_16.md) (46 shared connections)
+- [Community 134](Community_134.md) (46 shared connections)
+- [Community 29](Community_29.md) (46 shared connections)
+- [Community 20](Community_20.md) (38 shared connections)
 - [Community 28](Community_28.md) (36 shared connections)
-- [Community 173](Community_173.md) (32 shared connections)
+- [Community 172](Community_172.md) (32 shared connections)
+- [Community 108](Community_108.md) (31 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0011_update_proxy_permissions.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
@@ -67,11 +68,10 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/expressions.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2950 (96%)
+- EXTRACTED: 2963 (96%)
 - INFERRED: 135 (4%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,6 +1,6 @@
 # Community 4
 
-> 347 nodes · cohesion 0.01
+> 351 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,28 +29,28 @@
 - **ReverseManyToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
 - **ReverseOneToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
 - **manager.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- *... and 322 more nodes in this community*
+- *... and 326 more nodes in this community*
 
 ## Relationships
 
-- [Community 22](Community_22.md) (175 shared connections)
-- [Community 5](Community_5.md) (124 shared connections)
-- [Community 1](Community_1.md) (70 shared connections)
-- [Community 31](Community_31.md) (53 shared connections)
-- [Community 173](Community_173.md) (37 shared connections)
-- [Community 0](Community_0.md) (33 shared connections)
-- [Community 29](Community_29.md) (23 shared connections)
-- [Community 141](Community_141.md) (19 shared connections)
-- [Community 89](Community_89.md) (19 shared connections)
-- [Community 103](Community_103.md) (18 shared connections)
-- [Community 137](Community_137.md) (15 shared connections)
-- [Community 16](Community_16.md) (14 shared connections)
+- [Community 22](Community_22.md) (179 shared connections)
+- [Community 3](Community_3.md) (124 shared connections)
+- [Community 1](Community_1.md) (66 shared connections)
+- [Community 29](Community_29.md) (51 shared connections)
+- [Community 172](Community_172.md) (36 shared connections)
+- [Community 0](Community_0.md) (30 shared connections)
+- [Community 45](Community_45.md) (19 shared connections)
+- [Community 142](Community_142.md) (19 shared connections)
+- [Community 92](Community_92.md) (19 shared connections)
+- [Community 104](Community_104.md) (18 shared connections)
+- [Community 132](Community_132.md) (15 shared connections)
+- [Community 17](Community_17.md) (14 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/migrations/0002_logentry_remove_auto_add.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/migrations/0001_initial.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0003_alter_user_email_max_length.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0009_alter_user_last_name_max_length.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0005_alter_user_last_login_null.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0010_alter_group_name_max_length.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0012_alter_user_first_name_max_length.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/__init__.py`
@@ -58,21 +58,21 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/migrations/0001_initial.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/migrations/0002_remove_content_type_name.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/migrations/0001_initial.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/migrations/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/redirects/migrations/0001_initial.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/sites/migrations/0002_alter_domain_unique.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
 - `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
 - `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1737 (98%)
-- INFERRED: 36 (2%)
+- EXTRACTED: 1734 (98%)
+- INFERRED: 35 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

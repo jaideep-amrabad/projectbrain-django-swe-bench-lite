@@ -1,6 +1,6 @@
 # Community 0
 
-> 978 nodes · cohesion 0.00
+> 989 nodes · cohesion 0.00
 
 ## Key Concepts
 
@@ -20,7 +20,6 @@
 - **template/base.py** (61 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
 - **trans_real.py** (48 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
 - **Node** (46 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **TemplateDoesNotExist** (40 connections) — `raw/code/hyd-evaluation/django-django/django/template/exceptions.py`
 - **format_html()** (37 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 - **templatetags/i18n.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
 - **escape()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
@@ -29,22 +28,23 @@
 - **test_blocktranslate.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
 - **Variable** (29 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
 - **conditional_escape()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- *... and 953 more nodes in this community*
+- **SafeData** (29 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
+- *... and 964 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (293 shared connections)
-- [Community 2](Community_2.md) (156 shared connections)
-- [Community 29](Community_29.md) (141 shared connections)
-- [Community 155](Community_155.md) (136 shared connections)
-- [Community 21](Community_21.md) (118 shared connections)
-- [Community 6](Community_6.md) (116 shared connections)
-- [Community 173](Community_173.md) (87 shared connections)
+- [Community 1](Community_1.md) (292 shared connections)
+- [Community 5](Community_5.md) (136 shared connections)
+- [Community 45](Community_45.md) (123 shared connections)
+- [Community 20](Community_20.md) (111 shared connections)
+- [Community 6](Community_6.md) (106 shared connections)
+- [Community 41](Community_41.md) (100 shared connections)
+- [Community 172](Community_172.md) (92 shared connections)
 - [Community 22](Community_22.md) (77 shared connections)
-- [Community 31](Community_31.md) (70 shared connections)
-- [Community 92](Community_92.md) (66 shared connections)
-- [Community 13](Community_13.md) (64 shared connections)
-- [Community 9](Community_9.md) (49 shared connections)
+- [Community 2](Community_2.md) (70 shared connections)
+- [Community 29](Community_29.md) (70 shared connections)
+- [Community 12](Community_12.md) (61 shared connections)
+- [Community 153](Community_153.md) (59 shared connections)
 
 ## Source Files
 
@@ -64,15 +64,15 @@
 - `raw/code/hyd-evaluation/django-django/django/template/engine.py`
 - `raw/code/hyd-evaluation/django-django/django/template/exceptions.py`
 - `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loader.py`
 - `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
 - `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
 - `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5421 (98%)
-- INFERRED: 117 (2%)
+- EXTRACTED: 5373 (98%)
+- INFERRED: 116 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---
