@@ -58,7 +58,7 @@ class SetLanguageTests(TestCase):
     def test_setlang_http_next(self):
         """
         The set_language view only redirects to the 'next' argument if it is
-        "safe" and its scheme is https if the request was sent over https.
+        "safe" and its scheme is HTTPS if the request was sent over HTTPS.
         """
         lang_code = self._get_inactive_language_code()
         non_https_next_url = 'http://testserver/redirection/'
@@ -206,8 +206,8 @@ class I18NViewTests(SimpleTestCase):
     def test_get_formats(self):
         formats = get_formats()
         # Test 3 possible types in get_formats: integer, string, and list.
-        self.assertEqual(formats['FIRST_DAY_OF_WEEK'], 0)
-        self.assertEqual(formats['DECIMAL_SEPARATOR'], '.')
+        self.assertEqual(formats['FIRST_DAY_OF_WEEK'], 1)
+        self.assertEqual(formats['DECIMAL_SEPARATOR'], ',')
         self.assertEqual(formats['TIME_INPUT_FORMATS'], ['%H:%M:%S', '%H:%M:%S.%f', '%H:%M'])
 
     def test_jsi18n(self):
@@ -243,7 +243,7 @@ class I18NViewTests(SimpleTestCase):
             self.assertIn('catalog', data)
             self.assertIn('formats', data)
             self.assertEqual(data['formats']['TIME_INPUT_FORMATS'], ['%H:%M:%S', '%H:%M:%S.%f', '%H:%M'])
-            self.assertEqual(data['formats']['FIRST_DAY_OF_WEEK'], 0)
+            self.assertEqual(data['formats']['FIRST_DAY_OF_WEEK'], 1)
             self.assertIn('plural', data)
             self.assertEqual(data['catalog']['month name\x04May'], 'Mai')
             self.assertIn('DATETIME_FORMAT', data['formats'])

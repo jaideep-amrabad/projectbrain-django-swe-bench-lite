@@ -291,6 +291,13 @@ class ClientTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.request['PATH_INFO'], '/accounts/login/')
 
+    def test_redirect_to_querystring_only(self):
+        """A URL that consists of a querystring only can be followed"""
+        response = self.client.post('/post_then_get_view/', follow=True)
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.request['PATH_INFO'], '/post_then_get_view/')
+        self.assertEqual(response.content, b'The value of success is true.')
+
     def test_follow_307_and_308_redirect(self):
         """
         A 307 or 308 redirect preserves the request method after the redirect.
@@ -353,12 +360,12 @@ class ClientTest(TestCase):
                 self.assertContains(response, '30 is the value')
 
     def test_redirect_http(self):
-        "GET a URL that redirects to an http URI"
+        """GET a URL that redirects to an HTTP URI."""
         response = self.client.get('/http_redirect_view/', follow=True)
         self.assertFalse(response.test_was_secure_request)
 
     def test_redirect_https(self):
-        "GET a URL that redirects to an https URI"
+        """GET a URL that redirects to an HTTPS URI."""
         response = self.client.get('/https_redirect_view/', follow=True)
         self.assertTrue(response.test_was_secure_request)
 
