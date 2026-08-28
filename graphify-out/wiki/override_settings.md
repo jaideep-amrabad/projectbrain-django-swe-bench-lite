@@ -1,8 +1,8 @@
 # override_settings
 
-> God node · 1362 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+> God node · 1372 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
-**Community:** [Community 7](Community_7.md)
+**Community:** [Community 5](Community_5.md)
 
 ## Connections by Relation
 
@@ -41,11 +41,11 @@
 - test_utils/tests.py `EXTRACTED`
 - test_auth_backends.py `EXTRACTED`
 - auth_tests/test_views.py `EXTRACTED`
+- test_debug.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
-- test_debug.py `EXTRACTED`
-- admin_filters/tests.py `EXTRACTED`
 - test_array.py `EXTRACTED`
+- admin_filters/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - admin_inlines/tests.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
@@ -76,18 +76,18 @@
 - UrlTagTests `EXTRACTED`
 - DateFunctionTests `EXTRACTED`
 - AdminActionsTest `EXTRACTED`
+- TestUtilsHashPass `EXTRACTED`
 - CreatesuperuserManagementCommandTestCase `EXTRACTED`
+- NewDatabaseTests `EXTRACTED`
 - CommandTests `EXTRACTED`
 - FileUploadTests `EXTRACTED`
-- NewDatabaseTests `EXTRACTED`
-- TestUtilsHashPass `EXTRACTED`
 - CommonMiddlewareTest `EXTRACTED`
-- ListViewTests `EXTRACTED`
-- DetailViewTest `EXTRACTED`
-- CollectionTestCase `EXTRACTED`
 - SyndicationFeedTest `EXTRACTED`
+- ListViewTests `EXTRACTED`
+- CollectionTestCase `EXTRACTED`
+- DetailViewTest `EXTRACTED`
 - ConditionalGet `EXTRACTED`
-- FormattingTests `EXTRACTED`
+- DateFormatTests `EXTRACTED`
 - ConditionalGetMiddlewareTest `EXTRACTED`
 
 ---

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **raster/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/__init__.py`
+- **jsi18n-mocks.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/jsi18n-mocks.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/__init__.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/jsi18n-mocks.test.js`
 
 ## Audit Trail
 
