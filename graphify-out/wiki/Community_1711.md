@@ -1,23 +1,29 @@
 # Community 1711
 
-> 1 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **test_auto_now_add/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_auto_now_add/__init__.py`
+- **OSError** (6 connections)
+- **.tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.writelines()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 258](Community_258.md) (3 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
+- [Community 273](Community_273.md) (1 shared connections)
+- [Community 64](Community_64.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_auto_now_add/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 4 (44%)
+- INFERRED: 5 (56%)
 - AMBIGUOUS: 0 (0%)
 
 ---

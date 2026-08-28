@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **popup_response.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/popup_response.js`
+- **file_storage/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/popup_response.js`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/__init__.py`
 
 ## Audit Trail
 
