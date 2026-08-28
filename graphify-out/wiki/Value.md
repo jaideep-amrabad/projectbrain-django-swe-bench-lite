@@ -1,8 +1,8 @@
 # Value
 
-> God node · 270 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+> God node · 279 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 27](Community_27.md)
+**Community:** [Community 42](Community_42.md)
 
 ## Connections by Relation
 
@@ -15,6 +15,8 @@
 - .test_default_argument() `EXTRACTED`
 - .__init__() `EXTRACTED`
 - .get_select() `EXTRACTED`
+- .test_allowed() `EXTRACTED`
+- .test_disallowed() `EXTRACTED`
 - .__init__() `EXTRACTED`
 - .check() `EXTRACTED`
 - ._parse_expressions() `EXTRACTED`
@@ -25,14 +27,13 @@
 - .test_flatten() `EXTRACTED`
 - .as_postgresql() `EXTRACTED`
 - .as_sql() `EXTRACTED`
-- .test_aggregate_group_by_unseen_columns_unmanaged() `EXTRACTED`
-- .test_annotation_aggregate_with_m2o() `EXTRACTED`
 
 ### contains
 - models/expressions.py `EXTRACTED`
 
 ### imports
 - django/db/models/__init__.py `EXTRACTED`
+- models/fields/__init__.py `EXTRACTED`
 - django/db/models/lookups.py `EXTRACTED`
 - expressions/tests.py `EXTRACTED`
 - models/functions.py `EXTRACTED`
@@ -51,15 +52,14 @@
 - test_ranges.py `EXTRACTED`
 - annotations/tests.py `EXTRACTED`
 - test_query.py `EXTRACTED`
-- functions/text.py `EXTRACTED`
 
 ### inherits
 - Expression `EXTRACTED`
 - SQLiteNumericMixin `EXTRACTED`
 
 ### method
-- .empty_result_set_value() `EXTRACTED`
 - .__init__() `EXTRACTED`
+- .empty_result_set_value() `EXTRACTED`
 - .resolve_expression() `EXTRACTED`
 - .__repr__() `EXTRACTED`
 - .as_sql() `EXTRACTED`

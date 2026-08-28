@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **m2m_intermediary/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/__init__.py`
+- **unspecified_app_with_conflict/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unspecified_app_with_conflict/migrations/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unspecified_app_with_conflict/migrations/__init__.py`
 
 ## Audit Trail
 

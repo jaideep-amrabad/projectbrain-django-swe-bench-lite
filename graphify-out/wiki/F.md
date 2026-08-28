@@ -1,8 +1,8 @@
 # F
 
-> God node · 483 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+> God node · 485 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 14](Community_14.md)
+**Community:** [Community 13](Community_13.md)
 
 ## Connections by Relation
 
@@ -10,6 +10,7 @@
 - .test_expressions() `EXTRACTED`
 - ._order_by_pairs() `EXTRACTED`
 - .test_key_transform() `EXTRACTED`
+- .test_disallowed() `EXTRACTED`
 - .test_rename_table_references_without_alias() `EXTRACTED`
 - .test_aggregate() `EXTRACTED`
 - ._parse_expressions() `EXTRACTED`
@@ -26,7 +27,6 @@
 - .test_annotation_aggregate_with_m2o() `EXTRACTED`
 - .test_custom_functions_can_ref_other_functions() `EXTRACTED`
 - .setUp() `EXTRACTED`
-- .test_extract_year_exact_lookup() `EXTRACTED`
 
 ### contains
 - models/expressions.py `EXTRACTED`
