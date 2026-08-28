@@ -4,6 +4,7 @@ import re
 import types
 from decimal import ROUND_HALF_UP, Context, Decimal, InvalidOperation
 from functools import wraps
+from inspect import unwrap
 from operator import itemgetter
 from pprint import pformat
 from urllib.parse import quote
@@ -22,7 +23,7 @@ from django.utils.text import (
 from django.utils.timesince import timesince, timeuntil
 from django.utils.translation import gettext, ngettext
 
-from .base import Variable, VariableDoesNotExist
+from .base import VARIABLE_ATTRIBUTE_SEPARATOR
 from .library import Library
 
 register = Library()
@@ -37,20 +38,15 @@ def stringfilter(func):
     Decorator for filters which should only receive strings. The object
     passed as the first positional argument will be converted to a string.
     """
-    def _dec(*args, **kwargs):
-        args = list(args)
-        args[0] = str(args[0])
-        if (isinstance(args[0], SafeData) and
-                getattr(_dec._decorated_function, 'is_safe', False)):
-            return mark_safe(func(*args, **kwargs))
-        return func(*args, **kwargs)
+    @wraps(func)
+    def _dec(first, *args, **kwargs):
+        first = str(first)
+        result = func(first, *args, **kwargs)
+        if isinstance(first, SafeData) and getattr(unwrap(func), 'is_safe', False):
+            result = mark_safe(result)
+        return result
 
-    # Include a reference to the real function (used to check original
-    # arguments by the template parser, and to bear the 'is_safe' attribute
-    # when multiple decorators are applied).
-    _dec._decorated_function = getattr(func, '_decorated_function', func)
-
-    return wraps(func)(_dec)
+    return _dec
 
 
 ###################
@@ -503,7 +499,7 @@ def striptags(value):
 def _property_resolver(arg):
     """
     When arg is convertible to float, behave like operator.itemgetter(arg)
-    Otherwise, behave like Variable(arg).resolve
+    Otherwise, chain __getitem__() and getattr().
 
     >>> _property_resolver(1)('abc')
     'b'
@@ -521,7 +517,19 @@ def _property_resolver(arg):
     try:
         float(arg)
     except ValueError:
-        return Variable(arg).resolve
+        if VARIABLE_ATTRIBUTE_SEPARATOR + '_' in arg or arg[0] == '_':
+            raise AttributeError('Access to private variables is forbidden.')
+        parts = arg.split(VARIABLE_ATTRIBUTE_SEPARATOR)
+
+        def resolve(value):
+            for part in parts:
+                try:
+                    value = value[part]
+                except (AttributeError, IndexError, KeyError, TypeError, ValueError):
+                    value = getattr(value, part)
+            return value
+
+        return resolve
     else:
         return itemgetter(arg)
 
@@ -534,7 +542,7 @@ def dictsort(value, arg):
     """
     try:
         return sorted(value, key=_property_resolver(arg))
-    except (TypeError, VariableDoesNotExist):
+    except (AttributeError, TypeError):
         return ''
 
 
@@ -546,7 +554,7 @@ def dictsortreversed(value, arg):
     """
     try:
         return sorted(value, key=_property_resolver(arg), reverse=True)
-    except (TypeError, VariableDoesNotExist):
+    except (AttributeError, TypeError):
         return ''
 
 

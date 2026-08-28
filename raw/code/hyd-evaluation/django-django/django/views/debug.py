@@ -85,6 +85,16 @@ def get_exception_reporter_class(request):
     return getattr(request, 'exception_reporter_class', default_exception_reporter_class)
 
 
+def get_caller(request):
+    resolver_match = request.resolver_match
+    if resolver_match is None:
+        try:
+            resolver_match = resolve(request.path)
+        except Http404:
+            pass
+    return '' if resolver_match is None else resolver_match._func_path
+
+
 class SafeExceptionReporterFilter:
     """
     Use annotations made by the sensitive_post_parameters and
@@ -349,6 +359,7 @@ class ExceptionReporter:
             c['request_FILES_items'] = self.request.FILES.items()
             c['request_COOKIES_items'] = self.request.COOKIES.items()
             c['request_insecure_uri'] = self._get_raw_insecure_uri()
+            c['raising_view_name'] = get_caller(self.request)
 
         # Check whether exception info is available
         if self.exc_type:
@@ -536,25 +547,6 @@ def technical_404_response(request, exception):
     if isinstance(urlconf, types.ModuleType):
         urlconf = urlconf.__name__
 
-    caller = ''
-    try:
-        resolver_match = resolve(request.path)
-    except Http404:
-        pass
-    else:
-        obj = resolver_match.func
-
-        if hasattr(obj, 'view_class'):
-            caller = obj.view_class
-        elif hasattr(obj, '__name__'):
-            caller = obj.__name__
-        elif hasattr(obj, '__class__') and hasattr(obj.__class__, '__name__'):
-            caller = obj.__class__.__name__
-
-        if hasattr(obj, '__module__'):
-            module = obj.__module__
-            caller = '%s.%s' % (module, caller)
-
     with builtin_template_path('technical_404.html').open(encoding='utf-8') as fh:
         t = DEBUG_ENGINE.from_string(fh.read())
     reporter_filter = get_default_exception_reporter_filter()
@@ -567,7 +559,7 @@ def technical_404_response(request, exception):
         'reason': str(exception),
         'request': request,
         'settings': reporter_filter.get_safe_settings(),
-        'raising_view_name': caller,
+        'raising_view_name': get_caller(request),
     })
     return HttpResponseNotFound(t.render(c), content_type='text/html')
 

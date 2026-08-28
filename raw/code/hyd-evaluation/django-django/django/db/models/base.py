@@ -513,18 +513,27 @@ class Model(metaclass=ModelBase):
 
         if kwargs:
             property_names = opts._property_names
-            for prop in tuple(kwargs):
-                try:
-                    # Any remaining kwargs must correspond to properties or
-                    # virtual fields.
-                    if prop in property_names or opts.get_field(prop):
-                        if kwargs[prop] is not _DEFERRED:
-                            _setattr(self, prop, kwargs[prop])
-                        del kwargs[prop]
-                except (AttributeError, FieldDoesNotExist):
-                    pass
-            for kwarg in kwargs:
-                raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+            unexpected = ()
+            for prop, value in kwargs.items():
+                # Any remaining kwargs must correspond to properties or virtual
+                # fields.
+                if prop in property_names:
+                    if value is not _DEFERRED:
+                        _setattr(self, prop, value)
+                else:
+                    try:
+                        opts.get_field(prop)
+                    except FieldDoesNotExist:
+                        unexpected += (prop,)
+                    else:
+                        if value is not _DEFERRED:
+                            _setattr(self, prop, value)
+            if unexpected:
+                unexpected_names = ', '.join(repr(n) for n in unexpected)
+                raise TypeError(
+                    f'{cls.__name__}() got unexpected keyword arguments: '
+                    f'{unexpected_names}'
+                )
         super().__init__()
         post_init.send(sender=cls, instance=self)
 
@@ -987,7 +996,7 @@ class Model(metaclass=ModelBase):
                 "to None." % (self._meta.object_name, self._meta.pk.attname)
             )
         using = using or router.db_for_write(self.__class__, instance=self)
-        collector = Collector(using=using)
+        collector = Collector(using=using, origin=self)
         collector.collect([self], keep_parents=keep_parents)
         return collector.delete()
 

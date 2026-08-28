@@ -542,11 +542,7 @@ class Field(RegisterLookupMixin):
         return NotImplemented
 
     def __hash__(self):
-        return hash((
-            self.creation_counter,
-            self.model._meta.app_label if hasattr(self, 'model') else None,
-            self.model._meta.model_name if hasattr(self, 'model') else None,
-        ))
+        return hash(self.creation_counter)
 
     def __deepcopy__(self, memodict):
         # We don't have to deepcopy very much here, since most things are not
@@ -1010,7 +1006,8 @@ class CharField(Field):
     def __init__(self, *args, db_collation=None, **kwargs):
         super().__init__(*args, **kwargs)
         self.db_collation = db_collation
-        self.validators.append(validators.MaxLengthValidator(self.max_length))
+        if self.max_length is not None:
+            self.validators.append(validators.MaxLengthValidator(self.max_length))
 
     def check(self, **kwargs):
         databases = kwargs.get('databases') or []

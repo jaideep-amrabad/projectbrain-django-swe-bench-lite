@@ -7,6 +7,7 @@ import unittest
 from datetime import timedelta
 from http import cookies
 from pathlib import Path
+from unittest import mock
 
 from django.conf import settings
 from django.contrib.sessions.backends.base import UpdateError
@@ -24,9 +25,7 @@ from django.contrib.sessions.exceptions import (
 )
 from django.contrib.sessions.middleware import SessionMiddleware
 from django.contrib.sessions.models import Session
-from django.contrib.sessions.serializers import (
-    JSONSerializer, PickleSerializer,
-)
+from django.contrib.sessions.serializers import JSONSerializer
 from django.core import management
 from django.core.cache import caches
 from django.core.cache.backends.base import InvalidCacheBackendError
@@ -333,25 +332,20 @@ class SessionTestsMixin:
         self.assertEqual(self.session.decode(encoded), {})
 
     def test_actual_expiry(self):
-        # this doesn't work with JSONSerializer (serializing timedelta)
-        with override_settings(SESSION_SERIALIZER='django.contrib.sessions.serializers.PickleSerializer'):
-            self.session = self.backend()  # reinitialize after overriding settings
-
-            # Regression test for #19200
-            old_session_key = None
-            new_session_key = None
-            try:
-                self.session['foo'] = 'bar'
-                self.session.set_expiry(-timedelta(seconds=10))
-                self.session.save()
-                old_session_key = self.session.session_key
-                # With an expiry date in the past, the session expires instantly.
-                new_session = self.backend(self.session.session_key)
-                new_session_key = new_session.session_key
-                self.assertNotIn('foo', new_session)
-            finally:
-                self.session.delete(old_session_key)
-                self.session.delete(new_session_key)
+        old_session_key = None
+        new_session_key = None
+        try:
+            self.session['foo'] = 'bar'
+            self.session.set_expiry(-timedelta(seconds=10))
+            self.session.save()
+            old_session_key = self.session.session_key
+            # With an expiry date in the past, the session expires instantly.
+            new_session = self.backend(self.session.session_key)
+            new_session_key = new_session.session_key
+            self.assertNotIn('foo', new_session)
+        finally:
+            self.session.delete(old_session_key)
+            self.session.delete(new_session_key)
 
     def test_session_load_does_not_create_record(self):
         """
@@ -885,9 +879,8 @@ class CookieSessionTests(SessionTestsMixin, SimpleTestCase):
         # by creating a new session
         self.assertEqual(self.session.serializer, JSONSerializer)
         self.session.save()
-
-        self.session.serializer = PickleSerializer
-        self.session.load()
+        with mock.patch('django.core.signing.loads', side_effect=ValueError):
+            self.session.load()
 
     @unittest.skip("Cookie backend doesn't have an external store to create records in.")
     def test_session_load_does_not_create_record(self):
