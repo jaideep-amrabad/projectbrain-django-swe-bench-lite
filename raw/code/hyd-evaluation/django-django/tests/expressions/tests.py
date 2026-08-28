@@ -971,11 +971,6 @@ class IterableLookupInnerExpressionsTests(TestCase):
             experiment=experiment_2,
             result_time=datetime.datetime(2016, 1, 8, 5, 0, 0),
         )
-
-        within_experiment_time = [F('experiment__start'), F('experiment__end')]
-        queryset = Result.objects.filter(result_time__range=within_experiment_time)
-        self.assertSequenceEqual(queryset, [r1])
-
         within_experiment_time = [F('experiment__start'), F('experiment__end')]
         queryset = Result.objects.filter(result_time__range=within_experiment_time)
         self.assertSequenceEqual(queryset, [r1])
@@ -991,7 +986,7 @@ class FTests(SimpleTestCase):
     def test_deconstruct(self):
         f = F('name')
         path, args, kwargs = f.deconstruct()
-        self.assertEqual(path, 'django.db.models.expressions.F')
+        self.assertEqual(path, 'django.db.models.F')
         self.assertEqual(args, (f.name,))
         self.assertEqual(kwargs, {})
 
