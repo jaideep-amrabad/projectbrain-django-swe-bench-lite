@@ -24,6 +24,7 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     supports_slicing_ordering_in_compound = True
     supports_index_on_text_field = False
     supports_update_conflicts = True
+    delete_can_self_reference_subquery = False
     create_test_procedure_without_params_sql = """
         CREATE PROCEDURE test_procedure ()
         BEGIN
@@ -108,6 +109,7 @@ class DatabaseFeatures(BaseDatabaseFeatures):
                 "update.tests.AdvancedTests."
                 "test_update_ordered_by_inline_m2m_annotation",
                 "update.tests.AdvancedTests.test_update_ordered_by_m2m_annotation",
+                "update.tests.AdvancedTests.test_update_ordered_by_m2m_annotation_desc",
             },
         }
         if self.connection.mysql_is_mariadb and (

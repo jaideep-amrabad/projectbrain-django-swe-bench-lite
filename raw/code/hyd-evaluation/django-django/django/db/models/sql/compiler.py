@@ -358,11 +358,13 @@ class SQLCompiler:
                     if (
                         field.nulls_first is None and field.nulls_last is None
                     ) or self.connection.features.supports_order_by_nulls_modifier:
+                        field = field.copy()
                         field.expression = select_ref
                     # Alias collisions are not possible when dealing with
                     # combined queries so fallback to it if emulation of NULLS
                     # handling is required.
                     elif self.query.combinator:
+                        field = field.copy()
                         field.expression = Ref(select_ref.refs, select_ref.source)
                 yield field, select_ref is not None
                 continue
@@ -674,7 +676,7 @@ class SQLCompiler:
                 )
             )
         inner_query_compiler = inner_query.get_compiler(
-            self.using, elide_empty=self.elide_empty
+            self.using, connection=self.connection, elide_empty=self.elide_empty
         )
         inner_sql, inner_params = inner_query_compiler.as_sql(
             # The limits must be applied to the outer query to avoid pruning
@@ -1888,7 +1890,10 @@ class SQLDeleteCompiler(SQLCompiler):
         Create the SQL for this query. Return the SQL string and list of
         parameters.
         """
-        if self.single_alias and not self.contains_self_reference_subquery:
+        if self.single_alias and (
+            self.connection.features.delete_can_self_reference_subquery
+            or not self.contains_self_reference_subquery
+        ):
             return self._as_sql(self.query)
         innerq = self.query.clone()
         innerq.__class__ = Query
