@@ -2,7 +2,7 @@
 
 > God node · 264 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 38](Community_38.md)
+**Community:** [Community 47](Community_47.md)
 
 ## Connections by Relation
 
@@ -15,6 +15,7 @@
 - .test_default_argument() `EXTRACTED`
 - .__init__() `EXTRACTED`
 - .get_select() `EXTRACTED`
+- .__init__() `EXTRACTED`
 - .check() `EXTRACTED`
 - ._parse_expressions() `EXTRACTED`
 - .bulk_update() `EXTRACTED`
@@ -26,7 +27,6 @@
 - .as_sql() `EXTRACTED`
 - .test_annotation_aggregate_with_m2o() `EXTRACTED`
 - .test_custom_functions_can_ref_other_functions() `EXTRACTED`
-- .test_annotate_filter_decimal() `EXTRACTED`
 
 ### contains
 - models/expressions.py `EXTRACTED`
@@ -43,15 +43,15 @@
 - sql/query.py `EXTRACTED`
 - model_fields/test_jsonfield.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
+- postgis/operations.py `EXTRACTED`
 - query_utils.py `EXTRACTED`
 - test_ranges.py `EXTRACTED`
-- postgis/operations.py `EXTRACTED`
 - sql/compiler.py `EXTRACTED`
 - aggregation/tests.py `EXTRACTED`
 - lookup/tests.py `EXTRACTED`
 - test_query.py `EXTRACTED`
-- annotations/tests.py `EXTRACTED`
 - functions/text.py `EXTRACTED`
+- annotations/tests.py `EXTRACTED`
 
 ### inherits
 - Expression `EXTRACTED`
