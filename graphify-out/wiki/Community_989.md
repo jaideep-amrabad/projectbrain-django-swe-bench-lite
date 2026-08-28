@@ -1,31 +1,27 @@
 # Community 989
 
-> 5 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **create_namedtuple_class()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
-- **model_utils/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_utils/tests.py`
-- **NamedTupleClassTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_utils/tests.py`
-- **unpickle_named_row()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
-- **.test_immutability()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_utils/tests.py`
+- **core.js** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **findPosX()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **findPosY()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **quickElement()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **removeChildren()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
 
 ## Relationships
 
-- [Community 32](Community_32.md) (4 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 349](Community_349.md) (1 shared connections)
-- [Community 90](Community_90.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

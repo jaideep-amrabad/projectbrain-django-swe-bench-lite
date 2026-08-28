@@ -1,6 +1,6 @@
 # Community 144
 
-> 70 nodes · cohesion 0.05
+> 71 nodes · cohesion 0.05
 
 ## Key Concepts
 
@@ -29,15 +29,13 @@
 - **.test_create_model_no_reordering_for_unrelated_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 - **.test_create_model_no_reordering_of_inherited_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 - **.test_create_model_reordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- *... and 45 more nodes in this community*
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [Community 60](Community_60.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 741](Community_741.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 151](Community_151.md) (1 shared connections)
+- [Community 7](Community_7.md) (7 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 157](Community_157.md) (1 shared connections)
 
 ## Source Files
 
@@ -46,7 +44,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 124 (98%)
+- EXTRACTED: 125 (98%)
 - INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 

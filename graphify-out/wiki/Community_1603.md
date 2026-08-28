@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **test_migrations_private/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_private/__init__.py`
+- **postgres_tests/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_private/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/__init__.py`
 
 ## Audit Trail
 

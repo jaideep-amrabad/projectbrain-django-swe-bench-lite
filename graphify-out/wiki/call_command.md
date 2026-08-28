@@ -1,18 +1,18 @@
 # call_command()
 
-> God node · 349 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+> God node · 350 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
-**Community:** [Community 6](Community_6.md)
+**Community:** [Community 10](Community_10.md)
 
 ## Connections by Relation
 
 ### calls
 - CommandError `EXTRACTED`
 - .create_test_db() `EXTRACTED`
+- _init_worker() `EXTRACTED`
 - .setUpClass() `EXTRACTED`
 - .get_actions() `INFERRED`
 - get_commands() `EXTRACTED`
-- _init_worker() `EXTRACTED`
 - .test_migrate_inconsistent_history() `EXTRACTED`
 - .test_migrate_prune() `EXTRACTED`
 - .test_migrate_record_replaced() `EXTRACTED`

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **jquery.init.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/jquery.init.js`
+- **sqlite3/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/jquery.init.js`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/__init__.py`
 
 ## Audit Trail
 

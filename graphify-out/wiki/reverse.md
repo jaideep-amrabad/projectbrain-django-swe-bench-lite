@@ -12,9 +12,9 @@
 - resolve_url() `EXTRACTED`
 - get_script_prefix() `EXTRACTED`
 - .response_add() `EXTRACTED`
+- get_urlconf() `EXTRACTED`
 - translate_url() `EXTRACTED`
 - _get_sitemap_full_url() `EXTRACTED`
-- get_urlconf() `EXTRACTED`
 - .response_change() `EXTRACTED`
 - .response_delete() `EXTRACTED`
 - parse_rst() `EXTRACTED`
