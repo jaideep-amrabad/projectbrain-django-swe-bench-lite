@@ -2,7 +2,7 @@
 
 > God node · 336 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
-**Community:** [Community 46](Community_46.md)
+**Community:** [Community 15](Community_15.md)
 
 ## Connections by Relation
 
@@ -59,8 +59,8 @@
 - SimpleTemplateResponse `EXTRACTED`
 - HttpResponseNotAllowed `EXTRACTED`
 - HttpResponseNotModified `EXTRACTED`
-- HttpResponseServerError `EXTRACTED`
 - HttpResponseNotFound `EXTRACTED`
+- HttpResponseServerError `EXTRACTED`
 - HttpResponseBadRequest `EXTRACTED`
 - HttpResponseForbidden `EXTRACTED`
 - TestingHttpResponse `EXTRACTED`

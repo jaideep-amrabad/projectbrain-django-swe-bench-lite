@@ -2,7 +2,7 @@
 
 > God node · 1027 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 27](Community_27.md)
+**Community:** [Community 5](Community_5.md)
 
 ## Connections by Relation
 
@@ -32,7 +32,6 @@
 - timezones/tests.py `EXTRACTED`
 
 ### inherits
-- AutodetectorTests `EXTRACTED`
 - TransactionTestCase `EXTRACTED`
 - AggregateTestCase `EXTRACTED`
 - ChangeListTests `EXTRACTED`
@@ -52,6 +51,7 @@
 - ListFiltersTests `EXTRACTED`
 - ManyToOneTests `EXTRACTED`
 - ModelFormBaseTest `EXTRACTED`
+- QuerySetSetOperationTests `EXTRACTED`
 
 ### method
 - .setUpClass() `EXTRACTED`
