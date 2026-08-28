@@ -1074,6 +1074,19 @@ class AutodetectorTests(TestCase):
         self.assertNumberMigrations(changes, 'testapp', 0)
         self.assertNumberMigrations(changes, 'otherapp', 0)
 
+    def test_renamed_referenced_m2m_model_case(self):
+        publisher_renamed = ModelState('testapp', 'publisher', [
+            ('id', models.AutoField(primary_key=True)),
+            ('name', models.CharField(max_length=100)),
+        ])
+        changes = self.get_changes(
+            [self.publisher, self.author_with_m2m],
+            [publisher_renamed, self.author_with_m2m],
+            questioner=MigrationQuestioner({'ask_rename_model': True}),
+        )
+        self.assertNumberMigrations(changes, 'testapp', 0)
+        self.assertNumberMigrations(changes, 'otherapp', 0)
+
     def test_rename_m2m_through_model(self):
         """
         Tests autodetection of renamed models that are used in M2M relations as
@@ -2650,6 +2663,26 @@ class AutodetectorTests(TestCase):
         self.assertOperationTypes(changes, 'app', 0, ['RemoveField', 'CreateModel'])
         self.assertOperationAttributes(changes, 'app', 0, 0, name='title', model_name='readable')
         self.assertOperationAttributes(changes, 'app', 0, 1, name='book')
+
+    def test_parse_number(self):
+        tests = [
+            ('no_number', None),
+            ('0001_initial', 1),
+            ('0002_model3', 2),
+            ('0002_auto_20380101_1112', 2),
+            ('0002_squashed_0003', 3),
+            ('0002_model2_squashed_0003_other4', 3),
+            ('0002_squashed_0003_squashed_0004', 4),
+            ('0002_model2_squashed_0003_other4_squashed_0005_other6', 5),
+            ('0002_custom_name_20380101_1112_squashed_0003_model', 3),
+            ('2_squashed_4', 4),
+        ]
+        for migration_name, expected_number in tests:
+            with self.subTest(migration_name=migration_name):
+                self.assertEqual(
+                    MigrationAutodetector.parse_number(migration_name),
+                    expected_number,
+                )
 
 
 class MigrationSuggestNameTests(SimpleTestCase):

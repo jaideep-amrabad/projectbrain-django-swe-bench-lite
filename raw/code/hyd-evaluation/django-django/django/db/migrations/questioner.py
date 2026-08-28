@@ -6,6 +6,7 @@ import sys
 from django.apps import apps
 from django.db.models import NOT_PROVIDED
 from django.utils import timezone
+from django.utils.version import get_docs_version
 
 from .loader import MigrationLoader
 
@@ -77,6 +78,11 @@ class MigrationQuestioner:
     def ask_auto_now_add_addition(self, field_name, model_name):
         """Adding an auto_now_add field to a model."""
         # None means quit
+        return None
+
+    def ask_unique_callable_default_addition(self, field_name, model_name):
+        """Adding a unique field with a callable default."""
+        # None means continue.
         return None
 
 
@@ -205,7 +211,7 @@ class InteractiveMigrationQuestioner(MigrationQuestioner):
         return self._boolean_input(
             "\nMerging will only work if the operations printed above do not conflict\n" +
             "with each other (working on different fields or models)\n" +
-            'Should these migration branches be merged?',
+            'Should these migration branches be merged? [y/N]',
             False,
         )
 
@@ -229,17 +235,70 @@ class InteractiveMigrationQuestioner(MigrationQuestioner):
                 return self._ask_default(default='timezone.now')
         return None
 
+    def ask_unique_callable_default_addition(self, field_name, model_name):
+        """Adding a unique field with a callable default."""
+        if not self.dry_run:
+            version = get_docs_version()
+            choice = self._choice_input(
+                f'Callable default on unique field {model_name}.{field_name} '
+                f'will not generate unique values upon migrating.\n'
+                f'Please choose how to proceed:\n',
+                [
+                    f'Continue making this migration as the first step in '
+                    f'writing a manual migration to generate unique values '
+                    f'described here: '
+                    f'https://docs.djangoproject.com/en/{version}/howto/'
+                    f'writing-migrations/#migrations-that-add-unique-fields.',
+                    'Quit and edit field options in models.py.',
+                ],
+            )
+            if choice == 2:
+                sys.exit(3)
+        return None
+
 
 class NonInteractiveMigrationQuestioner(MigrationQuestioner):
+    def __init__(
+        self, defaults=None, specified_apps=None, dry_run=None, verbosity=1,
+        log=None,
+    ):
+        self.verbosity = verbosity
+        self.log = log
+        super().__init__(
+            defaults=defaults, specified_apps=specified_apps, dry_run=dry_run,
+        )
+
+    def log_lack_of_migration(self, field_name, model_name, reason):
+        if self.verbosity > 0:
+            self.log(
+                f"Field '{field_name}' on model '{model_name}' not migrated: "
+                f"{reason}."
+            )
 
     def ask_not_null_addition(self, field_name, model_name):
         # We can't ask the user, so act like the user aborted.
+        self.log_lack_of_migration(
+            field_name,
+            model_name,
+            'it is impossible to add a non-nullable field without specifying '
+            'a default',
+        )
         sys.exit(3)
 
     def ask_not_null_alteration(self, field_name, model_name):
         # We can't ask the user, so set as not provided.
+        self.log(
+            f"Field '{field_name}' on model '{model_name}' given a default of "
+            f"NOT PROVIDED and must be corrected."
+        )
         return NOT_PROVIDED
 
     def ask_auto_now_add_addition(self, field_name, model_name):
         # We can't ask the user, so act like the user aborted.
+        self.log_lack_of_migration(
+            field_name,
+            model_name,
+            "it is impossible to add a field with 'auto_now_add=True' without "
+            "specifying a default",
+        )
         sys.exit(3)

@@ -880,6 +880,12 @@ class MigrationAutodetector:
                 field.default = self.questioner.ask_auto_now_add_addition(field_name, model_name)
             else:
                 field.default = self.questioner.ask_not_null_addition(field_name, model_name)
+        if (
+            field.unique and
+            field.default is not models.NOT_PROVIDED and
+            callable(field.default)
+        ):
+            self.questioner.ask_unique_callable_default_addition(field_name, model_name)
         self.add_operation(
             app_label,
             operations.AddField(
@@ -1323,8 +1329,11 @@ class MigrationAutodetector:
     def parse_number(cls, name):
         """
         Given a migration name, try to extract a number from the beginning of
-        it. If no number is found, return None.
+        it. For a squashed migration such as '0001_squashed_0004…', return the
+        second number. If no number is found, return None.
         """
+        if squashed_match := re.search(r'.*_squashed_(\d+)', name):
+            return int(squashed_match[1])
         match = re.match(r'^\d+', name)
         if match:
             return int(match[0])

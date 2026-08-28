@@ -12,8 +12,8 @@ from .models import (
     ChildModel1, ChildModel2, Fashionista, FootNote, Holder, Holder2, Holder3,
     Holder4, Inner, Inner2, Inner3, Inner4Stacked, Inner4Tabular, Novel,
     OutfitItem, Parent, ParentModelWithCustomPk, Person, Poll, Profile,
-    ProfileCollection, Question, Sighting, SomeChildModel, SomeParentModel,
-    Teacher, VerboseNamePluralProfile, VerboseNameProfile,
+    ProfileCollection, Question, ShowInlineParent, Sighting, SomeChildModel,
+    SomeParentModel, Teacher, VerboseNamePluralProfile, VerboseNameProfile,
 )
 
 INLINE_CHANGELINK_HTML = 'class="inlinechangelink">Change</a>'
@@ -617,6 +617,21 @@ class TestInline(TestDataMixin, TestCase):
         response = self.client.get(reverse('admin:admin_inlines_person_add'))
         self.assertContains(response, '<h2>Author</h2>', html=True)  # Tabular.
         self.assertContains(response, '<h2>Fashionista</h2>', html=True)  # Stacked.
+
+    def test_inlines_based_on_model_state(self):
+        parent = ShowInlineParent.objects.create(show_inlines=False)
+        data = {
+            'show_inlines': 'on',
+            '_save': 'Save',
+        }
+        change_url = reverse(
+            'admin:admin_inlines_showinlineparent_change',
+            args=(parent.id,),
+        )
+        response = self.client.post(change_url, data)
+        self.assertEqual(response.status_code, 302)
+        parent.refresh_from_db()
+        self.assertIs(parent.show_inlines, True)
 
 
 @override_settings(ROOT_URLCONF='admin_inlines.urls')
@@ -1629,13 +1644,15 @@ class SeleniumTests(AdminSeleniumTestCase):
             self.selenium.execute_script('window.scrollTo(0, %s);' % hide_link.location['y'])
             hide_link.click()
             self.wait_until_invisible(field_name)
-        self.selenium.find_element_by_xpath('//input[@value="Save"]').click()
-        self.assertEqual(
-            len(self.selenium.find_elements_by_css_selector(stacked_inline_formset_selector + '.collapsed')), 0
-        )
-        self.assertEqual(
-            len(self.selenium.find_elements_by_css_selector(tabular_inline_formset_selector + '.collapsed')), 0
-        )
+        with self.wait_page_loaded():
+            self.selenium.find_element_by_xpath('//input[@value="Save"]').click()
+        with self.disable_implicit_wait():
+            self.assertEqual(
+                len(self.selenium.find_elements_by_css_selector(stacked_inline_formset_selector + '.collapsed')), 0
+            )
+            self.assertEqual(
+                len(self.selenium.find_elements_by_css_selector(tabular_inline_formset_selector + '.collapsed')), 0
+            )
         self.assertEqual(
             len(self.selenium.find_elements_by_css_selector(stacked_inline_formset_selector)), 1
         )

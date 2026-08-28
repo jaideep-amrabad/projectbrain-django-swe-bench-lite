@@ -26,9 +26,7 @@ else:
     from django.test.runner import get_max_test_processes, parallel_type
     from django.test.selenium import SeleniumTestCaseBase
     from django.test.utils import NullTimeKeeper, TimeKeeper, get_runner
-    from django.utils.deprecation import (
-        RemovedInDjango41Warning, RemovedInDjango50Warning,
-    )
+    from django.utils.deprecation import RemovedInDjango50Warning
     from django.utils.log import DEFAULT_LOGGING
 
 try:
@@ -41,19 +39,12 @@ else:
 
 # Make deprecation warnings errors to ensure no usage of deprecated features.
 warnings.simplefilter('error', RemovedInDjango50Warning)
-warnings.simplefilter('error', RemovedInDjango41Warning)
 # Make resource and runtime warning errors to ensure no usage of error prone
 # patterns.
 warnings.simplefilter("error", ResourceWarning)
 warnings.simplefilter("error", RuntimeWarning)
 # Ignore known warnings in test dependencies.
 warnings.filterwarnings("ignore", "'U' mode is deprecated", DeprecationWarning, module='docutils.io')
-# RemovedInDjango41Warning: Ignore MemcachedCache deprecation warning.
-warnings.filterwarnings(
-    'ignore',
-    'MemcachedCache is deprecated',
-    category=RemovedInDjango41Warning,
-)
 
 # Reduce garbage collection frequency to improve performance. Since CPython
 # uses refcounting, garbage collection only collects objects with cyclic
