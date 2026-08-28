@@ -1,6 +1,6 @@
 # Community 143
 
-> 62 nodes · cohesion 0.06
+> 72 nodes · cohesion 0.05
 
 ## Key Concepts
 
@@ -10,6 +10,7 @@
 - **.as_sql()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 - **.get_order_by()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 - **SQLDeleteCompiler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **SQLInsertCompiler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 - **.find_ordering_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 - **.get_select()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 - **._as_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
@@ -28,23 +29,22 @@
 - **.execute_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 - **get_order_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 - **.as_subquery_condition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.execute_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- *... and 37 more nodes in this community*
+- *... and 47 more nodes in this community*
 
 ## Relationships
 
-- [Community 16](Community_16.md) (15 shared connections)
-- [Community 55](Community_55.md) (5 shared connections)
-- [Community 873](Community_873.md) (3 shared connections)
-- [Community 199](Community_199.md) (2 shared connections)
-- [Community 94](Community_94.md) (2 shared connections)
-- [Community 146](Community_146.md) (2 shared connections)
-- [Community 585](Community_585.md) (2 shared connections)
+- [Community 66](Community_66.md) (16 shared connections)
+- [Community 53](Community_53.md) (5 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 200](Community_200.md) (2 shared connections)
+- [Community 89](Community_89.md) (2 shared connections)
+- [Community 148](Community_148.md) (2 shared connections)
 - [Community 49](Community_49.md) (2 shared connections)
-- [Community 674](Community_674.md) (1 shared connections)
+- [Community 683](Community_683.md) (1 shared connections)
 - [Community 122](Community_122.md) (1 shared connections)
-- [Community 83](Community_83.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 155](Community_155.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
@@ -53,7 +53,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 144 (98%)
+- EXTRACTED: 159 (98%)
 - INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 

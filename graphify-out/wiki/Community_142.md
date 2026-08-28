@@ -1,6 +1,6 @@
 # Community 142
 
-> 74 nodes · cohesion 0.05
+> 75 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -26,25 +26,25 @@
 - **.test_covering_func_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
 - **.test_multiple_conditions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
 - **SchemaIndexesNotPostgreSQLTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_func_index_nonexistent_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
 - **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **._get_condition_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- *... and 49 more nodes in this community*
+- *... and 50 more nodes in this community*
 
 ## Relationships
 
 - [Community 49](Community_49.md) (13 shared connections)
-- [Community 187](Community_187.md) (11 shared connections)
-- [Community 50](Community_50.md) (9 shared connections)
-- [Community 139](Community_139.md) (9 shared connections)
-- [Community 26](Community_26.md) (8 shared connections)
-- [Community 91](Community_91.md) (5 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 60](Community_60.md) (4 shared connections)
-- [Community 149](Community_149.md) (4 shared connections)
-- [Community 62](Community_62.md) (4 shared connections)
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 552](Community_552.md) (2 shared connections)
+- [Community 184](Community_184.md) (11 shared connections)
+- [Community 34](Community_34.md) (9 shared connections)
+- [Community 24](Community_24.md) (9 shared connections)
+- [Community 52](Community_52.md) (7 shared connections)
+- [Community 62](Community_62.md) (7 shared connections)
+- [Community 87](Community_87.md) (5 shared connections)
+- [Community 151](Community_151.md) (4 shared connections)
+- [Community 58](Community_58.md) (4 shared connections)
+- [Community 123](Community_123.md) (3 shared connections)
+- [Community 555](Community_555.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
 
 ## Source Files
 
@@ -52,11 +52,12 @@
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
 - `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 169 (78%)
-- INFERRED: 47 (22%)
+- EXTRACTED: 172 (79%)
+- INFERRED: 47 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,6 +1,6 @@
 # Community 101
 
-> 92 nodes · cohesion 0.03
+> 89 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -8,9 +8,7 @@
 - **NodeNotFoundError** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
 - **GraphTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
 - **Node** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **test_graph.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
 - **DummyNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **CircularDependencyError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
 - **NodeTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
 - **.forwards_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
 - **.make_state()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
@@ -29,16 +27,18 @@
 - **.test_circular_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
 - **.test_complex_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
 - **.test_infinite_loop()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- *... and 67 more nodes in this community*
+- **.test_iterative_dfs_complexity()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- **.test_missing_child_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- *... and 64 more nodes in this community*
 
 ## Relationships
 
-- [Community 25](Community_25.md) (16 shared connections)
-- [Community 42](Community_42.md) (7 shared connections)
-- [Community 28](Community_28.md) (6 shared connections)
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
+- [Community 510](Community_510.md) (21 shared connections)
+- [Community 41](Community_41.md) (7 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
 - [Community 141](Community_141.md) (2 shared connections)
 
 ## Source Files
@@ -51,8 +51,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 165 (94%)
-- INFERRED: 11 (6%)
+- EXTRACTED: 156 (93%)
+- INFERRED: 11 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,6 +1,6 @@
 # Community 49
 
-> 254 nodes · cohesion 0.01
+> 258 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -18,8 +18,9 @@
 - **UnionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 - **FilteredRelationAnalyticalAggregationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
 - **FilteredRelationAggregationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_aggregate()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- **.conditional()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 - **or_lookups/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/or_lookups/tests.py`
+- **NullInExcludeTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 - **.check_union()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 - **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
 - **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
@@ -28,26 +29,26 @@
 - **DeleteQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
 - **.test_filtered_aggregate_ref_subquery_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/test_filter_argument.py`
 - **Editor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **.test_aggregate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- *... and 229 more nodes in this community*
+- *... and 233 more nodes in this community*
 
 ## Relationships
 
-- [Community 29](Community_29.md) (28 shared connections)
-- [Community 18](Community_18.md) (27 shared connections)
-- [Community 51](Community_51.md) (23 shared connections)
-- [Community 72](Community_72.md) (21 shared connections)
-- [Community 44](Community_44.md) (20 shared connections)
-- [Community 16](Community_16.md) (15 shared connections)
-- [Community 21](Community_21.md) (13 shared connections)
+- [Community 68](Community_68.md) (53 shared connections)
+- [Community 19](Community_19.md) (29 shared connections)
+- [Community 27](Community_27.md) (27 shared connections)
+- [Community 53](Community_53.md) (23 shared connections)
+- [Community 44](Community_44.md) (22 shared connections)
+- [Community 62](Community_62.md) (17 shared connections)
+- [Community 66](Community_66.md) (16 shared connections)
+- [Community 20](Community_20.md) (14 shared connections)
 - [Community 142](Community_142.md) (13 shared connections)
-- [Community 1](Community_1.md) (11 shared connections)
-- [Community 135](Community_135.md) (11 shared connections)
-- [Community 62](Community_62.md) (10 shared connections)
-- [Community 114](Community_114.md) (9 shared connections)
+- [Community 134](Community_134.md) (12 shared connections)
+- [Community 115](Community_115.md) (9 shared connections)
+- [Community 24](Community_24.md) (6 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
 - `raw/code/hyd-evaluation/django-django/tests/aggregation/test_filter_argument.py`
@@ -60,8 +61,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 694 (90%)
-- INFERRED: 76 (10%)
+- EXTRACTED: 698 (89%)
+- INFERRED: 82 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---
