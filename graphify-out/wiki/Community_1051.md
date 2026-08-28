@@ -1,25 +1,28 @@
 # Community 1051
 
-> 3 nodes · cohesion 0.67
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.test_inheritance22()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance23()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Three-level inheritance with {{ block.super }} from grandparent** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **model_options/apps.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
+- **ModelDefaultPKConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
+- **ModelPKConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
+- **ModelPKNonAutoConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
+- **ModelPKNoneConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
+- **ModelPKNonexistentConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
 
 ## Relationships
 
-- [Community 775](Community_775.md) (2 shared connections)
-- [Community 806](Community_806.md) (2 shared connections)
+- [Community 87](Community_87.md) (6 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

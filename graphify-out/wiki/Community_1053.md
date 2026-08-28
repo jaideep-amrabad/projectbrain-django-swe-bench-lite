@@ -10,8 +10,8 @@
 
 ## Relationships
 
-- [Community 771](Community_771.md) (2 shared connections)
-- [Community 802](Community_802.md) (2 shared connections)
+- [Community 779](Community_779.md) (2 shared connections)
+- [Community 807](Community_807.md) (2 shared connections)
 
 ## Source Files
 

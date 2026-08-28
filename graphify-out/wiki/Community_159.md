@@ -1,9 +1,10 @@
 # Community 159
 
-> 32 nodes · cohesion 0.06
+> 33 nodes · cohesion 0.09
 
 ## Key Concepts
 
+- **db/transaction.py** (72 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
 - **get_connection()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
 - **Atomic** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
 - **on_commit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
@@ -28,13 +29,22 @@
 - **Get the autocommit status of the connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
 - **Set the autocommit status of the connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
 - **Commit a transaction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Roll back a transaction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- *... and 7 more nodes in this community*
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (14 shared connections)
-- [Community 424](Community_424.md) (2 shared connections)
+- [Community 16](Community_16.md) (17 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 363](Community_363.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 239](Community_239.md) (2 shared connections)
+- [Community 302](Community_302.md) (2 shared connections)
+- [Community 98](Community_98.md) (1 shared connections)
+- [Community 169](Community_169.md) (1 shared connections)
+- [Community 333](Community_333.md) (1 shared connections)
+- [Community 247](Community_247.md) (1 shared connections)
+- [Community 283](Community_283.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
 
 ## Source Files
 
@@ -42,8 +52,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 47 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 105 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,22 +1,24 @@
 # Community 1693
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **no_urls.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/no_urls.py`
+- **GISConfig** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/apps.py`
+- **.ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/apps.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/no_urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/apps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

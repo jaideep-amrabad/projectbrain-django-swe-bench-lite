@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **str/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/str/__init__.py`
+- **tests/test_sqlite.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/test_sqlite.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/str/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_sqlite.py`
 
 ## Audit Trail
 

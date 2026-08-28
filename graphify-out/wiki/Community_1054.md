@@ -10,7 +10,7 @@
 
 ## Relationships
 
-- [Community 515](Community_515.md) (2 shared connections)
+- [Community 525](Community_525.md) (2 shared connections)
 
 ## Source Files
 
