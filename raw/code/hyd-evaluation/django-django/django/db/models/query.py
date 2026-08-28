@@ -23,7 +23,7 @@ from django.db import (
 from django.db.models import AutoField, DateField, DateTimeField, Field, sql
 from django.db.models.constants import LOOKUP_SEP, OnConflict
 from django.db.models.deletion import Collector
-from django.db.models.expressions import Case, F, Ref, Value, When
+from django.db.models.expressions import Case, F, Value, When
 from django.db.models.functions import Cast, Trunc
 from django.db.models.query_utils import FilteredRelation, Q
 from django.db.models.sql.constants import CURSOR, GET_ITERATOR_CHUNK_SIZE
@@ -589,24 +589,7 @@ class QuerySet(AltersData):
                 raise TypeError("Complex aggregates require an alias")
             kwargs[arg.default_alias] = arg
 
-        query = self.query.chain()
-        for (alias, aggregate_expr) in kwargs.items():
-            query.add_annotation(aggregate_expr, alias, is_summary=True)
-            annotation = query.annotations[alias]
-            if not annotation.contains_aggregate:
-                raise TypeError("%s is not an aggregate expression" % alias)
-            for expr in annotation.get_source_expressions():
-                if (
-                    expr.contains_aggregate
-                    and isinstance(expr, Ref)
-                    and expr.refs in kwargs
-                ):
-                    name = expr.refs
-                    raise exceptions.FieldError(
-                        "Cannot compute %s('%s'): '%s' is an aggregate"
-                        % (annotation.name, name, name)
-                    )
-        return query.get_aggregation(self.db, kwargs)
+        return self.query.chain().get_aggregation(self.db, kwargs)
 
     async def aaggregate(self, *args, **kwargs):
         return await sync_to_async(self.aggregate)(*args, **kwargs)
@@ -720,7 +703,6 @@ class QuerySet(AltersData):
                     "Unique fields that can trigger the upsert must be provided."
                 )
             # Updating primary keys and non-concrete fields is forbidden.
-            update_fields = [self.model._meta.get_field(name) for name in update_fields]
             if any(not f.concrete or f.many_to_many for f in update_fields):
                 raise ValueError(
                     "bulk_create() can only be used with concrete fields in "
@@ -732,12 +714,6 @@ class QuerySet(AltersData):
                     "update_fields."
                 )
             if unique_fields:
-                # Primary key is allowed in unique_fields.
-                unique_fields = [
-                    self.model._meta.get_field(name)
-                    for name in unique_fields
-                    if name != "pk"
-                ]
                 if any(not f.concrete or f.many_to_many for f in unique_fields):
                     raise ValueError(
                         "bulk_create() can only be used with concrete fields "
@@ -785,6 +761,15 @@ class QuerySet(AltersData):
                 raise ValueError("Can't bulk create a multi-table inherited model")
         if not objs:
             return objs
+        opts = self.model._meta
+        if unique_fields:
+            # Primary key is allowed in unique_fields.
+            unique_fields = [
+                self.model._meta.get_field(opts.pk.name if name == "pk" else name)
+                for name in unique_fields
+            ]
+        if update_fields:
+            update_fields = [self.model._meta.get_field(name) for name in update_fields]
         on_conflict = self._check_bulk_create_options(
             ignore_conflicts,
             update_conflicts,
@@ -792,7 +777,6 @@ class QuerySet(AltersData):
             unique_fields,
         )
         self._for_write = True
-        opts = self.model._meta
         fields = opts.concrete_fields
         objs = list(objs)
         self._prepare_for_bulk_create(objs)
@@ -1654,7 +1638,6 @@ class QuerySet(AltersData):
                 clone.query.add_annotation(
                     annotation,
                     alias,
-                    is_summary=False,
                     select=select,
                 )
         for alias, annotation in clone.query.annotations.items():
