@@ -4,25 +4,32 @@
 
 ## Key Concepts
 
-- **BooleanFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
-- **.test_boolean_picklable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
-- **.test_booleanfield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
-- **.test_booleanfield_clean_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
-- **.test_booleanfield_clean_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
-- **.test_disabled_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- **._resolve_lookup()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.resolve()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.template_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.current()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **Resolve this variable against a given context.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Perform resolution of a real variable (i.e. not a literal) against the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 589](Community_589.md) (3 shared connections)
+- [Community 959](Community_959.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 193](Community_193.md) (1 shared connections)
+- [Community 730](Community_730.md) (1 shared connections)
+- [Community 887](Community_887.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- `raw/code/hyd-evaluation/django-django/django/test/html.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (69%)
+- INFERRED: 4 (31%)
 - AMBIGUOUS: 0 (0%)
 
 ---

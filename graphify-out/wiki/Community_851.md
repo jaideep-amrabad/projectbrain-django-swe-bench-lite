@@ -1,38 +1,34 @@
 # Community 851
 
-> 12 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **AsyncUnsafeTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **DatabaseConnectionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.dangerous_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_async_unsafe_suppressed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **CacheTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **skipIf** (3 connections)
-- **.test_async_unsafe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_caches_local()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_get_async_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **dict** (1 connections)
-- **A database connection cannot be used in an async context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **async_unsafe decorator should work correctly and returns the correct message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.get_object()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_context_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_context_object_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_slug_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **Return the object the view is displaying. Require `self.queryset` and a `pk` or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **Return the `QuerySet` that will be used to look up the object. This method is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **Get the name of a slug field to be used to look up by slug.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **Get the name to use for the object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **Insert the single object into the context dict.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
 
 ## Relationships
 
-- [Community 24](Community_24.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 313](Community_313.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
+- [Community 21](Community_21.md) (6 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

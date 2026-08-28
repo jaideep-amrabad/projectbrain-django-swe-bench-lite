@@ -1,73 +1,55 @@
 # Community 162
 
-> 42 nodes · cohesion 0.07
+> 62 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **AppConfig** (98 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **._path_from_module()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **admindocs/apps.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/apps.py`
-- **flatpages/apps.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/apps.py`
-- **humanize/apps.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/humanize/apps.py`
-- **redirects/apps.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/redirects/apps.py`
-- **sessions/apps.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/apps.py`
-- **sitemaps/apps.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/apps.py`
-- **syndication/apps.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/apps.py`
-- **nsapp/apps.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/namespace_package_base/nsapp/apps.py`
-- **check_framework/apps.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
-- **.import_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **GISConfig** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/apps.py`
-- **different_tags_app/apps.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/template_test_apps/different_tags_app/apps.py`
-- **same_tags_app_1/apps.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/template_test_apps/same_tags_app_1/apps.py`
-- **same_tags_app_2/apps.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/template_test_apps/same_tags_app_2/apps.py`
-- **loading_app/apps.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/loading_app/apps.py`
-- **.default_auto_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **.get_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **.ready()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **AdminDocsConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/apps.py`
-- **FlatPagesConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/apps.py`
-- **HumanizeConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/humanize/apps.py`
-- **RedirectsConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/redirects/apps.py`
-- *... and 17 more nodes in this community*
+- **data.py** (68 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **BaseModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **AbstractBaseModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **Anchor** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **Tag** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **ExplicitInheritBaseModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **GenericData** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **InheritAbstractModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **InheritBaseModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **LengthModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **This is a model that can be used as something for other models to point at** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **UniqueAnchor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **AutoNowDateTimeData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **BigIntegerData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **BinaryData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **BooleanData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **BooleanPKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **CharData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **CharPKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **DateData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **DatePKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **DateTimeData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **DateTimePKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **DecimalData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [Community 24](Community_24.md) (25 shared connections)
-- [Community 411](Community_411.md) (9 shared connections)
-- [Community 885](Community_885.md) (8 shared connections)
-- [Community 584](Community_584.md) (7 shared connections)
-- [Community 855](Community_855.md) (6 shared connections)
-- [Community 1146](Community_1146.md) (6 shared connections)
-- [Community 1759](Community_1759.md) (3 shared connections)
-- [Community 1760](Community_1760.md) (3 shared connections)
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
-- [Community 41](Community_41.md) (2 shared connections)
+- [Community 182](Community_182.md) (4 shared connections)
+- [Community 457](Community_457.md) (3 shared connections)
+- [Community 34](Community_34.md) (2 shared connections)
+- [Community 498](Community_498.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1142](Community_1142.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/humanize/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/redirects/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/apps.py`
-- `raw/code/hyd-evaluation/django-django/tests/apps/namespace_package_base/nsapp/apps.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/template_test_apps/different_tags_app/apps.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/template_test_apps/same_tags_app_1/apps.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/template_test_apps/same_tags_app_2/apps.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/loading_app/apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
 
 ## Audit Trail
 
-- EXTRACTED: 140 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 79 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

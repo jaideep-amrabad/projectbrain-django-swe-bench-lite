@@ -1,28 +1,24 @@
 # Community 1146
 
-> 6 nodes · cohesion 0.33
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **model_options/apps.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
-- **ModelDefaultPKConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
-- **ModelPKConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
-- **ModelPKNonAutoConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
-- **ModelPKNoneConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
-- **ModelPKNonexistentConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
+- **.test_view_with_force_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that is protected with…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 162](Community_162.md) (6 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 526](Community_526.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

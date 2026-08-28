@@ -1,29 +1,24 @@
 # Community 1153
 
-> 5 nodes · cohesion 0.40
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **DeprecationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
-- **.test_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
-- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
-- **.test_access_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
-- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
+- **.conditional_expression_supported_in_where_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return True, if the conditional expression is supported in the WHERE clause.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
-- [Community 198](Community_198.md) (1 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 2 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

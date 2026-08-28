@@ -1,25 +1,22 @@
 # Community 1762
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **ParameterHandlingTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_bad_parameter_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **An executemany call with too many/not enough parameters will raise an exception.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **app4/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/app4/__init__.py`
 
 ## Relationships
 
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/app4/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **gdal_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/__init__.py`
+- **flatpages_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/__init__.py`
 
 ## Audit Trail
 

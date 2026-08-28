@@ -16,11 +16,11 @@
 ## Relationships
 
 - [Community 135](Community_135.md) (2 shared connections)
-- [Community 290](Community_290.md) (2 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 582](Community_582.md) (1 shared connections)
-- [Community 323](Community_323.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
+- [Community 293](Community_293.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 587](Community_587.md) (1 shared connections)
+- [Community 327](Community_327.md) (1 shared connections)
+- [Community 97](Community_97.md) (1 shared connections)
 
 ## Source Files
 

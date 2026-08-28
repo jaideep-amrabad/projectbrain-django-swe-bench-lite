@@ -1,36 +1,33 @@
 # Community 866
 
-> 10 nodes · cohesion 0.36
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **max_lengths/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **MaxLengthArgumentsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **max_lengths/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- **PersonWithCustomMaxLengths** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- **MaxLengthORMTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **PersonWithDefaultMaxLengths** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- **.verify_max_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **.test_custom_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **.test_default_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **.test_custom_max_lengths()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **apps/apps.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **BadConfig** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **ModelPKAppsConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **MyAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **MyAuth** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **NoSuchApp** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **PlainAppsConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **RelabeledAppsConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **NotAConfig** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **This class doesn't supply the mandatory 'name' attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
 
 ## Relationships
 
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 163](Community_163.md) (8 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (86%)
-- INFERRED: 3 (14%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

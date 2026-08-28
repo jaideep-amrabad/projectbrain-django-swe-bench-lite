@@ -1,32 +1,32 @@
 # Community 885
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **apps/apps.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
-- **BadConfig** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
-- **ModelPKAppsConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
-- **MyAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
-- **MyAuth** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
-- **NoSuchApp** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
-- **PlainAppsConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
-- **RelabeledAppsConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
-- **NotAConfig** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
-- **This class doesn't supply the mandatory 'name' attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **ResponseHeaders** (9 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **._convert_to_charset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **Populate the initial data using __setitem__ to ensure values are correctly…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **Convert headers key/value to ascii/latin-1 native strings. `charset` must be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.setdefault()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Relationships
 
-- [Community 162](Community_162.md) (8 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 333](Community_333.md) (1 shared connections)
+- [Community 429](Community_429.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

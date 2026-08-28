@@ -1,42 +1,42 @@
 # Community 551
 
-> 19 nodes · cohesion 0.17
+> 19 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **SearchQuery** (55 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TestCombinations** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **SearchQueryTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_combine_different_vector_configs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_query_and()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_query_multiple_and()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_bad_search_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_combine_different_configs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_combine_raw_phrase()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_combined_configs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_query_combined_mismatch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_query_invert()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_query_multiple_or()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_query_or()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_vector_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_vector_add_multi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_vector_combined_mismatch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.__invert__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchConfig** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **CombinedSearchVector** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.from_parameter()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchVectorCombinable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchConfigTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.test_from_parameter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **._combine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.get_source_expressions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.set_source_expressions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
 
 ## Relationships
 
-- [Community 458](Community_458.md) (17 shared connections)
-- [Community 975](Community_975.md) (11 shared connections)
-- [Community 550](Community_550.md) (8 shared connections)
-- [Community 838](Community_838.md) (8 shared connections)
-- [Community 549](Community_549.md) (3 shared connections)
-- [Community 878](Community_878.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
-- [Community 560](Community_560.md) (1 shared connections)
-- [Community 428](Community_428.md) (1 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
+- [Community 40](Community_40.md) (6 shared connections)
+- [Community 572](Community_572.md) (5 shared connections)
+- [Community 552](Community_552.md) (3 shared connections)
+- [Community 553](Community_553.md) (3 shared connections)
+- [Community 463](Community_463.md) (3 shared connections)
+- [Community 980](Community_980.md) (2 shared connections)
+- [Community 877](Community_877.md) (1 shared connections)
+- [Community 83](Community_83.md) (1 shared connections)
+- [Community 89](Community_89.md) (1 shared connections)
+- [Community 836](Community_836.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
@@ -45,8 +45,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 75 (89%)
-- INFERRED: 9 (11%)
+- EXTRACTED: 49 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

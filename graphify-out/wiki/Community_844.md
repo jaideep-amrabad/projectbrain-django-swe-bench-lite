@@ -1,38 +1,39 @@
 # Community 844
 
-> 10 nodes · cohesion 0.22
+> 15 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **MigrationOptimizer** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **optimizer.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **.optimize()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.optimize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **.optimize_inner()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **.test_none_app_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **Main optimization entry point. Pass in a list of Operation instances, get out a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **Power the optimization process, where you provide a list of Operations and you…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **Inner optimization loop.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **Handy shortcut for getting results + number of loops** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **SQLInsertCompiler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.results_iter()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.assemble_as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.execute_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.field_as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.prepare_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.apply_converters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_converters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.pre_save_val()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Return an iterator over the results from executing this query.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Take a field and a value intended to be saved on that field, and return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Prepare a value to be used in a query by resolving it if it is an expression…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Get the given field's value off the given obj. pre_save() is used for things…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Take a sequence of N fields and a sequence of M rows of values, and generate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Relationships
 
-- [Community 564](Community_564.md) (4 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 496](Community_496.md) (2 shared connections)
-- [Community 111](Community_111.md) (2 shared connections)
+- [Community 535](Community_535.md) (7 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 498](Community_498.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (88%)
-- INFERRED: 3 (12%)
+- EXTRACTED: 28 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,33 +1,27 @@
 # Community 1043
 
-> 7 nodes · cohesion 0.29
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **get_current_timezone_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **get_default_timezone_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **_get_timezone_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **Return the name of the default time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Return the name of the currently active time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Return the offset for fixed offset timezones, or the name of timezone if not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **LocalizedModelFormTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_form_applies_localize_to_all_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_form_applies_localize_to_some_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_form_refuses_arbitrary_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 599](Community_599.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 195](Community_195.md) (2 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
+- [Community 79](Community_79.md) (2 shared connections)
+- [Community 49](Community_49.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (83%)
+- INFERRED: 1 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

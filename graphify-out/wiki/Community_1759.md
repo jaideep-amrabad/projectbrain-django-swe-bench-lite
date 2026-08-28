@@ -1,25 +1,22 @@
 # Community 1759
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **two_configs_app/apps.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_app/apps.py`
-- **TwoConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_app/apps.py`
-- **TwoConfigBis** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_app/apps.py`
+- **view_tests/app1/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/app1/__init__.py`
 
 ## Relationships
 
-- [Community 162](Community_162.md) (3 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_app/apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/app1/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

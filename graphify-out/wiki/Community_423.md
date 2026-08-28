@@ -1,51 +1,60 @@
 # Community 423
 
-> 27 nodes · cohesion 0.11
+> 26 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **TemplateTestMixin** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **._engine()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_render_tag_error_in_extended_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_url_reverse_no_settings_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_compile_tag_error_27956()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_extends_generic_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_no_wrapped_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_super_errors()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_url_reverse_view_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_compile_filter_expression_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_compile_tag_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_compile_tag_error_27584()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_invalid_block_suggestion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_node_origin()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_string_origin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_unknown_block_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **Errors raised while compiling nodes should include the token information.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **Errors in a child of {% extends %} are displayed correctly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **Errors in extended block are displayed correctly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **#18169 -- NoReverseMatch should not be silence in block.super.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **#24338 -- Allow extending django.template.backends.django.Template objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **#25848 -- Set origin on Node so debugging tools can determine which template…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **#9005 -- url tag shouldn't require settings.SETTINGS_MODULE to be set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **#19827 -- url tag should keep original strack trace when reraising exception.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **# 16770 -- The template system doesn't wrap exceptions, but annotates them.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- *... and 2 more nodes in this community*
+- **Jinja2** (19 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **test_renderers.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **DjangoTemplates** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **BaseRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **EngineMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **TemplatesSetting** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **Jinja2Tests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **SharedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **BaseTemplateRendererTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **DjangoTemplatesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **TemplatesSettingTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **.backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
+- **.test_modelformset_factory_passes_renderer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.test_get_renderer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **.test_installed_apps_template_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **.get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **Load Django templates from the built-in widget templates in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **Load Jinja2 templates from the built-in widget templates in django/forms/jinja2…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **Load templates using template.loader.get_template() which is configured based…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **skipIf** (1 connections)
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (9 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 0](Community_0.md) (14 shared connections)
+- [Community 285](Community_285.md) (7 shared connections)
+- [Community 110](Community_110.md) (3 shared connections)
+- [Community 550](Community_550.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
+- [Community 61](Community_61.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 246](Community_246.md) (1 shared connections)
+- [Community 190](Community_190.md) (1 shared connections)
+- [Community 220](Community_220.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 60 (80%)
+- INFERRED: 15 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

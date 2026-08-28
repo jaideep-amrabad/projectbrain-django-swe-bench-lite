@@ -1,56 +1,63 @@
 # Community 351
 
-> 33 nodes · cohesion 0.09
+> 33 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **MiscTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.g()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **get_language_from_request()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **CountrySpecificLanguageTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_support_for_deprecated_chinese_language_codes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_cache_resetting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_english_fallback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_parse_language_cookie()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_parse_literal_http_header()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_language_from_path_real()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_supported_language_variant_real()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_patterns_returns_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_special_fallback_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_subsequent_code_fallback_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_check_for_language()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_language_from_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_language_from_request_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_specific_language_codes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_language_from_path_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_supported_language_variant_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_parse_spec_http_header()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_plural_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **Hour, 12-hour format without leading zeros; i.e. '1' to '12** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Hour, 24-hour format without leading zeros; i.e. '0' to '23** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.test_check_for_language_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **CsrfViewMiddleware** (91 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **is_same_domain()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **._check_token()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._get_secret()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.process_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **RejectRequest** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.test_origin_malformed_host()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_put_and_delete_rejected()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._check_referer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_EnsureCsrfCookie** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **._bad_token_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._origin_verified()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.process_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._set_csrf_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_EnsureCsrfToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **IsSameDomainTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **._accept()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.allowed_origin_subdomains()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.process_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **Exception** (2 connections)
+- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **.test_bad()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_good()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.allowed_origins_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.csrf_trusted_origins_hosts()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
 - *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (7 shared connections)
-- [Community 17](Community_17.md) (5 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 223](Community_223.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 584](Community_584.md) (1 shared connections)
+- [Community 204](Community_204.md) (28 shared connections)
+- [Community 35](Community_35.md) (20 shared connections)
+- [Community 291](Community_291.md) (13 shared connections)
+- [Community 7](Community_7.md) (10 shared connections)
+- [Community 451](Community_451.md) (10 shared connections)
+- [Community 648](Community_648.md) (6 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 968](Community_968.md) (2 shared connections)
+- [Community 878](Community_878.md) (2 shared connections)
+- [Community 845](Community_845.md) (2 shared connections)
+- [Community 929](Community_929.md) (1 shared connections)
+- [Community 1103](Community_1103.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (78%)
-- INFERRED: 14 (22%)
+- EXTRACTED: 133 (91%)
+- INFERRED: 13 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

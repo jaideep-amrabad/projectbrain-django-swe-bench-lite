@@ -1,26 +1,22 @@
 # Community 1746
 
-> 4 nodes · cohesion 0.50
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **._perform_cull_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_zero_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_zero_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **urls_error_handlers.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/urls_error_handlers.py`
 
 ## Relationships
 
-- [Community 279](Community_279.md) (3 shared connections)
-- [Community 517](Community_517.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/urls_error_handlers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

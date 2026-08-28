@@ -1,59 +1,59 @@
 # Community 539
 
-> 25 nodes · cohesion 0.10
+> 25 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Feed** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.get_feed()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **is_naive()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **localtime()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **make_naive()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.r()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **localdate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.feed_extra_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.get_context_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **._get_dynamic_attr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.item_extra_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.item_enclosures()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.item_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.item_title()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **Return an extra keyword arguments dictionary that is used when initializing the…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.item_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **Return a dictionary to use as extra context if either…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **Return a feedgenerator.DefaultFeed object, fully populated, for this feed.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **RFC 5322 formatted date; e.g. 'Thu, 21 Dec 2000 16:01:07 +0200** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Convert an aware datetime.datetime to local time. Only aware datetimes are…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Convert an aware datetime to local time and return the value's date. Only aware…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Determine if a given datetime.datetime is naive. The concept is defined in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Make an aware datetime.datetime naive in a given time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Concat** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **test_concat.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- **ConcatPair** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **ConcatTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.test_update_with_joined_field_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **.coalesce()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.test_mixed_char_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **._paired()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.test_coalesce_idempotent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- **.as_sqlite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **expression: the name of a field, or an expression returning a string length:…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- **.test_gt_two_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- **.test_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- **.test_sql_generation_idempotency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- **.as_mysql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Concatenate text fields together. Backends that result in an entire null…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Concatenate two arguments together. This is used by `Concat` because not all…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 195](Community_195.md) (8 shared connections)
-- [Community 24](Community_24.md) (7 shared connections)
-- [Community 599](Community_599.md) (4 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 341](Community_341.md) (2 shared connections)
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 610](Community_610.md) (2 shared connections)
-- [Community 417](Community_417.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 525](Community_525.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 37](Community_37.md) (9 shared connections)
+- [Community 20](Community_20.md) (4 shared connections)
+- [Community 49](Community_49.md) (4 shared connections)
+- [Community 102](Community_102.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 138](Community_138.md) (2 shared connections)
+- [Community 320](Community_320.md) (2 shared connections)
+- [Community 40](Community_40.md) (2 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
+- [Community 723](Community_723.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (99%)
+- EXTRACTED: 76 (99%)
 - INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 

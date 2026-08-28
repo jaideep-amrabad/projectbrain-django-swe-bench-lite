@@ -1,61 +1,59 @@
 # Community 263
 
-> 39 nodes · cohesion 0.06
+> 43 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Note** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ExtraInfo** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **BulkUpdateNoteTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **Queries5Tests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **DisjunctiveFilterTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **CloneTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **RawQueriesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.create_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_evaluated_queryset_as_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **GeneratorExpressionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_no_fields_cloning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_no_model_options_cloning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_foreign_keys_do_not_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_functions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_set_field_to_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_set_mixed_fields_to_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_unsaved_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_large_batch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_queryset_reuse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket5261()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Cloning a queryset does not get out of hand. While complete testing is…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_batch_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- *... and 14 more nodes in this community*
+- **FakePayload** (38 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **RequestsTests** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_alternate_charset_POST()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.urlencode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.test_body_after_POST_multipart_form_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_body_after_POST_multipart_related()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_non_ascii_POST()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_POST_after_body_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_POST_after_body_read_and_stream_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_POST_after_body_read_and_stream_read_multipart()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_POST_immutable_for_multipart()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_POST_multipart_with_content_length_zero()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_read_after_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_value_after_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.write()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.test_FILES_connection_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_multipart_non_ascii_content_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_multipart_without_boundary()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_read_by_lines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_set_encoding_clears_POST()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_wsgirequest_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **Reading body after parsing multipart/form-data is not allowed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **POST should be populated even if body is read first, and then the stream is…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (13 shared connections)
-- [Community 484](Community_484.md) (5 shared connections)
-- [Community 22](Community_22.md) (5 shared connections)
-- [Community 54](Community_54.md) (5 shared connections)
-- [Community 418](Community_418.md) (4 shared connections)
-- [Community 506](Community_506.md) (3 shared connections)
-- [Community 488](Community_488.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 536](Community_536.md) (1 shared connections)
-- [Community 644](Community_644.md) (1 shared connections)
-- [Community 675](Community_675.md) (1 shared connections)
+- [Community 227](Community_227.md) (26 shared connections)
+- [Community 11](Community_11.md) (9 shared connections)
+- [Community 275](Community_275.md) (9 shared connections)
+- [Community 35](Community_35.md) (7 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 701](Community_701.md) (2 shared connections)
+- [Community 217](Community_217.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/test_fakepayload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (70%)
-- INFERRED: 28 (30%)
+- EXTRACTED: 115 (96%)
+- INFERRED: 5 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

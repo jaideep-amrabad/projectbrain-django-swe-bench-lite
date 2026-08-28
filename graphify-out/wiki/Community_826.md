@@ -1,42 +1,37 @@
 # Community 826
 
-> 12 nodes · cohesion 0.26
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **template/autoreload.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
-- **to_path()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- **get_template_directories()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
-- **template_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
-- **is_django_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **reset_loaders()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
-- **watch_for_template_changes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
-- **ToPathTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.test_to_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.test_to_path_invalid_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **Return True if the given file path is nested under Django.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Convert value to a pathlib.Path instance, if not already a Path.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- **RadioSelectTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_render_as_subwidget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_class_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_doesnt_localize_input_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_render_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_nested_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **The <div> in the multiple_input.html widget template include the class…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **A RadioSelect as a subwidget of MultiWidget.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **Attributes provided at instantiation are passed to the constituent inputs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **Attributes provided at render-time are passed to the constituent inputs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
 
 ## Relationships
 
-- [Community 24](Community_24.md) (5 shared connections)
-- [Community 206](Community_206.md) (4 shared connections)
-- [Community 243](Community_243.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 181](Community_181.md) (2 shared connections)
-- [Community 230](Community_230.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 285](Community_285.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 195](Community_195.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (94%)
-- INFERRED: 2 (6%)
+- EXTRACTED: 14 (88%)
+- INFERRED: 2 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

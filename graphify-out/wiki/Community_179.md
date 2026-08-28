@@ -1,18 +1,21 @@
 # Community 179
 
-> 35 nodes · cohesion 0.08
+> 50 nodes · cohesion 0.06
 
 ## Key Concepts
 
+- **ContentFile** (62 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
 - **FileFieldStorageTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 - **Storage** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- **FieldCallableFileStorageTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **FileStoragePermissions** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **ContentFileTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
 - **.test_extended_length_storage()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_callable_function_storage_file_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_deconstruction()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 - **.test_custom_valid_name_callable_upload_to()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 - **.test_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **callable_storage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- **.test_file_upload_default_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_upload_directory_default_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_upload_directory_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_upload_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 - **._storage_max_filename_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 - **.test_duplicate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 - **.test_empty_upload_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
@@ -21,39 +24,39 @@
 - **.test_filefield_pickling()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 - **.test_pathlib_upload_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 - **.test_random_upload_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_callable_base_class_error_raises()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_callable_class_storage_file_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_callable_storage_file_field_in_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_filefield_read()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_filefield_reopen()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_filefield_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **skipIf** (2 connections)
-- *... and 10 more nodes in this community*
+- **.test_content_file_custom_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_content_file_input_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_size_changing_after_writing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 156](Community_156.md) (12 shared connections)
-- [Community 208](Community_208.md) (5 shared connections)
-- [Community 24](Community_24.md) (4 shared connections)
-- [Community 234](Community_234.md) (3 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 273](Community_273.md) (1 shared connections)
-- [Community 224](Community_224.md) (1 shared connections)
-- [Community 284](Community_284.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
-- [Community 955](Community_955.md) (1 shared connections)
+- [Community 158](Community_158.md) (17 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 209](Community_209.md) (5 shared connections)
+- [Community 237](Community_237.md) (4 shared connections)
+- [Community 121](Community_121.md) (4 shared connections)
+- [Community 226](Community_226.md) (4 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 500](Community_500.md) (2 shared connections)
+- [Community 951](Community_951.md) (2 shared connections)
+- [Community 1007](Community_1007.md) (1 shared connections)
+- [Community 476](Community_476.md) (1 shared connections)
+- [Community 377](Community_377.md) (1 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
 - `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (77%)
-- INFERRED: 18 (23%)
+- EXTRACTED: 121 (88%)
+- INFERRED: 16 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

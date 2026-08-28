@@ -1,36 +1,42 @@
 # Community 906
 
-> 9 nodes · cohesion 0.22
+> 16 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **swappable_models/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
-- **SwappableModelTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
-- **.test_case_insensitive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
-- **.test_generated_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
-- **AlternateArticle** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
-- **Permissions and content types are not created for a swapped model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
-- **Model names are case insensitive. Model swapping honors this.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
+- **filter_tests/test_length.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **LengthTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **length()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **setup** (7 connections)
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **.test_safestring()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **.test_length05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **.test_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **.test_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **.test_length01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **.test_length02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **.test_length03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **.test_length04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **.test_length06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **.test_length07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **Return the length of the value - useful for lists.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 35](Community_35.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
+- [Community 88](Community_88.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 872](Community_872.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 37 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
