@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **.test_unfrozen_importlib()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **importlib is not a frozen app, but its loader thinks it's frozen which results…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_inheritance20()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Two-level inheritance with {{ block.super }}** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 523](Community_523.md) (1 shared connections)
-- [Community 522](Community_522.md) (1 shared connections)
+- [Community 801](Community_801.md) (1 shared connections)
+- [Community 831](Community_831.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 

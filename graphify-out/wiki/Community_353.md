@@ -1,63 +1,54 @@
 # Community 353
 
-> 30 nodes · cohesion 0.09
+> 25 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **CsrfViewMiddleware** (91 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **is_same_domain()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **._check_token()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **.process_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **RejectRequest** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **._get_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **.test_put_and_delete_rejected()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._check_referer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_EnsureCsrfCookie** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
-- **._bad_token_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **._origin_verified()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **.process_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **._set_csrf_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_EnsureCsrfToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
-- **IsSameDomainTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **._accept()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **.allowed_origin_subdomains()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **.process_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
-- **.test_bad()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_good()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.allowed_origins_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **.csrf_trusted_origins_hosts()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **Require a present and correct csrfmiddlewaretoken for POST requests that have a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **A mapping of allowed schemes to list of allowed netlocs, where all subdomains…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- *... and 5 more nodes in this community*
+- **PasswordResetFormTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **PasswordResetForm** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.create_dummy_user()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_inactive_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_save_html_email_template_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_save_plaintext_email()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_cleaned_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_custom_email_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_nonexistent_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_custom_email_subject()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_invalid_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_preserve_username_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_unusable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_user_email_domain_unicode_collision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_user_email_domain_unicode_collision_nonexistent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_user_email_unicode_collision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_user_email_unicode_collision_nonexistent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **Test the PasswordResetForm.save() method with no html_email_template_name…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_custom_email_constructor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **Create a user and return a tuple (user_object, username, email).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **Test nonexistent email address. This should not fail because it would expose…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **Preserve the case of the user name (before the @ in the email address) when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **Inactive user cannot receive password reset email.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Relationships
 
-- [Community 212](Community_212.md) (32 shared connections)
-- [Community 64](Community_64.md) (16 shared connections)
-- [Community 354](Community_354.md) (13 shared connections)
-- [Community 446](Community_446.md) (10 shared connections)
-- [Community 33](Community_33.md) (3 shared connections)
-- [Community 158](Community_158.md) (3 shared connections)
-- [Community 45](Community_45.md) (3 shared connections)
-- [Community 543](Community_543.md) (2 shared connections)
-- [Community 630](Community_630.md) (2 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
+- [Community 1012](Community_1012.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 736](Community_736.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 127 (91%)
-- INFERRED: 12 (9%)
+- EXTRACTED: 53 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

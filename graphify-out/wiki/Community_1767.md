@@ -1,22 +1,26 @@
 # Community 1767
 
-> 1 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **test_no_submodule.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_no_submodule.py`
+- **WordcountTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordcount.py`
+- **.test_wordcount01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordcount.py`
+- **.test_wordcount02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordcount.py`
+- **setup** (2 connections)
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_no_submodule.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordcount.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

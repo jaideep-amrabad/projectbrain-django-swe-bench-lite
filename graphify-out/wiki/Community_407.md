@@ -1,63 +1,45 @@
 # Community 407
 
-> 31 nodes · cohesion 0.08
+> 17 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **LiveServerThread** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **WSGIServer** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **ThreadedWSGIServer** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.run()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **WSGIServerTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **LiveServerThreadTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **.test_broken_pipe_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **LiveServerSingleThread** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **CloseConnectionTestServer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.run_live_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **CloseConnectionTestLiveServerThread** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **FailingLiveServerThread** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **._create_server()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **is_broken_pipe_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **._close_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.close_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.handle_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **._create_server()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test_closes_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **._create_server()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **BaseHTTPServer that implements the Python WSGI protocol** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **A threaded version of the WSGIServer** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.process_request_thread()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.terminate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Thread for running a live HTTP server while the tests are running.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- *... and 6 more nodes in this community*
+- **order_with_respect_to/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- **order_with_respect_to/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **OrderWithRespectToBaseTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- **Answer** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **Post** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **TestOrderWithRespectToOneToOnePK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- **Dimension** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **Entity** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **Question** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **OrderWithRespectToTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- **Component** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **.test_duplicate_order_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **Tests for the order_with_respect_to Meta attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- **.test_set_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
 
 ## Relationships
 
-- [Community 255](Community_255.md) (7 shared connections)
-- [Community 39](Community_39.md) (5 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 554](Community_554.md) (4 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 558](Community_558.md) (2 shared connections)
-- [Community 406](Community_406.md) (2 shared connections)
-- [Community 127](Community_127.md) (2 shared connections)
-- [Community 269](Community_269.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 571](Community_571.md) (1 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 555](Community_555.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (86%)
-- INFERRED: 10 (14%)
+- EXTRACTED: 39 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

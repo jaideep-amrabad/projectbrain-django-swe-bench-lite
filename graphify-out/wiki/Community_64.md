@@ -1,78 +1,65 @@
 # Community 64
 
-> 196 nodes · cohesion 0.02
+> 127 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **cache/tests.py** (93 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **MiddlewareMixin** (53 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **middleware/csrf.py** (51 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **test_middleware_mixin.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
-- **csrf_tests/tests.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **csrf_tests/views.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **get_random_string()** (23 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **get_token()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **template/context_processors.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **MiddlewareMixinTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **cache/tests.py** (99 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **decorators/cache.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **learn_cache_key()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
 - **middleware/cache.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **patch_vary_headers()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **get_cache_key()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
 - **CacheMiddlewareTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 - **FetchFromCacheMiddleware** (14 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
 - **UpdateCacheMiddleware** (14 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **middleware/gzip.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
-- **make_template_fragment_key()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
+- **CacheUtils** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 - **cache_page()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **CacheI18nTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **make_template_fragment_key()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
 - **CacheMiddleware** (11 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **csrf()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **MessageMiddleware** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- **_mask_cipher_secret()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **SecurityMiddleware** (10 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/security.py`
 - **empty_response()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **flatpages/middleware.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/middleware.py`
-- *... and 171 more nodes in this community*
+- **TestMakeTemplateFragmentKey** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.process_response()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- **patch_cache_control()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **TestWithTemplateResponse** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **CacheHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **patch_response_headers()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **cache_control()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **CacheHandlerTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **CacheHEADTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **hello_world_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **add_never_cache_headers()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- *... and 102 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (39 shared connections)
-- [Community 0](Community_0.md) (30 shared connections)
-- [Community 45](Community_45.md) (26 shared connections)
-- [Community 6](Community_6.md) (20 shared connections)
-- [Community 5](Community_5.md) (20 shared connections)
-- [Community 28](Community_28.md) (18 shared connections)
-- [Community 158](Community_158.md) (18 shared connections)
-- [Community 31](Community_31.md) (16 shared connections)
-- [Community 353](Community_353.md) (16 shared connections)
-- [Community 54](Community_54.md) (13 shared connections)
-- [Community 22](Community_22.md) (12 shared connections)
-- [Community 33](Community_33.md) (11 shared connections)
+- [Community 3](Community_3.md) (17 shared connections)
+- [Community 73](Community_73.md) (16 shared connections)
+- [Community 5](Community_5.md) (16 shared connections)
+- [Community 7](Community_7.md) (15 shared connections)
+- [Community 59](Community_59.md) (15 shared connections)
+- [Community 11](Community_11.md) (14 shared connections)
+- [Community 437](Community_437.md) (9 shared connections)
+- [Community 80](Community_80.md) (8 shared connections)
+- [Community 63](Community_63.md) (7 shared connections)
+- [Community 4](Community_4.md) (7 shared connections)
+- [Community 67](Community_67.md) (5 shared connections)
+- [Community 473](Community_473.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/middleware.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/middleware.py`
 - `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
 - `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
-- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
-- `raw/code/hyd-evaluation/django-django/django/middleware/security.py`
-- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 710 (95%)
-- INFERRED: 40 (5%)
+- EXTRACTED: 382 (95%)
+- INFERRED: 20 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,22 +1,27 @@
 # Community 1742
 
-> 1 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **test_exceptions/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/test_exceptions/__init__.py`
+- **StringformatTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_stringformat.py`
+- **.test_stringformat01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_stringformat.py`
+- **.test_stringformat02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_stringformat.py`
+- **setup** (2 connections)
+- **Notice that escaping is applied *after* any filters, so the string formatting…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_stringformat.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_exceptions/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_stringformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

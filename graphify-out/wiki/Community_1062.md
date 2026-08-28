@@ -4,23 +4,24 @@
 
 ## Key Concepts
 
-- **another_app_waiting_migration/models.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/another_app_waiting_migration/models.py`
-- **Foo** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/another_app_waiting_migration/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/another_app_waiting_migration/models.py`
+- **FunkyTag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Because we all know there's only one real use case for GFKs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 170](Community_170.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/another_app_waiting_migration/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 4 (80%)
+- INFERRED: 1 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

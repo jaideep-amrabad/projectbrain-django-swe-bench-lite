@@ -1,33 +1,35 @@
 # Community 872
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **CheckSessionCookieHttpOnlyTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_session_cookie_httponly_both()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_session_cookie_httponly_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_session_cookie_httponly_with_installed_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_session_cookie_httponly_with_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **If SESSION_COOKIE_HTTPONLY is on, there's no warning about it.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **Warn if SESSION_COOKIE_HTTPONLY is off and "django.contrib.sessions" is in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **Warn if SESSION_COOKIE_HTTPONLY is off and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **If SESSION_COOKIE_HTTPONLY is off and we find both the session app and the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **SerializeMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **test_serializemixin.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
+- **TestSerializeMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
+- **TestSerializeMixinUse** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
+- **Enforce serialization of TestCases that share a common resource. Define a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init_subclass__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_init_without_lockfile()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
+- **.test_usage()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 159](Community_159.md) (2 shared connections)
+- [Community 93](Community_93.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

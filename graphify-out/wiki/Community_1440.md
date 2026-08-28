@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **sampleproject/settings.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/sampleproject/settings.py`
+- **filepathfield_test_dir/ab.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/filepathfield_test_dir/ab.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/sampleproject/settings.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/filepathfield_test_dir/ab.py`
 
 ## Audit Trail
 

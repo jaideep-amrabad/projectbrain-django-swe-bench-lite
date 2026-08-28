@@ -1,56 +1,54 @@
 # Community 290
 
-> 25 nodes · cohesion 0.10
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **CaseInsensitiveMapping** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **CaseInsensitiveMappingTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **._unpack_items()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_create_with_invalid_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_create_with_invalid_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **Mapping** (1 connections)
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **Mapping allowing case-insensitive key lookups. Original case of keys is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.test_copy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_del()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_getitem()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **template/context_processors.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **csrf()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **test_context_processor.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
+- **get_current_timezone_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **get_default_timezone_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **_get_timezone_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **TestContextProcessor** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
+- **.test_force_token_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
+- **media()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **static()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **A set of request processors that return dictionaries to be merged into a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **Context processor that provides a CSRF token, or the string 'NOTPROVIDED' if it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **Add static-related context variables to the context.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **Add media-related context variables to the context.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **request()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **Return the name of the default time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Return the name of the currently active time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Return the offset for fixed offset timezones, or the name of timezone if not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 
 ## Relationships
 
-- [Community 452](Community_452.md) (4 shared connections)
-- [Community 262](Community_262.md) (3 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 802](Community_802.md) (1 shared connections)
-- [Community 803](Community_803.md) (1 shared connections)
-- [Community 391](Community_391.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 18](Community_18.md) (7 shared connections)
+- [Community 64](Community_64.md) (4 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 73](Community_73.md) (3 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 189](Community_189.md) (2 shared connections)
+- [Community 304](Community_304.md) (2 shared connections)
+- [Community 67](Community_67.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 787](Community_787.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 53 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

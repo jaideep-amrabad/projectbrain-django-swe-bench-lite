@@ -1,23 +1,27 @@
 # Community 1739
 
-> 2 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_backend_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Test backend argument of mail.get_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **LinenumbersTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linenumbers.py`
+- **.test_linenumbers01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linenumbers.py`
+- **.test_linenumbers02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linenumbers.py`
+- **setup** (2 connections)
+- **The contents of "linenumbers" is escaped according to the current autoescape…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linenumbers.py`
 
 ## Relationships
 
-- [Community 143](Community_143.md) (1 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linenumbers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

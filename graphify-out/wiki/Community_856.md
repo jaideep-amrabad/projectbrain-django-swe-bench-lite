@@ -1,34 +1,30 @@
 # Community 856
 
-> 10 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **ExtractingStringsWithPercentSigns** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **POFileAssertionMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
-- **.assertMsgId()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
-- **._assertPoKeyword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **.test_adds_python_format_to_all_percent_signs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **.test_trans_tag_with_percent_symbol_at_the_end()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **.test_trans_tag_with_percent_symbol_in_the_middle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **.test_trans_tag_with_string_that_look_like_fmt_spec()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **Tests the extracted string found in the gettext catalog. Percent signs are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **PathNotImplementedStorage** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **NeverCopyRemoteStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **._path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.listdir()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.get_modified_time()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **._save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **Return a future modified time for all files so that nothing is collected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
 
 ## Relationships
 
-- [Community 71](Community_71.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 656](Community_656.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

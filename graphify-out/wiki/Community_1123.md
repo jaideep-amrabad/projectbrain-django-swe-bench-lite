@@ -1,24 +1,29 @@
 # Community 1123
 
-> 2 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.test_inheritance42()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Expression starting and ending with a quote** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **BookAdminWithEmptyFieldListFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DepartmentAdminWithEmptyFieldListFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.test_emptylistfieldfilter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.test_emptylistfieldfilter_reverse_relationships()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.test_emptylistfieldfilter_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.test_emptylistfieldfilter_invalid_lookup_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 
 ## Relationships
 
-- [Community 762](Community_762.md) (1 shared connections)
-- [Community 787](Community_787.md) (1 shared connections)
+- [Community 62](Community_62.md) (4 shared connections)
+- [Community 324](Community_324.md) (2 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,23 +1,27 @@
 # Community 1782
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **app5/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/app5/__init__.py`
+- **DjangoJSONEncoderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_lazy_string_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 115](Community_115.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/app5/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (83%)
+- INFERRED: 1 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

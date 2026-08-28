@@ -1,24 +1,22 @@
 # Community 1736
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_second_form_partially_filled_2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **A partially completed form is invalid.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **wsgi/wsgi.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/wsgi.py`
 
 ## Relationships
 
-- [Community 92](Community_92.md) (1 shared connections)
-- [Community 1120](Community_1120.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/wsgi/wsgi.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

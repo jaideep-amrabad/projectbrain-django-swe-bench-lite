@@ -1,24 +1,22 @@
 # Community 1690
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **CyclicTwo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **broken_tags.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/importerror/templatetags/broken_tags.py`
 
 ## Relationships
 
-- [Community 98](Community_98.md) (1 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/importerror/templatetags/broken_tags.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

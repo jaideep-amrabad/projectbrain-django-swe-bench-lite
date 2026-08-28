@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **test_migrations_squashed_complex_multi_apps/app1/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_squashed_complex_multi_apps/app1/__init__.py`
+- **lookuperror_a/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_squashed_complex_multi_apps/app1/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/__init__.py`
 
 ## Audit Trail
 

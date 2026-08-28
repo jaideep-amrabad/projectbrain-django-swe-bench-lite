@@ -1,43 +1,39 @@
 # Community 670
 
-> 16 nodes · cohesion 0.12
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **.get_indexes()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_add_inline_fk_index_update_data()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_add_inline_fk_update_data()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_order_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_remove_db_index_doesnt_remove_custom_indexes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_add_remove_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_foreign_key_index_long_names_regression()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.get_uniques()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_text_field_with_db_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **Get the indexes on the table using a new cursor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **Tests index addition and removal** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **Changing db_index to False doesn't remove indexes from Meta.indexes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **Indexes defined with ordering (ASC/DESC) defined on column** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **Tests creation/altering of indexes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **Regression test for #21497. Only affects databases that supports foreign keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **RequestMethodTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_patch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_put()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view via request method GET** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view via request method POST** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view via request method HEAD** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view via request method OPTIONS** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view via request method PUT** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view via request method DELETE** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a view via request method PATCH** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 117](Community_117.md) (12 shared connections)
-- [Community 21](Community_21.md) (4 shared connections)
-- [Community 133](Community_133.md) (4 shared connections)
-- [Community 37](Community_37.md) (3 shared connections)
-- [Community 537](Community_537.md) (1 shared connections)
-- [Community 101](Community_101.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

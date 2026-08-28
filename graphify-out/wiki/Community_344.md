@@ -1,55 +1,59 @@
 # Community 344
 
-> 34 nodes · cohesion 0.09
+> 32 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **InlineFormsetFactoryTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **inline_formsets/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **DeletionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **inline_formsets/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **Poem** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **Poet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **School** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **.test_add_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_change_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_save_new()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_exception_on_unspecified_foreign_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_fk_in_all_formset_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_fk_name_not_foreign_key_field_from_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_fk_not_duplicated_in_form_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_inline_formset_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_non_foreign_key_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_unsaved_fk_validate_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_zero_primary_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_any_iterable_allowed_as_argument_to_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- *... and 9 more nodes in this community*
+- **Options** (48 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.add_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._expire_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._populate_directed_relation_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.setup_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.verbose_name_raw()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.add_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.can_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._relation_tree()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.setup_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.total_unique_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.app_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.default_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.fields_map()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._forward_fields_map()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.installed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.label_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.managers_map()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 250](Community_250.md) (14 shared connections)
-- [Community 20](Community_20.md) (4 shared connections)
-- [Community 37](Community_37.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 177](Community_177.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 652](Community_652.md) (7 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 985](Community_985.md) (2 shared connections)
+- [Community 1022](Community_1022.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 486](Community_486.md) (1 shared connections)
+- [Community 1785](Community_1785.md) (1 shared connections)
+- [Community 1786](Community_1786.md) (1 shared connections)
+- [Community 1787](Community_1787.md) (1 shared connections)
+- [Community 1021](Community_1021.md) (1 shared connections)
+- [Community 399](Community_399.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (88%)
-- INFERRED: 9 (12%)
+- EXTRACTED: 62 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **string_lookup/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/__init__.py`
+- **one_to_one/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/string_lookup/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/__init__.py`
 
 ## Audit Trail
 

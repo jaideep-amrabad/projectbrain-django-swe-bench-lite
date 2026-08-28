@@ -1,43 +1,52 @@
 # Community 787
 
-> 10 nodes · cohesion 0.27
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **InheritanceTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inherit from a template with block wrapped in an {% if %} tag (in parent),…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance34()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance35()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance37()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance38()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_extends_duplicate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance32()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance40()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance41()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **timezones/tests.py** (55 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **timezones/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **timezones/forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **timezones/admin.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- **Timestamp** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **AllDayEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **Session** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **SessionEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **DailyEvent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **MaybeEvent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **timezones/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
+- **EventAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- **TimestampAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- **timezones/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
 
 ## Relationships
 
-- [Community 762](Community_762.md) (15 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 1035](Community_1035.md) (2 shared connections)
-- [Community 1036](Community_1036.md) (2 shared connections)
-- [Community 1103](Community_1103.md) (1 shared connections)
-- [Community 1104](Community_1104.md) (1 shared connections)
-- [Community 1105](Community_1105.md) (1 shared connections)
-- [Community 1106](Community_1106.md) (1 shared connections)
-- [Community 1107](Community_1107.md) (1 shared connections)
-- [Community 1108](Community_1108.md) (1 shared connections)
-- [Community 1109](Community_1109.md) (1 shared connections)
-- [Community 1110](Community_1110.md) (1 shared connections)
+- [Community 381](Community_381.md) (13 shared connections)
+- [Community 249](Community_249.md) (7 shared connections)
+- [Community 760](Community_760.md) (5 shared connections)
+- [Community 495](Community_495.md) (5 shared connections)
+- [Community 4](Community_4.md) (5 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 305](Community_305.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 83 (88%)
+- INFERRED: 11 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

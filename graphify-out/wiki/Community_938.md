@@ -1,30 +1,44 @@
 # Community 938
 
-> 5 nodes · cohesion 0.40
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **OrderWrt** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **fields/proxy.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **Field-like classes that aren't really fields. It's easier to use objects that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **A proxy for the _order database field that is used when…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
+- **test_writer.py** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **Money** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **DeconstructibleInstances** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **IntEnum** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **TestModel1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.upload_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **BinaryEnum** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **TextEnum** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **TextTranslatedEnum** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 61](Community_61.md) (1 shared connections)
-- [Community 278](Community_278.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 107](Community_107.md) (4 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 179](Community_179.md) (3 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 110](Community_110.md) (2 shared connections)
+- [Community 95](Community_95.md) (2 shared connections)
+- [Community 622](Community_622.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 540](Community_540.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 47 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

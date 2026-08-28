@@ -1,23 +1,30 @@
 # Community 1749
 
-> 1 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **test_runner/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/__init__.py`
+- **ActionsCheckTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_actions_not_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_actions_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_custom_permissions_require_matching_has_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 230](Community_230.md) (3 shared connections)
+- [Community 36](Community_36.md) (2 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 448](Community_448.md) (1 shared connections)
+- [Community 639](Community_639.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (73%)
+- INFERRED: 3 (27%)
 - AMBIGUOUS: 0 (0%)
 
 ---

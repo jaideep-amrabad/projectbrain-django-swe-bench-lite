@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **e.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/filepathfield_test_dir/c/e.py`
+- **csrf_token_error_handler_urls.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/csrf_token_error_handler_urls.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/filepathfield_test_dir/c/e.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/csrf_token_error_handler_urls.py`
 
 ## Audit Trail
 

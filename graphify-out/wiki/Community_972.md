@@ -1,31 +1,34 @@
 # Community 972
 
-> 6 nodes · cohesion 0.40
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **mysql/test_introspection.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
-- **ParsingTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
-- **StorageEngineTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
-- **.test_parse_constraint_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
-- **skipUnless** (2 connections)
-- **.test_get_storage_engine()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
+- **StrIndex** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **StrIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- **.test_annotate_charfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- **.test_filtering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- **.test_order_by()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- **.test_unicode_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- **.test_annotate_textfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- **Return a positive integer corresponding to the 1-indexed position of the first…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.as_postgresql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 647](Community_647.md) (1 shared connections)
+- [Community 148](Community_148.md) (4 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 34](Community_34.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -2,7 +2,7 @@
 
 > God node · 453 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 29](Community_29.md)
+**Community:** [Community 16](Community_16.md)
 
 ## Connections by Relation
 
@@ -10,7 +10,6 @@
 - .test_expressions() `EXTRACTED`
 - ._order_by_pairs() `EXTRACTED`
 - .test_key_transform() `EXTRACTED`
-- .test_rename_table_references_without_alias() `EXTRACTED`
 - .test_invalid_filter() `EXTRACTED`
 - .test_aggregate() `EXTRACTED`
 - .test_func_index_collate_f_ordered() `EXTRACTED`
@@ -27,6 +26,7 @@
 - .test_unique_constraint_field_and_expression() `EXTRACTED`
 - .dates() `EXTRACTED`
 - .datetimes() `EXTRACTED`
+- .test_case_aggregate() `EXTRACTED`
 
 ### contains
 - models/expressions.py `EXTRACTED`

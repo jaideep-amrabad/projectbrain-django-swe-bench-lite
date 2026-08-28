@@ -1,50 +1,64 @@
 # Community 461
 
-> 14 nodes · cohesion 0.16
+> 29 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **file_uploads/views.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **FileModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- **file_uploads/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- **file_upload_filename_case_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_uploads/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/urls.py`
-- **file_upload_content_type_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_echo_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_getlist_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_uploads/__init__.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/__init__.py`
-- **file_upload_fd_closing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **Check the .getlist() function to ensure we receive the correct number of files.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **Check adding the file to the database will preserve the filename case.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **Simple view to echo back extra content-type parameters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **Simple view to echo back the content of uploaded files for tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **get_random_string()** (23 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **FallbackTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **set_cookie_data()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **.get_session_storage()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **set_session_data()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.stored_session_messages_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_flush_used_backends()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.get_cookie_storage()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.get_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.stored_cookie_messages_count()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_get_fallback()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_get_fallback_only()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_get()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_no_fallback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_session_fallback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_session_fallback_only()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.stored_messages_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.make_random_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **.salt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.test_get_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **Generate a random password with the given length and given allowed_chars. The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **Generate a cryptographically secure nonce salt in ASCII with an entropy of at…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Return a securely generated random string. The bit length of the returned value…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **Set ``request.COOKIES`` with the encoded data and remove the storage backend's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **(1) A short number of messages whose data size doesn't exceed what is allowed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (14 shared connections)
-- [Community 152](Community_152.md) (5 shared connections)
-- [Community 833](Community_833.md) (5 shared connections)
-- [Community 769](Community_769.md) (5 shared connections)
-- [Community 812](Community_812.md) (2 shared connections)
-- [Community 841](Community_841.md) (2 shared connections)
+- [Community 535](Community_535.md) (7 shared connections)
+- [Community 367](Community_367.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 308](Community_308.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 875](Community_875.md) (1 shared connections)
+- [Community 76](Community_76.md) (2 shared connections)
+- [Community 916](Community_916.md) (2 shared connections)
+- [Community 467](Community_467.md) (1 shared connections)
+- [Community 300](Community_300.md) (1 shared connections)
+- [Community 205](Community_205.md) (1 shared connections)
+- [Community 135](Community_135.md) (1 shared connections)
+- [Community 374](Community_374.md) (1 shared connections)
+- [Community 342](Community_342.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (95%)
-- INFERRED: 3 (5%)
+- EXTRACTED: 91 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

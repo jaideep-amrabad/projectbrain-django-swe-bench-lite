@@ -1,8 +1,8 @@
 # skipUnlessDBFeature()
 
-> God node · 535 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 525 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 37](Community_37.md)
+**Community:** [Community 22](Community_22.md)
 
 ## Connections by Relation
 
@@ -28,8 +28,8 @@
 - test_extract_trunc.py `EXTRACTED`
 - delete_regress/tests.py `EXTRACTED`
 - delete/tests.py `EXTRACTED`
-- model_formsets/tests.py `EXTRACTED`
 - backends/tests.py `EXTRACTED`
+- model_formsets/tests.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
 - geoapp/tests.py `EXTRACTED`
 - aggregation/tests.py `EXTRACTED`

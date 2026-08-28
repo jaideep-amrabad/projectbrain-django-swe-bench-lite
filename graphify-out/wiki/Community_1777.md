@@ -1,22 +1,26 @@
 # Community 1777
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **view_tests/tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/__init__.py`
+- **DecadeFilterBookAdminWithoutParameter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.test_simplelistfilter_without_parameter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **Any SimpleListFilter must define a parameter_name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 324](Community_324.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

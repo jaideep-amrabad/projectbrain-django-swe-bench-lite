@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **two_configs_app/apps.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_app/apps.py`
-- **TwoConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_app/apps.py`
-- **TwoConfigBis** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_app/apps.py`
+- **Persona** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **A simple persona associated with accounts, to test inlining of related accounts…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 74](Community_74.md) (3 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_app/apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,41 +1,45 @@
 # Community 530
 
-> 19 nodes · cohesion 0.11
+> 21 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **devDependencies** (6 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **package.json** (5 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **scripts** (3 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **eslint** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-cli** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-contrib-qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **engines** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **eslint** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-cli** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-contrib-qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **npm** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **name** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **private** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **pretest** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **test** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **TestDebugSQL** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **._test_output()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **ErrorSetUpTestDataTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **ErrorSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **ErrorTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **FailingSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **FailingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **PassingSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **PassingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.test_setupclass_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.test_output_normal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.test_output_verbose()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 84](Community_84.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/package.json`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 39 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

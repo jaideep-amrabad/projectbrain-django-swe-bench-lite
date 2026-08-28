@@ -1,31 +1,37 @@
 # Community 887
 
-> 7 nodes · cohesion 0.43
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **module.js** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
-- **module_test.js** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
-- **firstConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
-- **secondConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
-- **testConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
-- **dynamicModule** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
-- **nested.js** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/nested/js/nested.js`
+- **GenericRelationTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_custom_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_traverse_GFK()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_charfield_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_generic_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_nullable_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_GFK_fk_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_GFK_nonint_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_GFK_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **A 'content_object' can be traversed with prefetch_related() and get to related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 114](Community_114.md) (6 shared connections)
+- [Community 385](Community_385.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 334](Community_334.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/nested/js/nested.js`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 14 (67%)
+- INFERRED: 7 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

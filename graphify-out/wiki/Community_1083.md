@@ -4,18 +4,17 @@
 
 ## Key Concepts
 
-- **migrated_unapplied_app/models.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_unapplied_app/models.py`
-- **OtherAuthor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_unapplied_app/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_unapplied_app/models.py`
+- **.test_view_with_force_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that is protected with…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 528](Community_528.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_unapplied_app/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 

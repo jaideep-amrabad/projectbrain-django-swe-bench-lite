@@ -1,44 +1,33 @@
 # Community 810
 
-> 11 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **MigrationOptimizer** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **test_optimizer.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **optimizer.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **.optimize()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.optimize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **.optimize_inner()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **.test_none_app_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **Main optimization entry point. Pass in a list of Operation instances, get out a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **Power the optimization process, where you provide a list of Operations and you…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **Inner optimization loop.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **Handy shortcut for getting results + number of loops** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **DummyCache** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **cache/backends/dummy.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.set()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.touch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 610](Community_610.md) (4 shared connections)
-- [Community 27](Community_27.md) (3 shared connections)
-- [Community 141](Community_141.md) (2 shared connections)
-- [Community 88](Community_88.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 136](Community_136.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 836](Community_836.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
+- [Community 208](Community_208.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
