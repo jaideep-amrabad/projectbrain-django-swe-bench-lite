@@ -1,6 +1,6 @@
 # Community 259
 
-> 44 nodes · cohesion 0.07
+> 42 nodes · cohesion 0.07
 
 ## Key Concepts
 
@@ -8,8 +8,6 @@
 - **.setUp()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **ManageCheck** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **ManageSettingsWithSettingsErrors** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_all()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_unified_all()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.test_broken_app()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.test_nonexistent_app()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.test_attribute_error()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
@@ -20,6 +18,7 @@
 - **.test_output_format()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.test_warning_does_not_halt()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.test_key_error()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_no_escaping_of_project_variables()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
@@ -29,20 +28,22 @@
 - **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- *... and 19 more nodes in this community*
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 202](Community_202.md) (29 shared connections)
-- [Community 186](Community_186.md) (13 shared connections)
-- [Community 267](Community_267.md) (11 shared connections)
+- [Community 204](Community_204.md) (14 shared connections)
+- [Community 139](Community_139.md) (12 shared connections)
+- [Community 187](Community_187.md) (9 shared connections)
+- [Community 267](Community_267.md) (9 shared connections)
+- [Community 634](Community_634.md) (5 shared connections)
+- [Community 131](Community_131.md) (2 shared connections)
 - [Community 479](Community_479.md) (1 shared connections)
-- [Community 752](Community_752.md) (1 shared connections)
-- [Community 137](Community_137.md) (1 shared connections)
 - [Community 664](Community_664.md) (1 shared connections)
-- [Community 696](Community_696.md) (1 shared connections)
-- [Community 130](Community_130.md) (1 shared connections)
+- [Community 694](Community_694.md) (1 shared connections)
 - [Community 665](Community_665.md) (1 shared connections)
+- [Community 635](Community_635.md) (1 shared connections)
 
 ## Source Files
 
@@ -50,7 +51,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 125 (99%)
+- EXTRACTED: 119 (99%)
 - INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 

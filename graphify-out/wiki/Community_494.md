@@ -32,11 +32,11 @@
 
 - [Community 0](Community_0.md) (6 shared connections)
 - [Community 2](Community_2.md) (4 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
 - [Community 22](Community_22.md) (2 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 

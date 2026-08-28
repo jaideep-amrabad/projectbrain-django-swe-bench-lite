@@ -28,8 +28,8 @@
 
 ## Relationships
 
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 - [Community 598](Community_598.md) (1 shared connections)
 
 ## Source Files

@@ -16,9 +16,9 @@
 
 ## Relationships
 
-- [Community 900](Community_900.md) (3 shared connections)
-- [Community 17](Community_17.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 899](Community_899.md) (3 shared connections)
+- [Community 16](Community_16.md) (3 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
 - [Community 44](Community_44.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 

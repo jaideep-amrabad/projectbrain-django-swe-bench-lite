@@ -1,17 +1,15 @@
 # Community 4
 
-> 379 nodes · cohesion 0.01
+> 380 nodes · cohesion 0.01
 
 ## Key Concepts
 
 - **BaseCommand** (133 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
 - **django/apps/__init__.py** (113 connections) — `raw/code/hyd-evaluation/django-django/django/apps/__init__.py`
 - **core/__init__.py** (105 connections) — `raw/code/hyd-evaluation/django-django/django/core/__init__.py`
-- **testcases.py** (91 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 - **CommandError** (90 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
 - **management/base.py** (85 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
 - **core/management/__init__.py** (72 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **logging_tests/tests.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 - **no_style()** (44 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
 - **.import_module()** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
 - **test_extraction.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
@@ -23,28 +21,30 @@
 - **makemigrations.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
 - **writer.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
 - **loaddata.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **utils/log.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
 - **migrate.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
 - **migrations/loader.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
 - **createsuperuser.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
 - **squashmigrations.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
 - **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- *... and 354 more nodes in this community*
+- **management/templates.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **create_default_site()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
+- **color_style()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
+- *... and 355 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (162 shared connections)
-- [Community 2](Community_2.md) (75 shared connections)
-- [Community 3](Community_3.md) (66 shared connections)
-- [Community 1](Community_1.md) (45 shared connections)
-- [Community 50](Community_50.md) (40 shared connections)
-- [Community 25](Community_25.md) (31 shared connections)
-- [Community 134](Community_134.md) (25 shared connections)
-- [Community 0](Community_0.md) (21 shared connections)
-- [Community 61](Community_61.md) (20 shared connections)
-- [Community 7](Community_7.md) (19 shared connections)
-- [Community 117](Community_117.md) (17 shared connections)
-- [Community 8](Community_8.md) (17 shared connections)
+- [Community 8](Community_8.md) (161 shared connections)
+- [Community 2](Community_2.md) (77 shared connections)
+- [Community 3](Community_3.md) (53 shared connections)
+- [Community 17](Community_17.md) (36 shared connections)
+- [Community 1](Community_1.md) (36 shared connections)
+- [Community 53](Community_53.md) (27 shared connections)
+- [Community 135](Community_135.md) (25 shared connections)
+- [Community 62](Community_62.md) (20 shared connections)
+- [Community 375](Community_375.md) (18 shared connections)
+- [Community 0](Community_0.md) (17 shared connections)
+- [Community 29](Community_29.md) (16 shared connections)
+- [Community 535](Community_535.md) (16 shared connections)
 
 ## Source Files
 
@@ -54,7 +54,6 @@
 - `raw/code/hyd-evaluation/django-django/django/conf/global_settings.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/changepassword.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0011_update_proxy_permissions.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/apps.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/sessions/management/commands/clearsessions.py`
@@ -63,6 +62,7 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/sites/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/sites/apps.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/apps.py`
 - `raw/code/hyd-evaluation/django-django/django/core/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 1658 (96%)
+- EXTRACTED: 1523 (96%)
 - INFERRED: 65 (4%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,48 +1,40 @@
 # Community 931
 
-> 20 nodes · cohesion 0.10
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **AddIndex** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **RemoveIndex** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **IndexOperation** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.model_name_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **Add an index on a model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **Remove an index from a model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **SafeString** (20 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
+- **template/backends/utils.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/utils.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.__add__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
+- **str** (1 connections)
+- **A str subclass that has been specifically marked as "safe" for HTML output…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
+- **Concatenating a safe string with another safe bytestring or safe string is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
 
 ## Relationships
 
-- [Community 724](Community_724.md) (3 shared connections)
-- [Community 886](Community_886.md) (2 shared connections)
-- [Community 552](Community_552.md) (2 shared connections)
-- [Community 969](Community_969.md) (1 shared connections)
-- [Community 391](Community_391.md) (1 shared connections)
-- [Community 579](Community_579.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 29](Community_29.md) (5 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 141](Community_141.md) (2 shared connections)
+- [Community 209](Community_209.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 236](Community_236.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 27 (87%)
+- INFERRED: 4 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

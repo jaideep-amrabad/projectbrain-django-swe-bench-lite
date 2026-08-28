@@ -5,7 +5,7 @@
 ## Key Concepts
 
 - **FixtureLoadingTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loading_stdin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_progressbar()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 - **.test_ambiguous_compressed_fixture()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 - **.test_compress_format_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 - **.test_compressed_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
@@ -19,21 +19,21 @@
 - **.test_loading_with_exclude_app()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 - **.test_loading_with_exclude_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 - **.test_unmatched_identifier_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **Loading fixtures from stdin with json and xml.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **Dumpdata shows a progress bar on the command line when --output is set, stdout…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Relationships
 
-- [Community 249](Community_249.md) (10 shared connections)
-- [Community 640](Community_640.md) (8 shared connections)
-- [Community 984](Community_984.md) (7 shared connections)
+- [Community 250](Community_250.md) (10 shared connections)
+- [Community 641](Community_641.md) (8 shared connections)
+- [Community 985](Community_985.md) (7 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 1876](Community_1876.md) (1 shared connections)
-- [Community 1277](Community_1277.md) (1 shared connections)
-- [Community 1279](Community_1279.md) (1 shared connections)
-- [Community 1278](Community_1278.md) (1 shared connections)
-- [Community 1281](Community_1281.md) (1 shared connections)
-- [Community 1280](Community_1280.md) (1 shared connections)
-- [Community 1283](Community_1283.md) (1 shared connections)
+- [Community 1293](Community_1293.md) (1 shared connections)
+- [Community 1291](Community_1291.md) (1 shared connections)
+- [Community 1290](Community_1290.md) (1 shared connections)
+- [Community 1294](Community_1294.md) (1 shared connections)
+- [Community 1292](Community_1292.md) (1 shared connections)
+- [Community 1296](Community_1296.md) (1 shared connections)
+- [Community 1295](Community_1295.md) (1 shared connections)
 
 ## Source Files
 

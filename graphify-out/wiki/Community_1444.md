@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **navigation.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/navigation.test.js`
+- **sqlite3/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/admin/navigation.test.js`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/__init__.py`
 
 ## Audit Trail
 

@@ -30,10 +30,10 @@
 
 ## Relationships
 
-- [Community 823](Community_823.md) (14 shared connections)
+- [Community 822](Community_822.md) (14 shared connections)
 - [Community 255](Community_255.md) (5 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 

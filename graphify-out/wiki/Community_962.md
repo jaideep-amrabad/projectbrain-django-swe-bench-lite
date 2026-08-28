@@ -15,8 +15,8 @@
 
 ## Relationships
 
-- [Community 338](Community_338.md) (5 shared connections)
-- [Community 805](Community_805.md) (1 shared connections)
+- [Community 339](Community_339.md) (5 shared connections)
+- [Community 802](Community_802.md) (1 shared connections)
 
 ## Source Files
 

@@ -24,9 +24,9 @@
 
 ## Relationships
 
-- [Community 468](Community_468.md) (3 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
-- [Community 412](Community_412.md) (1 shared connections)
+- [Community 467](Community_467.md) (3 shared connections)
+- [Community 193](Community_193.md) (1 shared connections)
+- [Community 413](Community_413.md) (1 shared connections)
 
 ## Source Files
 
