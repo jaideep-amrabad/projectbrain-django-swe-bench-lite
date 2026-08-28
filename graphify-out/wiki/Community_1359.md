@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **fake_client.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/fake_client.py`
+- **mapwidget.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/gis/mapwidget.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/fake_client.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/gis/mapwidget.test.js`
 
 ## Audit Trail
 

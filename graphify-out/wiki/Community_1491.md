@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **conflicting_app_with_dependencies/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/conflicting_app_with_dependencies/migrations/__init__.py`
+- **b.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/filepathfield_test_dir/b.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/conflicting_app_with_dependencies/migrations/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/filepathfield_test_dir/b.py`
 
 ## Audit Trail
 

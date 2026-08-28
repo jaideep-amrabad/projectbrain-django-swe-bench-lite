@@ -1,61 +1,62 @@
 # Community 219
 
-> 23 nodes · cohesion 0.11
+> 67 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **.settings()** (28 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **BaseConnectionHandler** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **DatabaseWrapper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- **test_connection.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_connection.py`
-- **BaseConnectionHandlerTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_connection.py`
-- **.get_new_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- **._get_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **get_level_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
-- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- **.configure_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.create_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.test_create_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_connection.py`
-- **.prepare_database()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- **Return the minimum recorded level. The default level is the ``MESSAGE_LEVEL``…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Return the message level tags.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
-- **.all()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.__delitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **.__setitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **SQLiteDatabaseWrapper** (1 connections)
+- **update/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **Concat** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **AdvancedTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **update/models.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **MySQLUpdateOrderByTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **SimpleTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **ConcatPair** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **ConcatTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- **.test_update_with_joined_field_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **.coalesce()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.test_mixed_char_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- **A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **DataPoint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **RelatedPoint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **UniqueNumber** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **UniqueNumberChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **._paired()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.test_coalesce_idempotent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **Bar** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **Foo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- **.test_update_transformed_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- **Update changes the right number of rows for a nonempty queryset** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- *... and 42 more nodes in this community*
 
 ## Relationships
 
-- [Community 393](Community_393.md) (3 shared connections)
-- [Community 146](Community_146.md) (3 shared connections)
-- [Community 273](Community_273.md) (3 shared connections)
-- [Community 41](Community_41.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 386](Community_386.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 756](Community_756.md) (1 shared connections)
-- [Community 271](Community_271.md) (1 shared connections)
+- [Community 38](Community_38.md) (12 shared connections)
+- [Community 11](Community_11.md) (9 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 102](Community_102.md) (3 shared connections)
+- [Community 70](Community_70.md) (3 shared connections)
+- [Community 106](Community_106.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 204](Community_204.md) (2 shared connections)
+- [Community 159](Community_159.md) (2 shared connections)
+- [Community 47](Community_47.md) (2 shared connections)
+- [Community 198](Community_198.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_connection.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
+- `raw/code/hyd-evaluation/django-django/tests/update/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (51%)
-- INFERRED: 34 (49%)
+- EXTRACTED: 140 (92%)
+- INFERRED: 13 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

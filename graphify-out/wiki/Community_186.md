@@ -1,65 +1,55 @@
 # Community 186
 
-> 71 nodes · cohesion 0.05
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **sqlite3/base.py** (62 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **django/db/backends/utils.py** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **base/schema.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.get_new_connection()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **TransactionManagementError** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **backends/test_utils.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- **CursorWrapper** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **_sqlite_datetime_parse()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **none_guard()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **names_digest()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **_related_non_m2m_objects()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **CursorDebugWrapper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **.timezone()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **_sqlite_format_dtdelta()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **_sqlite_timestamp_diff()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **SQLiteCursorWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **typecast_timestamp()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **TestUtils** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- **timezone_constructor()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **_sqlite_time_diff()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **_sqlite_time_trunc()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **typecast_time()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **db_typecasts/tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_typecasts/tests.py`
-- **_is_relevant_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **list_aggregate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- *... and 46 more nodes in this community*
+- **.formfield()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **FilePathField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **PositiveBigIntegerField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **PositiveIntegerRelDbTypeMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **PositiveSmallIntegerField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.rel_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_allowing_files_or_folders()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init_subclass__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Return the data type that a related field pointing to this field should use. In…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (19 shared connections)
-- [Community 124](Community_124.md) (12 shared connections)
-- [Community 89](Community_89.md) (10 shared connections)
-- [Community 274](Community_274.md) (7 shared connections)
-- [Community 157](Community_157.md) (6 shared connections)
-- [Community 98](Community_98.md) (6 shared connections)
-- [Community 590](Community_590.md) (4 shared connections)
-- [Community 27](Community_27.md) (4 shared connections)
-- [Community 43](Community_43.md) (4 shared connections)
-- [Community 138](Community_138.md) (4 shared connections)
-- [Community 422](Community_422.md) (4 shared connections)
-- [Community 480](Community_480.md) (3 shared connections)
+- [Community 47](Community_47.md) (6 shared connections)
+- [Community 69](Community_69.md) (6 shared connections)
+- [Community 319](Community_319.md) (4 shared connections)
+- [Community 29](Community_29.md) (4 shared connections)
+- [Community 265](Community_265.md) (2 shared connections)
+- [Community 384](Community_384.md) (2 shared connections)
+- [Community 104](Community_104.md) (2 shared connections)
+- [Community 156](Community_156.md) (2 shared connections)
+- [Community 609](Community_609.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 606](Community_606.md) (1 shared connections)
+- [Community 736](Community_736.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_typecasts/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 234 (92%)
-- INFERRED: 19 (8%)
+- EXTRACTED: 54 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

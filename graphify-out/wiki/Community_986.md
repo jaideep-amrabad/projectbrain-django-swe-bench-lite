@@ -4,28 +4,28 @@
 
 ## Key Concepts
 
-- **.__getattr__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **._setup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **._add_script_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Add SCRIPT_NAME prefix to relative paths. Useful when the app is being served…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Load the settings module pointed to by the environment variable. This is used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Return the value of a setting and cache it in self.__dict__.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Issue** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Improvement** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Bug** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ProxyImprovement** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A model that has relation to a proxy model or to a proxy of proxy model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Relationships
 
-- [Community 781](Community_781.md) (3 shared connections)
-- [Community 393](Community_393.md) (2 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
-- [Community 750](Community_750.md) (1 shared connections)
+- [Community 657](Community_657.md) (5 shared connections)
+- [Community 550](Community_550.md) (5 shared connections)
+- [Community 330](Community_330.md) (4 shared connections)
+- [Community 1082](Community_1082.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (75%)
+- INFERRED: 5 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,64 +1,63 @@
 # Community 227
 
-> 50 nodes · cohesion 0.07
+> 47 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **csrf_tests/tests.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **csrf_tests/views.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **get_token()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_unmask_cipher_token()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **CsrfFunctionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **csrf()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **_mask_cipher_secret()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_does_token_match()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_sanitize_token()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **.assertMaskedSecretCorrect()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **non_token_view_using_request_processor()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **sandwiched_rotate_token_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **_add_new_csrf_cookie()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **TestingHttpResponse** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **_get_new_csrf_string()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **InvalidTokenFormat** (6 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **csrf_token_error_handler()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **ensured_and_protected_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **.test_csrf_validation_passes_after_process_request_login()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
-- **.test_get_token_csrf_cookie_not_set()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **protected_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **.test_csrf_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
-- **CsrfFunctionTestMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_get_token_csrf_cookie_set()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **CsrfInErrorHandlingViewsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- *... and 25 more nodes in this community*
+- **.e()** (78 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **AssertRedirectsTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **._compile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.run_select_for_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_incorrect_target()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_lost_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_on_non_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_on_non_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_to_different_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_target_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **An assertion is raised if the original page couldn't be retrieved as expected** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_circular_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_multiple_redirect_chain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_put()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_to_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_to_self()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_fetch_redirect_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 422](Community_422.md) (27 shared connections)
-- [Community 14](Community_14.md) (11 shared connections)
-- [Community 317](Community_317.md) (10 shared connections)
-- [Community 7](Community_7.md) (10 shared connections)
-- [Community 250](Community_250.md) (8 shared connections)
-- [Community 515](Community_515.md) (8 shared connections)
-- [Community 172](Community_172.md) (6 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 478](Community_478.md) (4 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
+- [Community 7](Community_7.md) (8 shared connections)
+- [Community 372](Community_372.md) (5 shared connections)
+- [Community 135](Community_135.md) (3 shared connections)
+- [Community 53](Community_53.md) (3 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 111](Community_111.md) (2 shared connections)
+- [Community 483](Community_483.md) (2 shared connections)
+- [Community 601](Community_601.md) (2 shared connections)
+- [Community 234](Community_234.md) (2 shared connections)
+- [Community 451](Community_451.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 198 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 55 (42%)
+- INFERRED: 76 (58%)
 - AMBIGUOUS: 0 (0%)
 
 ---

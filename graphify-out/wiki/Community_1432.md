@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **javascript_ignored.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/static/javascript_ignored.js`
+- **bad_error_handlers_invalid_path.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers_invalid_path.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/static/javascript_ignored.js`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers_invalid_path.py`
 
 ## Audit Trail
 

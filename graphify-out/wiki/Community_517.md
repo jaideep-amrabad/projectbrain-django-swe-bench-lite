@@ -1,50 +1,52 @@
 # Community 517
 
-> 21 nodes · cohesion 0.14
+> 20 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **gis_tests/test_data.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **TestDataMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **TestDS** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **TestGeom** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **TestObj** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **strconvert()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **.geometries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **TestGeomSet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **tuplize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **This module has the mock object definitions used to hold reference geometry for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **Turn all nested sequences to tuples in given sequence.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **Converts all keys in dictionary to str type.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **Base testing object, turns keyword args into attributes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **Object for testing GDAL data sources.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **Testing object used for wrapping reference geometry data in GEOS/GDAL tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **Each attribute of this object is a list of `TestGeom` instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **Mixin used for GEOS/GDAL test cases that defines a `geometries` property, which…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **DatabaseWrapper** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **CursorDebugWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.chunked_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.create_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.ensure_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.get_new_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.init_connection_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.make_debug_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.test_database_name_too_long()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **BaseCursorDebugWrapper** (1 connections)
+- **.copy_expert()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.copy_to()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **._nodb_cursor()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.pg_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.tzinfo_factory()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **Check constraints by setting them to immediate. Return them to deferred…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
 
 ## Relationships
 
-- [Community 99](Community_99.md) (4 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 851](Community_851.md) (2 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 329](Community_329.md) (1 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 4](Community_4.md) (6 shared connections)
+- [Community 469](Community_469.md) (4 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
+- [Community 94](Community_94.md) (1 shared connections)
+- [Community 668](Community_668.md) (1 shared connections)
+- [Community 501](Community_501.md) (1 shared connections)
+- [Community 739](Community_739.md) (1 shared connections)
+- [Community 303](Community_303.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 33 (82%)
+- INFERRED: 7 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

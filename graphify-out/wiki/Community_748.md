@@ -1,39 +1,43 @@
 # Community 748
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **UserSettingsHolder** (13 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.configure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__setattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__setattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Called to manually configure the settings. The 'default_settings' parameter…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Holder for user configured settings.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Requests for configuration variables not in this class are satisfied from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Set the value of setting. Clear all cached values if _wrapped changes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__dir__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **model_fields/test_integerfield.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **SmallIntegerFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **PositiveIntegerFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **BigIntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **IntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PositiveBigIntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PositiveIntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PositiveSmallIntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **SmallIntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PositiveBigIntegerFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **PositiveSmallIntegerFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_negative_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
 
 ## Relationships
 
-- [Community 781](Community_781.md) (3 shared connections)
-- [Community 518](Community_518.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
-- [Community 1687](Community_1687.md) (1 shared connections)
-- [Community 750](Community_750.md) (1 shared connections)
-- [Community 124](Community_124.md) (1 shared connections)
+- [Community 12](Community_12.md) (10 shared connections)
+- [Community 689](Community_689.md) (6 shared connections)
+- [Community 842](Community_842.md) (5 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 791](Community_791.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 38 (86%)
+- INFERRED: 6 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,55 +1,61 @@
 # Community 194
 
-> 72 nodes · cohesion 0.05
+> 53 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **test_storage.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestHashedFiles** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **hashed_file_path()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.assertPostCondition()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestCollectionManifestStorage** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestCollectionHashedFilesCache** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestCustomManifestStorage** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestCollectionSimpleStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestExtraPatternsStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.setUp()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_file_change_after_collectstatic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestCollectionNoneHashStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestCollectionNoPostProcessReplacedPaths** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_import_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_template_tag_absolute_root()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **CustomManifestStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **CustomStaticFilesStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_multi_extension_patterns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_aggregating_modules()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_css_import_case_insensitive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_import_replacement()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_js_source_map()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_js_source_map_sensitive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_module_import()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_path_ignored_completely()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- *... and 47 more nodes in this community*
+- **QuerySet** (95 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._batched_insert()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.bulk_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._combinator_query()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__and__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._merge_sanity_check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.select_for_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.update_or_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.default_alias()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- **._check_operator_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._insert()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__or__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._values()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.values_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **DoesNotExistQuerySet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **._add_hints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.difference()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._has_filters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.intersection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._merge_known_related_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._next_is_sticky()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (9 shared connections)
-- [Community 74](Community_74.md) (9 shared connections)
-- [Community 8](Community_8.md) (8 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 393](Community_393.md) (3 shared connections)
-- [Community 493](Community_493.md) (2 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
+- [Community 285](Community_285.md) (25 shared connections)
+- [Community 29](Community_29.md) (6 shared connections)
+- [Community 769](Community_769.md) (6 shared connections)
+- [Community 336](Community_336.md) (6 shared connections)
+- [Community 919](Community_919.md) (4 shared connections)
+- [Community 886](Community_886.md) (4 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 102](Community_102.md) (2 shared connections)
+- [Community 226](Community_226.md) (2 shared connections)
+- [Community 917](Community_917.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 156 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 128 (96%)
+- INFERRED: 6 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

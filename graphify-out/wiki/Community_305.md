@@ -1,60 +1,61 @@
 # Community 305
 
-> 40 nodes · cohesion 0.05
+> 38 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ModelChoiceFieldTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **test_modelchoicefield.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **ModelChoiceIteratorValue** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **ModelChoiceIterator** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.test_no_extra_query_when_accessing_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_num_queries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.choice()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.test_choice_value_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_overridable_choice_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_basics()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choice_iterator_passes_model_to_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_bool_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_freshness()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_not_fetched_when_not_rendering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- *... and 15 more nodes in this community*
+- **edit.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **detail.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **SingleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **TemplateResponseMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **SingleObjectMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **ContextMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **BaseDetailView** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **BaseDeleteView** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **CreateView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **DeleteView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_object()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **DetailView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_template_names()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.render_to_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.get_context_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_context_object_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_slug_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.get_template_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **A mixin that can be used to render a template.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Return a response, using the `response_class` for this view, with a template…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Return a list of template names to be used for the request. Must return a list.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 101](Community_101.md) (3 shared connections)
-- [Community 400](Community_400.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 905](Community_905.md) (2 shared connections)
-- [Community 245](Community_245.md) (2 shared connections)
-- [Community 427](Community_427.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
+- [Community 0](Community_0.md) (12 shared connections)
+- [Community 12](Community_12.md) (12 shared connections)
+- [Community 26](Community_26.md) (11 shared connections)
+- [Community 708](Community_708.md) (9 shared connections)
+- [Community 258](Community_258.md) (6 shared connections)
+- [Community 368](Community_368.md) (4 shared connections)
+- [Community 734](Community_734.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 75](Community_75.md) (2 shared connections)
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 235](Community_235.md) (1 shared connections)
+- [Community 184](Community_184.md) (2 shared connections)
+- [Community 891](Community_891.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (93%)
-- INFERRED: 5 (7%)
+- EXTRACTED: 127 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

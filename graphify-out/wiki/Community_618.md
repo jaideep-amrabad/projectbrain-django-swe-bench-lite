@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **foreign_object/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **foreign_object/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
 - **foreign_object/models/__init__.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/__init__.py`
 - **foreign_object/models/article.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
 - **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
@@ -23,18 +23,18 @@
 
 ## Relationships
 
-- [Community 798](Community_798.md) (10 shared connections)
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 797](Community_797.md) (5 shared connections)
-- [Community 704](Community_704.md) (4 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 471](Community_471.md) (3 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 963](Community_963.md) (2 shared connections)
-- [Community 836](Community_836.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 816](Community_816.md) (10 shared connections)
+- [Community 12](Community_12.md) (6 shared connections)
+- [Community 814](Community_814.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 716](Community_716.md) (4 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 454](Community_454.md) (3 shared connections)
+- [Community 856](Community_856.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 87](Community_87.md) (2 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 930](Community_930.md) (1 shared connections)
 
 ## Source Files
 
@@ -45,7 +45,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 75 (100%)
+- EXTRACTED: 76 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

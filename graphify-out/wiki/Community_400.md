@@ -1,58 +1,63 @@
 # Community 400
 
-> 23 nodes · cohesion 0.14
+> 25 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ModelFormBasicTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Writer** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **ArticleForm** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **BaseCategoryForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.create_basic_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_m2m_initial_callable()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_initial_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **RoykoForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_m2m_editing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_multi_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_runtime_choicefield_populated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_disabled_multiplemodelchoicefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_base_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_basic_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_save_commit_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_save_with_data_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_custom_form_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_subset_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_validate_foreign_key_to_model_with_overridden_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_validate_foreign_key_uses_default_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Regression for #10349: A callable can be provided as the initial value for an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **truncate_name()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **backends/test_utils.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **model_package/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **model_package/models/article.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
+- **TestUtils** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **publication.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/publication.py`
+- **ModelPackageTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **model_package/models/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/__init__.py`
+- **format_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
+- **Publication** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/publication.py`
+- **.test_automatic_m2m_column_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **.test_split_identifier()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **.test_truncate_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **Site** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
+- **.test_m2m_tables_in_subpackage_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **.test_models_in_the_test_package()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **Shorten an SQL identifier to a repeatable mangled version with the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **Format a number into a string with the requisite number of digits and decimal…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **Tests for django.db.backends.utils** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **.test_format_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **Advertisement** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **Regression for #12168: models split into subpackages still get M2M tables.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **Regression for #12245 - Models can exist in the test package, too.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **Regression for #12386 - field names on the autogenerated intermediate class…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
 
 ## Relationships
 
-- [Community 101](Community_101.md) (9 shared connections)
-- [Community 327](Community_327.md) (4 shared connections)
-- [Community 305](Community_305.md) (3 shared connections)
-- [Community 905](Community_905.md) (3 shared connections)
-- [Community 245](Community_245.md) (2 shared connections)
-- [Community 189](Community_189.md) (2 shared connections)
-- [Community 427](Community_427.md) (2 shared connections)
-- [Community 294](Community_294.md) (1 shared connections)
-- [Community 650](Community_650.md) (1 shared connections)
-- [Community 516](Community_516.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 706](Community_706.md) (1 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 4](Community_4.md) (6 shared connections)
+- [Community 103](Community_103.md) (3 shared connections)
+- [Community 150](Community_150.md) (2 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 765](Community_765.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 519](Community_519.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_package/models/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_package/models/publication.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (77%)
-- INFERRED: 15 (23%)
+- EXTRACTED: 67 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

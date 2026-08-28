@@ -1,33 +1,37 @@
 # Community 966
 
-> 5 nodes · cohesion 0.60
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **test_manytomanyfield.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- **ManyToManyFieldDBTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- **ManyToMany** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_value_from_object_instance_without_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- **.test_value_from_object_instance_with_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
+- **AsyncUnsafeTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **DatabaseConnectionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.dangerous_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_async_unsafe_suppressed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **CacheTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **skipIf** (3 connections)
+- **.test_async_unsafe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_caches_local()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_get_async_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **dict** (1 connections)
+- **A database connection cannot be used in an async context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **async_unsafe decorator should work correctly and returns the correct message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 220](Community_220.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 111](Community_111.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 21 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

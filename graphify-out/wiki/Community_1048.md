@@ -1,21 +1,22 @@
 # Community 1048
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_inheritance22()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance23()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Three-level inheritance with {{ block.super }} from grandparent** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **setter** (3 connections)
+- **.encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **Set the encoding used for GET/POST accesses. If the GET or POST dictionary has…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 
 ## Relationships
 
-- [Community 778](Community_778.md) (2 shared connections)
-- [Community 810](Community_810.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 197](Community_197.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
 
 ## Audit Trail
 

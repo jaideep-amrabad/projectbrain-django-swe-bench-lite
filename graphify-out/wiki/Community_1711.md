@@ -1,26 +1,23 @@
 # Community 1711
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_formset_splitdatetimefield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Formset works with SplitDateTimeField(initial=datetime.datetime.now).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **sessions_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/__init__.py`
 
 ## Relationships
 
-- [Community 111](Community_111.md) (1 shared connections)
-- [Community 1095](Community_1095.md) (1 shared connections)
-- [Community 153](Community_153.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (75%)
-- INFERRED: 1 (25%)
+- EXTRACTED: 0 (0%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

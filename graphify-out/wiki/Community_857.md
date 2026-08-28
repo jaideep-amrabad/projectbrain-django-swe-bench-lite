@@ -1,34 +1,35 @@
 # Community 857
 
-> 8 nodes · cohesion 0.32
+> 9 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **SerializeMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **test_serializemixin.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
-- **TestSerializeMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
-- **TestSerializeMixinUse** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
-- **Enforce serialization of TestCases that share a common resource. Define a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__init_subclass__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test_init_without_lockfile()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
-- **.test_usage()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
+- **ReverseQueryNameClashTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **._test_reverse_query_name_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_no_clash_across_apps_without_accessor()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 181](Community_181.md) (2 shared connections)
-- [Community 422](Community_422.md) (2 shared connections)
-- [Community 791](Community_791.md) (1 shared connections)
+- [Community 87](Community_87.md) (2 shared connections)
+- [Community 57](Community_57.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 21 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

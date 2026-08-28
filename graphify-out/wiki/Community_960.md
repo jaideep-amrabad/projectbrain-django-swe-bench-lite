@@ -1,29 +1,28 @@
 # Community 960
 
-> 7 nodes · cohesion 0.33
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **LexerTestMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **DebugLexerTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **LexerTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.make_expected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.test_tokenize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.make_expected()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.make_expected()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
+- **FlatpagesSitemapTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_sitemaps.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_sitemaps.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_sitemaps.py`
+- **.test_flatpage_sitemap()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_sitemaps.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_sitemaps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

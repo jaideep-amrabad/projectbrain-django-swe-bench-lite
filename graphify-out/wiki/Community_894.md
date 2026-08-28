@@ -1,34 +1,32 @@
 # Community 894
 
-> 7 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **setup_test_environment()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **SetupTestEnvironmentTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **instrumented_test_render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_allowed_hosts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_setup_test_environment_calling_more_than_once()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Perform global pre-test setup, such as installing the instrumented template…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **An instrumented Template render method, providing a signal that can be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **SimpleDatabaseIntrospectionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.test_get_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.test_get_key_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.test_get_relations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.test_get_sequences()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.test_get_table_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.test_get_table_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 422](Community_422.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 146](Community_146.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 97](Community_97.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

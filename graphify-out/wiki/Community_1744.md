@@ -1,25 +1,22 @@
 # Community 1744
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **StaticFilesFormsMediaTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_forms.py`
-- **.test_absolute_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_forms.py`
+- **template_loader/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/template_loader/__init__.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_loader/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

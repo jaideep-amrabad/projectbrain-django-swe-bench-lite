@@ -1,65 +1,63 @@
 # Community 44
 
-> 151 nodes · cohesion 0.02
+> 162 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **admin_widgets/tests.py** (66 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **admin_widgets/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
-- **widgetadmin.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
-- **test_autocomplete_widget.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **ForeignKeyRawIdWidgetTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **AutocompleteMixinTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **AutocompleteSelect** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **Band** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
-- **Album** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
-- **AdminForeignKeyRawIdWidget** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **RelatedFieldWidgetWrapperTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **AdminFileWidgetTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **HorizontalVerticalFilterSeleniumTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **AdminWidgetSeleniumTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **ManyToManyRawIdWidgetTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **Member** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
-- **DateTimePickerSeleniumTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **ReleaseEvent** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
-- **AlbumForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **TestDataMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **Advisor** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
-- **Bee** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
-- **Car** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
-- **VideoStream** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
-- **AdminForeignKeyWidgetChangeList** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- *... and 126 more nodes in this community*
+- **admin_inlines/admin.py** (122 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **admin_inlines/models.py** (66 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **admin_inlines/tests.py** (65 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **TestInlineMedia** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **TestVerboseNameInlineForms** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **SomeChildModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Meta** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Profile** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **TestInlineProtectedOnDelete** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **Inner** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Inner2** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **TestInlineAdminForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **Child** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **FootNote** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Inner4Stacked** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Inner4Tabular** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Question** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Chapter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **ChildModel1** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **ChildModel2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Class** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Course** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Holder** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Holder2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- *... and 137 more nodes in this community*
 
 ## Relationships
 
-- [Community 19](Community_19.md) (19 shared connections)
-- [Community 1](Community_1.md) (14 shared connections)
-- [Community 8](Community_8.md) (14 shared connections)
-- [Community 26](Community_26.md) (9 shared connections)
-- [Community 397](Community_397.md) (8 shared connections)
-- [Community 9](Community_9.md) (8 shared connections)
-- [Community 43](Community_43.md) (5 shared connections)
-- [Community 129](Community_129.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 171](Community_171.md) (3 shared connections)
-- [Community 124](Community_124.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
+- [Community 169](Community_169.md) (21 shared connections)
+- [Community 23](Community_23.md) (20 shared connections)
+- [Community 12](Community_12.md) (7 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 38](Community_38.md) (5 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 91](Community_91.md) (4 shared connections)
+- [Community 35](Community_35.md) (4 shared connections)
+- [Community 812](Community_812.md) (3 shared connections)
+- [Community 337](Community_337.md) (3 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 307 (86%)
-- INFERRED: 50 (14%)
+- EXTRACTED: 340 (78%)
+- INFERRED: 95 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

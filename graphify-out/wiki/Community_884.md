@@ -1,35 +1,30 @@
 # Community 884
 
-> 7 nodes · cohesion 0.38
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **test_database.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
-- **check_database_backends()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/database.py`
-- **DatabaseCheckTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
-- **.test_mysql_strict_mode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
-- **.test_database_checks_called()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
-- **patch** (1 connections)
-- **skipUnless** (1 connections)
+- **.quote_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.savepoint_commit_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.savepoint_create_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.savepoint_rollback_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return a quoted version of the given table, index, or column name. Do not quote…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the SQL for starting a new savepoint. Only required if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the SQL for committing the given savepoint.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the SQL for rolling back the given savepoint.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 41](Community_41.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 139](Community_139.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 137](Community_137.md) (1 shared connections)
+- [Community 132](Community_132.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/database.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

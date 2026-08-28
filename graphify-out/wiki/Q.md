@@ -1,8 +1,8 @@
 # Q
 
-> God node · 307 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+> God node · 308 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 17](Community_17.md)
+**Community:** [Community 15](Community_15.md)
 
 ## Connections by Relation
 
@@ -11,6 +11,7 @@
 - .test_filtered_aggregates() `EXTRACTED`
 - .test_invalid_filter() `EXTRACTED`
 - .test_aggregate() `EXTRACTED`
+- .test_exact_booleanfield_annotation() `EXTRACTED`
 - .test_string_agg_array_agg_filter_in_subquery() `EXTRACTED`
 - apply_limit_choices_to_to_formfield() `EXTRACTED`
 - .test_date_case_subtraction() `EXTRACTED`
@@ -26,7 +27,6 @@
 - update_proxy_model_permissions() `EXTRACTED`
 - .__init__() `EXTRACTED`
 - .test_annotation_disjunction() `EXTRACTED`
-- .test_conditional_aggregate_on_complex_condition() `EXTRACTED`
 
 ### contains
 - query_utils.py `EXTRACTED`

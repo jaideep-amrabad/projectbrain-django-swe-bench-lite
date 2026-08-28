@@ -1,41 +1,45 @@
 # Community 600
 
-> 17 nodes · cohesion 0.16
+> 16 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **QuerySetSupportsPythonIdioms** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.get_ordered_articles()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_can_get_items_using_index_and_slice_notation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_can_slice_again_after_slicing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_negative_indexing_not_supported_for_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_negative_indexing_not_supported_for_single_element()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_with_steps_can_be_used()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_with_tests_is_not_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_without_step_is_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **hint: inverting your ordering might do what you need** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_can_combine_queries_using_and_and_or_operators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_can_get_number_of_items_in_queryset_using_standard_len()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_invalid_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_cannot_combine_queries_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_cannot_filter_queryset_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_cannot_reorder_queryset_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **get_commands()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.execute()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.fetch_command()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **find_commands()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **load_command_class()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.autocomplete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.main_help_text()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.test_discover_commands_in_eggs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **Return the script's main help text, as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Try to fetch the given subcommand, printing a message with the appropriate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Given a path to a management directory, return a list of all the command names…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Output completion suggestions for BASH. The output of this function is passed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Given a command name and an application name, return the Command class…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Given the command-line arguments, figure out which subcommand is being run,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Return a dictionary mapping command names to their callback applications. Look…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Management commands can also be loaded from Python eggs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 827](Community_827.md) (1 shared connections)
+- [Community 12](Community_12.md) (7 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
+- [Community 199](Community_199.md) (1 shared connections)
+- [Community 262](Community_262.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 34 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

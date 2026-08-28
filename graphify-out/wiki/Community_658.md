@@ -1,43 +1,39 @@
 # Community 658
 
-> 14 nodes · cohesion 0.20
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **PasswordChangeForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **PasswordChangeFormTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **patch** (4 connections)
-- **.clean_old_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_field_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_incorrect_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **A form that lets a user change their password by entering their old password.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Validate that the old_password field is correct.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **ExecutorUnitTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **FakeMigration** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_backwards_nothing_to_do()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_minimize_rollbacks()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_minimize_rollbacks_branchy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **FakeLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **Really all we need is any object with a debug-useful repr.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **(More) isolated unit tests for executor methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **Minimize unnecessary rollbacks in connected apps. When you say "./manage.py…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **r""" Minimize rollbacks when target has multiple in-app children. a: 1 <---- 3…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **r""" If the current state satisfies the given target, do nothing. a: 1 <--- 2…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 687](Community_687.md) (3 shared connections)
-- [Community 688](Community_688.md) (2 shared connections)
-- [Community 464](Community_464.md) (2 shared connections)
-- [Community 149](Community_149.md) (1 shared connections)
-- [Community 235](Community_235.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 120](Community_120.md) (4 shared connections)
+- [Community 123](Community_123.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

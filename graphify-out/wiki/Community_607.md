@@ -1,49 +1,43 @@
 # Community 607
 
-> 16 nodes · cohesion 0.19
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **contenttypes/apps.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- **contenttypes/checks.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/checks.py`
-- **check_model_name_lengths()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/checks.py`
-- **RenameContentType** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **.ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- **inject_rename_contenttypes_operations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **ModelCheckTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- **check_generic_foreign_keys()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/checks.py`
-- **ContentTypesConfig** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- **._rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **.rename_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **.rename_forward()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **.test_model_name_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- **.test_model_name_too_long()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- **Insert a `RenameContentType` operation after every planned `RenameModel`…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
+- **RemoteTestResult** (33 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.check_subtest_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._confirm_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._print_unpicklable_subtest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.wasSuccessful()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Extend unittest.TestResult to record events in the child processes so they can…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Confirm that obj can be pickled and unpickled as multiprocessing will need to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Tells whether or not this result was a success.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addSkip()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addSuccess()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addUnexpectedSuccess()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._exc_info_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.startTestRun()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.stopTestRun()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- [Community 63](Community_63.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 41](Community_41.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 88](Community_88.md) (2 shared connections)
-- [Community 136](Community_136.md) (2 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 645](Community_645.md) (9 shared connections)
+- [Community 839](Community_839.md) (8 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 1036](Community_1036.md) (1 shared connections)
+- [Community 1035](Community_1035.md) (1 shared connections)
+- [Community 1050](Community_1050.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 38 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

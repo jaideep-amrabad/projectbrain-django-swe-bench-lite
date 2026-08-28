@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **tests/urls.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urls.py`
-- **This URLconf exists because Django expects ROOT_URLCONF to exist. URLs should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urls.py`
+- **.test_model_pickle_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **Test intentionally the automatically created through model.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 325](Community_325.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

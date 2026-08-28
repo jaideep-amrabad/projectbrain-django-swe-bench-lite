@@ -1,45 +1,38 @@
 # Community 750
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Settings** (16 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **TestListSettings** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_use_deprecated_pytz_deprecation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.is_overridden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.test_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_use_tz_false_deprecation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_tuple_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.is_overridden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Make sure settings that should be lists or tuples throw ImproperlyConfigured if…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **SignalTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **DatabaseReceiver** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_database_arg_m2m()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **WriteToOtherRouter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.override_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_database_arg_save_and_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Used in the tests for the database argument in signals (#13552)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **A router that sends all writes to the other database.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **The pre/post_save signal contains the correct database.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **The m2m_changed signal has a correct database arg.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.db_for_write()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Relationships
 
-- [Community 422](Community_422.md) (4 shared connections)
-- [Community 950](Community_950.md) (2 shared connections)
-- [Community 82](Community_82.md) (2 shared connections)
-- [Community 986](Community_986.md) (1 shared connections)
-- [Community 885](Community_885.md) (1 shared connections)
-- [Community 1030](Community_1030.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 124](Community_124.md) (1 shared connections)
-- [Community 393](Community_393.md) (1 shared connections)
-- [Community 169](Community_169.md) (1 shared connections)
-- [Community 748](Community_748.md) (1 shared connections)
-- [Community 781](Community_781.md) (1 shared connections)
+- [Community 390](Community_390.md) (4 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 624](Community_624.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 571](Community_571.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 18 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

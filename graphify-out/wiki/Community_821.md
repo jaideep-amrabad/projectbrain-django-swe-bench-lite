@@ -1,30 +1,31 @@
 # Community 821
 
-> 9 nodes · cohesion 0.28
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **FooBar** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
-- **tests_inheritance.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
-- **FooBase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
-- **Foo** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
-- **.test_overriding_FIELD_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_new_func_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
-- **.test_new_class_and_func_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
-- **.test_no_new_tags()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
-- **.test_new_class_tag_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
+- **GeoFeedTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **.assertChildNodes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **.test_geofeed_atom()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **.test_geofeed_rss()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **.test_geofeed_w3c()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **Taken from syndication/tests.py.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **Tests geographic feeds using GeoRSS over RSSv2.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **Testing geographic feeds using GeoRSS over Atom.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **Testing geographic feeds using W3C Geo.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (5 shared connections)
-- [Community 490](Community_490.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
 
 ## Audit Trail
 

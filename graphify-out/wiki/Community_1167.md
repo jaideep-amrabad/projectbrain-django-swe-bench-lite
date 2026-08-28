@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_response_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Check the value of HTTP headers returned in a response** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **SchoolManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
 
 ## Relationships
 
-- [Community 522](Community_522.md) (1 shared connections)
+- [Community 508](Community_508.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
 
 ## Audit Trail
 

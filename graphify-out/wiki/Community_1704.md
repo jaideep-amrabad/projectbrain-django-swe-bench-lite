@@ -1,25 +1,22 @@
 # Community 1704
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_custom_renderer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **A custom renderer passed to a formset_factory() is passed to all forms and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **schema/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/__init__.py`
 
 ## Relationships
 
-- [Community 454](Community_454.md) (1 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
-- [Community 1095](Community_1095.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

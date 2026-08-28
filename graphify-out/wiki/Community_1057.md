@@ -4,23 +4,29 @@
 
 ## Key Concepts
 
-- **.optimize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **.optimize_inner()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **Main optimization entry point. Pass in a list of Operation instances, get out a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
-- **Inner optimization loop.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
+- **builtin_server/views.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
+- **builtin_server/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/urls.py`
+- **file_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
+- **builtin_server/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/__init__.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
+- [Community 414](Community_414.md) (2 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 299](Community_299.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/builtin_server/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/builtin_server/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (89%)
+- INFERRED: 1 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,8 +1,8 @@
 # override_settings
 
-> God node · 1374 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+> God node · 1375 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
-**Community:** [Community 8](Community_8.md)
+**Community:** [Community 6](Community_6.md)
 
 ## Connections by Relation
 

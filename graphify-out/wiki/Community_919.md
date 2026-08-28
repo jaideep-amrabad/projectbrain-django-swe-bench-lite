@@ -1,33 +1,34 @@
 # Community 919
 
-> 7 nodes · cohesion 0.43
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Tan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **TanTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
+- **.annotate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.dates()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.datetimes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._validate_values_are_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a query set in which the returned objects have been annotated with extra…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a list of date objects representing all available dates for the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a list of datetime objects representing all available datetimes for the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (5 shared connections)
-- [Community 142](Community_142.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
+- [Community 194](Community_194.md) (4 shared connections)
+- [Community 285](Community_285.md) (2 shared connections)
+- [Community 89](Community_89.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 319](Community_319.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

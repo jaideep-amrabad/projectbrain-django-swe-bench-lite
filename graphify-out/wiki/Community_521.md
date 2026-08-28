@@ -1,45 +1,56 @@
 # Community 521
 
-> 21 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **TestSigner** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_decode_detects_tampering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_dumps_loads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_invalid_sep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_sign_unsign()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_signature_with_salt()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_unsign_detects_tampering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **signature() method should generate a signature** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **dumps and loads be reversible for any JSON serializable object** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **loads should raise exception for tampered objects** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **should warn on invalid separator** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **signature(value, salt=...) should work** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **sign/unsign should be reversible** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **unsign should raise an exception if the value has been tampered with** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_custom_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_invalid_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_sign_unsign_non_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_sign_unsign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_valid_sep()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_works_with_non_ascii_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **punycode()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **smart_urlquote()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.handle_word()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **Urlizer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **mail/utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- **CachedDnsName** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- **.get_fqdn()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.is_email_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.trim_punctuation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- **.trim_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.test_smart_urlquote()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **Email message and email sending related helper functions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- **Return the Punycode of the given domain if it's non-ASCII.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **Quote a URL if it isn't already quoted.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **Convert any URLs in text into clickable links. Work on http://, https://, www.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **If trim_url_limit is not None, truncate the URLs in the link text longer than…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **Trim trailing and wrapping punctuation from `word`. Return the items of the new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **Return True if value looks like an email address.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 
 ## Relationships
 
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 560](Community_560.md) (1 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 290](Community_290.md) (3 shared connections)
+- [Community 112](Community_112.md) (3 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 143](Community_143.md) (2 shared connections)
+- [Community 302](Community_302.md) (1 shared connections)
+- [Community 263](Community_263.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 593](Community_593.md) (1 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 47 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

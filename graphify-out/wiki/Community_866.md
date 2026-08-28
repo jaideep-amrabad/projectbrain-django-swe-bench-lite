@@ -1,34 +1,36 @@
 # Community 866
 
-> 8 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **ContentTypesViewsSiteRelTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **.test_shortcut_view_with_null_site_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **.test_shortcut_view_with_site_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **patch** (2 connections)
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **The shortcut view works if a model's ForeignKey to site is None.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **When the object has a ManyToManyField to Site, redirect to the current site if…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- **str/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
+- **str/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
+- **SimpleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
+- **InternationalArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
+- **.test_defaults()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
+- **Adding __str__() to models Although it's not a strict requirement, each model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
+- **The default implementation of __str__ and __repr__ should return instances of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
+- **.test_international()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
 
 ## Relationships
 
-- [Community 114](Community_114.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 87](Community_87.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/str/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (79%)
-- INFERRED: 3 (21%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

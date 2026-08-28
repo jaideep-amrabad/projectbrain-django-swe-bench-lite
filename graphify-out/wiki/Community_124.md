@@ -1,78 +1,56 @@
 # Community 124
 
-> 94 nodes · cohesion 0.04
+> 85 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **django/utils/__init__.py** (136 connections) — `raw/code/hyd-evaluation/django-django/django/utils/__init__.py`
-- **timezone.py** (123 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **RemovedInDjango50Warning** (68 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **base/base.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **filters.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **sqlite3/operations.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **syndication_tests/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **base/test_operations.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **feedgenerator.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **django/db/backends/base/operations.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **model_fields/test_datetimefield.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **SyndicationFeed** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **test_date.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **test_time.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **SimplerXMLGenerator** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **Atom1Feed** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **TimezoneTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/timezone_utils.py`
-- **test_timezone.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **django/db/backends/mysql/operations.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **RssFeed** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **timezone_utils.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/timezone_utils.py`
-- **test_feedgenerator.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.write()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **get_current_timezone_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **django/db/backends/__init__.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/__init__.py`
-- *... and 69 more nodes in this community*
+- **custom_lookups/tests.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **LookupTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **YearLteTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Author** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **custom_lookups/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **CustomisedMethodsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **TrackCallsYearTransform** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **DateTimeLookupTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SQLFuncFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SQLFuncMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **CustomField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.test_datetime_output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Div3Transform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **LookupTransformCallOrderTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **skipUnless** (4 connections)
+- **SQLFuncLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SQLFuncTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SubqueryTransformTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **YearLte** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **YearTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **MySQLUnixTimestamp** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **.get_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.get_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **DateTimeTransform** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- *... and 60 more nodes in this community*
 
 ## Relationships
 
-- [Community 422](Community_422.md) (41 shared connections)
-- [Community 9](Community_9.md) (39 shared connections)
-- [Community 2](Community_2.md) (32 shared connections)
-- [Community 1](Community_1.md) (25 shared connections)
-- [Community 26](Community_26.md) (20 shared connections)
-- [Community 43](Community_43.md) (18 shared connections)
-- [Community 205](Community_205.md) (17 shared connections)
-- [Community 195](Community_195.md) (12 shared connections)
-- [Community 186](Community_186.md) (12 shared connections)
-- [Community 274](Community_274.md) (9 shared connections)
-- [Community 138](Community_138.md) (9 shared connections)
-- [Community 18](Community_18.md) (9 shared connections)
+- [Community 106](Community_106.md) (15 shared connections)
+- [Community 38](Community_38.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/timezone_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 625 (94%)
-- INFERRED: 40 (6%)
+- EXTRACTED: 138 (95%)
+- INFERRED: 8 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

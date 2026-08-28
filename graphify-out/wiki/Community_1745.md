@@ -1,25 +1,22 @@
 # Community 1745
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **CheckSettingsTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_utils.py`
-- **.test_media_url_in_static_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_utils.py`
+- **filter_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/__init__.py`
 
 ## Relationships
 
-- [Community 393](Community_393.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

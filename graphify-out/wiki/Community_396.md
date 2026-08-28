@@ -1,59 +1,50 @@
 # Community 396
 
-> 37 nodes · cohesion 0.06
+> 28 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Queries4Tests** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **SpecialCategory** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **SimpleCategory** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Exclude15786** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **CategoryItem** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **OneToOneCategory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ForeignKeyToBaseExcludeTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **CategoryRelationship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Child** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **DateTimePK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Teacher** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_ticket15786()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket14876()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_ticket_21787()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_combine_join_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_combine_or_filter_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_filter_reverse_non_integer_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_join_reuse_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_order_by_resetting()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_order_by_reverse_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- *... and 12 more nodes in this community*
+- **deprecation/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **RenameMethodsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **RenameMethodsBase** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **DeprecationInstanceCheck** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **DeprecationInstanceCheckTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **RemovedInNextVersionWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **warn_about_renamed_method** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **type** (2 connections)
+- **.__new__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **Ensure the correct warnings are raised when a class that didn't rename `old`…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **RenameManagerMethods** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **.test_class_definition_warnings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **.test_deprecated_subclass_renamed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **.test_deprecated_subclass_renamed_and_mixins()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **.test_get_new_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **.test_get_old_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **.test_renamed_subclass_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **DeprecationWarning** (1 connections)
+- **.__instancecheck__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **Handles the deprecation paths when renaming a method. It does the following: 1)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **.test_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **Ensure the correct warnings are raised when a subclass inherit from a class…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **Tests the `RenameMethodsBase` type introduced to rename `get_query_set` to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (22 shared connections)
-- [Community 972](Community_972.md) (4 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 180](Community_180.md) (2 shared connections)
-- [Community 328](Community_328.md) (2 shared connections)
-- [Community 773](Community_773.md) (2 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 555](Community_555.md) (1 shared connections)
-- [Community 578](Community_578.md) (1 shared connections)
-- [Community 705](Community_705.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 12](Community_12.md) (6 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (67%)
-- INFERRED: 26 (33%)
+- EXTRACTED: 39 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

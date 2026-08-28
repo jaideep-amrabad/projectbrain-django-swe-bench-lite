@@ -1,6 +1,6 @@
 # Community 52
 
-> 138 nodes · cohesion 0.03
+> 137 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -12,6 +12,7 @@
 - **ChildAdmin** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
 - **ConcertAdmin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
 - **._mocked_authenticated_request()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **EventAdmin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
 - **SwallowAdmin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
 - **Parent** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
 - **.test_result_list_empty_changelist_value()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
@@ -28,23 +29,22 @@
 - **CustomPaginationAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
 - **CustomPaginator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
 - **DynamicListDisplayChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **DynamicListDisplayLinksChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- *... and 113 more nodes in this community*
+- *... and 112 more nodes in this community*
 
 ## Relationships
 
-- [Community 19](Community_19.md) (16 shared connections)
-- [Community 1](Community_1.md) (15 shared connections)
-- [Community 195](Community_195.md) (10 shared connections)
-- [Community 7](Community_7.md) (9 shared connections)
-- [Community 239](Community_239.md) (8 shared connections)
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 92](Community_92.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 386](Community_386.md) (4 shared connections)
-- [Community 26](Community_26.md) (4 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 151](Community_151.md) (3 shared connections)
+- [Community 23](Community_23.md) (16 shared connections)
+- [Community 2](Community_2.md) (13 shared connections)
+- [Community 3](Community_3.md) (10 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 224](Community_224.md) (7 shared connections)
+- [Community 9](Community_9.md) (6 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 105](Community_105.md) (4 shared connections)
+- [Community 922](Community_922.md) (3 shared connections)
+- [Community 479](Community_479.md) (3 shared connections)
+- [Community 47](Community_47.md) (3 shared connections)
+- [Community 48](Community_48.md) (3 shared connections)
 
 ## Source Files
 
@@ -54,11 +54,10 @@
 - `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_changelist/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 364 (88%)
+- EXTRACTED: 365 (88%)
 - INFERRED: 48 (12%)
 - AMBIGUOUS: 0 (0%)
 

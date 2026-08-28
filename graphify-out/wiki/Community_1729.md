@@ -1,24 +1,22 @@
 # Community 1729
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **ExceptionTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_exceptions.py`
-- **.test_node_not_found_error_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_exceptions.py`
+- **source_map_sensitive.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/source_map_sensitive.js`
 
 ## Relationships
 
-- [Community 78](Community_78.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_exceptions.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/source_map_sensitive.js`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

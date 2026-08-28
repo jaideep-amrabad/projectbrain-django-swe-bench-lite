@@ -1,61 +1,51 @@
 # Community 276
 
-> 69 nodes · cohesion 0.04
+> 39 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Widget** (21 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **SelectDateWidgetTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **SelectDateWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **ChoiceWidget** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.render()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **WidgetTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
-- **.optgroups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.format_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.create_option()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.subwidgets()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._parse_date_fmt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.build_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_custom_input_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_from_datadict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_years_rendered_without_separator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- *... and 44 more nodes in this community*
+- **AsyncDummyCacheTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aadd()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aclear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aclose()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_adecr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_adecr_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_adelete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_adelete_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aget_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_ahas_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aincr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aincr_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aset_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_expiration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_adelete_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aget_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aget_or_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aget_or_set_callable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aset_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_atouch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **Expiration has no effect on the dummy cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **Unicode values are ignored by the dummy cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (14 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 284](Community_284.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 331](Community_331.md) (3 shared connections)
-- [Community 92](Community_92.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 145](Community_145.md) (1 shared connections)
-- [Community 543](Community_543.md) (1 shared connections)
-- [Community 575](Community_575.md) (1 shared connections)
-- [Community 351](Community_351.md) (1 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
 
 ## Audit Trail
 
-- EXTRACTED: 120 (94%)
-- INFERRED: 7 (6%)
+- EXTRACTED: 42 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

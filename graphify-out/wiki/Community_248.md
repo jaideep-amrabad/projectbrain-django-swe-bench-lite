@@ -1,62 +1,67 @@
 # Community 248
 
-> 65 nodes · cohesion 0.05
+> 35 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **middleware_exceptions/middleware.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **utils/decorators.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **BaseMiddleware** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **utils_tests/test_decorators.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **async_only_middleware()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **decorator_from_middleware()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **decorator_from_middleware_with_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **sync_and_async_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **sync_only_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **decorators/gzip.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
-- **AsyncNoTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **AsyncProcessExceptionMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **AsyncProcessViewMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **AsyncTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **NotSyncOrAsyncMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **PaymentMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **make_middleware_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **_multi_decorate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **async_payment_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **DecoratedPaymentMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **LogMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **NoTemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **NotFoundMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **ProcessExceptionExcMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **ProcessExceptionLogMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- *... and 40 more nodes in this community*
+- **.import_module()** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **module_has_submodule()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **.create()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **.load_disk()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **EggLoader** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.migrations_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **.temporary_migration_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **CustomLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_deep_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_shallow_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.basedir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.test_iter_format_modules()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_iter_format_modules_stability()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_has_sumbodule_with_dotted_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_loader()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.import_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **.session()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **DefaultLoader** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **Factory that creates an app config from an entry in INSTALLED_APPS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **Return the path to the migrations module for the specified app_label and a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **Load the migrations from all INSTALLED_APPS from disk.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **Return the current session variables.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **See if 'module' is in 'package'.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **Tests the iter_format_modules function.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **Tests the iter_format_modules function always yields format modules in a stable…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (13 shared connections)
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 422](Community_422.md) (7 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 149](Community_149.md) (3 shared connections)
+- [Community 31](Community_31.md) (7 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 85](Community_85.md) (4 shared connections)
+- [Community 464](Community_464.md) (3 shared connections)
 - [Community 3](Community_3.md) (3 shared connections)
-- [Community 138](Community_138.md) (2 shared connections)
-- [Community 227](Community_227.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
+- [Community 199](Community_199.md) (3 shared connections)
+- [Community 447](Community_447.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 56](Community_56.md) (2 shared connections)
+- [Community 707](Community_707.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 135](Community_135.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Audit Trail
 
-- EXTRACTED: 151 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 64 (60%)
+- INFERRED: 42 (40%)
 - AMBIGUOUS: 0 (0%)
 
 ---

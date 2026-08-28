@@ -1,26 +1,27 @@
 # Community 1024
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **UnittestCase2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_3_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **InspectDBTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_introspection.py`
+- **.assertFieldsInModel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_introspection.py`
+- **.test_range_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_introspection.py`
 
 ## Relationships
 
-- [Community 682](Community_682.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 195](Community_195.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

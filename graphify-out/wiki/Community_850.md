@@ -1,39 +1,38 @@
 # Community 850
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **Random** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **.test_func_index_nondeterministic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_unique_constraint_nondeterministic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_random.py`
-- **.as_mysql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **.as_sqlite()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **.get_group_by_cols()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **SmallIntegerField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **SmallAutoField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.test_alter_smallint_pk_to_smallautofield_pk()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_autofield_pk_to_smallautofield_pk_sequence_owner()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.rel_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Converting an implicit PK to SmallAutoField(primary_key=True) should keep a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **Should be able to rename an SmallIntegerField(primary_key=True) to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (4 shared connections)
-- [Community 28](Community_28.md) (3 shared connections)
-- [Community 132](Community_132.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 140](Community_140.md) (1 shared connections)
-- [Community 309](Community_309.md) (1 shared connections)
+- [Community 47](Community_47.md) (3 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 384](Community_384.md) (1 shared connections)
+- [Community 104](Community_104.md) (1 shared connections)
+- [Community 186](Community_186.md) (1 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
+- [Community 313](Community_313.md) (1 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_random.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 16 (80%)
+- INFERRED: 4 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---
