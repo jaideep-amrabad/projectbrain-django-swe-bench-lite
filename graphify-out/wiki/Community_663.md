@@ -1,40 +1,46 @@
 # Community 663
 
-> 12 nodes · cohesion 0.21
+> 13 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **postgres_tests/fields.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **postgres_tests/migrations/0002_create_test_models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0002_create_test_models.py`
-- **EnumField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **DummyArrayField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **DummyContinuousRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **Indirection layer for PostgreSQL-specific fields, so the tests don't fail when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0002_create_test_models.py`
+- **model_regress/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **model_regress/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **NonAutoPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **ModelValidationTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Model1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Model2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Model3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Party** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **.test_pk_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Movie** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **# NOTE: Part of the regression test here is merely parsing the model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Relationships
 
-- [Community 68](Community_68.md) (6 shared connections)
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
-- [Community 665](Community_665.md) (1 shared connections)
-- [Community 260](Community_260.md) (1 shared connections)
-- [Community 74](Community_74.md) (1 shared connections)
+- [Community 282](Community_282.md) (8 shared connections)
+- [Community 738](Community_738.md) (6 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 21](Community_21.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
+- [Community 578](Community_578.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0002_create_test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 44 (88%)
+- INFERRED: 6 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

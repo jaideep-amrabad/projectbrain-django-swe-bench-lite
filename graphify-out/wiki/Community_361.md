@@ -1,54 +1,58 @@
 # Community 361
 
-> 30 nodes · cohesion 0.08
+> 32 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **AsyncQuerySetTest** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **SimpleModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/models.py`
-- **.test_update_conflicts_unique_field_unsupported()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_abulk_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aexplain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **async_to_sync** (3 connections)
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aaggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_acontains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_acount_cached_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **._get_db_feature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_abulk_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_acount()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_acreate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_adelete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aearliest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aexists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_afirst()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aget_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_ain_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aiterator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aiterator_invalid_chunk_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aiterator_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_alast()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- *... and 5 more nodes in this community*
+- **BaseEmailBackend** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **EmailBackend** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **console.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **mail/backends/dummy.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
+- **EmailBackend** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- **.close()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **custombackend.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
+- **EmailBackend** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
+- **.send_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **EmailBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
+- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **.send_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **.write_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **.send_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **Open a network connection. This method can be overwritten by backend…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **Close a network connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **Base class for email backend implementations. Subclasses must at least…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **Send one or more EmailMessage objects and return the number of email messages…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **Email backend that writes messages to console instead of sending them.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **Write all messages to the stream in a thread-safe way.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **.send_messages()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 90](Community_90.md) (5 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 127](Community_127.md) (1 shared connections)
-- [Community 599](Community_599.md) (1 shared connections)
+- [Community 108](Community_108.md) (7 shared connections)
+- [Community 84](Community_84.md) (2 shared connections)
+- [Community 513](Community_513.md) (2 shared connections)
+- [Community 221](Community_221.md) (1 shared connections)
+- [Community 682](Community_682.md) (1 shared connections)
+- [Community 541](Community_541.md) (1 shared connections)
+- [Community 482](Community_482.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async_queryset/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 51 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

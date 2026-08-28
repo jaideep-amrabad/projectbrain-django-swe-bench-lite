@@ -1,23 +1,25 @@
 # Community 1163
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **NaturalKeyWithFKDependencyManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/common_args.py`
+- **.add_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/common_args.py`
+- **.handle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/common_args.py`
 
 ## Relationships
 
-- [Community 339](Community_339.md) (1 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/common_args.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

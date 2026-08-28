@@ -1,60 +1,59 @@
 # Community 199
 
-> 67 nodes · cohesion 0.06
+> 53 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **WriterTests** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.assertSerializedEqual()** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.serialize()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.assertSerializedResultEqual()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.serialize_round_trip()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_class_based_validators()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.safe_exec()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_numbers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.test_migration_file_header_comments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_enums()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_functions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_local_function_reference()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_managers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_pathlib()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_type_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_uuid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_simple_migration()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **Money** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.assertSerializedFieldEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_custom_operation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_models_import_omitted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- *... and 42 more nodes in this community*
+- **test_client/views.py** (67 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **form_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **post_then_get_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **post_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **TwoArgException** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **json_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **_permission_protected_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **_post_view_redirect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **raw_post_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **session_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **TestForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **form_view_with_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **nesting_exception_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **put_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **bad_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **double_redirect_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **index_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **no_trailing_slash_external_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **redirect_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **upload_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **view_with_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **view_with_secure()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **async_get_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **broken_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **CBView** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 91](Community_91.md) (9 shared connections)
-- [Community 21](Community_21.md) (5 shared connections)
-- [Community 90](Community_90.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 59](Community_59.md) (3 shared connections)
-- [Community 665](Community_665.md) (2 shared connections)
-- [Community 156](Community_156.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
+- [Community 32](Community_32.md) (19 shared connections)
+- [Community 50](Community_50.md) (15 shared connections)
+- [Community 86](Community_86.md) (9 shared connections)
+- [Community 7](Community_7.md) (9 shared connections)
+- [Community 150](Community_150.md) (5 shared connections)
+- [Community 16](Community_16.md) (4 shared connections)
+- [Community 15](Community_15.md) (4 shared connections)
+- [Community 354](Community_354.md) (3 shared connections)
 - [Community 2](Community_2.md) (2 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
-- [Community 812](Community_812.md) (1 shared connections)
+- [Community 129](Community_129.md) (2 shared connections)
+- [Community 254](Community_254.md) (2 shared connections)
+- [Community 100](Community_100.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 158 (94%)
-- INFERRED: 10 (6%)
+- EXTRACTED: 141 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

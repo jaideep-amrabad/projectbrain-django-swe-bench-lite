@@ -1,53 +1,53 @@
 # Community 510
 
-> 19 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **LazyObject** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **DefaultAdminSite** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **._setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **ConfiguredStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.__reduce__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **unpickle_lazyobject()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **._setup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **._setup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.__delattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **.__setattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **._setup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.__copy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **.__getattribute__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **A wrapper for another class that can be used to delay instantiation of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **Must be implemented by subclasses to initialize the wrapped object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **Used to unpickle lazy objects. Just return its argument, which will be the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **JsonResponse** (32 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **JsonResponseTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **file_upload_content_type_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_echo_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_getlist_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **.test_json_response_custom_encoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_json_response_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_json_response_non_ascii()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_json_response_passing_arguments_to_json_dumps()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_json_response_raises_type_error_with_default_setting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_json_response_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_json_response_uuid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **json_response_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **An HTTP response class that consumes data to be serialized to JSON. :param…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **Check the .getlist() function to ensure we receive the correct number of files.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **Simple view to echo back extra content-type parameters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **Simple view to echo back the content of uploaded files for tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
 
 ## Relationships
 
-- [Community 21](Community_21.md) (5 shared connections)
-- [Community 145](Community_145.md) (3 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 156](Community_156.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 507](Community_507.md) (1 shared connections)
-- [Community 129](Community_129.md) (1 shared connections)
-- [Community 285](Community_285.md) (1 shared connections)
-- [Community 228](Community_228.md) (1 shared connections)
+- [Community 74](Community_74.md) (7 shared connections)
+- [Community 32](Community_32.md) (4 shared connections)
+- [Community 150](Community_150.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 108](Community_108.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
+- [Community 995](Community_995.md) (1 shared connections)
+- [Community 802](Community_802.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (90%)
-- INFERRED: 4 (10%)
+- EXTRACTED: 47 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

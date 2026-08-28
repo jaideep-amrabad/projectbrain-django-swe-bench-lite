@@ -1,33 +1,40 @@
 # Community 895
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **start_django()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **get_child_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **run_with_reloader()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **ensure_echo_on()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **restart_with_reloader()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **check_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **RuntimeError** (2 connections)
-- **Return the executable. This contains a workaround for Windows if the executable…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Ensure that echo mode is enabled. Some tools such as PDB disable it which…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **get_internal_wsgi_application()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **GetInternalWSGIApplicationTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.test_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.test_success()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.test_bad_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.test_bad_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **Load and return the WSGI application as configured by the user in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **If ``WSGI_APPLICATION`` is a dotted path, the referenced object is returned.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **If ``WSGI_APPLICATION`` is ``None``, the return value of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
 
 ## Relationships
 
-- [Community 21](Community_21.md) (6 shared connections)
-- [Community 235](Community_235.md) (2 shared connections)
-- [Community 280](Community_280.md) (1 shared connections)
+- [Community 588](Community_588.md) (5 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 257](Community_257.md) (2 shared connections)
+- [Community 894](Community_894.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 84](Community_84.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 482](Community_482.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

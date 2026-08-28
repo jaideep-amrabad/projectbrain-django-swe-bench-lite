@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **tests/test_sqlite.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/test_sqlite.py`
+- **source_map_sensitive.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/source_map_sensitive.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_sqlite.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/source_map_sensitive.js`
 
 ## Audit Trail
 

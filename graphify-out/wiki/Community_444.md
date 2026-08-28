@@ -1,55 +1,52 @@
 # Community 444
 
-> 24 nodes · cohesion 0.13
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **FetchFromCacheMiddleware** (15 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **UpdateCacheMiddleware** (15 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **empty_response()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.process_response()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **CacheHEADTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_write_unpicklable_object()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **._set_cache()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_middleware_doesnt_cache_streaming_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_head_caches_correctly()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_head_with_cached_get()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **.process_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **.test_fetch_cache_middleware_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_update_cache_middleware_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **._should_update_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **.cache()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **Request-phase cache middleware that fetches a page from the cache. Must be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **Check whether the page is already cached and return the cached version if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **Response-phase cache middleware that updates the cache if the response is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **Set the cache, if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **.cache()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **BaseManager** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **ManagerDescriptor** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **._get_queryset_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **._set_creation_counter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.from_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__class_getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.db()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.db_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **Set the creation counter value for this instance and increment the class-level…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **Return a new QuerySet object. Subclasses can override this method to customize…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **Return "app_label.model_label.manager_name".** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (9 shared connections)
-- [Community 583](Community_583.md) (7 shared connections)
-- [Community 423](Community_423.md) (6 shared connections)
-- [Community 21](Community_21.md) (4 shared connections)
-- [Community 71](Community_71.md) (3 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 90](Community_90.md) (1 shared connections)
-- [Community 158](Community_158.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 1072](Community_1072.md) (2 shared connections)
+- [Community 661](Community_661.md) (1 shared connections)
+- [Community 309](Community_309.md) (1 shared connections)
+- [Community 226](Community_226.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (86%)
-- INFERRED: 10 (14%)
+- EXTRACTED: 34 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

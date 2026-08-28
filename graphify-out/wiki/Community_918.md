@@ -1,33 +1,62 @@
 # Community 918
 
-> 8 nodes · cohesion 0.25
+> 63 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **UnsaltedSHA1PasswordHasher** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Very insecure algorithm that you should *never* use; store SHA1 hashes with an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.decode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.salt()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Queries4Tests** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **NamedCategory** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **ContainsTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_contains.py`
+- **SubqueryTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **DumbCategory** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **test_db_returning.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- **ReturningValuesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- **EmptyStringsAsNullTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **ProxyCategory** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **test_contains.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_contains.py`
+- **ReturningModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **DefaultValuesInsertTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **ProxyQueryCleanupTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **NonIntegerPKReturningModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.test_bulk_insert()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- **.test_unsaved_obj()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_contains.py`
+- **.test_wrong_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_contains.py`
+- **.test_no_extra_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_evaluated_proxy_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_ticket11811()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_ticket14876()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_ordered_subselect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_related_sliced_subquery()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_slice_subquery_and_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_sliced_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- *... and 38 more nodes in this community*
 
 ## Relationships
 
-- [Community 242](Community_242.md) (3 shared connections)
-- [Community 61](Community_61.md) (1 shared connections)
-- [Community 416](Community_416.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 12](Community_12.md) (32 shared connections)
+- [Community 30](Community_30.md) (9 shared connections)
+- [Community 919](Community_919.md) (4 shared connections)
+- [Community 29](Community_29.md) (4 shared connections)
+- [Community 82](Community_82.md) (3 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 393](Community_393.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_contains.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 102 (74%)
+- INFERRED: 35 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

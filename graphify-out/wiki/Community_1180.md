@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_email_msg_uses_crlf()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **#23063 -- RFC-compliant messages are sent over SMTP.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **NaturalKeyWithFKDependencyManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Relationships
 
-- [Community 166](Community_166.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
+- [Community 368](Community_368.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

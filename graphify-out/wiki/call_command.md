@@ -2,14 +2,13 @@
 
 > God node · 357 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
-**Community:** [Community 5](Community_5.md)
+**Community:** [Community 10](Community_10.md)
 
 ## Connections by Relation
 
 ### calls
 - CommandError `EXTRACTED`
 - .create_test_db() `EXTRACTED`
-- _init_worker() `EXTRACTED`
 - .setUpClass() `EXTRACTED`
 - .get_actions() `INFERRED`
 - get_commands() `EXTRACTED`
@@ -27,6 +26,7 @@
 - .make_field_type_asserter() `EXTRACTED`
 - .test_include_materialized_views() `EXTRACTED`
 - .test_include_partitions() `EXTRACTED`
+- .test_makemigrations_inconsistent_history() `EXTRACTED`
 
 ### contains
 - core/management/__init__.py `EXTRACTED`

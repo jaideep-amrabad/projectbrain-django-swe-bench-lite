@@ -4,25 +4,23 @@
 
 ## Key Concepts
 
-- **BachelorParty** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **AbstractEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **BirthdayParty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **MessyBachelorParty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.add_initial_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.add_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **Return the field name with a prefix appended, if this Form has a prefix set.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **Add an 'initial' prefix for checking dynamic initial values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
 
 ## Relationships
 
-- [Community 433](Community_433.md) (7 shared connections)
-- [Community 273](Community_273.md) (3 shared connections)
-- [Community 872](Community_872.md) (1 shared connections)
+- [Community 429](Community_429.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (79%)
-- INFERRED: 3 (21%)
+- EXTRACTED: 5 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

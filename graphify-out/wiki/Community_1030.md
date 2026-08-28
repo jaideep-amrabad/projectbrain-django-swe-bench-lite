@@ -1,37 +1,44 @@
 # Community 1030
 
-> 6 nodes · cohesion 0.33
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Score** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_float_serialization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_stream_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_indentation_whitespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_no_indentation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **Float values serialize and deserialize intact** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **async/tests.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **ViewTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **DatabaseConnectionTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **SimpleModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- **CacheTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_base_view_class_is_sync()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_caches_local()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_get_async_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **View and by extension any subclasses that don't define handlers are sync.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **A database connection cannot be used in an async context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_mixed_views_raise_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_options_handler_responds_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_views_are_correctly_marked()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
 
 ## Relationships
 
-- [Community 451](Community_451.md) (1 shared connections)
-- [Community 567](Community_567.md) (1 shared connections)
-- [Community 543](Community_543.md) (1 shared connections)
-- [Community 526](Community_526.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 310](Community_310.md) (1 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 32](Community_32.md) (3 shared connections)
+- [Community 50](Community_50.md) (3 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 70](Community_70.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 84](Community_84.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (67%)
-- INFERRED: 4 (33%)
+- EXTRACTED: 33 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

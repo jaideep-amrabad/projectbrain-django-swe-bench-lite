@@ -1,8 +1,8 @@
 # Q
 
-> God node · 351 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+> God node · 350 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 15](Community_15.md)
+**Community:** [Community 17](Community_17.md)
 
 ## Connections by Relation
 
@@ -19,7 +19,6 @@
 - .test_flatten() `EXTRACTED`
 - .test_q_annotation() `EXTRACTED`
 - .get_for_models() `EXTRACTED`
-- create_forward_many_to_many_manager() `EXTRACTED`
 - .test_case_aggregate() `EXTRACTED`
 - .test_conditional_aggregation_example() `EXTRACTED`
 - .test_annotate_filter_decimal() `EXTRACTED`
@@ -27,6 +26,7 @@
 - .test_range_overlaps_custom() `EXTRACTED`
 - .test_range_overlaps_custom_opclasses() `EXTRACTED`
 - .test_op_class_descending_partial() `EXTRACTED`
+- .test_op_class_descending_partial_tablespace() `EXTRACTED`
 
 ### contains
 - query_utils.py `EXTRACTED`
@@ -56,12 +56,12 @@
 ### method
 - .check() `EXTRACTED`
 - ._combine() `EXTRACTED`
-- .flatten() `EXTRACTED`
-- .deconstruct() `EXTRACTED`
 - .__init__() `EXTRACTED`
 - .__or__() `EXTRACTED`
 - .__and__() `EXTRACTED`
 - .__xor__() `EXTRACTED`
+- .flatten() `EXTRACTED`
+- .deconstruct() `EXTRACTED`
 - .__invert__() `EXTRACTED`
 - .resolve_expression() `EXTRACTED`
 

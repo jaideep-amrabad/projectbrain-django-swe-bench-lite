@@ -4,26 +4,30 @@
 
 ## Key Concepts
 
-- **DeprecationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
-- **.test_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
-- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
-- **.test_access_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
-- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
+- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **.sync_apps()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **.migration_progress_callback()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **Run the old syncdb-style operation on a list of app_labels.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 129](Community_129.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 784](Community_784.md) (1 shared connections)
+- [Community 722](Community_722.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 9 (69%)
+- INFERRED: 4 (31%)
 - AMBIGUOUS: 0 (0%)
 
 ---

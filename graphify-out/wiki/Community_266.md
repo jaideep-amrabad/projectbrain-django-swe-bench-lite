@@ -1,12 +1,13 @@
 # Community 266
 
-> 40 nodes · cohesion 0.05
+> 41 nodes · cohesion 0.05
 
 ## Key Concepts
 
 - **model_enums/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
 - **ChoicesTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
 - **CustomChoicesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_templates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
 - **.test_integerchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
 - **.test_textchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
 - **Constants** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
@@ -28,20 +29,21 @@
 - **.test_textchoices_blank_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
 - **.test_textchoices_containment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
 - **.test_textchoices_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_textchoices_functional_api()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- *... and 15 more nodes in this community*
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 217](Community_217.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 90](Community_90.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 86](Community_86.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 221](Community_221.md) (2 shared connections)
 - [Community 21](Community_21.md) (1 shared connections)
-- [Community 657](Community_657.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 578](Community_578.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 343](Community_343.md) (1 shared connections)
 
 ## Source Files
 
@@ -49,7 +51,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 56 (98%)
+- EXTRACTED: 58 (98%)
 - INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 

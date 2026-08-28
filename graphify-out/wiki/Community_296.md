@@ -1,49 +1,42 @@
 # Community 296
 
-> 36 nodes · cohesion 0.07
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Archive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **BaseArchive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **TarArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **ZipArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.has_leading_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **ArchiveException** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **._copy_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.split_leading_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.target_filename()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **UnrecognizedArchiveFormat** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **._archive_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **Exception** (1 connections)
-- **Base Archive class. Implementations should inherit this class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- *... and 11 more nodes in this community*
+- **smart_urlquote()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.handle_word()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **Urlizer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.is_email_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.trim_punctuation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.trim_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.test_smart_urlquote()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **Quote a URL if it isn't already quoted.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **Convert any URLs in text into clickable links. Work on http://, https://, www.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **If trim_url_limit is not None, truncate the URLs in the link text longer than…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **Trim trailing and wrapping punctuation from `word`. Return the items of the new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **Return True if value looks like an email address.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (7 shared connections)
-- [Community 90](Community_90.md) (1 shared connections)
+- [Community 20](Community_20.md) (5 shared connections)
+- [Community 221](Community_221.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 258](Community_258.md) (1 shared connections)
+- [Community 610](Community_610.md) (1 shared connections)
+- [Community 298](Community_298.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---
