@@ -1,8 +1,8 @@
 # F
 
-> God node · 420 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+> God node · 430 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 24](Community_24.md)
+**Community:** [Community 34](Community_34.md)
 
 ## Connections by Relation
 
@@ -21,12 +21,12 @@
 - ._test_range_overlaps() `EXTRACTED`
 - .test_composite_func_index_field_and_expression() `EXTRACTED`
 - .test_func_index_collate() `EXTRACTED`
+- .test_func_unique_constraint_collate() `EXTRACTED`
+- .test_unique_constraint_field_and_expression() `EXTRACTED`
 - .dates() `EXTRACTED`
 - .datetimes() `EXTRACTED`
 - .test_case_aggregate() `EXTRACTED`
 - .test_annotation_aggregate_with_m2o() `EXTRACTED`
-- .test_custom_functions_can_ref_other_functions() `EXTRACTED`
-- .setUp() `EXTRACTED`
 
 ### contains
 - expressions.py `EXTRACTED`
@@ -78,6 +78,7 @@
 - QuerySet `INFERRED`
 - Index `INFERRED`
 - SQLCompiler `INFERRED`
+- UniqueConstraint `INFERRED`
 
 ---
 

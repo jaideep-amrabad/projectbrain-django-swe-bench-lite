@@ -1,8 +1,8 @@
 # Q
 
-> God node · 296 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+> God node · 300 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 14](Community_14.md)
+**Community:** [Community 17](Community_17.md)
 
 ## Connections by Relation
 
@@ -23,10 +23,10 @@
 - .test_geodetic_distance_lookups() `EXTRACTED`
 - .test_op_class_descending_partial() `EXTRACTED`
 - .test_op_class_descending_partial_tablespace() `EXTRACTED`
+- .test_func_unique_constraint_partial() `EXTRACTED`
 - update_proxy_model_permissions() `EXTRACTED`
 - .__init__() `EXTRACTED`
 - .test_annotation_disjunction() `EXTRACTED`
-- .test_conditional_aggregate_on_complex_condition() `EXTRACTED`
 
 ### contains
 - query_utils.py `EXTRACTED`
@@ -49,9 +49,9 @@
 - generic_relations_regress/tests.py `EXTRACTED`
 - distapp/tests.py `EXTRACTED`
 - aggregation_regress/tests.py `EXTRACTED`
+- test_constraints.py `EXTRACTED`
 - generic_relations/tests.py `EXTRACTED`
 - indexes/tests.py `EXTRACTED`
-- test_query.py `EXTRACTED`
 
 ### method
 - ._combine() `EXTRACTED`

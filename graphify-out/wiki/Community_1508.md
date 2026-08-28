@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **from_db_value/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/__init__.py`
+- **distapp/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/from_db_value/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/__init__.py`
 
 ## Audit Trail
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **sessions/backends/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/__init__.py`
+- **cache/backends/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/__init__.py`
 
 ## Audit Trail
 

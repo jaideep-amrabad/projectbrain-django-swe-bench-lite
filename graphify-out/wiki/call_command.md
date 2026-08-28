@@ -36,9 +36,9 @@
 - admin_scripts/tests.py `EXTRACTED`
 - test_array.py `EXTRACTED`
 - staticfiles_tests/test_management.py `EXTRACTED`
+- test_runner/tests.py `EXTRACTED`
 - geoapp/tests.py `EXTRACTED`
 - auth_tests/test_management.py `EXTRACTED`
-- test_runner/tests.py `EXTRACTED`
 - test/runner.py `EXTRACTED`
 - check_framework/tests.py `EXTRACTED`
 - migrations/test_commands.py `EXTRACTED`
