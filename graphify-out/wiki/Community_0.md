@@ -1,6 +1,6 @@
 # Community 0
 
-> 301 nodes · cohesion 0.01
+> 305 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -11,13 +11,13 @@
 - **core/management/__init__.py** (71 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 - **test_extraction.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 - **user_commands/tests.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **makemessages.py** (34 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
 - **test_compilation.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
 - **management/utils.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
 - **loaddata.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
 - **migrate.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
 - **createsuperuser.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
 - **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **test_percents.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
 - **.handle()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
 - **changepassword.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/changepassword.py`
 - **dumpdata.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
@@ -29,22 +29,22 @@
 - **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
 - **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 - **is_ignored_path()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
-- *... and 276 more nodes in this community*
+- *... and 280 more nodes in this community*
 
 ## Relationships
 
-- [Community 49](Community_49.md) (80 shared connections)
-- [Community 2](Community_2.md) (29 shared connections)
+- [Community 37](Community_37.md) (100 shared connections)
 - [Community 23](Community_23.md) (27 shared connections)
-- [Community 8](Community_8.md) (27 shared connections)
-- [Community 14](Community_14.md) (25 shared connections)
-- [Community 53](Community_53.md) (24 shared connections)
-- [Community 4](Community_4.md) (22 shared connections)
-- [Community 57](Community_57.md) (19 shared connections)
-- [Community 16](Community_16.md) (17 shared connections)
+- [Community 9](Community_9.md) (27 shared connections)
+- [Community 110](Community_110.md) (24 shared connections)
+- [Community 2](Community_2.md) (23 shared connections)
+- [Community 3](Community_3.md) (22 shared connections)
+- [Community 14](Community_14.md) (22 shared connections)
+- [Community 13](Community_13.md) (20 shared connections)
+- [Community 52](Community_52.md) (19 shared connections)
 - [Community 285](Community_285.md) (12 shared connections)
-- [Community 387](Community_387.md) (12 shared connections)
-- [Community 362](Community_362.md) (11 shared connections)
+- [Community 204](Community_204.md) (11 shared connections)
+- [Community 383](Community_383.md) (11 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 1135 (98%)
+- EXTRACTED: 1127 (98%)
 - INFERRED: 27 (2%)
 - AMBIGUOUS: 0 (0%)
 

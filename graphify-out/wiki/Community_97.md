@@ -1,6 +1,6 @@
 # Community 97
 
-> 79 nodes · cohesion 0.04
+> 107 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -8,11 +8,16 @@
 - **models/fields.py** (42 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
 - **GeometryField** (40 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
 - **BaseSpatialField** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
+- **gis/db/models/aggregates.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/aggregates.py`
 - **RasterField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
+- **GeoAggregate** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/aggregates.py`
 - **GeoExpressionsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
 - **SpatialProxy** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
+- **Extent** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/aggregates.py`
+- **ExtentField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
 - **ST_Polygon** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 - **get_srid_info()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
+- **Extent3D** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/aggregates.py`
 - **PolygonField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
 - **RasterBandTransform** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
 - **db/models/proxy.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
@@ -24,45 +29,43 @@
 - **.get_prep_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
 - **GeometryCollectionField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
 - **LineStringField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.test_geometry_value_annotation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
-- **GeometryFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_fields.py`
-- **.geodetic()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.get_raster_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.get_srid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- *... and 54 more nodes in this community*
+- *... and 82 more nodes in this community*
 
 ## Relationships
 
-- [Community 52](Community_52.md) (18 shared connections)
-- [Community 20](Community_20.md) (15 shared connections)
-- [Community 71](Community_71.md) (14 shared connections)
-- [Community 26](Community_26.md) (11 shared connections)
-- [Community 113](Community_113.md) (9 shared connections)
-- [Community 38](Community_38.md) (7 shared connections)
-- [Community 47](Community_47.md) (4 shared connections)
+- [Community 55](Community_55.md) (19 shared connections)
+- [Community 70](Community_70.md) (18 shared connections)
+- [Community 22](Community_22.md) (15 shared connections)
+- [Community 27](Community_27.md) (11 shared connections)
+- [Community 40](Community_40.md) (7 shared connections)
+- [Community 21](Community_21.md) (7 shared connections)
+- [Community 48](Community_48.md) (6 shared connections)
+- [Community 13](Community_13.md) (6 shared connections)
+- [Community 114](Community_114.md) (5 shared connections)
+- [Community 887](Community_887.md) (5 shared connections)
+- [Community 322](Community_322.md) (4 shared connections)
 - [Community 23](Community_23.md) (4 shared connections)
-- [Community 19](Community_19.md) (4 shared connections)
-- [Community 114](Community_114.md) (3 shared connections)
-- [Community 209](Community_209.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/aggregates.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/migrations/0002_create_models.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 231 (95%)
-- INFERRED: 12 (5%)
+- EXTRACTED: 277 (93%)
+- INFERRED: 21 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

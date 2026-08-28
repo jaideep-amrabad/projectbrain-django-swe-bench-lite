@@ -1,6 +1,6 @@
 # Community 23
 
-> 233 nodes · cohesion 0.02
+> 234 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -23,28 +23,28 @@
 - **django/db/backends/base/operations.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 - **model_fields/test_booleanfield.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
 - **get_connection()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **db_utils/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
 - **cache/backends/db.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
 - **sqlite3/schema.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
 - **Person** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
 - **backends/test_utils.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
 - **contenttypes/management/__init__.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **OperationalError** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- *... and 208 more nodes in this community*
+- *... and 209 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (138 shared connections)
-- [Community 16](Community_16.md) (90 shared connections)
-- [Community 49](Community_49.md) (75 shared connections)
-- [Community 472](Community_472.md) (31 shared connections)
-- [Community 4](Community_4.md) (28 shared connections)
+- [Community 6](Community_6.md) (138 shared connections)
+- [Community 13](Community_13.md) (117 shared connections)
+- [Community 37](Community_37.md) (89 shared connections)
 - [Community 0](Community_0.md) (27 shared connections)
-- [Community 213](Community_213.md) (27 shared connections)
-- [Community 2](Community_2.md) (27 shared connections)
-- [Community 24](Community_24.md) (25 shared connections)
-- [Community 57](Community_57.md) (24 shared connections)
-- [Community 311](Community_311.md) (24 shared connections)
-- [Community 30](Community_30.md) (20 shared connections)
+- [Community 3](Community_3.md) (26 shared connections)
+- [Community 2](Community_2.md) (26 shared connections)
+- [Community 26](Community_26.md) (25 shared connections)
+- [Community 322](Community_322.md) (25 shared connections)
+- [Community 52](Community_52.md) (24 shared connections)
+- [Community 313](Community_313.md) (24 shared connections)
+- [Community 24](Community_24.md) (19 shared connections)
+- [Community 75](Community_75.md) (19 shared connections)
 
 ## Source Files
 
@@ -67,12 +67,12 @@
 - `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 - `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
 - `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1685 (99%)
-- INFERRED: 23 (1%)
+- EXTRACTED: 1702 (99%)
+- INFERRED: 25 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

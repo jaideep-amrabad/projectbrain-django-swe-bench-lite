@@ -1,71 +1,78 @@
 # Community 6
 
-> 106 nodes · cohesion 0.03
+> 285 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **utils/html.py** (62 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **format_html()** (40 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **auth_tests/test_validators.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **conditional_escape()** (31 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **escape()** (31 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **password_validation.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **test_html.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
-- **keep_lazy_text()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **template/backends/dummy.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
-- **punycode()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **urlize()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **PasswordValidationTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **validate_password()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **format_html_join()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **template/backends/utils.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/utils.py`
-- **smart_urlquote()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **MinimumLengthValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **linebreaks()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **strip_tags()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **get_default_password_validators()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **NumericPasswordValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **keep_lazy()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **escapejs()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **json_script()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **MLStripper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- *... and 81 more nodes in this community*
+- **db/migrations/__init__.py** (177 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/__init__.py`
+- **gis_migrations/test_operations.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **migration.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **test_migrations_plan/0001_initial.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- **0002_remove_content_type_name.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/migrations/0002_remove_content_type_name.py`
+- **0002_alter_domain_unique.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/migrations/0002_alter_domain_unique.py`
+- **test_migrations_atomic_operation/0001_initial.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_atomic_operation/0001_initial.py`
+- **test_migrations_custom_user/0001_initial.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_custom_user/0001_initial.py`
+- **test_migrations_non_atomic/0001_initial.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_non_atomic/0001_initial.py`
+- **0005_fifth.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0005_fifth.py`
+- **0003_logentry_add_action_flag_choices.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/migrations/0003_logentry_add_action_flag_choices.py`
+- **0002_alter_permission_name_max_length.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0002_alter_permission_name_max_length.py`
+- **0003_alter_user_email_max_length.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0003_alter_user_email_max_length.py`
+- **0005_alter_user_last_login_null.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0005_alter_user_last_login_null.py`
+- **0009_alter_user_last_name_max_length.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0009_alter_user_last_name_max_length.py`
+- **0010_alter_group_name_max_length.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0010_alter_group_name_max_length.py`
+- **0012_alter_user_first_name_max_length.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0012_alter_user_first_name_max_length.py`
+- **flatpages/migrations/0001_initial.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/migrations/0001_initial.py`
+- **redirects/migrations/0001_initial.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/redirects/migrations/0001_initial.py`
+- **0002_alter_redirect_new_path_help_text.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/redirects/migrations/0002_alter_redirect_new_path_help_text.py`
+- **swappable_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **another_app_waiting_migration/migrations/0001_initial.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/another_app_waiting_migration/migrations/0001_initial.py`
+- **app_waiting_migration/migrations/0001_initial.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_waiting_migration/migrations/0001_initial.py`
+- **app_unmigrated/migrations/0001_initial.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/app_unmigrated/migrations/0001_initial.py`
+- **operations_migrations/0001_initial.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/operations_migrations/0001_initial.py`
+- *... and 260 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (55 shared connections)
-- [Community 3](Community_3.md) (38 shared connections)
-- [Community 49](Community_49.md) (34 shared connections)
-- [Community 28](Community_28.md) (16 shared connections)
-- [Community 122](Community_122.md) (16 shared connections)
-- [Community 14](Community_14.md) (11 shared connections)
-- [Community 11](Community_11.md) (8 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 9](Community_9.md) (5 shared connections)
-- [Community 259](Community_259.md) (5 shared connections)
+- [Community 23](Community_23.md) (138 shared connections)
+- [Community 13](Community_13.md) (90 shared connections)
+- [Community 52](Community_52.md) (10 shared connections)
+- [Community 204](Community_204.md) (9 shared connections)
+- [Community 231](Community_231.md) (5 shared connections)
+- [Community 137](Community_137.md) (5 shared connections)
+- [Community 37](Community_37.md) (4 shared connections)
+- [Community 18](Community_18.md) (4 shared connections)
+- [Community 75](Community_75.md) (4 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 97](Community_97.md) (3 shared connections)
+- [Community 55](Community_55.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
-- `raw/code/hyd-evaluation/django-django/django/template/backends/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/migrations/0003_logentry_add_action_flag_choices.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0002_alter_permission_name_max_length.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0003_alter_user_email_max_length.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0005_alter_user_last_login_null.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0006_require_contenttypes_0002.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0009_alter_user_last_name_max_length.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0010_alter_group_name_max_length.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0012_alter_user_first_name_max_length.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/migrations/0002_remove_content_type_name.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/migrations/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/redirects/migrations/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/redirects/migrations/0002_alter_redirect_new_path_help_text.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/migrations/0002_alter_domain_unique.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/another_app_waiting_migration/migrations/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_waiting_migration/migrations/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/app_unmigrated/migrations/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/operations_migrations/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/operations_migrations/0002_rename_foo.py`
 
 ## Audit Trail
 
-- EXTRACTED: 430 (96%)
-- INFERRED: 18 (4%)
+- EXTRACTED: 581 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
