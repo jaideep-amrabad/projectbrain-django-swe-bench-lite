@@ -1,46 +1,55 @@
 # Community 535
 
-> 21 nodes · cohesion 0.11
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **BaseStorage** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **._loaded_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **._prepare_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **._store()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **._set_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Store a list of messages and return a list of any messages which could not be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Prepare a list of messages for storage.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Store all unread messages. If the backend has yet to be iterated, store…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Queue a message to be stored. The message is only queued if it contained…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Set a custom minimum recorded level. If set to ``None``, the default level will…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **This is the base backend for temporary message storage. This is not a complete…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Return a list of loaded messages, retrieving them first if they have not been…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Retrieve a list of stored messages. Return a tuple of the messages and a flag…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **version.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
+- **get_version()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
+- **get_version_tuple()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
+- **version/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
+- **get_complete_version()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
+- **VersionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
+- **get_git_changeset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
+- **get_main_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
+- **.test_migration_file_header_comments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_development()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
+- **.test_development_no_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
+- **.test_get_version_invalid_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
+- **.test_get_version_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
+- **.test_releases()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
+- **Return a tuple of version numbers (e.g. (1, 2, 3)) from the version string…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
+- **Return a PEP 440-compliant version number from VERSION.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
+- **Return main version (X.Y[.Z]) from VERSION.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
+- **Return a tuple of the django version. If version argument is non-empty, check…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
+- **Return a numeric identifier of the latest git changeset. The result is the UTC…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
+- **Test comments at top of file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 472](Community_472.md) (5 shared connections)
-- [Community 744](Community_744.md) (1 shared connections)
-- [Community 909](Community_909.md) (1 shared connections)
-- [Community 388](Community_388.md) (1 shared connections)
-- [Community 574](Community_574.md) (1 shared connections)
+- [Community 1](Community_1.md) (10 shared connections)
+- [Community 6](Community_6.md) (7 shared connections)
+- [Community 383](Community_383.md) (6 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 211](Community_211.md) (3 shared connections)
+- [Community 356](Community_356.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 123](Community_123.md) (2 shared connections)
+- [Community 529](Community_529.md) (2 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 243](Community_243.md) (2 shared connections)
+- [Community 183](Community_183.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/version.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 92 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

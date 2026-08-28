@@ -1,25 +1,22 @@
 # Community 1241
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **SchemaEditorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_schema.py`
-- **skipUnless** (1 connections)
-- **.test_quote_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_schema.py`
+- **app_raising_messages/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_raising_messages/__init__.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_raising_messages/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

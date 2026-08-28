@@ -1,26 +1,23 @@
 # Community 1223
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **shuffle_tests()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **_class_shuffle_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Return an iterator over the given tests in a shuffled order, keeping tests next…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **DateTimeShortcuts.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/DateTimeShortcuts.test.js`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 331](Community_331.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/DateTimeShortcuts.test.js`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 0 (0%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,25 +1,22 @@
 # Community 1330
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **check_framework/apps.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
-- **CheckDefaultPKConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
-- **CheckPKConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
+- **fake_client.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/fake_client.py`
 
 ## Relationships
 
-- [Community 46](Community_46.md) (3 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/fake_client.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

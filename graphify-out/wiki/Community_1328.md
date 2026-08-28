@@ -1,27 +1,23 @@
 # Community 1328
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **FeaturesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_features.py`
-- **.test_supports_json_field_operational_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_features.py`
-- **skipUnless** (1 connections)
+- **db_typecasts/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/db_typecasts/__init__.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_features.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_typecasts/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (83%)
-- INFERRED: 1 (17%)
+- EXTRACTED: 0 (0%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

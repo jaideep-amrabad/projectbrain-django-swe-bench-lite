@@ -1,29 +1,30 @@
 # Community 1000
 
-> 6 nodes · cohesion 0.33
+> 4 nodes · cohesion 0.83
 
 ## Key Concepts
 
-- **model_options/apps.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
-- **ModelDefaultPKConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
-- **ModelPKConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
-- **ModelPKNonAutoConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
-- **ModelPKNoneConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
-- **ModelPKNonexistentConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
+- **TestMultiDBChecks** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- **._patch_check_field_on()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- **.test_checks_called_on_the_default_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- **.test_checks_called_on_the_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
 
 ## Relationships
 
-- [Community 46](Community_46.md) (6 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_options/apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (90%)
+- INFERRED: 1 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

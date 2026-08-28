@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **dates/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/__init__.py`
+- **initial/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_fake_initial_case_insensitive/initial/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dates/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_fake_initial_case_insensitive/initial/__init__.py`
 
 ## Audit Trail
 

@@ -1,29 +1,27 @@
 # Community 1019
 
-> 6 nodes · cohesion 0.33
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **XViewMiddlewareTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
-- **.test_no_auth_middleware()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
-- **TestDataMixin** (1 connections)
-- **.test_callable_object_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
-- **.test_xview_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
-- **.test_xview_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
+- **JsonScriptTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_json_script.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_json_script.py`
+- **.test_without_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_json_script.py`
+- **setup** (2 connections)
 
 ## Relationships
 
-- [Community 225](Community_225.md) (3 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_json_script.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 6 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
