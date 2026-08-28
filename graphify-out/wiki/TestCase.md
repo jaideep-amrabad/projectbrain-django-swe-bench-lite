@@ -2,7 +2,7 @@
 
 > God node · 1004 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 29](Community_29.md)
+**Community:** [Community 26](Community_26.md)
 
 ## Connections by Relation
 
@@ -57,11 +57,11 @@
 - .setUpClass() `EXTRACTED`
 - ._databases_support_transactions() `EXTRACTED`
 - ._rollback_atomics() `EXTRACTED`
-- .tearDownClass() `EXTRACTED`
 - ._fixture_teardown() `EXTRACTED`
 - ._enter_atomics() `EXTRACTED`
 - ._fixture_setup() `EXTRACTED`
 - .setUpTestData() `EXTRACTED`
+- .tearDownClass() `EXTRACTED`
 - ._should_reload_connections() `EXTRACTED`
 - ._should_check_constraints() `EXTRACTED`
 - .captureOnCommitCallbacks() `EXTRACTED`

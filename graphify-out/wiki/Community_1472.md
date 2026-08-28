@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **fake_client.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/fake_client.py`
+- **migrate_signals/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/models.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/fake_client.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrate_signals/models.py`
 
 ## Audit Trail
 

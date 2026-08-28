@@ -1,6 +1,6 @@
 # Community 143
 
-> 67 nodes · cohesion 0.06
+> 74 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -9,6 +9,7 @@
 - **DeleteCascadeTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
 - **ProxyDeleteTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
 - **DeleteTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **Ticket19102Tests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
 - **DeleteCascadeTransactionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
 - **.create_image()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
 - **Image** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
@@ -28,21 +29,20 @@
 - **OrderedPerson** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
 - **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
 - **PlayedWith** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Researcher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- *... and 42 more nodes in this community*
+- *... and 49 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 38](Community_38.md) (5 shared connections)
-- [Community 29](Community_29.md) (5 shared connections)
-- [Community 114](Community_114.md) (4 shared connections)
-- [Community 22](Community_22.md) (3 shared connections)
-- [Community 31](Community_31.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 1028](Community_1028.md) (1 shared connections)
+- [Community 33](Community_33.md) (6 shared connections)
+- [Community 26](Community_26.md) (6 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 136](Community_136.md) (4 shared connections)
+- [Community 63](Community_63.md) (3 shared connections)
+- [Community 62](Community_62.md) (3 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 370](Community_370.md) (3 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 932](Community_932.md) (1 shared connections)
 
 ## Source Files
 
@@ -51,8 +51,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 137 (79%)
-- INFERRED: 37 (21%)
+- EXTRACTED: 148 (80%)
+- INFERRED: 37 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

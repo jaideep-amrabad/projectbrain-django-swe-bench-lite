@@ -1,6 +1,6 @@
 # F
 
-> God node · 452 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+> God node · 453 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
 **Community:** [Community 21](Community_21.md)
 
@@ -10,6 +10,7 @@
 - .test_expressions() `EXTRACTED`
 - ._order_by_pairs() `EXTRACTED`
 - .test_key_transform() `EXTRACTED`
+- .test_rename_table_references_without_alias() `EXTRACTED`
 - .test_invalid_filter() `EXTRACTED`
 - .test_aggregate() `EXTRACTED`
 - .test_func_index_collate_f_ordered() `EXTRACTED`
@@ -26,7 +27,6 @@
 - .test_unique_constraint_field_and_expression() `EXTRACTED`
 - .dates() `EXTRACTED`
 - .datetimes() `EXTRACTED`
-- .test_case_aggregate() `EXTRACTED`
 
 ### contains
 - models/expressions.py `EXTRACTED`

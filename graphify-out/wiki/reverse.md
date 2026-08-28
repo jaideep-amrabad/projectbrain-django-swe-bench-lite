@@ -2,7 +2,7 @@
 
 > God node · 411 connections · `raw/code/hyd-evaluation/django-django/django/urls/base.py`
 
-**Community:** [Community 14](Community_14.md)
+**Community:** [Community 19](Community_19.md)
 
 ## Connections by Relation
 
@@ -21,12 +21,12 @@
 - .user_change_password() `EXTRACTED`
 - ._get_obj_does_not_exist_redirect() `EXTRACTED`
 - ._response_post_save() `EXTRACTED`
+- index() `EXTRACTED`
 - .login() `EXTRACTED`
 - get_deleted_objects() `EXTRACTED`
 - .test_result_list_empty_changelist_value() `EXTRACTED`
 - .test_result_list_html() `EXTRACTED`
 - .test_result_list_set_empty_value_display_in_model_admin() `EXTRACTED`
-- .test_result_list_set_empty_value_display_on_admin_site() `EXTRACTED`
 
 ### contains
 - urls/base.py `EXTRACTED`
