@@ -189,7 +189,8 @@ class FileUploadTests(TestCase):
 
     def test_unicode_file_name_rfc2231(self):
         """
-        Receiving file upload when filename is encoded with RFC 2231.
+        Test receiving file upload when filename is encoded with RFC2231
+        (#22971).
         """
         payload = client.FakePayload()
         payload.write(
@@ -218,7 +219,8 @@ class FileUploadTests(TestCase):
 
     def test_unicode_name_rfc2231(self):
         """
-        Receiving file upload when filename is encoded with RFC 2231.
+        Test receiving file upload when filename is encoded with RFC2231
+        (#22971).
         """
         payload = client.FakePayload()
         payload.write(
