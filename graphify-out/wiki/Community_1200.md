@@ -1,23 +1,25 @@
 # Community 1200
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_inherited_models_selects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **#24156 - Objects from child models where the parent's m2m field uses…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **annotated_tag_function.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/annotated_tag_function.py`
+- **annotated_tag_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/annotated_tag_function.py`
+- **simple_tag** (1 connections)
 
 ## Relationships
 
-- [Community 192](Community_192.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/annotated_tag_function.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

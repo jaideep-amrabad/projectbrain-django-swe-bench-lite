@@ -1,52 +1,63 @@
 # Community 355
 
-> 32 nodes · cohesion 0.11
+> 44 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **timesince()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **TimesinceTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **timeuntil()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **.test_different_timezones()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **TZAwareTimesinceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_date_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_both_date_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_depth()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_display_first_unit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_display_second_before_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_ignore_microseconds_and_seconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_leap_year()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_leap_year_new_years_eve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_naive_datetime_with_tzinfo_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_second_before_equal_first_humanize_time_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_thousand_years_ago()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **requires_tz_support** (2 connections)
-- **.test_depth_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_equal_datetimes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_months_edge()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_multiple_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_other_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **Like timesince, but return a string measuring the time until the given time.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **Take two datetime objects and return the time between d and now as a nicely…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **When using two different timezones.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- *... and 7 more nodes in this community*
+- **Origin** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **loaders/filesystem.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **Loader** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- **Loader** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **cached.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **loaders/base.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- **loaders/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
+- **get_app_template_dirs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- **app_directories.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- **Loader** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
+- **copy_exception()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **.get_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- **.get_template_sources()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **Loader** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- **.template_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **.get_template_sources()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- **.get_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- **.reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- **.get_contents()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **.get_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **.get_contents()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
+- **.get_template_sources()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
+- **FilesystemLoader** (1 connections)
+- **Return a list of directories to search for templates.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **Create a new TemplateDoesNotExist. Preserve its declared attributes and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (10 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
+- [Community 0](Community_0.md) (15 shared connections)
+- [Community 1](Community_1.md) (9 shared connections)
+- [Community 753](Community_753.md) (3 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 814](Community_814.md) (1 shared connections)
+- [Community 287](Community_287.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
+- `raw/code/hyd-evaluation/django-django/django/template/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 86 (96%)
+- INFERRED: 4 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

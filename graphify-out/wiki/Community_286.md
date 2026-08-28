@@ -1,6 +1,6 @@
 # Community 286
 
-> 27 nodes · cohesion 0.11
+> 31 nodes · cohesion 0.09
 
 ## Key Concepts
 
@@ -15,6 +15,8 @@
 - **HTTPSSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
 - **sitemaps_tests/test_management.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
 - **PingGoogleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
+- **CallableLastmodPartialSitemap** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **.items()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
 - **.get_absolute_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
 - **.test_sitemap_index_with_https_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
 - **.test_sitemap_section_with_https_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
@@ -27,24 +29,22 @@
 - **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
 - **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
 - **A secure sitemap index can be rendered** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- **A secure sitemap section can be rendered** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- **A sitemap index requested in HTTPS is rendered with HTTPS links** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
-- *... and 2 more nodes in this community*
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (9 shared connections)
-- [Community 400](Community_400.md) (7 shared connections)
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 675](Community_675.md) (4 shared connections)
-- [Community 709](Community_709.md) (3 shared connections)
-- [Community 186](Community_186.md) (3 shared connections)
-- [Community 470](Community_470.md) (3 shared connections)
-- [Community 84](Community_84.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 607](Community_607.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 12](Community_12.md) (9 shared connections)
+- [Community 401](Community_401.md) (7 shared connections)
+- [Community 4](Community_4.md) (7 shared connections)
+- [Community 472](Community_472.md) (5 shared connections)
+- [Community 678](Community_678.md) (4 shared connections)
+- [Community 614](Community_614.md) (3 shared connections)
+- [Community 184](Community_184.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 85](Community_85.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
@@ -53,11 +53,12 @@
 - `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
 - `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
 - `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (94%)
-- INFERRED: 5 (6%)
+- EXTRACTED: 88 (94%)
+- INFERRED: 6 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,27 +4,26 @@
 
 ## Key Concepts
 
-- **ViewTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_base_view_class_is_sync()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_http_method_not_allowed_responds_correctly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **View and by extension any subclasses that don't define handlers are sync.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_mixed_views_raise_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_options_handler_responds_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_views_are_correctly_marked()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **TestCreateSuperUserSignals** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **Simple test case for ticket #20541** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.post_save_listener()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_create_superuser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_create_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 225](Community_225.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

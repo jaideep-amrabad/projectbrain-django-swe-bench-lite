@@ -1,63 +1,58 @@
 # Community 482
 
-> 32 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Jinja2** (20 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **test_renderers.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **RemovedInDjango60Warning** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **DjangoTemplates** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **BaseRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **DjangoDivFormRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Jinja2DivFormRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **TemplatesSetting** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **DeprecationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **Jinja2Tests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **SharedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **BaseTemplateRendererTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **DjangoTemplatesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **TemplatesSettingTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
-- **.test_modelformset_factory_passes_renderer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Load Jinja2 templates from the built-in widget templates in django/forms/jinja2…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.test_get_renderer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.test_django_div_renderer_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.test_jinja2_div_renderer_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.test_installed_apps_template_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- *... and 7 more nodes in this community*
+- **TestContextDecorator** (17 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **DoNothingDecorator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.enable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **TestContextDecoratorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_exception_in_setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.decorate_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_override_database_routers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.save_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.decorate_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.decorate_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **object** (2 connections)
+- **A base class that can either be used as a context manager during tests or as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding DATABASE_ROUTERS should update the base router.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **An exception is setUp() is reraised after disable() is called.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_cleanups_run_after_tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (16 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 97](Community_97.md) (4 shared connections)
-- [Community 101](Community_101.md) (3 shared connections)
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 400](Community_400.md) (2 shared connections)
-- [Community 79](Community_79.md) (2 shared connections)
-- [Community 142](Community_142.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 162](Community_162.md) (3 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 85](Community_85.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 245](Community_245.md) (1 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
+- [Community 562](Community_562.md) (1 shared connections)
+- [Community 207](Community_207.md) (1 shared connections)
+- [Community 572](Community_572.md) (1 shared connections)
+- [Community 530](Community_530.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (79%)
-- INFERRED: 21 (21%)
+- EXTRACTED: 41 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

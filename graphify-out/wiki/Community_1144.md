@@ -4,18 +4,19 @@
 
 ## Key Concepts
 
-- **PersonManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **SpyManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **DatabaseSequenceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
+- **.test_get_sequences()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
+- **.test_get_sequences_manually_created_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 352](Community_352.md) (2 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
 
 ## Audit Trail
 

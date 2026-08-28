@@ -1,61 +1,61 @@
 # Community 378
 
-> 36 nodes · cohesion 0.07
+> 32 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **RegexPattern** (26 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **LocaleRegexDescriptorTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
-- **RoutePattern** (11 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **AssertionError** (6 connections)
-- **._check_pattern_startswith_slash()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **_route_to_regex()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **CheckURLMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.describe()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **._check_include_trailing_dollar()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **._compile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **RegexPatternTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
-- **RoutePatternTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **LocaleRegexDescriptorPathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
-- **.test_nontranslated_regex_compiled_once()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
-- **.test_regex_compile_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
-- **.test_translated_regex_compiled_per_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
-- **.describe()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **._compile()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
-- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
-- **Format the URL pattern for display in warning messages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **Check that the pattern does not begin with a forward slash.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- *... and 11 more nodes in this community*
+- **ModelFormBasicTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Article** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **ArticleForm** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **BaseCategoryForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ModelOtherFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.create_basic_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_m2m_initial_callable()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **BigIntForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_initial_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **RoykoForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_m2m_editing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_multi_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_runtime_choicefield_populated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_modelform_non_editable_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_disabled_multiplemodelchoicefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_base_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_basic_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_save_commit_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_save_with_data_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_big_integer_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_http_prefixing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_url_on_modelform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.test_custom_form_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 26](Community_26.md) (13 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 217](Community_217.md) (3 shared connections)
-- [Community 448](Community_448.md) (3 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
-- [Community 661](Community_661.md) (1 shared connections)
-- [Community 631](Community_631.md) (1 shared connections)
-- [Community 607](Community_607.md) (1 shared connections)
+- [Community 122](Community_122.md) (14 shared connections)
+- [Community 392](Community_392.md) (5 shared connections)
+- [Community 319](Community_319.md) (2 shared connections)
+- [Community 644](Community_644.md) (2 shared connections)
+- [Community 444](Community_444.md) (1 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
+- [Community 769](Community_769.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
+- [Community 318](Community_318.md) (1 shared connections)
+- [Community 143](Community_143.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (85%)
-- INFERRED: 13 (15%)
+- EXTRACTED: 62 (82%)
+- INFERRED: 14 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

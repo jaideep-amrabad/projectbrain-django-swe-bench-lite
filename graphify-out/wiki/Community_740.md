@@ -1,58 +1,43 @@
 # Community 740
 
-> 27 nodes · cohesion 0.09
+> 18 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **LoginView** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **LogoutView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **RedirectURLMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_context_data()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_redirect_url()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_success_url()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.form_valid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_context_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.post()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **RedirectURLMixinTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.get_context_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_form_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **CustomDefaultRedirectURLLoginView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **.get_form_kwargs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_form_kwargs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_success_url_allowed_hosts()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.test_get_default_redirect_url_next_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_get_default_redirect_url_no_next_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.get_form_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **Security check complete. Log the user in.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **Log out the user and display the 'You are logged out' message.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **Logout may be done via POST.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **Return the user-originating redirect URL if it's safe.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- *... and 2 more nodes in this community*
+- **test_tablespaces.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **TablespacesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **tablespaces.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **sql_for_table()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_many_to_many_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.assertNumContains()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_indexed_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **Scientist** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **.test_tablespace_ignored_for_indexed_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_ignored_for_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **ArticleRef** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **ScientistRef** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **sql_for_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
 
 ## Relationships
 
-- [Community 400](Community_400.md) (11 shared connections)
-- [Community 94](Community_94.md) (6 shared connections)
-- [Community 475](Community_475.md) (5 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 869](Community_869.md) (1 shared connections)
+- [Community 4](Community_4.md) (9 shared connections)
+- [Community 23](Community_23.md) (4 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 401](Community_401.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

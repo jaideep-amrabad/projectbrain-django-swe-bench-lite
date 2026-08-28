@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_valid_form_with_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **POST valid data to a form using multiple templates** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_inactive_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **An inactive user may login if the authenticate backend allows it.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 511](Community_511.md) (1 shared connections)
+- [Community 513](Community_513.md) (1 shared connections)
 
 ## Source Files
 

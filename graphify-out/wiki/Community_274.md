@@ -1,36 +1,31 @@
 # Community 274
 
-> 13 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **FakePostGISOperations** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **TestPostGISVersionCheck** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **FakeConnection** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_get_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_no_version_number()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_valid_version_numbers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_version_classic_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_version_dev_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_version_loose_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **._get_postgis_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **The PostGIS version check parses correctly the version numbers** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **.nodata_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.datatype()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **._flush()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **setter** (1 connections)
+- **Return the nodata value for this band, or None if it isn't set.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **Set the nodata value for this band.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **Return the GDAL Pixel Datatype for this band.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **Read or writes pixel values for this band. Blocks of data can be accessed by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **Call the flush method on the Band's parent raster and force a refresh of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 205](Community_205.md) (1 shared connections)
-- [Community 897](Community_897.md) (1 shared connections)
+- [Community 191](Community_191.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

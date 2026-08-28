@@ -1,63 +1,52 @@
 # Community 475
 
-> 31 nodes · cohesion 0.10
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **resolve_url()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- **ResolveUrlTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **resolve_url/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **UnimportantThing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/models.py`
-- **.get_default_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_default_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.test_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_view_function()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.get_default_redirect_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **Return the default redirect URL.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.test_domain()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_full_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_lazy_reverse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_non_view_callable_raises_no_reverse_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_relative_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_url_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_valid_view_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **resolve_url/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/urls.py`
-- **some_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/urls.py`
-- **Return a URL appropriate for the arguments passed. The arguments could be: * A…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/models.py`
-- **Tests for the resolve_url() function.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **Passing a URL path to resolve_url() results in the same url.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **Passing a relative URL path to resolve_url() results in the same url.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **Passing a full URL to resolve_url() results in the same url.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- *... and 6 more nodes in this community*
+- **Reporter** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- **AtomicErrorsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **DurableTestsBase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **AtomicMergeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **NonAutocommitTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_allows_queries_after_fixing_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_orm_query_after_error_and_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_prevents_queries_in_broken_transaction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_prevents_queries_in_broken_transaction_after_client_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_orm_query_without_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- **.test_atomic_prevents_calling_transaction_methods()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_prevents_setting_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_merged_inner_savepoint_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_merged_outer_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_nested_both_durable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_nested_inner_durable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_nested_outer_durable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_sequence_of_durables()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **Test merging transactions with savepoint=False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **ORM queries are allowed after an error and a rollback in non-autocommit mode…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 400](Community_400.md) (6 shared connections)
-- [Community 740](Community_740.md) (5 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 607](Community_607.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
-- [Community 241](Community_241.md) (1 shared connections)
-- [Community 182](Community_182.md) (1 shared connections)
-- [Community 448](Community_448.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 4](Community_4.md) (13 shared connections)
+- [Community 23](Community_23.md) (3 shared connections)
+- [Community 1017](Community_1017.md) (1 shared connections)
+- [Community 369](Community_369.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- `raw/code/hyd-evaluation/django-django/tests/resolve_url/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/resolve_url/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 70 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 39 (85%)
+- INFERRED: 7 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

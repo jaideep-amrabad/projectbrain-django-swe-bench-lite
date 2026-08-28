@@ -1,34 +1,35 @@
 # Community 963
 
-> 8 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **ComboField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **ComboFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_combofield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
-- **.test_combofield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
-- **A Field whose clean() method calls multiple Field clean() methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **Validate the given value against all of self.fields, which is a list of Field…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **MinValueValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **DecimalValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.test_decimal_equality()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **Validate that the input does not exceed the maximum number of digits expected,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 96](Community_96.md) (2 shared connections)
-- [Community 382](Community_382.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 161](Community_161.md) (6 shared connections)
+- [Community 710](Community_710.md) (2 shared connections)
+- [Community 432](Community_432.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
+- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (86%)
-- INFERRED: 2 (14%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

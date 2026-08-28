@@ -1,48 +1,44 @@
 # Community 724
 
-> 19 nodes · cohesion 0.20
+> 14 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **test_natural.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **deserialize()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **serialize()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **fk_as_pk_natural_key_not_called()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **natural_pk_mti_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **pk_with_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **serializerTest()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **forward_ref_fk_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **forward_ref_fk_with_error_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **forward_ref_m2m_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **forward_ref_m2m_with_error_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **natural_key_serializer_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **natural_key_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **NaturalKeySerializerTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **Serialize a queryset (or any iterator that returns database objects) using a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **Deserialize a stream or a string. Return an iterator that yields ``(obj,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **The deserializer works with natural keys when the primary key has a default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **The deserializer doesn't rely on natural keys when a model has a custom primary…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
-- **If serializing objects in a multi-table inheritance relationship using natural…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **MultiPartParser** (21 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **MultiParserTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.handle_file_complete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.sanitize_file_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **._close_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.test_bad_type_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_empty_upload_handlers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_invalid_content_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_negative_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_sanitize_file_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_sanitize_invalid_file_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **Handle all the signaling that takes place when a file is complete.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Sanitize the filename of an upload. Remove all possible path separators, even…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **An RFC 7578 multipart/form-data parser. ``MultiValueDict.parse()`` reads the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 820](Community_820.md) (3 shared connections)
-- [Community 972](Community_972.md) (3 shared connections)
-- [Community 335](Community_335.md) (1 shared connections)
-- [Community 153](Community_153.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 401](Community_401.md) (3 shared connections)
+- [Community 61](Community_61.md) (3 shared connections)
+- [Community 82](Community_82.md) (2 shared connections)
+- [Community 424](Community_424.md) (1 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 191](Community_191.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 30 (83%)
+- INFERRED: 6 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

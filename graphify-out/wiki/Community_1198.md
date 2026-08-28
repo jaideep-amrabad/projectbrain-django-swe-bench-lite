@@ -1,20 +1,20 @@
 # Community 1198
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_send_messages_zero_sent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **A message isn't sent if it doesn't have any recipients.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **MediumBlobField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- **A MySQL BinaryField that uses a different blob size.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
 
 ## Relationships
 
-- [Community 113](Community_113.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
 
 ## Audit Trail
 

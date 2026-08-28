@@ -1,47 +1,40 @@
 # Community 489
 
-> 24 nodes · cohesion 0.16
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **TimesinceTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **setup** (20 connections)
-- **.test_timesince12()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince13()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince20()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **requires_tz_support** (2 connections)
-- **.test_timesince01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince17()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince18()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince19()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **#20246 - \xa0 in output avoids line-breaks between value and unit** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **TemplateStringsTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_csrf_token()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.check_tokens_equivalent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_django_html_escaping()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_from_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_get_template_nonexistent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_get_template_syntax_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_html_escaping()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_no_directory_traversal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_non_ascii_characters()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 86](Community_86.md) (3 shared connections)
+- [Community 328](Community_328.md) (2 shared connections)
+- [Community 897](Community_897.md) (1 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 401](Community_401.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 22 (92%)
+- INFERRED: 2 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

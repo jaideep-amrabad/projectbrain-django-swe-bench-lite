@@ -1,62 +1,77 @@
 # Community 98
 
-> 32 nodes · cohesion 0.08
+> 117 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **SettingsTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.settings()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **clear_script_prefix()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **MediaURLStaticURLPrefixTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.set_script_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_add_script_name_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_not_prefixed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_override_settings_nested()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_context_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_incorrect_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_override_settings_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.disable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_class_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_no_secret_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_override_doesnt_leak()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_settings_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_settings_delete_wrapped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_signal_callback_context_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_signal_callback_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **Unset the script prefix for the current thread.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **patch** (1 connections)
-- **requires_tz_support** (1 connections)
-- **Allow deletion of a setting in an overridden settings set (#18824)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **override_settings uses the actual _wrapped attribute at runtime, not when it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- *... and 7 more nodes in this community*
+- **MigrationLoader** (79 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **MigrationWriter** (36 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **makemigrations.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **get_docs_version()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
+- **writer.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **Migration** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **squashmigrations.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- **autodetector.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **MigrationOptimizer** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
+- **Command** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **optimizemigration.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/optimizemigration.py`
+- **questioner.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **migrations/utils.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **.handle()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **migration.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **run_formatters()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **.handle_merge()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **NonInteractiveMigrationQuestioner** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- **DatabaseValidation** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/validation.py`
+- **.build_graph()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **SwappableTuple** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **.write_migration_files()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **sqlmigrate.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlmigrate.py`
+- **.handle()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- *... and 92 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (8 shared connections)
-- [Community 400](Community_400.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 788](Community_788.md) (3 shared connections)
-- [Community 494](Community_494.md) (2 shared connections)
-- [Community 495](Community_495.md) (1 shared connections)
-- [Community 480](Community_480.md) (1 shared connections)
-- [Community 280](Community_280.md) (1 shared connections)
-- [Community 405](Community_405.md) (1 shared connections)
-- [Community 939](Community_939.md) (1 shared connections)
-- [Community 642](Community_642.md) (1 shared connections)
-- [Community 607](Community_607.md) (1 shared connections)
+- [Community 69](Community_69.md) (32 shared connections)
+- [Community 4](Community_4.md) (24 shared connections)
+- [Community 85](Community_85.md) (24 shared connections)
+- [Community 2](Community_2.md) (22 shared connections)
+- [Community 31](Community_31.md) (20 shared connections)
+- [Community 1](Community_1.md) (13 shared connections)
+- [Community 57](Community_57.md) (12 shared connections)
+- [Community 94](Community_94.md) (11 shared connections)
+- [Community 16](Community_16.md) (9 shared connections)
+- [Community 193](Community_193.md) (8 shared connections)
+- [Community 142](Community_142.md) (8 shared connections)
+- [Community 401](Community_401.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/optimizemigration.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlmigrate.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/validation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/version.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (74%)
-- INFERRED: 18 (26%)
+- EXTRACTED: 430 (89%)
+- INFERRED: 53 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

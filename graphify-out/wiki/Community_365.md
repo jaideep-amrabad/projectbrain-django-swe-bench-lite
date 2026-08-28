@@ -1,51 +1,54 @@
 # Community 365
 
-> 31 nodes · cohesion 0.11
+> 28 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **OnDeleteTests** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **create_a()** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **.test_auto()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_auto_nullable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cascade_from_child()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cascade_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cascade_nullable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_do_nothing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_do_nothing_qscount()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_o2o_setnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_protect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_protect_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_protect_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_restrict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_restrict_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_restrict_path_cascade_direct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_restrict_path_cascade_indirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setdefault()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setdefault_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setnull_from_child()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setnull_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setvalue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- *... and 6 more nodes in this community*
+- **AsyncRelatedManagersOperationTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **SimpleModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- **async/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- **AsyncModelOperationTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **test_async_related_managers.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **test_async_model_methods.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **ManyToManyModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- **RelatedModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- **.test_acontains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **.test_adelete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **.test_arefresh_from_db()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **.test_asave()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aadd()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aadd_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aclear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aclear_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_acreate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_acreate_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aget_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aget_or_create_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aremove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aremove_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 336](Community_336.md) (19 shared connections)
-- [Community 386](Community_386.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 4](Community_4.md) (10 shared connections)
+- [Community 409](Community_409.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (79%)
-- INFERRED: 15 (21%)
+- EXTRACTED: 48 (89%)
+- INFERRED: 6 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

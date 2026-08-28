@@ -1,36 +1,53 @@
 # Community 711
 
-> 13 nodes · cohesion 0.18
+> 18 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Choices** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **TextChoices** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **IntegerChoices** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **Class for creating enumerated choices.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.do_not_call_in_templates()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **DynamicClassAttribute** (1 connections)
-- **int** (1 connections)
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **str** (1 connections)
-- **Use value when cast to str, so that Choices set as model instance attributes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **._generate_next_value_()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **RequestContext** (30 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **RequestContextTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **.test_url_namespace01()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url_namespace02()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url_namespace_explicit_current_app()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url_namespace_no_current_app()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_copy_request_context_twice()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **.test_include_only()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **.test_url_namespace03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_modify_context_and_render()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **.test_stack_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **.test_context_comparable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **This subclass of template.Context automatically populates itself using the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.bind_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.new()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **#24273 -- Copy twice shouldn't raise an exception** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **#15721 -- ``{% include %}`` and ``RequestContext`` should work together.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **Optimized RequestContext construction (#7116).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
 
 ## Relationships
 
-- [Community 972](Community_972.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 150](Community_150.md) (10 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
+- [Community 163](Community_163.md) (4 shared connections)
+- [Community 86](Community_86.md) (3 shared connections)
+- [Community 328](Community_328.md) (2 shared connections)
+- [Community 814](Community_814.md) (1 shared connections)
+- [Community 240](Community_240.md) (1 shared connections)
+- [Community 89](Community_89.md) (1 shared connections)
+- [Community 316](Community_316.md) (1 shared connections)
+- [Community 823](Community_823.md) (1 shared connections)
+- [Community 261](Community_261.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 57 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,27 +1,27 @@
 # Community 1072
 
-> 5 nodes · cohesion 0.40
+> 5 nodes · cohesion 0.80
 
 ## Key Concepts
 
-- **lookuperror_a/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
-- **A1** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
-- **A2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
-- **A3** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
-- **A4** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
+- **theme.js** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **cycleTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **initTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **setTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **setupTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

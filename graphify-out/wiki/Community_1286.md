@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_redirect_with_query_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **assertRedirects() ignores the order of query string parameters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_response_raises_multi_arg_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **A request may raise an exception with more than one required arg.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 511](Community_511.md) (1 shared connections)
+- [Community 513](Community_513.md) (1 shared connections)
 
 ## Source Files
 

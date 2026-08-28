@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **i18n_catalog.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/views/templates/i18n_catalog.js`
+- **core.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/core.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/templates/i18n_catalog.js`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/core.test.js`
 
 ## Audit Trail
 

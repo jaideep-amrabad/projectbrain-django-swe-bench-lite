@@ -1,49 +1,62 @@
 # Community 371
 
-> 30 nodes · cohesion 0.07
+> 38 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **LazyStream** (12 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **BoundaryIter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **InterBoundaryIter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **InputStreamExhausted** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **._update_unget_history()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **._find_boundary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__next__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.unget()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Exception** (2 connections)
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.read()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.tell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **No more reads are allowed from this device.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **The LazyStream wrapper allows one to get and "unget" bytes from a stream. Given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Every LazyStream must have a producer when instantiated. A producer is an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Used when the exact number of bytes to read is unimportant. Return whatever…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Used to invalidate/disable this lazy stream. Replace the producer with an empty…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- *... and 5 more nodes in this community*
+- **signing.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Signer** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **TimestampSigner** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **JSONSerializer** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **BadSignature** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.unsign()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **b64_decode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **base64_hmac()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **get_cookie_signer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **SignatureExpired** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.sign_object()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.signature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.unsign()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **sessions/serializers.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/serializers.py`
+- **b64_encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **_cookie_signer_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **dumps()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **loads()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.unsign_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.sign()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.timestamp()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.test_set_messages_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
+- **b62_decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **b62_encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.sign()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (7 shared connections)
-- [Community 400](Community_400.md) (1 shared connections)
+- [Community 401](Community_401.md) (8 shared connections)
+- [Community 538](Community_538.md) (5 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 240](Community_240.md) (3 shared connections)
+- [Community 284](Community_284.md) (2 shared connections)
+- [Community 516](Community_516.md) (2 shared connections)
+- [Community 191](Community_191.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 331](Community_331.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 470](Community_470.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/serializers.py`
+- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 90 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_reverse_lazy_decodes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **reverse_lazy() works in the test client** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_url_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Make sure that URL ;-parameters are not stripped.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 511](Community_511.md) (1 shared connections)
+- [Community 513](Community_513.md) (1 shared connections)
 
 ## Source Files
 

@@ -1,20 +1,20 @@
 # Community 1195
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_email_msg_uses_crlf()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **#23063 -- RFC-compliant messages are sent over SMTP.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **MigrateWhenFooRouter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **A router that allows migrating depending on a hint.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
 
 ## Relationships
 
-- [Community 113](Community_113.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
 
 ## Audit Trail
 

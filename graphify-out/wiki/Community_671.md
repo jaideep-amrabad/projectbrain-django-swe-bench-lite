@@ -1,40 +1,55 @@
 # Community 671
 
-> 16 nodes · cohesion 0.24
+> 65 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **null_fk/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
-- **null_fk/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **NullFkTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
-- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **Forum** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **Item** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **PropertyValue** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **SystemDetails** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **SystemInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **.test_combine_isnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **Property** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **Regression tests for proper working of ForeignKey(null=True).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **.test_null_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
+- **InspectDBTestCase** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **inspectdb/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **inspectdb/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **Meta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **InspectDBTransactionalTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **inspectdb_tables_only()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **skipUnless** (6 connections)
+- **.make_field_type_asserter()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **.test_include_materialized_views()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **.test_include_partitions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **.test_attribute_name_not_python_keyword()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **.test_char_field_db_collation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **.test_custom_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **.test_special_column_name_introspection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **.test_table_name_introspection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **.test_text_field_db_collation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **.test_unsupported_unique_together()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **.test_foreign_data_wrapper()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **.test_include_views()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **PeopleMoreData** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **inspectdb_views_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **.test_char_field_unlimited()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **.test_db_comments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **.test_digits_column_name_introspection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **.test_field_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 39](Community_39.md) (2 shared connections)
+- [Community 12](Community_12.md) (26 shared connections)
+- [Community 23](Community_23.md) (11 shared connections)
+- [Community 4](Community_4.md) (9 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 160](Community_160.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (81%)
-- INFERRED: 7 (19%)
+- EXTRACTED: 130 (94%)
+- INFERRED: 9 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,52 +1,68 @@
 # Community 516
 
-> 22 nodes · cohesion 0.14
+> 60 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.collect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.link_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.delete_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.clear_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.copy_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.set_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.is_local_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.local()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Perform the bulk of the work of collectstatic. Split off from handle() to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Copies or symlinks static files from different locations to the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Delete the given relative path using the destination storage backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Check if the target file should be deleted if it already exists.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Attempt to link ``path``** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Attempt to copy ``path`` with storage** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Set instance variables based on an options dict** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Create a prefix operator, given a binding power and a function that evaluates…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **RemovedInDjango51Warning** (65 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **Settings** (17 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **CITextTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **test_length_is.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **StaticfilesStorageDeprecationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_storages.py`
+- **CIText** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **DefaultStorageDeprecationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_storages.py`
+- **DeprecatedFieldsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- **length_is()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **CICharField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CIEmailField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CITextField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **.test_postgres_ci_fields_deprecated()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **SignerPositionalArgumentsDeprecationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_storage()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_storages.py`
+- **DeprecationTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **.test_storage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_storages.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **.test_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_storages.py`
+- **.test_settings_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_storages.py`
+- **.test_use_both_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_storages.py`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 55](Community_55.md) (3 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 213](Community_213.md) (1 shared connections)
-- [Community 169](Community_169.md) (1 shared connections)
-- [Community 173](Community_173.md) (1 shared connections)
-- [Community 263](Community_263.md) (1 shared connections)
+- [Community 4](Community_4.md) (28 shared connections)
+- [Community 0](Community_0.md) (11 shared connections)
+- [Community 401](Community_401.md) (7 shared connections)
+- [Community 10](Community_10.md) (6 shared connections)
+- [Community 287](Community_287.md) (6 shared connections)
+- [Community 495](Community_495.md) (4 shared connections)
+- [Community 115](Community_115.md) (4 shared connections)
+- [Community 295](Community_295.md) (4 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 572](Community_572.md) (2 shared connections)
+- [Community 371](Community_371.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_storages.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 140 (77%)
+- INFERRED: 43 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

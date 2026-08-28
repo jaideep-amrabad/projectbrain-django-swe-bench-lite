@@ -1,74 +1,61 @@
 # Community 94
 
-> 98 nodes · cohesion 0.03
+> 79 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **decorators/tests.py** (48 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **method_decorator()** (34 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **patch_vary_headers()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **MethodDecoratorTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **user_passes_test()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
-- **middleware/views.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
-- **PasswordResetConfirmView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **staff_member_required()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/decorators.py`
-- **no_append_slash()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
-- **views/decorators.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/decorators.py`
-- **.dispatch()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.dispatch()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **admin_views/views.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/views.py`
-- **HttpRequestProxy** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **Admin2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **DecoratorsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **NeverCacheDecoratorTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **vary.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/vary.py`
-- **vary_on_headers()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/vary.py`
-- **.test_cache_control_decorator_http_request_proxy()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_preserve_attributes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_never_cache_decorator_http_request_proxy()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.catch_all_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **decorators/clickjacking.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- *... and 73 more nodes in this community*
+- **MigrationAutodetector** (71 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._detect_changes()** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.add_operation()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **resolve_relation()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **.generate_altered_fields()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._get_dependencies_for_foreign_key()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.through()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.generate_created_models()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.deep_deconstruct()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_renamed_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._build_migration_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.changes()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_added_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_altered_foo_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_deleted_models()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_removed_altered_foo_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_through_model_map()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._get_altered_foo_together_operations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.parse_number()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._resolve_dependency()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._sort_migrations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.arrange_for_graph()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.check_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.create_renamed_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_added_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- *... and 54 more nodes in this community*
 
 ## Relationships
 
-- [Community 400](Community_400.md) (20 shared connections)
-- [Community 46](Community_46.md) (10 shared connections)
-- [Community 69](Community_69.md) (10 shared connections)
-- [Community 106](Community_106.md) (9 shared connections)
-- [Community 3](Community_3.md) (8 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 740](Community_740.md) (6 shared connections)
-- [Community 19](Community_19.md) (4 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 132](Community_132.md) (4 shared connections)
-- [Community 607](Community_607.md) (4 shared connections)
-- [Community 175](Community_175.md) (3 shared connections)
+- [Community 98](Community_98.md) (11 shared connections)
+- [Community 468](Community_468.md) (8 shared connections)
+- [Community 16](Community_16.md) (5 shared connections)
+- [Community 148](Community_148.md) (4 shared connections)
+- [Community 217](Community_217.md) (3 shared connections)
+- [Community 354](Community_354.md) (2 shared connections)
+- [Community 283](Community_283.md) (2 shared connections)
+- [Community 733](Community_733.md) (1 shared connections)
+- [Community 398](Community_398.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 551](Community_551.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/vary.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/extra_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 260 (96%)
-- INFERRED: 10 (4%)
+- EXTRACTED: 187 (92%)
+- INFERRED: 17 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

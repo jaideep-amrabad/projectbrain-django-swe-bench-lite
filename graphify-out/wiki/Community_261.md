@@ -1,54 +1,51 @@
 # Community 261
 
-> 48 nodes · cohesion 0.05
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **BoundField** (31 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **BoundWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_widget()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.subwidgets()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_hidden()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_textarea()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.label_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__str__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.build_widget_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.legend_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.css_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.is_hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.use_fieldset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **Return a string of HTML for representing this as an <input type="text">.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- *... and 23 more nodes in this community*
+- **BaseContext** (22 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **RenderContext** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **ContextDict** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__eq__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.flatten()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.push()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.push_state()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.new()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **._reset_dicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.set_upward()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.test_render_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__copy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (8 shared connections)
-- [Community 96](Community_96.md) (2 shared connections)
-- [Community 353](Community_353.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 160](Community_160.md) (1 shared connections)
-- [Community 120](Community_120.md) (1 shared connections)
-- [Community 232](Community_232.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 19](Community_19.md) (5 shared connections)
+- [Community 711](Community_711.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
 
 ## Audit Trail
 
-- EXTRACTED: 70 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 57 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,65 +1,59 @@
 # Community 106
 
-> 129 nodes · cohesion 0.03
+> 80 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **cache/tests.py** (93 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **learn_cache_key()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **decorators/cache.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- **middleware/cache.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **get_cache_key()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **CacheMiddlewareTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **FetchFromCacheMiddleware** (15 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **UpdateCacheMiddleware** (15 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **CacheUtils** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **CacheMiddleware** (12 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **cache_page()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- **CacheI18nTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **make_template_fragment_key()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- **empty_response()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **TestMakeTemplateFragmentKey** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.process_response()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **patch_cache_control()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **cache_control()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- **TestWithTemplateResponse** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **patch_response_headers()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **cache/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/models.py`
-- **CacheHandlerTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **CacheHEADTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **hello_world_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **CacheHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- *... and 104 more nodes in this community*
+- **.run_manage()** (91 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **CommandTypes** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageFullPathDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ColorCommand** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command_multiple_apps()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_base_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_base_command_with_wrong_option()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_help_commands()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_label_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_label_command_multiple_label()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_noargs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_specific_help()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command_invalid_app_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command_no_apps()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command_some_invalid_app_labels()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- *... and 55 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (18 shared connections)
-- [Community 46](Community_46.md) (16 shared connections)
-- [Community 0](Community_0.md) (14 shared connections)
-- [Community 132](Community_132.md) (14 shared connections)
-- [Community 400](Community_400.md) (14 shared connections)
-- [Community 1](Community_1.md) (13 shared connections)
-- [Community 94](Community_94.md) (9 shared connections)
-- [Community 3](Community_3.md) (8 shared connections)
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 271](Community_271.md) (6 shared connections)
-- [Community 662](Community_662.md) (6 shared connections)
-- [Community 85](Community_85.md) (5 shared connections)
+- [Community 83](Community_83.md) (26 shared connections)
+- [Community 179](Community_179.md) (20 shared connections)
+- [Community 304](Community_304.md) (14 shared connections)
+- [Community 279](Community_279.md) (12 shared connections)
+- [Community 636](Community_636.md) (10 shared connections)
+- [Community 583](Community_583.md) (9 shared connections)
+- [Community 660](Community_660.md) (9 shared connections)
+- [Community 661](Community_661.md) (8 shared connections)
+- [Community 637](Community_637.md) (8 shared connections)
+- [Community 12](Community_12.md) (8 shared connections)
+- [Community 31](Community_31.md) (6 shared connections)
+- [Community 756](Community_756.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 382 (95%)
-- INFERRED: 21 (5%)
+- EXTRACTED: 247 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

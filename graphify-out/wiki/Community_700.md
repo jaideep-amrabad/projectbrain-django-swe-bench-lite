@@ -1,47 +1,35 @@
 # Community 700
 
-> 18 nodes · cohesion 0.11
+> 8 nodes · cohesion 0.46
 
 ## Key Concepts
 
-- **NoYamlSerializerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **YamlImportModuleMock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_serializer_pyyaml_error_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_deserializer_pyyaml_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_dumpdata_pyyaml_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_unicode_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Provides a wrapped import_module function to simulate yaml ImportError In order…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Not having pyyaml installed provides a misleading error Refs: #12756** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Removes imported yaml and stubs importlib.import_module** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Puts yaml back if necessary** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Using yaml serializer without pyyaml raises ImportError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Using yaml deserializer without pyyaml raises ImportError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Calling dumpdata produces an error when yaml package missing** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **model_package/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **model_package/models/article.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
+- **publication.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/publication.py`
+- **model_package/models/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/__init__.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
+- **Publication** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/publication.py`
+- **Site** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
+- **Advertisement** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
 
 ## Relationships
 
-- [Community 578](Community_578.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 972](Community_972.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 218](Community_218.md) (1 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
+- [Community 4](Community_4.md) (8 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 1050](Community_1050.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_package/models/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_package/models/publication.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (88%)
-- INFERRED: 3 (12%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

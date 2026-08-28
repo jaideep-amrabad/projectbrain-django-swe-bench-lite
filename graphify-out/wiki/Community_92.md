@@ -1,63 +1,52 @@
 # Community 92
 
-> 96 nodes · cohesion 0.03
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **test_client/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **middleware_exceptions/middleware.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **utils/decorators.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **BaseMiddleware** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **async_only_middleware()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **decorator_from_middleware()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **AsyncClientTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **RequestFactoryTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **AsyncRequestFactoryTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **get_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
-- **decorator_from_middleware_with_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **sync_and_async_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **sync_only_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **decorators/gzip.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
-- **AsyncNoTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **AsyncProcessExceptionMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **AsyncProcessViewMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **AsyncTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **NotSyncOrAsyncMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **PaymentMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **CSRFEnabledClientTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **make_middleware_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **_multi_decorate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **async_payment_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- **DecoratedPaymentMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- *... and 71 more nodes in this community*
+- **inspectapp/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **ogrinspect()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- **OGRInspectTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **inspectapp/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
+- **get_ogr_db_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **AllOGRFields** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
+- **.test_time_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **Fields3D** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
+- **.test_date_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **.test_management_command()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **.test_mapping_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **.test_poly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **.test_poly_multi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **Helper routine for `ogrinspect` that generates GeoDjango models corresponding…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- **Given a data source (either a string or a DataSource object) and a string model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
+- **Construct the DB string that GDAL will use to inspect the database. GDAL will…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **# TODO: Support Oracle (OCI).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
 
 ## Relationships
 
-- [Community 400](Community_400.md) (11 shared connections)
-- [Community 46](Community_46.md) (10 shared connections)
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 3](Community_3.md) (6 shared connections)
-- [Community 10](Community_10.md) (5 shared connections)
-- [Community 175](Community_175.md) (4 shared connections)
-- [Community 106](Community_106.md) (3 shared connections)
-- [Community 94](Community_94.md) (3 shared connections)
-- [Community 124](Community_124.md) (3 shared connections)
-- [Community 225](Community_225.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
+- [Community 4](Community_4.md) (5 shared connections)
+- [Community 73](Community_73.md) (4 shared connections)
+- [Community 191](Community_191.md) (4 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 85](Community_85.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 487](Community_487.md) (1 shared connections)
+- [Community 160](Community_160.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 213 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 49 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

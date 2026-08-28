@@ -1,70 +1,63 @@
 # Community 81
 
-> 105 nodes · cohesion 0.03
+> 79 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **uploadedfile.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **File** (27 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **file_uploads/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **files/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **TemporaryUploadedFile** (26 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **FileTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **files/base.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **model_fields/test_filefield.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **InMemoryUploadedFile** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **UploadedFile** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **core/files/__init__.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/__init__.py`
-- **test_inmemory_storage.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
-- **field_tests/test_imagefield.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **temp.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
-- **FileProxyMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
-- **files/utils.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
-- **images.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **TemporaryFile** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
-- **.__iter__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **NoNameFileTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **TemporaryUploadedFileTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **endswith_cr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **endswith_lf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **equals_lf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- *... and 80 more nodes in this community*
+- **TestGeneralAggregate** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **ArrayAgg** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **JSONBAgg** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **StringAgg** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **.test_default_argument()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **OrderableAggMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
+- **StatTestModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **TestAggregateDistinct** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_empty_result_set()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_string_agg_array_agg_filter_in_subquery()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **BitAnd** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **BitOr** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **BitXor** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **.test_string_agg_array_agg_ordering_in_subquery()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **BoolAnd** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **BoolOr** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **.test_array_agg_filter_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_array_agg_filter_slice()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_jsonb_agg_charfield_ordering()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_string_agg_charfield_ordering()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_array_agg_jsonfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_array_agg_jsonfield_ordering()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_jsonb_agg_default_encoded_json_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_jsonb_agg_default_str_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_jsonb_agg_jsonfield_ordering()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- *... and 54 more nodes in this community*
 
 ## Relationships
 
-- [Community 287](Community_287.md) (18 shared connections)
-- [Community 3](Community_3.md) (17 shared connections)
-- [Community 1](Community_1.md) (16 shared connections)
-- [Community 60](Community_60.md) (16 shared connections)
-- [Community 231](Community_231.md) (13 shared connections)
-- [Community 54](Community_54.md) (11 shared connections)
-- [Community 2](Community_2.md) (10 shared connections)
-- [Community 400](Community_400.md) (7 shared connections)
-- [Community 819](Community_819.md) (6 shared connections)
-- [Community 296](Community_296.md) (5 shared connections)
-- [Community 486](Community_486.md) (5 shared connections)
-- [Community 10](Community_10.md) (5 shared connections)
+- [Community 10](Community_10.md) (21 shared connections)
+- [Community 8](Community_8.md) (13 shared connections)
+- [Community 38](Community_38.md) (11 shared connections)
+- [Community 87](Community_87.md) (9 shared connections)
+- [Community 15](Community_15.md) (8 shared connections)
+- [Community 28](Community_28.md) (6 shared connections)
+- [Community 11](Community_11.md) (5 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 23](Community_23.md) (4 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 516](Community_516.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 
 ## Audit Trail
 
-- EXTRACTED: 293 (95%)
-- INFERRED: 15 (5%)
+- EXTRACTED: 155 (65%)
+- INFERRED: 84 (35%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,33 +1,31 @@
 # Community 961
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **model_regress/test_state.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_state.py`
-- **ModelState** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **ModelStateFieldsCacheDescriptor** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **ModelStateTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_state.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Store model instance state.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.test_fields_cache_descriptor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_state.py`
+- **DeletionMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.delete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_success_url()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.form_valid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.post()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **Provide the ability to delete objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **Call the delete() method on the fetched object and then redirect to the success…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **If the form is valid, redirect to the supplied URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 9](Community_9.md) (4 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_regress/test_state.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,42 +1,51 @@
 # Community 581
 
-> 19 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **BasicTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_swappable_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_swappable_user_bad_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_swappable_user_nonexistent_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_get_user_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_superuser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_user_no_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_user_verbose_names_translatable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_superuser_no_email_or_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_unicode_username()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **The current user model must point to an installed model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Default User model verbose names are translatable (#19945)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Users can be created and can set their password** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Users can be created without an email** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Check the creation and properties of a superuser** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **The current user model can be retrieved** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **The current user model can be swapped out for another** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **The alternate user setting must point to something in the format app.model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **technical_404_response()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **default_urlconf()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **get_default_exception_reporter_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **CustomExceptionReporterFilterTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **builtin_template_path()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.test_template_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **get_exception_reporter_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.html_template_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.text_template_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.test_cleansed_substitute_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_hidden_settings_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_setting_allows_custom_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **The templates are loaded directly, not via a template loader, and should be…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Return a path to a builtin template. Avoid calling this function at the module…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Create a technical 404 error response. `exception` is the Http404.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Create an empty URLconf 404 error response.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 199](Community_199.md) (5 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 401](Community_401.md) (6 shared connections)
+- [Community 105](Community_105.md) (5 shared connections)
+- [Community 138](Community_138.md) (4 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 98](Community_98.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 168](Community_168.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 413](Community_413.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

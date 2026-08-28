@@ -4,75 +4,75 @@
 
 ## Key Concepts
 
-- **Context** (255 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **Template** (144 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **ContextTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **TemplateTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **forms_tests/views.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/views.py`
-- **MultipleLocaleActivationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
-- **FlatpageTemplateTagTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
-- **InclusionTagTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **SimpleTagTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **GetAdminLogTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.get_template()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.compile_nodelist()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **RenderingTemplatesWithPercentSigns** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **MultipleLocaleActivationBlockTranslateTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **MultipleLocaleActivationTransTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **CallableVariablesTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
-- **URLTagTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **TranslationBlockTranslateTagTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.get_template()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_tz_template_context_processor()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **Doodad** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **csrf_token_error_handler()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **form_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/views.py`
-- **MiscTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **post_then_get_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **django/urls/__init__.py** (228 connections) — `raw/code/hyd-evaluation/django-django/django/urls/__init__.py`
+- **resolvers.py** (49 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **include()** (47 connections) — `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
+- **get_language()** (41 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **override** (34 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **views/i18n.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **URLResolver** (32 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **get_resolver()** (31 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **contrib/sitemaps/__init__.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **NoReverseMatch** (28 connections) — `raw/code/hyd-evaluation/django-django/django/urls/exceptions.py`
+- **contrib/sitemaps/views.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- **http_date()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **urls/base.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **paginator.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **urlpatterns/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **view_tests/tests/test_i18n.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **urls/i18n.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/i18n.py`
+- **admin_custom_urls/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **i18n_patterns()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/i18n.py`
+- **admin_custom_urls/models.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **pagination/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **view_tests/urls.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/urls.py`
+- **translate_url()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **conf.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
+- **Resolver404** (13 connections) — `raw/code/hyd-evaluation/django-django/django/urls/exceptions.py`
 - *... and 191 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (53 shared connections)
-- [Community 108](Community_108.md) (41 shared connections)
-- [Community 12](Community_12.md) (20 shared connections)
-- [Community 175](Community_175.md) (17 shared connections)
-- [Community 43](Community_43.md) (15 shared connections)
-- [Community 46](Community_46.md) (14 shared connections)
-- [Community 26](Community_26.md) (11 shared connections)
-- [Community 400](Community_400.md) (10 shared connections)
-- [Community 3](Community_3.md) (9 shared connections)
-- [Community 547](Community_547.md) (9 shared connections)
-- [Community 10](Community_10.md) (7 shared connections)
-- [Community 151](Community_151.md) (6 shared connections)
+- [Community 2](Community_2.md) (86 shared connections)
+- [Community 401](Community_401.md) (81 shared connections)
+- [Community 451](Community_451.md) (49 shared connections)
+- [Community 41](Community_41.md) (31 shared connections)
+- [Community 30](Community_30.md) (24 shared connections)
+- [Community 1](Community_1.md) (24 shared connections)
+- [Community 9](Community_9.md) (24 shared connections)
+- [Community 46](Community_46.md) (22 shared connections)
+- [Community 4](Community_4.md) (19 shared connections)
+- [Community 308](Community_308.md) (17 shared connections)
+- [Community 0](Community_0.md) (17 shared connections)
+- [Community 59](Community_59.md) (17 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/urls/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/urls/i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/sitemaps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/views/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 697 (97%)
-- INFERRED: 19 (3%)
+- EXTRACTED: 1044 (97%)
+- INFERRED: 33 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

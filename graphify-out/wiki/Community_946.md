@@ -1,33 +1,31 @@
 # Community 946
 
-> 8 nodes · cohesion 0.43
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **sessions.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
-- **check_session_cookie_httponly()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
-- **check_session_cookie_secure()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
-- **_session_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
-- **_session_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
-- **register** (2 connections)
-- **add_httponly_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
-- **add_session_cookie_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **check_database_backends()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/database.py`
+- **.test_mysql_strict_mode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
+- **.test_database_checks_called()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
+- **register** (1 connections)
+- **patch** (1 connections)
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 61](Community_61.md) (3 shared connections)
-- [Community 217](Community_217.md) (1 shared connections)
-- [Community 400](Community_400.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
+- [Community 131](Community_131.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/database.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (90%)
+- INFERRED: 1 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

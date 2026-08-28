@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **GetFormsetsArgumentCheckingAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.change_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **UndeletableObjectAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.change_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.add_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_formsets_with_inlines()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **TestDbSignatureTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
+- **.test_get_test_db_clone_settings_not_supported()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
+- **object** (1 connections)
+- **skipUnless** (1 connections)
+- **.test_custom_test_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
+- **.test_get_test_db_clone_settings_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
 
 ## Relationships
 
-- [Community 65](Community_65.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
 
 ## Audit Trail
 

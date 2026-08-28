@@ -1,6 +1,6 @@
 # Community 316
 
-> 117 nodes · cohesion 0.02
+> 105 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -9,7 +9,6 @@
 - **SessionTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 - **RequestMethodStringDataTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 - **ContextTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **ReadLimitedStreamTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 - **AssertTemplateUsedTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 - **PayloadEncodingTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 - **TestDataMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
@@ -29,22 +28,23 @@
 - **.test_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 - **.test_contextlist_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 - **.test_contextlist_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- *... and 92 more nodes in this community*
+- **.test_login_different_client()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- *... and 80 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (15 shared connections)
-- [Community 2](Community_2.md) (12 shared connections)
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 400](Community_400.md) (5 shared connections)
-- [Community 225](Community_225.md) (4 shared connections)
-- [Community 11](Community_11.md) (4 shared connections)
+- [Community 12](Community_12.md) (14 shared connections)
+- [Community 4](Community_4.md) (12 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 401](Community_401.md) (5 shared connections)
+- [Community 223](Community_223.md) (4 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 17](Community_17.md) (4 shared connections)
 - [Community 46](Community_46.md) (4 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 357](Community_357.md) (2 shared connections)
-- [Community 247](Community_247.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 358](Community_358.md) (2 shared connections)
+- [Community 246](Community_246.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
 
 ## Source Files
 
@@ -56,7 +56,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 213 (98%)
+- EXTRACTED: 200 (98%)
 - INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 

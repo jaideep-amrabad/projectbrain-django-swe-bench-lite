@@ -1,43 +1,49 @@
 # Community 528
 
-> 21 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **devDependencies** (7 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **package.json** (5 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **scripts** (3 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **eslint** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-cli** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-contrib-qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **puppeteer** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **engines** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **eslint** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-cli** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **grunt-contrib-qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **puppeteer** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **npm** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **name** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **private** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **pretest** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
-- **test** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **ModelInheritanceTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **MixinModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Mixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.test_abstract_parent_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_init_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_mixin_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_set_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.test_abstract()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_create_copy_with_inherited_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_custompk_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_inherited_ordering_pk_desc()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_meta_fields_and_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_model_with_distinct_accessors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_model_with_distinct_related_query_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_queryset_class_getitem()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_reverse_relation_for_different_hierarchy_tree()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_shadow_parent_attribute_with_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_shadow_parent_method_with_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_shadow_parent_property_with_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 368](Community_368.md) (18 shared connections)
+- [Community 74](Community_74.md) (3 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 1047](Community_1047.md) (1 shared connections)
+- [Community 1056](Community_1056.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/package.json`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 30 (65%)
+- INFERRED: 16 (35%)
 - AMBIGUOUS: 0 (0%)
 
 ---

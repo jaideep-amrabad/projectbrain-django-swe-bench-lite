@@ -1,51 +1,58 @@
 # Community 387
 
-> 27 nodes · cohesion 0.07
+> 31 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **FlatpageMiddlewareTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **FlatpageMiddlewareAppendSlashTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_redirect_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_redirect_fallback_flatpage_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_redirect_fallback_flatpage_special_chars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_redirect_fallback_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_redirect_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_redirect_view_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_fallback_authenticated_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_fallback_flatpage_special_chars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_fallback_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_view_authenticated_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_view_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A flatpage with special chars in the URL can be served by the fallback…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A flatpage served by the middleware can require authentication** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A flatpage can be served through a view and should add a slash** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A nonexistent flatpage raises 404 when served through a view and should not add…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A flatpage can be served by the fallback middleware and should add a slash** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A nonexistent flatpage raises a 404 when served by the fallback middleware and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A flatpage at / should not cause a redirect loop when APPEND_SLASH is set** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A flatpage can be served through a view, even when the middleware is in use** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A nonexistent flatpage raises 404 when served through a view, even when the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A flatpage served through a view can require authentication** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- *... and 2 more nodes in this community*
+- **DeletionTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **Avatar** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **noop()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **M** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **AvatarProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **.test_large_deletes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **.test_can_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_cannot_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_queryset_delete_returns_num_rows()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_instance_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_large_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_model_delete_returns_num_rows()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_only_referenced_fields_selected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_pk_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_proxied_model_duplicate_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **If the number of objects > chunk size, deletion still occurs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **.test_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_delete_with_keeping_parents()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_delete_with_keeping_parents_relationships()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_deletion_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_hidden_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_large_delete_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_relational_post_delete_signals_happen_before_parent_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 400](Community_400.md) (4 shared connections)
-- [Community 84](Community_84.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
+- [Community 336](Community_336.md) (17 shared connections)
+- [Community 695](Community_695.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 366](Community_366.md) (2 shared connections)
+- [Community 236](Community_236.md) (2 shared connections)
+- [Community 571](Community_571.md) (1 shared connections)
+- [Community 127](Community_127.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 42 (68%)
+- INFERRED: 20 (32%)
 - AMBIGUOUS: 0 (0%)
 
 ---

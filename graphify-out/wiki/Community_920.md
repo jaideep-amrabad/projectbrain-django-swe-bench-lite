@@ -1,35 +1,33 @@
 # Community 920
 
-> 10 nodes · cohesion 0.38
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **TestDbCreationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **get_connection_copy()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **.test_mark_expected_failures_and_skips_call()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **patch** (5 connections)
-- **.test_migrate_test_setting_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **.test_migrate_test_setting_false_ensure_schema()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **.test_migrate_test_setting_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **object** (2 connections)
-- **dict** (1 connections)
-- **mark_expected_failures_and_skips() isn't called unless…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **DjangoAdminNoSettings** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_commands_with_invalid_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **no settings: django-admin builtin commands fail if settings file (from…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **A series of tests for django-admin when there is no settings.py file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **no settings: django-admin builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Commands that don't require settings succeed if the settings file doesn't exist.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 260](Community_260.md) (5 shared connections)
-- [Community 93](Community_93.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 83](Community_83.md) (8 shared connections)
+- [Community 179](Community_179.md) (4 shared connections)
+- [Community 304](Community_304.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 23 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

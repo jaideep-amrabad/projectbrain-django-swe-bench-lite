@@ -1,54 +1,60 @@
 # Community 135
 
-> 65 nodes · cohesion 0.04
+> 60 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **DatabaseOperations** (63 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.quote_name()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **._convert_sql_to_tz()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **._get_no_autofield_sequence_name()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **InsertVar** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
-- **.sequence_reset_by_name_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.sequence_reset_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.adapt_datetimefield_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **._get_sequence_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.last_insert_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.max_name_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **._prepare_tzname_delta()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.return_insert_columns()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.sql_flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.from_datetime()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
-- **.adapt_datefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.adapt_timefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.bulk_batch_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.cache_key_culling_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.combine_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.conditional_expression_supported_in_where_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.convert_binaryfield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **.date_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- *... and 40 more nodes in this community*
+- **SelectForUpdateTests** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **select_for_update/tests.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **select_for_update/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **Country** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **.end_blocking_transaction()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_raw_lock_not_available()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.start_blocking_transaction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_nowait_raises_error_on_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_skip_locked_skips_locked_rows()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **CountryProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **EUCountry** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **.test_unsuported_no_key_raises_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_unsupported_nowait_raises_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_unsupported_of_raises_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_unsupported_skip_locked_raises_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.raw()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **CityCountryProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **CountryProxyProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **EUCity** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **PersonProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **NotSupportedError is raised if a SELECT...FOR UPDATE NOWAIT is run on a…** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.run_select_for_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (18 shared connections)
-- [Community 67](Community_67.md) (3 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 62](Community_62.md) (1 shared connections)
-- [Community 479](Community_479.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 23](Community_23.md) (24 shared connections)
+- [Community 4](Community_4.md) (14 shared connections)
+- [Community 66](Community_66.md) (13 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 510](Community_510.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 326](Community_326.md) (1 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 173](Community_173.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 105 (95%)
-- INFERRED: 6 (5%)
+- EXTRACTED: 142 (93%)
+- INFERRED: 10 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

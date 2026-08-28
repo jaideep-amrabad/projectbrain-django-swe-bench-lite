@@ -1,63 +1,59 @@
 # Community 281
 
-> 57 nodes · cohesion 0.04
+> 36 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **test_autocomplete_view.py** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **AutocompleteJsonViewTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **Question** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Book** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Answer** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Employee** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Manager** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **PKChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **DateHierarchyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **Answer2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **WorkHour** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.test_get_paginator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_choice_links()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **.test_choice_links_datetime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **ParentAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **QuestionAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Authorship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Bonus** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Toy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **AnswerAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Author** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **AuthorshipInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- *... and 32 more nodes in this community*
+- **get_or_create/tests.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **get_or_create/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **GetOrCreateTestsWithManualPKs** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **Thing** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **GetOrCreateThroughManyToMany** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **ManualPrimaryKeyTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **GetOrCreateTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **Journalist** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **Publisher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **Tag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **UpdateOrCreateTestsWithManualPKs** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **DefaultPerson** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **Profile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **.test_get_or_create_integrityerror()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.capitalized_name_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **.test_create_with_duplicate_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_get_or_create_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_get_or_create_raises_IntegrityError_plus_traceback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_savepoint_rollback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **If you specify an existing primary key, but different other fields, then you…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_manual_primary_key_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_create_with_duplicate_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 56](Community_56.md) (15 shared connections)
-- [Community 65](Community_65.md) (11 shared connections)
-- [Community 3](Community_3.md) (7 shared connections)
-- [Community 11](Community_11.md) (6 shared connections)
-- [Community 121](Community_121.md) (4 shared connections)
-- [Community 129](Community_129.md) (4 shared connections)
-- [Community 607](Community_607.md) (4 shared connections)
-- [Community 686](Community_686.md) (4 shared connections)
-- [Community 354](Community_354.md) (3 shared connections)
-- [Community 406](Community_406.md) (3 shared connections)
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 400](Community_400.md) (2 shared connections)
+- [Community 4](Community_4.md) (11 shared connections)
+- [Community 129](Community_129.md) (9 shared connections)
+- [Community 543](Community_543.md) (5 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 1159](Community_1159.md) (2 shared connections)
+- [Community 927](Community_927.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 175](Community_175.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 129 (87%)
-- INFERRED: 19 (13%)
+- EXTRACTED: 72 (77%)
+- INFERRED: 21 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

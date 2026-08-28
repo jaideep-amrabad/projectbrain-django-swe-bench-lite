@@ -1,21 +1,22 @@
 # Community 1001
 
-> 7 nodes · cohesion 0.38
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **AsyncUnsafeTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.dangerous_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_async_unsafe_suppressed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_async_unsafe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **async_to_sync** (1 connections)
-- **dict** (1 connections)
-- **async_unsafe decorator should work correctly and returns the correct message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **ViewTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_base_view_class_is_sync()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_http_method_not_allowed_responds_correctly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **View and by extension any subclasses that don't define handlers are sync.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_mixed_views_raise_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_options_handler_responds_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_views_are_correctly_marked()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
+- [Community 223](Community_223.md) (1 shared connections)
 
 ## Source Files
 
@@ -23,7 +24,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

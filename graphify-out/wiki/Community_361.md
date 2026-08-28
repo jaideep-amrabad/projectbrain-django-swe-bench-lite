@@ -1,54 +1,62 @@
 # Community 361
 
-> 30 nodes · cohesion 0.10
+> 57 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **.alter_field()** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.quote_name()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_constraint_sql()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._alter_column_default_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._create_primary_key_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.remove_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._create_index_name()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.alter_db_table()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._create_check_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.delete_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._alter_column_null_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._alter_many_to_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._column_default_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_fk_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_check_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_unique_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._field_should_be_altered()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._rename_field_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._check_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._field_became_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._unique_should_be_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Hook to specialize column null alteration. Return a (sql, params) fragment to…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Alter M2Ms to repoint their to= endpoints.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Generate a unique name for an index/unique constraint. The name is divided into…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Return the SQL to use in a DEFAULT clause. The resulting string should contain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- *... and 5 more nodes in this community*
+- **check_framework/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **CheckMessage** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **MessageTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **messages.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **CheckRegistry** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **check_framework/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/models.py`
+- **.run_checks()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **DummyObj** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **SystemCheckFrameworkTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **Critical** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **Debug** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **Info** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **ChecksRunDuringTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.get_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **.tag_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **.tags_available()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **my_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/models.py`
+- **SimpleModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/models.py`
+- **CheckFrameworkReservedNamesTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_model_check_method_not_shadowed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_register_and_run_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [Community 190](Community_190.md) (39 shared connections)
-- [Community 867](Community_867.md) (7 shared connections)
-- [Community 716](Community_716.md) (5 shared connections)
-- [Community 906](Community_906.md) (4 shared connections)
-- [Community 553](Community_553.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 362](Community_362.md) (1 shared connections)
+- [Community 53](Community_53.md) (16 shared connections)
+- [Community 4](Community_4.md) (7 shared connections)
+- [Community 216](Community_216.md) (5 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 207](Community_207.md) (3 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 259](Community_259.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 104 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 126 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

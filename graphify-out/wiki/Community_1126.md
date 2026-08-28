@@ -4,19 +4,19 @@
 
 ## Key Concepts
 
-- **CustomPaginator** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **TemplateResponseWithoutTemplate** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.postgis_proj_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.proj_version_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Return the version of the PROJ library used with PostGIS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Return the version of PROJ used by PostGIS as a tuple of the major, minor, and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 
 ## Relationships
 
-- [Community 70](Community_70.md) (2 shared connections)
-- [Community 308](Community_308.md) (1 shared connections)
+- [Community 205](Community_205.md) (2 shared connections)
+- [Community 853](Community_853.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 
 ## Audit Trail
 

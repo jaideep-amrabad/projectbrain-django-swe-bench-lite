@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **filters.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/filters.js`
+- **popup_response.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/popup_response.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/filters.js`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/popup_response.js`
 
 ## Audit Trail
 

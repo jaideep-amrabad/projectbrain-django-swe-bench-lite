@@ -1,65 +1,67 @@
 # Community 217
 
-> 47 nodes · cohesion 0.07
+> 44 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Warning** (70 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **ModelDefaultAutoFieldTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **test_caches.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **check_cache_location_not_exposed()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
-- **CheckSecretKeyFallbacksTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **CheckCacheLocationTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **check_file_based_cache_is_absolute()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
-- **.get_settings()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **check_default_cache_is_configured()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
-- **ProxyModelWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
-- **CheckCacheAbsolutePath** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_cache_path_contains_media_static_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_cache_path_inside_media_static_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_cache_path_matches_media_static_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_staticfiles_dirs_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **CheckCacheSettingsAppDirsTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_default_cache_included()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_default_cache_not_included()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **register** (3 connections)
-- **.test_relative_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_cache_path_not_conflict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_staticfiles_dirs_prefix_not_conflict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_insecure_secret_key_fallbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_low_entropy_secret_key_fallbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_low_length_secret_key_fallbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- *... and 22 more nodes in this community*
+- **.import_module()** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **migrate.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **.handle()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **flush.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/flush.py`
+- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **ClientMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **sql.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/sql.py`
+- **emit_post_migrate_signal()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/sql.py`
+- **.handle()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/flush.py`
+- **sqlflush.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlflush.py`
+- **sql_flush()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/sql.py`
+- **.test_loading_package_without__file__()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.login()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.logout()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.temporary_migration_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/flush.py`
+- **.describe_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlflush.py`
+- **.test_has_sumbodule_with_dotted_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_loader()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.sync_apps()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- **emit_pre_migrate_signal()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/sql.py`
+- **.session()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **DefaultLoader** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlflush.py`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (14 shared connections)
-- [Community 61](Community_61.md) (11 shared connections)
-- [Community 51](Community_51.md) (11 shared connections)
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 360](Community_360.md) (5 shared connections)
-- [Community 431](Community_431.md) (4 shared connections)
-- [Community 405](Community_405.md) (3 shared connections)
-- [Community 378](Community_378.md) (3 shared connections)
-- [Community 207](Community_207.md) (3 shared connections)
-- [Community 466](Community_466.md) (3 shared connections)
-- [Community 517](Community_517.md) (2 shared connections)
+- [Community 31](Community_31.md) (12 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 57](Community_57.md) (5 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 401](Community_401.md) (5 shared connections)
+- [Community 4](Community_4.md) (5 shared connections)
+- [Community 98](Community_98.md) (5 shared connections)
+- [Community 131](Community_131.md) (4 shared connections)
+- [Community 94](Community_94.md) (3 shared connections)
+- [Community 69](Community_69.md) (3 shared connections)
+- [Community 293](Community_293.md) (3 shared connections)
+- [Community 30](Community_30.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/flush.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlflush.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/sql.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Audit Trail
 
-- EXTRACTED: 163 (96%)
-- INFERRED: 6 (4%)
+- EXTRACTED: 115 (71%)
+- INFERRED: 47 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

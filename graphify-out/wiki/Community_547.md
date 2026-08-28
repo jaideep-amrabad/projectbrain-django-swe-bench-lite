@@ -1,51 +1,43 @@
 # Community 547
 
-> 31 nodes · cohesion 0.10
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **TemplateTestMixin** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **._engine()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_render_tag_error_in_extended_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_url_reverse_no_settings_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_compile_tag_error_27956()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_extends_generic_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_no_wrapped_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_render_built_in_type_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_super_errors()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_url_reverse_view_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **DebugTemplateTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_compile_filter_expression_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_compile_tag_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_compile_tag_error_27584()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_invalid_block_suggestion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_node_origin()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **TemplateTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_string_origin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **.test_unknown_block_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **Errors raised while compiling nodes should include the token information.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **Errors in a child of {% extends %} are displayed correctly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **Errors in extended block are displayed correctly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **#18169 -- NoReverseMatch should not be silence in block.super.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **#24338 -- Allow extending django.template.backends.django.Template objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **#25848 -- Set origin on Node so debugging tools can determine which template…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- *... and 6 more nodes in this community*
+- **simple/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **UnittestCase2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **DjangoCase1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **DjangoCase2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **SimpleCase1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **SimpleCase2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **UnittestCase1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **DjangoTestCase** (2 connections)
+- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **.test_3_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (9 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 972](Community_972.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

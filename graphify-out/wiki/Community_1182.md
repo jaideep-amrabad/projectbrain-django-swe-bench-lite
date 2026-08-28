@@ -1,24 +1,23 @@
 # Community 1182
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_view_with_method_force_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_view_with_method_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that is protected with a @login_required method** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.ready()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **Override this method in subclasses to run code when Django starts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
 
 ## Relationships
 
-- [Community 511](Community_511.md) (2 shared connections)
+- [Community 176](Community_176.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

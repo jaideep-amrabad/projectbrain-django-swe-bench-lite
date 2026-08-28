@@ -1,45 +1,48 @@
 # Community 530
 
-> 22 nodes · cohesion 0.14
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **InMemoryDirNode** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **InMemoryFileNode** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **TimingMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **._update_accessed_time()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **._update_modified_time()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **._convert_stream_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **._initialize_stream()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **._initialize_times()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.remove_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **._resolve_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.listdir()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **Helper class representing an in-memory file node. Handle unicode/bytes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **Initialize underlying stream according to the content type.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **Convert actual file content according to the opening mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **Helper class representing an in-memory directory node. Handle path navigation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **Navigate current directory tree, returning node matching path or creating a new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **OverrideSettingsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_staticfiles_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_staticfiles_finders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_urlconf_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_urlconf_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_urlconf_second()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_file_upload_directory_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_file_upload_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_media_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_media_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_static_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_static_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_staticfiles_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the MEDIA_ROOT setting should be reflected in the base_location…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the MEDIA_URL setting should be reflected in the base_url attribute…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the FILE_UPLOAD_PERMISSIONS setting should be reflected in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the FILE_UPLOAD_DIRECTORY_PERMISSIONS setting should be reflected in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the STATIC_URL setting should be reflected in the base_url attribute…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the STATIC_ROOT setting should be reflected in the location…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the STORAGES setting should be reflected in the value of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the STATICFILES_FINDERS setting should be reflected in the return…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the STATICFILES_DIRS setting should be reflected in the locations…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 296](Community_296.md) (2 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 162](Community_162.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 482](Community_482.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

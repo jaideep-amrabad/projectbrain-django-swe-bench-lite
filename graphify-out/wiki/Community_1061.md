@@ -1,30 +1,30 @@
 # Community 1061
 
-> 6 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **MigrateTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_migrate_to_other_database_with_router()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **SyncOnlyDefaultDatabaseRouter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_migrate_to_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Regression test for #16039: migrate with --database option.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **DataUploadMaxMemorySizeGetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
+- **.test_data_upload_max_memory_size_exceeded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
+- **.test_empty_content_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
+- **.test_no_limit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
+- **.test_size_not_exceeded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
 
 ## Relationships
 
-- [Community 393](Community_393.md) (2 shared connections)
+- [Community 93](Community_93.md) (2 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (89%)
+- INFERRED: 1 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

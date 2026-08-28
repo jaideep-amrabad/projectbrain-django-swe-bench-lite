@@ -1,62 +1,61 @@
 # Community 225
 
-> 59 nodes · cohesion 0.05
+> 48 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **RequestFactory** (94 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.generic()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **AsyncRequestFactory** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.request()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **RequestFactoryStateTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.request()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.generic()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **ReverseLazyTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.request()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **._encode_json()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **RequestFactoryEnvironmentTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **._base_environ()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.post()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **store_rendered_templates()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.common_test_that_should_always_pass()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.to_wsgi_names()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **._base_scope()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.check_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.head()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.patch()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.put()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **._get_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- *... and 34 more nodes in this community*
+- **CharField** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **BooleanField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **IPAddressField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **SlugField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **EmailField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **URLField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **NullBooleanField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_max_length_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.db_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **CommaSeparatedIntegerField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Community 400](Community_400.md) (17 shared connections)
-- [Community 90](Community_90.md) (6 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 316](Community_316.md) (4 shared connections)
-- [Community 92](Community_92.md) (3 shared connections)
-- [Community 661](Community_661.md) (3 shared connections)
-- [Community 102](Community_102.md) (3 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 172](Community_172.md) (2 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
-- [Community 297](Community_297.md) (2 shared connections)
+- [Community 302](Community_302.md) (10 shared connections)
+- [Community 267](Community_267.md) (9 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 80](Community_80.md) (4 shared connections)
+- [Community 120](Community_120.md) (4 shared connections)
+- [Community 48](Community_48.md) (3 shared connections)
+- [Community 605](Community_605.md) (2 shared connections)
+- [Community 942](Community_942.md) (2 shared connections)
+- [Community 606](Community_606.md) (2 shared connections)
+- [Community 403](Community_403.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
 
 ## Audit Trail
 
-- EXTRACTED: 194 (97%)
-- INFERRED: 6 (3%)
+- EXTRACTED: 102 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

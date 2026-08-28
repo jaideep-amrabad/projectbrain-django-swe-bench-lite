@@ -1,62 +1,64 @@
 # Community 93
 
-> 80 nodes · cohesion 0.04
+> 94 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **backends/tests.py** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **backends/models.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **base/test_creation.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **LastExecutedQueryTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **FkConstraintsTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Square** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **LongNameTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **DBConstraintTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Object** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **Reporter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **oracle/test_introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
-- **ObjectReference** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **Post** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **ReporterProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **DateQuotingTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **MySQLPKZeroTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **SchoolClass** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **SQLKeywordsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **VeryLongModelNameZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **SequenceResetTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **CircularA** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **CircularB** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **Item** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- *... and 55 more nodes in this community*
+- **WSGIRequest** (78 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **FakePayload** (44 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **RequestsTests** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- **DataUploadMaxMemorySizeMultipartPostTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
+- **DataUploadMaxMemorySizeFormPostTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
+- **DataUploadMaxNumberOfFieldsFormPost** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
+- **DataUploadMaxNumberOfFieldsMultipartPost** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
+- **DataUploadMaxNumberOfFilesMultipartPost** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
+- **RequestHeadersTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- **DataUploadMaxNumberOfFieldsGet** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
+- **.test_alternate_charset_POST()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- **test_fakepayload.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/test_fakepayload.py`
+- **.urlencode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.test_body_after_POST_multipart_form_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- **.test_body_after_POST_multipart_related()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- **.test_non_ascii_POST()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- **.test_POST_after_body_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- **.test_POST_after_body_read_and_stream_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- **.test_POST_after_body_read_and_stream_read_multipart()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- **.test_POST_immutable_for_multipart()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- **.test_POST_multipart_with_content_length_zero()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- **.test_read_after_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- **.test_value_after_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- **.test_wsgirequest_path_with_force_script_name_trailing_slash()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- **.test_wsgirequest_with_force_script_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- *... and 69 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (46 shared connections)
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 27](Community_27.md) (4 shared connections)
-- [Community 260](Community_260.md) (3 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 104](Community_104.md) (3 shared connections)
-- [Community 385](Community_385.md) (3 shared connections)
-- [Community 169](Community_169.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 920](Community_920.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 401](Community_401.md) (9 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 70](Community_70.md) (8 shared connections)
+- [Community 405](Community_405.md) (7 shared connections)
+- [Community 223](Community_223.md) (6 shared connections)
+- [Community 500](Community_500.md) (6 shared connections)
+- [Community 505](Community_505.md) (4 shared connections)
+- [Community 297](Community_297.md) (3 shared connections)
+- [Community 1061](Community_1061.md) (2 shared connections)
+- [Community 455](Community_455.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/test_fakepayload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 189 (91%)
-- INFERRED: 18 (9%)
+- EXTRACTED: 216 (93%)
+- INFERRED: 17 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

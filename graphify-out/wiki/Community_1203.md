@@ -1,19 +1,20 @@
 # Community 1203
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_alter_db_table_no_changes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Alter_db_table doesn't generate a migration if no changes have been made.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **Test** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/pattern_tests.py`
+- **pattern_tests.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/pattern_tests.py`
+- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/pattern_tests.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/pattern_tests.py`
 
 ## Audit Trail
 

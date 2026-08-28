@@ -1,74 +1,78 @@
 # Community 5
 
-> 280 nodes · cohesion 0.01
+> 236 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **View** (54 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **generic/dates.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **generic/__init__.py** (44 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
-- **generic/base.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **edit.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **TemplateView** (26 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **list.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **test_detail.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **detail.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **FormMixin** (18 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **MultipleObjectMixin** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **BaseDateListView** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_dated_items()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **ModelFormMixin** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **_get_next_prev()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **AutocompleteJsonView** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **.get_dated_items()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_object()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **YearMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **SingleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **FormView** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **MultipleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **TemplateResponseMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- *... and 255 more nodes in this community*
+- **datetime** (415 connections)
+- **test_writer.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **DateFormatTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
+- **utils_tests/test_http.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **get_fixed_timezone()** (23 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **dateformat.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **feedgenerator.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **make_aware()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **tz.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **SplitDateTimeField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **get_default_timezone()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **test_dateformat.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
+- **Feed** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.get_feed()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **SplitDateTimeWidget** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **is_naive()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **format()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **parse_http_date()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **localtime()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **from_current_timezone()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
+- **do_timezone()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **is_same_domain()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **SplitDateTimeWidgetTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
+- **get_current_timezone()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **timeuntil_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- *... and 211 more nodes in this community*
 
 ## Relationships
 
-- [Community 400](Community_400.md) (41 shared connections)
-- [Community 3](Community_3.md) (25 shared connections)
-- [Community 1](Community_1.md) (23 shared connections)
-- [Community 607](Community_607.md) (22 shared connections)
-- [Community 70](Community_70.md) (16 shared connections)
-- [Community 130](Community_130.md) (7 shared connections)
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 46](Community_46.md) (6 shared connections)
-- [Community 242](Community_242.md) (5 shared connections)
-- [Community 448](Community_448.md) (4 shared connections)
-- [Community 94](Community_94.md) (4 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
+- [Community 2](Community_2.md) (132 shared connections)
+- [Community 67](Community_67.md) (46 shared connections)
+- [Community 0](Community_0.md) (40 shared connections)
+- [Community 4](Community_4.md) (24 shared connections)
+- [Community 401](Community_401.md) (23 shared connections)
+- [Community 1](Community_1.md) (18 shared connections)
+- [Community 438](Community_438.md) (15 shared connections)
+- [Community 129](Community_129.md) (13 shared connections)
+- [Community 80](Community_80.md) (12 shared connections)
+- [Community 20](Community_20.md) (11 shared connections)
+- [Community 134](Community_134.md) (9 shared connections)
+- [Community 220](Community_220.md) (9 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_class_based_error_handlers.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/included.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/namespace.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/path_unused.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datetimefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 751 (98%)
-- INFERRED: 14 (2%)
+- EXTRACTED: 776 (77%)
+- INFERRED: 227 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

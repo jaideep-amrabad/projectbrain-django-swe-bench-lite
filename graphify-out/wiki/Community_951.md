@@ -1,31 +1,32 @@
 # Community 951
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **TextFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **.test_choices_generates_select_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **.test_max_length_passed_to_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **.test_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **TextField passes its max_length attribute to form fields created using their…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **A TextField with choices uses a Select widget.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **TextField.to_python() should return a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **.test_emoji()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **.test_lookup_integer_in_textfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **tests_failures.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **ErrorTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **ExpectedFailureTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **FailureTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **UnexpectedSuccessTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **.test_sample()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **expectedFailure** (2 connections)
+- **.test_sample()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,43 +1,49 @@
 # Community 611
 
-> 18 nodes · cohesion 0.21
+> 20 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **StateRelationsTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.get_base_project_state()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_add_field_m2m_with_through()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_add_model_no_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_add_model_other_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_alter_field_m2m_to_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_relations_population()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_add_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_alter_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_many_relations_to_same_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_remove_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_remove_field_no_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_remove_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_rename_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_rename_field_no_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_rename_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_rename_model_no_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **ManageRunserver** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.assertServerSettings()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageTestserver** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_runner_addrport_ipv6()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_runner_custom_defaults_ipv6()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_runner_hostname_ipv6()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_params_to_runserver()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_runner_ambiguous()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_runner_custom_defaults()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_runner_hostname()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_runserver_addrport()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_skip_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_testserver_handle_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **skipUnless** (3 connections)
+- **.test_readonly_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **object** (2 connections)
+- **patch** (2 connections)
+- **.test_on_bind()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_zero_ip_addr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **runserver.check_migrations() doesn't choke when a database is read-only.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (6 shared connections)
-- [Community 34](Community_34.md) (4 shared connections)
-- [Community 381](Community_381.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 12](Community_12.md) (10 shared connections)
+- [Community 857](Community_857.md) (3 shared connections)
+- [Community 304](Community_304.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 212](Community_212.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
+- [Community 520](Community_520.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 45 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

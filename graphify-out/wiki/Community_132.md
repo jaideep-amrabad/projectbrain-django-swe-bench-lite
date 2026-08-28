@@ -1,68 +1,67 @@
 # Community 132
 
-> 53 nodes · cohesion 0.06
+> 66 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **utils/cache.py** (50 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **decorators/http.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
-- **condition()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
-- **conditional_processing/views.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
-- **get_conditional_response()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **quote_etag()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **parse_http_date_safe()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **conditional_processing/tests.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.process_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- **CheckCondition** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **get_max_age()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **_precondition_failed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **set_response_etag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **etag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
-- **last_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
-- **etag_view_none()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
-- **etag_view_unquoted()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
-- **etag_view_weak()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
-- **.needs_etag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- **_if_match_passes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **_if_modified_since_passes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **_if_none_match_passes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **_if_unmodified_since_passes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **_not_modified()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **conditional_processing/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/urls.py`
-- *... and 28 more nodes in this community*
+- **LineString** (59 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **test_geos_mutation.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **f()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **GEOSMutationTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **._listarr()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.test05_Polygon()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **.test06_Collection()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **test_coordseq.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_coordseq.py`
+- **.test04_LineStringMutations()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **.test_distance()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
+- **.test_threed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
+- **.test01_PointMutations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **.test03_PointApi()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **.array()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.x()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **Return a list or numpy array of the X variable.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.test_empty_geometries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- **GEOSCoordSeqTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_coordseq.py`
+- **.test00_GEOSIndexException()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **.test02_PointExceptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **.test_ticket10432()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- *... and 41 more nodes in this community*
 
 ## Relationships
 
-- [Community 400](Community_400.md) (17 shared connections)
-- [Community 106](Community_106.md) (14 shared connections)
-- [Community 3](Community_3.md) (12 shared connections)
-- [Community 46](Community_46.md) (11 shared connections)
-- [Community 607](Community_607.md) (6 shared connections)
-- [Community 179](Community_179.md) (5 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 94](Community_94.md) (4 shared connections)
-- [Community 289](Community_289.md) (3 shared connections)
-- [Community 92](Community_92.md) (2 shared connections)
-- [Community 244](Community_244.md) (2 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 25](Community_25.md) (18 shared connections)
+- [Community 23](Community_23.md) (16 shared connections)
+- [Community 29](Community_29.md) (15 shared connections)
+- [Community 60](Community_60.md) (5 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 91](Community_91.md) (3 shared connections)
+- [Community 434](Community_434.md) (2 shared connections)
+- [Community 39](Community_39.md) (2 shared connections)
+- [Community 37](Community_37.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 102](Community_102.md) (2 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_coordseq.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
 
 ## Audit Trail
 
-- EXTRACTED: 166 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 142 (87%)
+- INFERRED: 21 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

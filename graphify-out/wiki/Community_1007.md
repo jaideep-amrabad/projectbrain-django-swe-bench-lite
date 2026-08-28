@@ -1,34 +1,36 @@
 # Community 1007
 
-> 7 nodes · cohesion 0.33
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ReturningValuesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
-- **ReturningModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **NonIntegerPKReturningModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_bulk_insert()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
-- **.test_insert_returning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
-- **.test_insert_returning_multiple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
-- **.test_insert_returning_non_integer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- **ExtractingStringsWithPercentSigns** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **POFileAssertionMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- **.assertMsgId()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- **._assertPoKeyword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **.test_adds_python_format_to_all_percent_signs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **.test_trans_tag_with_percent_symbol_at_the_end()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **.test_trans_tag_with_percent_symbol_in_the_middle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **.test_trans_tag_with_string_that_look_like_fmt_spec()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **Tests the extracted string found in the gettext catalog. Percent signs are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 27](Community_27.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 128](Community_128.md) (2 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
+- [Community 670](Community_670.md) (1 shared connections)
+- [Community 544](Community_544.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (75%)
-- INFERRED: 5 (25%)
+- EXTRACTED: 16 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

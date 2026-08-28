@@ -1,49 +1,50 @@
 # Community 652
 
-> 21 nodes · cohesion 0.15
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **DiscoverRunnerParallelArgumentTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **get_max_test_processes()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.get_parser()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.add_arguments()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **ArgumentParser** (4 connections)
-- **parallel_type()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_get_max_test_processes_env_var()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_parallel_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_add_arguments_debug_mode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_add_arguments_shuffle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_get_max_test_processes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_get_max_test_processes_forkserver()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_get_max_test_processes_spawn()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_parallel_auto()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_parallel_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_parallel_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_parallel_flag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **dict** (2 connections)
-- **The maximum number of test processes when using the --parallel option.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Parse value passed to the --parallel option.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **object** (1 connections)
+- **action()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- **MessageTestingAdmin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **SubscriberAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **download()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **external_mail()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **no_perm()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **redirect_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.mail_admin()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.message_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.message_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.message_extra_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.message_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.message_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.message_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Conveniently add attributes to an action function:: @admin.action(…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- **.delete_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 35](Community_35.md) (6 shared connections)
-- [Community 788](Community_788.md) (4 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 427](Community_427.md) (1 shared connections)
+- [Community 68](Community_68.md) (6 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 194](Community_194.md) (3 shared connections)
+- [Community 116](Community_116.md) (2 shared connections)
+- [Community 1057](Community_1057.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 348](Community_348.md) (1 shared connections)
+- [Community 242](Community_242.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 37 (84%)
+- INFERRED: 7 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

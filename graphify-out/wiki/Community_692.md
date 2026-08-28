@@ -1,42 +1,31 @@
 # Community 692
 
-> 15 nodes · cohesion 0.14
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **FastDeleteTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **User** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **.test_fast_delete_empty_no_update_can_self_select()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_full_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_large_batch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_aggregation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_combined_relationships()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_joined_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_fast_delete_revm2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **Fast deleting when DatabaseFeatures.update_can_self_select = False works even…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **builtin_server/views.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
+- **builtin_server/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/urls.py`
+- **file_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
+- **builtin_server/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/__init__.py`
 
 ## Relationships
 
-- [Community 336](Community_336.md) (10 shared connections)
-- [Community 386](Community_386.md) (2 shared connections)
-- [Community 420](Community_420.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
+- [Community 343](Community_343.md) (2 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 663](Community_663.md) (1 shared connections)
+- [Community 401](Community_401.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/builtin_server/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/builtin_server/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (65%)
-- INFERRED: 11 (35%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

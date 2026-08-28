@@ -34,11 +34,11 @@
 ## Relationships
 
 - [Community 1](Community_1.md) (8 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 128](Community_128.md) (3 shared connections)
-- [Community 260](Community_260.md) (1 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 131](Community_131.md) (3 shared connections)
+- [Community 194](Community_194.md) (1 shared connections)
 - [Community 173](Community_173.md) (1 shared connections)
-- [Community 198](Community_198.md) (1 shared connections)
+- [Community 115](Community_115.md) (1 shared connections)
 
 ## Source Files
 

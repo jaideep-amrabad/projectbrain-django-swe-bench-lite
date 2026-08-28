@@ -1,49 +1,48 @@
 # Community 685
 
-> 20 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **.db_type()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_internal_type()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **SmallIntegerField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.cast_db_type()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.db_check()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.db_type_parameters()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **SmallAutoField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.db_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.rel_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.rel_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.db_type_suffix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.validators()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.rel_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return the data type that a related field pointing to this field should use. In…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return the database column check constraint for this field, for the provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return the database column data type for this field, for the provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return the data type that a related field pointing to this field should use.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return the data type to use in the Cast() function.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Extension of db_type(), providing a range of different return values (type,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **SQLCompiler** (35 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_select()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_group_by()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_related_selections()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.pre_sql_setup()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_default_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.collapse_group_by()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.setup_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_extra_select()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Fill in the information needed for a select_related query. The current depth is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Return three values: - a list of 3-tuples of (expression, (sql, params), alias)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Do any necessary class setup immediately prior to producing SQL. This is for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Compute the default columns for selecting every field in the base model. Will…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Return a list of 2-tuples of form (sql, params). The logic of what exactly the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Relationships
 
-- [Community 116](Community_116.md) (7 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 302](Community_302.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 300](Community_300.md) (1 shared connections)
-- [Community 227](Community_227.md) (1 shared connections)
-- [Community 601](Community_601.md) (1 shared connections)
-- [Community 176](Community_176.md) (1 shared connections)
+- [Community 633](Community_633.md) (11 shared connections)
+- [Community 603](Community_603.md) (6 shared connections)
+- [Community 913](Community_913.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 1029](Community_1029.md) (3 shared connections)
+- [Community 87](Community_87.md) (2 shared connections)
+- [Community 1130](Community_1130.md) (1 shared connections)
+- [Community 865](Community_865.md) (1 shared connections)
+- [Community 915](Community_915.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 56 (95%)
+- INFERRED: 3 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,39 +1,62 @@
 # Community 790
 
-> 12 nodes · cohesion 0.27
+> 38 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **base36_to_int()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **int_to_base36()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **Base36IntTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_roundtrip()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_input_too_large()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_invalid_literal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_negative_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_to_base36_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_to_int_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **Convert a base 36 string to an int. Raise ValueError if the input won't fit…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **Convert an integer to a base36 string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **runtests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **TimeKeeper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **SeleniumTestCaseBase** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.handle()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **get_runner()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **django_tests()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **.create_webdriver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **collect_test_modules()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **setup_collect_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **setup_run_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.import_webdriver()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **ActionSelenium** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_filtered_test_modules()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **teardown_collect_tests()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **.run_from_argv()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **.create_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.import_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.__new__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **bisect_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_label_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_subprocess_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_test_modules()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 179](Community_179.md) (3 shared connections)
-- [Community 325](Community_325.md) (2 shared connections)
-- [Community 400](Community_400.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 4](Community_4.md) (11 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 31](Community_31.md) (5 shared connections)
+- [Community 579](Community_579.md) (4 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 401](Community_401.md) (3 shared connections)
+- [Community 125](Community_125.md) (3 shared connections)
+- [Community 398](Community_398.md) (2 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 429](Community_429.md) (1 shared connections)
+- [Community 754](Community_754.md) (1 shared connections)
+- [Community 207](Community_207.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 100 (93%)
+- INFERRED: 7 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

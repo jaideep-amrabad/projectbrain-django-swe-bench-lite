@@ -1,49 +1,51 @@
 # Community 603
 
-> 18 nodes · cohesion 0.23
+> 18 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **force_insert_update/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **Counter** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **force_insert_update/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **InheritanceTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **ProxyCounter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **InheritedCounter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **SubCounter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **ForceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **WithCustomPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **.test_force_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **.test_force_update_on_inherited_model_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.assertQuerysetEqual()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test_force_update_on_inherited_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **.test_force_update_on_proxy_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **Tests for forcing insert and update queries (instead of Django's normal…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **Issue 13864: force_update fails on subclassed models, if they don't specify…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **Ref** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **._order_by_pairs()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_order_by()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_qualify_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **PositionRef** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Reference to column alias of the query. For example, Ref('sum_cost') in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.get_group_by_cols()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.get_refs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.get_source_expressions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.relabeled_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.resolve_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.set_source_expressions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Return a list of 2-tuples of the form (expr, (sql, params, is_ref)) for the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 405](Community_405.md) (1 shared connections)
-- [Community 420](Community_420.md) (1 shared connections)
-- [Community 49](Community_49.md) (1 shared connections)
+- [Community 685](Community_685.md) (6 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 8](Community_8.md) (5 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 633](Community_633.md) (4 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 1029](Community_1029.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (78%)
-- INFERRED: 11 (22%)
+- EXTRACTED: 51 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,48 +1,63 @@
 # Community 477
 
-> 26 nodes · cohesion 0.11
+> 31 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **FormatStylePlaceholderCursor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **VariableWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.executemany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.execute()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **wrap_oracle_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._fix_for_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._format_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._guess_input_sizes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._output_type_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._param_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.arrayvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._get_decimal_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.var()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._output_number_converter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **An adapter class for cursor variables that prevents the wrapped object from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Django uses "format" (e.g. '%s') style placeholders, but Oracle uses ":var"…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Called for each db column fetched from cursors. Return numbers as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.bind_parameter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- *... and 1 more nodes in this community*
+- **resolve_url()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **ResolveUrlTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **resolve_url/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **UnimportantThing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/models.py`
+- **.get_default_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.get_default_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.test_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **.test_view_function()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **.get_default_redirect_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **Return the default redirect URL.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.test_domain()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **.test_full_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **.test_lazy_reverse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **.test_non_view_callable_raises_no_reverse_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **.test_relative_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **.test_url_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **.test_valid_view_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **resolve_url/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/urls.py`
+- **some_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/urls.py`
+- **Return a URL appropriate for the arguments passed. The arguments could be: * A…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/models.py`
+- **Tests for the resolve_url() function.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **Passing a URL path to resolve_url() results in the same url.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **Passing a relative URL path to resolve_url() results in the same url.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- **Passing a full URL to resolve_url() results in the same url.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (8 shared connections)
+- [Community 401](Community_401.md) (6 shared connections)
+- [Community 716](Community_716.md) (5 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 97](Community_97.md) (1 shared connections)
+- [Community 239](Community_239.md) (1 shared connections)
+- [Community 181](Community_181.md) (1 shared connections)
+- [Community 451](Community_451.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- `raw/code/hyd-evaluation/django-django/tests/resolve_url/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/resolve_url/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 70 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

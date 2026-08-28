@@ -1,23 +1,26 @@
 # Community 1184
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.83
 
 ## Key Concepts
 
-- **.get_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **Return an iterable of models. By default, the following models aren't included:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **RestartWithReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.patch_autoreload()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_manage_py()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_python_m_django()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 177](Community_177.md) (1 shared connections)
+- [Community 384](Community_384.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

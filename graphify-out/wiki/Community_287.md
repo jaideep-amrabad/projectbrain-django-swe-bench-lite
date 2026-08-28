@@ -1,6 +1,6 @@
 # Community 287
 
-> 78 nodes · cohesion 0.04
+> 84 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -20,6 +20,7 @@
 - **InvalidStorageError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/handler.py`
 - **symlinks_supported()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
 - **get_valid_filename()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **FileSaveRaceConditionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 - **StorageHandlerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 - **.generate_filename()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/base.py`
 - **.get_alternative_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/base.py`
@@ -28,23 +29,22 @@
 - **.create_storage()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/handler.py`
 - **callable_default_storage()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
 - **.test_get_filesystem_storage()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_get_invalid_storage_module()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- *... and 53 more nodes in this community*
+- *... and 59 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (29 shared connections)
-- [Community 81](Community_81.md) (18 shared connections)
-- [Community 3](Community_3.md) (15 shared connections)
-- [Community 156](Community_156.md) (15 shared connections)
-- [Community 2](Community_2.md) (14 shared connections)
-- [Community 226](Community_226.md) (8 shared connections)
-- [Community 400](Community_400.md) (8 shared connections)
-- [Community 54](Community_54.md) (8 shared connections)
-- [Community 514](Community_514.md) (6 shared connections)
+- [Community 1](Community_1.md) (32 shared connections)
+- [Community 82](Community_82.md) (18 shared connections)
+- [Community 156](Community_156.md) (16 shared connections)
+- [Community 2](Community_2.md) (15 shared connections)
+- [Community 4](Community_4.md) (14 shared connections)
+- [Community 224](Community_224.md) (8 shared connections)
+- [Community 401](Community_401.md) (8 shared connections)
+- [Community 516](Community_516.md) (6 shared connections)
+- [Community 109](Community_109.md) (6 shared connections)
 - [Community 296](Community_296.md) (4 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 819](Community_819.md) (3 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 55](Community_55.md) (4 shared connections)
 
 ## Source Files
 
@@ -56,6 +56,7 @@
 - `raw/code/hyd-evaluation/django-django/django/core/files/storage/mixins.py`
 - `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
 - `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/text.py`
 - `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
@@ -63,7 +64,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 267 (97%)
+- EXTRACTED: 276 (97%)
 - INFERRED: 9 (3%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,41 +1,57 @@
 # Community 710
 
-> 15 nodes · cohesion 0.30
+> 21 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **PerformConstraintChecksTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
-- **validation/test_constraints.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
-- **Product** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **UniqueConstraintProduct** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **ChildProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **UniqueConstraintConditionProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **ChildUniqueConstraintProduct** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_full_clean_with_check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
-- **.test_full_clean_with_check_constraints_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
-- **.test_full_clean_with_check_constraints_on_child_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
-- **.test_full_clean_with_partial_unique_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
-- **.test_full_clean_with_partial_unique_constraints_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
-- **.test_full_clean_with_unique_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
-- **.test_full_clean_with_unique_constraints_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **deconstructible()** (43 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
+- **test_deconstruct.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **auth/validators.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- **deconstruct.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
+- **DeconstructibleTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleWithPathClass** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **UnicodeUsernameValidator** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- **DeconstructibleClass** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleInvalidPathClass** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleChildClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleInvalidPathChildClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_invalid_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleWithPathChildClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **ASCIIUsernameValidator** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- **deconstructible_classes.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/deconstructible_classes.py`
+- **.test_deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_deconstruct_child()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_deconstruct_child_with_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_deconstruct_with_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_parent_invalid_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **Class decorator that allows the decorated class to be serialized by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
 
 ## Relationships
 
-- [Community 567](Community_567.md) (8 shared connections)
-- [Community 27](Community_27.md) (6 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
+- [Community 161](Community_161.md) (9 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 432](Community_432.md) (5 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 98](Community_98.md) (4 shared connections)
+- [Community 87](Community_87.md) (3 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 287](Community_287.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/deconstructible_classes.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (90%)
-- INFERRED: 5 (10%)
+- EXTRACTED: 95 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

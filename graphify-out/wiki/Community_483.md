@@ -1,50 +1,48 @@
 # Community 483
 
-> 24 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **._dumpdata_assert()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **ForwardReferenceTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **CircularReferenceTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **DumpDataAssertMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **FixtureTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_proxy_with_concrete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_proxy_without_concrete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_format_discovery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_circular_reference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_circular_reference_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_excludes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_file_gzip_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_file_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_file_zip_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_filtering_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_pks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loading_and_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_output_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_forward_reference_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_forward_reference_fk_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_forward_reference_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_forward_reference_m2m_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **A warning is displayed if a proxy model is dumped without its concrete parent.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **A warning isn't displayed if a proxy model is dumped with its concrete parent.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **CustomColumnsTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **custom_columns/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **custom_columns/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **Custom column/table names If your database column name is different than your…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_attribute_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_author_filtering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_author_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_author_get_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_author_querying()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_field_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_filter_first_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_filter_on_nonexistent_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_get_all_articles_for_an_author()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_get_all_authors_for_an_article()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_get_author_m2m_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_get_first_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_m2m_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_query_all_available_authors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
 
 ## Relationships
 
-- [Community 337](Community_337.md) (14 shared connections)
-- [Community 352](Community_352.md) (7 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 921](Community_921.md) (1 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
+- [Community 4](Community_4.md) (5 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (93%)
-- INFERRED: 4 (7%)
+- EXTRACTED: 33 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

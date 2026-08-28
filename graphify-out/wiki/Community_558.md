@@ -1,42 +1,52 @@
 # Community 558
 
-> 20 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **GetImageDimensionsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **skipUnless** (6 connections)
-- **DimensionClosingBug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **InconsistentGetImageDimensionsBug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_closing_of_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_not_closing_of_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_bug_19457()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_multiple_calls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_invalid_image()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_valid_image()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_webp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_missing_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() properly closes files (#8817)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **Open files passed into get_image_dimensions() should stay opened.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() called with a filename should closed the file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() works properly after various calls using a file handler…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **Multiple calls of get_image_dimensions() should return the same size.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **Regression test for #19457 get_image_dimensions() fails on some PNGs, while…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() should return (None, None) for the dimensions of invalid…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **get_image_dimensions() should catch struct.error while feeding the PIL Image…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **OperationWriter** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **OperationWriterTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.serialize()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.as_string()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **OperationSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.feed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.indent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.unindent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.test_args_kwargs_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_empty_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_expand_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_kwargs_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_multiline_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_nested_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_nested_operation_expand_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **Return a string of the file contents.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
 
 ## Relationships
 
-- [Community 81](Community_81.md) (3 shared connections)
+- [Community 186](Community_186.md) (4 shared connections)
+- [Community 98](Community_98.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 142](Community_142.md) (1 shared connections)
+- [Community 649](Community_649.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 907](Community_907.md) (1 shared connections)
+- [Community 663](Community_663.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 43 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

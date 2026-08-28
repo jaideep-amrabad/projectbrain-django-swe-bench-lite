@@ -1,66 +1,51 @@
 # Community 370
 
-> 50 nodes · cohesion 0.07
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **postgres/operations.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **CreateExtension** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **postgres_tests/migrations/0001_setup_extensions.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0001_setup_extensions.py`
-- **register_type_handlers()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **postgres/signals.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **get_citext_oids()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **get_hstore_oids()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **postgres_tests/test_signals.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **OIDTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **BloomExtension** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.test_create_existing_extension()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **CryptoExtension** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **db_functions/migrations/0001_setup_extensions.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/migrations/0001_setup_extensions.py`
-- **gis_migrations/migrations/0001_setup_extensions.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/migrations/0001_setup_extensions.py`
-- **rasterapp/migrations/0001_setup_extensions.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/migrations/0001_setup_extensions.py`
-- **BtreeGinExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **BtreeGistExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **CITextExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **HStoreExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **TrigramExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **UnaccentExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_forwards()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.extension_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **get_type_oids()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **.assertOIDs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- *... and 25 more nodes in this community*
+- **SpatiaLiteOperations** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **._get_spatialite_func()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.geom_lib_version()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.spatialite_version_tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.lwgeom_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.rttopo_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.spatial_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.spatialite_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.convert_extent()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.geos_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.proj_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **Return the version of the PROJ library used by SpatiaLite.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.geo_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.get_distance()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.spatial_aggregate_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.unsupported_functions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **DatabaseOperations** (1 connections)
+- **Convert the polygon data received from SpatiaLite to min/max values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **Return None because geometry columns are added via the `AddGeometryColumn`…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **Return the distance parameters for the given geometry field, lookup value, and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **Helper routine for calling SpatiaLite functions and returning their result. Any…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **Return the version of GEOS used by SpatiaLite as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **Return the version of LWGEOM library used by SpatiaLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **Return the version of the version-dependant geom library used by SpatiaLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **Return the SpatiaLite library version as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (14 shared connections)
-- [Community 63](Community_63.md) (9 shared connections)
-- [Community 45](Community_45.md) (8 shared connections)
-- [Community 154](Community_154.md) (4 shared connections)
-- [Community 147](Community_147.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 79](Community_79.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 84](Community_84.md) (1 shared connections)
-- [Community 381](Community_381.md) (1 shared connections)
-- [Community 128](Community_128.md) (1 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 27](Community_27.md) (4 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/migrations/0001_setup_extensions.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/migrations/0001_setup_extensions.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/migrations/0001_setup_extensions.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0001_setup_extensions.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 132 (96%)
-- INFERRED: 5 (4%)
+- EXTRACTED: 47 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,65 +1,54 @@
 # Community 495
 
-> 32 nodes · cohesion 0.08
+> 24 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **LiveServerTestCase** (24 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **classproperty** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **SeleniumTestCase** (15 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **LiveServerThreadTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **.setUpClass()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._start_server_thread()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.modify_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **FloatFieldHTMLTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **._create_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.view_is_async()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.test_float_field_rendering_passes_client_side_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **.run_live_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **.test_classproperty_getter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
-- **.allowed_host()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.disable_implicit_wait()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.live_server_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.allowed_host()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.live_server_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._make_connections_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **A context manager that temporarily sets a setting and reverts to the original…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test_closes_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **Disable the default implicit wait.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **._tearDownClassInternal()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- *... and 7 more nodes in this community*
+- **LazySettings** (22 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **IsOverriddenTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.__getattr__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **._setup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **._add_script_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.DEFAULT_FILE_STORAGE()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **._show_deprecation_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.STATICFILES_STORAGE()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__getattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.configured()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.test_configure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_evaluated_lazysettings_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_settings_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_unevaluated_lazysettings_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_usersettingsholder_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_nonupper_settings_ignored_in_default_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_nonupper_settings_prohibited_in_configure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Add SCRIPT_NAME prefix to relative paths. Useful when the app is being served…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Return True if the settings have already been configured.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **A lazy proxy for either global Django settings or a custom settings object. The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Load the settings module pointed to by the environment variable. This is used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Return the value of a setting and cache it in self.__dict__.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 331](Community_331.md) (4 shared connections)
-- [Community 185](Community_185.md) (4 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 400](Community_400.md) (2 shared connections)
-- [Community 68](Community_68.md) (2 shared connections)
-- [Community 176](Community_176.md) (2 shared connections)
+- [Community 401](Community_401.md) (4 shared connections)
+- [Community 572](Community_572.md) (4 shared connections)
+- [Community 516](Community_516.md) (4 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 125](Community_125.md) (2 shared connections)
+- [Community 582](Community_582.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 - [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 84 (92%)
-- INFERRED: 7 (8%)
+- EXTRACTED: 49 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

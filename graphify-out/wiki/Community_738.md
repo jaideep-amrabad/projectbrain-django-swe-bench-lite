@@ -1,43 +1,37 @@
 # Community 738
 
-> 14 nodes · cohesion 0.20
+> 14 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **generic_urls.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/generic_urls.py`
-- **view_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **BaseArticle** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **UrlArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **DateArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **Regression tests for Django built-in views.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **An abstract article Model so that we can create article models with and without…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **An Article class with a get_absolute_url defined.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **An article Model with a DateField instead of DateTimeField, for testing #7602** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **TemplateReloadTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **Jinja2TemplateReloadTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **patch** (5 connections)
+- **.test_non_template_changed_in_template_directory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_reset_all_loaders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_non_template_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_reset_all_loaders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_template_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_template_dirs_ignore_empty_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_template_dirs_normalized_to_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_get_template_directories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_watch_for_template_changes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_get_template_directories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_watch_for_template_changes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
 
 ## Relationships
 
-- [Community 421](Community_421.md) (4 shared connections)
-- [Community 607](Community_607.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 448](Community_448.md) (1 shared connections)
-- [Community 199](Community_199.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 400](Community_400.md) (1 shared connections)
-- [Community 157](Community_157.md) (1 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 209](Community_209.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/generic_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

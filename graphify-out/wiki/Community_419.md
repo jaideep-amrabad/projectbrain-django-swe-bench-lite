@@ -1,56 +1,55 @@
 # Community 419
 
-> 23 nodes · cohesion 0.10
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **.func()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **._set_autocommit()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.ensure_connection()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **._rollback()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.validate_no_atomic_block()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.get_autocommit()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.close_if_health_check_failed()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.on_commit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.run_and_clear_commit_hooks()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.close_if_unusable_or_obsolete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.is_usable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.__get__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **._rollback()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **Guarantee that a connection to the database is established.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Roll back a transaction and reset the dirty flag.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Backend-specific implementation to enable or disable autocommit.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Get the autocommit state.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Enable or disable autocommit. The usual way to start a transaction is to turn…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Raise an error if an atomic block is active.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Test if the database connection is usable. This method may assume that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Close existing connection if it fails a health check.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Close the current connection if unrecoverable errors have occurred or if it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Call the function and put the return value in instance.__dict__ so that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **OtherModelTests** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_ordering_allows_registered_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_swappable_missing_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_swappable_missing_app_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_just_ordering_no_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_name_ending_with_underscore()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_non_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_ordering_non_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_ordering_pointing_to_lookup_not_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_ordering_pointing_to_missing_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_ordering_pointing_to_missing_foreignkey_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_ordering_pointing_to_missing_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_property_and_related_field_accessor_clash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_single_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_unique_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_just_order_with_respect_to_no_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_m2m_autogenerated_table_name_clash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_m2m_field_table_name_clash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_m2m_table_name_clash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_m2m_to_concrete_and_proxy_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_m2m_unmanaged_shadow_models_not_checked()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_name_beginning_with_underscore()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_name_contains_double_underscores()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_onetoone_with_explicit_parent_link_parent_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_onetoone_with_parent_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 166](Community_166.md) (11 shared connections)
-- [Community 1](Community_1.md) (9 shared connections)
-- [Community 859](Community_859.md) (2 shared connections)
-- [Community 626](Community_626.md) (2 shared connections)
-- [Community 173](Community_173.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 401](Community_401.md) (1 shared connections)
+- [Community 52](Community_52.md) (14 shared connections)
+- [Community 216](Community_216.md) (3 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 557](Community_557.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 659](Community_659.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (95%)
-- INFERRED: 3 (5%)
+- EXTRACTED: 57 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

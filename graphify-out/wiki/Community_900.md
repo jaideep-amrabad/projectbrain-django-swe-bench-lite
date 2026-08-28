@@ -1,41 +1,39 @@
 # Community 900
 
-> 10 nodes · cohesion 0.33
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **ValidationAssertions** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
-- **test_custom_messages.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- **validation/test_validators.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- **validation/__init__.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
-- **CustomMessagesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- **CustomMessagesModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_custom_null_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- **.test_custom_simple_validator_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- **.assertFailsValidation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
-- **.assertFieldFailsValidationWithMessage()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
+- **DatabaseWrapper** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **register_geometry_adapters()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **TestPostGISBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **.get_new_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **.prepare_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **postgis_adapters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **_register_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **skipUnless** (2 connections)
+- **.test_non_db_connection_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **PsycopgDatabaseWrapper** (1 connections)
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
 
 ## Relationships
 
-- [Community 619](Community_619.md) (4 shared connections)
-- [Community 567](Community_567.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 780](Community_780.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 809](Community_809.md) (1 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 904](Community_904.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 205](Community_205.md) (1 shared connections)
+- [Community 817](Community_817.md) (1 shared connections)
+- [Community 273](Community_273.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 18 (78%)
+- INFERRED: 5 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

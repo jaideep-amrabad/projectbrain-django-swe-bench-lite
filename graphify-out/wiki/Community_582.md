@@ -1,45 +1,54 @@
 # Community 582
 
-> 19 nodes · cohesion 0.11
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **FlatpageCSRFTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **.test_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **.test_fallback_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **.test_post_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **.test_post_unknown_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **.test_post_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **.test_view_authenticated_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **.test_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **.test_view_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **A nonexistent flatpage raises a 404 when served by the fallback middleware.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **POSTing to a flatpage served through a view will raise a CSRF error if no token…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **POSTing to a flatpage served by the middleware will raise a CSRF error if no…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **POSTing to an unknown page isn't caught as a 403 CSRF error** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **A flatpage can be served through a view, even when the middleware is in use** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **A nonexistent flatpage raises 404 when served through a view, even when the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **A flatpage served through a view can require authentication** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **A flatpage can be served by the fallback middleware** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **LazyObject** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **DefaultAdminSite** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **._setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **ConfiguredStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **DefaultStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/__init__.py`
+- **.__reduce__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **unpickle_lazyobject()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **._setup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **.__delattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__setattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **._setup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **._setup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **._setup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/__init__.py`
+- **.__copy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__getattribute__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **A wrapper for another class that can be used to delay instantiation of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **Must be implemented by subclasses to initialize the wrapped object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **Used to unpickle lazy objects. Just return its argument, which will be the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
 
 ## Relationships
 
-- [Community 400](Community_400.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 84](Community_84.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 247](Community_247.md) (1 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 172](Community_172.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 287](Community_287.md) (2 shared connections)
+- [Community 186](Community_186.md) (2 shared connections)
+- [Community 401](Community_401.md) (1 shared connections)
+- [Community 495](Community_495.md) (1 shared connections)
+- [Community 533](Community_533.md) (1 shared connections)
+- [Community 237](Community_237.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 37 (90%)
+- INFERRED: 4 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

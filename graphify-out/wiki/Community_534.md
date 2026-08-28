@@ -1,61 +1,46 @@
 # Community 534
 
-> 31 nodes · cohesion 0.09
+> 22 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **DistanceTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **GeoQuerySetTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **Union** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **.get_names()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_dwithin_subquery()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_geodetic_distance_lookups()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_geoagg_subquery()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **.test_distance_lookups_with_expression_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_dwithin()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_dwithin_with_expression_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_unionagg()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **.test_unionagg_tolerance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **.test_dwithin_with_expression_rhs_not_supported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_extent()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **.test_extent_with_limit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **.test_distance_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_unionagg_tolerance_escaping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_mysql_geodetic_distance_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_non_concrete_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **.test_within_subquery()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **Test distance lookups on geodetic coordinate systems.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **dwithin lookup in a subquery using OuterRef as a parameter.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **Test initialization of distance models.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- *... and 6 more nodes in this community*
+- **InMemoryDirNode** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **InMemoryFileNode** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **TimingMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._update_accessed_time()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._update_modified_time()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._convert_stream_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._initialize_stream()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._initialize_times()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.remove_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._resolve_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.listdir()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **Helper class representing an in-memory file node. Handle unicode/bytes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **Initialize underlying stream according to the content type.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **Convert actual file content according to the opening mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **Helper class representing an in-memory directory node. Handle path navigation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **Navigate current directory tree, returning node matching path or creating a new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
 
 ## Relationships
 
-- [Community 27](Community_27.md) (14 shared connections)
-- [Community 29](Community_29.md) (8 shared connections)
-- [Community 787](Community_787.md) (7 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 22](Community_22.md) (5 shared connections)
-- [Community 41](Community_41.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 133](Community_133.md) (3 shared connections)
-- [Community 112](Community_112.md) (2 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 298](Community_298.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 296](Community_296.md) (2 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (84%)
-- INFERRED: 16 (16%)
+- EXTRACTED: 41 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

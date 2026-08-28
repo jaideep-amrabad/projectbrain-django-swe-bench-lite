@@ -1,40 +1,31 @@
 # Community 1027
 
-> 6 nodes · cohesion 0.47
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **gis/admin/__init__.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/__init__.py`
-- **gis/admin/options.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **GISModelAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **autodiscover()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
-- **GeoModelAdminMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **.formfield_for_dbfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **Publication** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.test_reverse_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
 
 ## Relationships
 
-- [Community 607](Community_607.md) (5 shared connections)
-- [Community 42](Community_42.md) (3 shared connections)
-- [Community 295](Community_295.md) (2 shared connections)
-- [Community 569](Community_569.md) (1 shared connections)
-- [Community 648](Community_648.md) (1 shared connections)
-- [Community 203](Community_203.md) (1 shared connections)
-- [Community 294](Community_294.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 133](Community_133.md) (1 shared connections)
+- [Community 869](Community_869.md) (5 shared connections)
+- [Community 190](Community_190.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

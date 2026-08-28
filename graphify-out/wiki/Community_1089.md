@@ -4,25 +4,27 @@
 
 ## Key Concepts
 
-- **Section** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.name_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple section that links to articles, to test linking to related items in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A property that simply returns the name. Used to test #24461** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.load_tests_for_label()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **try_importing()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.load_with_patterns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **find_top_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Try importing a test label, and return (is_importable, is_package). Relative…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- [Community 65](Community_65.md) (1 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 425](Community_425.md) (1 shared connections)
+- [Community 217](Community_217.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (90%)
+- INFERRED: 1 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

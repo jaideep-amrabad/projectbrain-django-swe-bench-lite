@@ -1,78 +1,67 @@
 # Community 61
 
-> 63 nodes · cohesion 0.06
+> 108 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **checks/__init__.py** (80 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/__init__.py`
-- **Error** (41 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **Tags** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
-- **checks/urls.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **.register()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
-- **contenttypes/apps.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- **contenttypes/management/__init__.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **caches.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
-- **model_checks.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
-- **security/csrf.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **checks/templates.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
-- **translation.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **sites/apps.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/apps.py`
-- **_check_lazy_references()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
-- **contenttypes/checks.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/checks.py`
-- **create_contenttypes()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **check_site_id()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/checks.py`
-- **check_model_name_lengths()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/checks.py`
-- **async_checks.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/async_checks.py`
-- **django_4_0.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/compatibility/django_4_0.py`
-- **checks/files.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/files.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **test_files.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_files.py`
-- **sites/checks.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/checks.py`
-- **database.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/database.py`
-- *... and 38 more nodes in this community*
+- **file_uploads/views.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **JsonResponse** (32 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **files/uploadhandler.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **FileUploadHandler** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **HttpResponseServerError** (13 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **file_uploads/uploadhandler.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **StopUpload** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **TemporaryFileUploadHandler** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **QuotaUploadHandler** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **JsonResponseTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **FileModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
+- **TraversalUploadHandler** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **MemoryFileUploadHandler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **StopUploadTemporaryFileHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **StopFutureHandlers** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **UploadFileException** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **ErroringUploadHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **file_upload_echo()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_view_verify()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **SkipFile** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **file_uploads/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
+- **file_upload_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **file_upload_filename_case_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_quota()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- *... and 83 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (34 shared connections)
-- [Community 2](Community_2.md) (24 shared connections)
-- [Community 400](Community_400.md) (17 shared connections)
-- [Community 360](Community_360.md) (16 shared connections)
-- [Community 1](Community_1.md) (13 shared connections)
-- [Community 217](Community_217.md) (11 shared connections)
-- [Community 405](Community_405.md) (11 shared connections)
-- [Community 594](Community_594.md) (8 shared connections)
-- [Community 104](Community_104.md) (6 shared connections)
-- [Community 26](Community_26.md) (6 shared connections)
-- [Community 431](Community_431.md) (6 shared connections)
-- [Community 199](Community_199.md) (5 shared connections)
+- [Community 82](Community_82.md) (16 shared connections)
+- [Community 401](Community_401.md) (14 shared connections)
+- [Community 46](Community_46.md) (10 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 724](Community_724.md) (3 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 138](Community_138.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 229](Community_229.md) (2 shared connections)
+- [Community 241](Community_241.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/async_checks.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/compatibility/django_4_0.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/database.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/files.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 333 (96%)
-- INFERRED: 14 (4%)
+- EXTRACTED: 220 (94%)
+- INFERRED: 14 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

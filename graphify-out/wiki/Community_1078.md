@@ -4,28 +4,27 @@
 
 ## Key Concepts
 
-- **test_4_0_compatibility.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_4_0_compatibility.py`
-- **check_csrf_trusted_origins()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/compatibility/django_4_0.py`
-- **CheckCSRFTrustedOrigins** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_4_0_compatibility.py`
-- **.test_invalid_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_4_0_compatibility.py`
-- **.test_valid_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_4_0_compatibility.py`
-- **register** (1 connections)
+- **get_digit()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **test_get_digit.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_get_digit.py`
+- **FunctionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_get_digit.py`
+- **.test_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_get_digit.py`
+- **.test_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_get_digit.py`
+- **Given a whole number, return the requested digit of it, where 1 is the right-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 61](Community_61.md) (4 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 311](Community_311.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/compatibility/django_4_0.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_4_0_compatibility.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_get_digit.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,42 +1,40 @@
 # Community 751
 
-> 19 nodes · cohesion 0.11
+> 13 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **SquashMigrationsTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashed_name_with_start_migration_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashed_name_without_start_migration_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashmigrations_invalid_start()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashmigrations_optimizes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashmigrations_squashes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashmigrations_valid_start()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_ticket_23799_squashmigrations_no_optimize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashed_name_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashmigrations_initial_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashmigrations_manual_porting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **Tests running the squashmigrations command.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **squashmigrations squashes migrations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **squashmigrations optimizes operations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **squashmigrations --no-optimize doesn't optimize operations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **squashmigrations accepts a starting migration.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **squashmigrations doesn't accept a starting migration after the ending migration.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **--squashed-name specifies the new migration's name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **--squashed-name also works if a start migration is omitted.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **TypedChoiceField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **TypedChoiceFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **._coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_typedchoicefield_special_coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_5()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_6()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **Validate that the value can be coerced to the right type (if not empty).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **A coerce function which results in a value not present in choices should raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (10 shared connections)
-- [Community 68](Community_68.md) (2 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 327](Community_327.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
+- [Community 383](Community_383.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (69%)
+- INFERRED: 8 (31%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,27 +1,30 @@
 # Community 1069
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **DebugContextProcessorTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **.test_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **.test_sql_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **Tests for the ``django.template.context_processors.debug`` processor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **Test whether sql_queries represents the actual amount of queries executed.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- **NonDjangoTemplatesDebugViewTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_template_not_found_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_400_bad_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_403()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 138](Community_138.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **lower()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_lower.py`
-- **.test_lower()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_lower.py`
-- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_lower.py`
-- **.test_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_lower.py`
-- **Convert a string into all lowercase.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **upper()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_upper.py`
+- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_upper.py`
+- **.test_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_upper.py`
+- **.test_upper()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_upper.py`
+- **Convert a string into all uppercase.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
@@ -19,7 +19,7 @@
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_lower.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_upper.py`
 
 ## Audit Trail
 

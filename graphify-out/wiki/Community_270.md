@@ -1,51 +1,53 @@
 # Community 270
 
-> 41 nodes · cohesion 0.05
+> 77 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **AsyncDummyCacheTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_data_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aadd()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aclear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aclose()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_adecr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_adecr_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_adelete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_adelete_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aget_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_ahas_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aincr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aincr_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aset_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_expiration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_adelete_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aget_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aget_or_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aget_or_set_callable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aset_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_atouch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **Expiration has no effect on the dummy cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- *... and 16 more nodes in this community*
+- **BaseCacheTests** (64 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **BaseMemcachedTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **._perform_invalid_key_test()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **._perform_cull_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Unpicklable** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **caches_setting_for_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **._perform_invalid_key_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_add_fail_on_pickleerror()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_default_used_when_none_is_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_forever_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_invalid_key_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_invalid_key_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_invalid_with_version_key_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_long_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_set_fail_on_pickleerror()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_set_many_returns_empty_list_on_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_zero_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_zero_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_default_far_future_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_default_never_expiring_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_invalid_with_version_key_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_zero_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- *... and 52 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 444](Community_444.md) (1 shared connections)
+- [Community 108](Community_108.md) (6 shared connections)
+- [Community 664](Community_664.md) (5 shared connections)
+- [Community 693](Community_693.md) (1 shared connections)
+- [Community 676](Community_676.md) (1 shared connections)
+- [Community 132](Community_132.md) (1 shared connections)
+- [Community 297](Community_297.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 97 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

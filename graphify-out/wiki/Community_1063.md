@@ -1,30 +1,28 @@
 # Community 1063
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **DataUploadMaxMemorySizeGetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
-- **.test_data_upload_max_memory_size_exceeded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
-- **.test_empty_content_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
-- **.test_no_limit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
-- **.test_size_not_exceeded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
+- **PluralizeTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.check_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_no_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_singular_and_plural_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **setup** (3 connections)
 
 ## Relationships
 
-- [Community 90](Community_90.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_data_upload_settings.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

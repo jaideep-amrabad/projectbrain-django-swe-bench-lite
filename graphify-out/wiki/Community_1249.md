@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_inheritance26()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Set up a base template to extend** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance42()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Expression starting and ending with a quote** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 892](Community_892.md) (1 shared connections)
-- [Community 891](Community_891.md) (1 shared connections)
+- [Community 895](Community_895.md) (1 shared connections)
+- [Community 894](Community_894.md) (1 shared connections)
 
 ## Source Files
 

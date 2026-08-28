@@ -1,28 +1,30 @@
 # Community 1083
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **OrderWrt** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **fields/proxy.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **Field-like classes that aren't really fields. It's easier to use objects that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **A proxy for the _order database field that is used when…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
+- **MailTimeZoneTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_date_header_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_date_header_utc()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **requires_tz_support** (1 connections)
+- **EMAIL_USE_LOCALTIME=False creates a datetime in UTC.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **EMAIL_USE_LOCALTIME=True creates a datetime in the local time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
+- [Community 116](Community_116.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 401](Community_401.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

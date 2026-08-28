@@ -1,53 +1,60 @@
 # Community 238
 
-> 45 nodes · cohesion 0.07
+> 33 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **templatetags/custom.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **simple_tag** (21 connections)
-- **CounterNode** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **escape_explicit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **escape_format_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **make_data_div()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **counter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **escape_naive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **explicit_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **no_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **no_params_with_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **one_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **params_and_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **filter** (3 connections)
-- **simple_one_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **simple_only_unlimited_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **simple_tag_takes_context_without_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **simple_tag_without_context_parameter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **simple_two_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **simple_unlimited_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **simple_unlimited_args_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **trim()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **context_stack_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **current_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **minustwo_overridden_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- *... and 20 more nodes in this community*
+- **HttpResponseBase** (37 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **OSError** (7 connections)
+- **HttpResponseBaseTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **.set_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **ValueError** (3 connections)
+- **.test_setdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **.delete_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.has_header()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.set_signed_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.setdefault()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.writelines()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.test_closed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **.test_tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **.test_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **._content_type_for_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__delitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.flush()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.readable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 311](Community_311.md) (2 shared connections)
-- [Community 972](Community_972.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 386](Community_386.md) (2 shared connections)
+- [Community 401](Community_401.md) (5 shared connections)
+- [Community 924](Community_924.md) (3 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 201](Community_201.md) (1 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
+- [Community 820](Community_820.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 242](Community_242.md) (1 shared connections)
+- [Community 1134](Community_1134.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 914](Community_914.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 84 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 53 (87%)
+- INFERRED: 8 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

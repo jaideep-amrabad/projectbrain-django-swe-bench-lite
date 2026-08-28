@@ -1,28 +1,25 @@
 # Community 1114
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **UTF8Class** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.test_filter_syntax18()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **Strings are converted to bytestrings in the final output.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **Class whose __str__ returns non-ASCII data** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **DjangoRangeDumper** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
+- **RangeDumper** (1 connections)
+- **.upgrade()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
+- **A Range dumper customized for Django.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
 
 ## Relationships
 
-- [Community 251](Community_251.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
