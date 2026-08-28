@@ -1,6 +1,6 @@
 # Community 14
 
-> 103 nodes · cohesion 0.04
+> 109 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -12,10 +12,10 @@
 - **.get_object()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **localtime()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 - **.get_dated_queryset()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **.get_date_field()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **get_object_or_404/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
-- **.user_change_password()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
 - **DateMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **_date_from_string()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **WeekMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
@@ -24,32 +24,32 @@
 - **.get_year()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **get_object_or_404/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
 - **GetObjectOr404Tests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **SiteManager** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **.get_current()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
 - **.get_next_month()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **.get_next_week()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **.get_year_format()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **gis/views.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/views.py`
-- **._make_date_lookup_arg()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- *... and 78 more nodes in this community*
+- *... and 84 more nodes in this community*
 
 ## Relationships
 
-- [Community 81](Community_81.md) (34 shared connections)
-- [Community 57](Community_57.md) (7 shared connections)
-- [Community 195](Community_195.md) (6 shared connections)
-- [Community 3](Community_3.md) (6 shared connections)
-- [Community 26](Community_26.md) (5 shared connections)
-- [Community 214](Community_214.md) (5 shared connections)
-- [Community 118](Community_118.md) (5 shared connections)
-- [Community 91](Community_91.md) (4 shared connections)
-- [Community 1222](Community_1222.md) (4 shared connections)
-- [Community 61](Community_61.md) (3 shared connections)
-- [Community 175](Community_175.md) (3 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
+- [Community 53](Community_53.md) (34 shared connections)
+- [Community 184](Community_184.md) (14 shared connections)
+- [Community 71](Community_71.md) (9 shared connections)
+- [Community 43](Community_43.md) (5 shared connections)
+- [Community 311](Community_311.md) (5 shared connections)
+- [Community 92](Community_92.md) (4 shared connections)
+- [Community 59](Community_59.md) (4 shared connections)
+- [Community 1223](Community_1223.md) (4 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 177](Community_177.md) (3 shared connections)
+- [Community 68](Community_68.md) (3 shared connections)
+- [Community 182](Community_182.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
 - `raw/code/hyd-evaluation/django-django/django/http/response.py`
 - `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
@@ -60,8 +60,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 299 (98%)
-- INFERRED: 6 (2%)
+- EXTRACTED: 309 (98%)
+- INFERRED: 7 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

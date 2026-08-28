@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **multiple_database/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/__init__.py`
+- **modeladmin/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/__init__.py`
 
 ## Audit Trail
 

@@ -1,6 +1,6 @@
 # Community 1
 
-> 433 nodes · cohesion 0.01
+> 438 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **test_wordwrap.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
 - **test_cache.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
 - **syntax_tests/test_static.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
-- *... and 408 more nodes in this community*
+- *... and 413 more nodes in this community*
 
 ## Relationships
 
-- [Community 9](Community_9.md) (180 shared connections)
-- [Community 6](Community_6.md) (127 shared connections)
-- [Community 642](Community_642.md) (124 shared connections)
-- [Community 195](Community_195.md) (58 shared connections)
-- [Community 4](Community_4.md) (48 shared connections)
-- [Community 17](Community_17.md) (43 shared connections)
-- [Community 11](Community_11.md) (38 shared connections)
-- [Community 37](Community_37.md) (32 shared connections)
-- [Community 29](Community_29.md) (28 shared connections)
+- [Community 9](Community_9.md) (182 shared connections)
+- [Community 15](Community_15.md) (133 shared connections)
+- [Community 136](Community_136.md) (125 shared connections)
+- [Community 184](Community_184.md) (73 shared connections)
+- [Community 4](Community_4.md) (49 shared connections)
+- [Community 17](Community_17.md) (41 shared connections)
+- [Community 16](Community_16.md) (36 shared connections)
+- [Community 35](Community_35.md) (33 shared connections)
+- [Community 13](Community_13.md) (28 shared connections)
 - [Community 0](Community_0.md) (28 shared connections)
-- [Community 33](Community_33.md) (28 shared connections)
-- [Community 206](Community_206.md) (26 shared connections)
+- [Community 32](Community_32.md) (27 shared connections)
+- [Community 3](Community_3.md) (27 shared connections)
 
 ## Source Files
 
@@ -64,15 +64,15 @@
 - `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filepathfield.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_regress/test_state.py`
+- `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_backends/test_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2819 (99%)
-- INFERRED: 21 (1%)
+- EXTRACTED: 2827 (99%)
+- INFERRED: 22 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

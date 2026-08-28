@@ -1,6 +1,6 @@
 # Community 1026
 
-> 112 nodes · cohesion 0.03
+> 101 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -11,7 +11,6 @@
 - **RegexPattern** (26 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 - **urls/base.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
 - **urlpatterns/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **get_callable()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
 - **translate_url()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
 - **conf.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
 - **Resolver404** (13 connections) — `raw/code/hyd-evaluation/django-django/django/urls/exceptions.py`
@@ -20,7 +19,6 @@
 - **ResolverTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 - **test_resolvers.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
 - **RoutePattern** (11 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **ViewLoadingTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 - **._populate()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 - **urls/exceptions.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/urls/exceptions.py`
 - **._check_pattern_startswith_slash()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
@@ -29,22 +27,24 @@
 - **._reverse_with_prefix()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 - **CheckURLMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 - **_get_cached_resolver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- *... and 87 more nodes in this community*
+- **LocaleRegexDescriptor** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.resolve()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- *... and 76 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (36 shared connections)
-- [Community 1](Community_1.md) (11 shared connections)
-- [Community 118](Community_118.md) (10 shared connections)
-- [Community 11](Community_11.md) (9 shared connections)
-- [Community 316](Community_316.md) (9 shared connections)
-- [Community 54](Community_54.md) (8 shared connections)
-- [Community 382](Community_382.md) (8 shared connections)
-- [Community 19](Community_19.md) (8 shared connections)
+- [Community 12](Community_12.md) (32 shared connections)
+- [Community 71](Community_71.md) (10 shared connections)
+- [Community 1](Community_1.md) (10 shared connections)
+- [Community 16](Community_16.md) (9 shared connections)
+- [Community 317](Community_317.md) (9 shared connections)
+- [Community 184](Community_184.md) (8 shared connections)
+- [Community 20](Community_20.md) (8 shared connections)
 - [Community 9](Community_9.md) (8 shared connections)
-- [Community 29](Community_29.md) (7 shared connections)
+- [Community 13](Community_13.md) (7 shared connections)
 - [Community 4](Community_4.md) (7 shared connections)
-- [Community 3](Community_3.md) (6 shared connections)
+- [Community 54](Community_54.md) (6 shared connections)
+- [Community 344](Community_344.md) (5 shared connections)
 
 ## Source Files
 
@@ -53,7 +53,6 @@
 - `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
 - `raw/code/hyd-evaluation/django-django/django/urls/exceptions.py`
 - `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
 - `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
 - `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
@@ -62,8 +61,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 376 (95%)
-- INFERRED: 20 (5%)
+- EXTRACTED: 349 (95%)
+- INFERRED: 18 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---
