@@ -34,9 +34,9 @@
 ## Relationships
 
 - [Community 51](Community_51.md) (4 shared connections)
-- [Community 97](Community_97.md) (2 shared connections)
+- [Community 99](Community_99.md) (2 shared connections)
 - [Community 6](Community_6.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 

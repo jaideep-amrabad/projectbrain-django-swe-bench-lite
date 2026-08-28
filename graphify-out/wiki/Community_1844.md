@@ -4,22 +4,24 @@
 
 ## Key Concepts
 
-- **check_framework/apps.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
-- **CheckDefaultPKConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
-- **CheckPKConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
+- **.test_disallowed_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_disallowed_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **An exception report can be generated even for a disallowed host.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 377](Community_377.md) (3 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 716](Community_716.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 551](Community_551.md) (1 shared connections)
+- [Community 808](Community_808.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -5,7 +5,7 @@
 ## Key Concepts
 
 - **NaturalKeyFixtureTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Circle2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Circle1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 - **Circle3** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 - **ExternalDependency** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 - **RefToNKChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
@@ -33,10 +33,10 @@
 
 ## Relationships
 
-- [Community 362](Community_362.md) (10 shared connections)
-- [Community 637](Community_637.md) (3 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 1071](Community_1071.md) (1 shared connections)
+- [Community 359](Community_359.md) (10 shared connections)
+- [Community 639](Community_639.md) (3 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1077](Community_1077.md) (1 shared connections)
 
 ## Source Files
 

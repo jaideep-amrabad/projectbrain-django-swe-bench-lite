@@ -1,6 +1,6 @@
 # Community 4
 
-> 265 nodes · cohesion 0.01
+> 297 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -8,7 +8,10 @@
 - **Template** (147 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
 - **ContextTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
 - **humanize_tests/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **TemplateTestMixin** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
 - **TemplateTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **template_tests/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **._engine()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
 - **test_percents.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
 - **test_context.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
 - **context.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
@@ -26,25 +29,22 @@
 - **FrenchTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
 - **RenderingTemplatesWithPercentSigns** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
 - **MultipleLocaleActivationBlockTranslateTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **MultipleLocaleActivationTransTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **ContextDict** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **URLTagTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- *... and 240 more nodes in this community*
+- *... and 272 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (60 shared connections)
-- [Community 78](Community_78.md) (51 shared connections)
-- [Community 1](Community_1.md) (41 shared connections)
-- [Community 40](Community_40.md) (15 shared connections)
-- [Community 6](Community_6.md) (13 shared connections)
-- [Community 100](Community_100.md) (12 shared connections)
-- [Community 65](Community_65.md) (11 shared connections)
-- [Community 450](Community_450.md) (11 shared connections)
-- [Community 24](Community_24.md) (10 shared connections)
-- [Community 32](Community_32.md) (10 shared connections)
-- [Community 172](Community_172.md) (10 shared connections)
-- [Community 422](Community_422.md) (10 shared connections)
+- [Community 5](Community_5.md) (65 shared connections)
+- [Community 127](Community_127.md) (53 shared connections)
+- [Community 0](Community_0.md) (36 shared connections)
+- [Community 41](Community_41.md) (15 shared connections)
+- [Community 6](Community_6.md) (15 shared connections)
+- [Community 30](Community_30.md) (13 shared connections)
+- [Community 36](Community_36.md) (13 shared connections)
+- [Community 16](Community_16.md) (13 shared connections)
+- [Community 57](Community_57.md) (12 shared connections)
+- [Community 451](Community_451.md) (11 shared connections)
+- [Community 21](Community_21.md) (10 shared connections)
+- [Community 169](Community_169.md) (10 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 820 (98%)
+- EXTRACTED: 887 (98%)
 - INFERRED: 20 (2%)
 - AMBIGUOUS: 0 (0%)
 

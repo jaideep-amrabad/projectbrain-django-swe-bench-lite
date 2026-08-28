@@ -1,22 +1,25 @@
 # Community 1330
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **SelectBox.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectBox.js`
+- **check_framework/apps.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
+- **CheckDefaultPKConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
+- **CheckPKConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectBox.js`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
