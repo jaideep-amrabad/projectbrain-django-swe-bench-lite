@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **mapwidget.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/gis/mapwidget.test.js`
+- **two_configs_one_default_app/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_one_default_app/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/gis/mapwidget.test.js`
+- `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_one_default_app/__init__.py`
 
 ## Audit Trail
 

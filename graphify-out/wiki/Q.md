@@ -2,7 +2,7 @@
 
 > God node · 305 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 18](Community_18.md)
+**Community:** [Community 12](Community_12.md)
 
 ## Connections by Relation
 
@@ -15,7 +15,6 @@
 - apply_limit_choices_to_to_formfield() `EXTRACTED`
 - .test_date_case_subtraction() `EXTRACTED`
 - ._test_range_overlaps() `EXTRACTED`
-- .with_perm() `EXTRACTED`
 - create_forward_many_to_many_manager() `EXTRACTED`
 - .test_case_aggregate() `EXTRACTED`
 - .test_conditional_aggregation_example() `EXTRACTED`
@@ -23,6 +22,7 @@
 - .test_op_class_descending_partial() `EXTRACTED`
 - .test_op_class_descending_partial_tablespace() `EXTRACTED`
 - .test_func_unique_constraint_partial() `EXTRACTED`
+- .with_perm() `EXTRACTED`
 - update_proxy_model_permissions() `EXTRACTED`
 - .__init__() `EXTRACTED`
 - .test_annotation_disjunction() `EXTRACTED`

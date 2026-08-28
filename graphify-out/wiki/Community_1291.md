@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **collapse.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/collapse.js`
+- **django/db/backends/mysql/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/collapse.js`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/__init__.py`
 
 ## Audit Trail
 
