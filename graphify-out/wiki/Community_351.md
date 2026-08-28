@@ -1,60 +1,61 @@
 # Community 351
 
-> 38 nodes · cohesion 0.06
+> 54 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Meta** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Tag** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ConditionalTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ExistsSql** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **NullableRelOrderingTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Individual** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **OrderItem** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Cover** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Plaything** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **RelatedObject** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **SingleObject** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **TestTicket24605** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ValuesSubqueryTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **LoopX** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **LoopZ** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **NullableName** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **RelatedIndividual** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **EmptyStringPromotionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_exists()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ReverseJoinTrimmingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **LoopY** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_null_ordering_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket_18414_distinct_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- *... and 13 more nodes in this community*
+- **ModelChoiceFieldTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **ModelFormBasicTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **test_modelchoicefield.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **Category** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **Article** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **ArticleForm** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **BaseCategoryForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.create_basic_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_m2m_initial_callable()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_initial_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **RoykoForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_m2m_editing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_multi_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_recleaning_model_form_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_runtime_choicefield_populated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.test_disabled_multiplemodelchoicefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_overridable_choice_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_base_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_basic_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_save_commit_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_save_with_data_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Community 87](Community_87.md) (31 shared connections)
-- [Community 401](Community_401.md) (9 shared connections)
-- [Community 11](Community_11.md) (6 shared connections)
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 318](Community_318.md) (3 shared connections)
-- [Community 308](Community_308.md) (3 shared connections)
-- [Community 56](Community_56.md) (3 shared connections)
-- [Community 873](Community_873.md) (2 shared connections)
-- [Community 486](Community_486.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 470](Community_470.md) (2 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
+- [Community 113](Community_113.md) (19 shared connections)
+- [Community 477](Community_477.md) (5 shared connections)
+- [Community 10](Community_10.md) (4 shared connections)
+- [Community 58](Community_58.md) (4 shared connections)
+- [Community 504](Community_504.md) (3 shared connections)
+- [Community 28](Community_28.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 273](Community_273.md) (2 shared connections)
+- [Community 738](Community_738.md) (2 shared connections)
+- [Community 978](Community_978.md) (2 shared connections)
+- [Community 1072](Community_1072.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 87 (72%)
-- INFERRED: 34 (28%)
+- EXTRACTED: 104 (80%)
+- INFERRED: 26 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

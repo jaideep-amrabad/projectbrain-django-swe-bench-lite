@@ -1,49 +1,61 @@
 # Community 443
 
-> 16 nodes · cohesion 0.12
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **JoinReuseTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Annotation** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Ticket20101Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **TestInvalidValuesRelation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_annotation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_disjunction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket_20101()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_fk_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_order_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_revfk_noreuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_revo2o_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **The queries reuse joins sensibly (for example, direct joins are always reused).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Tests QuerySet ORed combining in exclude subquery case.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_invalid_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **CsrfViewMiddleware** (89 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._check_token()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.process_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **RejectRequest** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._get_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_sanitize_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.test_origin_malformed_host()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._check_referer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **InvalidTokenFormat** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_EnsureCsrfCookie** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **.test_no_session_on_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._origin_verified()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.process_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._set_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_EnsureCsrfToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **._accept()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.allowed_origin_subdomains()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.process_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **Exception** (2 connections)
+- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **.allowed_origins_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.csrf_trusted_origins_hosts()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **Require a present and correct csrfmiddlewaretoken for POST requests that have a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **A mapping of allowed schemes to list of allowed netlocs, where all subdomains…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 87](Community_87.md) (8 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 470](Community_470.md) (1 shared connections)
-- [Community 659](Community_659.md) (1 shared connections)
-- [Community 401](Community_401.md) (1 shared connections)
-- [Community 873](Community_873.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 351](Community_351.md) (1 shared connections)
-- [Community 318](Community_318.md) (1 shared connections)
+- [Community 208](Community_208.md) (26 shared connections)
+- [Community 9](Community_9.md) (14 shared connections)
+- [Community 480](Community_480.md) (10 shared connections)
+- [Community 334](Community_334.md) (8 shared connections)
+- [Community 904](Community_904.md) (7 shared connections)
+- [Community 697](Community_697.md) (6 shared connections)
+- [Community 43](Community_43.md) (6 shared connections)
+- [Community 788](Community_788.md) (3 shared connections)
+- [Community 573](Community_573.md) (2 shared connections)
+- [Community 668](Community_668.md) (2 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 492](Community_492.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (59%)
-- INFERRED: 15 (41%)
+- EXTRACTED: 122 (91%)
+- INFERRED: 12 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

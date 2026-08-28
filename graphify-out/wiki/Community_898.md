@@ -1,32 +1,55 @@
 # Community 898
 
-> 7 nodes · cohesion 0.29
+> 28 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **.test_rotate_token_triggers_second_reset()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_cookie_reset_only_once()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.assertCookiesSet()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._get_cookies_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **A CSRF cookie that needs to be reset is reset only once when the view is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **Assert that set_cookie() was called with the given sequence of secrets.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **If rotate_token() is called after the token is reset in CsrfViewMiddleware's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.generic()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.request()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._encode_json()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.generic()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._base_scope()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.check_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.head()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.patch()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.put()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._get_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.trace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct a generic request object.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct an arbitrary HTTP request.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Return encoded JSON if data is a dict, list, or tuple and content_type is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct a GET request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct a HEAD request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct a TRACE request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct an OPTIONS request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct a PUT request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct a PATCH request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Construct a DELETE request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 181](Community_181.md) (5 shared connections)
-- [Community 210](Community_210.md) (4 shared connections)
-- [Community 331](Community_331.md) (3 shared connections)
-- [Community 755](Community_755.md) (1 shared connections)
+- [Community 9](Community_9.md) (19 shared connections)
+- [Community 76](Community_76.md) (3 shared connections)
+- [Community 146](Community_146.md) (2 shared connections)
+- [Community 589](Community_589.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 260](Community_260.md) (1 shared connections)
+- [Community 388](Community_388.md) (1 shared connections)
+- [Community 307](Community_307.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 60 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,29 +1,23 @@
 # Community 1703
 
-> 4 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **SQLDeleteCompiler** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.contains_self_reference_subquery()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **._expr_refs_base_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.single_alias()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **apps/test/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/apps/test/__init__.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 172](Community_172.md) (2 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/apps/test/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (70%)
-- INFERRED: 3 (30%)
+- EXTRACTED: 0 (0%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

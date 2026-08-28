@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **views_broken.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views_broken.py`
+- **model_inheritance_regress/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views_broken.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/__init__.py`
 
 ## Audit Trail
 

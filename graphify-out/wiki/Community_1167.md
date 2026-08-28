@@ -1,24 +1,28 @@
 # Community 1167
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_view_with_permissions_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that is protected with @permission_required but raises an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.collect_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **.project_state()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **Return a ProjectState object representing the most recent state that the loaded…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **Take a migration plan and return a list of collected SQL statements that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
 
 ## Relationships
 
-- [Community 530](Community_530.md) (1 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 310](Community_310.md) (1 shared connections)
+- [Community 430](Community_430.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (71%)
+- INFERRED: 2 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

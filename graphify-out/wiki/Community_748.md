@@ -1,40 +1,58 @@
 # Community 748
 
-> 12 nodes · cohesion 0.17
+> 21 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **admin_filters/models.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **Bookmark** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **TaggedItem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **Department** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **ImprovedBook** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- **urlpatterns/views.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
+- **DynamicConverter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **urlpatterns/__init__.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/__init__.py`
+- **urlpatterns/converters.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **path_base64_urls.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_base64_urls.py`
+- **register_converter()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **path_dynamic_urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_dynamic_urls.py`
+- **path_same_name_urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_same_name_urls.py`
+- **urlpatterns/included_urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/included_urls.py`
+- **path_urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_urls.py`
+- **converter_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converter_urls.py`
+- **Base64Converter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **more_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/more_urls.py`
+- **.regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.register_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.register_to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **setter** (1 connections)
 
 ## Relationships
 
-- [Community 453](Community_453.md) (7 shared connections)
-- [Community 345](Community_345.md) (6 shared connections)
-- [Community 178](Community_178.md) (4 shared connections)
-- [Community 44](Community_44.md) (3 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 9](Community_9.md) (12 shared connections)
+- [Community 52](Community_52.md) (3 shared connections)
+- [Community 260](Community_260.md) (2 shared connections)
+- [Community 104](Community_104.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converter_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/included_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/more_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_base64_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_dynamic_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_same_name_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (77%)
-- INFERRED: 8 (23%)
+- EXTRACTED: 48 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

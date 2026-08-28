@@ -1,27 +1,22 @@
 # Community 1711
 
-> 4 nodes · cohesion 0.50
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **override_settings_tags** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **string_lookup/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/__init__.py`
 
 ## Relationships
 
-- [Community 269](Community_269.md) (2 shared connections)
-- [Community 649](Community_649.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/string_lookup/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

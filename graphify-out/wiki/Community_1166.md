@@ -1,23 +1,34 @@
 # Community 1166
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_view_with_inactive_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **An inactive user may login if the authenticate backend allows it.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **where.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **EmptyResultSet** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **A database query predicate is impossible.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **Code to manage the creation and SQL rendering of 'where' constraints.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
 
 ## Relationships
 
-- [Community 530](Community_530.md) (1 shared connections)
+- [Community 30](Community_30.md) (4 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 277](Community_277.md) (3 shared connections)
+- [Community 67](Community_67.md) (2 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 226](Community_226.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **db_functions/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/__init__.py`
+- **loaders/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/__init__.py`
 
 ## Audit Trail
 

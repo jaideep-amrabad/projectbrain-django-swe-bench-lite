@@ -1,24 +1,31 @@
 # Community 1077
 
-> 2 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.test_dependency_sorting_m2m_complex_circular_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Circular M2M relations with explicit through models should be serializable This…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **ReleaseEvent** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Student** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Used to check that autocomplete widget correctly resolves attname for FK as PK…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
 
 ## Relationships
 
-- [Community 364](Community_364.md) (1 shared connections)
+- [Community 103](Community_103.md) (3 shared connections)
+- [Community 583](Community_583.md) (2 shared connections)
+- [Community 119](Community_119.md) (1 shared connections)
+- [Community 102](Community_102.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (83%)
+- INFERRED: 2 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

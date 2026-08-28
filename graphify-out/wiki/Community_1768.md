@@ -1,20 +1,20 @@
 # Community 1768
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_min_num_displaying_more_than_one_blank_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **More than 1 empty form can also be displayed using formset_factory's min_num…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **GenericViewError** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
+- **Exception** (1 connections)
+- **A problem in a generic view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
 
 ## Relationships
 
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 1037](Community_1037.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
 
 ## Audit Trail
 

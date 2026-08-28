@@ -1,78 +1,78 @@
 # Community 52
 
-> 230 nodes · cohesion 0.02
+> 64 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **.connection()** (149 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **django/apps/__init__.py** (115 connections) — `raw/code/hyd-evaluation/django-django/django/apps/__init__.py`
-- **MigrationLoader** (75 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
-- **MigrationRecorder** (55 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
-- **state.py** (51 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **MigrationExecutor** (48 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- **migrations/test_commands.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **test_autodetector.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **LoaderTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **migrations/test_base.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **makemigrations.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **writer.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **test_executor.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **ExecutorTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **apps/registry.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **migrations/exceptions.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **migrations/loader.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
-- **NodeNotFoundError** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **recorder.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
-- **test_loader.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **squashmigrations.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
-- **questioner.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **executor.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- **migration.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **graph.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- *... and 205 more nodes in this community*
+- **include()** (47 connections) — `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
+- **urlpatterns_reverse/views.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
+- **empty_view()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
+- **IncludeTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **redirect()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **ReverseShortcutTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **URLObject** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/utils.py`
+- **ErrorHandlerResolutionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **urlpatterns_reverse/urls.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/urls.py`
+- **urlpatterns_reverse/utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/utils.py`
+- **included_namespace_urls.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_namespace_urls.py`
+- **urlpatterns_reverse/namespace_urls.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/namespace_urls.py`
+- **urlpatterns_reverse/extra_urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/extra_urls.py`
+- **reverse_lazy_urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/reverse_lazy_urls.py`
+- **absolute_kwargs_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
+- **included_named_urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_named_urls.py`
+- **included_urls2.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_urls2.py`
+- **named_urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/named_urls.py`
+- **urls_without_handlers.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/urls_without_handlers.py`
+- **login_required_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
+- **nested_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
+- **included_named_urls2.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_named_urls2.py`
+- **included_no_kwargs_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_no_kwargs_urls.py`
+- **urlpatterns_reverse/included_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_urls.py`
+- **named_urls_conflict.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/named_urls_conflict.py`
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (44 shared connections)
-- [Community 0](Community_0.md) (39 shared connections)
-- [Community 25](Community_25.md) (36 shared connections)
-- [Community 8](Community_8.md) (34 shared connections)
-- [Community 2](Community_2.md) (29 shared connections)
-- [Community 49](Community_49.md) (29 shared connections)
-- [Community 60](Community_60.md) (28 shared connections)
-- [Community 56](Community_56.md) (28 shared connections)
-- [Community 99](Community_99.md) (25 shared connections)
-- [Community 43](Community_43.md) (21 shared connections)
-- [Community 12](Community_12.md) (21 shared connections)
-- [Community 35](Community_35.md) (14 shared connections)
+- [Community 9](Community_9.md) (47 shared connections)
+- [Community 38](Community_38.md) (6 shared connections)
+- [Community 283](Community_283.md) (4 shared connections)
+- [Community 219](Community_219.md) (3 shared connections)
+- [Community 669](Community_669.md) (3 shared connections)
+- [Community 748](Community_748.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
+- [Community 78](Community_78.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/apps/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlmigrate.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/include_contains_tuple.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/include_with_dollar.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/no_warnings.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/non_unique_namespaces.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/unique_namespaces.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/warning_in_include.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/no_slash_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/extra_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_named_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_named_urls2.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_namespace_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_no_kwargs_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_urls2.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/named_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/named_urls_conflict.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/namespace_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/reverse_lazy_urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 891 (82%)
-- INFERRED: 198 (18%)
+- EXTRACTED: 180 (95%)
+- INFERRED: 10 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

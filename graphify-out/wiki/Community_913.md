@@ -1,30 +1,33 @@
 # Community 913
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **URLHandling** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **test_specials.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **.test_nonascii_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **.test_permanent_nonascii_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **A non-ASCII argument to HttpRedirect is handled properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **A non-ASCII argument to HttpPermanentRedirect is handled properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **Tests for URL handling in views and responses.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **middleware_exceptions/views.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/views.py`
+- **permission_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/views.py`
+- **template_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/views.py`
+- **async_exception_in_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/views.py`
+- **exception_in_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/views.py`
+- **server_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/views.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 284](Community_284.md) (2 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
+- [Community 758](Community_758.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

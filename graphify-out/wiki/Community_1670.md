@@ -1,23 +1,22 @@
 # Community 1670
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.page_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return a 1-based range of pages for iterating through within a template for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **proxy_model_inheritance/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/__init__.py`
 
 ## Relationships
 
-- [Community 147](Community_147.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

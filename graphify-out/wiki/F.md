@@ -1,8 +1,8 @@
 # F
 
-> God node · 453 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+> God node · 437 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 31](Community_31.md)
+**Community:** [Community 29](Community_29.md)
 
 ## Connections by Relation
 
@@ -18,7 +18,6 @@
 - .test_date_case_subtraction() `EXTRACTED`
 - .test_conditional_annotation() `EXTRACTED`
 - .test_subquery_row_range_rank() `EXTRACTED`
-- .test_conditional_expression() `EXTRACTED`
 - ._test_range_overlaps() `EXTRACTED`
 - .test_composite_func_index_field_and_expression() `EXTRACTED`
 - .test_func_index_collate() `EXTRACTED`
@@ -27,9 +26,10 @@
 - .dates() `EXTRACTED`
 - .datetimes() `EXTRACTED`
 - .test_case_aggregate() `EXTRACTED`
+- .test_annotation_aggregate_with_m2o() `EXTRACTED`
 
 ### contains
-- models/expressions.py `EXTRACTED`
+- expressions.py `EXTRACTED`
 
 ### imports
 - django/db/models/__init__.py `EXTRACTED`
@@ -47,11 +47,11 @@
 - geoapp/tests.py `EXTRACTED`
 - test_extract_trunc.py `EXTRACTED`
 - test_ranges.py `EXTRACTED`
-- aggregation/tests.py `EXTRACTED`
-- lookup/tests.py `EXTRACTED`
 - postgres_tests/test_indexes.py `EXTRACTED`
-- annotations/tests.py `EXTRACTED`
 - sql/compiler.py `EXTRACTED`
+- annotations/tests.py `EXTRACTED`
+- distapp/tests.py `EXTRACTED`
+- aggregation_regress/tests.py `EXTRACTED`
 
 ### inherits
 - OuterRef `EXTRACTED`
@@ -72,6 +72,13 @@
 
 ### references
 - deconstructible() `EXTRACTED`
+
+### uses
+- Query `INFERRED`
+- QuerySet `INFERRED`
+- Index `INFERRED`
+- SQLCompiler `INFERRED`
+- UniqueConstraint `INFERRED`
 
 ---
 
