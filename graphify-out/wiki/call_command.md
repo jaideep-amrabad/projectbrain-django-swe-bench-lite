@@ -1,8 +1,8 @@
 # call_command()
 
-> God node · 329 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+> God node · 333 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
-**Community:** [Community 8](Community_8.md)
+**Community:** [Community 9](Community_9.md)
 
 ## Connections by Relation
 
@@ -13,6 +13,7 @@
 - .get_actions() `INFERRED`
 - get_commands() `EXTRACTED`
 - .test_migrate_inconsistent_history() `EXTRACTED`
+- .test_migrate_prune() `EXTRACTED`
 - .test_migrate_record_replaced() `EXTRACTED`
 - .test_migrate_record_squashed() `EXTRACTED`
 - .test_showmigrations_list() `EXTRACTED`
@@ -26,7 +27,6 @@
 - .test_include_materialized_views() `EXTRACTED`
 - .test_include_partitions() `EXTRACTED`
 - .test_makemigrations_inconsistent_history() `EXTRACTED`
-- .test_makemigrations_interactive_unique_callable_default_addition() `EXTRACTED`
 
 ### contains
 - core/management/__init__.py `EXTRACTED`

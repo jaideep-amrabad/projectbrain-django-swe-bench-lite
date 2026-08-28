@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **filtered_relation/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/__init__.py`
+- **fake_client.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/fake_client.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/filtered_relation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/fake_client.py`
 
 ## Audit Trail
 

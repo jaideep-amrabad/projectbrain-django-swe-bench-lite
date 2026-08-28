@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **bad_error_handlers_invalid_path.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers_invalid_path.py`
+- **app_unmigrated/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/app_unmigrated/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers_invalid_path.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/app_unmigrated/__init__.py`
 
 ## Audit Trail
 
