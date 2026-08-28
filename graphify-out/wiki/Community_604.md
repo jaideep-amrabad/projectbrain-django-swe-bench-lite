@@ -1,40 +1,41 @@
 # Community 604
 
-> 16 nodes · cohesion 0.21
+> 16 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **FormatStylePlaceholderCursor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.executemany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.execute()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **wrap_oracle_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._fix_for_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._format_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._guess_input_sizes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._output_type_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._param_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._get_decimal_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._output_number_converter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Django uses "format" (e.g. '%s') style placeholders, but Oracle uses ":var"…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Called for each db column fetched from cursors. Return numbers as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **ShellCommandTestCase** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **captured_stdin()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_stdin_read()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **.test_stdin_read_globals()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **.test_stdin_read_inline_function_call()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **captured_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **patch** (5 connections)
+- **.test_shell_with_bpython_not_installed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **.test_shell_with_ipython_not_installed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **skipIf** (3 connections)
+- **.test_command_option_globals()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **.test_command_option_inline_function_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **dict** (2 connections)
+- **.test_command_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **Return a context manager used by captured_stdout/stdin/stderr that temporarily…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Capture the input to sys.stdin: with captured_stdin() as stdin:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
 ## Relationships
 
-- [Community 603](Community_603.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 885](Community_885.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 12](Community_12.md) (9 shared connections)
+- [Community 122](Community_122.md) (6 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

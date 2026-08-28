@@ -1,28 +1,24 @@
 # Community 961
 
-> 6 nodes · cohesion 0.53
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **PDBDebugResult** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.debug()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addError()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addFailure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addSubTest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Custom result class that triggers a PDB session when an error or failure occurs.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.has_usable_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **Return False if set_unusable_password() has been called for this user.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
 
 ## Relationships
 
-- [Community 645](Community_645.md) (3 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 183](Community_183.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

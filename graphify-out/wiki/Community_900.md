@@ -1,33 +1,32 @@
 # Community 900
 
-> 8 nodes · cohesion 0.46
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **ExplicitRelatedNameClashTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **._test_explicit_related_name_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **model_fields/test_slugfield.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
+- **SlugFieldTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
+- **BigS** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **UnicodeSlugField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_slugfield_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
+- **.test_slugfield_unicode_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
+- **SlugField with allow_unicode=True honors max_length.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
+- **SlugField honors max_length.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
 
 ## Relationships
 
-- [Community 87](Community_87.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 36](Community_36.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

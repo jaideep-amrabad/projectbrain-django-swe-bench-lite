@@ -1,6 +1,6 @@
 # Community 88
 
-> 99 nodes · cohesion 0.04
+> 100 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -19,6 +19,7 @@
 - **HashIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
 - **BloomIndexTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
 - **.__init__()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **CharFieldModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
 - **.deconstruct()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
 - **BrinIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
 - **BTreeIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
@@ -28,33 +29,33 @@
 - **.test_op_class_descending_collation()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
 - **.test_op_class_descending_partial()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
 - **.test_op_class_descending_partial_tablespace()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **SpGistIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- *... and 74 more nodes in this community*
+- *... and 75 more nodes in this community*
 
 ## Relationships
 
-- [Community 195](Community_195.md) (13 shared connections)
-- [Community 29](Community_29.md) (11 shared connections)
-- [Community 217](Community_217.md) (8 shared connections)
-- [Community 198](Community_198.md) (7 shared connections)
+- [Community 84](Community_84.md) (15 shared connections)
+- [Community 58](Community_58.md) (11 shared connections)
+- [Community 147](Community_147.md) (8 shared connections)
+- [Community 204](Community_204.md) (7 shared connections)
 - [Community 128](Community_128.md) (5 shared connections)
-- [Community 15](Community_15.md) (5 shared connections)
-- [Community 520](Community_520.md) (4 shared connections)
+- [Community 16](Community_16.md) (5 shared connections)
+- [Community 516](Community_516.md) (4 shared connections)
 - [Community 1](Community_1.md) (4 shared connections)
 - [Community 67](Community_67.md) (4 shared connections)
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 22](Community_22.md) (3 shared connections)
-- [Community 106](Community_106.md) (3 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 195](Community_195.md) (3 shared connections)
+- [Community 27](Community_27.md) (3 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
 
 ## Audit Trail
 
-- EXTRACTED: 265 (89%)
-- INFERRED: 32 (11%)
+- EXTRACTED: 268 (89%)
+- INFERRED: 34 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,53 @@
 # Community 357
 
-> 32 nodes · cohesion 0.08
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **SettingsTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.settings()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **clear_script_prefix()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **MediaURLStaticURLPrefixTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.set_script_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_add_script_name_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_not_prefixed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_override_settings_nested()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_context_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_incorrect_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_override_settings_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.disable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_class_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_no_secret_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_override_doesnt_leak()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_settings_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_settings_delete_wrapped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_signal_callback_context_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_signal_callback_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **Unset the script prefix for the current thread.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **patch** (1 connections)
-- **requires_tz_support** (1 connections)
-- **Allow deletion of a setting in an overridden settings set (#18824)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **override_settings uses the actual _wrapped attribute at runtime, not when it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- *... and 7 more nodes in this community*
+- **_get_next_prev()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **DayMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **WeekMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_month()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_week()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_year()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_day()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **._get_weekday()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_previous_day()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return the start date of the next interval. The interval is defined by start…** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_previous_week()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_week()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_week_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return the start date of the current interval.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **._get_current_week()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **._get_current_day()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **._get_current_year()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Mixin for views manipulating day-based data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the next valid day.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the previous valid day.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Mixin for views manipulating week-based data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get a week format string in strptime syntax to be used to parse the week from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return the week for which this view should display data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Get the next valid week.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (9 shared connections)
-- [Community 12](Community_12.md) (5 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 327](Community_327.md) (4 shared connections)
-- [Community 402](Community_402.md) (3 shared connections)
-- [Community 453](Community_453.md) (1 shared connections)
-- [Community 287](Community_287.md) (1 shared connections)
-- [Community 257](Community_257.md) (1 shared connections)
-- [Community 591](Community_591.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 464](Community_464.md) (1 shared connections)
+- [Community 185](Community_185.md) (14 shared connections)
+- [Community 366](Community_366.md) (13 shared connections)
+- [Community 79](Community_79.md) (4 shared connections)
+- [Community 232](Community_232.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 877](Community_877.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (74%)
-- INFERRED: 19 (26%)
+- EXTRACTED: 74 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,40 +1,37 @@
 # Community 713
 
-> 13 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **ModelDefaultAutoFieldTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_app_default_auto_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_auto_created_inherited_parent_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_auto_created_inherited_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_auto_created_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_auto_created_pk_inherited_abstract_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_default_auto_field_setting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_skipped_on_model_with_invalid_app_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_explicit_inherited_parent_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_explicit_inherited_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_explicit_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **.test_skipped_on_abstract_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **patch** (1 connections)
+- **TestingSessionStore** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **TestingHttpRequest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **PostErrorRequest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._get_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._set_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A version of SessionStore that stores what cookie values are passed to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A version of HttpRequest that lets one track and change some things more easily.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **TestingHttpRequest that can raise errors when accessing POST data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.is_secure()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.__setitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **SessionStore** (1 connections)
 
 ## Relationships
 
-- [Community 17](Community_17.md) (5 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 286](Community_286.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
+- [Community 112](Community_112.md) (3 shared connections)
+- [Community 150](Community_150.md) (1 shared connections)
+- [Community 630](Community_630.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

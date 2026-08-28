@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_inheritance14()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **A block defined only in a child template shouldn't be displayed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Three-level with one block defined on this level, two blocks defined next level** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 799](Community_799.md) (1 shared connections)
-- [Community 832](Community_832.md) (1 shared connections)
+- [Community 800](Community_800.md) (1 shared connections)
+- [Community 834](Community_834.md) (1 shared connections)
 
 ## Source Files
 

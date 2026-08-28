@@ -1,55 +1,54 @@
 # Community 439
 
-> 25 nodes · cohesion 0.09
+> 25 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **.run_tests()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.build_suite()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.load_tests_for_label()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **._get_databases()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.run_suite()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.setup_shuffler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **partition_suite_by_case()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **try_importing()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.get_test_runner_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.run_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.teardown_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.get_resultclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.load_with_patterns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.setup_databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.setup_test_environment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.suite_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.teardown_test_environment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **find_top_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Partition a test suite by test case, preserving the order of tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Log the message at the given logging level (the default is INFO). If a logger…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Destroy all the non-mirror databases.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Run the unit tests for all the test labels in the provided list. Test labels…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Try importing a test label, and return (is_importable, is_package). Relative…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **SelectDateWidgetTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **SelectDateWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.id_for_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **._parse_date_fmt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_custom_input_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.id_for_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.value_from_datadict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_years_rendered_without_separator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_custom_months()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_l10n()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_render_invalid_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_selectdate_empty_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **Don't include for="field_0" in <label> to improve accessibility when using a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **A widget that splits date input into three <select> boxes. This also serves as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Invalid dates should still render the failed date.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **Rendering the None or '' values should yield the same output.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_format_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_render_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_render_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_render_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_selectdate_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
 
 ## Relationships
 
-- [Community 121](Community_121.md) (16 shared connections)
-- [Community 338](Community_338.md) (4 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 500](Community_500.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 503](Community_503.md) (1 shared connections)
-- [Community 248](Community_248.md) (1 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 365](Community_365.md) (3 shared connections)
+- [Community 519](Community_519.md) (2 shared connections)
+- [Community 311](Community_311.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 421](Community_421.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 41 (87%)
+- INFERRED: 6 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

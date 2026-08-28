@@ -1,6 +1,6 @@
 # Community 128
 
-> 124 nodes · cohesion 0.03
+> 123 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **.set_name_with_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
 - **.test_dwithin_with_expression_rhs_not_supported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
 - **.test_index_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
-- *... and 99 more nodes in this community*
+- *... and 98 more nodes in this community*
 
 ## Relationships
 
-- [Community 47](Community_47.md) (28 shared connections)
-- [Community 22](Community_22.md) (27 shared connections)
-- [Community 15](Community_15.md) (13 shared connections)
+- [Community 46](Community_46.md) (28 shared connections)
+- [Community 27](Community_27.md) (22 shared connections)
+- [Community 16](Community_16.md) (13 shared connections)
 - [Community 1](Community_1.md) (11 shared connections)
 - [Community 131](Community_131.md) (11 shared connections)
-- [Community 12](Community_12.md) (10 shared connections)
-- [Community 38](Community_38.md) (9 shared connections)
-- [Community 179](Community_179.md) (6 shared connections)
-- [Community 13](Community_13.md) (5 shared connections)
+- [Community 36](Community_36.md) (10 shared connections)
+- [Community 13](Community_13.md) (10 shared connections)
+- [Community 52](Community_52.md) (6 shared connections)
+- [Community 188](Community_188.md) (6 shared connections)
 - [Community 88](Community_88.md) (5 shared connections)
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 54](Community_54.md) (4 shared connections)
+- [Community 30](Community_30.md) (4 shared connections)
+- [Community 56](Community_56.md) (4 shared connections)
 
 ## Source Files
 
@@ -53,7 +53,6 @@
 - `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
@@ -66,7 +65,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 349 (88%)
+- EXTRACTED: 346 (88%)
 - INFERRED: 47 (12%)
 - AMBIGUOUS: 0 (0%)
 

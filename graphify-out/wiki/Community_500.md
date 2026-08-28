@@ -1,57 +1,49 @@
 # Community 500
 
-> 21 nodes · cohesion 0.10
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Message** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.test_full_request_response_cycle()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_multiple_posts()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **filter_tests_by_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **test_match_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **MessageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
-- **._prepare()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.enable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.level_tag()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Queue a message to be stored. The message is only queued if it contained…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Prepare the message for serialization by forcing the ``message`` and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Represent an actual message that can be stored in any of the supported storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Return the matching tests as an iterator.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **With the message middleware enabled, messages are properly stored and retrieved…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **Messages persist properly when multiple POSTs are made before a GET.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **Shuffler** (26 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **ShufflerTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **test_shuffler.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **._hash_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._hash_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.shuffle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_hash_item_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_hash_item_seed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_hash_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_init_no_seed_argument()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_init_none_seed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_seed_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_shuffle_consistency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_shuffle_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_shuffle_same_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **This class implements shuffling with a special consistency property.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Return a new list of the items in a shuffled order. The `key` is a function…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.seed_display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_hash_text_hash_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
 
 ## Relationships
 
-- [Community 478](Community_478.md) (8 shared connections)
-- [Community 249](Community_249.md) (3 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 499](Community_499.md) (1 shared connections)
-- [Community 463](Community_463.md) (1 shared connections)
-- [Community 935](Community_935.md) (1 shared connections)
-- [Community 439](Community_439.md) (1 shared connections)
-- [Community 286](Community_286.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 336](Community_336.md) (6 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 437](Community_437.md) (1 shared connections)
+- [Community 162](Community_162.md) (1 shared connections)
+- [Community 159](Community_159.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
 - `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 45 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,41 +1,51 @@
 # Community 557
 
-> 18 nodes · cohesion 0.15
+> 18 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **FieldFile** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **._require_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **._get_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.closed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **._del_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **._set_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__setstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **File** (1 connections)
+- **URLResolver** (32 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **._populate()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **._reverse_with_prefix()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.resolve()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **._check_custom_error_handlers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.app_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **._join_route()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.namespace_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.resolve_error_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.reverse_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **._extend_tried()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **._is_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.urlconf_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **Join two routes, without the starting ^ in the second route.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 
 ## Relationships
 
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 222](Community_222.md) (1 shared connections)
+- [Community 32](Community_32.md) (8 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 461](Community_461.md) (4 shared connections)
+- [Community 555](Community_555.md) (3 shared connections)
+- [Community 266](Community_266.md) (2 shared connections)
+- [Community 871](Community_871.md) (1 shared connections)
+- [Community 556](Community_556.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 258](Community_258.md) (1 shared connections)
+- [Community 231](Community_231.md) (1 shared connections)
+- [Community 233](Community_233.md) (1 shared connections)
+- [Community 535](Community_535.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 52 (90%)
+- INFERRED: 6 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

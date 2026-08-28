@@ -1,30 +1,30 @@
 # Community 828
 
-> 10 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **ReservedNameTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **Thing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- **.generate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_dates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_month_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_order_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **PropertyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **properties/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **properties/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **.test_setter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **._get_full_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **._set_full_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **Using properties on models Use properties on models just like on any other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **.test_getter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
 
 ## Relationships
 
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 36](Community_36.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
 
 ## Audit Trail
 

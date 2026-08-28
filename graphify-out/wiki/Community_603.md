@@ -1,47 +1,43 @@
 # Community 603
 
-> 16 nodes · cohesion 0.13
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **DatabaseWrapper** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.create_cursor()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._maindb_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._commit()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.init_connection_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.cx_oracle_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.get_connection_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.oracle_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._savepoint_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Check constraints by setting them to immediate. Return them to deferred…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **This is analogous to other backends' `_nodb_connection` property, which allows…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **RemoteTestResult** (33 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.check_subtest_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._confirm_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._print_unpicklable_subtest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.wasSuccessful()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Extend unittest.TestResult to record events in the child processes so they can…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Confirm that obj can be pickled and unpickled as multiprocessing will need to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Tells whether or not this result was a success.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addSkip()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addSuccess()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addUnexpectedSuccess()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._exc_info_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.startTestRun()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.stopTestRun()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 29](Community_29.md) (3 shared connections)
-- [Community 604](Community_604.md) (3 shared connections)
-- [Community 465](Community_465.md) (2 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
-- [Community 519](Community_519.md) (1 shared connections)
-- [Community 605](Community_605.md) (1 shared connections)
-- [Community 150](Community_150.md) (1 shared connections)
-- [Community 232](Community_232.md) (1 shared connections)
+- [Community 641](Community_641.md) (9 shared connections)
+- [Community 840](Community_840.md) (8 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 1039](Community_1039.md) (1 shared connections)
+- [Community 1038](Community_1038.md) (1 shared connections)
+- [Community 1054](Community_1054.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (73%)
-- INFERRED: 9 (27%)
+- EXTRACTED: 38 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,38 +1,36 @@
 # Community 730
 
-> 12 nodes · cohesion 0.21
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **TagHelperNode** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **InclusionNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **SimpleNode** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **.get_resolved_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **Node** (1 connections)
-- **Base class for tag helper nodes such as SimpleNode and InclusionNode. Manages…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **Render the specified template and context. Cache the template object in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **XMLEqualTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_comment_root()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_doctype_root()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_parsing_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_processing_instruction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_raises_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_unordered()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_with_leading_or_trailing_whitespace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal_with_whitespace_in_the_middle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 135](Community_135.md) (4 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

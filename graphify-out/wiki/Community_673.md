@@ -1,49 +1,42 @@
 # Community 673
 
-> 14 nodes · cohesion 0.20
+> 14 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **ExceptionReporter** (58 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_exception_traceback_frames()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **._get_lines_from_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_traceback_frames()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **._get_explicit_or_implicit_cause()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **CustomExceptionReporter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
-- **CustomExceptionReporter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **._get_source()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **TemplateOverrideExceptionReporter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **Organize and coordinate reporting on exceptions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Return context_lines before and after lineno from file. Return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_traceback_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
-- **.get_traceback_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **ChangePasswordTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.assertFormError()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_user_change_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.fail_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_fails_with_invalid_old_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_fails_with_mismatched_passwords()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_succeeds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.logout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_done_fails()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_done_succeeds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_redirect_custom()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_redirect_custom_named()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_redirect_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Assert that error is found in response.context['form'] errors** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Relationships
 
-- [Community 530](Community_530.md) (15 shared connections)
-- [Community 759](Community_759.md) (9 shared connections)
-- [Community 75](Community_75.md) (9 shared connections)
-- [Community 890](Community_890.md) (5 shared connections)
-- [Community 1131](Community_1131.md) (2 shared connections)
-- [Community 1039](Community_1039.md) (2 shared connections)
-- [Community 1132](Community_1132.md) (2 shared connections)
-- [Community 1052](Community_1052.md) (2 shared connections)
-- [Community 1282](Community_1282.md) (1 shared connections)
-- [Community 1283](Community_1283.md) (1 shared connections)
-- [Community 1284](Community_1284.md) (1 shared connections)
-- [Community 1285](Community_1285.md) (1 shared connections)
+- [Community 254](Community_254.md) (8 shared connections)
+- [Community 672](Community_672.md) (2 shared connections)
+- [Community 255](Community_255.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 708](Community_708.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 31 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,51 +1,60 @@
 # Community 205
 
-> 51 nodes · cohesion 0.05
+> 51 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **RawQueryTests** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.assertSuccessfulRawQuery()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.assertNoAnnotations()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.assertProcessed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_pyformat_params()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.assertAnnotations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_db_column_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_extra_conversions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_FK_raw_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_order_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_pk_with_mixed_case_db_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_simple_raw_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_translations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **Test passing optional query parameters** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_annotations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_db_column_name_is_used_in_raw_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_query_representation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_raw_query_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_white_space_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **Basic test of raw query with a simple database query** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **Raw queries are lazy: they aren't actually executed until they're iterated over.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **Test of a simple raw query against a model containing a foreign key** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **Test of a simple raw query against a model containing a field with db_column…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **model_fields/test_uuid.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **TestQuerying** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **TestAsPrimaryKey** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **TestSaveLoad** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.assertSequenceEqualWithoutHyphens()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **PrimaryKeyUUIDModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestMethods** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_filter_with_expr()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **UUIDGrandchild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **UUIDModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestAsPrimaryKeyTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **NullableUUIDModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **RelatedToUUIDModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestValidation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **UUIDChild** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_unsaved_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_two_level_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_uuid_pk_on_bulk_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_endswith()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_icontains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_iendswith()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_iexact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_istartswith()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 - *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 827](Community_827.md) (8 shared connections)
-- [Community 336](Community_336.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- [Community 13](Community_13.md) (9 shared connections)
+- [Community 36](Community_36.md) (5 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 221](Community_221.md) (2 shared connections)
+- [Community 69](Community_69.md) (2 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 131](Community_131.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 155](Community_155.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (90%)
-- INFERRED: 8 (10%)
+- EXTRACTED: 98 (91%)
+- INFERRED: 10 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,35 +1,41 @@
 # Community 829
 
-> 10 nodes · cohesion 0.27
+> 10 nodes · cohesion 0.38
 
 ## Key Concepts
 
-- **Person** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
-- **save_delete_hooks/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
-- **save_delete_hooks/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
-- **SaveDeleteHookTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
-- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
-- **Adding hooks before/after saving and deleting To execute arbitrary code around…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **raw_query/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **raw_query/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- **FriendlyAuthor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- **BookFkAsPk** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- **Coffee** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- **MixedCaseIDColumn** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- **Reviewer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
 
 ## Relationships
 
+- [Community 206](Community_206.md) (8 shared connections)
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 334](Community_334.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 28 (80%)
+- INFERRED: 7 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,46 +1,55 @@
 # Community 358
 
-> 19 nodes · cohesion 0.15
+> 32 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **_get_next_prev()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **WeekMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_next_week()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_next_day()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **._get_weekday()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Return the start date of the next interval. The interval is defined by start…** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_previous_week()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_week()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_week_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **._get_current_week()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get the next valid day.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Mixin for views manipulating week-based data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get a week format string in strptime syntax to be used to parse the week from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Return the week for which this view should display data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get the next valid week.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get the previous valid week.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Return the weekday for a given date. The first day according to the week format…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get the next or the previous valid date. The idea is to allow links on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Tests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **SchemaTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **LastExecutedQueryTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **EscapingChecks** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **skipUnless** (6 connections)
+- **EscapingChecksDebug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **ThreadSharing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_field_rename_inside_atomic_block()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_table_rename_inside_atomic_block()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_aggregation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_memory_db_test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_autoincrement()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_constraint_checks_disabled_atomic_allowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_disable_constraint_checking_failure_disallowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_check_sqlite_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_pathlib_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_parameter_escaping()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_large_number_of_parameters()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_no_interpolation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_parameter_quoting()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **auto_increment fields are created with the AUTOINCREMENT keyword in order to be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **SQLite schema editor is not usable within an outer transaction if foreign key…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **SQLite schema editor is usable within an outer transaction as long as foreign…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **NotImplementedError is raised when a model field rename is attempted inside an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **NotImplementedError is raised when a table rename is attempted inside an atomic…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 184](Community_184.md) (10 shared connections)
-- [Community 368](Community_368.md) (8 shared connections)
-- [Community 486](Community_486.md) (4 shared connections)
-- [Community 75](Community_75.md) (2 shared connections)
-- [Community 232](Community_232.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 880](Community_880.md) (1 shared connections)
+- [Community 13](Community_13.md) (7 shared connections)
+- [Community 36](Community_36.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 131](Community_131.md) (2 shared connections)
+- [Community 128](Community_128.md) (2 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 636](Community_636.md) (1 shared connections)
+- [Community 120](Community_120.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (98%)
+- EXTRACTED: 51 (98%)
 - INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 

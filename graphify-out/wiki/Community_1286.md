@@ -4,22 +4,20 @@
 
 ## Key Concepts
 
-- **.test_template_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **The templates are loaded directly, not via a template loader, and should be…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **tests/urls.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urls.py`
+- **This URLconf exists because Django expects ROOT_URLCONF to exist. URLs should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urls.py`
 
 ## Relationships
 
-- [Community 673](Community_673.md) (1 shared connections)
-- [Community 530](Community_530.md) (1 shared connections)
-- [Community 75](Community_75.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

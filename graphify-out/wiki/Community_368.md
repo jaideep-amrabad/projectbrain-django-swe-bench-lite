@@ -1,60 +1,58 @@
 # Community 368
 
-> 45 nodes · cohesion 0.08
+> 39 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **generic/dates.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseDateListView** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **YearMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **MultipleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **BaseDayArchiveView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_date_list()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseMonthArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseWeekArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseYearArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Return (date_list, items, extra_context) for this request.** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_next_year()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **ArchiveIndexView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseArchiveIndexView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseTodayArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **DayArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **MonthArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **TodayArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **WeekArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **YearArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_dated_items()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_previous_year()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_date_list_period()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_dated_items()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_make_object_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- *... and 20 more nodes in this community*
+- **ModelFormBasicTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Category** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **ArticleForm** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **BaseCategoryForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **FieldOverridesByFormMetaForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **TestFieldOverridesByFormMeta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **CustomCleanTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.create_basic_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_m2m_initial_callable()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_initial_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.__str__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.test_m2m_editing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_multi_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_runtime_choicefield_populated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_modelform_non_editable_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.test_disabled_multiplemodelchoicefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_model_form_clean_applies_to_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_override_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_base_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_basic_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_save_commit_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_save_with_data_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 184](Community_184.md) (20 shared connections)
-- [Community 26](Community_26.md) (10 shared connections)
-- [Community 486](Community_486.md) (10 shared connections)
-- [Community 358](Community_358.md) (8 shared connections)
-- [Community 305](Community_305.md) (4 shared connections)
-- [Community 12](Community_12.md) (4 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 442](Community_442.md) (3 shared connections)
-- [Community 75](Community_75.md) (3 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
+- [Community 109](Community_109.md) (25 shared connections)
+- [Community 294](Community_294.md) (2 shared connections)
+- [Community 36](Community_36.md) (2 shared connections)
+- [Community 278](Community_278.md) (1 shared connections)
+- [Community 651](Community_651.md) (1 shared connections)
+- [Community 139](Community_139.md) (1 shared connections)
+- [Community 481](Community_481.md) (1 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 155 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 74 (81%)
+- INFERRED: 17 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

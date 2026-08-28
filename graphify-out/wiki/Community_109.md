@@ -1,6 +1,6 @@
 # Community 109
 
-> 157 nodes · cohesion 0.02
+> 162 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -16,6 +16,7 @@
 - **Book** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
 - **Inventory** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
 - **ModelOtherFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **model_to_dict()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
 - **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
 - **Price** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
@@ -28,33 +29,33 @@
 - **.test_image_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **LocalizedModelFormTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **StumpJokeForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Character** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- *... and 132 more nodes in this community*
+- *... and 137 more nodes in this community*
 
 ## Relationships
 
-- [Community 309](Community_309.md) (25 shared connections)
-- [Community 268](Community_268.md) (24 shared connections)
-- [Community 12](Community_12.md) (18 shared connections)
+- [Community 368](Community_368.md) (25 shared connections)
+- [Community 322](Community_322.md) (24 shared connections)
+- [Community 13](Community_13.md) (18 shared connections)
 - [Community 278](Community_278.md) (12 shared connections)
-- [Community 149](Community_149.md) (11 shared connections)
-- [Community 451](Community_451.md) (8 shared connections)
+- [Community 148](Community_148.md) (11 shared connections)
 - [Community 294](Community_294.md) (7 shared connections)
-- [Community 38](Community_38.md) (7 shared connections)
-- [Community 485](Community_485.md) (6 shared connections)
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 16](Community_16.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
+- [Community 36](Community_36.md) (7 shared connections)
+- [Community 481](Community_481.md) (6 shared connections)
+- [Community 7](Community_7.md) (6 shared connections)
+- [Community 602](Community_602.md) (5 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 377 (81%)
+- EXTRACTED: 383 (81%)
 - INFERRED: 87 (19%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,33 +1,32 @@
 # Community 911
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **RequestFactoryTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_get_request_from_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_request_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_trace_request_from_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Tests for the request factory.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **The request factory implements all the HTTP/1.1 methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **The request factory returns a templated response for a GET request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **The request factory returns an echo response for a TRACE request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **MIMEText** (7 connections)
+- **PythonGlobalState** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_7bit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_8bit_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_8bit_non_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_utf8()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Tests for #12422 -- Django smarts (#2472/#11212) with charset of utf-8 text…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 270](Community_270.md) (1 shared connections)
+- [Community 125](Community_125.md) (2 shared connections)
+- [Community 291](Community_291.md) (1 shared connections)
+- [Community 271](Community_271.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 8 (57%)
+- INFERRED: 6 (43%)
 - AMBIGUOUS: 0 (0%)
 
 ---

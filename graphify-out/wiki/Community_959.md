@@ -1,28 +1,28 @@
 # Community 959
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **SimpleDatabaseClientTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
-- **.test_runshell_use_environ()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
-- **.test_settings_to_cmd_args_env()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
+- **InspectDBTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_introspection.py`
+- **.assertFieldsInModel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_introspection.py`
+- **.test_range_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_introspection.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 84](Community_84.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

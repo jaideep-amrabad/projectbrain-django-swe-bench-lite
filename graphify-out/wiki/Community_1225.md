@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_inheritance27()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inheritance from a template that doesn't have any blocks** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance17()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **{% load %} tag (parent -- setup for exception04)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 799](Community_799.md) (1 shared connections)
-- [Community 832](Community_832.md) (1 shared connections)
+- [Community 800](Community_800.md) (1 shared connections)
+- [Community 834](Community_834.md) (1 shared connections)
 
 ## Source Files
 

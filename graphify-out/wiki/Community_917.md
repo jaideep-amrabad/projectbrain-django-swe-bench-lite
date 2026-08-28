@@ -1,38 +1,29 @@
 # Community 917
 
-> 7 nodes · cohesion 0.29
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.query()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__references_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **._filter_or_exclude_inplace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.negate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **setter** (1 connections)
-- **Negate the sense of the root connector.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **AssertURLEqualTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_msg_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_not_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 194](Community_194.md) (2 shared connections)
-- [Community 283](Community_283.md) (1 shared connections)
-- [Community 597](Community_597.md) (1 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 211](Community_211.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (71%)
-- INFERRED: 4 (29%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

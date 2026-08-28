@@ -1,48 +1,43 @@
 # Community 503
 
-> 21 nodes · cohesion 0.16
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Shuffler** (26 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **ShufflerTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **test_shuffler.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **._hash_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **._hash_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.shuffle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_hash_item_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_hash_item_seed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_hash_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_init_no_seed_argument()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_init_none_seed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_seed_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_shuffle_consistency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_shuffle_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_shuffle_same_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **This class implements shuffling with a special consistency property.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Return a new list of the items in a shuffled order. The `key` is a function…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.seed_display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_hash_text_hash_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **EnvelopeTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test01_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test02_properties()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test03_equivalence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test07_expand_to_include_envelope()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test08_expand_to_include_point()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **TestPoint** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test04_expand_to_include_pt_2_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test05_expand_to_include_pt_2_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test06_expand_to_include_extent_4_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.test06_expand_to_include_extent_4_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **Testing Envelope expand_to_include -- extent as 4 parameters.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **Testing Envelope initialization.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **Testing Envelope properties.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **Testing Envelope equivalence.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **Testing Envelope expand_to_include -- point as two parameters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **Testing Envelope expand_to_include -- point as a single 2-tuple parameter.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **Testing Envelope expand_to_include with Envelope as parameter.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **Testing Envelope expand_to_include with Point as parameter.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
 
 ## Relationships
 
-- [Community 338](Community_338.md) (6 shared connections)
-- [Community 12](Community_12.md) (4 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 439](Community_439.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 44](Community_44.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 28 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

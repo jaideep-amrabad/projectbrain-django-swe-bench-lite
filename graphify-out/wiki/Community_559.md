@@ -1,47 +1,47 @@
 # Community 559
 
-> 18 nodes · cohesion 0.13
+> 18 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **conf.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
-- **URLPattern** (13 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **ResolverMatch** (9 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **._check_pattern_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **._check_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.lookup_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **Functions for use in URLsconfs.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
-- **Check that the pattern name does not contain a colon.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **A string that identifies the view (e.g. 'path.to.view_function' or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.__reduce_ex__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **Article** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **ModelInstanceCreationTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_can_initialize_model_instance_using_positional_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_can_leave_off_value_for_autofield_and_it_gets_value_on_save()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_for_datetimefields_saves_as_much_precision_as_was_given()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_can_create_instance_using_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_can_mix_and_match_position_and_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_cannot_create_instance_with_invalid_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_leaving_off_a_field_with_default_set_the_default_will_be_saved()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_object_is_not_written_to_database_until_save_was_called()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_positional_and_keyword_args_for_the_same_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_querysets_checking_for_membership()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_saving_an_object_again_does_not_create_a_new_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_autofields_generate_different_values_for_each_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **as much precision in *seconds*** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **You can initialize a model instance using positional arguments, which should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **You can leave off the value for an AutoField when creating an object, because…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (8 shared connections)
-- [Community 561](Community_561.md) (3 shared connections)
-- [Community 464](Community_464.md) (3 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 264](Community_264.md) (2 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 382](Community_382.md) (12 shared connections)
+- [Community 18](Community_18.md) (12 shared connections)
+- [Community 609](Community_609.md) (10 shared connections)
+- [Community 893](Community_893.md) (3 shared connections)
+- [Community 709](Community_709.md) (2 shared connections)
+- [Community 1112](Community_1112.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 49 (71%)
+- INFERRED: 20 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

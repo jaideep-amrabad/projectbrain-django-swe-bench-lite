@@ -1,46 +1,49 @@
 # Community 486
 
-> 18 nodes · cohesion 0.14
+> 22 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **.get_dated_queryset()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_date_field()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **DateMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **._make_date_lookup_arg()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **._make_single_date_lookup()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **timezone_today()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_allow_future()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.uses_datetime_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Mixin class for views manipulating date-based data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get the name of the date field to be used to filter by.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Return `True` if the view should be allowed to display objects from the future.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Return `True` if the date field is a `DateTimeField` and `False` if it's a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Convert a date into a datetime when the date field is a DateTimeField. When…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get the lookup kwargs for filtering on a single date. If the date field is a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Return the field or fields to use for ordering the queryset; use the date field…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get a queryset properly filtered according to `allow_future` and any extra…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Return the current date in the current time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **DjangoTranslation** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__init__()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.merge()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._add_installed_apps_translations()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._new_gnu_trans()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._add_local_translations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._init_translation_catalog()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._add_fallback()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.to_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.language()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.ngettext()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Set up the GNUTranslations context with regard to output charset. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Create a GNUTranslations() using many locale directories** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Return a mergeable gettext.GNUTranslations instance. A convenience wrapper. By…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Create a base catalog using global django translations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Merge translations from each installed app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Merge translations defined in LOCALE_PATHS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Set the GNUTranslations() fallback with the default language.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Merge another translation into this catalog.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Return the translation language.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Return the translation language name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
 
 ## Relationships
 
-- [Community 368](Community_368.md) (10 shared connections)
-- [Community 184](Community_184.md) (8 shared connections)
-- [Community 358](Community_358.md) (4 shared connections)
-- [Community 75](Community_75.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
+- [Community 164](Community_164.md) (4 shared connections)
+- [Community 670](Community_670.md) (2 shared connections)
+- [Community 778](Community_778.md) (2 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 329](Community_329.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 43 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

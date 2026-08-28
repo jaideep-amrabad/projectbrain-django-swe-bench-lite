@@ -1,54 +1,49 @@
 # Community 512
 
-> 21 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **ClientTest** (90 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_response_resolver_match_middleware_urlconf()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_exc_info_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_external_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_follow_307_and_308_get_head_query_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_follow_307_and_308_preserves_get_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_follow_307_and_308_preserves_post_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_follow_307_and_308_preserves_put_body()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_follow_307_and_308_preserves_query_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_get_data_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_get_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_post_data_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_put()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_query_string_encoding()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_relative_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_relative_redirect_no_trailing_slash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_trace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_unknown_page()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_uploading_named_temp_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_uploading_temp_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **DiscoverRunnerParallelArgumentTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **get_max_test_processes()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.get_parser()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.add_arguments()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **ArgumentParser** (4 connections)
+- **parallel_type()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_get_max_test_processes_env_var()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_parallel_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_add_arguments_debug_mode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_add_arguments_shuffle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_get_max_test_processes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_get_max_test_processes_spawn()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_parallel_auto()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_parallel_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_parallel_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_parallel_flag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **dict** (2 connections)
+- **The maximum number of test processes when using the --parallel option.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Parse value passed to the --parallel option.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **object** (1 connections)
 
 ## Relationships
 
-- [Community 1033](Community_1033.md) (4 shared connections)
-- [Community 1090](Community_1090.md) (3 shared connections)
-- [Community 1091](Community_1091.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 1124](Community_1124.md) (2 shared connections)
-- [Community 1126](Community_1126.md) (2 shared connections)
-- [Community 1125](Community_1125.md) (2 shared connections)
-- [Community 1127](Community_1127.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 1256](Community_1256.md) (1 shared connections)
-- [Community 1251](Community_1251.md) (1 shared connections)
+- [Community 122](Community_122.md) (6 shared connections)
+- [Community 400](Community_400.md) (3 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 120](Community_120.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 40 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

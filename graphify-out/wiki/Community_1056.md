@@ -4,25 +4,23 @@
 
 ## Key Concepts
 
-- **MultiDatabaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
-- **.test_add_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
-- **patch** (1 connections)
+- **builtin_template_path()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.html_template_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.text_template_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return a path to a builtin template. Avoid calling this function at the module…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 79](Community_79.md) (3 shared connections)
+- [Community 669](Community_669.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

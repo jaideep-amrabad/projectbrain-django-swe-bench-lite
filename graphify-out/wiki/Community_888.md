@@ -1,31 +1,32 @@
 # Community 888
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **ContentNotRenderedError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.__getstate__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **Exception** (1 connections)
-- **setter** (1 connections)
-- **Set the content for the response.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **Raise an exception if trying to pickle an unrendered response. Pickle only…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **DeletionMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.delete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_success_url()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.form_valid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.post()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **Provide the ability to delete objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **Call the delete() method on the fetched object and then redirect to the success…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **If the form is valid, redirect to the supplied URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
 
 ## Relationships
 
-- [Community 644](Community_644.md) (3 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 305](Community_305.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 259](Community_259.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,32 +1,30 @@
 # Community 891
 
-> 8 nodes · cohesion 0.32
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **DeletionMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.delete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_success_url()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.form_valid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.post()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **Provide the ability to delete objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **Call the delete() method on the fetched object and then redirect to the success…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **If the form is valid, redirect to the supplied URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **GetDefaultUsernameTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_actual_implementation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_existing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_i18n()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_with_database()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 
 ## Relationships
 
-- [Community 305](Community_305.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 258](Community_258.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

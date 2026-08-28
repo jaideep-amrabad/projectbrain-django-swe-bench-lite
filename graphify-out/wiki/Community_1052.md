@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **builtin_template_path()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.html_template_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.text_template_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Return a path to a builtin template. Avoid calling this function at the module…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **setter** (3 connections)
+- **.encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **Set the encoding used for GET/POST accesses. If the GET or POST dictionary has…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 
 ## Relationships
 
-- [Community 75](Community_75.md) (3 shared connections)
-- [Community 673](Community_673.md) (2 shared connections)
+- [Community 150](Community_150.md) (2 shared connections)
+- [Community 198](Community_198.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

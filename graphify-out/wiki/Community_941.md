@@ -1,40 +1,28 @@
 # Community 941
 
-> 14 nodes · cohesion 0.16
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Entry** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **TestGetObjectFeed** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **TestNoPubdateFeed** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_comments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **.get_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_title()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
+- **SimpleDatabaseClientTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
+- **.test_runshell_use_environ()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
+- **.test_settings_to_cmd_args_env()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
 
 ## Relationships
 
-- [Community 183](Community_183.md) (8 shared connections)
-- [Community 206](Community_206.md) (3 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 159](Community_159.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (70%)
-- INFERRED: 9 (30%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

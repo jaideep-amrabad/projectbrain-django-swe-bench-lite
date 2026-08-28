@@ -1,48 +1,50 @@
 # Community 631
 
-> 15 nodes · cohesion 0.18
+> 16 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **action()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- **MessageTestingAdmin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **SubscriberAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **external_mail()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **no_perm()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **redirect_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.mail_admin()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_extra_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Conveniently add attributes to an action function:: @admin.action(…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- **.delete_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **filtered_relation/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- **filtered_relation/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **FilteredRelationAnalyticalAggregationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- **FilteredRelationAggregationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **Editor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **BookDailySales** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **ExchangeRate** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **Borrower** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **Currency** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **RentalSession** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **Reservation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **Seller** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
 
 ## Relationships
 
-- [Community 90](Community_90.md) (5 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 173](Community_173.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 125](Community_125.md) (2 shared connections)
-- [Community 875](Community_875.md) (1 shared connections)
-- [Community 346](Community_346.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 75](Community_75.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 16](Community_16.md) (7 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 126](Community_126.md) (4 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 36](Community_36.md) (3 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (83%)
-- INFERRED: 7 (17%)
+- EXTRACTED: 52 (74%)
+- INFERRED: 18 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

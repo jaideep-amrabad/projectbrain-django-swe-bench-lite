@@ -1,35 +1,36 @@
 # Community 770
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **context_processors/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **DebugContextProcessorTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **RequestContextProcessorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **.test_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **.test_sql_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **.test_request_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **Tests for Django's bundled context processors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **Tests for the ``django.template.context_processors.request`` processor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **The request object is available in the template and that its attributes can't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **Tests for the ``django.template.context_processors.debug`` processor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- **Test whether sql_queries represents the actual amount of queries executed.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- **RegisterLookupMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._clear_cached_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._get_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.get_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.merge_dicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.register_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._unregister_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **subclasses()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Merge dicts in reverse to preference the order of the original list. e.g.,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Remove given lookup from cls lookups. For use in tests only as it's not thread-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

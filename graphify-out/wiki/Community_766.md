@@ -1,35 +1,36 @@
 # Community 766
 
-> 11 nodes · cohesion 0.25
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **SpatialiteSchemaEditor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **.column_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **.geo_quote_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **.alter_db_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **.delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **.remove_geometry_metadata()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **DatabaseSchemaEditor** (1 connections)
-- **.create_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **.remove_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **context_processors/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- **DebugContextProcessorTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- **RequestContextProcessorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- **.test_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- **.test_sql_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- **.test_request_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- **Tests for Django's bundled context processors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- **Tests for the ``django.template.context_processors.request`` processor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- **The request object is available in the template and that its attributes can't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- **Tests for the ``django.template.context_processors.debug`` processor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- **Test whether sql_queries represents the actual amount of queries executed.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 36](Community_36.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

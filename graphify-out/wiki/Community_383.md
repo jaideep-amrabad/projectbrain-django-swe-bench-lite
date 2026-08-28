@@ -1,62 +1,62 @@
 # Community 383
 
-> 29 nodes · cohesion 0.09
+> 37 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **OrderedSet** (33 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **OrderedSetTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **Command** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **.get_parent_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **.python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **.discard()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.test_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_discard()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_init_with_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_len()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_reversed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **.bpython()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **.ipython()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **Return all the ancestors of this model as a list ordered by MRO. Useful for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- *... and 4 more nodes in this community*
+- **ChoiceField** (36 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **ChoiceFieldTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **FormsI18nTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.validate()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **CallableChoiceIterator** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.valid_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.validate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **FilePathField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_choicefield_callable_may_evaluate_to_different_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_non_ascii_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **Jinja2FormsI18nTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **._set_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_choicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_choicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_choicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_choicefield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_choicefield_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_choicefield_choices_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_choicefield_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_choicefield_enumeration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_boundfield_slice()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.test_form_with_iterable_boundfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.test_form_with_iterable_boundfield_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.test_iterable_boundfield_select()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (3 shared connections)
+- [Community 53](Community_53.md) (10 shared connections)
+- [Community 13](Community_13.md) (9 shared connections)
+- [Community 65](Community_65.md) (3 shared connections)
+- [Community 240](Community_240.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 335](Community_335.md) (2 shared connections)
 - [Community 7](Community_7.md) (2 shared connections)
-- [Community 602](Community_602.md) (2 shared connections)
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 489](Community_489.md) (2 shared connections)
-- [Community 174](Community_174.md) (1 shared connections)
-- [Community 386](Community_386.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 153](Community_153.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 703](Community_703.md) (1 shared connections)
+- [Community 251](Community_251.md) (1 shared connections)
+- [Community 406](Community_406.md) (1 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
+- [Community 157](Community_157.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 57 (69%)
+- INFERRED: 26 (31%)
 - AMBIGUOUS: 0 (0%)
 
 ---

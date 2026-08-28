@@ -1,57 +1,52 @@
 # Community 414
 
-> 27 nodes · cohesion 0.13
+> 25 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **FileResponse** (39 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **FileResponseTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_buffer_explicit_absolute_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_compressed_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_file_from_named_pipe_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_unicode_attachment()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_disposition_buffer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_disposition_buffer_attachment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_disposition_buffer_explicit_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_disposition_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_length_buffer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_length_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_length_nonzero_starting_position_buffer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_length_nonzero_starting_position_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_length_nonzero_starting_position_file_seekable_no_tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_type_buffer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_type_buffer_explicit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_type_buffer_explicit_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_type_buffer_named()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_type_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_response_buffer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_response_nonzero_starting_position()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **A streaming HTTP response class optimized for files.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **skipIf** (1 connections)
-- *... and 2 more nodes in this community*
+- **Element** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **Parser** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **RootElement** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.handle_endtag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.handle_starttag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **._count()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.handle_startendtag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.append()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **normalize_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **normalize_whitespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.format_position()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.finalize()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.handle_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **HTMLParser** (1 connections)
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 1057](Community_1057.md) (2 shared connections)
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 807](Community_807.md) (2 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 77](Community_77.md) (1 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 431](Community_431.md) (1 shared connections)
+- [Community 484](Community_484.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- `raw/code/hyd-evaluation/django-django/django/test/html.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 40 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

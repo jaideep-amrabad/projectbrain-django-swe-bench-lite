@@ -1,45 +1,55 @@
 # Community 437
 
-> 21 nodes · cohesion 0.10
+> 25 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ModelInheritanceDataTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_select_related_defer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_update_query_counts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_exclude_inherited_on_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_filter_inherited_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_filter_inherited_on_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_filter_on_parent_returns_object_of_parent_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_inherited_does_not_exist_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_inherited_multiple_objects_returned_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_parent_cache_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_parent_child_one_to_one_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_parent_child_one_to_one_link_on_nonrelated_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_parent_fields_available_for_filtering_in_child_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_related_objects_for_inherited_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_select_related_works_on_parent_model_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_update_inherited_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_update_works_on_parent_and_child_models_at_once()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_values_works_on_parent_model_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **#23370 - Should be able to defer child fields when using select_related() from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **Update queries do not generate unnecessary queries (#18304).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.run_tests()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.build_suite()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.load_tests_for_label()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._get_databases()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run_suite()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.setup_shuffler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **partition_suite_by_case()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **try_importing()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.get_test_runner_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.teardown_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.get_resultclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.load_with_patterns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.setup_databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.setup_test_environment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.suite_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.teardown_test_environment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **find_top_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Partition a test suite by test case, preserving the order of tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Log the message at the given logging level (the default is INFO). If a logger…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Destroy all the non-mirror databases.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Run the unit tests for all the test labels in the provided list. Test labels…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Try importing a test label, and return (is_importable, is_package). Relative…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- [Community 130](Community_130.md) (7 shared connections)
-- [Community 881](Community_881.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 122](Community_122.md) (16 shared connections)
+- [Community 336](Community_336.md) (4 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 120](Community_120.md) (1 shared connections)
+- [Community 497](Community_497.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 500](Community_500.md) (1 shared connections)
+- [Community 352](Community_352.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (73%)
-- INFERRED: 8 (27%)
+- EXTRACTED: 52 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

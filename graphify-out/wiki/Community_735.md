@@ -1,34 +1,39 @@
 # Community 735
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **.has_perm()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **_user_has_module_perms()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **_user_has_perm()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.has_module_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.has_perm()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.has_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.has_module_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.has_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **A backend can raise `PermissionDenied` to short-circuit permission checking.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **Return True if the user has the specified permission. Query all available auth…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **Return True if the user has each of the specified permissions. If object is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **Return True if the user has any permissions in the given app label. Use similar…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **Truncator** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.add_truncation_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.chars()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **._truncate_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **._text_chars()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **._text_words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **Truncate a string after a certain number of chars.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **Truncate HTML to a certain number of chars (not counting tags and comments),…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **An object used to truncate text, either by characters or words.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **Return the text truncated to be no longer than the specified number of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 270](Community_270.md) (3 shared connections)
+- [Community 37](Community_37.md) (3 shared connections)
+- [Community 142](Community_142.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 733](Community_733.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

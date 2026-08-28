@@ -1,61 +1,61 @@
 # Community 193
 
-> 48 nodes · cohesion 0.06
+> 53 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **fixtures/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **fixtures/models.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Article** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **CircularReferenceTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **DumpDataAssertMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **ProgressBar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **NaturalKeyThing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **ProxySpy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Spy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **FixtureTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **SubclassTestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **TestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **CircularA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **CircularB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Visa** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **PersonManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **PrimaryKeyUUIDModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **SpyManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Blog** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **NaturalKeyManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- *... and 23 more nodes in this community*
+- **QuerySet** (95 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._batched_insert()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.bulk_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._combinator_query()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__and__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._merge_sanity_check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.select_for_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.update_or_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.default_alias()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- **._check_operator_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._insert()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__or__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._values()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.values_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **DoesNotExistQuerySet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **._add_hints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.difference()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._has_filters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.intersection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._merge_known_related_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._next_is_sticky()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 81](Community_81.md) (16 shared connections)
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 131](Community_131.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 91](Community_91.md) (2 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 285](Community_285.md) (25 shared connections)
+- [Community 58](Community_58.md) (6 shared connections)
+- [Community 769](Community_769.md) (6 shared connections)
+- [Community 334](Community_334.md) (6 shared connections)
+- [Community 918](Community_918.md) (4 shared connections)
+- [Community 883](Community_883.md) (4 shared connections)
+- [Community 16](Community_16.md) (3 shared connections)
+- [Community 103](Community_103.md) (2 shared connections)
+- [Community 229](Community_229.md) (2 shared connections)
+- [Community 915](Community_915.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 106 (88%)
-- INFERRED: 14 (12%)
+- EXTRACTED: 128 (96%)
+- INFERRED: 6 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

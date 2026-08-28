@@ -4,28 +4,31 @@
 
 ## Key Concepts
 
-- **FileDescriptor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **ImageFileDescriptor** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **The descriptor for the file attribute on the model instance. Return a FieldFile…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **Just like the FileDescriptor, but for ImageFields. The only difference is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.annotate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.dates()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.datetimes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._validate_values_are_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a query set in which the returned objects have been annotated with extra…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a list of date objects representing all available dates for the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a list of datetime objects representing all available datetimes for the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 742](Community_742.md) (1 shared connections)
-- [Community 77](Community_77.md) (1 shared connections)
+- [Community 193](Community_193.md) (4 shared connections)
+- [Community 285](Community_285.md) (2 shared connections)
+- [Community 89](Community_89.md) (2 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 379](Community_379.md) (2 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

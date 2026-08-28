@@ -1,50 +1,73 @@
 # Community 74
 
-> 63 nodes · cohesion 0.03
+> 136 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **GenericRelationsTests** (61 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_unsaved_instance_on_generic_foreign_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_access_content_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_access_via_content_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_add_rejects_unsaved_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_exclude_generic_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_generic_get_or_create_when_created()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_generic_get_or_create_when_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_generic_relations_m2m_mimic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_generic_update_or_create_when_created()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_generic_update_or_create_when_updated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_object_deletion_with_generic_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_object_deletion_without_generic_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_queries_across_generic_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_queries_content_type_restriction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_query_content_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_set_foreign_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_subclasses_with_gen_rel()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_subclasses_with_parent_gen_rel()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_tag_deletion_related_objects_unaffected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **Should be able to use update_or_create from the generic related manager to…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **Should be able to use get_or_create from the generic related manager to create…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.comp_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_add_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- *... and 38 more nodes in this community*
+- **geoapp/tests.py** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- **geoapp/test_functions.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
+- **geoapp/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- **City** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- **GeoLookupTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- **GeoModelTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- **test_expressions.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
+- **GeoQuerySetTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- **test_regress.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
+- **geoapp/feeds.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **GeoRegressionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
+- **test_serializers.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_serializers.py`
+- **kml.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **NamedModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- **State** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- **KMLSitemap** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **Country** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- **geoapp/test_indexes.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
+- **GeoJSONSerializerTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_serializers.py`
+- **geoapp/test_sitemaps.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
+- **render_to_kmz()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/shortcuts.py`
+- **TestGeoRSS1** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **PennsylvaniaCity** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- **GeoSitemapTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
+- **geoapp/urls.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/urls.py`
+- *... and 111 more nodes in this community*
 
 ## Relationships
 
-- [Community 498](Community_498.md) (15 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 10](Community_10.md) (43 shared connections)
+- [Community 27](Community_27.md) (38 shared connections)
+- [Community 52](Community_52.md) (16 shared connections)
+- [Community 1](Community_1.md) (13 shared connections)
+- [Community 36](Community_36.md) (13 shared connections)
+- [Community 80](Community_80.md) (12 shared connections)
+- [Community 13](Community_13.md) (10 shared connections)
+- [Community 24](Community_24.md) (7 shared connections)
+- [Community 25](Community_25.md) (5 shared connections)
+- [Community 33](Community_33.md) (4 shared connections)
+- [Community 32](Community_32.md) (3 shared connections)
+- [Community 299](Community_299.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/shortcuts.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/sitemaps.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_serializers.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 70 (86%)
-- INFERRED: 11 (14%)
+- EXTRACTED: 383 (90%)
+- INFERRED: 42 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

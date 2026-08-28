@@ -1,49 +1,61 @@
 # Community 356
 
-> 32 nodes · cohesion 0.06
+> 32 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **get_connection()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Atomic** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **on_commit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **clean_savepoints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **get_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **get_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **mark_for_rollback_on_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **savepoint()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **savepoint_commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **savepoint_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **set_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **set_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **ContextDecorator** (1 connections)
-- **Register `func` to be called when the current transaction is committed. If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Guarantee the atomic execution of a given block. An instance can be used either…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Get a database connection by name, or the default database connection if no…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Get the autocommit status of the connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Set the autocommit status of the connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Commit a transaction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Roll back a transaction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **SettingsTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.settings()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **clear_script_prefix()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **MediaURLStaticURLPrefixTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.set_script_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_add_script_name_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_not_prefixed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_nested()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_context_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_incorrect_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.disable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_class_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_no_secret_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_doesnt_leak()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_settings_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_settings_delete_wrapped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_signal_callback_context_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_signal_callback_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **Unset the script prefix for the current thread.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **patch** (1 connections)
+- **requires_tz_support** (1 connections)
+- **Allow deletion of a setting in an overridden settings set (#18824)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **override_settings uses the actual _wrapped attribute at runtime, not when it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 - *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (14 shared connections)
-- [Community 354](Community_354.md) (2 shared connections)
+- [Community 6](Community_6.md) (9 shared connections)
+- [Community 13](Community_13.md) (5 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 325](Community_325.md) (4 shared connections)
+- [Community 400](Community_400.md) (3 shared connections)
+- [Community 451](Community_451.md) (1 shared connections)
+- [Community 287](Community_287.md) (1 shared connections)
+- [Community 258](Community_258.md) (1 shared connections)
+- [Community 586](Community_586.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
+- [Community 461](Community_461.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 54 (74%)
+- INFERRED: 19 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

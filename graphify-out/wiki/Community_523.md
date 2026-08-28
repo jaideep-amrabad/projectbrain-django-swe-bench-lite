@@ -1,48 +1,54 @@
 # Community 523
 
-> 20 nodes · cohesion 0.13
+> 25 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ChoiceWidget** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.optgroups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.format_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.create_option()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.subwidgets()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.build_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_from_datadict()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Return a dict containing the year, month, and day of the current value. Use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Build an attribute dictionary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Yield all "subwidgets" of this widget. Used to enable iterating options from a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Yield a flat list of options for this widgets.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Return a list of optgroups for this widget.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Use an incremented id for each option where the main widget references the zero…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Return selected values as a list.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **MigrationTestBase** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **PycLoaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **._get_column_allows_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.test_invalid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.test_valid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **.assertColumnExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNotNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertConstraintExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertConstraintNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertFKExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertFKNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexNameExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexNameNotExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertTableExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertTableNotExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertUniqueConstraintExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **Contains an extended set of asserts for testing migrations and schema…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **To support frozen environments, MigrationLoader loads .pyc migrations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **MigrationLoader reraises ImportErrors caused by "bad magic number" pyc files…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 
 ## Relationships
 
-- [Community 367](Community_367.md) (4 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 441](Community_441.md) (2 shared connections)
-- [Community 105](Community_105.md) (1 shared connections)
-- [Community 423](Community_423.md) (1 shared connections)
-- [Community 77](Community_77.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 85](Community_85.md) (5 shared connections)
+- [Community 96](Community_96.md) (2 shared connections)
+- [Community 131](Community_131.md) (1 shared connections)
+- [Community 124](Community_124.md) (1 shared connections)
+- [Community 352](Community_352.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 49 (92%)
+- INFERRED: 4 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

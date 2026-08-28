@@ -1,61 +1,39 @@
 # Community 179
 
-> 51 nodes · cohesion 0.06
+> 13 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **SelectForUpdateTests** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **select_for_update/tests.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **select_for_update/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **Country** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **.end_blocking_transaction()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_raw_lock_not_available()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.start_blocking_transaction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_nowait_raises_error_on_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_skip_locked_skips_locked_rows()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **CountryProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **EUCountry** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **.raw()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **CityCountryProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **CountryProxyProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **EUCity** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **PersonProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **.test_for_update_of_self_when_self_is_not_selected()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_requires_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_requires_transaction_only_in_execution()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_related_but_unselected_of_argument_raises_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_reverse_one_to_one_of_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_select_for_update_on_multidb()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- *... and 26 more nodes in this community*
+- **get_language_info()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **TestLanguageInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **language_name_translated()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **filter** (4 connections)
+- **language_bidi()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **language_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **language_name_local()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **.test_fallback_language_code()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_unknown_language_code()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_localized_language_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_unknown_language_code_and_country_code()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_unknown_only_country_code()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **get_language_info return the first fallback language info if the lang_info…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
 
 ## Relationships
 
-- [Community 22](Community_22.md) (20 shared connections)
-- [Community 97](Community_97.md) (13 shared connections)
-- [Community 128](Community_128.md) (6 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 131](Community_131.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 428](Community_428.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 336](Community_336.md) (1 shared connections)
-- [Community 194](Community_194.md) (1 shared connections)
-- [Community 227](Community_227.md) (1 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 86](Community_86.md) (4 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 128 (93%)
-- INFERRED: 9 (7%)
+- EXTRACTED: 29 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

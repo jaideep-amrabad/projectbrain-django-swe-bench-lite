@@ -1,50 +1,46 @@
 # Community 502
 
-> 21 nodes · cohesion 0.16
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **DatabaseSchemaEditor** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._remake_table()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.alter_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.alter_db_table()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._alter_many_to_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.delete_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._is_referenced_by_fk_constraint()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.add_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.add_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.remove_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._collate_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Shortcut to transform a model from old_model into new_model This follows the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Create a field on a model. Usually involves adding a column, but may involve…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Remove a field from a model. Usually involves deleting a column, but for M2Ms…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Perform a "physical" (non-ManyToMany) field update.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Alter M2Ms to repoint their to= endpoints.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Return whether or not the provided table name is referenced by another one. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **CustomColumnsTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_attribute_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_author_filtering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_author_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_author_get_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_author_querying()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_field_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_filter_first_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_filter_on_nonexistent_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_get_all_articles_for_an_author()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_get_all_authors_for_an_article()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_get_author_m2m_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_get_first_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_m2m_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_query_all_available_authors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
 
 ## Relationships
 
 - [Community 13](Community_13.md) (3 shared connections)
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 79](Community_79.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 103](Community_103.md) (1 shared connections)
-- [Community 640](Community_640.md) (1 shared connections)
-- [Community 399](Community_399.md) (1 shared connections)
-- [Community 150](Community_150.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 25 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

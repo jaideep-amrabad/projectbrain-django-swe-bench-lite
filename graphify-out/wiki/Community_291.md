@@ -1,64 +1,60 @@
 # Community 291
 
-> 35 nodes · cohesion 0.09
+> 39 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **admindocs/views.py** (54 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **inspect.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **.get_context_data()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **simplify_regex()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **func_accepts_kwargs()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **_get_callable_parameters()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **method_has_no_args()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **get_func_args()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **get_return_data_type()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **func_accepts_var_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **get_func_full_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **replace_metacharacters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **replace_named_groups()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **replace_unnamed_groups()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **extract_views_from_urlpatterns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **ModelDetailView** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **admindocs/__init__.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/__init__.py`
-- **admindocs/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/urls.py`
-- **get_readable_field_data_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **func_supports_parameter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **AdminDocViewFunctionsTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **_get_func_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **.test_simplify_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_method_data_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **Remove unescaped metacharacters from the pattern.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- *... and 10 more nodes in this community*
+- **message.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **sanitize_address()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **SafeMIMEText** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **forbid_multi_line_headers()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **SafeMIMEMultipart** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **BadHeaderError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_mime_attachment()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **MIMEMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_attachments()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **SafeMIMEMessage** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_attachment()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_alternatives()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **ValueError** (4 connections)
+- **._set_list_header_if_not_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.attach_alternative()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.as_bytes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.test_sanitize_address()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **._create_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.as_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Return the entire formatted message as a string. Optional `unixfrom' when True,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 497](Community_497.md) (14 shared connections)
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 29](Community_29.md) (8 shared connections)
-- [Community 31](Community_31.md) (6 shared connections)
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 26](Community_26.md) (4 shared connections)
-- [Community 135](Community_135.md) (4 shared connections)
-- [Community 17](Community_17.md) (4 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 75](Community_75.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
+- [Community 125](Community_125.md) (11 shared connections)
+- [Community 9](Community_9.md) (5 shared connections)
+- [Community 594](Community_594.md) (5 shared connections)
+- [Community 271](Community_271.md) (4 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
+- [Community 517](Community_517.md) (3 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 302](Community_302.md) (2 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 299](Community_299.md) (1 shared connections)
+- [Community 911](Community_911.md) (1 shared connections)
+- [Community 736](Community_736.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/urls.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 146 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 89 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

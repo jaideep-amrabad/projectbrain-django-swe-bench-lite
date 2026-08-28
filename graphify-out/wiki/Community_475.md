@@ -1,48 +1,50 @@
 # Community 475
 
-> 23 nodes · cohesion 0.13
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ManyToOneNullTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **many_to_one_null/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **many_to_one_null/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **Car** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **Driver** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **Many-to-one relationships that can be null To define a many-to-one relationship…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **.test_add_efficiency()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_assign_clear_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_assign_with_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_clear_efficiency()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_created_via_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_created_without_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_get_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_related_null_to_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_remove_from_wrong_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_set_clear_non_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **CookieStorage** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **FallbackStorage** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **stored_cookie_messages_count()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **._store()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._decode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._update_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **._store()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Store the messages to a cookie and return a list of any messages which could…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Return an encoded version of the messages list which can be stored as plain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Safely decode an encoded text stream back into a list of messages. If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Store messages in a cookie.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Retrieve a list of messages from the messages cookie. If the not_finished…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Either set the cookie with the encoded data if there is any data to store, or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **Get a single list of messages from all storage backends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **Store the messages and return any unstored messages after trying all backends.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **Try to store all messages in the first backend. Store any unstored messages in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **Return an integer containing the number of messages stored.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 474](Community_474.md) (7 shared connections)
+- [Community 49](Community_49.md) (3 shared connections)
+- [Community 460](Community_460.md) (3 shared connections)
+- [Community 496](Community_496.md) (2 shared connections)
+- [Community 444](Community_444.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (89%)
-- INFERRED: 4 (11%)
+- EXTRACTED: 34 (83%)
+- INFERRED: 7 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

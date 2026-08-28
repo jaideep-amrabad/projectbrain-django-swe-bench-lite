@@ -1,66 +1,70 @@
 # Community 112
 
-> 91 nodes · cohesion 0.04
+> 152 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **core/validators.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **deconstructible()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
-- **validators/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **postgres/validators.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- **RegexValidator** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **auth/validators.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
-- **BaseValidator** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **TestValidatorEquality** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **EmailValidator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **MaxValueValidator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **deconstruct.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
-- **MaxLengthValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **MinValueValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **DecimalValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **FileExtensionValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **MinLengthValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **ProhibitNullCharactersValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **validate_ipv46_address()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **TestValidators** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **URLValidator** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **ArrayMaxLengthValidator** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- **validate_ipv6_address()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **RangeMaxValueValidator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- **RangeMinValueValidator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- **.__call__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- *... and 66 more nodes in this community*
+- **csrf_tests/tests.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **Client** (36 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **middleware_exceptions/middleware.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **utils/decorators.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **csrf_tests/views.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **get_token()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **template/context_processors.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **BaseMiddleware** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **decorators/csrf.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **_unmask_cipher_token()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **CsrfFunctionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._handle_redirects()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **csrf()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **_mask_cipher_secret()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **async_only_middleware()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **_does_token_match()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **rotate_token()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_sanitize_token()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **decorator_from_middleware()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **test_context_processor.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
+- **.assertMaskedSecretCorrect()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **non_token_view_using_request_processor()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **sandwiched_rotate_token_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **_add_new_csrf_cookie()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._check_token()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- *... and 127 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (30 shared connections)
-- [Community 1](Community_1.md) (12 shared connections)
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 195](Community_195.md) (5 shared connections)
-- [Community 16](Community_16.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
+- [Community 0](Community_0.md) (39 shared connections)
+- [Community 35](Community_35.md) (35 shared connections)
+- [Community 2](Community_2.md) (22 shared connections)
+- [Community 9](Community_9.md) (14 shared connections)
+- [Community 15](Community_15.md) (11 shared connections)
+- [Community 13](Community_13.md) (9 shared connections)
+- [Community 99](Community_99.md) (9 shared connections)
+- [Community 150](Community_150.md) (8 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 100](Community_100.md) (4 shared connections)
 - [Community 153](Community_153.md) (4 shared connections)
-- [Community 152](Community_152.md) (3 shared connections)
-- [Community 521](Community_521.md) (3 shared connections)
-- [Community 606](Community_606.md) (3 shared connections)
-- [Community 221](Community_221.md) (3 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 263 (96%)
-- INFERRED: 10 (4%)
+- EXTRACTED: 446 (98%)
+- INFERRED: 8 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

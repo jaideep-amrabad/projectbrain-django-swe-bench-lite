@@ -1,36 +1,35 @@
 # Community 866
 
-> 9 nodes · cohesion 0.28
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **str/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
-- **str/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
-- **SimpleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
-- **InternationalArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
-- **.test_defaults()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
-- **Adding __str__() to models Although it's not a strict requirement, each model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/models.py`
-- **The default implementation of __str__ and __repr__ should return instances of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
-- **.test_international()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
+- **delete_selected()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/actions.py`
+- **SiteActionsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
+- **.test_get_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
+- **.test_disable_action()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
+- **Default action which deletes the selected objects. This action first displays a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/actions.py`
+- **AdminSite.get_action() returns an action even if it's disabled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
+- **.test_add_action()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 627](Community_627.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/str/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/actions.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

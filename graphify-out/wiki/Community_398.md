@@ -1,53 +1,63 @@
 # Community 398
 
-> 28 nodes · cohesion 0.08
+> 25 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ListMixin** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.extend()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.append()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__iadd__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__add__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__imul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.insert()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__radd__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__lt__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__mul__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__rmul__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **add another list-like object** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **add to another list-like object** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **add another list-like object to self** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **A base class which provides complete list interface. Derived classes must call…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list count method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list append method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list extend method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list insert method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- *... and 3 more nodes in this community*
+- **truncate_name()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **backends/test_utils.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **model_package/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **model_package/models/article.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
+- **TestUtils** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **publication.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/publication.py`
+- **ModelPackageTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **model_package/models/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/__init__.py`
+- **format_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
+- **Publication** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/publication.py`
+- **.test_automatic_m2m_column_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **.test_split_identifier()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **.test_truncate_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **Site** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
+- **.test_m2m_tables_in_subpackage_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **.test_models_in_the_test_package()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **Shorten an SQL identifier to a repeatable mangled version with the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **Format a number into a string with the requisite number of digits and decimal…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **Tests for django.db.backends.utils** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **.test_format_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **Advertisement** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **Regression for #12168: models split into subpackages still get M2M tables.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **Regression for #12245 - Models can exist in the test package, too.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **Regression for #12386 - field names on the autogenerated intermediate class…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
 
 ## Relationships
 
-- [Community 803](Community_803.md) (6 shared connections)
-- [Community 879](Community_879.md) (5 shared connections)
-- [Community 700](Community_700.md) (3 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 1044](Community_1044.md) (2 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 159](Community_159.md) (6 shared connections)
+- [Community 104](Community_104.md) (3 shared connections)
+- [Community 149](Community_149.md) (2 shared connections)
+- [Community 58](Community_58.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 36](Community_36.md) (2 shared connections)
+- [Community 764](Community_764.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 515](Community_515.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_package/models/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_package/models/publication.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 67 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
