@@ -1,54 +1,54 @@
 # Community 410
 
-> 30 nodes · cohesion 0.08
+> 22 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **AsyncQuerySetTest** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **SimpleModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/models.py`
-- **.test_update_conflicts_unique_field_unsupported()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_abulk_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aexplain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **async_to_sync** (3 connections)
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aaggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_acontains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_acount_cached_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **._get_db_feature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_abulk_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_acount()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_acreate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_adelete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aearliest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aexists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_afirst()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aget_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_ain_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aiterator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aiterator_invalid_chunk_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_aiterator_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- **.test_alast()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
-- *... and 5 more nodes in this community*
+- **test_datastructures.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **ImmutableList** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **DictWrapper** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **MultiValueDictKeyError** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **ImmutableListTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **DictWrapperTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_dictwrapper()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **dict** (2 connections)
+- **.test_custom_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.complain()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **KeyError** (1 connections)
+- **tuple** (1 connections)
+- **A tuple-like object that raises useful errors when it is asked to mutate.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **Wrap accesses to a dictionary so that certain values (those starting with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **Retrieve the real value after stripping the prefix string (if present). If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **Return the last data value for this key, or [] if it's an empty list; raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **Tests for stuff in django.utils.datastructures.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 29](Community_29.md) (3 shared connections)
-- [Community 99](Community_99.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
-- [Community 588](Community_588.md) (1 shared connections)
+- [Community 200](Community_200.md) (5 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 389](Community_389.md) (4 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 373](Community_373.md) (2 shared connections)
+- [Community 189](Community_189.md) (1 shared connections)
+- [Community 157](Community_157.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 348](Community_348.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async_queryset/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 50 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

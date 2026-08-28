@@ -1,28 +1,28 @@
 # Community 926
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **ViewTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_base_view_class_is_sync()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **View and by extension any subclasses that don't define handlers are sync.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_mixed_views_raise_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_options_handler_responds_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_views_are_correctly_marked()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **CheckCondition** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.add_condition()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Descriptor class for deferred condition checking.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 22](Community_22.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (83%)
+- INFERRED: 1 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

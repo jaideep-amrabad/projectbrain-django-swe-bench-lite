@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **two_configs_one_default_app/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_one_default_app/__init__.py`
+- **DateTimeShortcuts.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_one_default_app/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/DateTimeShortcuts.js`
 
 ## Audit Trail
 

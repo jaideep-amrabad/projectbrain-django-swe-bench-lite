@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **async_queryset/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/__init__.py`
+- **.strptime()** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async_queryset/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
 
 ## Audit Trail
 

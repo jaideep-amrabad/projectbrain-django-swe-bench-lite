@@ -1,60 +1,54 @@
 # Community 208
 
-> 31 nodes · cohesion 0.10
+> 25 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **core/validators.py** (48 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **validators/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **EmailValidator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **FileExtensionValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **ProhibitNullCharactersValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **validate_ipv46_address()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **URLValidator** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **validate_ipv6_address()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.__call__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **validate_image_file_extension()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **validate_ipv4_address()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.validate_domain_part()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **get_available_image_extensions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **ip_address_validators()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **validate_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.test_email_equality()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_file_extension_equality()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_prohibit_null_characters_validator_equality()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- *... and 6 more nodes in this community*
+- **NestedObjectsTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **NestedObjects** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **._connect()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **._check()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **._collect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_cyclic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_non_added_parent()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_siblings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_unrelated_roots()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_on_delete_do_nothing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_relation_on_abstract()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.add_edge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.can_fast_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.collect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **._nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.related_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **Collector** (1 connections)
+- **Return the graph as a nested list.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **We always want to load the objects into memory so that we can display them to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **Tests for ``NestedObject`` utility collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **The nested collector doesn't query for DO_NOTHING objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **NestedObjects.collect() doesn't trip (AttributeError) on the special notation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (18 shared connections)
-- [Community 406](Community_406.md) (15 shared connections)
-- [Community 518](Community_518.md) (10 shared connections)
-- [Community 529](Community_529.md) (7 shared connections)
-- [Community 18](Community_18.md) (6 shared connections)
-- [Community 669](Community_669.md) (3 shared connections)
-- [Community 141](Community_141.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 109](Community_109.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 89](Community_89.md) (4 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 457](Community_457.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 116 (94%)
-- INFERRED: 8 (6%)
+- EXTRACTED: 46 (85%)
+- INFERRED: 8 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

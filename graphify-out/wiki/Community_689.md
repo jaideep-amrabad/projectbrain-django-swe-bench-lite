@@ -1,43 +1,38 @@
 # Community 689
 
-> 14 nodes · cohesion 0.16
+> 11 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **TestBadSetUpTestData** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **TestRaiseLastException** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **MyException** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_no_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_raises_custom_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_raises_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **Exception** (1 connections)
-- **An exception in setUpTestData() shouldn't leak a transaction which would…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_failure_in_setUpTestData_should_rollback_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_raises_exception_with_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **RemoteUserMiddleware** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **.process_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **._remove_invalid_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **PersistentRemoteUserMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **.clean_username()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **CustomHeaderMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Remove the current authenticated user in the request which is invalid but only…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **Middleware for web-server provided authentication on logon pages. Like…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **Middleware for utilizing web-server-provided authentication. If request.user is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **Allow the backend to clean the username, if the backend defines a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **Middleware that overrides custom HTTP auth user header.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 430](Community_430.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 440](Community_440.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 545](Community_545.md) (1 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 316](Community_316.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 741](Community_741.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

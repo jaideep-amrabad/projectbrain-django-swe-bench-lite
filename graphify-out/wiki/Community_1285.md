@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **tests/backends/oracle/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/__init__.py`
+- **SelectBox.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectBox.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectBox.js`
 
 ## Audit Trail
 

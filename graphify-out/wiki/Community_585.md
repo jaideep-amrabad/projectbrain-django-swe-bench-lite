@@ -1,45 +1,43 @@
 # Community 585
 
-> 18 nodes · cohesion 0.27
+> 18 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **security/base.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **register** (14 connections)
-- **_security_middleware()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_secret_key_fallbacks()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_content_type_nosniff()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_cross_origin_opener_policy()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_referrer_policy()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **_check_secret_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_security_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_ssl_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_sts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_sts_include_subdomains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_sts_preload()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_xframe_deny()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_xframe_options_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **_xframe_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_allowed_hosts()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **Parser** (21 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.parse()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.error()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.compile_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.invalid_block_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.unclosed_block_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.extend_nodelist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.next_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.skip_past()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.add_library()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.find_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.prepend_token()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.delete_first_token()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Iterate through the parser tokens and compiles each one into a node. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Return an exception annotated with the originating token. Since the parser can…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Convenient wrapper for FilterExpression** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
 
 ## Relationships
 
-- [Community 44](Community_44.md) (4 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 250](Community_250.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 0](Community_0.md) (12 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 243](Community_243.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 43 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

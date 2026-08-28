@@ -1,37 +1,34 @@
 # Community 924
 
-> 9 nodes · cohesion 0.31
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Book** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **MultiDatabaseTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
-- **.test_add_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
-- **.test_change_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
-- **.test_delete_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
-- **patch** (3 connections)
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple book that has chapters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **UTCAliasTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_timezone_module_dir_includes_utc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **Return a tzinfo of the database connection time zone. This is only used when…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.test_alias_deprecation_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 142](Community_142.md) (1 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
+- [Community 640](Community_640.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 7 (64%)
+- INFERRED: 4 (36%)
 - AMBIGUOUS: 0 (0%)
 
 ---

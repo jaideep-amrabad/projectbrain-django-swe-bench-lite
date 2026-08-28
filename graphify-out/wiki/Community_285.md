@@ -1,57 +1,62 @@
 # Community 285
 
-> 36 nodes · cohesion 0.12
+> 34 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **BaseTests** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.get_storage()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **add_level_messages()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.get_request()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **get_level()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **.get_existing_storage()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.get_response()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.stored_messages_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_default_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_high_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_low_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_settings_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **set_level()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **.test_add_lazy_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_add_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_custom_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_existing_add_read_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_existing_read_add_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_no_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_existing_read()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_level_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_with_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- *... and 11 more nodes in this community*
+- **safe_join()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- **to_path()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- **BaseStorageFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **FileSystemFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **test_os_utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **DefaultStorageFinder** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find_location()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **SafeJoinTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.iter_template_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **ToPathTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **.find()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.test_base_path_ends_with_sep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **.test_parent_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **.test_root_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **.test_to_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **.test_to_path_invalid_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **Look for files in the extra locations as defined in STATICFILES_DIRS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Find a requested static file in a location and return the found absolute path…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 134](Community_134.md) (12 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 449](Community_449.md) (2 shared connections)
-- [Community 117](Community_117.md) (2 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 682](Community_682.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 308](Community_308.md) (1 shared connections)
+- [Community 52](Community_52.md) (7 shared connections)
+- [Community 21](Community_21.md) (6 shared connections)
+- [Community 122](Community_122.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 145](Community_145.md) (3 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 61](Community_61.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 510](Community_510.md) (1 shared connections)
+- [Community 784](Community_784.md) (1 shared connections)
+- [Community 198](Community_198.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 98 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 71 (93%)
+- INFERRED: 5 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

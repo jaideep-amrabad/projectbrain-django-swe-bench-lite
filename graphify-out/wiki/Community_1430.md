@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **m2m_signals/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/__init__.py`
+- **custom_methods/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_signals/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_methods/__init__.py`
 
 ## Audit Trail
 

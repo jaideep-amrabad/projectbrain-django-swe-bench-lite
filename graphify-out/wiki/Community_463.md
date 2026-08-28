@@ -1,56 +1,65 @@
 # Community 463
 
-> 21 nodes · cohesion 0.13
+> 38 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **safe_join()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- **filesystem.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **Loader** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **to_path()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- **test_os_utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.get_template_sources()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **SafeJoinTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **ToPathTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.get_contents()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **.get_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **.test_base_path_ends_with_sep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.test_parent_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.test_root_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.test_to_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.test_to_path_invalid_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **BaseLoader** (1 connections)
-- **Wrapper for loading templates from the filesystem.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **Return an Origin object pointing to an absolute path in each directory in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **Join one or more path components to the base path component intelligently.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- **Convert value to a pathlib.Path instance, if not already a Path.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- **.import_module()** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **MigrationTestBase** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **get_template_tag_modules()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **get_package_libraries()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- **load_command_class()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.get_table_description()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.temporary_migration_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **._get_column_allows_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.test_has_sumbodule_with_dotted_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_loader()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.import_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **._get_column_collation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **DefaultLoader** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- **.assertColumnCollation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNotNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertConstraintExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertConstraintNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertFKExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertFKNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (9 shared connections)
-- [Community 220](Community_220.md) (5 shared connections)
-- [Community 381](Community_381.md) (4 shared connections)
-- [Community 82](Community_82.md) (3 shared connections)
-- [Community 156](Community_156.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 200](Community_200.md) (2 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 186](Community_186.md) (1 shared connections)
-- [Community 894](Community_894.md) (1 shared connections)
+- [Community 21](Community_21.md) (11 shared connections)
+- [Community 5](Community_5.md) (7 shared connections)
+- [Community 105](Community_105.md) (4 shared connections)
+- [Community 91](Community_91.md) (4 shared connections)
+- [Community 328](Community_328.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 650](Community_650.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 23](Community_23.md) (3 shared connections)
+- [Community 963](Community_963.md) (2 shared connections)
+- [Community 847](Community_847.md) (2 shared connections)
+- [Community 140](Community_140.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 74 (63%)
+- INFERRED: 43 (37%)
 - AMBIGUOUS: 0 (0%)
 
 ---

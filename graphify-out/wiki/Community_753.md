@@ -1,36 +1,40 @@
 # Community 753
 
-> 10 nodes · cohesion 0.27
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **template_tests/test_base.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **LexerTestMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **DebugLexerTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **LexerTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **VariableDoesNotExistTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.make_expected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.test_tokenize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.make_expected()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.make_expected()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
+- **RemoveStaleContentTypesTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_contenttypes_removed_for_apps_not_in_installed_apps()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_contenttypes_removed_in_installed_apps_without_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_interactive_false()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_interactive_true_with_dependent_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_interactive_true_without_dependent_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_unavailable_content_type_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **interactive mode (the default) deletes stale content types and warns of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **interactive mode deletes stale content types even if there aren't any dependent…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **non-interactive mode deletes stale content types.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **A ContentType isn't created if the model isn't available.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 370](Community_370.md) (4 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
+- [Community 77](Community_77.md) (6 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 163](Community_163.md) (3 shared connections)
+- [Community 60](Community_60.md) (3 shared connections)
+- [Community 59](Community_59.md) (2 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 30 (91%)
+- INFERRED: 3 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

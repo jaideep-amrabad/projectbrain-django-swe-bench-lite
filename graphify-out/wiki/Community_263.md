@@ -1,46 +1,51 @@
 # Community 263
 
-> 20 nodes · cohesion 0.10
+> 41 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **JsonlSerializerTestCase** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_custom_encoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_helpful_error_message_for_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_helpful_error_message_for_many2many_natural1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_helpful_error_message_for_many2many_natural2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_helpful_error_message_for_many2many_non_natural()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_helpful_error_message_for_many2many_not_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_helpful_error_message_invalid_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_helpful_error_message_invalid_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_json_deserializer_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **If there is an invalid field value, the error message contains the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **Invalid foreign keys with a natural key throws a helpful error message, such as…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **Invalid many-to-many keys throws a helpful error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **Invalid many-to-many keys throws a helpful error message where one of a list of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **Invalid many-to-many keys throws a helpful error message where a natural many-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **Not iterable many-to-many field value throws a helpful error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **If there is an invalid primary key, the error message contains the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **AsyncDummyCacheTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_data_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aadd()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aclear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aclose()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_adecr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_adecr_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_adelete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_adelete_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aget_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_ahas_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aincr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aincr_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aset_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_expiration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_adelete_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aget_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aget_or_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aget_or_set_callable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_aset_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **.test_atouch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- **Expiration has no effect on the dummy cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 110](Community_110.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 130](Community_130.md) (1 shared connections)
-- [Community 801](Community_801.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 348](Community_348.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 43 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

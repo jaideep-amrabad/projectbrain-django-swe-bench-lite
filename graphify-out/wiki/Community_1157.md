@@ -4,20 +4,22 @@
 
 ## Key Concepts
 
-- **user_commands/models.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/models.py`
-- **User-registered management commands The ``manage.py`` utility provides a number…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/models.py`
+- **.test_check_password_upgrade()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **password_changed() shouldn't be called if User.check_password() triggers a hash…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 154](Community_154.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/user_commands/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

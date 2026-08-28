@@ -1,32 +1,39 @@
 # Community 812
 
-> 10 nodes · cohesion 0.36
+> 11 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **FilterTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
-- **setup** (8 connections)
-- **.test_filter01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
-- **.test_filter02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
-- **.test_filter03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
-- **.test_filter04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
-- **.test_filter05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
-- **.test_filter05bis()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
-- **.test_filter06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
-- **.test_filter06bis()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **RegexValidator** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **TestValidatorEquality** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.test_file_extension_equality()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_regex_equality()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_regex_equality_blank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_regex_equality_nocache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **Validate that the input contains (or does *not* contain, if inverse_match is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **Validators have valid equality operators (#21638)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 
 ## Relationships
 
-- [Community 33](Community_33.md) (1 shared connections)
+- [Community 7](Community_7.md) (13 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 199](Community_199.md) (1 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

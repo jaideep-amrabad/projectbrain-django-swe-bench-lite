@@ -1,63 +1,61 @@
 # Community 200
 
-> 31 nodes · cohesion 0.10
+> 43 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **DjangoTemplates** (25 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **template/autoreload.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
-- **DjangoTemplatesTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **EngineHandler** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
-- **get_template_directories()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
-- **.test_render_requires_dict()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **template_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
-- **.get_templatetag_libraries()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **is_django_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.test_templatetag_discovery_import_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **reset_loaders()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
-- **watch_for_template_changes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
-- **.templates()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
-- **.test_default_template_loaders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **.test_templatetag_discovery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
-- **.test_autoescape_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **.test_builtins_discovery()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **.test_context_has_priority_over_template_context_processors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **.test_dirs_pathlib()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **Return a collation of template tag libraries from installed applications and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.all()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
-- *... and 6 more nodes in this community*
+- **MultiValueDict** (61 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **MultiValueDictTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **._getlist()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.setlistdefault()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.setlist()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.appendlist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.values()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__setstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.test_appendlist()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_copy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_deepcopy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_dict_translation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_getlist_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_getlist_doesnt_mutate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_getlist_none_empty_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_internal_getlist_does_mutate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_multivaluedict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_setdefault()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 220](Community_220.md) (7 shared connections)
 - [Community 1](Community_1.md) (7 shared connections)
-- [Community 460](Community_460.md) (4 shared connections)
-- [Community 381](Community_381.md) (3 shared connections)
-- [Community 463](Community_463.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 211](Community_211.md) (2 shared connections)
-- [Community 660](Community_660.md) (2 shared connections)
-- [Community 156](Community_156.md) (2 shared connections)
-- [Community 74](Community_74.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 618](Community_618.md) (1 shared connections)
+- [Community 410](Community_410.md) (5 shared connections)
+- [Community 34](Community_34.md) (3 shared connections)
+- [Community 888](Community_888.md) (3 shared connections)
+- [Community 389](Community_389.md) (3 shared connections)
+- [Community 203](Community_203.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 477](Community_477.md) (1 shared connections)
+- [Community 866](Community_866.md) (1 shared connections)
+- [Community 209](Community_209.md) (1 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
-- `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- `raw/code/hyd-evaluation/django-django/django/template/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 76 (88%)
-- INFERRED: 10 (12%)
+- EXTRACTED: 100 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

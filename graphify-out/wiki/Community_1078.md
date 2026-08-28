@@ -1,24 +1,28 @@
 # Community 1078
 
-> 2 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.test_inheritance02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Standard two-level inheritance** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **OriginTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_origin.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_origin.py`
+- **.test_origin_compares_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_origin.py`
+- **.test_origin_compares_not_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_origin.py`
+- **.test_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_origin.py`
 
 ## Relationships
 
-- [Community 811](Community_811.md) (1 shared connections)
-- [Community 810](Community_810.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_origin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

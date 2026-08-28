@@ -1,78 +1,59 @@
 # Community 156
 
-> 268 nodes · cohesion 0.01
+> 49 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **utils/html.py** (64 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **forms/utils.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **TemplateDoesNotExist** (40 connections) — `raw/code/hyd-evaluation/django-django/django/template/exceptions.py`
-- **format_html()** (40 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **forms/forms.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **lazystr()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **escape()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **auth_tests/test_validators.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **password_validation.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **syndication/views.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **conditional_escape()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **ErrorList** (27 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **renderers.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **template/loader.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader.py`
-- **SafeString** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
-- **test_html.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
-- **TestUtilsHtml** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
-- **boundfield.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **templatetags/static.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **keep_lazy_text()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **template_tests/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
-- **ErrorDict** (17 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **test_media.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **TestUtilsText** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **get_default_renderer()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- *... and 243 more nodes in this community*
+- **serializer.py** (50 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **BaseSerializer** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **serializer_factory()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DeconstructableSerializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize_deconstructed()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **BaseSimpleSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DatetimeDatetimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DateTimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **ModelFieldSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **ModelManagerSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **TypeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **ChoicesSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DecimalSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **._serialize_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DictionarySerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **EnumSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FloatSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FunctionTypeSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FunctoolsPartialSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **IterableSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **PathLikeSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **PathSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **RegexSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **SettingsReferenceSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (83 shared connections)
-- [Community 18](Community_18.md) (67 shared connections)
-- [Community 33](Community_33.md) (61 shared connections)
-- [Community 28](Community_28.md) (27 shared connections)
-- [Community 383](Community_383.md) (16 shared connections)
-- [Community 381](Community_381.md) (14 shared connections)
-- [Community 415](Community_415.md) (14 shared connections)
-- [Community 51](Community_51.md) (13 shared connections)
-- [Community 220](Community_220.md) (13 shared connections)
-- [Community 19](Community_19.md) (12 shared connections)
-- [Community 25](Community_25.md) (10 shared connections)
-- [Community 34](Community_34.md) (9 shared connections)
+- [Community 21](Community_21.md) (9 shared connections)
+- [Community 703](Community_703.md) (7 shared connections)
+- [Community 610](Community_610.md) (4 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 665](Community_665.md) (3 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 91](Community_91.md) (2 shared connections)
+- [Community 510](Community_510.md) (2 shared connections)
+- [Community 217](Community_217.md) (2 shared connections)
+- [Community 199](Community_199.md) (2 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
+- [Community 90](Community_90.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
-- `raw/code/hyd-evaluation/django-django/django/template/backends/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- `raw/code/hyd-evaluation/django-django/django/template/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loader.py`
-- `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 951 (97%)
-- INFERRED: 33 (3%)
+- EXTRACTED: 124 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

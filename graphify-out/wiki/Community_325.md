@@ -1,60 +1,59 @@
 # Community 325
 
-> 32 nodes · cohesion 0.17
+> 33 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **fixtures_regress/tests.py** (60 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **fixtures_regress/models.py** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MNaturalKeyFixtureTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **BaseNKModel** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexCircular2B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Circle1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MCircular1ThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MCircular1ThroughBC** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MCircular1ThroughCA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MCircular2ThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexCircular1A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexCircular1B** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexCircular1C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexCircular2A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MSimpleA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MSimpleB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MSimpleCircularA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MSimpleCircularB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Stuff** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Thingy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- *... and 7 more nodes in this community*
+- **db/transaction.py** (71 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **get_connection()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **Atomic** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **on_commit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **clean_savepoints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **get_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **get_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **mark_for_rollback_on_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **savepoint()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **savepoint_commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **savepoint_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **set_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **set_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **ContextDecorator** (1 connections)
+- **Internal low-level utility to mark a transaction as "needs rollback" when an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **Register `func` to be called when the current transaction is committed. If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **Guarantee the atomic execution of a given block. An instance can be used either…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **Get a database connection by name, or the default database connection if no…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **Get the autocommit status of the connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **Set the autocommit status of the connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 547](Community_547.md) (16 shared connections)
-- [Community 369](Community_369.md) (10 shared connections)
-- [Community 871](Community_871.md) (6 shared connections)
-- [Community 110](Community_110.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 873](Community_873.md) (3 shared connections)
-- [Community 922](Community_922.md) (3 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 854](Community_854.md) (2 shared connections)
-- [Community 32](Community_32.md) (2 shared connections)
+- [Community 21](Community_21.md) (12 shared connections)
+- [Community 78](Community_78.md) (4 shared connections)
+- [Community 69](Community_69.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 332](Community_332.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 91](Community_91.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 218](Community_218.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 143 (88%)
-- INFERRED: 19 (12%)
+- EXTRACTED: 104 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

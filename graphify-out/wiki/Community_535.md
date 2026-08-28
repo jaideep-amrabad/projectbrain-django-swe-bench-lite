@@ -1,56 +1,53 @@
 # Community 535
 
-> 21 nodes · cohesion 0.16
+> 24 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **version.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **get_version()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **get_version_tuple()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **version/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **get_complete_version()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **VersionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **get_git_changeset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **get_main_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **.test_migration_file_header_comments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_development()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **.test_development_no_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **.test_get_version_invalid_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **.test_get_version_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **.test_releases()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **Return a tuple of version numbers (e.g. (1, 2, 3)) from the version string…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **Return a PEP 440-compliant version number from VERSION.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **Return main version (X.Y[.Z]) from VERSION.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **Return a tuple of the django version. If version argument is non-empty, check…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **Return a numeric identifier of the latest git changeset. The result is the UTC…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **Test comments at top of file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **skipUnless** (1 connections)
+- **TimeFormat** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.srid()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.P()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Formatter** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.h()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.O()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.s()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.Z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.a()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **._no_timezone_or_datetime_is_ambiguous_or_imaginary()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.T()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.u()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **setter** (1 connections)
+- **Get the SRID for the geometry. Return None if no SRID is set.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **Set the SRID for the geometry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.format()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Hour, 12-hour format; i.e. '01' to '12** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Hour, 24-hour format; i.e. '00' to '23** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Difference to Greenwich time in hours; e.g. '+0200', '-0430'. If timezone…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Time, in 12-hour hours, minutes and 'a.m.'/'p.m.', with minutes left off if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Seconds; i.e. '00' to '59** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Time zone of this machine; e.g. 'EST' or 'MDT'. If timezone information is not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Microseconds; i.e. '000000' to '999999** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Time zone offset in seconds (i.e. '-43200' to '43200'). The offset for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (10 shared connections)
-- [Community 6](Community_6.md) (7 shared connections)
-- [Community 383](Community_383.md) (6 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 211](Community_211.md) (3 shared connections)
-- [Community 356](Community_356.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 123](Community_123.md) (2 shared connections)
-- [Community 529](Community_529.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 243](Community_243.md) (2 shared connections)
-- [Community 183](Community_183.md) (2 shared connections)
+- [Community 90](Community_90.md) (5 shared connections)
+- [Community 489](Community_489.md) (2 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 314](Community_314.md) (1 shared connections)
+- [Community 315](Community_315.md) (1 shared connections)
+- [Community 597](Community_597.md) (1 shared connections)
+- [Community 243](Community_243.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 92 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 36 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

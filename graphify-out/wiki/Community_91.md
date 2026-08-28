@@ -1,74 +1,73 @@
 # Community 91
 
-> 131 nodes · cohesion 0.02
+> 127 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **sessions_tests/tests.py** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **core/cache/__init__.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **SessionStore** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **sessions/backends/base.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **sessions/backends/db.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **cache/backends/base.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **cache/backends/db.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **backends/file.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **SessionStore** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **SessionStore** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
-- **createcachetable.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
-- **DatabaseSessionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **ConnectionProxy** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **sessions_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **backends/cache.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
-- **AbstractBaseSession** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **sessions/exceptions.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
-- **SessionStore** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **UpdateError** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **base_session.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **sessions/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **Session** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **CacheDBSessionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **cached_db.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **InvalidCacheBackendError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- *... and 106 more nodes in this community*
+- **MigrationLoader** (79 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **MigrationWriter** (36 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **makemigrations.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **migrations/exceptions.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **Migration** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **autodetector.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **migrations/loader.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **squashmigrations.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- **MigrationOptimizer** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
+- **Command** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **optimizemigration.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/optimizemigration.py`
+- **test_loader.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- **migrations/utils.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **.handle()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **migration.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **run_formatters()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **.handle_merge()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **NonInteractiveMigrationQuestioner** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **showmigrations.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- **.build_graph()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- **SwappableTuple** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **.write_migration_files()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **sqlmigrate.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlmigrate.py`
+- *... and 102 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (17 shared connections)
-- [Community 51](Community_51.md) (15 shared connections)
-- [Community 2](Community_2.md) (14 shared connections)
-- [Community 383](Community_383.md) (12 shared connections)
-- [Community 296](Community_296.md) (8 shared connections)
-- [Community 34](Community_34.md) (8 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 381](Community_381.md) (6 shared connections)
-- [Community 148](Community_148.md) (6 shared connections)
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 99](Community_99.md) (4 shared connections)
-- [Community 110](Community_110.md) (4 shared connections)
+- [Community 21](Community_21.md) (47 shared connections)
+- [Community 127](Community_127.md) (27 shared connections)
+- [Community 8](Community_8.md) (22 shared connections)
+- [Community 3](Community_3.md) (18 shared connections)
+- [Community 105](Community_105.md) (18 shared connections)
+- [Community 93](Community_93.md) (13 shared connections)
+- [Community 114](Community_114.md) (12 shared connections)
+- [Community 107](Community_107.md) (11 shared connections)
+- [Community 358](Community_358.md) (11 shared connections)
+- [Community 59](Community_59.md) (9 shared connections)
+- [Community 199](Community_199.md) (9 shared connections)
+- [Community 20](Community_20.md) (6 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/optimizemigration.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlmigrate.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/optimizer.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
 
 ## Audit Trail
 
-- EXTRACTED: 358 (97%)
-- INFERRED: 11 (3%)
+- EXTRACTED: 439 (89%)
+- INFERRED: 52 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

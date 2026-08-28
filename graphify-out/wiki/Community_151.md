@@ -1,63 +1,61 @@
 # Community 151
 
-> 77 nodes · cohesion 0.04
+> 51 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **UniqueConstraint** (36 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.get_constraints()** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **BaseConstraint** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **CheckConstraint** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **Random** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **.assertIndexOrder()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **BaseConstraintTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_func_index_collate_f_ordered()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._get_index_expressions()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.test_composite_func_index_field_and_expression()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_index_collate()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_unique_constraint_collate()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_unique_constraint_field_and_expression()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_check_constraint_timedelta_param()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_index()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_index_f()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_unique_constraint()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_unique_constraint_lookups()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_unique_constraint_partial()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._get_condition_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.validate()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.test_func_unique_constraint_covering()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_remove_field_check_does_not_remove_meta_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._get_check_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.validate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- *... and 52 more nodes in this community*
+- **MultiWidget** (26 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **TextInput** (23 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **MultiWidgetTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **TextInputTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **MyMultiWidget** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **DeepCopyWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_needs_multipart_true()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_needs_multipart_false()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_constructor_attrs_with_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_deepcopy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_nested_multiwidget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_no_whitespace_between_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_subwidgets_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_text_inputs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_value_from_datadict_subwidgets_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_value_omitted_from_data_subwidgets_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_attrs_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **.test_attrs_safestring()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **.decompress()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **._get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **._set_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_constructor_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **.test_render_boolean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 22](Community_22.md) (33 shared connections)
-- [Community 29](Community_29.md) (19 shared connections)
-- [Community 2](Community_2.md) (14 shared connections)
-- [Community 142](Community_142.md) (11 shared connections)
-- [Community 15](Community_15.md) (10 shared connections)
-- [Community 132](Community_132.md) (9 shared connections)
-- [Community 11](Community_11.md) (7 shared connections)
-- [Community 383](Community_383.md) (5 shared connections)
-- [Community 49](Community_49.md) (4 shared connections)
-- [Community 27](Community_27.md) (4 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
+- [Community 377](Community_377.md) (11 shared connections)
+- [Community 7](Community_7.md) (8 shared connections)
+- [Community 664](Community_664.md) (2 shared connections)
+- [Community 421](Community_421.md) (2 shared connections)
+- [Community 246](Community_246.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 1007](Community_1007.md) (1 shared connections)
+- [Community 376](Community_376.md) (1 shared connections)
+- [Community 502](Community_502.md) (1 shared connections)
+- [Community 757](Community_757.md) (1 shared connections)
+- [Community 254](Community_254.md) (1 shared connections)
+- [Community 146](Community_146.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_random.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
 
 ## Audit Trail
 
-- EXTRACTED: 221 (87%)
-- INFERRED: 32 (13%)
+- EXTRACTED: 85 (80%)
+- INFERRED: 21 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

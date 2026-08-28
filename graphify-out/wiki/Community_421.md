@@ -1,65 +1,62 @@
 # Community 421
 
-> 54 nodes · cohesion 0.04
+> 78 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **Library** (35 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **FilterRegistrationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **TagRegistrationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **SimpleTagRegistrationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **testtags.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
-- **templatetags/tags.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/templatetags/tags.py`
-- **EchoNode** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
-- **CountRenderNode** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/templatetags/tags.py`
-- **.filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **count_render()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/templatetags/tags.py`
-- **echo()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
-- **.filter_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **.inclusion_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **.simple_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **.tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **.tag_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **different_tags.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/template_test_apps/different_tags_app/templatetags/different_tags.py`
-- **same_tags_app_1/templatetags/same_tags.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/template_test_apps/same_tags_app_1/templatetags/same_tags.py`
-- **same_tags_app_2/templatetags/same_tags.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/template_test_apps/same_tags_app_2/templatetags/same_tags.py`
-- **good_tags.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/good_tags.py`
-- **override.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/override.py`
-- **subpackage/tags.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/subpackage/tags.py`
-- **upper()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- *... and 29 more nodes in this community*
+- **Widget** (21 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **SelectDateWidgetTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **SelectDateWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **ChoiceWidget** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.render()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **PasswordInput** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.optgroups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.format_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.create_option()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.subwidgets()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.id_for_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **._parse_date_fmt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.build_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_custom_input_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.id_for_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.value_from_datadict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.decompress()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_render_value_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_passwordinput.py`
+- **.test_years_rendered_without_separator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- *... and 53 more nodes in this community*
 
 ## Relationships
 
-- [Community 33](Community_33.md) (13 shared connections)
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 19](Community_19.md) (7 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 370](Community_370.md) (1 shared connections)
-- [Community 373](Community_373.md) (1 shared connections)
-- [Community 312](Community_312.md) (1 shared connections)
-- [Community 220](Community_220.md) (1 shared connections)
+- [Community 7](Community_7.md) (14 shared connections)
+- [Community 377](Community_377.md) (8 shared connections)
+- [Community 23](Community_23.md) (4 shared connections)
+- [Community 502](Community_502.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 757](Community_757.md) (2 shared connections)
+- [Community 173](Community_173.md) (2 shared connections)
+- [Community 151](Community_151.md) (2 shared connections)
+- [Community 443](Community_443.md) (2 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
+- [Community 97](Community_97.md) (1 shared connections)
+- [Community 376](Community_376.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/template_test_apps/different_tags_app/templatetags/different_tags.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/template_test_apps/same_tags_app_1/templatetags/same_tags.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/template_test_apps/same_tags_app_2/templatetags/same_tags.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/templatetags/tags.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/good_tags.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/override.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/subpackage/tags.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_passwordinput.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 136 (94%)
+- INFERRED: 9 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

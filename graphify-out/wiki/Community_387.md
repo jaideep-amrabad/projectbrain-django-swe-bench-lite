@@ -1,63 +1,51 @@
 # Community 387
 
-> 27 nodes · cohesion 0.11
+> 29 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **geoapp/feeds.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **kml.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **KMLSitemap** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **TestGeoRSS1** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **geoapp/urls.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/urls.py`
-- **geoapp/sitemaps.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/sitemaps.py`
-- **TestGeoRSS2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **gis/sitemaps/__init__.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/__init__.py`
-- **KMZSitemap** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **._build_kml_sources()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **TestGeoAtom2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestW3CGeo3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **.location()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **TestGeoAtom1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestW3CGeo1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestW3CGeo2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.item_geometry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **Go through the given sources and return a 3-tuple of the application label,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **A minimal hook to produce KML sitemaps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **.geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.item_geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.item_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- *... and 2 more nodes in this community*
+- **TemplateTestMixin** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **._engine()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_render_tag_error_in_extended_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_url_reverse_no_settings_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_compile_tag_error_27956()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_extends_generic_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_no_wrapped_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_render_built_in_type_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_super_errors()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_url_reverse_view_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_compile_filter_expression_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_compile_tag_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_compile_tag_error_27584()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_invalid_block_suggestion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_node_origin()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_string_origin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_unknown_block_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **Errors raised while compiling nodes should include the token information.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **Errors in a child of {% extends %} are displayed correctly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **Errors in extended block are displayed correctly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **#18169 -- NoReverseMatch should not be silence in block.super.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **#24338 -- Allow extending django.template.backends.django.Template objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **#25848 -- Set origin on Node so debugging tools can determine which template…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **Templates should not crash when rendering methods for built-in types without…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **#9005 -- url tag shouldn't require settings.SETTINGS_MODULE to be set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 53](Community_53.md) (6 shared connections)
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 444](Community_444.md) (3 shared connections)
-- [Community 72](Community_72.md) (2 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 393](Community_393.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 9](Community_9.md) (10 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/sitemaps.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 58 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

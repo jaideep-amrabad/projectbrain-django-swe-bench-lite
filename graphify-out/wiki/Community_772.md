@@ -1,37 +1,40 @@
 # Community 772
 
-> 8 nodes · cohesion 0.43
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **security/csrf.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **_get_failure_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **check_csrf_cookie_secure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **check_csrf_failure_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **check_csrf_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **_csrf_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **register** (3 connections)
-- **Return the view to be used for CSRF rejections.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **DynamicConverter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **ConversionExceptionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.test_resolve_type_error_propagates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_resolve_value_error_means_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_reverse_type_error_propagates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_reverse_value_error_means_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.register_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.register_to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **setter** (1 connections)
+- **How are errors in Converter.to_python() and to_url() handled?** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
 
 ## Relationships
 
-- [Community 44](Community_44.md) (4 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 109](Community_109.md) (1 shared connections)
-- [Community 250](Community_250.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 565](Community_565.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 220](Community_220.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (91%)
+- INFERRED: 2 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

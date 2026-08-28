@@ -1,56 +1,59 @@
 # Community 316
 
-> 34 nodes · cohesion 0.07
+> 31 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ExtendsNode** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **BlockContext** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **BlockNode** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **IncludeNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **construct_relative_path()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **do_extends()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **BlockContextTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.get_parent()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **ExtendsNodeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_extends_node_repr()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **IncludeNodeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.find_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **Node** (3 connections)
-- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.add_blocks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.get_block()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.pop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.push()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- *... and 9 more nodes in this community*
+- **test_remote_user.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **RemoteUserTest** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **RemoteUserCustomNoCreatedArgumentDeprecationTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **AllowAllUsersRemoteUserBackendTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **PersistentRemoteUserTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **RemoteUserNoCreateTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **CustomHeaderRemoteUserTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **RemoteUserCustomNoCreatedArgumentTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_header_disappears()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_last_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_header_disappears()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Tests the case where the username passed in the header does not exist as a User.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_known_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_no_remote_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_unknown_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_user_switch_forces_new_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_inactive_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **A user's last_login is set the first time they make a request but not updated…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **A logged in user is logged out automatically when the REMOTE_USER header…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **If the username in the header changes between requests that the original user…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Contains the same tests as RemoteUserTest, but using a custom auth backend…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Backend that allows inactive users.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Tests a custom RemoteUserMiddleware subclass with custom HTTP auth user header.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **PersistentRemoteUserMiddleware keeps the user logged in even if the subsequent…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 33](Community_33.md) (19 shared connections)
-- [Community 19](Community_19.md) (8 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 806](Community_806.md) (3 shared connections)
 - [Community 1](Community_1.md) (3 shared connections)
-- [Community 370](Community_370.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 51](Community_51.md) (3 shared connections)
+- [Community 163](Community_163.md) (3 shared connections)
+- [Community 71](Community_71.md) (3 shared connections)
+- [Community 741](Community_741.md) (2 shared connections)
+- [Community 689](Community_689.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 90](Community_90.md) (2 shared connections)
+- [Community 858](Community_858.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (82%)
-- INFERRED: 13 (18%)
+- EXTRACTED: 72 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

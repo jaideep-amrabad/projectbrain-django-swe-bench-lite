@@ -1,10 +1,11 @@
 # Community 1265
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **aggregation/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/__init__.py`
+- **tests/urls.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urls.py`
+- **This URLconf exists because Django expects ROOT_URLCONF to exist. URLs should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urls.py`
 
 ## Relationships
 
@@ -12,11 +13,11 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/aggregation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

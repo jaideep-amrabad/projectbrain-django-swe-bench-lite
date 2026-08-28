@@ -1,58 +1,38 @@
 # Community 751
 
-> 22 nodes · cohesion 0.13
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **locks.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **cache/backends/filebased.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **file_move_safe()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
-- **move.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
-- **_fd()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **OVERLAPPED** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **.test_file_move_copystat_cifs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **lock()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **unlock()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **FileMoveSafeTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **_OFFSET** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **_OFFSET_UNION** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **Structure** (2 connections)
-- **_samefile()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
-- **.test_file_move_overwrite()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **File-based cache backend** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Portable file locking utilities. Based partially on an example by Jonathan…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **Get a filedescriptor from something which could be a file or an fd.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **Move a file in the safest way possible:: >>> from django.core.files.move import…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
-- **Move a file from one location to another in the safest way possible. First, try…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
-- **file_move_safe() ignores a copystat() EPERM PermissionError. This happens when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **Union** (1 connections)
+- **ModelRefreshTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_refresh_clears_reverse_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_prefetched_cache_cleared()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_refresh_clears_one_to_one_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_refresh_fk_on_delete_set_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_refresh_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_lookup_in_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_refresh()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_refresh_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_refresh_no_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_refresh_null_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_unknown_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **refresh_from_db() clear cached reverse relations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Relationships
 
-- [Community 82](Community_82.md) (6 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 894](Community_894.md) (3 shared connections)
-- [Community 513](Community_513.md) (2 shared connections)
-- [Community 218](Community_218.md) (1 shared connections)
+- [Community 90](Community_90.md) (4 shared connections)
+- [Community 648](Community_648.md) (3 shared connections)
+- [Community 426](Community_426.md) (2 shared connections)
 - [Community 51](Community_51.md) (1 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
-- [Community 528](Community_528.md) (1 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 186](Community_186.md) (1 shared connections)
-- [Community 127](Community_127.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 15 (68%)
+- INFERRED: 7 (32%)
 - AMBIGUOUS: 0 (0%)
 
 ---

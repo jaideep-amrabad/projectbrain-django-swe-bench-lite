@@ -1,24 +1,29 @@
 # Community 953
 
-> 3 nodes · cohesion 0.67
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **NrOfMembersFilter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **testtags.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- **EchoNode** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- **echo()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- **upper()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- **filter** (1 connections)
+- **Node** (1 connections)
 
 ## Relationships
 
-- [Community 56](Community_56.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

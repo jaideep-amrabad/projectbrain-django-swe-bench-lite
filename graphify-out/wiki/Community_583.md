@@ -1,53 +1,53 @@
 # Community 583
 
-> 28 nodes · cohesion 0.08
+> 18 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **LabelCommand** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.create_parser()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.run_from_argv()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **DjangoHelpFormatter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
-- **.add_base_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.get_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.print_help()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **._reordered_actions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.handle_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **label_command.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
-- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
-- **.add_usage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **HelpFormatter** (1 connections)
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
-- **.handle_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
-- **Customized formatter so that command-specific arguments appear in the --help…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Return the Django version, which should be correct for all built-in Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Create and return the ``ArgumentParser`` which will be used to parse the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Call the parser's add_argument() method, suppressing the help text according to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Print the help message for this command, derived from ``self.usage()``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Set up any environment changes requested (e.g., Python path and Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- *... and 3 more nodes in this community*
+- **CacheMiddlewareTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **CacheMiddleware** (12 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- **cache_page()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **hello_world_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_page_timeout()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cached_control_private_not_cached()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_constructor()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_sensitive_cookie_not_cached()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_304_response_has_http_caching_headers_but_not_cached()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_per_thread()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_view_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Cache middleware that provides basic behavior for many simple sites. Also used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- **Decorator for views that tries getting the page from the cache and populates…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **The constructor is correctly distinguishing between usage of CacheMiddleware as…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Responses with 'Cache-Control: private' are not cached.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Django must prevent caching of responses that set a user-specific (and maybe…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **The cache instance is different for each thread.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (11 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 875](Community_875.md) (2 shared connections)
-- [Community 127](Community_127.md) (1 shared connections)
+- [Community 22](Community_22.md) (7 shared connections)
+- [Community 444](Community_444.md) (7 shared connections)
+- [Community 21](Community_21.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 536](Community_536.md) (2 shared connections)
+- [Community 712](Community_712.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 568](Community_568.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 522](Community_522.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 49 (82%)
+- INFERRED: 11 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

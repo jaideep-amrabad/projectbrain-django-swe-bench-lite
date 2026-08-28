@@ -1,63 +1,61 @@
 # Community 370
 
-> 29 nodes · cohesion 0.09
+> 39 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Variable** (27 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **VariableDoesNotExist** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **templatetags/cache.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
-- **._resolve_lookup()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **template_tests/test_logging.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
-- **CacheNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
-- **do_cache()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
-- **VariableResolveLoggingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
-- **.resolve()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **VariableTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
-- **.test_nonliterals()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.test_log_on_variable_does_not_exist_silent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
-- **.current()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.test_integer_literals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.test_log_on_variable_does_not_exist_not_silent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
-- **.test_no_log_when_variable_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
-- **Exception** (1 connections)
-- **A template variable, resolvable against a given context. The variable may be a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **Resolve this variable against a given context.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **Perform resolution of a real variable (i.e. not a literal) against the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- *... and 4 more nodes in this community*
+- **AnonymousUser** (46 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **AnonymousUserTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **_user_get_permissions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_perm()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_perms()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.get_group_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.get_user_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.test_eq()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.get_all_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.get_user_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.get_all_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.test_raise_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.check_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.get_group_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.get_username()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.groups()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.__int__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.is_anonymous()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.is_authenticated()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 33](Community_33.md) (12 shared connections)
-- [Community 19](Community_19.md) (7 shared connections)
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 753](Community_753.md) (4 shared connections)
-- [Community 148](Community_148.md) (3 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 91](Community_91.md) (2 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 134](Community_134.md) (1 shared connections)
-- [Community 290](Community_290.md) (1 shared connections)
-- [Community 316](Community_316.md) (1 shared connections)
+- [Community 16](Community_16.md) (12 shared connections)
+- [Community 536](Community_536.md) (8 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 334](Community_334.md) (2 shared connections)
+- [Community 337](Community_337.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 194](Community_194.md) (1 shared connections)
+- [Community 1012](Community_1012.md) (1 shared connections)
+- [Community 275](Community_275.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (88%)
-- INFERRED: 10 (12%)
+- EXTRACTED: 77 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---
