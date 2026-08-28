@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **get_earliest_or_latest/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/__init__.py`
+- **fixtures_model_package/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/__init__.py`
 
 ## Audit Trail
 

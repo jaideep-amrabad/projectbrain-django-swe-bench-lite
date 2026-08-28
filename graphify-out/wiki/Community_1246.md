@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **flatpages/templatetags/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/templatetags/__init__.py`
+- **admin/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/migrations/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/templatetags/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/migrations/__init__.py`
 
 ## Audit Trail
 

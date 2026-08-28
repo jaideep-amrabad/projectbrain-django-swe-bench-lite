@@ -1,8 +1,8 @@
 # TestCase
 
-> God node · 1017 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1027 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 74](Community_74.md)
+**Community:** [Community 35](Community_35.md)
 
 ## Connections by Relation
 
@@ -18,24 +18,24 @@
 - i18n/tests.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
 - expressions/tests.py `EXTRACTED`
+- auth_tests/test_views.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
 - test_auth_backends.py `EXTRACTED`
-- auth_tests/test_views.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
 - admin_filters/tests.py `EXTRACTED`
 - admin_inlines/tests.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
-- test_client_regress/tests.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
+- test_client_regress/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
 
 ### inherits
 - AutodetectorTests `EXTRACTED`
 - TransactionTestCase `EXTRACTED`
-- ChangeListTests `EXTRACTED`
 - AggregateTestCase `EXTRACTED`
+- ChangeListTests `EXTRACTED`
 - Queries1Tests `EXTRACTED`
 - ClientTest `EXTRACTED`
 - CaseExpressionTests `EXTRACTED`

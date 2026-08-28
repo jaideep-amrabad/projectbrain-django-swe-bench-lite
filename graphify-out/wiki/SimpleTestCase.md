@@ -1,8 +1,8 @@
 # SimpleTestCase
 
-> God node · 1320 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1318 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 1](Community_1.md)
+**Community:** [Community 6](Community_6.md)
 
 ## Connections by Relation
 
@@ -24,16 +24,15 @@
 - tests/test_debug.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - modeladmin/test_checks.py `EXTRACTED`
-- test_client_regress/tests.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
+- test_client_regress/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
-- auth_tests/test_forms.py `EXTRACTED`
 - test_runner/tests.py `EXTRACTED`
+- auth_tests/test_forms.py `EXTRACTED`
 - test/runner.py `EXTRACTED`
 
 ### inherits
 - TransactionTestCase `EXTRACTED`
-- FormsTestCase `EXTRACTED`
 - IfTagTests `EXTRACTED`
 - GEOSTest `EXTRACTED`
 - FormsFormsetTestCase `EXTRACTED`
@@ -43,24 +42,24 @@
 - WidgetTest `EXTRACTED`
 - MailTests `EXTRACTED`
 - AdminScriptTestCase `EXTRACTED`
-- UrlTagTests `EXTRACTED`
 - OptimizerTests `EXTRACTED`
+- UrlTagTests `EXTRACTED`
 - InheritanceTests `EXTRACTED`
-- OGRGeomTest `EXTRACTED`
 - TestUtilsHashPass `EXTRACTED`
+- OGRGeomTest `EXTRACTED`
 - BasicSyntaxTests `EXTRACTED`
 - OtherModelTests `EXTRACTED`
 - CommandTests `EXTRACTED`
 - FieldDeconstructionTests `EXTRACTED`
+- FileStorageTests `EXTRACTED`
 
 ### method
 - .settings() `EXTRACTED`
 - ._setup_and_call() `EXTRACTED`
 - .assertRedirects() `EXTRACTED`
-- .setUpClass() `EXTRACTED`
-- ._check_test_client_response() `EXTRACTED`
 - .assertFormError() `EXTRACTED`
 - .assertFormsetError() `EXTRACTED`
+- .setUpClass() `EXTRACTED`
 - .assertTemplateUsed() `EXTRACTED`
 - ._validate_databases() `EXTRACTED`
 - ._add_databases_failures() `EXTRACTED`
@@ -69,11 +68,12 @@
 - ._get_template_used() `EXTRACTED`
 - .assertTemplateNotUsed() `EXTRACTED`
 - ._assertFooMessage() `EXTRACTED`
+- .assertHTMLEqual() `EXTRACTED`
+- .assertHTMLNotEqual() `EXTRACTED`
 - .assertXMLEqual() `EXTRACTED`
 - .assertXMLNotEqual() `EXTRACTED`
 - .__call__() `EXTRACTED`
 - .debug() `EXTRACTED`
-- .assertURLEqual() `EXTRACTED`
 
 ### uses
 - RemovedInDjango50Warning `INFERRED`

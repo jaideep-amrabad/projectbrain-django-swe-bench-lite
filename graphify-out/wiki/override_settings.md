@@ -1,6 +1,6 @@
 # override_settings
 
-> God node · 1410 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+> God node · 1417 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
 **Community:** [Community 4](Community_4.md)
 
@@ -23,10 +23,10 @@
 - .test_partial_router() `EXTRACTED`
 - .setUpClass() `EXTRACTED`
 - .test_large_batch_mixed_efficiency() `EXTRACTED`
-- .test_naturaltime() `EXTRACTED`
 - .test_media_static_dirs_ignored() `EXTRACTED`
 - .test_dont_set_if_set() `EXTRACTED`
 - .test_is_extendable() `EXTRACTED`
+- .test_response_exempt() `EXTRACTED`
 
 ### contains
 - test/utils.py `EXTRACTED`
@@ -39,9 +39,9 @@
 - admin_changelist/tests.py `EXTRACTED`
 - i18n/tests.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
+- auth_tests/test_views.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
 - test_auth_backends.py `EXTRACTED`
-- auth_tests/test_views.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
 - tests/test_debug.py `EXTRACTED`
 - admin_filters/tests.py `EXTRACTED`
@@ -50,8 +50,8 @@
 - prefetch_related/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
-- test_client_regress/tests.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
+- test_client_regress/tests.py `EXTRACTED`
 
 ### inherits
 - modify_settings `EXTRACTED`
