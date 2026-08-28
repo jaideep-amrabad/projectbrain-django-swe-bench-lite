@@ -1,12 +1,13 @@
 # Community 312
 
-> 34 nodes · cohesion 0.07
+> 36 nodes · cohesion 0.07
 
 ## Key Concepts
 
 - **BaseEmailBackend** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
 - **mail/backends/base.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
 - **EmailBackend** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **mail/backends/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
 - **console.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
 - **mail/backends/dummy.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
 - **EmailBackend** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
@@ -28,15 +29,15 @@
 - **Base class for email backend implementations. Subclasses must at least…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
 - **Send one or more EmailMessage objects and return the number of email messages…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
 - **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **Email backend that writes messages to console instead of sending them.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- *... and 9 more nodes in this community*
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 166](Community_166.md) (7 shared connections)
+- [Community 168](Community_168.md) (6 shared connections)
 - [Community 2](Community_2.md) (5 shared connections)
-- [Community 795](Community_795.md) (1 shared connections)
-- [Community 930](Community_930.md) (1 shared connections)
+- [Community 801](Community_801.md) (1 shared connections)
+- [Community 940](Community_940.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
 
 ## Source Files
 
@@ -48,7 +49,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 55 (98%)
+- EXTRACTED: 59 (98%)
 - INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
