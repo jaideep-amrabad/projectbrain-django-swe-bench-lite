@@ -1,56 +1,70 @@
 # Community 287
 
-> 45 nodes · cohesion 0.05
+> 78 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **FileUploadTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **CountingMD5PasswordHasher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **._test_base64_upload()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_unicode_file_name_rfc2231()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_unicode_name_rfc2231()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_big_base64_newlines_upload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_big_base64_upload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_blank_filenames()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_content_type_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_dangerous_file_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_empty_multipart_handled_gracefully()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_file_error_blocking()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_filename_case_preservation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_filename_overflow()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_truncated_multipart_handled_gracefully()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_unicode_file_name_rfc2231_with_double_quotes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_unicode_name_rfc2231_with_double_quotes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **Receiving file upload when filename is encoded with RFC 2231.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **Hasher that counts how many times it computes a hash.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_base64_invalid_upload()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_broken_custom_upload_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_custom_upload_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- *... and 20 more nodes in this community*
+- **file_storage/tests.py** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **files/storage/__init__.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/__init__.py`
+- **Storage** (27 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/base.py`
+- **storage/filesystem.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
+- **SuspiciousFileOperation** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **files/storage/base.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/base.py`
+- **StorageHandler** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/handler.py`
+- **file_storage/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- **get_storage_class()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/__init__.py`
+- **validate_file_name()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **GetStorageClassTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.get_available_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/base.py`
+- **StorageSettingsMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/mixins.py`
+- **InvalidStorageError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/handler.py`
+- **symlinks_supported()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- **get_valid_filename()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **StorageHandlerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.generate_filename()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/base.py`
+- **.get_alternative_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/base.py`
+- **.get_valid_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/base.py`
+- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/base.py`
+- **.create_storage()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/handler.py`
+- **callable_default_storage()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- **.test_get_filesystem_storage()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_get_invalid_storage_module()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- *... and 53 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (4 shared connections)
-- [Community 77](Community_77.md) (3 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 88](Community_88.md) (1 shared connections)
-- [Community 316](Community_316.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 142](Community_142.md) (1 shared connections)
+- [Community 1](Community_1.md) (29 shared connections)
+- [Community 81](Community_81.md) (18 shared connections)
+- [Community 3](Community_3.md) (15 shared connections)
+- [Community 156](Community_156.md) (15 shared connections)
+- [Community 2](Community_2.md) (14 shared connections)
+- [Community 226](Community_226.md) (8 shared connections)
+- [Community 400](Community_400.md) (8 shared connections)
+- [Community 54](Community_54.md) (8 shared connections)
+- [Community 514](Community_514.md) (6 shared connections)
+- [Community 296](Community_296.md) (4 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 819](Community_819.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage/handler.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (87%)
-- INFERRED: 8 (13%)
+- EXTRACTED: 267 (97%)
+- INFERRED: 9 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

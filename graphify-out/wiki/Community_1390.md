@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **humanize_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/__init__.py`
+- **broken_app/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/broken_app/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/humanize_tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/broken_app/__init__.py`
 
 ## Audit Trail
 

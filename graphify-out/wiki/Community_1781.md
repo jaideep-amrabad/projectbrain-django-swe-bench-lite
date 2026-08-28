@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **wsgi/wsgi.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/wsgi.py`
+- **no_urls.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/no_urls.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/wsgi/wsgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/no_urls.py`
 
 ## Audit Trail
 

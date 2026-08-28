@@ -1,40 +1,46 @@
 # Community 906
 
-> 9 nodes · cohesion 0.31
+> 11 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Now** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **.as_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **NowTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_now.py`
-- **.test_microseconds()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_now.py`
-- **.test_aggregation_default_using_duration_from_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
-- **.as_mysql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **.as_postgresql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **.as_sqlite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_now.py`
+- **.add_field()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **split_identifier()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **._create_fk_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **TestUtils** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **._fk_constraint_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.test_split_identifier()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **.test_split_tzname_delta()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **.test_truncate_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **Create a field on a model. Usually involves adding a column, but may involve…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Split an SQL identifier into a two element tuple of (namespace, name). The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.test_format_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
 
 ## Relationships
 
-- [Community 22](Community_22.md) (4 shared connections)
-- [Community 32](Community_32.md) (3 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 99](Community_99.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
-- [Community 161](Community_161.md) (1 shared connections)
-- [Community 234](Community_234.md) (1 shared connections)
+- [Community 190](Community_190.md) (8 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 361](Community_361.md) (4 shared connections)
+- [Community 867](Community_867.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 716](Community_716.md) (1 shared connections)
+- [Community 362](Community_362.md) (1 shared connections)
+- [Community 553](Community_553.md) (1 shared connections)
+- [Community 500](Community_500.md) (1 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_now.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 40 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
