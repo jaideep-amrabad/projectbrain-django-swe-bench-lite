@@ -1,14 +1,14 @@
 # F
 
-> God node · 430 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+> God node · 436 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 1](Community_1.md)
+**Community:** [Community 14](Community_14.md)
 
 ## Connections by Relation
 
 ### calls
-- .get_order_by() `EXTRACTED`
 - .test_expressions() `EXTRACTED`
+- ._order_by_pairs() `EXTRACTED`
 - .test_key_transform() `EXTRACTED`
 - .test_invalid_filter() `EXTRACTED`
 - .test_aggregate() `EXTRACTED`
@@ -44,8 +44,8 @@
 - model_fields/test_jsonfield.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
 - geoapp/tests.py `EXTRACTED`
-- test_extract_trunc.py `EXTRACTED`
 - main.py `EXTRACTED`
+- test_extract_trunc.py `EXTRACTED`
 - test_ranges.py `EXTRACTED`
 - postgres_tests/test_indexes.py `EXTRACTED`
 - sql/compiler.py `EXTRACTED`

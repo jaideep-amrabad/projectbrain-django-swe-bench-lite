@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **migrate_signals/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/models.py`
+- **contains_tuple.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/contains_tuple.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrate_signals/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/contains_tuple.py`
 
 ## Audit Trail
 

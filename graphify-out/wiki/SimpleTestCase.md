@@ -1,8 +1,8 @@
 # SimpleTestCase
 
-> God node · 1268 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1271 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 17](Community_17.md)
+**Community:** [Community 5](Community_5.md)
 
 ## Connections by Relation
 
@@ -49,8 +49,8 @@
 - BasicSyntaxTests `EXTRACTED`
 - DiscoverRunnerTests `EXTRACTED`
 - OtherModelTests `EXTRACTED`
-- RequestsTests `EXTRACTED`
 - RelativeFieldTests `EXTRACTED`
+- RequestsTests `EXTRACTED`
 - I18nBlockTransTagTests `EXTRACTED`
 
 ### method

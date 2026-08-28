@@ -2,7 +2,7 @@
 
 > God node · 1362 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
-**Community:** [Community 10](Community_10.md)
+**Community:** [Community 8](Community_8.md)
 
 ## Connections by Relation
 
@@ -78,17 +78,17 @@
 - AdminActionsTest `EXTRACTED`
 - CreatesuperuserManagementCommandTestCase `EXTRACTED`
 - CommandTests `EXTRACTED`
+- FileUploadTests `EXTRACTED`
 - NewDatabaseTests `EXTRACTED`
 - TestUtilsHashPass `EXTRACTED`
 - CommonMiddlewareTest `EXTRACTED`
-- FileUploadTests `EXTRACTED`
 - ListViewTests `EXTRACTED`
 - DetailViewTest `EXTRACTED`
 - CollectionTestCase `EXTRACTED`
 - SyndicationFeedTest `EXTRACTED`
 - ConditionalGet `EXTRACTED`
+- FormattingTests `EXTRACTED`
 - ConditionalGetMiddlewareTest `EXTRACTED`
-- ExceptionReporterFilterTests `EXTRACTED`
 
 ---
 

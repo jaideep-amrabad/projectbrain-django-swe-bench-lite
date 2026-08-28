@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **source_map.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/source_map.js`
+- **book_app/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/alter_fk/book_app/migrations/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/source_map.js`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/alter_fk/book_app/migrations/__init__.py`
 
 ## Audit Trail
 
