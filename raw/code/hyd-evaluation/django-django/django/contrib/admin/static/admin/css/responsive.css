@@ -239,10 +239,6 @@ input[type="submit"], button {
         padding: 10px 7px;
     }
 
-    .submit-row input.default {
-        margin: 0 0 5px 5px;
-    }
-
     .button, input[type=submit], input[type=button], .submit-row input, a.button {
         padding: 7px;
     }
@@ -833,14 +829,16 @@ input[type="submit"], button {
         width: 100%;
     }
 
-    .submit-row input, .submit-row input.default, .submit-row a, .submit-row a.closelink {
+    .submit-row input, .submit-row input.default, .submit-row a {
         float: none;
         margin: 0 0 10px;
         text-align: center;
     }
 
     .submit-row a.closelink {
+        float: none;
         padding: 10px 0;
+        text-align: center;
     }
 
     .submit-row p.deletelink-box {
