@@ -1,37 +1,37 @@
 # Community 732
 
-> 13 nodes · cohesion 0.19
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **AppCommand** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **sqlsequencereset.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlsequencereset.py`
-- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlsequencereset.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.handle_app_config()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **app_command.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/app_command.py`
-- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/app_command.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **A management command which takes one or more installed application labels as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Perform the command's actions for app_config, an AppConfig instance…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlsequencereset.py`
-- **.handle_app_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlsequencereset.py`
-- **.handle_app_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/app_command.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **ParallelTestSuite** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **DummyList** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.initialize_suite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.append()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Dummy list class for faking storage of results in unittest.TestResult.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Run a series of tests in parallel in several processes. While the unittest…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Distribute test cases across workers. Return an identifier of each test case…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
+- [Community 890](Community_890.md) (1 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
+- [Community 606](Community_606.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlsequencereset.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/app_command.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

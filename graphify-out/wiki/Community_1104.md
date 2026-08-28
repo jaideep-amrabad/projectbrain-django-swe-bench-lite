@@ -1,30 +1,23 @@
 # Community 1104
 
-> 8 nodes · cohesion 0.25
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **TestNumberFormat** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_decimal_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_decimal_subclass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_float_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_format_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_format_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_large_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **Circle5** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Relationships
 
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 364](Community_364.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

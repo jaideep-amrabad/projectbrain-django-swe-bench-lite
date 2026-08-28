@@ -1,59 +1,50 @@
 # Community 503
 
-> 23 nodes · cohesion 0.12
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **messages/api.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **default_storage()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
-- **messages/middleware.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- **messages/storage/__init__.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
-- **add_message()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **info()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **MessageFailure** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **get_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **messages/context_processors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- **debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **success()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- **auth_processor_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **Exception** (1 connections)
-- **Add a message with the ``WARNING`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Attempt to add a message to the request using the 'messages' app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Return the message storage on the request if it exists, otherwise return an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Add a message with the ``DEBUG`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Add a message with the ``INFO`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Add a message with the ``SUCCESS`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Return a lazy 'messages' context variable as well as 'DEFAULT_MESSAGE_LEVELS'.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- **Callable with the same interface as the storage classes. This isn't just…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
+- **FormsMediaTestCase** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_merge_js_three_way()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_multi_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_add_css_deduplication()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_add_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_add_js_deduplication()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_combine_media()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_construction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_html_safe()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_deduplication()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_dsl()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_inheritance_extends()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_inheritance_from_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_inheritance_single_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_property_parent_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_merge()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_merge_css_three_way()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_merge_js_three_way2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_merge_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_multi_media()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **Tests for the media handling on widgets and forms** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **The relative order of scripts is preserved in a three-way merge.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
 
 ## Relationships
 
-- [Community 252](Community_252.md) (8 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 152](Community_152.md) (5 shared connections)
-- [Community 307](Community_307.md) (4 shared connections)
-- [Community 80](Community_80.md) (3 shared connections)
-- [Community 233](Community_233.md) (2 shared connections)
-- [Community 64](Community_64.md) (1 shared connections)
-- [Community 959](Community_959.md) (1 shared connections)
-- [Community 257](Community_257.md) (1 shared connections)
-- [Community 603](Community_603.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 208](Community_208.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (94%)
-- INFERRED: 4 (6%)
+- EXTRACTED: 27 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

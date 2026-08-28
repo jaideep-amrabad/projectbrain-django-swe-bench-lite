@@ -1,43 +1,37 @@
 # Community 830
 
-> 17 nodes · cohesion 0.12
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **ManageMultipleSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py can execute user commands if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for manage.py when multiple settings files (including the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py builtin commands succeed if settings are provided as…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py can execute builtin commands if settings are provided in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py can't execute user commands using default settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **custom_methods/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **custom_methods/tests.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
+- **MethodsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
+- **.articles_from_same_day_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **.articles_from_same_day_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **.was_published_today()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **Giving models custom methods Any method you add to a model will be available to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **Verbose version of get_articles_from_same_day_1, which does a custom database…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
 
 ## Relationships
 
-- [Community 122](Community_122.md) (8 shared connections)
-- [Community 582](Community_582.md) (8 shared connections)
-- [Community 90](Community_90.md) (8 shared connections)
-- [Community 201](Community_201.md) (2 shared connections)
-- [Community 301](Community_301.md) (1 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

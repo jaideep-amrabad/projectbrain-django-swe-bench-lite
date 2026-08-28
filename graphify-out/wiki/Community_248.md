@@ -1,60 +1,65 @@
 # Community 248
 
-> 49 nodes · cohesion 0.08
+> 51 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **QueryDict** (61 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **QueryDictTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **._assert_mutable()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.fromkeys()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **bytes_to_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.appendlist()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__copy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.setdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__setitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.setlist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.test_duplicates_in_fromkeys_iterable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_fromkeys_empty_iterable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_fromkeys_mutable_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_fromkeys_with_nondefault_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_fromkeys_with_nonempty_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_multiple_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_mutable_copy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_non_default_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_querydict_fromkeys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_single_key_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_update_from_querydict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- *... and 24 more nodes in this community*
+- **Warning** (72 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **ModelDefaultAutoFieldTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- **caches.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
+- **test_caches.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **check_cache_location_not_exposed()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
+- **CheckSecretKeyFallbacksTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **CheckCacheLocationTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **check_file_based_cache_is_absolute()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
+- **.get_settings()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **check_default_cache_is_configured()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
+- **CheckCacheAbsolutePath** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_cache_path_contains_media_static_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_cache_path_inside_media_static_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_cache_path_matches_media_static_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_staticfiles_dirs_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **CheckCacheSettingsAppDirsTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_default_cache_included()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_default_cache_not_included()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **register** (3 connections)
+- **.test_relative_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_cache_path_not_conflict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_staticfiles_dirs_prefix_not_conflict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **.test_insecure_secret_key_fallbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **.test_low_entropy_secret_key_fallbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **.test_low_length_secret_key_fallbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 49](Community_49.md) (5 shared connections)
-- [Community 152](Community_152.md) (3 shared connections)
-- [Community 80](Community_80.md) (2 shared connections)
-- [Community 253](Community_253.md) (2 shared connections)
-- [Community 157](Community_157.md) (2 shared connections)
-- [Community 244](Community_244.md) (2 shared connections)
-- [Community 734](Community_734.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 168](Community_168.md) (2 shared connections)
-- [Community 588](Community_588.md) (1 shared connections)
-- [Community 261](Community_261.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 58](Community_58.md) (26 shared connections)
+- [Community 112](Community_112.md) (16 shared connections)
+- [Community 5](Community_5.md) (14 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
+- [Community 476](Community_476.md) (4 shared connections)
+- [Community 528](Community_528.md) (3 shared connections)
+- [Community 287](Community_287.md) (3 shared connections)
+- [Community 601](Community_601.md) (2 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 189](Community_189.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 120 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 178 (97%)
+- INFERRED: 5 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

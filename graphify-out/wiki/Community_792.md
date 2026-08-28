@@ -1,45 +1,41 @@
 # Community 792
 
-> 20 nodes · cohesion 0.14
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **OutputWrapper** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **QuestionerHelperMethodsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **patch** (8 connections)
-- **.style_func()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.isatty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.test_questioner_bad_user_choice()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.test_questioner_default_no_user_entry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.test_questioner_default_no_user_entry_boolean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.test_questioner_default_timedelta()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.test_questioner_no_default_bad_user_entry_code()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.test_questioner_no_default_no_user_entry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.test_questioner_no_default_no_user_entry_boolean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.flush()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **setter** (1 connections)
-- **Wrapper around stdout/stderr** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **TextIOBase** (1 connections)
+- **DecimalField** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.as_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- **._check_decimal_places()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_decimal_places_and_max_digits()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_max_digits()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_db_prep_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.context()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.validators()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 131](Community_131.md) (5 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 228](Community_228.md) (4 shared connections)
+- [Community 175](Community_175.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 330](Community_330.md) (2 shared connections)
+- [Community 201](Community_201.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 26 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

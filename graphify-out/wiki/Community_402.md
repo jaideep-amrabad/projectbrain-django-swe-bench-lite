@@ -4,56 +4,55 @@
 
 ## Key Concepts
 
-- **SerializersTestBase** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **ComplexModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_one_to_one_as_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_pre_1000ad_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_to_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_with_null_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_altering_serialized_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_deserialize_force_insert()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_deterministic_mapping_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_pkless_serialized_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_field_subset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_proxy_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_specific_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serializer_roundtrip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Basic serialization works.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Serialized content can be deserialized.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **The ability to create new objects by modifying serialized content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **If you use your own primary key field (such as a OneToOneField), it doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Output can be restricted to a subset of fields** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Serialized data with no primary key results in a model instance with no id** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Year values before 1000AD are properly formatted** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Serialized strings without PKs can be turned into models** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Mapping such as fields should be deterministically ordered. (#24558)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Deserialized content can be saved with force_insert as a parameter.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **DeletionTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **Avatar** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **noop()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **M** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **AvatarProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **.test_large_deletes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **.test_can_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_cannot_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_queryset_delete_returns_num_rows()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_instance_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_large_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_model_delete_returns_num_rows()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_only_referenced_fields_selected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_pk_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_proxied_model_duplicate_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **If the number of objects > chunk size, deletion still occurs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **.test_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_delete_with_keeping_parents()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_delete_with_keeping_parents_relationships()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_deletion_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_hidden_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_large_delete_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_relational_post_delete_signals_happen_before_parent_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 - *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 381](Community_381.md) (6 shared connections)
-- [Community 26](Community_26.md) (5 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 595](Community_595.md) (1 shared connections)
-- [Community 572](Community_572.md) (1 shared connections)
-- [Community 909](Community_909.md) (1 shared connections)
-- [Community 986](Community_986.md) (1 shared connections)
-- [Community 946](Community_946.md) (1 shared connections)
-- [Community 623](Community_623.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 252](Community_252.md) (19 shared connections)
+- [Community 401](Community_401.md) (2 shared connections)
+- [Community 276](Community_276.md) (2 shared connections)
+- [Community 578](Community_578.md) (1 shared connections)
+- [Community 184](Community_184.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (90%)
-- INFERRED: 5 (10%)
+- EXTRACTED: 42 (68%)
+- INFERRED: 20 (32%)
 - AMBIGUOUS: 0 (0%)
 
 ---

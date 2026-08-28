@@ -1,60 +1,55 @@
 # Community 447
 
-> 27 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **.has_default()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **DateTimeCheckMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_if_value_fixed()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.formfield()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_fix_default_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **_to_naive()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **make_naive()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **._check_fix_default_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **_get_naive_now()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.formfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_fix_default_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_choices()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_mutually_exclusive_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_pk_value_on_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Warn that using an actual date or datetime value is probably wrong; it's only…** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **return_None()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_fix_default_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return a boolean of whether this field has a default value.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return the default value for this field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return choices with a default blank choices included, for use as <select>…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return a django.forms.Field instance for this field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Check if the given value appears to have been provided as a "fixed" time value,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- *... and 2 more nodes in this community*
+- **.import_module()** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **ClientMixin** (17 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.alogin()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.login()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.alogout()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.logout()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._get_backend()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.import_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **.asession()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.session()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._set_login_cookies()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.aforce_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.force_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.store_exc_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._parse_json()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Mixin with common methods between Client and AsyncClient.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Store exceptions when they are generated by a view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Return the current session variables.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Set the Factory to appear as if it has successfully logged into a site. Return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Log out the user by removing the cookies and session object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
 
 ## Relationships
 
-- [Community 235](Community_235.md) (5 shared connections)
-- [Community 143](Community_143.md) (5 shared connections)
-- [Community 34](Community_34.md) (4 shared connections)
-- [Community 765](Community_765.md) (2 shared connections)
-- [Community 108](Community_108.md) (2 shared connections)
-- [Community 510](Community_510.md) (1 shared connections)
-- [Community 889](Community_889.md) (1 shared connections)
-- [Community 197](Community_197.md) (1 shared connections)
-- [Community 793](Community_793.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 163](Community_163.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 167](Community_167.md) (8 shared connections)
+- [Community 67](Community_67.md) (6 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 84](Community_84.md) (3 shared connections)
+- [Community 369](Community_369.md) (3 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 357](Community_357.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 395](Community_395.md) (2 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
+- [Community 157](Community_157.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 39 (48%)
+- INFERRED: 43 (52%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,49 +1,49 @@
 # Community 499
 
-> 24 nodes · cohesion 0.18
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **unmanaged_models/models.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **unmanaged_models/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
-- **Meta** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **SimpleTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
-- **ManyToManyUnmanagedTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
-- **A01** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **A02** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **B01** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **B02** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **C01** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **C02** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **Unmanaged2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **Managed1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **Intermediate** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **Proxy1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **Proxy2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **Unmanaged1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **.test_many_to_many_between_unmanaged()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
-- **.test_many_to_many_between_unmanaged_and_managed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
-- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
-- **Models can have a ``managed`` attribute, which specifies whether the SQL code…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **The intermediary table between two unmanaged models should not be created.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
-- **An intermediary table between a managed and an unmanaged model should be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
-- **The main test here is that the all the models can be created without any…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **AsyncQuerySetTest** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aaggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_acount_cached_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **._get_db_feature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_abulk_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_acount()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_acreate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_adelete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aearliest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aexists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_afirst()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aget_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_ain_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aiterator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aiterator_invalid_chunk_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aiterator_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_alast()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_alatest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_async_iteration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aupdate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aupdate_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_raw()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 861](Community_861.md) (5 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (86%)
-- INFERRED: 8 (14%)
+- EXTRACTED: 29 (88%)
+- INFERRED: 4 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

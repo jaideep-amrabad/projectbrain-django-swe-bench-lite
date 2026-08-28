@@ -1,26 +1,31 @@
 # Community 988
 
-> 3 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **CallableLastmodPartialSitemap** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **.lastmod()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **Not all items have `lastmod`.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **foreign_object/test_forms.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
+- **FormsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
+- **ArticleForm** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
+- **.test_foreign_object_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
 
 ## Relationships
 
-- [Community 496](Community_496.md) (1 shared connections)
-- [Community 457](Community_457.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 465](Community_465.md) (2 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 - [Community 16](Community_16.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

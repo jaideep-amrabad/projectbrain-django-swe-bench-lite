@@ -1,40 +1,39 @@
 # Community 747
 
-> 13 nodes · cohesion 0.24
+> 13 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **ExcludedLocaleExtractionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertNotRecentlyModified()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertRecentlyModified()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_command_help()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **._set_times_for_all_po_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_multiple_locales_excluded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_multiple_locales_excluded_with_locale()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_one_locale_excluded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_one_locale_excluded_with_locale()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Assert that file was recently modified (modification time was less than 10…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Assert that file was not recently modified (modification time was more than 10…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Set access and modification times to the Unix epoch time for all the .po files.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **ReservedNameTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **reserved_names/tests.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **reserved_names/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
+- **Thing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
+- **.generate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **.test_dates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **.test_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **.test_month_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **.test_order_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
+- **Using SQL reserved names Need to use a reserved SQL name as a column name or…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
+- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
 
 ## Relationships
 
-- [Community 611](Community_611.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 872](Community_872.md) (1 shared connections)
-- [Community 397](Community_397.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 23 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

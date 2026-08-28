@@ -1,33 +1,37 @@
 # Community 858
 
-> 9 nodes · cohesion 0.28
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **TranslatableFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **TranslatableFileTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
-- **.test_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **.__lt__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **.path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **bar.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/bar.py`
+- **models/foo.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/foo.py`
+- **admin/foo.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/admin/foo.py`
+- **Bar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/bar.py`
+- **Foo** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/foo.py`
+- **complex_app/models/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/__init__.py`
+- **simple_app/models.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/simple_app/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/bar.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/foo.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/admin/foo.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/bar.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/foo.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/simple_app/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

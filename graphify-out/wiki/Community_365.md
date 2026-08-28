@@ -1,51 +1,63 @@
 # Community 365
 
-> 64 nodes · cohesion 0.06
+> 27 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **TestConnectionOnCommit** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.assertDone()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.do()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **get_connection()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **ForcedError** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **Atomic** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **on_commit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **.notify()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_no_hooks_run_from_failed_transaction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.assertNotified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_delays_execution_until_after_transaction_commit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_discards_hooks_from_rolled_back_savepoint()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_does_not_execute_if_transaction_rolled_back()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_error_in_hook_doesnt_prevent_clearing_hooks()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_executes_only_after_final_transaction_committed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_hooks_cleared_after_rollback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_hooks_cleared_on_reconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_inner_savepoint_does_not_affect_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_inner_savepoint_rolled_back_with_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_no_savepoints_atomic_merged_with_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **clean_savepoints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **get_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **get_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **mark_for_rollback_on_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- *... and 39 more nodes in this community*
+- **geoapp/feeds.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **kml.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **KMLSitemap** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **TestGeoRSS1** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **geoapp/urls.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/urls.py`
+- **geoapp/sitemaps.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/sitemaps.py`
+- **TestGeoRSS2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **gis/sitemaps/__init__.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/__init__.py`
+- **KMZSitemap** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **._build_kml_sources()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **TestGeoAtom2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **TestW3CGeo3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **.location()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **TestGeoAtom1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **TestW3CGeo1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **TestW3CGeo2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **.item_geometry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **Go through the given sources and return a 3-tuple of the application label,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **A minimal hook to produce KML sitemaps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **.geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **.item_geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **.item_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (17 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 46](Community_46.md) (6 shared connections)
+- [Community 57](Community_57.md) (4 shared connections)
+- [Community 144](Community_144.md) (3 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 133](Community_133.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 448](Community_448.md) (1 shared connections)
+- [Community 548](Community_548.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/sitemaps.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 131 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 66 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

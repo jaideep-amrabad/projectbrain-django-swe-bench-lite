@@ -1,51 +1,52 @@
 # Community 317
 
-> 41 nodes · cohesion 0.05
+> 40 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **NamespaceTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_ambiguous_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_ambiguous_urlpattern()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_app_lookup_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_app_lookup_object_with_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_app_lookup_object_without_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_app_name_pattern()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_app_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_app_object_default_namespace()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_current_app_no_partial_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_embedded_namespace_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_multiple_namespace_pattern()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_namespace_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_namespace_pattern()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_namespace_pattern_with_variable_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_namespaces_with_variables()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_nested_app_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_nested_namespace_pattern()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_non_existent_namespace()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_normal_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_simple_included_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_special_chars_namespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **Names deployed via dynamic URL objects that require namespaces can't be…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **Namespaces can be embedded.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **Namespaces can be nested.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- *... and 16 more nodes in this community*
+- **DatabaseCreation** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_settings_get()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._get_test_db_params()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._create_test_db()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._destroy_test_db()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_user_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._create_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._destroy_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_allow_fail_statements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_statements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_test_db_destruction()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._handle_objects_preventing_db_destruction()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_passwd()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_test_db_creation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_tmp_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._maindb_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._switch_to_test_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_oracle_managed_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_extsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_maxsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 19](Community_19.md) (21 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 4](Community_4.md) (6 shared connections)
+- [Community 769](Community_769.md) (3 shared connections)
+- [Community 348](Community_348.md) (1 shared connections)
+- [Community 266](Community_266.md) (1 shared connections)
+- [Community 420](Community_420.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 104 (96%)
+- INFERRED: 4 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

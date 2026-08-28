@@ -1,64 +1,60 @@
 # Community 225
 
-> 46 nodes · cohesion 0.06
+> 54 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **get_language()** (41 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **activate()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **deactivate()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **LocalizedDateTimeTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **FrenchTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **ActiveTranslationField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **NonDjangoLanguageTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **ArticleTranslationDescriptor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **TranslationLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_translation_loading()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_override_exit()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **TranslationThreadSafetyTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.__enter__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.__exit__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **ColConstraint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.test_non_django_language()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_plural_non_django_language()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_override()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_override_decorator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **deactivate_all()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.get_extra_restriction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ActiveTranslationFieldWithQ** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- *... and 21 more nodes in this community*
+- **fields/json.py** (59 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformTextLookupMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **CaseInsensitiveMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **HasKeyLookup** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **TestMethods** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.as_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.process_rhs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **HasKeyOrArrayIndex** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformNumericLookupMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.process_lhs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **ContainedBy** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **DataContains** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **HasKeys** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformExact** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_oracle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **HasKey** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.compile_json_path_final_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **JSONExact** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformIContains** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformIEndsWith** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformIExact** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformIRegex** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformIsNull** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Community 21](Community_21.md) (12 shared connections)
-- [Community 163](Community_163.md) (10 shared connections)
-- [Community 10](Community_10.md) (9 shared connections)
-- [Community 57](Community_57.md) (6 shared connections)
-- [Community 286](Community_286.md) (5 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 249](Community_249.md) (3 shared connections)
-- [Community 609](Community_609.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 543](Community_543.md) (3 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
+- [Community 10](Community_10.md) (10 shared connections)
+- [Community 4](Community_4.md) (9 shared connections)
+- [Community 79](Community_79.md) (8 shared connections)
+- [Community 264](Community_264.md) (4 shared connections)
+- [Community 534](Community_534.md) (3 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 201](Community_201.md) (1 shared connections)
+- [Community 228](Community_228.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 145 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 140 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

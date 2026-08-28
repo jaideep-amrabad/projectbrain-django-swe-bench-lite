@@ -1,30 +1,30 @@
 # Community 936
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **TestCreateSuperUserSignals** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **Simple test case for ticket #20541** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.post_save_listener()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_superuser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **TestGetObjectFeed** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_comments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.get_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_title()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 190](Community_190.md) (2 shared connections)
+- [Community 191](Community_191.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (82%)
+- INFERRED: 2 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

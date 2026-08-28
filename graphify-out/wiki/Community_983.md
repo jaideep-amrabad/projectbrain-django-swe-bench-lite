@@ -1,29 +1,27 @@
 # Community 983
 
-> 6 nodes · cohesion 0.40
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **MigrateTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_migrate_to_other_database_with_router()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **SyncOnlyDefaultDatabaseRouter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_migrate_to_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Regression test for #16039: migrate with --database option.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Section** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.name_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **A simple section that links to articles, to test linking to related items in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **A property that simply returns the name. Used to test #24461** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 89](Community_89.md) (1 shared connections)
+- [Community 76](Community_76.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

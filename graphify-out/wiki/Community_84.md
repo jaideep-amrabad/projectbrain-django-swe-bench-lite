@@ -1,61 +1,78 @@
 # Community 84
 
-> 97 nodes · cohesion 0.03
+> 180 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **SpatialReference** (83 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **SpatialRefTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.attr_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.auth_code()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.import_user_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.import_wkt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.test12_coordtransform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test_axis_order()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **._get_srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **._set_srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.import_epsg()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.srid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.test01_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test02_bad_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test03_get_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test04_proj()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test07_boolean_props()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test08_angular_linear()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test09_authority()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test10_attributes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test11_wellknown()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- **.test13_attr_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- *... and 72 more nodes in this community*
+- **auth/models.py** (132 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **User** (92 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **auth/__init__.py** (75 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
+- **test_auth_backends.py** (71 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **test_client_regress/tests.py** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **auth_tests/test_models.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **ModelBackend** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **test_remote_user.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **base_user.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **get_user_model()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
+- **Permission** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **auth_tests/test_basic.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **backends.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **auth/middleware.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **test_context_processors.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **authenticate()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
+- **auth_tests/test_signals.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **test_tokens.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
+- **BaseUserManager** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **test_async_auth.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_auth.py`
+- **flatpages_tests/test_views.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **changepassword.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/changepassword.py`
+- **admin_views/test_multidb.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
+- **flatpages_tests/test_csrf.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **RemoteUserBackend** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- *... and 155 more nodes in this community*
 
 ## Relationships
 
-- [Community 117](Community_117.md) (11 shared connections)
-- [Community 62](Community_62.md) (7 shared connections)
-- [Community 41](Community_41.md) (6 shared connections)
-- [Community 66](Community_66.md) (5 shared connections)
-- [Community 519](Community_519.md) (3 shared connections)
-- [Community 161](Community_161.md) (3 shared connections)
-- [Community 147](Community_147.md) (2 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 535](Community_535.md) (1 shared connections)
-- [Community 135](Community_135.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 26](Community_26.md) (68 shared connections)
+- [Community 2](Community_2.md) (33 shared connections)
+- [Community 1](Community_1.md) (28 shared connections)
+- [Community 24](Community_24.md) (27 shared connections)
+- [Community 67](Community_67.md) (26 shared connections)
+- [Community 5](Community_5.md) (23 shared connections)
+- [Community 52](Community_52.md) (23 shared connections)
+- [Community 7](Community_7.md) (20 shared connections)
+- [Community 4](Community_4.md) (17 shared connections)
+- [Community 62](Community_62.md) (17 shared connections)
+- [Community 12](Community_12.md) (17 shared connections)
+- [Community 43](Community_43.md) (16 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/changepassword.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/signals.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_with_import/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_breadcrumbs.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_related_object_lookups.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_skip_link_to_content.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/test_async_auth.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/backend_alias.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_custom_email_field.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
 
 ## Audit Trail
 
-- EXTRACTED: 159 (97%)
-- INFERRED: 5 (3%)
+- EXTRACTED: 975 (99%)
+- INFERRED: 13 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

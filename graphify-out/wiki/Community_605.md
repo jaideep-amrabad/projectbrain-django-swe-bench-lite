@@ -1,42 +1,45 @@
 # Community 605
 
-> 18 nodes · cohesion 0.16
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **DatabaseIntrospection** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_constraints()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_table_description()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **._parse_table_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **get_field_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **._get_column_collations()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **._get_index_columns_orders()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_primary_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **._parse_column_or_constraint_definition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_sequences()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return a dictionary of {column_name: (ref_column_name, ref_table_name)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Extract the size number from a "varchar(11)" type name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return a description of the table with the DB-API cursor.description interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **RenameModel** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AlterOrderWithRespectTo** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.references_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.references_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **Represent a change with the order_with_respect_to option.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.new_name_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.old_name_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 223](Community_223.md) (1 shared connections)
-- [Community 268](Community_268.md) (1 shared connections)
-- [Community 446](Community_446.md) (1 shared connections)
+- [Community 329](Community_329.md) (5 shared connections)
+- [Community 304](Community_304.md) (2 shared connections)
+- [Community 567](Community_567.md) (2 shared connections)
+- [Community 761](Community_761.md) (1 shared connections)
+- [Community 533](Community_533.md) (1 shared connections)
+- [Community 699](Community_699.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
+- EXTRACTED: 29 (97%)
 - INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 

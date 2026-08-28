@@ -1,57 +1,47 @@
 # Community 607
 
-> 35 nodes · cohesion 0.07
+> 20 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **DBCacheTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **FileBasedCacheTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.drop_table()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_createcachetable_with_table_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **DBCacheWithTimeZoneTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **FileBasedCachePathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.create_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_createcachetable_dry_run_mode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_delete_cursor_rowcount()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.mkdtemp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_dir_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_delete_many_num_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_many_num_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_second_call_doesnt_crash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.mkdtemp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_clear_does_not_remove_cache_dir()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- *... and 10 more nodes in this community*
+- **FSFilesHandler** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **_MediaFilesHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.serve()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **_StaticFilesHandler** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._should_handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_base_dir()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_base_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **WSGI middleware that intercepts calls to a directory, as defined by one of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Check if the path should be handled. Ignore the path if: * the host is provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Return the relative path to the file on disk for the given URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Handler for serving static files. A private class that is meant to be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Handler for serving the media files. A private class that is meant to be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_base_dir()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_base_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 178](Community_178.md) (4 shared connections)
-- [Community 127](Community_127.md) (3 shared connections)
-- [Community 331](Community_331.md) (2 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 556](Community_556.md) (1 shared connections)
-- [Community 587](Community_587.md) (1 shared connections)
-- [Community 300](Community_300.md) (1 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 118](Community_118.md) (2 shared connections)
+- [Community 230](Community_230.md) (2 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 951](Community_951.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 34 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,59 +1,55 @@
 # Community 483
 
-> 29 nodes · cohesion 0.07
+> 40 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **test_client/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **AsyncClientTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **RequestFactoryTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **AsyncRequestFactoryTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **CSRFEnabledClientTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_csrf_enabled_client()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **CustomTestClientTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Client** (3 connections)
-- **.test_response_resolver_match_middleware_urlconf()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_exc_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **CustomTestClient** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_custom_test_client()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_request_factory_default_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_body_read_on_get_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_follow_parameter_not_implemented()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_get_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_post_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_response_resolver_match()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_request_factory()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_request_factory_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_request_factory_query_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_request_factory_sets_headers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_request_limited_read()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Testing using the Test Client The test client is a class that can act like a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A client can be instantiated with CSRF checks enabled** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- *... and 4 more nodes in this community*
+- **TestModelDetailView** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **Person** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_model_with_no_backward_relations_render_only_relevant_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.dummy_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **._get_full_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.test_app_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_descriptions_render_correctly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_instance_of_cached_property_methods_are_displayed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_instance_of_property_methods_are_displayed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_method_excludes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_methods_with_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_methods_with_arguments_display_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_methods_with_arguments_display_arguments_default_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_methods_with_multiple_arguments_display_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_model_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_model_with_many_to_one()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.a_cached_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.a_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.add_image()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.delete_image()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.get_groups_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.get_status_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.rename_company()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.save_changes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 316](Community_316.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 148](Community_148.md) (2 shared connections)
-- [Community 516](Community_516.md) (2 shared connections)
+- [Community 12](Community_12.md) (7 shared connections)
+- [Community 198](Community_198.md) (4 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 1057](Community_1057.md) (1 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 51 (91%)
+- INFERRED: 5 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

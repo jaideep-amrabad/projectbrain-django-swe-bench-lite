@@ -1,53 +1,51 @@
 # Community 288
 
-> 44 nodes · cohesion 0.05
+> 43 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **SessionTestsMixin** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_get_expire_at_browser_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_key_empty_string_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_key_too_short_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_key_valid_string_saved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_load_does_not_create_record()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_save_does_not_resurrect_session_logged_out_in_other_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Falsey values (Such as an empty string) are rejected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Strings shorter than 8 characters are rejected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Strings of length 8 and up are accepted and stored.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Loading an unknown session key does not create a session record. Creating…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Sessions shouldn't be resurrected by a concurrent request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_actual_expiry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_custom_expiry_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_custom_expiry_reset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_custom_expiry_seconds()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_custom_expiry_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_cycle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_cycle_with_no_session_cache()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_decode()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_decode_failure_logged_to_security()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_default_expiry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- *... and 19 more nodes in this community*
+- **DatabaseOperations** (45 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **._convert_tznames_to_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.quote_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **._quote_params_for_last_executed_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.sequence_reset_by_name_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.sql_flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.bulk_batch_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.check_expression_support()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.combine_duration_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.convert_datefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.convert_datetimefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.convert_timefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.date_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.datetime_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.fetch_returned_insert_rows()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.format_for_duration_arithmetic()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.get_db_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.get_decimalfield_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.last_executed_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.return_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.time_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 159](Community_159.md) (3 shared connections)
-- [Community 335](Community_335.md) (2 shared connections)
-- [Community 666](Community_666.md) (1 shared connections)
-- [Community 433](Community_433.md) (1 shared connections)
-- [Community 689](Community_689.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 4](Community_4.md) (10 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 64 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

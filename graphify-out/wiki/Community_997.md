@@ -1,26 +1,26 @@
 # Community 997
 
-> 5 nodes · cohesion 0.40
+> 5 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **core.js** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **findPosX()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **findPosY()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **quickElement()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **removeChildren()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.test_missing_django_version_unpickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_model_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_unsupported_unpickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **#21430 -- Verifies a warning is raised for querysets that are unpickled without…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **A model not defined on module level is picklable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 376](Community_376.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Circle5** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.test_cached_relation_invalidated_on_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **Model.save() invalidates stale ForeignKey relations after a primary key…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Relationships
 
-- [Community 355](Community_355.md) (1 shared connections)
+- [Community 425](Community_425.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Audit Trail
 

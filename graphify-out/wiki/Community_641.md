@@ -1,66 +1,41 @@
 # Community 641
 
-> 52 nodes · cohesion 0.07
+> 15 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **postgres/apps.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **PostgresOperatorLookup** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **postgres/lookups.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **register_type_handlers()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **PostgresConfig** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **uninstall_if_needed()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **postgres/signals.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **SearchLookup** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **get_citext_oids()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **get_hstore_oids()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **postgres_tests/test_signals.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **OIDTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **SearchVectorField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **SearchVectorExact** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **.validate()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **TrigramSimilar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **TrigramStrictWordSimilar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **TrigramWordSimilar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **Unaccent** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **HasKeys** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **Overlap** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **FullGreaterThan** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **FullyLessThan** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **NotGreaterThan** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- *... and 27 more nodes in this community*
+- **sandwiched_rotate_token_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **TestingHttpResponse** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **.test_rotate_token_triggers_second_reset()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_set_cookie_called_only_once()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **ensured_and_protected_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **ensure_csrf_cookie** (3 connections)
+- **._get_cookies_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **csrf_protect** (3 connections)
+- **csrf_rotating_token** (1 connections)
+- **set_cookie() is called only once when the view is decorated with both…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **If rotate_token() is called after the token is reset in CsrfViewMiddleware's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A version of HttpResponse that stores what cookie values are passed to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **This is a view that calls rotate_token() in process_response() between two…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **.set_cookie()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
 
 ## Relationships
 
-- [Community 34](Community_34.md) (12 shared connections)
-- [Community 7](Community_7.md) (11 shared connections)
-- [Community 20](Community_20.md) (10 shared connections)
-- [Community 100](Community_100.md) (9 shared connections)
 - [Community 120](Community_120.md) (6 shared connections)
-- [Community 99](Community_99.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 68](Community_68.md) (4 shared connections)
-- [Community 254](Community_254.md) (4 shared connections)
-- [Community 48](Community_48.md) (3 shared connections)
-- [Community 154](Community_154.md) (3 shared connections)
-- [Community 156](Community_156.md) (3 shared connections)
+- [Community 293](Community_293.md) (5 shared connections)
+- [Community 59](Community_59.md) (3 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 163 (88%)
-- INFERRED: 22 (12%)
+- EXTRACTED: 32 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

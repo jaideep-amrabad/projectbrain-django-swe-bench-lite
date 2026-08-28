@@ -1,50 +1,57 @@
 # Community 546
 
-> 21 nodes · cohesion 0.16
+> 21 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **GenericInlineFormsetTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **generic_inlineformset_factory()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- **.test_get_queryset_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_incorrect_content_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_meta_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_save_as_new()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_absolute_max()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_absolute_max_with_max_num()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_can_delete_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_disable_delete_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_initial_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_save_new_for_concrete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_save_new_for_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_save_new_uses_form_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **Return a ``GenericInlineFormSet`` for the given kwargs. You must provide…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- **BaseGenericInlineFormSet.get_queryset() adds default ordering, if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **TaggedItemForm has a widget defined in Meta.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **The save_as_new parameter creates new items that are associated with the object.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **deconstructible()** (43 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
+- **test_deconstruct.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **auth/validators.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- **deconstruct.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
+- **DeconstructibleTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleWithPathClass** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **UnicodeUsernameValidator** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- **DeconstructibleClass** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleInvalidPathClass** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleChildClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleInvalidPathChildClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_invalid_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleWithPathChildClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **ASCIIUsernameValidator** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- **deconstructible_classes.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/deconstructible_classes.py`
+- **.test_deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_deconstruct_child()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_deconstruct_child_with_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_deconstruct_with_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_parent_invalid_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **Class decorator that allows the decorated class to be serialized by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (8 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 777](Community_777.md) (1 shared connections)
-- [Community 312](Community_312.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 24](Community_24.md) (10 shared connections)
+- [Community 238](Community_238.md) (8 shared connections)
+- [Community 515](Community_515.md) (7 shared connections)
+- [Community 4](Community_4.md) (5 shared connections)
+- [Community 57](Community_57.md) (3 shared connections)
+- [Community 30](Community_30.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 84](Community_84.md) (2 shared connections)
+- [Community 150](Community_150.md) (2 shared connections)
+- [Community 626](Community_626.md) (2 shared connections)
+- [Community 109](Community_109.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/deconstructible_classes.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (88%)
-- INFERRED: 6 (12%)
+- EXTRACTED: 95 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

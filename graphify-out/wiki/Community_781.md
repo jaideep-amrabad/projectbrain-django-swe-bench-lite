@@ -1,45 +1,30 @@
 # Community 781
 
-> 21 nodes · cohesion 0.14
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **TestDebugSQL** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **._test_output()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **ErrorSetUpTestDataTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **ErrorSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **ErrorTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **FailingSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **FailingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **PassingSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **PassingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_setupclass_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_output_normal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.test_output_verbose()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **skipUnless** (1 connections)
+- **FullMiddleware** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.test_process_view_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_template_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **Test a middleware that implements process_view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 51](Community_51.md) (3 shared connections)
-- [Community 124](Community_124.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 9 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

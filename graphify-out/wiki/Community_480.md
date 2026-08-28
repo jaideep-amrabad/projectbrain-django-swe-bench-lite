@@ -1,61 +1,65 @@
 # Community 480
 
-> 33 nodes · cohesion 0.08
+> 41 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Note** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ExtraInfo** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **BulkUpdateNoteTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **ComparisonTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **DisjunctiveFilterTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **CloneTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **RawQueriesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.create_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_evaluated_queryset_as_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **GeneratorExpressionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_no_fields_cloning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_no_model_options_cloning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_foreign_keys_do_not_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_functions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_set_field_to_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_set_mixed_fields_to_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_unsaved_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_large_batch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **Cloning a queryset does not get out of hand. While complete testing is…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_batch_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_multiple_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- *... and 8 more nodes in this community*
+- **Left** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Substr** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Chr** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **ChrTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
+- **LeftTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
+- **SubstrTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- **.get_substr()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **OrdTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- **.test_annotate()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
+- **.test_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
+- **.test_expressions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- **.test_annotation_with_nested_outerref()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_nested_outerref_with_function()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.get_substr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
+- **.test_non_ascii()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
+- **.test_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- **.test_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- **.as_oracle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.as_sqlite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 101](Community_101.md) (12 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 204](Community_204.md) (4 shared connections)
-- [Community 648](Community_648.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 440](Community_440.md) (3 shared connections)
-- [Community 439](Community_439.md) (2 shared connections)
-- [Community 380](Community_380.md) (2 shared connections)
-- [Community 467](Community_467.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 468](Community_468.md) (1 shared connections)
+- [Community 2](Community_2.md) (26 shared connections)
+- [Community 20](Community_20.md) (8 shared connections)
+- [Community 30](Community_30.md) (6 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 141](Community_141.md) (2 shared connections)
+- [Community 108](Community_108.md) (2 shared connections)
+- [Community 85](Community_85.md) (2 shared connections)
+- [Community 160](Community_160.md) (2 shared connections)
+- [Community 232](Community_232.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 102](Community_102.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (68%)
-- INFERRED: 27 (32%)
+- EXTRACTED: 110 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

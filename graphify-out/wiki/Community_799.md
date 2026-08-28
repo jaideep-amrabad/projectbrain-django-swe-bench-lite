@@ -1,34 +1,35 @@
 # Community 799
 
-> 11 nodes · cohesion 0.24
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **RawQuery** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **._execute_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.chain()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.get_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.params_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **A single raw SQL query.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **IsolationLevelTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.get_isolation_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **get_connection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_connect_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_default_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_setting_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_uppercase_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **skipUnless** (2 connections)
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_auto_is_null_auto_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_isolation_level_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
 
 ## Relationships
 
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 114](Community_114.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

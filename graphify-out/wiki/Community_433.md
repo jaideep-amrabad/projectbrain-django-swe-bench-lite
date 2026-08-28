@@ -1,35 +1,64 @@
 # Community 433
 
-> 11 nodes · cohesion 0.20
+> 28 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **CookieSessionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_actual_expiry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_cycle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_load_does_not_create_record()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_save_does_not_resurrect_session_logged_out_in_other_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **skip** (2 connections)
-- **.test_unpickling_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **expectedFailure** (1 connections)
-- **This test tested exists() in the other session backends, but that doesn't make…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **This test tested cycle_key() which would create a new session key for the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **admindocs/views.py** (55 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **admindocs/utils.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **simplify_regex()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.get_context_data()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.process_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
+- **_find_groups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **get_view_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **remove_non_capturing_groups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **replace_named_groups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **replace_unnamed_groups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **replace_metacharacters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **extract_views_from_urlpatterns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **admindocs/__init__.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/__init__.py`
+- **admindocs/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/urls.py`
+- **ViewIndexView** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **AdminDocViewFunctionsTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **_get_group_start_end()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **.test_simplify_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **If the request method is HEAD and either the IP is internal or the user is a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
+- **create_reference_role()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **default_reference_role()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **Misc. utility functions/classes for admin documentation generator.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **Remove unescaped metacharacters from the pattern.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **r""" Find named groups in `pattern` and replace them with the group name. E.g.,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **r""" Find unnamed groups in `pattern` and replace them with '<var>'. E.g., 1.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 159](Community_159.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 288](Community_288.md) (1 shared connections)
+- [Community 493](Community_493.md) (11 shared connections)
+- [Community 6](Community_6.md) (10 shared connections)
+- [Community 457](Community_457.md) (7 shared connections)
+- [Community 198](Community_198.md) (5 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
+- [Community 87](Community_87.md) (3 shared connections)
+- [Community 544](Community_544.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 80](Community_80.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 138](Community_138.md) (2 shared connections)
+- [Community 548](Community_548.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 114 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,71 +1,59 @@
 # Community 71
 
-> 99 nodes · cohesion 0.03
+> 117 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **file_uploads/views.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **JsonResponse** (32 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **file_uploads/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **UploadedFile** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **FileUploadHandler** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **HttpResponseServerError** (13 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **file_uploads/uploadhandler.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **StopUpload** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **TemporaryFileUploadHandler** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **DirectoryCreationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **QuotaUploadHandler** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **JsonResponseTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **FileModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- **TraversalUploadHandler** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **StopUploadTemporaryFileHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **ErroringUploadHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **file_upload_echo()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_view_verify()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_uploads/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- **file_upload_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_filename_case_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_quota()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_quota_broken()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_unicode_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **CustomUploadError** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- *... and 74 more nodes in this community*
+- **MigrationGraph** (57 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **NodeNotFoundError** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **GraphTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- **Node** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **graph.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.make_project_state()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **test_graph.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- **DummyNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **ExecutorUnitTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **CircularDependencyError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **FakeMigration** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **NodeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- **BadMigrationError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **.test_trim_apps()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_backwards_nothing_to_do()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_minimize_rollbacks()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_minimize_rollbacks_branchy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.forwards_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.make_state()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.test_arrange_for_graph()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_arrange_for_graph_with_multiple_initial()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_custom_migration_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **FakeLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **Exception** (4 connections)
+- **.add_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- *... and 92 more nodes in this community*
 
 ## Relationships
 
-- [Community 207](Community_207.md) (12 shared connections)
-- [Community 49](Community_49.md) (12 shared connections)
-- [Community 18](Community_18.md) (10 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 328](Community_328.md) (6 shared connections)
-- [Community 152](Community_152.md) (5 shared connections)
-- [Community 274](Community_274.md) (4 shared connections)
-- [Community 102](Community_102.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 218](Community_218.md) (2 shared connections)
-- [Community 703](Community_703.md) (2 shared connections)
-- [Community 292](Community_292.md) (2 shared connections)
+- [Community 24](Community_24.md) (18 shared connections)
+- [Community 19](Community_19.md) (12 shared connections)
+- [Community 13](Community_13.md) (12 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 45](Community_45.md) (5 shared connections)
+- [Community 135](Community_135.md) (4 shared connections)
+- [Community 207](Community_207.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_exceptions.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
 
 ## Audit Trail
 
-- EXTRACTED: 226 (94%)
-- INFERRED: 14 (6%)
+- EXTRACTED: 223 (94%)
+- INFERRED: 13 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

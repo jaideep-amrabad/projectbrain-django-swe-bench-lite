@@ -1,55 +1,53 @@
 # Community 368
 
-> 34 nodes · cohesion 0.09
+> 34 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **InlineFormsetFactoryTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **inline_formsets/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **DeletionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **inline_formsets/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **Poem** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **Poet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **School** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **.test_add_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_change_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_save_new()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_exception_on_unspecified_foreign_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_fk_in_all_formset_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_fk_name_not_foreign_key_field_from_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_fk_not_duplicated_in_form_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_inline_formset_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_non_foreign_key_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_unsaved_fk_validate_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_zero_primary_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_any_iterable_allowed_as_argument_to_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **TestSuiteTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **iter_test_cases()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.assertTestNames()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.make_tests()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **reorder_test_bin()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **reorder_tests()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **shuffle_tests()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.make_test_suite()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **MySuite** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_reorder_test_bin_random()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_reorder_test_bin_random_and_reverse()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_reorder_tests_random()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_reorder_tests_random_mixed_classes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_reorder_tests_reverse_with_duplicates()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_reorder_tests_same_type_consecutive()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_shuffle_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_iter_test_cases_basic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_iter_test_cases_custom_test_suite_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_iter_test_cases_mixed_test_suite_classes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_reorder_test_bin_no_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_reorder_test_bin_reverse()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.build_test_suite()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_iter_test_cases_iterable_of_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **_class_shuffle_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_iter_test_cases_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 - *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 111](Community_111.md) (14 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 166](Community_166.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 24](Community_24.md) (12 shared connections)
+- [Community 553](Community_553.md) (6 shared connections)
+- [Community 794](Community_794.md) (4 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (88%)
-- INFERRED: 9 (12%)
+- EXTRACTED: 94 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

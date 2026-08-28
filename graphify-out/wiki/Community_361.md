@@ -1,52 +1,56 @@
 # Community 361
 
-> 34 nodes · cohesion 0.06
+> 57 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **SpatialRefSysMixin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.angular_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.angular_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.datum()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.ellipsoid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.geographic()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.get_spheroid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.get_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.linear_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.linear_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.local()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.projected()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.spheroid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **Return a tuple of the units and the name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **Return a tuple of (unit_value, unit_name) for the given WKT without using any…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **Class method used by GeometryField on initialization to retrieve the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **Return a GDAL SpatialReference object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **Return the string representation, a 'pretty' OGC WKT.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **Return a tuple of the ellipsoid parameters: (semimajor axis, semiminor axis,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **The SpatialRefSysMixin is a class used by the database-dependent SpatialRefSys…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **Return the projection name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- *... and 9 more nodes in this community*
+- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **IfParser** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **Literal** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **smartif.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.collect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **TokenBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **SmartIfTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.link_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.delete_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.assertCalcEqual()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.clear_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.copy_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.set_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **EndToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.create_var()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.next_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.translate_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **test_smartif.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.test_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 726](Community_726.md) (2 shared connections)
-- [Community 1000](Community_1000.md) (1 shared connections)
-- [Community 795](Community_795.md) (1 shared connections)
-- [Community 271](Community_271.md) (1 shared connections)
+- [Community 536](Community_536.md) (5 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 155](Community_155.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 266](Community_266.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 95 (95%)
+- INFERRED: 5 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

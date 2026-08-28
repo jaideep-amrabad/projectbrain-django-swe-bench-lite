@@ -1,36 +1,45 @@
 # Community 697
 
-> 14 nodes · cohesion 0.24
+> 14 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **RelatedObjectLookups.js** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **removePopupIndex()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **showAdminPopup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **dismissAddRelatedObjectPopup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **dismissChangeRelatedObjectPopup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **updateRelatedSelectsOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **addPopupIndex()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **dismissDeleteRelatedObjectPopup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **dismissRelatedLookupPopup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **showRelatedObjectLookupPopup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **showRelatedObjectPopup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **dismissChildPopups()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **setPopupIndex()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **updateRelatedObjectLinks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **Table** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **TableTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **._create_check_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._delete_index_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **Hold a reference to a table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.references_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_table_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.test_references_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_rename_table_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 239](Community_239.md) (7 shared connections)
+- [Community 378](Community_378.md) (6 shared connections)
+- [Community 4](Community_4.md) (5 shared connections)
+- [Community 232](Community_232.md) (3 shared connections)
+- [Community 494](Community_494.md) (2 shared connections)
+- [Community 477](Community_477.md) (2 shared connections)
+- [Community 760](Community_760.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 38 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

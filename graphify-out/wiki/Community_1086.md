@@ -1,12 +1,11 @@
 # Community 1086
 
-> 3 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **urlify.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
-- **downcode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
-- **URLify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
+- **SelectBox.js** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectBox.js`
+- **get_hidden_node_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectBox.js`
 
 ## Relationships
 
@@ -14,11 +13,11 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectBox.js`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

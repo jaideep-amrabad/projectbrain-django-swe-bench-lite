@@ -1,46 +1,36 @@
 # Community 760
 
-> 13 nodes · cohesion 0.26
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **validation/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **Article** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **ModelFormsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **ArticleForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_validation_with_empty_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_validation_with_invalid_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_FK_validates_using_base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_partial_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **Reference** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.references_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.references_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_table_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Return whether or not this instance references the specified table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Return whether or not this instance references the specified column.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Rename all references to the old_name to the new_table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Rename all references to the old_column to the new_column.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Base class that defines the reference interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
 
 ## Relationships
 
-- [Community 725](Community_725.md) (6 shared connections)
-- [Community 620](Community_620.md) (3 shared connections)
-- [Community 788](Community_788.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 724](Community_724.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 494](Community_494.md) (1 shared connections)
+- [Community 697](Community_697.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (88%)
-- INFERRED: 5 (12%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,47 +1,37 @@
 # Community 522
 
-> 22 nodes · cohesion 0.16
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **LocMemCache** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **cache/backends/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **._has_expired()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **._delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **closeable_cache.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- **liberal_backend.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
-- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.has_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.incr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **._set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- **CloseHookMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
-- **LiberalKeyValidationMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
-- **._cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **Thread-safe in-memory cache backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- **.validate_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **AsyncHandlerRequestTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_sync_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Calling an async view down the normal synchronous path.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_async_streaming()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_bad_request_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_no_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_suspiciousop_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_sync_streaming()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_unawaited_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Async variants of the normal handler request tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Calling a sync view down the asynchronous path.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Relationships
 
-- [Community 191](Community_191.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 178](Community_178.md) (1 shared connections)
+- [Community 118](Community_118.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 395](Community_395.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

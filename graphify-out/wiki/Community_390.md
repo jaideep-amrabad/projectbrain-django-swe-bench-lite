@@ -1,51 +1,54 @@
 # Community 390
 
-> 32 nodes · cohesion 0.06
+> 32 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **NaturalKeyFixtureTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Circle1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Circle2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Circle3** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **ExternalDependency** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **RefToNKChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.test_dependency_sorting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_nk_deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_nk_deserialize_xml()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_nk_on_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_normal_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.test_dependency_self_referential()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_6()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_dangling()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_long()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_normal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **ExtraRegressTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **extra_regress/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **extra_regress/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **TestObject** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **RevisionableModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **Order** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.test_regression_10847()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_17877()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_values_with_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_dates_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_7314_7372()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_7957()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_7961()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_8039()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_8063()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_8819()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.new_revision()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_extra_stay_tied()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_extra_values_distinct_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **Regression test for #7961: When not using a portion of an extra(...) in a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **Regression test for #8063: limiting a query shouldn't discard any extra() bits.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **Regression test for #8039: Ordering sometimes removed relevant tables from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
 - *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 355](Community_355.md) (12 shared connections)
-- [Community 533](Community_533.md) (3 shared connections)
+- [Community 84](Community_84.md) (4 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (81%)
-- INFERRED: 9 (19%)
+- EXTRACTED: 48 (92%)
+- INFERRED: 4 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

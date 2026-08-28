@@ -1,39 +1,62 @@
 # Community 415
 
-> 9 nodes · cohesion 0.22
+> 30 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **AuthenticationMiddleware** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **TestAuthenticationMiddleware** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
-- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
-- **AuthenticationMiddlewareSubclass** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **.test_no_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
-- **.test_auser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
-- **.test_changed_password_invalidates_session()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
-- **.test_no_password_change_doesnt_invalidate_session()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
+- **condition()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- **conditional_processing/views.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **ConditionDecoratorTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
+- **CheckCondition** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **etag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- **last_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- **etag_view_none()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **etag_view_unquoted()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **etag_view_weak()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **.test_condition_decorator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
+- **conditional_processing/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/urls.py`
+- **etag_view1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **etag_view2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **last_modified_view1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **last_modified_view2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **.test_condition_decorator_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
+- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
+- **.add_condition()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Descriptor class for deferred condition checking.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Decorator to support conditional retrieval (or change) for a view function. The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- **conditional_processing/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/__init__.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 64](Community_64.md) (2 shared connections)
-- [Community 152](Community_152.md) (2 shared connections)
-- [Community 83](Community_83.md) (2 shared connections)
-- [Community 529](Community_529.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 38](Community_38.md) (9 shared connections)
+- [Community 80](Community_80.md) (7 shared connections)
+- [Community 584](Community_584.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 67](Community_67.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 959](Community_959.md) (1 shared connections)
+- [Community 169](Community_169.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 67 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

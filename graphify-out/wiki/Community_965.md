@@ -1,42 +1,27 @@
 # Community 965
 
-> 12 nodes · cohesion 0.24
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **distinct_on_fields/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **distinct_on_fields/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Celebrity** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Staff** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **StaffTag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Fan** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **.test_add_location_gettext_version_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_makemessages_gettext_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **patch** (2 connections)
+- **CommandError is raised when using makemessages --add-location with gettext <…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Relationships
 
-- [Community 809](Community_809.md) (6 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
+- [Community 403](Community_403.md) (1 shared connections)
+- [Community 557](Community_557.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (85%)
-- INFERRED: 5 (15%)
+- EXTRACTED: 5 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

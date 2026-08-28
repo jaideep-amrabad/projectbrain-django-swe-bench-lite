@@ -1,30 +1,28 @@
 # Community 964
 
-> 6 nodes · cohesion 0.47
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **first()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_first.py`
-- **.test_empty_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_first.py`
-- **.test_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_first.py`
-- **.test_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_first.py`
-- **Return the first item in a list.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **._test_https_good_referer_behind_proxy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer_behind_proxy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer_behind_proxy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A POST HTTPS request is accepted when USE_X_FORWARDED_PORT=True.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
+- [Community 59](Community_59.md) (4 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 293](Community_293.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_first.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

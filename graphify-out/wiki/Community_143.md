@@ -1,59 +1,62 @@
 # Community 143
 
-> 58 nodes · cohesion 0.04
+> 58 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Field** (89 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.clean()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_choices()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._choices_is_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.contribute_to_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_attname_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.__reduce__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.run_validators()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.set_attributes_from_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Empty** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_backend_specific_checks()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_db_comment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_db_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_db_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_deprecation_details()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_null_allowed_for_primary_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_validators()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.__copy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_attname()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_filter_kwargs_for_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._get_flatchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **utils/decorators.py** (31 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **middleware_exceptions/middleware.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **BaseMiddleware** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **async_only_middleware()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **decorator_from_middleware()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **decorator_from_middleware_with_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **sync_and_async_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **sync_only_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **decorators/gzip.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
+- **AsyncNoTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **AsyncProcessExceptionMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **AsyncProcessViewMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **AsyncTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NotSyncOrAsyncMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **PaymentMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **make_middleware_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **_multi_decorate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **async_payment_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **DecoratedPaymentMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **LogMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NoTemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NotFoundMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessExceptionExcMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessExceptionLogMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessExceptionMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
 - *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Community 34](Community_34.md) (12 shared connections)
-- [Community 235](Community_235.md) (7 shared connections)
-- [Community 778](Community_778.md) (7 shared connections)
-- [Community 197](Community_197.md) (6 shared connections)
-- [Community 447](Community_447.md) (5 shared connections)
+- [Community 38](Community_38.md) (5 shared connections)
+- [Community 120](Community_120.md) (4 shared connections)
+- [Community 146](Community_146.md) (4 shared connections)
+- [Community 52](Community_52.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 87](Community_87.md) (3 shared connections)
 - [Community 7](Community_7.md) (3 shared connections)
-- [Community 765](Community_765.md) (2 shared connections)
-- [Community 766](Community_766.md) (2 shared connections)
-- [Community 485](Community_485.md) (2 shared connections)
-- [Community 254](Community_254.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 889](Community_889.md) (1 shared connections)
+- [Community 62](Community_62.md) (2 shared connections)
+- [Community 359](Community_359.md) (2 shared connections)
+- [Community 80](Community_80.md) (2 shared connections)
+- [Community 138](Community_138.md) (2 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 122 (95%)
-- INFERRED: 6 (5%)
+- EXTRACTED: 133 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

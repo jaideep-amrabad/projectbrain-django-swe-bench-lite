@@ -4,24 +4,25 @@
 
 ## Key Concepts
 
-- **Feed** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **BaseFeed** (1 connections)
-- **.feed_extra_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **.item_extra_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
-- **This is a subclass of the `Feed` from `django.contrib.syndication`. This allows…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **InLookupTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_in_lookup_queryset_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_in_lookup_query_evaluation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **Neither pickling nor unpickling a QuerySet.query with an __in=inner_qs lookup…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Relationships
 
-- [Community 444](Community_444.md) (1 shared connections)
+- [Community 632](Community_632.md) (3 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (75%)
+- INFERRED: 2 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

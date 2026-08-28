@@ -4,26 +4,28 @@
 
 ## Key Concepts
 
-- **AdminLogNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- **templatetags/log.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- **get_admin_log()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- **Populate a template variable with the admin log for the given criteria. Usage::…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
+- **CallbackFilter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **CallbackFilterTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_passes_on_record()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_sense()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **A logging filter that checks the return value of a given callable (which takes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

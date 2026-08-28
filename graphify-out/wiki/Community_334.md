@@ -1,65 +1,51 @@
 # Community 334
 
-> 71 nodes · cohesion 0.05
+> 38 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **distapp/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **DistanceFunctionsTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **Distance** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **DistanceTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **Area** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **Union** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **distapp/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **NamedModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **.get_names()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **AustraliaCity** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **CensusZipcode** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **Interstate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **SouthTexasCity** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **SouthTexasCityFt** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **SouthTexasInterstate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **SouthTexasZipcode** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **.test_geodetic_distance_lookups()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_distance_function_raw_result()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_distance_function_raw_result_d_lookup()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_distance_geodetic()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_distance_projected()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_distance_simple()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_distance_transform()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_measurement_null_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **.test_distance_lookups_with_expression_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- *... and 46 more nodes in this community*
+- **RelativeFieldTests** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_foreign_key_to_isolate_apps_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_many_to_many_through_isolate_apps_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_many_to_many_to_isolate_apps_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **#25723 - Referenced model registration lookup should be run against the field's…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_invalid_related_query_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_referencing_to_swapped_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **#25723 - Through model registration lookup should be run against the field's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_ambiguous_relationship_model_from()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_ambiguous_relationship_model_to()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_foreign_key_to_abstract_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_foreign_key_to_missing_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_foreign_key_to_non_unique_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_foreign_key_to_non_unique_field_under_explicit_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_foreign_key_to_partially_unique_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_foreign_key_to_unique_field_with_meta_constraint()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_foreign_object_to_non_unique_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_foreign_object_to_partially_unique_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_foreign_object_to_unique_field_with_meta_constraint()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_abstract_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_many_to_many_to_missing_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_many_to_many_with_useless_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_many_to_many_with_useless_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_missing_relationship_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_missing_relationship_model_on_model_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 55](Community_55.md) (27 shared connections)
-- [Community 24](Community_24.md) (26 shared connections)
-- [Community 9](Community_9.md) (22 shared connections)
-- [Community 7](Community_7.md) (18 shared connections)
-- [Community 31](Community_31.md) (4 shared connections)
-- [Community 61](Community_61.md) (4 shared connections)
-- [Community 27](Community_27.md) (4 shared connections)
-- [Community 40](Community_40.md) (4 shared connections)
-- [Community 15](Community_15.md) (4 shared connections)
-- [Community 66](Community_66.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
+- [Community 58](Community_58.md) (5 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 225 (89%)
-- INFERRED: 27 (11%)
+- EXTRACTED: 46 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,32 +1,31 @@
 # Community 874
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **RecursiveM2MTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_add_in_both_directions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_add_via_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_related_to_self()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_remove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_reverse_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **ConnectionProxy** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__delattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__setattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **Proxy for accessing a connection object's attributes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
 
 ## Relationships
 
-- [Community 937](Community_937.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 189](Community_189.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

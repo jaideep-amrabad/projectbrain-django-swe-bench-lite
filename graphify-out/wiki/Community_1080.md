@@ -1,26 +1,25 @@
 # Community 1080
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_session_modifying_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_session_engine_is_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_sessions_app_is_not_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that modifies the session** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **AssertFieldOutputTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_assert_field_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_custom_required_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 516](Community_516.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

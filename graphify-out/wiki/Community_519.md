@@ -1,55 +1,48 @@
 # Community 519
 
-> 22 nodes · cohesion 0.11
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **CoordTransform** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **Serializer** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **Serializer** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **geojson.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.get_dump_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **The coordinate system transformation object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **Initialize on a source and target SpatialReference objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **Convert a queryset to GeoJSON, http://geojson.org/** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.handle_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.start_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **PythonSerializer** (1 connections)
-- **Convert a queryset to JSON.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **.end_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **JoinPromoter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.add_q()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.add_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.demote_joins()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **JoinPromoterTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
+- **.add_votes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.update_join_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **A preprocessor for the internal _add_q(). Responsible for doing final join…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Add a Q-object to the current filter.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **A class to abstract away join promotion problems for complex filter conditions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Add single vote per item to self.votes. Parameter can be any iterable.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Change join types so that the generated query is as efficient as possible, but…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Change join type from LOUTER to INNER for all joins in aliases. Similarly to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Relationships
 
-- [Community 117](Community_117.md) (6 shared connections)
-- [Community 84](Community_84.md) (3 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 41](Community_41.md) (2 shared connections)
-- [Community 665](Community_665.md) (2 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
-- [Community 161](Community_161.md) (1 shared connections)
-- [Community 535](Community_535.md) (1 shared connections)
-- [Community 335](Community_335.md) (1 shared connections)
-- [Community 473](Community_473.md) (1 shared connections)
+- [Community 22](Community_22.md) (3 shared connections)
+- [Community 173](Community_173.md) (2 shared connections)
+- [Community 100](Community_100.md) (2 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 416](Community_416.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 302](Community_302.md) (1 shared connections)
+- [Community 305](Community_305.md) (1 shared connections)
+- [Community 325](Community_325.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 26 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

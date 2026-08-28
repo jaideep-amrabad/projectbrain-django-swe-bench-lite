@@ -1,64 +1,62 @@
 # Community 82
 
-> 108 nodes · cohesion 0.03
+> 54 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **auth/forms.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **auth/admin.py** (46 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
-- **template/response.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **template/loader.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader.py`
-- **BaseUserCreationForm** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **BaseUserCreationFormTest** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **SetPasswordForm** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **PasswordChangeForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **UserChangeFormTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **AdminPasswordChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **UserChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **admin/forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- **AdminPasswordChangeFormTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **SetPasswordFormTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **TestDataMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **PasswordChangeFormTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **UserCreationForm** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **AdminPasswordChangeForm** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **ReadOnlyPasswordHashWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **ReadOnlyPasswordHashTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **ReadOnlyPasswordHashField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **UserCreationFormTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **patch** (4 connections)
-- **.test_link_to_password_reset_in_helptext_via_to_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- *... and 83 more nodes in this community*
+- **storage/cookie.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **BaseStorage** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **SessionStorage** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **MessageEncoder** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **FallbackStorage** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **storage/session.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **MessageDecoder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **fallback.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **.update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.process_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._get_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._loaded_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._prepare_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._store()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **.serialize_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **._store()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **._set_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **MessagePartGatherSerializer** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **.dumps()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **MessageSerializer** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (26 shared connections)
-- [Community 292](Community_292.md) (10 shared connections)
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 3](Community_3.md) (8 shared connections)
-- [Community 36](Community_36.md) (7 shared connections)
-- [Community 11](Community_11.md) (7 shared connections)
-- [Community 163](Community_163.md) (6 shared connections)
-- [Community 599](Community_599.md) (6 shared connections)
-- [Community 49](Community_49.md) (6 shared connections)
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 22](Community_22.md) (5 shared connections)
-- [Community 80](Community_80.md) (5 shared connections)
+- [Community 458](Community_458.md) (15 shared connections)
+- [Community 370](Community_370.md) (7 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 713](Community_713.md) (3 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 198](Community_198.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loader.py`
-- `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
 
 ## Audit Trail
 
-- EXTRACTED: 345 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 101 (91%)
+- INFERRED: 10 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

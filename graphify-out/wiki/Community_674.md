@@ -1,44 +1,40 @@
 # Community 674
 
-> 15 nodes · cohesion 0.22
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **clean_ipv6_address()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- **ipv6.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- **is_valid_ipv6_address()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- **TestUtilsIPv6** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **test_ipv6.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_cleans_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_cleans_with_v4_mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_unpacks_ipv4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_correct_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_correct_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_incorrect_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_incorrect_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **Clean an IPv6 address string. Raise ValidationError if the address is invalid.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- **Return whether or not the `ip_str` string is a valid IPv6 address.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **SignalTestCase** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_login_with_custom_user_without_last_login_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_failed_login_without_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **Set up the listeners and reset the logged in/logged out counters** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **Disconnect the listeners** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **The user_logged_in signal is only registered if the user model has a last_login…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.listener_login()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.listener_login_failed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.listener_logout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_login()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_logout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_logout_anonymous()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
 
 ## Relationships
 
-- [Community 70](Community_70.md) (3 shared connections)
-- [Community 28](Community_28.md) (3 shared connections)
-- [Community 197](Community_197.md) (2 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 163](Community_163.md) (1 shared connections)
+- [Community 84](Community_84.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 212](Community_212.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

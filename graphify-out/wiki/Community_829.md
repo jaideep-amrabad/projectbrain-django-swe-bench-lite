@@ -1,34 +1,45 @@
 # Community 829
 
-> 10 nodes · cohesion 0.40
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **DatabaseCreation** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **.is_in_memory_db()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **.get_test_db_clone_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **.test_db_signature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **._clone_test_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **._create_test_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **._get_test_db_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **._destroy_test_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **.setup_worker_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **Return a tuple that uniquely identifies a test database. This takes into…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **test_history_view.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **AdminHistoryViewTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **State** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.test_changed_message_uses_form_labels()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **CityInlineAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **Admin's model history change messages use form labels instead of field names.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 296](Community_296.md) (1 shared connections)
-- [Community 446](Community_446.md) (1 shared connections)
+- [Community 89](Community_89.md) (3 shared connections)
+- [Community 76](Community_76.md) (3 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 320](Community_320.md) (2 shared connections)
+- [Community 179](Community_179.md) (2 shared connections)
+- [Community 84](Community_84.md) (2 shared connections)
+- [Community 98](Community_98.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 563](Community_563.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 33 (87%)
+- INFERRED: 5 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

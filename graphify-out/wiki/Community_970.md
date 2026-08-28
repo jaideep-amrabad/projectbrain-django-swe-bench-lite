@@ -1,29 +1,28 @@
 # Community 970
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **XViewMiddlewareTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
-- **.test_no_auth_middleware()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
-- **TestDataMixin** (1 connections)
-- **.test_callable_object_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
-- **.test_xview_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
-- **.test_xview_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
+- **GetLanguageInfoListTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **setup** (4 connections)
+- **.test_i18n30()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **.test_i18n31()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **.test_i18n38_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **.test_no_for_as()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
 
 ## Relationships
 
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

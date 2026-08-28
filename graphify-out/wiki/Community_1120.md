@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Return an exact copy of this ModelState.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.test_stdin_without_format()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **Reading from stdin raises an error if format isn't specified.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Relationships
 
-- [Community 25](Community_25.md) (1 shared connections)
+- [Community 677](Community_677.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 

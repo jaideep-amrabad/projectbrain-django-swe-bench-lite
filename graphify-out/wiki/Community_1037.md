@@ -4,23 +4,26 @@
 
 ## Key Concepts
 
-- **DjangoSafeDumper** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **.represent_decimal()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **.represent_ordered_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **SafeDumper** (1 connections)
+- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **.test_related_object_cache()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **Regression test for #6886 (the related-object cache)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 591](Community_591.md) (2 shared connections)
+- [Community 427](Community_427.md) (2 shared connections)
+- [Community 685](Community_685.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

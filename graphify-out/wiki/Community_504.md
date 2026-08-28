@@ -1,55 +1,48 @@
 # Community 504
 
-> 23 nodes · cohesion 0.12
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **check_finders()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
-- **BaseFinder** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **FindersCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **StaticFilesConfig** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/apps.py`
-- **.test_check_finders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_nonexistent_directories()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **staticfiles_config.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/apps/staticfiles_config.py`
-- **.test_dirs_not_tuple_or_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.ready()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/apps.py`
-- **.find()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **IgnorePatternsAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/apps/staticfiles_config.py`
-- **.test_base_finder_check_not_implemented()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_dirs_contains_static_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_dirs_contains_static_root_in_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_no_errors_with_test_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_prefix_contains_trailing_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **Check all registered staticfiles finders.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
-- **.check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **A base file finder to be used for custom staticfiles finder classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Given a relative file path, find an absolute file path. If the ``all``…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Given an optional list of paths to ignore, return a two item iterable…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **check_finders() concatenates all errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **TemplateViewTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **._assert_about()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get_generic_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get_template_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_cached_views()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_extra_template_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_resolve_login_required_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_resolve_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_template_name_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_template_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a view that simply renders a template on GET** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a TemplateView responds correctly to HEAD** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a view that renders a template on GET with the template name as an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a completely generic view that renders a template on GET with the template…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **A template view must provide a template name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **A generic template view passes kwargs as context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **A template view can be customized to return extra context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **A template view can be cached** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_extra_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 416](Community_416.md) (3 shared connections)
-- [Community 164](Community_164.md) (1 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 242](Community_242.md) (1 shared connections)
+- [Community 213](Community_213.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 169](Community_169.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 140](Community_140.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/apps/staticfiles_config.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 30 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

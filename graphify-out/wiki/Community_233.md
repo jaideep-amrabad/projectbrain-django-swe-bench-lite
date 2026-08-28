@@ -1,64 +1,61 @@
 # Community 233
 
-> 51 nodes · cohesion 0.07
+> 52 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **SimpleArrayField** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **TestSimpleFormField** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **SplitArrayField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **TestSplitFormField** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **prefix_validation_error()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/utils.py`
-- **error()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **.clean()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.run_validators()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.to_python()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.validate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_splitarrayfield_has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_splitarrayfield_remove_trailing_nulls_has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.run_validators()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **._remove_trailing_nulls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_inlineformset_with_arrayfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_splitarraywidget_value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **._post_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_already_converted_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_delimiter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_delimiter_with_nesting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- *... and 26 more nodes in this community*
+- **fixtures/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **fixtures/models.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Article** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **CircularReferenceTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **DumpDataAssertMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **NaturalKeyThing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **ProxySpy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Spy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **FixtureTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **NonexistentFixtureTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **SubclassTestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **TestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **ProxyModelWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
+- **CircularA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **CircularB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Visa** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **PersonManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **PrimaryKeyUUIDModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **SpyManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.test_nonexistent_fixture_no_constraint_checking()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (8 shared connections)
-- [Community 214](Community_214.md) (5 shared connections)
-- [Community 36](Community_36.md) (5 shared connections)
-- [Community 70](Community_70.md) (4 shared connections)
-- [Community 209](Community_209.md) (3 shared connections)
-- [Community 503](Community_503.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 111](Community_111.md) (2 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
-- [Community 622](Community_622.md) (1 shared connections)
-- [Community 529](Community_529.md) (1 shared connections)
+- [Community 677](Community_677.md) (10 shared connections)
+- [Community 630](Community_630.md) (7 shared connections)
+- [Community 43](Community_43.md) (5 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 10](Community_10.md) (5 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 84](Community_84.md) (2 shared connections)
+- [Community 198](Community_198.md) (2 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 82 (68%)
-- INFERRED: 39 (32%)
+- EXTRACTED: 110 (88%)
+- INFERRED: 15 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

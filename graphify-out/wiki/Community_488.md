@@ -1,57 +1,49 @@
 # Community 488
 
-> 28 nodes · cohesion 0.12
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **WSGIRequestHandler** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **test_basehttp.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **WSGIRequestHandlerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **ServerHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **Stub** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_strips_underscore_headers()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **WSGIServerTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.handle_one_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **BytesIO** (5 connections)
-- **UnclosableBytesIO** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_no_body_returned_for_head_requests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_broken_pipe_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_https()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_log_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.finish_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.get_environ()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **Copy of WSGIRequestHandler.handle() but with different ServerHandler** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.cleanup_headers()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.address_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.log_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **WSGIServer handles broken pipe errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **WSGIRequestHandler ignores headers containing underscores. This follows the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- *... and 3 more nodes in this community*
+- **BasicFieldTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **RenamedField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_abstract_inherited_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_choices_form_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_deconstruct_nested_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_instance_is_picklable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_repr_nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_formfield_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_show_hidden_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_verbose_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_hash_immutability()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Field instances can be pickled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **deconstruct() uses __qualname__ for nested class support.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Field instances from abstract models are not equal.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Fields with choices respect show_hidden_initial as a kwarg to formfield().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **__repr__() of a field displays its name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **__repr__() uses __qualname__ for nested class support.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **A defined field name (name="fieldname") is used instead of the model model's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Can supply a custom choices form class to Field.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Field.formfield() sets disabled for fields with choices.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Fields are ordered based on their creation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Relationships
 
-- [Community 78](Community_78.md) (6 shared connections)
-- [Community 717](Community_717.md) (5 shared connections)
-- [Community 157](Community_157.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 253](Community_253.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
+- [Community 68](Community_68.md) (5 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (91%)
-- INFERRED: 6 (9%)
+- EXTRACTED: 28 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

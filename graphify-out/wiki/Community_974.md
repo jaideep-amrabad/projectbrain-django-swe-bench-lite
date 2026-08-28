@@ -1,28 +1,26 @@
 # Community 974
 
-> 6 nodes · cohesion 0.53
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **OracleDbshellTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **.settings_to_cmd_args_env()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **.test_with_rlwrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **.test_without_rlwrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **skipUnless** (1 connections)
+- **Feed** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **BaseFeed** (1 connections)
+- **.feed_extra_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.item_extra_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **This is a subclass of the `Feed` from `django.contrib.syndication`. This allows…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
 
 ## Relationships
 
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 448](Community_448.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

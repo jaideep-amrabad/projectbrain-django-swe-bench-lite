@@ -1,28 +1,26 @@
 # Community 979
 
-> 6 nodes · cohesion 0.33
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **FileFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_primary_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_upload_to_callable_not_checked()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_upload_to_starts_with_slash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_valid_case()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_valid_default_case()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **lookuperror_b/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_b/models.py`
+- **B1** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_b/models.py`
+- **B2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_b/models.py`
+- **B3** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_b/models.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (2 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_b/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

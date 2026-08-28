@@ -1,60 +1,59 @@
 # Community 129
 
-> 77 nodes · cohesion 0.04
+> 58 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **EmailMessage** (77 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **MailTests** (55 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_decoded_attachments()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.send()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.test_encoding()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_non_utf8_text_as_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_utf8_text_as_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_custom_utf8_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_message_header_overrides()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.recipients()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.test_attach_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_mimetext_content_mimetype()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_text_as_bytes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attachments_MIMEText()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attachments_two_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_cc()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_custom_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_dummy_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_from_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_multiple_message_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_non_ascii_attachment_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_non_ascii_dns_non_unicode_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_recipients_with_empty_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_reply_to_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_space_continuation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- *... and 52 more nodes in this community*
+- **templatetags/i18n.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **BlockTranslateNode** (11 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **get_language_info()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **Node** (8 connections)
+- **TestLanguageInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **GetLanguageInfoListNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **TranslateNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **.render()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_get_available_languages()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_get_current_language()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_get_current_language_bidi()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_get_language_info()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_get_language_info_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_translate()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **GetAvailableLanguagesNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **GetCurrentLanguageBidiNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **GetCurrentLanguageNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **GetLanguageInfoNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **language()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **LanguageNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **language_name_translated()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **filter** (4 connections)
+- **BlockTranslateNodeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **language_bidi()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **language_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Community 322](Community_322.md) (13 shared connections)
-- [Community 405](Community_405.md) (9 shared connections)
-- [Community 430](Community_430.md) (7 shared connections)
-- [Community 455](Community_455.md) (6 shared connections)
-- [Community 924](Community_924.md) (3 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 246](Community_246.md) (2 shared connections)
-- [Community 465](Community_465.md) (2 shared connections)
-- [Community 980](Community_980.md) (2 shared connections)
-- [Community 919](Community_919.md) (2 shared connections)
-- [Community 195](Community_195.md) (1 shared connections)
-- [Community 325](Community_325.md) (1 shared connections)
+- [Community 1](Community_1.md) (17 shared connections)
+- [Community 536](Community_536.md) (13 shared connections)
+- [Community 15](Community_15.md) (7 shared connections)
+- [Community 103](Community_103.md) (4 shared connections)
+- [Community 357](Community_357.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 548](Community_548.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
 
 ## Audit Trail
 
-- EXTRACTED: 170 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 132 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

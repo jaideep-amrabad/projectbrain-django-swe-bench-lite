@@ -4,16 +4,17 @@
 
 ## Key Concepts
 
-- **.test_deconstructible_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Nested deconstruction descends into tuples.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_inheritance26()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Set up a base template to extend** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 25](Community_25.md) (2 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 844](Community_844.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 

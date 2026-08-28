@@ -1,52 +1,49 @@
 # Community 422
 
-> 29 nodes · cohesion 0.19
+> 21 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **RelatedModelsTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.assertRelated()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.create_model()** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_generic_fk()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_abstract_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_base_to_base_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_base_to_subclass_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_circle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_direct_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_direct_hidden_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_direct_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_direct_m2m_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_fk_through_proxy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_intermediate_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_intermediate_m2m_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_intermediate_m2m_extern_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_intermediate_m2m_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_multiple_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_multiple_mixed_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_multiple_nested_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_nested_abstract_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_nested_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_nested_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_nested_proxy_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- *... and 4 more nodes in this community*
+- **BaseStorageFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **FileSystemFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **DefaultStorageFinder** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find_location()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Look for files in the extra locations as defined in STATICFILES_DIRS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Find a requested static file in a location and return the found absolute path…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **List all files in all locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **A base static files finder to be used to extended with an own storage class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Look for files in the default file storage, if it's local.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **List all files of the storage.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **A static files finder that uses the default storage backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **A static files finder that uses the ``STATICFILES_DIRS`` setting to locate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
 
 ## Relationships
 
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 190](Community_190.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 24](Community_24.md) (6 shared connections)
+- [Community 429](Community_429.md) (2 shared connections)
+- [Community 867](Community_867.md) (1 shared connections)
+- [Community 442](Community_442.md) (1 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
+- [Community 461](Community_461.md) (1 shared connections)
+- [Community 224](Community_224.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 33 (89%)
+- INFERRED: 4 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,46 +1,52 @@
 # Community 315
 
-> 18 nodes · cohesion 0.22
+> 40 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **RouteForWriteTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.override_router()** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_fk_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_get_or_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_fk_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_fk_get_or_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_fk_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_get_or_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **GDALBand** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **BandList** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.statistics()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.nodata_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.datatype()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **._flush()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.description()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.max()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.mean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.min()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.std()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.color_interp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.height()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.pixel_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.width()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.bands()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **list** (1 connections)
+- **setter** (1 connections)
+- **Return the minimum pixel value for this band.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 1014](Community_1014.md) (4 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 1064](Community_1064.md) (2 shared connections)
-- [Community 1145](Community_1145.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 1112](Community_1112.md) (1 shared connections)
+- [Community 49](Community_49.md) (8 shared connections)
+- [Community 70](Community_70.md) (3 shared connections)
+- [Community 237](Community_237.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 56 (92%)
+- INFERRED: 5 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

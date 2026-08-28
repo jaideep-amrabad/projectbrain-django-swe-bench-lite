@@ -1,31 +1,27 @@
 # Community 927
 
-> 7 nodes · cohesion 0.43
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **cut()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
-- **.test_character()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
-- **.test_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
-- **.test_non_matching_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
-- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
-- **Remove all values of arg from the given string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **SimpleRowlevelBackend** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.get_all_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.get_group_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 35](Community_35.md) (4 shared connections)
+- [Community 84](Community_84.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 5 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

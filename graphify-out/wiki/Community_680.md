@@ -1,43 +1,41 @@
 # Community 680
 
-> 15 nodes · cohesion 0.21
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **DateTimesTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **datetimes/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **datetimes/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.test_21432()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_has_lazy_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_returns_available_dates_for_given_scope_and_given_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.test_datetimes_disallows_date_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_fails_when_given_invalid_kind_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_fails_when_given_invalid_order_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **JSONField** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **._check_supported()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.get_db_prep_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.from_db_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **Field** (1 connections)
 
 ## Relationships
 
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 10](Community_10.md) (4 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
+- [Community 79](Community_79.md) (2 shared connections)
+- [Community 141](Community_141.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 102](Community_102.md) (1 shared connections)
+- [Community 225](Community_225.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (91%)
-- INFERRED: 3 (9%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

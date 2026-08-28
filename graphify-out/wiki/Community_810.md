@@ -1,34 +1,36 @@
 # Community 810
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **TestCachedPathInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_copy_removes_direct_cached_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_deepcopy_removes_cached_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_equality()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_pickling_foreignobject()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_pickling_foreignobjectrel()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **The path_infos and reverse_path_infos attributes are equivalent to calling the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **Shallow copying a ForeignObject (or a ForeignObjectRel) removes the object's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **Deep copying a ForeignObject removes the object's cached PathInfo values,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **Pickling a ForeignObjectRel removes the path_infos attribute. ForeignObjectRel…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **Pickling a ForeignObject does not remove the cached PathInfo values.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **CookieSessionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_actual_expiry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_cycle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_load_does_not_create_record()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_save_does_not_resurrect_session_logged_out_in_other_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **skip** (2 connections)
+- **.test_unpickling_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **expectedFailure** (1 connections)
+- **This test tested exists() in the other session backends, but that doesn't make…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **This test tested cycle_key() which would create a new session key for the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Relationships
 
-- [Community 286](Community_286.md) (1 shared connections)
+- [Community 412](Community_412.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
+- [Community 284](Community_284.md) (1 shared connections)
+- [Community 593](Community_593.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 14 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

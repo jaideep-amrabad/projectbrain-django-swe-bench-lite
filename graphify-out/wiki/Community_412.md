@@ -1,68 +1,64 @@
 # Community 412
 
-> 75 nodes · cohesion 0.04
+> 25 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **method_decorator()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **decorators/tests.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **utils/decorators.py** (31 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **decorators/cache.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- **decorators/csrf.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
-- **utils_tests/test_decorators.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **MethodDecoratorTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **decorator_from_middleware()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **patch_cache_control()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **.dispatch()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.dispatch()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **patch_response_headers()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **DecoratorFromMiddlewareTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **add_never_cache_headers()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **FullMiddleware** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **decorator_from_middleware_with_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **.test_preserve_attributes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **decorators/gzip.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
-- **ClsDec** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_wrapper_assignments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **make_middleware_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- *... and 50 more nodes in this community*
+- **sessions_tests/tests.py** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **sessions/backends/base.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **sessions/middleware.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- **backends/file.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
+- **backends/cache.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **sessions/exceptions.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- **UpdateError** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **CacheDBSessionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **CreateError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **signed_cookies.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **InvalidSessionKey** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- **SessionInterrupted** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- **SuspiciousSession** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- **CacheDBSessionWithTimeZoneTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **ClearSessionsCommandTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Exception** (2 connections)
+- **.test_load_overlong_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_non_default_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Used internally as a consistent exception type to catch from save (see the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Occurs if Django tries to update a session that was deleted.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **The session may be tampered with** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- **The session was interrupted.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- **Invalid characters in session key** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- **.test_exists_searches_cache_first()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_clearsessions_unsupported()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Relationships
 
-- [Community 80](Community_80.md) (20 shared connections)
-- [Community 18](Community_18.md) (11 shared connections)
-- [Community 49](Community_49.md) (10 shared connections)
-- [Community 83](Community_83.md) (8 shared connections)
-- [Community 11](Community_11.md) (7 shared connections)
-- [Community 109](Community_109.md) (7 shared connections)
-- [Community 152](Community_152.md) (6 shared connections)
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 22](Community_22.md) (5 shared connections)
-- [Community 178](Community_178.md) (5 shared connections)
-- [Community 486](Community_486.md) (4 shared connections)
-- [Community 331](Community_331.md) (4 shared connections)
+- [Community 24](Community_24.md) (10 shared connections)
+- [Community 80](Community_80.md) (8 shared connections)
+- [Community 7](Community_7.md) (8 shared connections)
+- [Community 87](Community_87.md) (7 shared connections)
+- [Community 187](Community_187.md) (6 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 4](Community_4.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 189](Community_189.md) (4 shared connections)
+- [Community 660](Community_660.md) (4 shared connections)
+- [Community 542](Community_542.md) (4 shared connections)
+- [Community 66](Community_66.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 238 (98%)
-- INFERRED: 5 (2%)
+- EXTRACTED: 144 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,32 +1,34 @@
 # Community 853
 
-> 10 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **tests_failures.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **ErrorTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **ExpectedFailureTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **FailureTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **UnexpectedSuccessTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **.test_sample()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **expectedFailure** (2 connections)
-- **.test_sample()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **PostGISAdapter** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.getquoted()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.__conform__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **._fix_polygon()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **Does the given protocol conform to what Psycopg2 expects?** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **Return a properly quoted string for use in PostgreSQL/PostGIS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
+- [Community 623](Community_623.md) (1 shared connections)
+- [Community 564](Community_564.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

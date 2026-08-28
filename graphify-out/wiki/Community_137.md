@@ -1,67 +1,62 @@
 # Community 137
 
-> 73 nodes · cohesion 0.05
+> 86 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **admindocs/views.py** (55 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **inspect.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **admindocs/utils.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **BaseAdminDocsView** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **commands/ogrinspect.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
-- **.get_context_data()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **.get_context_data()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **simplify_regex()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **func_accepts_kwargs()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **_get_callable_parameters()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **.get_context_data()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **method_has_no_args()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **._get_view_func()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **get_func_args()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **.process_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
-- **_find_groups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **get_view_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **remove_non_capturing_groups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **replace_named_groups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **replace_unnamed_groups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **get_return_data_type()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **get_mod_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
-- **func_accepts_var_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **get_func_full_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- **replace_metacharacters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- *... and 48 more nodes in this community*
+- **ModelFormsetTest** (72 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **inlineformset_factory()** (69 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **modelformset_factory()** (59 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **TestModelFormsetOverridesTroughFormMeta** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **Poet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **DeletionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **Player** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **.test_inline_formsets_with_custom_save_method_related_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_add_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_change_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_custom_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_custom_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_custom_queryset_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_formsets_with_nullable_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_formsets_with_wrong_fk_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inlineformset_factory_with_null_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_model_formset_with_initial_model_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_modelformset_factory_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_prevent_duplicates_from_with_the_same_formset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inlineformset_factory_passes_renderer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_modelformset_factory_passes_renderer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_initial_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_delete_already_deleted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_resubmit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- *... and 61 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (11 shared connections)
-- [Community 57](Community_57.md) (9 shared connections)
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 10](Community_10.md) (7 shared connections)
-- [Community 7](Community_7.md) (6 shared connections)
-- [Community 16](Community_16.md) (5 shared connections)
-- [Community 49](Community_49.md) (5 shared connections)
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 152](Community_152.md) (4 shared connections)
-- [Community 37](Community_37.md) (4 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 80](Community_80.md) (4 shared connections)
+- [Community 229](Community_229.md) (46 shared connections)
+- [Community 171](Community_171.md) (19 shared connections)
+- [Community 374](Community_374.md) (14 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 77](Community_77.md) (3 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 599](Community_599.md) (2 shared connections)
+- [Community 242](Community_242.md) (2 shared connections)
+- [Community 313](Community_313.md) (2 shared connections)
+- [Community 152](Community_152.md) (2 shared connections)
+- [Community 97](Community_97.md) (2 shared connections)
+- [Community 930](Community_930.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/urls.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 237 (98%)
-- INFERRED: 5 (2%)
+- EXTRACTED: 223 (87%)
+- INFERRED: 33 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

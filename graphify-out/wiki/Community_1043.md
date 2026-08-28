@@ -4,19 +4,18 @@
 
 ## Key Concepts
 
-- **DeleteQuery** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **.delete_batch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **.do_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **Set up and execute delete queries for all the objects in pk_list. More than one…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **TitleTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
+- **setup** (2 connections)
+- **.test_title1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
+- **.test_title2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
 
 ## Relationships
 
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 114](Community_114.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
 
 ## Audit Trail
 

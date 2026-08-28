@@ -4,54 +4,54 @@
 
 ## Key Concepts
 
-- **RawQuerySet** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._fetch_all()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._iterator()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._clone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__iter__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.iterator()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._prefetch_related_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.prefetch_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.using()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._fetch_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Return the database used if this query is executed now.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.model_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.resolve_model_init_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_rawqueryset_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **Provide an iterator which converts the results of raw SQL queries into…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ForeignObjectRel** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__repr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_cache_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.is_hidden()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_accessor_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.path_infos()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.set_field_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.target_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **Display the module, class, and name of the field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_extra_restriction()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_joining_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_joining_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_transform()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
 - *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 50](Community_50.md) (8 shared connections)
-- [Community 461](Community_461.md) (3 shared connections)
-- [Community 189](Community_189.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 396](Community_396.md) (2 shared connections)
-- [Community 65](Community_65.md) (1 shared connections)
-- [Community 188](Community_188.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 43](Community_43.md) (2 shared connections)
+- [Community 201](Community_201.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 759](Community_759.md) (1 shared connections)
+- [Community 815](Community_815.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (94%)
-- INFERRED: 4 (6%)
+- EXTRACTED: 47 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

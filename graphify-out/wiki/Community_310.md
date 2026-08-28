@@ -1,54 +1,55 @@
 # Community 310
 
-> 41 nodes · cohesion 0.07
+> 77 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **PasswordResetTest** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **._test_confirm_start()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_custom_reset_url_token_link_redirects_to_set_password_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_different_passwords()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_invalid_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_link_redirects_to_set_password_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_login_post_reset_already_logged_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_login_post_reset_custom_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_invalid_link_if_going_directly_to_the_final_reset_password_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_poisoned_http_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_poisoned_http_host_admin_site()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_complete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_custom_reset_url_token()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_display_user_from_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_invalid_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_login_post_reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_redirect_custom()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_redirect_custom_named()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_redirect_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_email_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_email_found_custom_from()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_email_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_extra_email_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- *... and 16 more nodes in this community*
+- **BaseCacheTests** (64 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **BaseMemcachedTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **._perform_invalid_key_test()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **._perform_cull_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Unpicklable** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **caches_setting_for_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **._perform_invalid_key_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_add_fail_on_pickleerror()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_default_used_when_none_is_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_forever_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_invalid_key_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_invalid_key_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_invalid_with_version_key_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_long_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_set_fail_on_pickleerror()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_set_many_returns_empty_list_on_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_zero_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_zero_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_default_far_future_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_default_never_expiring_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_invalid_with_version_key_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_zero_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- *... and 52 more nodes in this community*
 
 ## Relationships
 
-- [Community 386](Community_386.md) (6 shared connections)
-- [Community 588](Community_588.md) (3 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 705](Community_705.md) (1 shared connections)
-- [Community 706](Community_706.md) (1 shared connections)
-- [Community 347](Community_347.md) (1 shared connections)
+- [Community 189](Community_189.md) (5 shared connections)
+- [Community 217](Community_217.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 608](Community_608.md) (1 shared connections)
+- [Community 559](Community_559.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 177](Community_177.md) (1 shared connections)
+- [Community 395](Community_395.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 97 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

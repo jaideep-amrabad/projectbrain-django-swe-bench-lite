@@ -1,47 +1,51 @@
 # Community 346
 
-> 24 nodes · cohesion 0.16
+> 36 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **TimesinceTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **setup** (20 connections)
-- **.test_timesince12()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince13()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince20()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **requires_tz_support** (2 connections)
-- **.test_timesince01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince17()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince18()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince19()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **#20246 - \xa0 in output avoids line-breaks between value and unit** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **AutoescapeTagTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **setup** (18 connections)
+- **AutoescapeStringfilterTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
+- **SafeClass** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **UnsafeClass** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **setup** (4 connections)
+- **.test_autoescape_stringfilter01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
+- **.test_autoescape_stringfilter02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
+- **.test_autoescape_stringfilter03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
+- **.test_autoescape_stringfilter04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
+- **.test_autoescape_filtertag01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_literals01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_lookup01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_stringiterations01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_filters01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_filters02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 1](Community_1.md) (10 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 71 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

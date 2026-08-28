@@ -1,42 +1,28 @@
 # Community 944
 
-> 12 nodes · cohesion 0.18
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **RequestSite** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- **RequestSiteTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **A class that shares the primary interface of Site (i.e., it has ``domain`` and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- **.test_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_init_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **._test_create_alter_foo_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_index_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_owrt_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_unique_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **CreateModel, AlterFooTogether/AlterOrderWithRespectTo followed by an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- [Community 16](Community_16.md) (4 shared connections)
-- [Community 49](Community_49.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 347](Community_347.md) (1 shared connections)
-- [Community 373](Community_373.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 83](Community_83.md) (1 shared connections)
+- [Community 662](Community_662.md) (4 shared connections)
+- [Community 132](Community_132.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (87%)
-- INFERRED: 3 (13%)
+- EXTRACTED: 9 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

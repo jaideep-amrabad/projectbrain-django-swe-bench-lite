@@ -1,54 +1,53 @@
 # Community 378
 
-> 33 nodes · cohesion 0.11
+> 33 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **M2MRegressionTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **m2m_regress/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **m2m_regress/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **RegressionModelSplit** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **SelfRefer** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **SelfReferChild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **SelfReferChildSibling** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **TagCollection** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **BadModelWithSplit** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Entry** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Line** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Worksheet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Post** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.test_m2m_inheritance_symmetry()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **.test_m2m_abstract_split()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **.test_m2m_pk_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **.split()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Model with a split method should not cause an error in add_lazy_relation** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
+- **.alter_field()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.quote_name()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._delete_constraint_sql()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._constraint_names()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._create_primary_key_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.remove_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._create_index_name()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._alter_column_database_default_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.alter_db_table()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.delete_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._delete_primary_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._alter_column_null_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._alter_many_to_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._delete_fk_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._delete_check_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._delete_primary_key_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._delete_unique_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._field_should_be_altered()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._rename_field_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._check_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._field_became_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._field_db_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._unique_should_be_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Hook to specialize column null alteration. Return a (sql, params) fragment to…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Hook to specialize column database default alteration. Return a (sql, params)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 - *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 239](Community_239.md) (41 shared connections)
+- [Community 602](Community_602.md) (10 shared connections)
+- [Community 697](Community_697.md) (6 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 494](Community_494.md) (2 shared connections)
+- [Community 477](Community_477.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (86%)
-- INFERRED: 10 (14%)
+- EXTRACTED: 111 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

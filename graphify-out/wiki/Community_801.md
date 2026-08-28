@@ -1,35 +1,39 @@
 # Community 801
 
-> 11 nodes · cohesion 0.31
+> 11 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **slice_filter()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_fail_silently()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_index_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_negative_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_range_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_range_step()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_zero_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **Return a slice of the list using the same syntax as Python's list slicing.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **TestManagerInheritance** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **CustomManager** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.test_deconstruct_from_queryset_failing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_base_manager_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.test_default_manager_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.test_implicit_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.test_manager_no_duplicates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **MemberManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.test_manager_class_getitem()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
+- [Community 345](Community_345.md) (2 shared connections)
+- [Community 100](Community_100.md) (2 shared connections)
+- [Community 333](Community_333.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 14 (70%)
+- INFERRED: 6 (30%)
 - AMBIGUOUS: 0 (0%)
 
 ---

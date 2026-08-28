@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **._test_alter_alter()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_alter_alter_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_alter_alter_index_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_alter_alter_owrt_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_alter_alter_table_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_alter_alter_unique_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **Two AlterUniqueTogether/AlterIndexTogether/AlterOrderWithRespectTo /AlterField…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **NormalizeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_escape()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_group_backreference()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_group_named()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_group_noncapturing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **.test_group_positional()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
 
 ## Relationships
 
-- [Community 213](Community_213.md) (7 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

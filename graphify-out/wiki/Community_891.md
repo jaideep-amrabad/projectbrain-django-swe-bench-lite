@@ -1,31 +1,31 @@
 # Community 891
 
-> 8 nodes · cohesion 0.39
+> 8 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **join()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_noniterable_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_noniterable_arg_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **Join a list with a string, like Python's ``str.join(list)``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **PDBDebugResult** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.debug()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addFailure()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addError()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addFailure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addSubTest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addFailure()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Custom result class that triggers a PDB session when an error or failure occurs.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 35](Community_35.md) (3 shared connections)
+- [Community 606](Community_606.md) (3 shared connections)
+- [Community 890](Community_890.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

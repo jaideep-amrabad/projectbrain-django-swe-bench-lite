@@ -1,49 +1,60 @@
 # Community 279
 
-> 45 nodes · cohesion 0.07
+> 45 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **FilterSyntaxTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **setup** (26 connections)
-- **.test_filter_syntax13()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax14()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax18()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax21()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax22()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax25()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax08_multi_line()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax15()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax16()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax17()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax19()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax20()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_type_error_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **InMemoryStorage** (34 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **MemoryStorageIOTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **._resolve()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.path()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._relative_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.test_setting_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.test_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.test_file_node_cannot_have_children()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.test_file_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.test_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.get_accessed_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.get_created_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.get_modified_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.listdir()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.test_deconstruction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.test_convert_str_to_bytes_and_back()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.test_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.test_file_saving()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
 - *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 453](Community_453.md) (10 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
+- [Community 75](Community_75.md) (9 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 505](Community_505.md) (2 shared connections)
+- [Community 546](Community_546.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 150](Community_150.md) (1 shared connections)
+- [Community 237](Community_237.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 530](Community_530.md) (1 shared connections)
+- [Community 461](Community_461.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 84 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

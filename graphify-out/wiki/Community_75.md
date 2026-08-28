@@ -1,63 +1,65 @@
 # Community 75
 
-> 32 nodes · cohesion 0.10
+> 118 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **lookup/tests.py** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **lookup/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **IsNull** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **DecimalFieldLookupTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
-- **lookup/test_decimalfield.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
-- **TimeFieldLookupTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
-- **Season** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **IsNullWithNoneAsRHS** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Product** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Stock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **lookup/test_timefield.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
-- **Alarm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Game** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Tag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Freebie** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Player** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
-- **NulledTextField** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **.get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **The lookup API This demonstrates features of the database API.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **.test_gt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
-- *... and 7 more nodes in this community*
+- **ContentFile** (78 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **FileStorageTests** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **FileFieldStorageTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **Storage** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- **.getter()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **MemoryStorageTimesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **FileStoragePathParsing** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **._test_file_time_getter()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **ContentFileTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_extended_length_storage()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **._test_file_time_getter_tz_handling_off()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **._test_file_time_getter_tz_handling_on()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_custom_valid_name_callable_upload_to()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_save_broken_symlink()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_directory_times_changing_after_file_creation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.test_directory_times_changing_after_file_deletion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.test_file_accessed_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.test_file_created_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.test_file_modified_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **CustomStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **DiscardingFalseContentStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **._storage_max_filename_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_duplicate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_empty_upload_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- *... and 93 more nodes in this community*
 
 ## Relationships
 
-- [Community 167](Community_167.md) (14 shared connections)
-- [Community 34](Community_34.md) (13 shared connections)
-- [Community 15](Community_15.md) (10 shared connections)
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 26](Community_26.md) (5 shared connections)
-- [Community 68](Community_68.md) (4 shared connections)
-- [Community 27](Community_27.md) (3 shared connections)
-- [Community 40](Community_40.md) (3 shared connections)
-- [Community 326](Community_326.md) (2 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 180](Community_180.md) (1 shared connections)
+- [Community 279](Community_279.md) (9 shared connections)
+- [Community 65](Community_65.md) (9 shared connections)
+- [Community 224](Community_224.md) (8 shared connections)
+- [Community 174](Community_174.md) (6 shared connections)
+- [Community 241](Community_241.md) (6 shared connections)
+- [Community 505](Community_505.md) (4 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 150](Community_150.md) (4 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 268](Community_268.md) (2 shared connections)
+- [Community 206](Community_206.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 107 (88%)
-- INFERRED: 15 (12%)
+- EXTRACTED: 228 (95%)
+- INFERRED: 12 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

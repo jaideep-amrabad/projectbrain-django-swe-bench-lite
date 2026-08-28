@@ -4,60 +4,57 @@
 
 ## Key Concepts
 
-- **forms_tests/tests/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **forms_tests/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
-- **ModelForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **EmptyLabelTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **ModelFormMetaclass** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **ChoiceFieldForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **FormsModelTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **ModelFormCallableModelDefault** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **ModelFormInheritanceTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ChoiceModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
-- **ChoiceOptionModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
-- **EmptyIntegerLabelChoiceForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **ChoiceFieldExclusionForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **EmptyCharLabelChoiceForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **EmptyCharLabelNoneChoiceForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **OptionalMultiChoiceModelForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **RelatedModelFormTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **TestTicket14567** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **ChoiceFieldModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
-- **Defaults** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
-- **.test_html_rendering_of_prepopulated_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **FileForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **.test_unicode_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **Jinja2EmptyLabelTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **serializer.py** (51 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **BaseSerializer** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **serializer_factory()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DeconstructableSerializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **BaseSequenceSerializer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize_deconstructed()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **RangeSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- **BaseUnorderedSequenceSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **OperationSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **postgres/serializers.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- **BaseSimpleSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DatetimeDatetimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DateTimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **ModelFieldSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **ModelManagerSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **TypeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **ChoicesSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DecimalSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **._serialize_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DictionarySerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **EnumSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FloatSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FrozensetSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FunctionTypeSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
 - *... and 41 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 28](Community_28.md) (4 shared connections)
-- [Community 144](Community_144.md) (4 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 209](Community_209.md) (4 shared connections)
-- [Community 102](Community_102.md) (3 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- [Community 24](Community_24.md) (9 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 264](Community_264.md) (3 shared connections)
+- [Community 304](Community_304.md) (3 shared connections)
+- [Community 640](Community_640.md) (3 shared connections)
+- [Community 442](Community_442.md) (2 shared connections)
+- [Community 37](Community_37.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 125](Community_125.md) (2 shared connections)
+- [Community 815](Community_815.md) (1 shared connections)
+- [Community 1008](Community_1008.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 145 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 143 (97%)
+- INFERRED: 5 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

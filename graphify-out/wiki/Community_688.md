@@ -4,37 +4,36 @@
 
 ## Key Concepts
 
-- **NoYamlSerializerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **YamlImportModuleMock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_serializer_pyyaml_error_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_deserializer_pyyaml_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_dumpdata_pyyaml_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Provides a wrapped import_module function to simulate yaml ImportError In order…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Not having pyyaml installed provides a misleading error Refs: #12756** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Removes imported yaml and stubs importlib.import_module** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Puts yaml back if necessary** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Using yaml serializer without pyyaml raises ImportError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Using yaml deserializer without pyyaml raises ImportError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Calling dumpdata produces an error when yaml package missing** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **InclusionTagTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_no_render_side_effect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_render_context_is_cleared()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_15070_use_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.verify_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_inclusion_tag_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_inclusion_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_inclusion_tags_from_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_simple_tag_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_include_tag_missing_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_include_tag_missing_context_no_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_inclusion_tag_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **Inclusion tag passes down `use_l10n` of context to the Context of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **#23441 -- InclusionNode shouldn't modify its nodelist at render time.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **#24555 -- InclusionNode should push and pop the render_context stack when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 381](Community_381.md) (1 shared connections)
-- [Community 262](Community_262.md) (1 shared connections)
+- [Community 23](Community_23.md) (6 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 60](Community_60.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 25 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

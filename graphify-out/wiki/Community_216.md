@@ -1,64 +1,51 @@
 # Community 216
 
-> 28 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **RedirectView** (21 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.get()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **generic_urls.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/generic_urls.py`
-- **view_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **test_client/urls.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/urls.py`
-- **HttpResponseGone** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **BaseArticle** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **UrlArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **.get_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **DateArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.head()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.patch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.post()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.put()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **Provide a redirect on any GET request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **Return the URL redirect to. Keyword arguments from the URL pattern match…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **test_client/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/__init__.py`
-- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **Regression tests for Django built-in views.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **An abstract article Model so that we can create article models with and without…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- *... and 3 more nodes in this community*
+- **ModelInheritanceTests** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_update_parent_filtering()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_abstract_parent_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_init_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_set_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_abstract()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_create_copy_with_inherited_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_create_diamond_mti_common_parent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_create_diamond_mti_default_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_custompk_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_inherited_ordering_pk_desc()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_meta_fields_and_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_model_with_distinct_accessors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_model_with_distinct_related_query_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_queryset_class_getitem()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_reverse_relation_for_different_hierarchy_tree()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_shadow_parent_attribute_with_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_shadow_parent_method_with_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_shadow_parent_property_with_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **Updating a field of a model subclass doesn't issue an UPDATE query constrained…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Relationships
 
-- [Community 16](Community_16.md) (5 shared connections)
-- [Community 37](Community_37.md) (5 shared connections)
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 77](Community_77.md) (3 shared connections)
-- [Community 152](Community_152.md) (2 shared connections)
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 80](Community_80.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 646](Community_646.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 185](Community_185.md) (8 shared connections)
+- [Community 823](Community_823.md) (7 shared connections)
+- [Community 58](Community_58.md) (3 shared connections)
+- [Community 202](Community_202.md) (2 shared connections)
+- [Community 1006](Community_1006.md) (2 shared connections)
+- [Community 864](Community_864.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 994](Community_994.md) (1 shared connections)
+- [Community 735](Community_735.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/generic_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 28 (60%)
+- INFERRED: 19 (40%)
 - AMBIGUOUS: 0 (0%)
 
 ---

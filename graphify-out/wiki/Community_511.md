@@ -1,51 +1,55 @@
 # Community 511
 
-> 23 nodes · cohesion 0.13
+> 23 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **test_clickjacking.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **XFrameOptionsExemptTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **xframe_options_exempt()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- **XFrameOptionsDenyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **XFrameOptionsSameoriginTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **xframe_options_deny()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- **xframe_options_sameorigin()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- **decorators/clickjacking.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- **.test_decorator_stops_x_frame_options_being_set()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_exempt_decorator_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **Modify a view function so its response has the X-Frame-Options HTTP header set…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- **.test_decorator_sets_x_frame_options_to_deny()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_decorator_sets_x_frame_options_to_deny_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_decorator_sets_x_frame_options_to_sameorigin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_decorator_sets_x_frame_options_to_sameorigin_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **Modify a view function by setting a response variable that instructs…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- **@xframe_options_exempt instructs the XFrameOptionsMiddleware to NOT set the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **ChoicesMeta** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **enums.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **Choices** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **TextChoices** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **IntegerChoices** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Class for creating enumerated choices.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.labels()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.error_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **DynamicClassAttribute** (1 connections)
+- **int** (1 connections)
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.names()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.values()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **str** (1 connections)
+- **A metaclass for creating a enum choices.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **Use value when cast to str, so that Choices set as model instance attributes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **._generate_next_value_()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
 
 ## Relationships
 
-- [Community 83](Community_83.md) (7 shared connections)
-- [Community 133](Community_133.md) (5 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 152](Community_152.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 37](Community_37.md) (2 shared connections)
+- [Community 156](Community_156.md) (2 shared connections)
+- [Community 201](Community_201.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
+- [Community 350](Community_350.md) (1 shared connections)
+- [Community 152](Community_152.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 34 (85%)
+- INFERRED: 6 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

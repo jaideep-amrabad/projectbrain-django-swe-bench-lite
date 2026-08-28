@@ -1,25 +1,25 @@
 # Community 1042
 
-> 4 nodes · cohesion 0.50
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **class_or_instance_method** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **Hook used in RegisterLookupMixin to return partial functions depending on the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **SafeseqTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safeseq.py`
+- **setup** (2 connections)
+- **.test_safeseq01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safeseq.py`
+- **.test_safeseq02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safeseq.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safeseq.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

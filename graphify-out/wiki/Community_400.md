@@ -1,51 +1,53 @@
 # Community 400
 
-> 31 nodes · cohesion 0.06
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **BasicExtractorTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_pot_charset_header_is_utf8()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_use_i18n_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_extraction_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_makemessages_find_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_template_comments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_template_message_context_extractor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_comments_extractor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_context_in_single_quotes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_extraction_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_invalid_locale_end_with_underscore()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_invalid_locale_hyphen()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_invalid_locale_lower_country()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_invalid_locale_plus()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_invalid_locale_private_subtag()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_invalid_locale_start_with_underscore()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_invalid_locale_uppercase()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_no_option()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_special_char_extracted()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_unicode_decode_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_unicode_file_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_valid_locale()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_valid_locale_private_subtag()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_valid_locale_tachelhit_latin_morocco()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_valid_locale_with_country()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- *... and 6 more nodes in this community*
+- **BackendTestCase** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.create_squares()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.create_squares_with_executemany()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_executemany_with_pyformat_iterator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_queries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_execute_with_pyformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_executemany_with_iterator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_executemany_with_pyformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_database_operations_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_is_usable_after_database_disconnects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_queries_logger()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_contextmanager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_contextmanager_closing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_executemany_with_empty_params_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_database_operations_helper_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_duplicate_table_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_unicode_fetches()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cached_db_features()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_queries_bare_where()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_timezone_none_use_tz_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_unicode_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **patch** (1 connections)
+- **skipUnless** (1 connections)
+- **DatabaseOperations initialization doesn't query the database. See #17656.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 611](Community_611.md) (2 shared connections)
-- [Community 551](Community_551.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 14](Community_14.md) (6 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 208](Community_208.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 48 (91%)
+- INFERRED: 5 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

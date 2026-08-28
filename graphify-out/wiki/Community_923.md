@@ -1,36 +1,29 @@
 # Community 923
 
-> 13 nodes · cohesion 0.18
+> 7 nodes · cohesion 0.38
 
 ## Key Concepts
 
-- **CollationOperation** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **RemoveCollation** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.create_collation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.remove_collation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **AsyncUnsafeTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.dangerous_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_async_unsafe_suppressed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_async_unsafe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **async_to_sync** (1 connections)
+- **dict** (1 connections)
+- **async_unsafe decorator should work correctly and returns the correct message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
 
 ## Relationships
 
-- [Community 86](Community_86.md) (5 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 509](Community_509.md) (1 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

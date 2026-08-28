@@ -1,48 +1,48 @@
 # Community 501
 
-> 23 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **DefusedExpatParser** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **DTDForbidden** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **EntitiesForbidden** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **DefusedXmlException** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **ExternalReferenceForbidden** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.entity_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.external_entity_ref_handler()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.start_doctype_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.unparsed_entity_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **_ExpatParser** (1 connections)
-- **.reset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **An expat parser hardened against XML bomb attacks. Forbid DTDs, external entity…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Document type definition is forbidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Entity definition is forbidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Resolving an external reference is forbidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **FileTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_mac_newlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_windows_newlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_mode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_namedtemporaryfile_closes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_exclusive_lock()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_mixed_newlines()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_with_mac_newline_at_chunk_boundary()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_with_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_with_unix_newline_at_chunk_boundary()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_with_windows_newline_at_chunk_boundary()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_io_wrapper()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_open_reopens_closed_file_and_returns_context_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_open_resets_opened_file_to_start_and_returns_context_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_readable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_seekable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_shared_lock()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_unicode_file_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_writable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **#8149 - File objects with \r line endings should yield lines when iterated over.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **The symbol django.core.files.NamedTemporaryFile is assigned as a different…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **File objects should yield lines when iterated over. Refs #22107.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **#8149 - File objects with \r\n line endings should yield lines when iterated…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (6 shared connections)
-- [Community 669](Community_669.md) (2 shared connections)
-- [Community 407](Community_407.md) (1 shared connections)
-- [Community 909](Community_909.md) (1 shared connections)
+- [Community 150](Community_150.md) (3 shared connections)
+- [Community 241](Community_241.md) (2 shared connections)
+- [Community 177](Community_177.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 27 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

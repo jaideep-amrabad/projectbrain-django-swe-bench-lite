@@ -1,28 +1,25 @@
 # Community 1046
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **SubPostInline** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **PrePopulatedSubPost** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.get_prepopulated_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_readonly_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.test_alter_field_delete_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **RemoveField should absorb AlterField** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- [Community 88](Community_88.md) (2 shared connections)
-- [Community 79](Community_79.md) (1 shared connections)
+- [Community 132](Community_132.md) (1 shared connections)
+- [Community 662](Community_662.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (83%)
-- INFERRED: 1 (17%)
+- EXTRACTED: 3 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

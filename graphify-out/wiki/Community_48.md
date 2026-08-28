@@ -1,61 +1,64 @@
 # Community 48
 
-> 47 nodes · cohesion 0.10
+> 150 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **ExclusionConstraint** (56 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **ExclusionConstraintTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.get_constraints()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **OpClass** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **._test_range_overlaps()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_overlaps_custom()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_opclass_func()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_expressions_with_key_transform()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_opclass_condition()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_spgist_include_condition()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_spgist_opclass_include()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_repr()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_eq()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_expressions_with_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_gist_include_condition()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_gist_opclass_include()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_initially_deferred_with_condition()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_opclass()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_opclass_deferrable()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_spgist_include()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_spgist_include_deferrable()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_equal_cast()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_table_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_validate_with_custom_code_and_condition()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_deconstruct_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- *... and 22 more nodes in this community*
+- **QuerySet** (120 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._chain()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._not_support_combined_queries()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.annotate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.exclude()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.bulk_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.dates()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.datetimes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.get_or_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.order_by()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.query()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.update()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.alias()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._combinator_query()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.delete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._filter_or_exclude()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.get()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.last()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._merge_sanity_check()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.reverse()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__and__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._batched_insert()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._check_operator_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.complex_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.defer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- *... and 125 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (10 shared connections)
-- [Community 12](Community_12.md) (10 shared connections)
-- [Community 505](Community_505.md) (8 shared connections)
-- [Community 15](Community_15.md) (8 shared connections)
-- [Community 34](Community_34.md) (6 shared connections)
-- [Community 92](Community_92.md) (6 shared connections)
-- [Community 600](Community_600.md) (5 shared connections)
-- [Community 24](Community_24.md) (5 shared connections)
-- [Community 641](Community_641.md) (3 shared connections)
-- [Community 584](Community_584.md) (3 shared connections)
-- [Community 769](Community_769.md) (1 shared connections)
-- [Community 269](Community_269.md) (1 shared connections)
+- [Community 4](Community_4.md) (11 shared connections)
+- [Community 219](Community_219.md) (8 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 61](Community_61.md) (2 shared connections)
+- [Community 907](Community_907.md) (2 shared connections)
+- [Community 497](Community_497.md) (2 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 330](Community_330.md) (2 shared connections)
+- [Community 306](Community_306.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 171 (91%)
-- INFERRED: 16 (9%)
+- EXTRACTED: 256 (93%)
+- INFERRED: 20 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

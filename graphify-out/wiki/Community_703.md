@@ -1,50 +1,44 @@
 # Community 703
 
-> 25 nodes · cohesion 0.08
+> 14 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **FileTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_context_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_iteration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_iteration_mac_newlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_iteration_windows_newlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_mode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_namedtemporaryfile_closes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_exclusive_lock()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_iteration_mixed_newlines()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_iteration_with_mac_newline_at_chunk_boundary()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_iteration_with_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_iteration_with_unix_newline_at_chunk_boundary()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_iteration_with_windows_newline_at_chunk_boundary()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_io_wrapper()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_open_reopens_closed_file_and_returns_context_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_open_resets_opened_file_to_start_and_returns_context_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_readable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_seekable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_shared_lock()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_unicode_file_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_writable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **#8149 - File objects with \r line endings should yield lines when iterated over.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **The symbol django.core.files.NamedTemporaryFile is assigned as a different…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **File objects should yield lines when iterated over. Refs #22107.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **#8149 - File objects with \r\n line endings should yield lines when iterated…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **ChangelistTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_submit_row_save_as_new_add_permission_required()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **.get_user_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_view_user_password_is_readonly()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_user_change_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_user_change_password_passes_user_to_has_change_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_user_not_change()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **get_perm()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_changelist_disallows_password_lookups()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_bad_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_user_change_different_user_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **patch** (1 connections)
 
 ## Relationships
 
-- [Community 71](Community_71.md) (2 shared connections)
-- [Community 102](Community_102.md) (2 shared connections)
-- [Community 218](Community_218.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 12](Community_12.md) (8 shared connections)
+- [Community 73](Community_73.md) (5 shared connections)
+- [Community 277](Community_277.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 357](Community_357.md) (1 shared connections)
+- [Community 227](Community_227.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 320](Community_320.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 33 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,37 +1,37 @@
 # Community 774
 
-> 12 nodes · cohesion 0.24
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **DatabaseCreationTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_create_test_db()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_create_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.patch_execute_statements()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_oracle_managed_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **object** (3 connections)
-- **._execute_raise_insufficient_privileges()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._execute_raise_tablespace_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._execute_raise_user_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._test_database_passwd()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **patch** (1 connections)
-- **skipUnless** (1 connections)
+- **MyPerson** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Person** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **OtherPerson** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **StatusPerson** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ManagerMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.test_eq()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.has_special_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A simple concrete base class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A proxy subclass, this should not get a new table. Overrides the default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A class with the default manager from Person, plus a secondary manager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A non-proxy subclass of a proxy, it should get a new table.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 336](Community_336.md) (3 shared connections)
-- [Community 86](Community_86.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 655](Community_655.md) (8 shared connections)
+- [Community 592](Community_592.md) (5 shared connections)
+- [Community 336](Community_336.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (89%)
-- INFERRED: 3 (11%)
+- EXTRACTED: 26 (87%)
+- INFERRED: 4 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

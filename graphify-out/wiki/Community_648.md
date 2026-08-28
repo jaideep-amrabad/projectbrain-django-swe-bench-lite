@@ -1,60 +1,40 @@
 # Community 648
 
-> 28 nodes · cohesion 0.08
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Meta** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Tag** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ConditionalTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **OrderItem** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Cover** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **DateTimePK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Plaything** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **TestTicket24605** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ValuesSubqueryTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **LoopX** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **LoopZ** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **NullableName** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **RelatedIndividual** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ReverseJoinTrimmingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket_24605()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **LoopY** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_null_ordering_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_in_list_limit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_infinite_loop()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Tests whose execution depend on different environment conditions like Python…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- *... and 3 more nodes in this community*
+- **CharFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_length_not_int()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_strip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_clean_non_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_strip_before_checking_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_null_characters_prohibited()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **Values have whitespace stripped but not if strip=False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **A whitespace-only value, ' ', is stripped to an empty string and then converted…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **CharField.clean() calls str(value) before stripping it.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **Setting min_length or max_length to something that is not a number raises an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
 
 ## Relationships
 
-- [Community 101](Community_101.md) (24 shared connections)
-- [Community 204](Community_204.md) (11 shared connections)
-- [Community 12](Community_12.md) (5 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 480](Community_480.md) (3 shared connections)
-- [Community 333](Community_333.md) (3 shared connections)
-- [Community 380](Community_380.md) (2 shared connections)
-- [Community 439](Community_439.md) (2 shared connections)
-- [Community 514](Community_514.md) (2 shared connections)
-- [Community 495](Community_495.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 70 (70%)
-- INFERRED: 30 (30%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

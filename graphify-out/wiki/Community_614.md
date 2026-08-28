@@ -1,55 +1,42 @@
 # Community 614
 
-> 24 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Category** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **FieldOverridesByFormMetaForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **TestFieldOverridesByFormMeta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **CustomCleanTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **CustomWriterForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **IncompleteCategoryFormWithExclude** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **IncompleteCategoryFormWithFields** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ValidationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_save_blank_false_with_required_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_form_clean_applies_to_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_override_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **A form that replaces the model's url field with a custom one. This should…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_error_messages_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_field_type_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_help_text_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_label_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_widget_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_notrequired_overrides_notblank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_validates_with_replaced_field_excluded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_validates_with_replaced_field_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **Regression for #12596: Calling super from ModelForm.clean() should be optional.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Regression test for #12960. Make sure the cleaned_data returned from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **A ModelForm with a model with a field set to blank=False and the form field set…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **AbstractInheritanceTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **.test_diamond_shaped_multiple_inheritance_is_depth_first()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **.test_multiple_inheritance_allows_inherited_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **.test_target_field_may_be_pushed_down()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **.test_abstract_model_with_regular_python_mixin_mro()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **.test_cannot_override_indirect_abstract_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **.test_multi_inheritance_field_clashes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **.test_multiple_inheritance_cannot_shadow_concrete_inherited_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **.test_override_field_with_attr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **.test_override_one2one_relation_auto_field_clashes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **.test_overriding_field_removed_by_concrete_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **.test_reverse_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **.test_shadow_related_name_when_set_to_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **.test_shadowed_fkey_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **.test_single_parent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **Single layer multiple inheritance is as expected, deriving the inherited field…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **In contrast to standard Python MRO, resolution of inherited fields is strictly…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **Where the Child model needs to inherit a field from a different base than that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
 
 ## Relationships
 
-- [Community 144](Community_144.md) (13 shared connections)
-- [Community 370](Community_370.md) (4 shared connections)
-- [Community 462](Community_462.md) (2 shared connections)
-- [Community 379](Community_379.md) (2 shared connections)
-- [Community 259](Community_259.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 513](Community_513.md) (1 shared connections)
-- [Community 751](Community_751.md) (1 shared connections)
+- [Community 43](Community_43.md) (4 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (78%)
-- INFERRED: 13 (22%)
+- EXTRACTED: 21 (91%)
+- INFERRED: 2 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

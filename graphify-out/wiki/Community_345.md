@@ -1,47 +1,57 @@
 # Community 345
 
-> 25 nodes · cohesion 0.14
+> 37 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **AutoescapeTagTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **setup** (18 connections)
-- **.test_autoescape_filtertag01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_literals01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_lookup01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_stringiterations01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_filters01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_filters02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_invalid_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_no_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **The "safe" and "escape" filters cannot work due to internal implementation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **Literal strings are safe.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **Iterating over strings outputs safe characters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **Escape requirement survives lookup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **Literal string arguments to filters, if used in the result, are safe.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **managers_regress/tests.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **managers_regress/models.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **ManagersRegressionTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **AbstractBase1** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **AbstractBase3** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Child1** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Child2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Child3** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Child4** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **RelationModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **AbstractBase2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Child5** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **RelatedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Child6** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Child7** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Parent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **.get_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **OnlyBarney** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **OnlyFred** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **Value42** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (6 shared connections)
+- [Community 43](Community_43.md) (7 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 23](Community_23.md) (4 shared connections)
+- [Community 58](Community_58.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 801](Community_801.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 86 (85%)
+- INFERRED: 15 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

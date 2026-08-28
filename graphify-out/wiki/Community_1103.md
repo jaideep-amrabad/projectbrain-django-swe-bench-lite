@@ -1,24 +1,23 @@
 # Community 1103
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_proxy_custom_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_unmanaged_custom_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **#23415 - The autodetector must correctly deal with custom FK on proxy models.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **Circle4** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Relationships
 
-- [Community 25](Community_25.md) (4 shared connections)
+- [Community 364](Community_364.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

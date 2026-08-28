@@ -1,43 +1,48 @@
 # Community 662
 
-> 16 nodes · cohesion 0.12
+> 15 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **CsrfViewTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **.test_custom_template_does_not_exist()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **.test_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **.test_custom_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **.test_no_django_template_engine()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **.test_no_referer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **.test_template_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **.test_no_cookies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **A custom CSRF_FAILURE_TEMPLATE_NAME is used.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **An exception is raised if a nonexistent template is supplied.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **The template is loaded directly, not via a template loader, and should be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **An invalid request is rejected with a localized error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **Referer header is strictly checked for POST over HTTPS. Trigger the exception…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **The CSRF cookie is checked for POST. Failure to send this cookie should provide…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **The CSRF view doesn't depend on the TEMPLATES configuration (#24388).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **OptimizerTests** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **._test_alter_alter()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **._test_create_alter_foo_delete_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_index_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_owrt_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_table_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_unique_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_index_delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_owrt_delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_unique_delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_none_app_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **Tests the migration autodetector.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **CreateModel, AlterModelTable, AlterUniqueTogether/AlterIndexTogether/…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **Two AlterUniqueTogether/AlterIndexTogether/AlterOrderWithRespectTo /AlterField…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 292](Community_292.md) (3 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 588](Community_588.md) (1 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 294](Community_294.md) (1 shared connections)
+- [Community 132](Community_132.md) (17 shared connections)
+- [Community 795](Community_795.md) (8 shared connections)
+- [Community 790](Community_790.md) (6 shared connections)
+- [Community 944](Community_944.md) (4 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 1084](Community_1084.md) (1 shared connections)
+- [Community 1083](Community_1083.md) (1 shared connections)
+- [Community 1025](Community_1025.md) (1 shared connections)
+- [Community 1053](Community_1053.md) (1 shared connections)
+- [Community 1064](Community_1064.md) (1 shared connections)
+- [Community 1085](Community_1085.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 69 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

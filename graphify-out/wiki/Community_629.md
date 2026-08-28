@@ -1,51 +1,45 @@
 # Community 629
 
-> 17 nodes · cohesion 0.18
+> 17 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **basic/tests.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **basic/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **SelectOnSaveTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **ArticleSelectOnSave** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **ChildPrimaryKeyWithDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **PrimaryKeyWithDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **SelfRef** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **PrimaryKeyWithDbDefault** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **ConcurrentSaveTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **FeaturedArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **.test_concurrent_delete_with_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_select_on_save_lying_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **Bare-bones model This is a basic model with only two non-primary-key fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **Test fetching, deleting and finally saving an object - we should get an insert…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **select_on_save works correctly if the database doesn't return correct…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_select_on_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **InlinesCheckTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.assertIsInvalidRegexp()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **model_admin()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_get_paginator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_search_use_distinct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_missing_search_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_invalid_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_invalid_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_invalid_model_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_missing_model_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_not_correct_inline_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_not_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_not_model_admin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_valid_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **Searching across model relations use QuerySet.distinct() to avoid duplicates.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **Search results are paginated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **Same as assertIsInvalid but treats the given msg as a regexp.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (8 shared connections)
-- [Community 436](Community_436.md) (8 shared connections)
-- [Community 586](Community_586.md) (7 shared connections)
-- [Community 740](Community_740.md) (3 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 137](Community_137.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 460](Community_460.md) (1 shared connections)
-- [Community 1041](Community_1041.md) (1 shared connections)
+- [Community 32](Community_32.md) (10 shared connections)
+- [Community 251](Community_251.md) (4 shared connections)
+- [Community 90](Community_90.md) (1 shared connections)
+- [Community 657](Community_657.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (87%)
-- INFERRED: 9 (13%)
+- EXTRACTED: 31 (79%)
+- INFERRED: 8 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

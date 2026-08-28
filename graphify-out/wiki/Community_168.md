@@ -1,61 +1,56 @@
 # Community 168
 
-> 66 nodes · cohesion 0.05
+> 69 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **model_formsets/tests.py** (50 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **model_formsets/models.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **InlineFormsetTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **model_formsets/test_uuid.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **Author** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Book** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **AlternateBook** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **BookWithOptionalAltEditor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **MexicanRestaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Poem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Price** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Revision** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **AuthorMeeting** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **BetterAuthor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **BookWithCustomPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **ClassyMexicanRestaurant** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Owner** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **OwnerProfile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Product** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Repository** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **#24958 - Variant of test_inlineformset_factory_nulls_default_pks for the case…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- *... and 41 more nodes in this community*
+- **ConditionalGetMiddleware** (34 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- **ConditionalGetMiddlewareTest** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **GZipMiddleware** (24 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- **GZipMiddlewareTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.get_response()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.decompress()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **ETagGZipMiddlewareTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_etag_match()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_file_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_not_modified_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_strong_etag_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_weak_etag_not_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_async_streaming_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_non_200_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_streaming_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_streaming_response_unicode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_random_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_random_bytes_streaming_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.needs_etag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- **.test_if_modified_since_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_modified_since_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_none_match_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_none_match_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_etag_response_empty_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- *... and 44 more nodes in this community*
 
 ## Relationships
 
-- [Community 111](Community_111.md) (46 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
+- [Community 162](Community_162.md) (10 shared connections)
+- [Community 87](Community_87.md) (8 shared connections)
+- [Community 80](Community_80.md) (4 shared connections)
 - [Community 1](Community_1.md) (3 shared connections)
-- [Community 28](Community_28.md) (3 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 248](Community_248.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
-- [Community 598](Community_598.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 366](Community_366.md) (1 shared connections)
+- [Community 143](Community_143.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 154 (81%)
-- INFERRED: 35 (19%)
+- EXTRACTED: 134 (86%)
+- INFERRED: 22 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

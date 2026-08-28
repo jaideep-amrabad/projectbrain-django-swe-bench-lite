@@ -1,45 +1,55 @@
 # Community 571
 
-> 20 nodes · cohesion 0.21
+> 17 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **NestedForeignKeysTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **nested_foreign_keys/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **nested_foreign_keys/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- **DeeplyNestedForeignKeysTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **Event** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- **Screening** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- **Movie** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- **Package** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- **ScreeningNullFK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- **PackageNullFK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **.test_explicit_ForeignKey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **.test_explicit_ForeignKey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **.test_explicit_ForeignKey_NullFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **.test_inheritance_null_FK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
-- **.test_null_exclude()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **middleware/views.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **no_append_slash()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
+- **test_common.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
+- **NoAppendSlashTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
+- **decorators/common.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
+- **SensitiveCBV** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **middleware/extra_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/extra_urls.py`
+- **middleware/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/urls.py`
+- **sensitive_fbv()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **.test_no_append_slash_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
+- **.test_no_append_slash_decorator_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
+- **tests/middleware/__init__.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/__init__.py`
+- **empty_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **Mark a view function as excluded from CommonMiddleware's APPEND_SLASH…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
 
 ## Relationships
 
+- [Community 38](Community_38.md) (5 shared connections)
+- [Community 67](Community_67.md) (3 shared connections)
 - [Community 1](Community_1.md) (3 shared connections)
+- [Community 657](Community_657.md) (2 shared connections)
+- [Community 89](Community_89.md) (2 shared connections)
 - [Community 7](Community_7.md) (2 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 62](Community_62.md) (2 shared connections)
+- [Community 64](Community_64.md) (2 shared connections)
+- [Community 227](Community_227.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 143](Community_143.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/extra_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (74%)
-- INFERRED: 12 (26%)
+- EXTRACTED: 49 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

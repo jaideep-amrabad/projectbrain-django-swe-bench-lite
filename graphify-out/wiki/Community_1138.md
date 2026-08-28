@@ -1,28 +1,24 @@
 # Community 1138
 
-> 6 nodes · cohesion 0.40
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **multi_table.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **Parent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **Child** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **ParentManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- **.test_inheritance08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Three-level with one block defined on this level, two blocks defined next level** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 844](Community_844.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

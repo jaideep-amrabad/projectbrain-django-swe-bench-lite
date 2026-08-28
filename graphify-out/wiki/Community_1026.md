@@ -1,27 +1,29 @@
 # Community 1026
 
-> 5 nodes · cohesion 0.60
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **BuiltinsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
-- **setup** (3 connections)
-- **.test_builtins01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
-- **.test_builtins02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
-- **.test_builtins03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- **TestLoadFixtureFromOtherAppDirectory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Absolute** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **#23612 -- fixtures path should be normalized to allow referencing relative…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_fixtures_loaded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
+- [Community 364](Community_364.md) (3 shared connections)
+- [Community 195](Community_195.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (75%)
+- INFERRED: 2 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

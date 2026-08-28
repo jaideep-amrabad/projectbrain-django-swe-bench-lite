@@ -1,61 +1,54 @@
 # Community 439
 
-> 29 nodes · cohesion 0.07
+> 28 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **test_qs_combinators.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **Author** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **JoinReuseTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Number** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ReservedName** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **EmptyQuerySetTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Queries2Tests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_union_in_subquery()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **EscapingTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_union_with_values_list_and_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_fk_reuse_annotation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_disjunction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket4289()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_emptyqueryset_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket_19151()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_values_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket_7302()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_order_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_revfk_noreuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_revo2o_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- *... and 4 more nodes in this community*
+- **DispatcherTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.assertTestIsClean()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **dispatch/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **Callable** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **receiver_1_arg()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **garbage_collect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_cached_garbaged_collected()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_disconnection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_garbage_collected()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_multiple_registration()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_cannot_connect_no_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_cannot_connect_non_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_connected_no_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_different_no_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_robust_ignored_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_robust_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_values_returned_by_disconnection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_wrap_callable_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_has_listeners()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_robust_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_uid_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_no_receivers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_robust_no_receivers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 101](Community_101.md) (16 shared connections)
-- [Community 24](Community_24.md) (8 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 40](Community_40.md) (5 shared connections)
-- [Community 12](Community_12.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 204](Community_204.md) (3 shared connections)
-- [Community 648](Community_648.md) (2 shared connections)
-- [Community 480](Community_480.md) (2 shared connections)
-- [Community 440](Community_440.md) (2 shared connections)
-- [Community 468](Community_468.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
+- [Community 151](Community_151.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 202](Community_202.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (72%)
-- INFERRED: 27 (28%)
+- EXTRACTED: 61 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

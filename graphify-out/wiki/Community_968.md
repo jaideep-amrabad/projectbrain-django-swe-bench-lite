@@ -1,38 +1,27 @@
 # Community 968
 
-> 12 nodes · cohesion 0.23
+> 6 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **ResolutionOrderI18NTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.assertGettext()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **LocalePathsResolutionOrderI18NTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_app_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **TranslationFallbackI18NTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **AppResolutionOrderI18NTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **DjangoFallbackResolutionOrderI18NTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_sparse_territory_catalog()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_django_fallback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_locale_paths_override_app_translation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_locale_paths_translation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **Untranslated strings for territorial language variants use the translations of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **PluralizeTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.check_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_no_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_singular_and_plural_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **setup** (3 connections)
 
 ## Relationships
 
-- [Community 21](Community_21.md) (5 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
-- [Community 609](Community_609.md) (2 shared connections)
-- [Community 225](Community_225.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

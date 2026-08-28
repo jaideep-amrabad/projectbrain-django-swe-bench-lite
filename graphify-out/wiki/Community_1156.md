@@ -4,16 +4,17 @@
 
 ## Key Concepts
 
-- **.test_unique_together_no_changes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **unique_together doesn't generate a migration if no changes have been made.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_inheritance36()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Base template, putting block in a {% for %} tag** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 25](Community_25.md) (2 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 844](Community_844.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 

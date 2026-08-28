@@ -4,28 +4,29 @@
 
 ## Key Concepts
 
-- **ChoicesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_choices_from_enum()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_flatchoices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_invalid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **ClassDecoratedTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_max_recursion_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_method_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_setupclass_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **Settings are overridden within setUpClass (#21281).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **Overriding a method on a super class and then calling that method on the super…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Relationships
 
-- [Community 45](Community_45.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 387](Community_387.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (90%)
-- INFERRED: 1 (10%)
+- EXTRACTED: 11 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

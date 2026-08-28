@@ -1,25 +1,25 @@
 # Community 1085
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **initSidebarQuickFilter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
-- **nav_sidebar.js** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
-- **checkValue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
+- **.test_single()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **The optimizer does nothing on a single operation, and that it does it in just…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 132](Community_132.md) (1 shared connections)
+- [Community 662](Community_662.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (50%)
-- INFERRED: 1 (50%)
+- EXTRACTED: 3 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

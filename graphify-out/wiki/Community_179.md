@@ -1,59 +1,62 @@
 # Community 179
 
-> 62 nodes · cohesion 0.07
+> 52 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **_functions.py** (64 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **register()** (44 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_datetime_parse()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **sqlite/test_functions.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_functions.py`
-- **ListAggregate** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_time_trunc()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **typecast_timestamp()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **_sqlite_date_trunc()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_datetime_trunc()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **typecast_time()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_functions.py`
-- **_sqlite_format_dtdelta()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_timestamp_diff()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_datetime_cast_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_datetime_cast_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_datetime_extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_ln()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_log()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_prepare_dtdelta_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_time_diff()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_time_extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_acos()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_asin()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_atan()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_atan2()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- *... and 37 more nodes in this community*
+- **AdminSeleniumTestCase** (39 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **SeleniumTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.wait_until()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **SeleniumTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **.wait_page_loaded()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_page_ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **._assertOptionsValues()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_and_switch_to_popup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **LiveWidgetTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
+- **.assertSelectedOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.assertSelectOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_until_invisible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_until_visible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.test_add_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_add_stackeds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_formset_error_input_border()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inlines_verbose_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_textarea_trailing_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
+- **.admin_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.assertCountSeleniumElements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.has_css_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Assert that the <SELECT> widget identified by `selector` has the options with…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 283](Community_283.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 296](Community_296.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 341](Community_341.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 12](Community_12.md) (19 shared connections)
+- [Community 35](Community_35.md) (8 shared connections)
+- [Community 16](Community_16.md) (4 shared connections)
+- [Community 90](Community_90.md) (4 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 829](Community_829.md) (2 shared connections)
+- [Community 84](Community_84.md) (2 shared connections)
+- [Community 44](Community_44.md) (2 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 251](Community_251.md) (1 shared connections)
+- [Community 328](Community_328.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_functions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 104 (70%)
-- INFERRED: 44 (30%)
+- EXTRACTED: 109 (93%)
+- INFERRED: 8 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

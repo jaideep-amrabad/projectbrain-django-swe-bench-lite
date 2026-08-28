@@ -1,62 +1,60 @@
 # Community 116
 
-> 73 nodes · cohesion 0.05
+> 87 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **Paginator** (49 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **PaginationTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **paginator.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **pagination/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **ModelPaginationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **InvalidPage** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **EmptyPage** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **PageNotAnInteger** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.validate_number()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.get_page()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **pagination/custom.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **ValidAdjacentNumsPaginator** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **.page()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.check_paginator()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.count()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **UnorderedObjectListWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
-- **.check_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.get_elided_page_range()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.test_page_getitem()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_paginating_unordered_object_list_raises_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.check_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page_empty_object_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page_empty_object_list_and_allow_empty_first_page_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- *... and 48 more nodes in this community*
+- **CollectionTestCase** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **.run_collectstatic()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **DummyStorage** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **TestCollectionLinks** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestInteractiveMessages** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionClear** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionNonLocalStorage** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionOverwriteWarning** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionVerbosity** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionDryRun** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionFilesOverride** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionNoDefaultIgnore** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestConfiguration** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **._collectstatic_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionCustomIgnorePatterns** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_skips_newer_files_in_remote_storage()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_warning_when_clearing_staticdir()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_warning_when_overwriting_files_in_staticdir()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestNoFilesCreated** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionNoneHashStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestCollectionNoPostProcessReplacedPaths** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.run_collectstatic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **.test_handle_path_notimplemented()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionDryRunManifestStaticFilesStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- *... and 62 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (5 shared connections)
-- [Community 49](Community_49.md) (5 shared connections)
-- [Community 403](Community_403.md) (5 shared connections)
-- [Community 700](Community_700.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 137](Community_137.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 44](Community_44.md) (3 shared connections)
-- [Community 112](Community_112.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 1140](Community_1140.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
+- [Community 24](Community_24.md) (21 shared connections)
+- [Community 5](Community_5.md) (15 shared connections)
+- [Community 8](Community_8.md) (9 shared connections)
+- [Community 155](Community_155.md) (8 shared connections)
+- [Community 172](Community_172.md) (7 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 429](Community_429.md) (1 shared connections)
+- [Community 268](Community_268.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 369](Community_369.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 158 (89%)
-- INFERRED: 19 (11%)
+- EXTRACTED: 176 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

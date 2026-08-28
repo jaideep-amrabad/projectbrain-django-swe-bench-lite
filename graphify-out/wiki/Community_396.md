@@ -1,56 +1,54 @@
 # Community 396
 
-> 31 nodes · cohesion 0.09
+> 25 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **prefetch_related_objects()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **PrefetchRelatedObjectsTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **DirectPrefetchedObjectCacheReuseTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **normalize_prefetch_lookups()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **prefetch_one_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_m2m_then_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_prefetch_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_prefetch_object_to_attr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_prefetch_object_to_attr_twice()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_prefetch_object_twice()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_prefetch_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_detect_is_fetched()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **._prefetch_related_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_foreignkey_forward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_foreignkey_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_m2m_forward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_m2m_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_unknown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_add_clears_prefetched_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_detect_is_fetched_with_to_attr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_reverse_foreign_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_remove_clears_prefetched_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Normalize lookups into Prefetch objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Populate prefetched object caches for a list of model instances based on the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Helper function for prefetch_related_objects(). Run prefetches on all instances…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- *... and 6 more nodes in this community*
+- **NestedObjectsTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **NestedObjects** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **._connect()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **._check()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **._collect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_cyclic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_non_added_parent()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_siblings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_unrelated_roots()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_on_delete_do_nothing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_relation_on_abstract()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.add_edge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.can_fast_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.collect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **._nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.related_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **Collector** (1 connections)
+- **Return the graph as a nested list.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **We always want to load the objects into memory so that we can display them to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **Tests for ``NestedObject`` utility collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **The nested collector doesn't query for DO_NOTHING objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **NestedObjects.collect() doesn't trip (AttributeError) on the special notation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
 
 ## Relationships
 
-- [Community 128](Community_128.md) (12 shared connections)
-- [Community 309](Community_309.md) (8 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 342](Community_342.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 364](Community_364.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
+- [Community 36](Community_36.md) (7 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 313](Community_313.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 497](Community_497.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (89%)
-- INFERRED: 8 (11%)
+- EXTRACTED: 46 (85%)
+- INFERRED: 8 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

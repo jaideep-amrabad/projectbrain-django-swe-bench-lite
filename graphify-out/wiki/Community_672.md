@@ -1,39 +1,41 @@
 # Community 672
 
-> 15 nodes · cohesion 0.19
+> 15 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **DatabaseIntrospection** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.identifier_converter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_table_description()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_table_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_primary_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.data_types_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **Return a description of the table with the DB-API cursor.description interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **Identifier comparison is case insensitive under Oracle.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **unordered_list()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_list_gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested_generators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested_multiple2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_ulitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_ulitem_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **Recursively take a self-nested list and return an HTML unordered list --…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 268](Community_268.md) (1 shared connections)
-- [Community 624](Community_624.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 31 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

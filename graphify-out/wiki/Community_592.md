@@ -1,43 +1,53 @@
 # Community 592
 
-> 19 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **AbstractInheritanceTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **.test_virtual_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **.test_diamond_shaped_multiple_inheritance_is_depth_first()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **.test_multiple_inheritance_allows_inherited_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **.test_target_field_may_be_pushed_down()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **.test_abstract_model_with_regular_python_mixin_mro()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **.test_cannot_override_indirect_abstract_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **.test_multi_inheritance_field_clashes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **.test_multiple_inheritance_cannot_shadow_concrete_inherited_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **.test_override_field_with_attr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **.test_override_one2one_relation_auto_field_clashes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **.test_overriding_field_removed_by_concrete_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **.test_reverse_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **.test_shadow_related_name_when_set_to_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **.test_shadowed_fkey_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **.test_single_parent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **Single layer multiple inheritance is as expected, deriving the inherited field…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **In contrast to standard Python MRO, resolution of inherited fields is strictly…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **Where the Child model needs to inherit a field from a different base than that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- **proxy_models/models.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ProxyModelAdminTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **proxy_models/admin.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/admin.py`
+- **ProxyTrackerUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **TrackerUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **BaseUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.test_delete_str_in_model_admin()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **PersonManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **SubManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.test_cascade_delete_proxy_model_admin_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **proxy_models/urls.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/urls.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **By specifying the 'proxy' Meta attribute, model subclasses can specify that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **Test if admin gives warning about cascade deleting models referenced to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **Test if the admin delete page shows the correct string representation for a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
 
 ## Relationships
 
-- [Community 190](Community_190.md) (4 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
+- [Community 655](Community_655.md) (19 shared connections)
+- [Community 876](Community_876.md) (6 shared connections)
+- [Community 774](Community_774.md) (5 shared connections)
+- [Community 336](Community_336.md) (4 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 59 (88%)
+- INFERRED: 8 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

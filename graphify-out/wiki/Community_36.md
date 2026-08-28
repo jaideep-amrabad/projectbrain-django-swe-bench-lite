@@ -4,75 +4,70 @@
 
 ## Key Concepts
 
-- **ValidationError** (220 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **FormFieldAssertionsMixin** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
-- **field_tests/test_floatfield.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **MultipleChoiceField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **TypedMultipleChoiceField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **CharFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **IntegerFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- **field_tests/__init__.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
-- **field_tests/test_durationfield.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
-- **field_tests/test_imagefield.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **URLFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **field_tests/test_decimalfield.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
-- **test_urlfield.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **TypedMultipleChoiceFieldTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
-- **.clean()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **test_choicefield.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
-- **DurationFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
-- **EmailFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
-- **field_tests/test_timefield.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_timefield.py`
-- **field_tests/test_charfield.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **test_emailfield.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
-- **field_tests/test_integerfield.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- **NullBooleanFieldTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
-- **.validate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **field_tests/test_jsonfield.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **admin/utils.py** (68 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **admin_list.py** (57 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- **quote()** (49 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **helpers.py** (46 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **admin_utils/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **test_logentry.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **UtilsTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **display_for_field()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **admin_utils/models.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **actions.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/actions.py`
+- **test_adminsite.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
+- **admin_urls.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
+- **label_for_field()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **admin_utils/admin.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/admin.py`
+- **Article** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **InlineAdminForm** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **flatten_fieldsets()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **InlineAdminFormSet** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **display_for_value()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **items_for_result()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- **delete_selected()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/actions.py`
+- **AdminField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **_boolean_icon()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- **result_headers()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- **flatten()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
 - *... and 137 more nodes in this community*
 
 ## Relationships
 
-- [Community 28](Community_28.md) (33 shared connections)
-- [Community 0](Community_0.md) (31 shared connections)
-- [Community 4](Community_4.md) (26 shared connections)
-- [Community 63](Community_63.md) (21 shared connections)
-- [Community 70](Community_70.md) (19 shared connections)
-- [Community 26](Community_26.md) (16 shared connections)
-- [Community 7](Community_7.md) (8 shared connections)
-- [Community 82](Community_82.md) (7 shared connections)
-- [Community 209](Community_209.md) (6 shared connections)
-- [Community 102](Community_102.md) (6 shared connections)
-- [Community 233](Community_233.md) (5 shared connections)
-- [Community 85](Community_85.md) (5 shared connections)
+- [Community 37](Community_37.md) (35 shared connections)
+- [Community 657](Community_657.md) (22 shared connections)
+- [Community 1](Community_1.md) (17 shared connections)
+- [Community 52](Community_52.md) (16 shared connections)
+- [Community 15](Community_15.md) (15 shared connections)
+- [Community 21](Community_21.md) (13 shared connections)
+- [Community 6](Community_6.md) (13 shared connections)
+- [Community 18](Community_18.md) (11 shared connections)
+- [Community 320](Community_320.md) (11 shared connections)
+- [Community 313](Community_313.md) (9 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 43](Community_43.md) (9 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_timefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/actions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 523 (96%)
-- INFERRED: 22 (4%)
+- EXTRACTED: 561 (92%)
+- INFERRED: 51 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,60 +1,50 @@
 # Community 440
 
-> 31 nodes · cohesion 0.08
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ExcludeTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Queries5Tests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Staff** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Company** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **StaffUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Ticket20955Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Task** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **BaseUser** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Employment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Job** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_exclude_unsaved_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_filter_unsaved_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_queryset_reuse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket5261()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_exclude_m2m_through()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_to_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_extra_select_alias_sql_injection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- *... and 6 more nodes in this community*
+- **ListViewTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **._make_authors()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_list_view_returns_useful_message_on_invalid_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_custom_page_kwarg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_custom_paginator_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_custom_paginator_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_get_last_page_by_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_get_page_by_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_get_page_by_urlvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_invalid_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_list_view_does_not_load_entire_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_orphaned_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_page_out_of_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_allow_empty_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_duplicate_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_explicitly_ordered_list_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_invalid_get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_missing_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_non_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_queryset_shortdata()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 101](Community_101.md) (22 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 480](Community_480.md) (3 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 468](Community_468.md) (2 shared connections)
-- [Community 439](Community_439.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 648](Community_648.md) (1 shared connections)
-- [Community 467](Community_467.md) (1 shared connections)
+- [Community 61](Community_61.md) (5 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (66%)
-- INFERRED: 28 (34%)
+- EXTRACTED: 43 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

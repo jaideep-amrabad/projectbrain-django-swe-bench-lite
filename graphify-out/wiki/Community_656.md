@@ -1,45 +1,54 @@
 # Community 656
 
-> 16 nodes · cohesion 0.22
+> 16 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **GeographyTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- **geogapp/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **NamedModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **CityUnique** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **County** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **Zipcode** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **.test_geography_unique()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- **.test05_geography_layermapping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- **.test01_fixture_load()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- **Ensure geography features loaded properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- **Cast geography fields to geometry type when validating uniqueness to remove the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- **Testing LayerMapping support on models with geography fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **timezones/tests.py** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **timezones/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **timezones/forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **timezones/admin.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- **EventLocalizedModelForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **Timestamp** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **EventLocalizedForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **AllDayEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **Session** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **SessionEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **DailyEvent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **MaybeEvent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **timezones/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
+- **EventAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- **TimestampAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- **timezones/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (8 shared connections)
+- [Community 636](Community_636.md) (11 shared connections)
+- [Community 445](Community_445.md) (9 shared connections)
+- [Community 780](Community_780.md) (6 shared connections)
+- [Community 620](Community_620.md) (5 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 23](Community_23.md) (3 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
 - [Community 24](Community_24.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (85%)
-- INFERRED: 6 (15%)
+- EXTRACTED: 83 (86%)
+- INFERRED: 14 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

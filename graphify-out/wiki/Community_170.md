@@ -1,62 +1,61 @@
 # Community 170
 
-> 60 nodes · cohesion 0.04
+> 67 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **FileSystemStorage** (58 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.path()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **FileStoragePermissions** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **FileSaveRaceConditionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **._datetime_from_timestamp()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **._save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **ContentFileStorageTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_upload_default_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_upload_directory_default_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_upload_directory_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_upload_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **OverwritingStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **SlowFile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.get_accessed_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.get_created_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **.get_modified_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- **CallableStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- **CustomValidNameStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- **.test_content_saving()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **CustomStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **DiscardingFalseContentStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.save_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **FileSystemStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_lazy_base_url_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- *... and 35 more nodes in this community*
+- **constant_time_compare()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **.decode()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **BCryptSHA256PasswordHasher** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **PBKDF2PasswordHasher** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **MD5PasswordHasher** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **ScryptPasswordHasher** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **SHA1PasswordHasher** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **UnsaltedMD5PasswordHasher** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **UnsaltedSHA1PasswordHasher** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **mask_hash()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.encode()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **._check_encode_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **must_update_salt()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.must_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.harden_runtime()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.must_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- *... and 42 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (20 shared connections)
-- [Community 53](Community_53.md) (7 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 243](Community_243.md) (2 shared connections)
-- [Community 416](Community_416.md) (1 shared connections)
-- [Community 307](Community_307.md) (1 shared connections)
-- [Community 1137](Community_1137.md) (1 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
-- [Community 79](Community_79.md) (1 shared connections)
-- [Community 47](Community_47.md) (1 shared connections)
-- [Community 166](Community_166.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
+- [Community 147](Community_147.md) (23 shared connections)
+- [Community 338](Community_338.md) (13 shared connections)
+- [Community 579](Community_579.md) (4 shared connections)
+- [Community 84](Community_84.md) (3 shared connections)
+- [Community 65](Community_65.md) (3 shared connections)
+- [Community 80](Community_80.md) (2 shared connections)
+- [Community 271](Community_271.md) (1 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
+- [Community 358](Community_358.md) (1 shared connections)
+- [Community 263](Community_263.md) (1 shared connections)
+- [Community 49](Community_49.md) (1 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 124 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 154 (96%)
+- INFERRED: 7 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

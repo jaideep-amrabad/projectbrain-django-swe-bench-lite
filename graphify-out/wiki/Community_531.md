@@ -1,48 +1,50 @@
 # Community 531
 
-> 22 nodes · cohesion 0.12
+> 22 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **ChangepasswordManagementCommandTestCase** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **object** (9 connections)
-- **.test_password_validation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_system_username()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_that_changepassword_command_changes_joes_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_that_changepassword_command_works_with_nonascii_output()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_that_max_tries_exits_1()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_passing_stdin()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_that_changepassword_command_with_database_option_uses_given_db()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_get_pass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_get_pass_no_input()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_nonexistent_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **The system username is used if --username isn't provided.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **Executing the changepassword management command should change joe's password** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **A CommandError should be thrown by handle() if the user enters in mismatched…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **A CommandError should be raised if the user enters in passwords which fail…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **#21627 -- Executing the changepassword management command should allow non-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **changepassword --database should operate on the specified DB.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **You can pass a stdin object as an option and it should be available on…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.find_fixtures()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.load_label()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.loaddata()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.parse_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.reset_sequences()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.save_obj()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.fixture_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **humanize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.compression_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.find_fixture_files_in_dir()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.get_fixture_name_and_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.get_targets()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **A dict mapping format names to (open function, mode arg) tuples.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **Reset database sequences for the given connection and models.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **Save an object if permitted.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **Load fixtures files for a given label.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **Find fixture files for a given label.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **Return a list of fixture directories. The list contains the 'fixtures'…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **Split fixture name in name, serialization format, compression format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (10 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 155](Community_155.md) (1 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 266](Community_266.md) (2 shared connections)
+- [Community 209](Community_209.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 42 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

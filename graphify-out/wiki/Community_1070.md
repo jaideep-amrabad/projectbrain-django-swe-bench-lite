@@ -1,35 +1,26 @@
 # Community 1070
 
-> 9 nodes · cohesion 0.25
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **PostGISAdapter** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **.getquoted()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **.__conform__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **._fix_polygon()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **Does the given protocol conform to what Psycopg2 expects?** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **Return a properly quoted string for use in PostgreSQL/PostGIS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **TestValidation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_invalid_uuid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_uuid_instance_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 
 ## Relationships
 
-- [Community 318](Community_318.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 818](Community_818.md) (1 shared connections)
-- [Community 169](Community_169.md) (1 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (87%)
-- INFERRED: 2 (13%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

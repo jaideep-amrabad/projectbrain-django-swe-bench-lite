@@ -1,48 +1,50 @@
 # Community 533
 
-> 22 nodes · cohesion 0.10
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Meta** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Store** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Widget** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **NaturalKeyWithFKDependency** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **CommonFeature** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **NaturalKeyFixtureOnOtherDatabaseTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **WidgetProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Feature** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Plant** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **SpecialArticle** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.test_natural_key_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Natural keys with foreign keys in dependencies works in a multiple database…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **AddIndex** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AddConstraint** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.reduce()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **Add an index on a model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Relationships
 
-- [Community 355](Community_355.md) (20 shared connections)
-- [Community 183](Community_183.md) (4 shared connections)
-- [Community 390](Community_390.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 304](Community_304.md) (4 shared connections)
+- [Community 329](Community_329.md) (3 shared connections)
+- [Community 549](Community_549.md) (2 shared connections)
+- [Community 761](Community_761.md) (1 shared connections)
+- [Community 820](Community_820.md) (1 shared connections)
+- [Community 856](Community_856.md) (1 shared connections)
+- [Community 605](Community_605.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (84%)
-- INFERRED: 8 (16%)
+- EXTRACTED: 34 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,58 +1,55 @@
 # Community 265
 
-> 24 nodes · cohesion 0.08
+> 46 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **CreateModel** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **RemoveField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **field_references()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- **.test_manager_refer_correct_model_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.references_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **_check_for_duplicates()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.state_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **Remove a field from a model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **Create a model's table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **Return either False or a FieldReference if `field` references provided context.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- **#24147 - Managers refer to the correct version of a historical model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **SelectRelatedTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **select_related/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **select_related/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **SelectRelatedValidationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **Bookmark** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Domain** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Species** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **TaggedItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Family** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Genus** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **HybridSpecies** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Kingdom** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Klass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Order** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Phylum** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Pizza** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Running select_related() after calling values() raises a TypeError** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_access_fks_with_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_access_fks_without_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_certain_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_list_with_depth()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_list_with_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_more_certain_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_select_related_after_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_select_related_after_values_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Community 526](Community_526.md) (8 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 81](Community_81.md) (4 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 118](Community_118.md) (3 shared connections)
-- [Community 562](Community_562.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 702](Community_702.md) (2 shared connections)
-- [Community 673](Community_673.md) (1 shared connections)
-- [Community 474](Community_474.md) (1 shared connections)
+- [Community 43](Community_43.md) (7 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 542](Community_542.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (86%)
-- INFERRED: 8 (14%)
+- EXTRACTED: 74 (82%)
+- INFERRED: 16 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

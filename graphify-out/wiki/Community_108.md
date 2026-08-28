@@ -1,65 +1,63 @@
 # Community 108
 
-> 95 nodes · cohesion 0.03
+> 99 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **DateFormat** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **dateformat.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **make_aware()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **TimeFormat** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **get_default_timezone()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Feed** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.get_feed()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **is_naive()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **localtime()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **from_current_timezone()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **do_timezone()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **get_current_timezone()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **template_localtime()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **get_current_timezone_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.__call__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.r()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **localtime()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **utils/dates.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dates.py`
-- **._get_dynamic_attr()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **utc()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **time_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.P()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **_datetime_ambiguous_or_imaginary()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **get_default_timezone_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- *... and 70 more nodes in this community*
+- **LookupTests** (73 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **lookup/tests.py** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **lookup/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **IsNull** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **DecimalFieldLookupTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- **lookup/test_decimalfield.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **TimeFieldLookupTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
+- **Season** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **IsNullWithNoneAsRHS** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Product** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Stock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **lookup/test_timefield.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
+- **Alarm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Game** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Tag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Freebie** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Player** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **.test_regex_backreferencing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **NulledTextField** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **NulledTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- *... and 74 more nodes in this community*
 
 ## Relationships
 
-- [Community 23](Community_23.md) (22 shared connections)
-- [Community 35](Community_35.md) (8 shared connections)
-- [Community 49](Community_49.md) (7 shared connections)
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 28](Community_28.md) (4 shared connections)
-- [Community 163](Community_163.md) (4 shared connections)
-- [Community 65](Community_65.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 521](Community_521.md) (2 shared connections)
-- [Community 447](Community_447.md) (2 shared connections)
-- [Community 77](Community_77.md) (2 shared connections)
+- [Community 2](Community_2.md) (12 shared connections)
+- [Community 17](Community_17.md) (11 shared connections)
+- [Community 85](Community_85.md) (7 shared connections)
+- [Community 28](Community_28.md) (7 shared connections)
+- [Community 20](Community_20.md) (7 shared connections)
+- [Community 66](Community_66.md) (6 shared connections)
+- [Community 165](Community_165.md) (5 shared connections)
+- [Community 534](Community_534.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 30](Community_30.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dates.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 220 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 192 (90%)
+- INFERRED: 22 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

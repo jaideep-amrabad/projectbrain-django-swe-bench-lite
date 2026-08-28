@@ -1,58 +1,57 @@
 # Community 268
 
-> 38 nodes · cohesion 0.07
+> 45 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **BaseDatabaseIntrospection** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **SimpleDatabaseIntrospectionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
-- **.django_table_names()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_migratable_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_primary_key_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.identifier_converter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.installed_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.sequence_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.table_names()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_primary_key_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_sequences()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
-- **.get_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_table_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **DatabaseIntrospection** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **Return a set of all models represented by the provided list of table names.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **Return a list of information about all DB sequences for all models in all apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **Encapsulate backend-specific introspection utilities.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **Return a list of introspected sequences for table_name. Each sequence is a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **Return the name of the primary key column for the given table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- *... and 13 more nodes in this community*
+- **staticfiles_tests/storage.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **HashedFilesMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **ManifestStaticFilesStorage** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **ManifestFilesMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.post_process()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.hashed_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **PathNotImplementedStorage** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **StaticFilesStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.clean_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **._url()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.stored_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.file_hash()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.hash_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **._stored_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.save_manifest()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **NeverCopyRemoteStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **._path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.url_converter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.load_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **ExtraPatternsStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **NoneHashStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **SimpleStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 671](Community_671.md) (1 shared connections)
-- [Community 672](Community_672.md) (1 shared connections)
-- [Community 1006](Community_1006.md) (1 shared connections)
-- [Community 605](Community_605.md) (1 shared connections)
-- [Community 334](Community_334.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
+- [Community 24](Community_24.md) (10 shared connections)
+- [Community 21](Community_21.md) (3 shared connections)
+- [Community 65](Community_65.md) (3 shared connections)
+- [Community 75](Community_75.md) (2 shared connections)
+- [Community 224](Community_224.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 150](Community_150.md) (1 shared connections)
+- [Community 116](Community_116.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 88 (94%)
+- INFERRED: 6 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

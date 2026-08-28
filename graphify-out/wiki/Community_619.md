@@ -1,40 +1,42 @@
 # Community 619
 
-> 18 nodes · cohesion 0.18
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Person** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **TestInspectMethods** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **test_inspect.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_func_accepts_kwargs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_func_accepts_var_args_has_var_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_func_accepts_var_args_no_var_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_func_supports_parameter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_get_callable_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_get_func_full_args_all_arguments_classmethod()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_get_func_full_args_all_arguments_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_get_func_full_args_no_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_get_func_full_args_one_argument()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.test_method_has_no_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.all_kinds()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.cls_all_kinds()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.just_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.no_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
-- **.one_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **AssertFormErrorTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **TestForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **._get_cleaned_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_unbound_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.clean_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_different_non_field_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_empty_errors_invalid_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_empty_errors_valid_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_empty_errors_valid_form_non_field_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_error_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_field_not_in_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_field_with_different_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_field_with_no_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_non_field_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_single_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 137](Community_137.md) (1 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 930](Community_930.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

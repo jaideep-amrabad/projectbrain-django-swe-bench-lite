@@ -1,56 +1,47 @@
 # Community 450
 
-> 27 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **MigrationTestBase** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.get_table_description()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.temporary_migration_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **._get_column_allows_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **._get_column_collation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **._get_table_comment()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertColumnCollation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertColumnExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertColumnNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertColumnNotNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertColumnNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertConstraintExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertConstraintNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertFKExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertFKNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertIndexExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertIndexNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertTableComment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertTableCommentNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertIndexNameExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertIndexNameNotExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertTableExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertTableNotExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertUniqueConstraintExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- *... and 2 more nodes in this community*
+- **Round** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **RoundTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_decimal_with_precision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_float_with_precision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_unsupported_negative_precision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_decimal_with_negative_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_float_with_negative_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_integer_with_negative_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_integer_with_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_null_with_negative_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_null_with_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.as_sqlite()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **._resolve_output_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 42](Community_42.md) (3 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 247](Community_247.md) (1 shared connections)
-- [Community 602](Community_602.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 374](Community_374.md) (1 shared connections)
-- [Community 262](Community_262.md) (1 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 107](Community_107.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 85](Community_85.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 44 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

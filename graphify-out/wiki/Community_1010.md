@@ -1,27 +1,26 @@
 # Community 1010
 
-> 5 nodes · cohesion 0.60
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **not_installed/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
-- **M2MRelatedModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
-- **NotInstalledModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
-- **RelatedModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
+- **.postgis_proj_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.proj_version_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Return the version of the PROJ library used with PostGIS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Return the version of PROJ used by PostGIS as a tuple of the major, minor, and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 564](Community_564.md) (2 shared connections)
+- [Community 723](Community_723.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

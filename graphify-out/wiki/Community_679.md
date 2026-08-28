@@ -1,38 +1,39 @@
 # Community 679
 
-> 15 nodes · cohesion 0.25
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **ServerSideCursorsPostgres** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.assertUsesCursor()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_server_side_cursors_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.asserNotUsesCursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.inspect_cursors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.override_db_setting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_closed_server_side_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_server_side_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_server_side_cursor_many_cursors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_values_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_values_list_fields_not_equal_to_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_values_list_flat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **skipUnless** (1 connections)
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **FileAndImageFieldTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **TextFileForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_file_field_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_filefield_required_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_clean_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_clean_false_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_custom_file_field_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_file_path_field_blank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_render_empty_file_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **If the ``clean`` method on a non-required FileField receives False as the data…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **If the ``clean`` method on a required FileField receives False as the data, it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Regression for #11149: save_form_data should be called only once** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **FilePathField(blank=True) includes the empty option.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 159](Community_159.md) (6 shared connections)
+- [Community 241](Community_241.md) (6 shared connections)
+- [Community 441](Community_441.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 743](Community_743.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 23 (79%)
+- INFERRED: 6 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

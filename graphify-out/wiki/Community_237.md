@@ -1,55 +1,69 @@
 # Community 237
 
-> 49 nodes · cohesion 0.05
+> 63 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **BoundField** (32 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **BoundWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_widget()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.subwidgets()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_textarea()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.label_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_hidden()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.build_widget_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.legend_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.get_bound_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.css_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.is_hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.use_fieldset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **Return a string of HTML for representing this as an <input type="text">.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.get_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- *... and 24 more nodes in this community*
+- **encoding.py** (58 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **force_str()** (50 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **test_encoding.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **TestEncodingUtils** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **filepath_to_uri()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **repercent_broken_unicode()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **uri_to_iri()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **DjangoUnicodeDecodeError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **escape_uri_path()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **is_protected_type()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **smart_bytes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **smart_str()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **TestRFC3987IEncodingUtils** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **get_system_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
+- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- **.layer_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.units()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.test_force_bytes_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- **.test_force_str_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- *... and 38 more nodes in this community*
 
 ## Relationships
 
-- [Community 28](Community_28.md) (8 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 219](Community_219.md) (1 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 153](Community_153.md) (1 shared connections)
-- [Community 208](Community_208.md) (1 shared connections)
+- [Community 49](Community_49.md) (30 shared connections)
+- [Community 4](Community_4.md) (11 shared connections)
+- [Community 37](Community_37.md) (10 shared connections)
+- [Community 7](Community_7.md) (7 shared connections)
+- [Community 286](Community_286.md) (6 shared connections)
+- [Community 110](Community_110.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 118](Community_118.md) (3 shared connections)
+- [Community 36](Community_36.md) (3 shared connections)
+- [Community 214](Community_214.md) (3 shared connections)
+- [Community 182](Community_182.md) (2 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 205 (96%)
+- INFERRED: 9 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

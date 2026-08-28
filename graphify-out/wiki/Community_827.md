@@ -1,55 +1,33 @@
 # Community 827
 
-> 17 nodes · cohesion 0.16
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **middleware/views.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
-- **no_append_slash()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
-- **test_common.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
-- **NoAppendSlashTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
-- **decorators/common.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
-- **SensitiveCBV** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
-- **middleware/extra_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/extra_urls.py`
-- **middleware/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/urls.py`
-- **sensitive_fbv()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
-- **.test_no_append_slash_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
-- **.test_no_append_slash_decorator_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
-- **tests/middleware/__init__.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/__init__.py`
-- **empty_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
-- **Mark a view function as excluded from CommonMiddleware's APPEND_SLASH…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
+- **ListDisplayLinksCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_list_display_link_checked_for_list_tuple_if_get_list_display_overridden()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_list_display_links_check_skipped_if_get_list_display_overridden()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_missing_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_missing_in_list_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_None_is_valid_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_not_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.test_valid_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **list_display_links check is skipped if get_list_display() is overridden.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **list_display_links is checked for list/tuple/None even if get_list_display() is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (5 shared connections)
-- [Community 152](Community_152.md) (3 shared connections)
-- [Community 83](Community_83.md) (3 shared connections)
-- [Community 412](Community_412.md) (3 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 88](Community_88.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 37](Community_37.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 931](Community_931.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 77](Community_77.md) (1 shared connections)
+- [Community 32](Community_32.md) (10 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/extra_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

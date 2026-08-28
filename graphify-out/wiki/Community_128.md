@@ -1,61 +1,64 @@
 # Community 128
 
-> 78 nodes · cohesion 0.05
+> 96 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **prefetch_related/tests.py** (64 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **prefetch_related/models.py** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **GenericRelationTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Author** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Book** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Meta** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **MultiTableInheritanceTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **test_prefetch_related_objects.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **MultiDbTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Reader** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **ForeignKeyToFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **BookWithYear** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **RawQuerySetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **ReadPrefetchedObjectsCacheTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **TestDataMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **DefaultManagerTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **AuthorAddress** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **AuthorWithAge** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Bookmark** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **TaggedItem** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Teacher** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Ticket19607Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Ticket21410Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Comment** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **FavoriteAuthors** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- *... and 53 more nodes in this community*
+- **DateFormatTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
+- **DateFormat** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **dateformat.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **make_aware()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **get_default_timezone()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **test_dateformat.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
+- **is_naive()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **format()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **localtime()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **from_current_timezone()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
+- **do_timezone()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **get_current_timezone()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **template_localtime()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **get_current_timezone_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.test_datetime_with_tzinfo()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
+- **.r()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **make_naive()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.test_datetime_with_local_tzinfo()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
+- **localtime()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **utc()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **.d()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **_datetime_ambiguous_or_imaginary()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **get_default_timezone_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **_get_timezone_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- *... and 71 more nodes in this community*
 
 ## Relationships
 
-- [Community 364](Community_364.md) (16 shared connections)
-- [Community 309](Community_309.md) (14 shared connections)
-- [Community 396](Community_396.md) (12 shared connections)
-- [Community 7](Community_7.md) (11 shared connections)
-- [Community 1](Community_1.md) (11 shared connections)
-- [Community 358](Community_358.md) (8 shared connections)
-- [Community 190](Community_190.md) (5 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 461](Community_461.md) (2 shared connections)
-- [Community 985](Community_985.md) (2 shared connections)
+- [Community 66](Community_66.md) (22 shared connections)
+- [Community 2](Community_2.md) (14 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 536](Community_536.md) (5 shared connections)
+- [Community 80](Community_80.md) (5 shared connections)
+- [Community 475](Community_475.md) (5 shared connections)
+- [Community 55](Community_55.md) (5 shared connections)
+- [Community 37](Community_37.md) (4 shared connections)
+- [Community 15](Community_15.md) (4 shared connections)
+- [Community 661](Community_661.md) (3 shared connections)
+- [Community 473](Community_473.md) (3 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 193 (77%)
-- INFERRED: 59 (23%)
+- EXTRACTED: 222 (90%)
+- INFERRED: 24 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

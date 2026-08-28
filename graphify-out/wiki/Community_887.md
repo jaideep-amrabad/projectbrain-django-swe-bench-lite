@@ -1,35 +1,33 @@
 # Community 887
 
-> 8 nodes · cohesion 0.32
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **SiteManager** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **.get_current()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **._get_site_by_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **.clear_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **._get_site_by_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **Return the current Site based on the SITE_ID in the project's settings. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **Clear the ``Site`` object cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **to_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertFormError()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertFormsetError()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._assert_form_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **Assert that a field named "field" on the given form object has specific errors.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Similar to assertFormError() but for formsets. Use form_index=None to check the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Put value into a list if it's not already one.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 105](Community_105.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 663](Community_663.md) (1 shared connections)
-- [Community 77](Community_77.md) (1 shared connections)
-- [Community 83](Community_83.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 1030](Community_1030.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (87%)
-- INFERRED: 2 (13%)
+- EXTRACTED: 12 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

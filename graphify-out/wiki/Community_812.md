@@ -1,43 +1,32 @@
 # Community 812
 
-> 20 nodes · cohesion 0.15
+> 11 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **Asset** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **FormsMediaObjectTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **CSS** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **JS** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.absolute_path()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.__str__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.__str__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_combine_media()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_construction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_deduplication()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_simplest_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **Given a relative or absolute path to a static asset, return an absolute path.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **Media handling when media are objects instead of raw strings.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **TestRss2FeedWithDecoratedMethod** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **wraps_decorator()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestRss2FeedWithCallableObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TimeToLive** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.description()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.feed_copyright()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_title()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.title()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.categories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
 
 ## Relationships
 
-- [Community 35](Community_35.md) (8 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 190](Community_190.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,42 +1,34 @@
 # Community 832
 
-> 17 nodes · cohesion 0.12
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **SessionTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout_with_custom_auth_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout_with_custom_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Logout should send user_logged_out signal if user was logged in.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_login_with_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_login_without_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout_with_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout_without_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **The session isn't lost if a user logs in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Logout should work whether the user is logged in or not (#9978).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a logout after logging in with custom authentication backend** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Logout should send signal even if user not authenticated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Login should send user_logged_in signal on successful login.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Login shouldn't send signal if user wasn't logged in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_session_initiated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **DeleteViewTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_delete_by_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_delete_by_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_delete_with_form_as_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_delete_with_form_as_post_with_validation_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_delete_with_interpolated_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_delete_with_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_delete_with_special_properties()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_delete_without_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 230](Community_230.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 306](Community_306.md) (1 shared connections)
+- [Community 61](Community_61.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 12 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

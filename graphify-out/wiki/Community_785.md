@@ -1,47 +1,34 @@
 # Community 785
 
-> 20 nodes · cohesion 0.13
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **WKTAdapter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
-- **OracleSpatialAdapter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
-- **spatialite/adapter.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
-- **SpatiaLiteAdapter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
-- **base/adapter.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
-- **._fix_geometry_collection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
-- **._fix_polygon()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
-- **._polygon_must_be_fixed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
-- **An adaptor for Geometries sent to the MySQL and Oracle database backends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
-- **._fix_polygon()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
-- **Oracle requires that polygon rings are in proper orientation. This affects…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
-- **Fix single polygon orientation as described in __init__().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
-- **Fix polygon orientations in geometry collections as described in __init__().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
-- **SQLite adapter for geometry objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
-- **.__conform__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
+- **RelatedFieldWidgetWrapper** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_related_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **This class is a wrapper to a given widget to add the add icon for the admin…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.is_hidden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.media()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 
 ## Relationships
 
-- [Community 31](Community_31.md) (4 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 313](Community_313.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

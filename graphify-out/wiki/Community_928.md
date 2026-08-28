@@ -1,31 +1,27 @@
 # Community 928
 
-> 7 nodes · cohesion 0.43
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **slugify()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slugify.py`
-- **.test_slugify_lazy_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slugify.py`
-- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slugify.py`
-- **.test_slugify()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slugify.py`
-- **.test_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slugify.py`
-- **Convert to ASCII. Convert spaces to hyphens. Remove characters that aren't…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **lookuperror_a/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
+- **A1** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
+- **A2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
+- **A3** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
+- **A4** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
 
 ## Relationships
 
-- [Community 35](Community_35.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slugify.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_a/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,58 +1,49 @@
 # Community 509
 
-> 31 nodes · cohesion 0.07
+> 24 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Operation** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **TestOperation** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
-- **.references_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.allow_migrate_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.describe()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.migration_name_fragment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.state_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Return True if there is a chance this operation references the given model name…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Return whether or not a model may be migrated. This is a thin wrapper around…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Return either a list of operations the actual operation should be replaced with…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Return a 3-tuple of class import path (or just name if it lives under…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Base class for migration operations. It's responsible for both mutating the in-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Take the state from the previous migration, and mutate it so that it matches…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Perform the mutation on the database schema in the normal (forwards) direction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Perform the mutation on the database schema in the reverse direction - e.g. if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Output a brief summary of what the action does.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **A filename part suitable for automatically naming a migration containing this…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
-- *... and 6 more nodes in this community*
+- **unmanaged_models/models.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **unmanaged_models/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **Meta** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **SimpleTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **ManyToManyUnmanagedTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **A01** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **A02** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **B01** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **B02** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **C01** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **C02** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Unmanaged2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Managed1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Intermediate** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Proxy1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Proxy2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Unmanaged1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **.test_many_to_many_between_unmanaged()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **.test_many_to_many_between_unmanaged_and_managed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **Models can have a ``managed`` attribute, which specifies whether the SQL code…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **The intermediary table between two unmanaged models should not be created.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **An intermediary table between a managed and an unmanaged model should be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **The main test here is that the all the models can be created without any…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 562](Community_562.md) (4 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 532](Community_532.md) (2 shared connections)
-- [Community 154](Community_154.md) (1 shared connections)
-- [Community 923](Community_923.md) (1 shared connections)
-- [Community 826](Community_826.md) (1 shared connections)
-- [Community 526](Community_526.md) (1 shared connections)
-- [Community 563](Community_563.md) (1 shared connections)
-- [Community 702](Community_702.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 48 (86%)
+- INFERRED: 8 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,49 +1,34 @@
 # Community 803
 
-> 21 nodes · cohesion 0.11
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **StaticNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **PrefixNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.handle_simple()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **do_static()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **get_media_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **get_static_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.handle_simple()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.handle_token()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.handle_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **Class method to parse prefix node and return a Node.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **Join the given path with the STATIC_URL setting. Usage:: {% static path [as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **Populate a template variable with the static prefix, ``settings.STATIC_URL``.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **Populate a template variable with the media prefix, ``settings.MEDIA_URL``.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **TestCachedPathInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_copy_removes_direct_cached_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_deepcopy_removes_cached_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_equality()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_pickling_foreignobject()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_pickling_foreignobjectrel()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **The path_infos and reverse_path_infos attributes are equivalent to calling the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **Shallow copying a ForeignObject (or a ForeignObjectRel) removes the object's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **Deep copying a ForeignObject removes the object's cached PathInfo values,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **Pickling a ForeignObjectRel removes the path_infos attribute. ForeignObjectRel…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **Pickling a ForeignObject does not remove the cached PathInfo values.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
 
 ## Relationships
 
-- [Community 35](Community_35.md) (8 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 663](Community_663.md) (1 shared connections)
-- [Community 145](Community_145.md) (1 shared connections)
-- [Community 291](Community_291.md) (1 shared connections)
+- [Community 465](Community_465.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (90%)
-- INFERRED: 4 (10%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

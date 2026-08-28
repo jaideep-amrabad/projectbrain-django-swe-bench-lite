@@ -1,13 +1,12 @@
 # Community 1081
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **WriteToStdoutStderrTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
-- **tests_buffer.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
-- **.test_fail()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
-- **.test_pass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
+- **ProcessViewMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Relationships
 
@@ -15,11 +14,11 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

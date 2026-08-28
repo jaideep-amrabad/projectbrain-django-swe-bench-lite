@@ -1,27 +1,27 @@
 # Community 1029
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_view_with_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_view_with_login_when_sessions_app_is_not_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that is protected with @login_required** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_view_with_bad_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_view_with_force_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **BasicFormTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_late_form_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_post_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **A form can be marked invalid in the form_valid() method (#25548).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 
 ## Relationships
 
-- [Community 516](Community_516.md) (4 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

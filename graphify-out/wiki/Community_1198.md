@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_inheritance36()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Base template, putting block in a {% for %} tag** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_response_resolver_match_class_based_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **The response ResolverMatch instance can be used to access the CBV view class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 847](Community_847.md) (1 shared connections)
-- [Community 846](Community_846.md) (1 shared connections)
+- [Community 526](Community_526.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,24 +1,23 @@
 # Community 1098
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_dependency_sorting_m2m_complex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_m2m_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **M2M relations without explicit through models SHOULD count as dependencies…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **bad_function_based_error_handlers.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_function_based_error_handlers.py`
+- **bad_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_function_based_error_handlers.py`
 
 ## Relationships
 
-- [Community 355](Community_355.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_function_based_error_handlers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

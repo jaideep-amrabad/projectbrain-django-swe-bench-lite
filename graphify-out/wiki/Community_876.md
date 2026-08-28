@@ -4,29 +4,30 @@
 
 ## Key Concepts
 
-- **ValidationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **Choices** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_cleans_empty_string_when_blank_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_raises_error_on_empty_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_raises_error_on_empty_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_with_choices_cleans_valid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_with_choices_raises_error_on_invalid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_enum_choices_cleans_valid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_enum_choices_invalid_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **Issue** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ProxyBug** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Improvement** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ProxyProxyBug** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Bug** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Proxy of an inherited class** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A proxy of proxy model with related field** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A model that has relation to a proxy model or to a proxy of proxy model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Relationships
 
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 655](Community_655.md) (8 shared connections)
+- [Community 592](Community_592.md) (6 shared connections)
+- [Community 336](Community_336.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (78%)
+- INFERRED: 6 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,53 +1,64 @@
 # Community 226
 
-> 54 nodes · cohesion 0.05
+> 53 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **SyndicationFeedTest** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.assertChildNodeContent()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **rfc2822_date()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.test_rss2_feed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.assertChildNodes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_rss091_feed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.assertCategories()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_atom_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_feed_last_modified_time_naive_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_get_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_latest_post_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_rss2_feed_with_decorated_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_template_context_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_template_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.add_item_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Test if the 'isPermaLink' attribute of <guid> element of an item in the RSS…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_add_domain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_atom_feed_published_and_updated_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_aware_datetime_conversion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_custom_feed_generator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_feed_last_modified_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_feed_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_item_link_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_rss2_feed_guid_permalink_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_rss2_feed_guid_permalink_true()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- *... and 29 more nodes in this community*
+- **Coalesce** (44 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **Greatest** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **Least** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **GreatestTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- **LeastTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- **CoalesceTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.test_coalesce_workaround_mysql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- **.test_coalesce_workaround_mysql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- **.test_coalesced_empty_result_set()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
+- **.test_group_by_nested_expression_with_params()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
+- **.test_aggregation_order_by_not_selected_annotation_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
+- **.test_expression_on_aggregation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
+- **.test_mixed_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
+- **.test_coalesce_workaround()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- **.test_coalesce_workaround()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.test_multiple_aggregate_references()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
+- **.test_alias_annotation_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **.test_full_expression_wrapped_annotation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **.test_empty_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
+- **.test_ignores_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- **.test_propagates_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 139](Community_139.md) (5 shared connections)
-- [Community 332](Community_332.md) (4 shared connections)
-- [Community 444](Community_444.md) (3 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 2](Community_2.md) (21 shared connections)
+- [Community 9](Community_9.md) (15 shared connections)
+- [Community 17](Community_17.md) (5 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 66](Community_66.md) (4 shared connections)
+- [Community 175](Community_175.md) (3 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 30](Community_30.md) (3 shared connections)
+- [Community 79](Community_79.md) (3 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 109](Community_109.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 147 (92%)
+- INFERRED: 12 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

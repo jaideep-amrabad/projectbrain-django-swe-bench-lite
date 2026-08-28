@@ -1,73 +1,78 @@
 # Community 28
 
-> 180 nodes · cohesion 0.02
+> 235 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **django/forms/fields.py** (88 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **forms/models.py** (71 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **django/forms/widgets.py** (67 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **forms/utils.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **formsets.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **forms/forms.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **Field** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **boundfield.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__init__()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **Input** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **CharField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.to_python()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **SplitDateTimeWidget** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **get_default_renderer()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **CheckboxInput** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__init__()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **IntegerField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **HiddenInput** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **RenderableFormMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **SelectMultiple** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **FileField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **MultipleHiddenInput** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **RadioSelect** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **test_splitdatetimefield.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- *... and 155 more nodes in this community*
+- **skipUnlessDBFeature()** (559 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Point** (114 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **QuerySetSetOperationTests** (71 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **GISFunctionsTests** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
+- **DistanceFunctionsTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **Distance** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **DefaultTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
+- **QuerySetBitwiseOperationTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.assertNumbersEqual()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **GeoExpressionsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
+- **Ticket19102Tests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **DBArticle** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
+- **DatabaseSequenceTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
+- **CursorWrapperTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **.test_union()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
+- **.test_related_union_aggregate()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
+- **IndexesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- **._create_point()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **.tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **.z()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **_deferredSkip()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **DBDefaultsFunction** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
+- **.test_distance_function_raw_result()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **.test_distance_function_raw_result_d_lookup()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **.test_distance_geodetic()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- *... and 210 more nodes in this community*
 
 ## Relationships
 
-- [Community 36](Community_36.md) (33 shared connections)
-- [Community 0](Community_0.md) (23 shared connections)
-- [Community 63](Community_63.md) (21 shared connections)
-- [Community 219](Community_219.md) (18 shared connections)
-- [Community 153](Community_153.md) (16 shared connections)
-- [Community 192](Community_192.md) (16 shared connections)
-- [Community 35](Community_35.md) (15 shared connections)
-- [Community 163](Community_163.md) (12 shared connections)
-- [Community 215](Community_215.md) (12 shared connections)
-- [Community 165](Community_165.md) (10 shared connections)
-- [Community 23](Community_23.md) (9 shared connections)
-- [Community 4](Community_4.md) (9 shared connections)
+- [Community 57](Community_57.md) (59 shared connections)
+- [Community 202](Community_202.md) (38 shared connections)
+- [Community 139](Community_139.md) (37 shared connections)
+- [Community 46](Community_46.md) (35 shared connections)
+- [Community 100](Community_100.md) (26 shared connections)
+- [Community 63](Community_63.md) (25 shared connections)
+- [Community 17](Community_17.md) (22 shared connections)
+- [Community 112](Community_112.md) (21 shared connections)
+- [Community 210](Community_210.md) (20 shared connections)
+- [Community 2](Community_2.md) (19 shared connections)
+- [Community 14](Community_14.md) (16 shared connections)
+- [Community 160](Community_160.md) (16 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 644 (95%)
-- INFERRED: 36 (5%)
+- EXTRACTED: 1035 (95%)
+- INFERRED: 57 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

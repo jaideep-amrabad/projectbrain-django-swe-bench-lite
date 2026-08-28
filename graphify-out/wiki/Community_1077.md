@@ -1,32 +1,25 @@
 # Community 1077
 
-> 9 nodes · cohesion 0.22
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **InvalidCreateArgumentsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_with_invalid_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_with_invalid_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_multiple_invalid_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_property_attribute_without_setter_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_property_attribute_without_setter_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_update_or_create_with_invalid_create_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_update_or_create_with_invalid_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_update_or_create_with_invalid_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_view_with_force_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that is protected with…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 266](Community_266.md) (2 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 526](Community_526.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,28 +1,29 @@
 # Community 1057
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Record** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **.test_save_parent_after_assign()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **get_return_data_type()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.test_method_data_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **Return a somewhat-helpful data type given a function name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
 
 ## Relationships
 
-- [Community 591](Community_591.md) (4 shared connections)
-- [Community 421](Community_421.md) (3 shared connections)
+- [Community 457](Community_457.md) (1 shared connections)
+- [Community 198](Community_198.md) (1 shared connections)
+- [Community 433](Community_433.md) (1 shared connections)
+- [Community 483](Community_483.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (80%)
-- INFERRED: 2 (20%)
+- EXTRACTED: 6 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

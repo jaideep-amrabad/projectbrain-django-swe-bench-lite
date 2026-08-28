@@ -4,39 +4,40 @@
 
 ## Key Concepts
 
-- **BasicTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_swappable_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_swappable_user_bad_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_swappable_user_nonexistent_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_get_user_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_superuser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_user_no_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_user_verbose_names_translatable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_superuser_no_email_or_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_unicode_username()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **The alternate user setting must point to something in the format app.model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **The current user model must point to an installed model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Default User model verbose names are translatable (#19945)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Users can be created and can set their password** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Users can be created without an email** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Check the creation and properties of a superuser** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **The current user model can be retrieved** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **The current user model can be swapped out for another** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **DjangoAdminSettingsDirectory** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_setup_environ()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_setup_environ_custom_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_startapp_unicode_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: django-admin builtin commands succeed if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **A series of tests for django-admin when the settings file is in a directory.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: startapp creates the correct directory** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: startapp creates the correct directory with a custom template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **startapp creates the correct directory with Unicode characters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: django-admin builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: django-admin builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: django-admin builtin commands fail if settings file (from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: django-admin can't execute user commands unless settings are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 95](Community_95.md) (17 shared connections)
+- [Community 270](Community_270.md) (6 shared connections)
+- [Community 209](Community_209.md) (2 shared connections)
+- [Community 297](Community_297.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 45 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

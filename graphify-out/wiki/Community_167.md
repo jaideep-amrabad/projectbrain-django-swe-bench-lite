@@ -1,60 +1,65 @@
 # Community 167
 
-> 66 nodes · cohesion 0.03
+> 58 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **LookupTests** (73 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **.test_regex_backreferencing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_custom_field_none_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_custom_lookup_none_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_exact_booleanfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_exact_none_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_filter_by_reverse_related_field_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_in_bulk_distinct_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_in_bulk_lots_of_ids()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_in_bulk_multiple_distinct_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_in_bulk_non_unique_meta_constaint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_in_bulk_preserve_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_in_bulk_preserve_ordering_with_batch_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_lookup_collision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_lookup_date_as_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_nonfield_lookups()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_pattern_lookups_with_substr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_regex_non_ascii()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_regex_non_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- *... and 41 more nodes in this community*
+- **import_string()** (73 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **module_loading.py** (43 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **utils/log.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **handlers/base.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **files/uploadhandler.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **autodiscover_modules()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **test_module_loading.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **module_has_submodule()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **AutodiscoverModulesTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.create()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **ServerFormatter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **EggLoader** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **CustomLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_deep_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_shallow_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **configure_logging()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **LogFormattersTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_has_sumbodule_with_dotted_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_loader()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **load_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **.format()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **cached_import()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **DefaultLoader** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Community 75](Community_75.md) (14 shared connections)
-- [Community 24](Community_24.md) (6 shared connections)
-- [Community 23](Community_23.md) (5 shared connections)
-- [Community 40](Community_40.md) (4 shared connections)
-- [Community 68](Community_68.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 359](Community_359.md) (1 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
+- [Community 24](Community_24.md) (28 shared connections)
+- [Community 7](Community_7.md) (16 shared connections)
+- [Community 447](Community_447.md) (8 shared connections)
+- [Community 189](Community_189.md) (8 shared connections)
+- [Community 4](Community_4.md) (7 shared connections)
+- [Community 80](Community_80.md) (7 shared connections)
+- [Community 77](Community_77.md) (6 shared connections)
+- [Community 106](Community_106.md) (5 shared connections)
+- [Community 581](Community_581.md) (5 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 110](Community_110.md) (5 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (85%)
-- INFERRED: 16 (15%)
+- EXTRACTED: 264 (97%)
+- INFERRED: 8 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

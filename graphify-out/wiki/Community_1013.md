@@ -1,30 +1,28 @@
 # Community 1013
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **ManagerTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_manager_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_manager_method_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_manager_method_signature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **This test ensures that the correct set of methods from `QuerySet` are copied…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **._effective_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.test_effective_default_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
+- **Return a field's effective database default value.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **SchemaEditor.effective_default() shouldn't call callable defaults.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
 
 ## Relationships
 
-- [Community 460](Community_460.md) (2 shared connections)
-- [Community 629](Community_629.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 436](Community_436.md) (1 shared connections)
+- [Community 239](Community_239.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (78%)
-- INFERRED: 2 (22%)
+- EXTRACTED: 5 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

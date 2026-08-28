@@ -1,29 +1,29 @@
 # Community 956
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **TestArchive** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
-- **.test_extract_file_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
-- **skipIf** (1 connections)
-- **archive.extract() preserves file permissions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
-- **.test_extract_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **CustomQuerySet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **._optin_private_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.optout_public_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **._private_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.public_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 464](Community_464.md) (2 shared connections)
+- [Community 333](Community_333.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

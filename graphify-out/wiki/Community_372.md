@@ -1,57 +1,53 @@
 # Community 372
 
-> 33 nodes · cohesion 0.10
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **PasswordResetFormTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **PasswordResetForm** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.save()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.create_dummy_user()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.get_users()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.send_mail()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_inactive_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_save_html_email_template_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_save_plaintext_email()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **_unicode_ci_compare()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_cleaned_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_email_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_nonexistent_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_email_subject()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_invalid_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_preserve_username_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_unusable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_email_domain_unicode_collision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_email_domain_unicode_collision_nonexistent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_email_unicode_collision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_email_unicode_collision_nonexistent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Test the PasswordResetForm.save() method with no html_email_template_name…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Perform case-insensitive comparison of two identifiers, using the recommended…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Send a django.core.mail.EmailMultiAlternatives to `to_email`.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- *... and 8 more nodes in this community*
+- **ArchiveIndexViewTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **MonthArchiveViewTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **_make_books()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_date_list_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_aware_datetime_month_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_date_list_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_paginated_archive_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_paginated_archive_view_does_not_load_entire_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_previous_month_without_content()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_allow_empty_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_by_month()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_custom_sorting()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_custom_sorting_dec()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_template_suffix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_without_date_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_datetime_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_empty_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_no_duplicate_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_custom_month_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_datetime_month_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_month_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 82](Community_82.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 80](Community_80.md) (1 shared connections)
-- [Community 49](Community_49.md) (1 shared connections)
-- [Community 62](Community_62.md) (1 shared connections)
-- [Community 386](Community_386.md) (1 shared connections)
-- [Community 430](Community_430.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 61](Community_61.md) (10 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 485](Community_485.md) (1 shared connections)
+- [Community 610](Community_610.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 48 (91%)
+- INFERRED: 5 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

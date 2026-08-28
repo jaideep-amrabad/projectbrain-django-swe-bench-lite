@@ -1,39 +1,33 @@
 # Community 748
 
-> 13 nodes · cohesion 0.26
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **._run_makemessages()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertNotMsgId()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **IgnoredExtractorTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **JavaScriptExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_media_static_dirs_ignored()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_default_root_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_ignore_directory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_ignore_file_patterns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_ignore_subdirectory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_media_static_dirs_ignored()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_javascript_literals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Regression test for #23583.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Regression test for #23717.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **MySQLGISSchemaEditor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **._create_spatial_index_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.create_spatial_indexes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.column_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.create_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.remove_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.quote_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.skip_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **DatabaseSchemaEditor** (1 connections)
 
 ## Relationships
 
-- [Community 611](Community_611.md) (4 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 872](Community_872.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 551](Community_551.md) (1 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

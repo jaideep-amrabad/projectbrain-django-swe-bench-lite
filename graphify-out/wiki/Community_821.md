@@ -1,32 +1,32 @@
 # Community 821
 
-> 11 nodes · cohesion 0.31
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **ForceEscapeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **setup** (8 connections)
-- **.test_force_escape01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **.test_force_escape08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
-- **Force_escape is applied immediately. It can be used to provide double-escaping,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **RunPython** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **Run Python code in a context suitable for doing versioned ORM operations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.noop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.reversible()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
+- [Community 304](Community_304.md) (2 shared connections)
+- [Community 329](Community_329.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

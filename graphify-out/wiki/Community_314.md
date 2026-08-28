@@ -1,57 +1,54 @@
 # Community 314
 
-> 41 nodes · cohesion 0.08
+> 38 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **model_regress/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **ModelTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **model_regress/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **Worker** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **EvaluateMethodTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **Department** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **ModelFieldsCacheTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **Event** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **NonAutoPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **ModelValidationTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **Model1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **Model2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **Model3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **Party** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **.test_metaclass_can_access_attribute_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.test_timezones()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.test_model_with_evaluate_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.test_chained_fks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.test_get_next_prev_by_field_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.test_model_init_too_many_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.test_related_gte_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.test_related_lte_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.test_pk_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **Regression test for #10153: foreign key __gte lookups.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- *... and 16 more nodes in this community*
+- **Layer** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **._make_feature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.test_capability()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.geom_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.get_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.field_precisions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.field_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.field_widths()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **._get_spatial_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.num_feat()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.num_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **._set_spatial_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **Return the name of this layer in the Data Source.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **Return the number of features in the Layer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **Return the number of fields in the Layer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **Return the geometry type (OGRGeomType) of the Layer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **Return the Spatial Reference used in this Layer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 23](Community_23.md) (4 shared connections)
-- [Community 26](Community_26.md) (4 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 527](Community_527.md) (1 shared connections)
+- [Community 49](Community_49.md) (13 shared connections)
+- [Community 218](Community_218.md) (3 shared connections)
+- [Community 142](Community_142.md) (2 shared connections)
+- [Community 91](Community_91.md) (2 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 237](Community_237.md) (2 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 76 (85%)
-- INFERRED: 13 (15%)
+- EXTRACTED: 55 (86%)
+- INFERRED: 9 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

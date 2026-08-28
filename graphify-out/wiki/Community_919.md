@@ -1,32 +1,30 @@
 # Community 919
 
-> 7 nodes · cohesion 0.43
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **MIMEText** (7 connections)
-- **PythonGlobalState** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_7bit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_8bit_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_8bit_non_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_utf8()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Tests for #12422 -- Django smarts (#2472/#11212) with charset of utf-8 text…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **DecimalValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **Validate that the input does not exceed the maximum number of digits expected,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
 
 ## Relationships
 
-- [Community 129](Community_129.md) (2 shared connections)
-- [Community 455](Community_455.md) (1 shared connections)
-- [Community 405](Community_405.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 238](Community_238.md) (2 shared connections)
+- [Community 515](Community_515.md) (1 shared connections)
+- [Community 546](Community_546.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (57%)
-- INFERRED: 6 (43%)
+- EXTRACTED: 9 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

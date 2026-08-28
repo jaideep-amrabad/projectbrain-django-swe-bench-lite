@@ -1,27 +1,26 @@
 # Community 984
 
-> 6 nodes · cohesion 0.40
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **DummyArrayField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **DummyContinuousRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **SecretHideout** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **SuperSecretHideout** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Secret! Not registered with the admin!** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (2 shared connections)
+- [Community 76](Community_76.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

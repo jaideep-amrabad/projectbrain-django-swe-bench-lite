@@ -1,28 +1,26 @@
 # Community 1063
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **BachelorParty** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **AbstractEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **BirthdayParty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **MessyBachelorParty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Persona** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **A simple persona associated with accounts, to test inlining of related accounts…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 466](Community_466.md) (7 shared connections)
-- [Community 338](Community_338.md) (3 shared connections)
-- [Community 842](Community_842.md) (1 shared connections)
+- [Community 89](Community_89.md) (1 shared connections)
+- [Community 76](Community_76.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (79%)
-- INFERRED: 3 (21%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

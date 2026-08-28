@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **absolute_root.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/absolute_root.js`
+- **views_broken.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views_broken.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/absolute_root.js`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views_broken.py`
 
 ## Audit Trail
 

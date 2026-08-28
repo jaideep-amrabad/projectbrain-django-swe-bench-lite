@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Circle4** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.test_inherited_models_selects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **#24156 - Objects from child models where the parent's m2m field uses…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
 
 ## Relationships
 
-- [Community 355](Community_355.md) (1 shared connections)
+- [Community 419](Community_419.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
 
 ## Audit Trail
 

@@ -1,27 +1,29 @@
 # Community 998
 
-> 5 nodes · cohesion 0.80
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **theme.js** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
-- **cycleTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
-- **initTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
-- **setTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
-- **setupTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **TestComplexSettingOverride** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_complex_override_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **Regression test for #19031** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (88%)
-- INFERRED: 1 (12%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

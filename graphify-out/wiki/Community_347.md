@@ -1,59 +1,54 @@
 # Community 347
 
-> 45 nodes · cohesion 0.08
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **.login()** (48 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **LogoutTest** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **LoginTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.confirm_logged_out()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_security_check()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_security_check_https()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_login_session_without_hash_session_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_redirect_url_named_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_custom_redirect_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_named_redirect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_next_page_specified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_redirect_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_login_next_page_overrides_login_redirect_url_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_security_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_security_check_https()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_session_key_flushed_on_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_session_key_flushed_on_login_after_password_change()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_preserve_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_redirect_url_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_redirect_url_setting_allowed_hosts_unsafe_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_overridden_redirect_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_post()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_success_url_allowed_hosts_safe_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_success_url_allowed_hosts_same_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- *... and 20 more nodes in this community*
+- **WKBWriter** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **WKTWriter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **GEOSIOTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **setter** (5 connections)
+- **._handle_empty_point()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **wkt_w()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.test_empty_point_wkb()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test_empty_polygon_wkb()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.write()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.write_hex()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.test01_wktreader()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test02_wktwriter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test03_wkbreader()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test04_wkbwriter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test_wkt_writer_precision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **.test_wkt_writer_trim()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- **Return the WKT representation of the given geometry.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.outdim()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.srid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.outdim()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.trim()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 705](Community_705.md) (9 shared connections)
-- [Community 706](Community_706.md) (8 shared connections)
-- [Community 678](Community_678.md) (6 shared connections)
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 19](Community_19.md) (5 shared connections)
-- [Community 145](Community_145.md) (4 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 773](Community_773.md) (1 shared connections)
-- [Community 310](Community_310.md) (1 shared connections)
-- [Community 109](Community_109.md) (1 shared connections)
-- [Community 944](Community_944.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
+- [Community 57](Community_57.md) (15 shared connections)
+- [Community 25](Community_25.md) (5 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 34](Community_34.md) (3 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
 
 ## Audit Trail
 
-- EXTRACTED: 119 (94%)
-- INFERRED: 7 (6%)
+- EXTRACTED: 62 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

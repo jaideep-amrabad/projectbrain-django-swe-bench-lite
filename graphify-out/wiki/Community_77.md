@@ -1,63 +1,63 @@
 # Community 77
 
-> 126 nodes · cohesion 0.03
+> 51 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **generic/dates.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **generic/__init__.py** (44 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
-- **BaseDateListView** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_dated_items()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **_get_next_prev()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **generic_views/urls.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/urls.py`
-- **.get_dated_items()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_object()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **YearMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **MultipleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_dated_queryset()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_date_field()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **DateMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **MonthMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseDateDetailView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseDayArchiveView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **_date_from_string()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **DayMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **WeekMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_date_list()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_year()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseMonthArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseWeekArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- *... and 101 more nodes in this community*
+- **RemovedInDjango60Warning** (43 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **renderers.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **Jinja2** (20 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **jinja2.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **test_renderers.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **Jinja2** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **DjangoTemplates** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **BaseRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **DjangoDivFormRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **Jinja2DivFormRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **TemplatesSetting** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **DeprecationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **EngineMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.get_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **Template** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **Jinja2Tests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **SharedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **get_exception_info()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **Origin** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **BaseTemplateRendererTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **DjangoTemplatesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **TemplatesSettingTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **.backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 13](Community_13.md) (17 shared connections)
-- [Community 57](Community_57.md) (12 shared connections)
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 80](Community_80.md) (9 shared connections)
-- [Community 403](Community_403.md) (7 shared connections)
-- [Community 37](Community_37.md) (6 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
-- [Community 163](Community_163.md) (3 shared connections)
-- [Community 216](Community_216.md) (3 shared connections)
-- [Community 108](Community_108.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 152](Community_152.md) (2 shared connections)
+- [Community 1](Community_1.md) (14 shared connections)
+- [Community 16](Community_16.md) (9 shared connections)
+- [Community 4](Community_4.md) (8 shared connections)
+- [Community 167](Community_167.md) (6 shared connections)
+- [Community 461](Community_461.md) (6 shared connections)
+- [Community 65](Community_65.md) (5 shared connections)
+- [Community 37](Community_37.md) (5 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
+- [Community 930](Community_930.md) (4 shared connections)
+- [Community 156](Community_156.md) (3 shared connections)
+- [Community 357](Community_357.md) (3 shared connections)
+- [Community 97](Community_97.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 350 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 160 (79%)
+- INFERRED: 42 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

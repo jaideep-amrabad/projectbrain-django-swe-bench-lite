@@ -1,33 +1,33 @@
 # Community 863
 
-> 9 nodes · cohesion 0.36
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **urlizetrunc()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
-- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
-- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
-- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
-- **.test_overtruncate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
-- **.test_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
-- **.test_truncate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
-- **Convert URLs into clickable links, truncating URLs to the given character…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **DeconstructibleCustomManager** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **BaseCustomManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **CustomInitQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.test_deconstruct_from_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **.manager_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 35](Community_35.md) (3 shared connections)
+- [Community 464](Community_464.md) (4 shared connections)
+- [Community 333](Community_333.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

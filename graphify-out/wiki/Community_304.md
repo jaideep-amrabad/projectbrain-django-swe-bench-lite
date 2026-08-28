@@ -1,57 +1,64 @@
 # Community 304
 
-> 42 nodes · cohesion 0.05
+> 41 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **model_enums/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **ChoicesTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **CustomChoicesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_templates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_integerchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_textchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **Constants** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **Separator** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **Set** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **Suit** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **YearInSchool** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **bytes** (1 connections)
-- **float** (1 connections)
-- **.test_do_not_call_in_templates_member()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_integerchoices_auto_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_integerchoices_containment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_integerchoices_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_integerchoices_functional_api()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_invalid_definition()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_label_member()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_property_names_conflict_with_member_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_textchoices_auto_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_textchoices_blank_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_textchoices_containment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- *... and 17 more nodes in this community*
+- **operations/models.py** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **Operation** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **migrations/utils.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **operations/fields.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **resolve_relation()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **field_references()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **operations/base.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **IndexOperation** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **special.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **get_references()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **field_is_referenced()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **more_operations.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
+- **.references_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.allow_migrate_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.describe()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.migration_name_fragment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.state_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Return True if there is a chance this operation references the given model name…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.references_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 163](Community_163.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 359](Community_359.md) (1 shared connections)
+- [Community 4](Community_4.md) (14 shared connections)
+- [Community 243](Community_243.md) (13 shared connections)
+- [Community 329](Community_329.md) (9 shared connections)
+- [Community 24](Community_24.md) (8 shared connections)
+- [Community 135](Community_135.md) (5 shared connections)
+- [Community 699](Community_699.md) (4 shared connections)
+- [Community 533](Community_533.md) (4 shared connections)
+- [Community 45](Community_45.md) (4 shared connections)
+- [Community 301](Community_301.md) (3 shared connections)
+- [Community 166](Community_166.md) (3 shared connections)
+- [Community 538](Community_538.md) (3 shared connections)
+- [Community 820](Community_820.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 154 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

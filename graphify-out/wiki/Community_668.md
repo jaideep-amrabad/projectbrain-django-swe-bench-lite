@@ -1,38 +1,40 @@
 # Community 668
 
-> 15 nodes · cohesion 0.17
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **RedisCache** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.get_backend_timeout()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.add()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.set()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.set_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **._cache()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.delete_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.get_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.incr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **AssertQuerySetEqualTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_repeated_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_deprecated_assertquerysetequal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_maxdiff()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_flat_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_ordered()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_rename_assertquerysetequal_deprecation_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_repr_transform()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_transform()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_undefined_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_unordered()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **assertQuerySetEqual checks the number of appearance of each item when used with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 191](Community_191.md) (1 shared connections)
+- [Community 81](Community_81.md) (5 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 19 (83%)
+- INFERRED: 4 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

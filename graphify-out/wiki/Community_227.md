@@ -1,64 +1,64 @@
 # Community 227
 
-> 54 nodes · cohesion 0.05
+> 62 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **ModelAdminTests** (49 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **BandAdmin** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **AdminActionsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
-- **.test_no_distinct_for_m2m_in_list_filter_without_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_specified_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_specified_ordering_by_f_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- **.test_formfield_overrides_m2m_filter_widget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides_widget_instances()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_get_actions_respects_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
-- **.test_custom_form_meta_exclude()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_custom_form_meta_exclude_with_readonly()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_form_exclude_kwarg_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_formset_exclude_kwarg_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_lookup_allowed_allows_nonexistent_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_queryset_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_raw_id_fields_widget_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_regression_for_ticket_15820()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_actions_replace_global_action()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
-- **.test_global_actions_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_custom_form_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_custom_formfield_override_readonly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_default_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_default_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- *... and 29 more nodes in this community*
+- **display()** (28 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- **Article** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ArticleAdmin** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **AdminTemplateTagsTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **PostAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.test_submit_row()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **.get_urls()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ArticleAdminWithExtraUrl** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.test_override_change_form_template_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **.test_override_change_list_template_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **.test_override_show_save_and_add_another()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **.colored_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **CustomArticleAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **LinkInline** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.multiline_html()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **AdminOrderedModelMethod** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Link** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.age_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **.event_date_func()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **.test_from_model_with_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **ActorAdmin9** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **admin_ordered_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **AdminOrderedAdminMethodAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.some_admin_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ArticleAdmin6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [Community 44](Community_44.md) (10 shared connections)
-- [Community 22](Community_22.md) (9 shared connections)
-- [Community 38](Community_38.md) (5 shared connections)
-- [Community 478](Community_478.md) (4 shared connections)
-- [Community 146](Community_146.md) (4 shared connections)
-- [Community 141](Community_141.md) (2 shared connections)
-- [Community 387](Community_387.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 64](Community_64.md) (2 shared connections)
-- [Community 276](Community_276.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 89](Community_89.md) (19 shared connections)
+- [Community 52](Community_52.md) (8 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 76](Community_76.md) (3 shared connections)
+- [Community 39](Community_39.md) (2 shared connections)
+- [Community 36](Community_36.md) (2 shared connections)
+- [Community 93](Community_93.md) (2 shared connections)
+- [Community 357](Community_357.md) (2 shared connections)
+- [Community 657](Community_657.md) (1 shared connections)
+- [Community 169](Community_169.md) (1 shared connections)
+- [Community 571](Community_571.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
 
 ## Audit Trail
 
-- EXTRACTED: 77 (64%)
-- INFERRED: 43 (36%)
+- EXTRACTED: 115 (93%)
+- INFERRED: 8 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

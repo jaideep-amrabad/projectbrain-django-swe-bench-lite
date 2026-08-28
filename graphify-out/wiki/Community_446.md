@@ -1,64 +1,52 @@
 # Community 446
 
-> 32 nodes · cohesion 0.07
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **async_unsafe()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/asyncio.py`
-- **DatabaseWrapper** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **AsyncUnsafeTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **._close()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.close()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.dangerous_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_async_unsafe_suppressed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.clean_savepoints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.create_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.get_new_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.chunked_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.get_new_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.is_in_memory_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._start_transaction_under_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.test_async_unsafe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **Close the connection to the database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Reset the counter used to generate unique savepoint ids in this thread.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.create_cursor()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.disable_constraint_checking()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.enable_constraint_checking()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.get_database_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._savepoint_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- *... and 7 more nodes in this community*
+- **UpdateOnlyFieldsTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **update_only_fields/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **update_only_fields/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Employee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **ProxyEmployee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Account** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **NonConcreteField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Profile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **.get_attname_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **.test_empty_update_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_num_queries_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_select_related_only_interaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_basic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_deferred()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_fk_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_incorrect_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_inheritance_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_inheritance_with_proxy_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_only_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_only_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 89](Community_89.md) (12 shared connections)
-- [Community 0](Community_0.md) (11 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 418](Community_418.md) (2 shared connections)
-- [Community 199](Community_199.md) (2 shared connections)
-- [Community 624](Community_624.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 1011](Community_1011.md) (1 shared connections)
-- [Community 525](Community_525.md) (1 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 829](Community_829.md) (1 shared connections)
-- [Community 605](Community_605.md) (1 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/asyncio.py`
-- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (91%)
-- INFERRED: 7 (9%)
+- EXTRACTED: 40 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,33 +1,33 @@
 # Community 883
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **URLEscapingTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_argument_with_space_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_argument_with_space_post()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_simple_argument_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_simple_argument_post()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Get a view that has a simple string argument** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Get a view that has a string argument that requires escaping** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Post for a view that has a simple string argument** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Post for a view that has a string argument that requires escaping** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **test_gis_tests_utils.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **FuncTestMixinTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **test_mutation()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **.test_mutated_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **.test_mutated_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **.test_mutated_expression_deep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **.test_mutated_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **.test_not_mutated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
 
 ## Relationships
 
-- [Community 19](Community_19.md) (4 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 230](Community_230.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 63](Community_63.md) (2 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

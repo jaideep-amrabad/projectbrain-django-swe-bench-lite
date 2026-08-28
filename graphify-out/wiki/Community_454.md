@@ -1,52 +1,50 @@
 # Community 454
 
-> 27 nodes · cohesion 0.10
+> 27 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **SetLanguageTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **._get_inactive_language_code()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_decodes_http_referer_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_default_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_doesnt_perform_a_default_redirect_for_ajax()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_doesnt_perform_a_redirect_to_referer_for_ajax()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_http_next()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_performs_redirect_for_ajax_if_explicitly_requested()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_redirect_to_referer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_unsafe_next()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_unsafe_next_for_ajax()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_lang_from_translated_i18n_pattern()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_reversal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view redirects to '/' when there isn't a referer or "next"…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view redirects to the "next" parameter for requests not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view doesn't redirect to the HTTP referer header if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view returns 204 by default for requests not accepting HTML…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The fallback to root URL for the set_language view works for requests not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view decodes the HTTP_REFERER URL and preserves an encoded…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **Test the django.views.i18n.set_language view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **Return language code for a language which is not activated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view can be used to change the session language. The user is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view only redirects to the 'next' argument if it is "safe".** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view only redirects to the 'next' argument if it is "safe" and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **schema/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Meta** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Thing** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Author** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorCharFieldWithIndex** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorTextFieldWithIndex** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithDefaultHeight** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithEvenLongerName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithIndexedName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithUniqueName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithUniqueNameAndBirthday** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Book** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookForeignObj** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWeak** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWithLongName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWithO2O** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWithoutAuthor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWithSlug** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **IntegerPK** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Node** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Note** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **NoteRename** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Tag** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **TagM2MTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **TagUniqueRename** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
 - *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 543](Community_543.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 225](Community_225.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 53 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,54 +1,49 @@
 # Community 185
 
-> 62 nodes · cohesion 0.04
+> 19 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **data.py** (68 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **BaseModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **AbstractBaseModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **Anchor** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **Tag** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **ExplicitInheritBaseModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **GenericData** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **InheritAbstractModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **InheritBaseModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **LengthModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **This is a model that can be used as something for other models to point at** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **UniqueAnchor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **AutoNowDateTimeData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **BigIntegerData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **BinaryData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **BooleanData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **BooleanPKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **CharData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **CharPKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **DateData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **DatePKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **DateTimeData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **DateTimePKData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **DecimalData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- *... and 37 more nodes in this community*
+- **model_inheritance/models.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Place** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Restaurant** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **CommonInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **ItalianRestaurant** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **ItalianRestaurantCommonParent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Student** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Attachment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **ParkingLot** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Worker** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Rating** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.test_eq()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **Comment** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Link** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **NamedURL** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **XX. Model inheritance Model inheritance exists in two varieties: - abstract…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **# NOTE: The actual API tests for the following classes are in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
 
 ## Relationships
 
-- [Community 190](Community_190.md) (4 shared connections)
-- [Community 381](Community_381.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 1109](Community_1109.md) (1 shared connections)
+- [Community 823](Community_823.md) (17 shared connections)
+- [Community 216](Community_216.md) (8 shared connections)
+- [Community 864](Community_864.md) (5 shared connections)
+- [Community 994](Community_994.md) (4 shared connections)
+- [Community 560](Community_560.md) (4 shared connections)
+- [Community 1006](Community_1006.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 65 (86%)
+- INFERRED: 11 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

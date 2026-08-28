@@ -1,29 +1,23 @@
 # Community 1118
 
-> 7 nodes · cohesion 0.29
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **SimpleTagRegistrationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_simple_tag()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_simple_tag_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_simple_tag_name_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_simple_tag_parens()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_simple_tag_wrapped()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.test_loaddata_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **Loading a fixture which contains an invalid object outputs an error message…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 677](Community_677.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

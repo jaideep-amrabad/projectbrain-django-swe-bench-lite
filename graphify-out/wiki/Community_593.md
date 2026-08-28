@@ -1,49 +1,40 @@
 # Community 593
 
-> 19 nodes · cohesion 0.19
+> 16 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **one_to_one/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **one_to_one/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **MultiModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Director** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **ManualPrimaryKey** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **RelatedModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **School** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Waiter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.test_multiple_o2o()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Bar** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **HiddenPointer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Pointer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Target** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **ToFieldPointer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.test_hasattr_related_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Pointer2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **One-to-one relationships To define a one-to-one relationship, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **SessionStore** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **.cycle_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **._get_session_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **.load()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **To create a new key, set the modified flag so that the cookie is set on the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **To save, get the session key as a securely signed string and then set the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **This method makes sense when you're talking to a shared resource, but it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **To delete, clear the session key and the underlying data structure and set the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **Keep the same data but with a new key. Call save() and it will automatically…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **Instead of generating a random string, generate a secure url-safe…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **Load the data from the key itself instead of fetching from some external data…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **.clear_expired()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
 
 ## Relationships
 
-- [Community 423](Community_423.md) (14 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 687](Community_687.md) (4 shared connections)
-- [Community 1066](Community_1066.md) (2 shared connections)
-- [Community 1067](Community_1067.md) (2 shared connections)
-- [Community 1108](Community_1108.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 412](Community_412.md) (2 shared connections)
+- [Community 187](Community_187.md) (1 shared connections)
+- [Community 810](Community_810.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (83%)
-- INFERRED: 11 (17%)
+- EXTRACTED: 21 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

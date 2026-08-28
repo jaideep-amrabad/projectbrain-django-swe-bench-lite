@@ -1,23 +1,23 @@
 # Community 1008
 
-> 5 nodes · cohesion 0.40
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **Section** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.name_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple section that links to articles, to test linking to related items in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A property that simply returns the name. Used to test #24461** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **RegexObject** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
 
 ## Relationships
 
-- [Community 88](Community_88.md) (1 shared connections)
-- [Community 79](Community_79.md) (1 shared connections)
+- [Community 135](Community_135.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 166](Community_166.md) (1 shared connections)
+- [Community 304](Community_304.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
 
 ## Audit Trail
 

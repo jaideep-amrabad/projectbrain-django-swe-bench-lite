@@ -1,37 +1,26 @@
 # Community 1014
 
-> 11 nodes · cohesion 0.24
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **RouterAttributeErrorTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **AttributeErrorRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **The AttributeError from AttributeErrorRouter bubbles up** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_attribute_error_save()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.override_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_attribute_error_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_attribute_error_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_attribute_error_read()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.db_for_read()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.db_for_write()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **A router to test the exception handling of ConnectionRouter** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Villain** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **SuperVillain** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 315](Community_315.md) (4 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 1064](Community_1064.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 89](Community_89.md) (2 shared connections)
+- [Community 76](Community_76.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 6 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

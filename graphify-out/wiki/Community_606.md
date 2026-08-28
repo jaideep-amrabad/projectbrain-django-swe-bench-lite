@@ -1,58 +1,47 @@
 # Community 606
 
-> 56 nodes · cohesion 0.05
+> 18 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Parser** (21 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **template_tests/test_base.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **FilterExpression** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.parse()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **Lexer** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **DebugLexer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.error()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **ParserTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
-- **.create_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **LexerTestMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.test_repr()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
-- **.tokenize()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.compile_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.invalid_block_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.unclosed_block_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **DebugLexerTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **LexerTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **VariableTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.test_filter_args_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
-- **._tag_re_split()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.resolve()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.tokenize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.extend_nodelist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.next_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.skip_past()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- *... and 31 more nodes in this community*
+- **RemoteTestResult** (33 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.check_picklable()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addSubTest()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.check_subtest_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._confirm_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addSubTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addExpectedFailure()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._print_unpicklable_subtest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Extend unittest.TestResult to record events in the child processes so they can…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Confirm that obj can be pickled and unpickled as multiprocessing will need to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addSkip()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addSuccess()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addUnexpectedSuccess()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._exc_info_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.startTestRun()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.stopTestRun()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (30 shared connections)
-- [Community 4](Community_4.md) (7 shared connections)
-- [Community 10](Community_10.md) (6 shared connections)
-- [Community 163](Community_163.md) (3 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 145](Community_145.md) (1 shared connections)
-- [Community 271](Community_271.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 778](Community_778.md) (9 shared connections)
+- [Community 890](Community_890.md) (5 shared connections)
+- [Community 891](Community_891.md) (3 shared connections)
+- [Community 1005](Community_1005.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 732](Community_732.md) (1 shared connections)
+- [Community 1089](Community_1089.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 128 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 44 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

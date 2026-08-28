@@ -1,36 +1,28 @@
 # Community 721
 
-> 14 nodes · cohesion 0.25
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **LengthIsTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
-- **setup** (12 connections)
-- **.test_length_is_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
-- **.test_length_is01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
-- **.test_length_is02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
-- **.test_length_is03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
-- **.test_length_is04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
-- **.test_length_is05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
-- **.test_length_is06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
-- **.test_length_is07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
-- **.test_length_is08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
-- **.test_length_is09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
-- **.test_length_is10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
-- **.test_length_is11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **DecoratorsTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_user_passes_test_composition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **Built-in decorators set certain attributes of the wrapped function.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **The user_passes_test decorator can be applied multiple times (#9474).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 257](Community_257.md) (1 shared connections)
+- [Community 959](Community_959.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

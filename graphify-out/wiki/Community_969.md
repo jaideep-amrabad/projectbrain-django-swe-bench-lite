@@ -1,32 +1,28 @@
 # Community 969
 
-> 6 nodes · cohesion 0.47
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **timeuntil_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_explicit_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_no_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_until_now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **Format a date as the time until that date (i.e. "4 days, 6 hours").** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **I18nGetLanguageInfoTagTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info.py`
+- **setup** (4 connections)
+- **.test_i18n28_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info.py`
+- **.test_i18n29()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info.py`
+- **.test_i18n38()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info.py`
+- **.test_no_for_as()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 163](Community_163.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

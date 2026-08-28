@@ -1,32 +1,32 @@
 # Community 921
 
-> 7 nodes · cohesion 0.38
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **NumericPasswordValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **NumericPasswordValidatorTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.get_help_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **Validate that the password is not entirely numeric.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.contribute_to_class()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **camel_case_to_spaces()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **._format_names_with_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **App label/class name interpolation for object names.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **Split CamelCase and convert to lowercase. Strip surrounding whitespace.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
+- [Community 181](Community_181.md) (2 shared connections)
+- [Community 761](Community_761.md) (1 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

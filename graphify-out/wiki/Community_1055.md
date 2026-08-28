@@ -1,27 +1,25 @@
 # Community 1055
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **MultipleLocaleExtractionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_all_locales()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_multiple_locales()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **When the `locale` flag is absent, all dirs from the parent locale dir are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **initSidebarQuickFilter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
+- **nav_sidebar.js** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
+- **checkValue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 611](Community_611.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 1 (50%)
+- INFERRED: 1 (50%)
 - AMBIGUOUS: 0 (0%)
 
 ---

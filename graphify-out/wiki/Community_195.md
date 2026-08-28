@@ -1,56 +1,55 @@
 # Community 195
 
-> 20 nodes · cohesion 0.13
+> 62 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **action()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- **delete_selected()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/actions.py`
-- **MessageTestingAdmin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **SiteActionsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
-- **external_mail()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **no_perm()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **redirect_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.test_get_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
-- **.message_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_extra_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.test_disable_action()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
-- **Default action which deletes the selected objects. This action first displays a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/actions.py`
-- **Conveniently add attributes to an action function:: @admin.action(…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- **AdminSite.get_action() returns an action even if it's disabled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
-- **.test_add_action()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
+- **TestFixtures** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Animal** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.test_loaddata_forward_refs_split_fixtures()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dumpdata_uses_default_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_duplicate_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_fixture_dirs_with_default_fixture_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_fixture_dirs_with_default_fixture_path_as_pathlib()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_fixture_dirs_with_duplicates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_loaddata_works_when_fixture_has_forward_refs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_pretty_print_xml()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_pretty_print_xml_empty_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_relative_path_in_fixture_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_unimportable_serializer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Regression test for ticket #4558 -- pretty printing of XML fixtures doesn't…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Test for ticket #4371 -- Loading a fixture file with invalid data using…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **settings.FIXTURE_DIRS cannot contain a default fixtures directory for…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_absolute_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_close_connection_after_loaddata()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_field_value_coerce()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_fixtures_dir_pathlib()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_invalid_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_invalid_data_no_ext()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_loaddata_no_fixture_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (6 shared connections)
-- [Community 88](Community_88.md) (4 shared connections)
-- [Community 296](Community_296.md) (3 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 330](Community_330.md) (1 shared connections)
-- [Community 325](Community_325.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 129](Community_129.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 5](Community_5.md) (8 shared connections)
+- [Community 364](Community_364.md) (6 shared connections)
+- [Community 539](Community_539.md) (4 shared connections)
+- [Community 28](Community_28.md) (3 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1026](Community_1026.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/actions.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (86%)
-- INFERRED: 7 (14%)
+- EXTRACTED: 82 (90%)
+- INFERRED: 9 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

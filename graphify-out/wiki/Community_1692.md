@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **source_map_trailing_whitespace.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/source_map_trailing_whitespace.js`
+- **bad_module.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/bad_module.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/source_map_trailing_whitespace.js`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/bad_module.py`
 
 ## Audit Trail
 

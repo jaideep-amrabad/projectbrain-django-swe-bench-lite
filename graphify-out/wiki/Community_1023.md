@@ -1,24 +1,24 @@
 # Community 1023
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **TestComplexSettingOverride** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_complex_override_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **Regression test for #19031** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **MultiDatabaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
+- **.test_add_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
+- **patch** (1 connections)
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
 
 ## Audit Trail
 

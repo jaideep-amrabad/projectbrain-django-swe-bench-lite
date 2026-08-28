@@ -1,28 +1,28 @@
 # Community 978
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **DecimalFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_bad_values_of_max_digits_and_decimal_places()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_decimal_places_greater_than_max_digits()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_negative_max_digits_and_decimal_places()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_required_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_valid_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **check_async_unsafe()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/async_checks.py`
+- **.test_allowed_async_unsafe_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
+- **.test_no_allowed_async_unsafe()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
+- **dict** (2 connections)
+- **register** (1 connections)
 
 ## Relationships
 
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/async_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

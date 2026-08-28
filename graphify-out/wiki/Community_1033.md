@@ -4,23 +4,25 @@
 
 ## Key Concepts
 
-- **DjangoRangeDumper** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **RangeDumper** (1 connections)
-- **.upgrade()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **A Range dumper customized for Django.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.test_reverse_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 652](Community_652.md) (3 shared connections)
+- [Community 419](Community_419.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (89%)
+- INFERRED: 1 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,26 +1,25 @@
 # Community 1082
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **ParallelTestRunnerTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.test_subtest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **End-to-end tests of the parallel test runner. These tests are only meaningful…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **Passing subtests work.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **debugtags.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/templatetags/debugtags.py`
+- **go_boom()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/templatetags/debugtags.py`
+- **simple_tag** (1 connections)
 
 ## Relationships
 
-- [Community 124](Community_124.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/templatetags/debugtags.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

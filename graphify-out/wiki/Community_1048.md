@@ -4,25 +4,24 @@
 
 ## Key Concepts
 
-- **SimpleDatabaseClientTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
-- **.test_runshell_use_environ()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
-- **.test_settings_to_cmd_args_env()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
+- **.test_logout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_logout_cookie_sessions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_logout_with_force_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a logout after logging in** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 95](Community_95.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
+- [Community 526](Community_526.md) (3 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

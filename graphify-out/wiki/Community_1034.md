@@ -4,23 +4,25 @@
 
 ## Key Concepts
 
-- **calendar.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
-- **calendarMonth()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
-- **Calendar()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
-- **onClick()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
+- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Record** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.test_save_parent_after_assign()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 590](Community_590.md) (4 shared connections)
+- [Community 425](Community_425.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (80%)
+- INFERRED: 2 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

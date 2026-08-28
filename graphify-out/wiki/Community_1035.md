@@ -4,23 +4,25 @@
 
 ## Key Concepts
 
-- **.metadata()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
-- **setter** (1 connections)
-- **Return the metadata for this raster or band. The return value is a nested…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
-- **Set the metadata. Update only the domains that are contained in the value…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
+- **BachelorParty** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **AbstractEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **BirthdayParty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **MessyBachelorParty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
 
 ## Relationships
 
-- [Community 117](Community_117.md) (1 shared connections)
+- [Community 470](Community_470.md) (7 shared connections)
+- [Community 335](Community_335.md) (3 shared connections)
+- [Community 838](Community_838.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (79%)
+- INFERRED: 3 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

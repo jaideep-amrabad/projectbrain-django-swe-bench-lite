@@ -1,51 +1,60 @@
 # Community 493
 
-> 25 nodes · cohesion 0.08
+> 24 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **FormsMediaTestCase** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_form_media()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_merge_js_three_way()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_multi_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_add_css_deduplication()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_add_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_add_js_deduplication()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_combine_media()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_construction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_html_safe()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_deduplication()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_dsl()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_inheritance_extends()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_inheritance_from_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_inheritance_single_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_property_parent_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_merge()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_merge_css_three_way()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_merge_js_three_way2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_merge_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_multi_media()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **Tests for the media handling on widgets and forms** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **The relative order of scripts is preserved in a three-way merge.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **BaseAdminDocsView** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.get_default()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- **.get_context_data()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **._get_view_func()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **GetDefaultTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
+- **get_mod_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
+- **ModelDetailView** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **TemplateDetailView** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **TemplateFilterIndexView** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **TemplateTagIndexView** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **ViewDetailView** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **ModelIndexView** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.get_context_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.get_context_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.get_context_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.test_multiple_engines_configured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
+- **.test_no_engines_configured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
+- **.test_single_engine_configured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
+- **.dispatch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **BookmarkletsView** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **Base view for admindocs views.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **Return the first DjangoTemplates backend that's configured, or raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
+- [Community 433](Community_433.md) (11 shared connections)
+- [Community 60](Community_60.md) (5 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 457](Community_457.md) (2 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 169](Community_169.md) (1 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
-- [Community 153](Community_153.md) (1 shared connections)
+- [Community 461](Community_461.md) (1 shared connections)
+- [Community 447](Community_447.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 64 (91%)
+- INFERRED: 6 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

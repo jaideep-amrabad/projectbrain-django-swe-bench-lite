@@ -1,31 +1,28 @@
 # Community 994
 
-> 6 nodes · cohesion 0.47
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **SkippingTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_skip_if_db_feature()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_skip_unless_db_feature()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **._assert_skipping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Testing the django.test.skipIfDBFeature decorator.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Testing the django.test.skipUnlessDBFeature decorator.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **CommonChild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **CommonAncestor** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **FirstParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **SecondParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 185](Community_185.md) (4 shared connections)
+- [Community 823](Community_823.md) (1 shared connections)
+- [Community 216](Community_216.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (90%)
+- INFERRED: 1 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

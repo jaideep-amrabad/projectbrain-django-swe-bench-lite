@@ -1,62 +1,60 @@
 # Community 348
 
-> 35 nodes · cohesion 0.09
+> 36 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **gis/forms/fields.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **gis/forms/__init__.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/__init__.py`
-- **GeometryField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **BaseGeometryWidget** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **OpenLayersWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **GeometryWidgetTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **OSMWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **.to_python()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **GeometryCollectionField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **LineStringField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **MultiLineStringField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **MultiPointField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **MultiPolygonField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **PointField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **PolygonField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **.test_custom_serialization_widget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **.deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **.test_get_context_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **This is the basic form field for a Geometry. Any textual input that is accepted…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **Transform the value to a Geometry object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- *... and 10 more nodes in this community*
+- **BaseDatabaseCreation** (42 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.create_test_db()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.destroy_test_db()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.clone_test_db()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **._get_database_display_str()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.get_test_db_clone_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **._get_test_db_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.mark_expected_failures_and_skips()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **TestMarkTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **._nodb_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.serialize_db_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.sql_table_creation_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.test_db_signature()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.test_mark_expected_failures_and_skips()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **.deserialize_db_from_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **._execute_create_test_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.set_as_test_mirror()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.setup_worker_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **Set this database up to be used in testing as a mirror of a primary database…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **Serialize all data in the database into a JSON string. Designed only for test…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **Reload the database with data from a string generated by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **Return display string for a database for use in various actions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **Internal implementation - return the name of the test DB that will be created.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 9](Community_9.md) (15 shared connections)
-- [Community 36](Community_36.md) (3 shared connections)
-- [Community 117](Community_117.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 163](Community_163.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
+- [Community 4](Community_4.md) (7 shared connections)
+- [Community 704](Community_704.md) (6 shared connections)
+- [Community 657](Community_657.md) (3 shared connections)
+- [Community 408](Community_408.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 665](Community_665.md) (2 shared connections)
+- [Community 552](Community_552.md) (2 shared connections)
+- [Community 192](Community_192.md) (2 shared connections)
+- [Community 317](Community_317.md) (1 shared connections)
+- [Community 819](Community_819.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 73 (87%)
+- INFERRED: 11 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

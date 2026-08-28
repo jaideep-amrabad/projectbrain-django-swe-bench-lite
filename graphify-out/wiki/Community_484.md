@@ -1,50 +1,51 @@
 # Community 484
 
-> 25 nodes · cohesion 0.15
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **AssertFormSetErrorTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.invalid()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **TestFormset** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.valid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_deprecated_assertformseterror()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **._get_cleaned_formset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_different_non_field_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_different_non_form_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_empty_errors_invalid_formset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_empty_errors_valid_formset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_error_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_field_not_in_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_field_with_different_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_field_with_no_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_form_index_too_big()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_form_index_too_big_plural()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_multiple_forms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_no_non_field_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_no_non_form_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_non_field_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_non_form_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_non_form_errors_with_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_single_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_unbound_formset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_rename_assertformseterror_deprecation_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **FlatpageViewTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **FlatpageViewAppendSlashTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **TestDataMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **.test_redirect_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **.test_redirect_fallback_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **.test_redirect_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **.test_redirect_view_flatpage_special_chars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **.test_redirect_view_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **.test_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **.test_fallback_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **.test_view_authenticated_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **.test_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **.test_view_flatpage_special_chars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **.test_view_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **A nonexistent flatpage won't be served if the fallback middleware is disabled.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **A flatpage with special chars in the URL can be served through a view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **A flatpage can be served through a view and should add a slash** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **A nonexistent flatpage raises 404 when served through a view and should not add…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **A fallback flatpage won't be served if the middleware is disabled and should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **A flatpage with special chars in the URL can be served through a view and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **A flatpage can be served through a view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **A nonexistent flatpage raises 404 when served through a view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **A flatpage served through a view can require authentication** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **A fallback flatpage won't be served if the middleware is disabled** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 257](Community_257.md) (1 shared connections)
+- [Community 84](Community_84.md) (3 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 198](Community_198.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 35 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

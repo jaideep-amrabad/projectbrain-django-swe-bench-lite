@@ -1,62 +1,60 @@
 # Community 104
 
-> 85 nodes · cohesion 0.05
+> 90 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **CsrfViewMiddleware** (90 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **CsrfViewMiddlewareTestMixin** (61 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **post_form_view()** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **._get_POST_request_with_token()** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._check_referer_rejects()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._get_POST_csrf_cookie_request()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._check_bad_or_missing_cookie()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_bad_origin_bad_domain()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_bad_origin_bad_protocol()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_bad_origin_cannot_be_parsed()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_bad_origin_csrf_trusted_origin_bad_protocol()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_bad_origin_null_origin()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_malformed_referer()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_no_referer()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_reject_insecure_referer()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._check_bad_or_missing_token()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_token_in_header_with_customized_name()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_good_origin_csrf_trusted_origin_allowed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_good_origin_insecure()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_good_origin_secure()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_good_origin_wildcard_csrf_trusted_origin_allowed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_bad_referer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_csrf_trusted_origin_allowed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_csrf_wildcard_trusted_origin_allowed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- *... and 60 more nodes in this community*
+- **BaseUserCreationForm** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **BaseUserCreationFormTest** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **SetPasswordForm** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **PasswordChangeForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **UserChangeFormTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **AdminPasswordChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **UserChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **AdminPasswordChangeFormTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **SetPasswordFormTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **TestDataMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **PasswordChangeFormTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **UserCreationFormTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **patch** (4 connections)
+- **.test_link_to_password_reset_in_helptext_via_to_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.clean_old_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_both_passwords()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_duplicate_normalized_unicode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_help_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_user_create_form_validates_password_with_all_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_validates_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- *... and 65 more nodes in this community*
 
 ## Relationships
 
-- [Community 134](Community_134.md) (61 shared connections)
-- [Community 3](Community_3.md) (21 shared connections)
-- [Community 109](Community_109.md) (18 shared connections)
-- [Community 152](Community_152.md) (4 shared connections)
-- [Community 178](Community_178.md) (2 shared connections)
-- [Community 83](Community_83.md) (2 shared connections)
-- [Community 412](Community_412.md) (2 shared connections)
+- [Community 26](Community_26.md) (12 shared connections)
+- [Community 62](Community_62.md) (10 shared connections)
+- [Community 5](Community_5.md) (7 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 16](Community_16.md) (4 shared connections)
+- [Community 657](Community_657.md) (3 shared connections)
 - [Community 52](Community_52.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 857](Community_857.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 434](Community_434.md) (2 shared connections)
+- [Community 73](Community_73.md) (2 shared connections)
+- [Community 786](Community_786.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 242](Community_242.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 270 (86%)
-- INFERRED: 43 (14%)
+- EXTRACTED: 185 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

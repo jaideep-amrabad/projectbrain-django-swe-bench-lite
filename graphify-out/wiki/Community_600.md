@@ -1,54 +1,44 @@
 # Community 600
 
-> 18 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Table** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **TableTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.constraint_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **.create_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **._create_check_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_index_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.check_supported()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **._get_condition_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **Hold a reference to a table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.references_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.rename_table_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.test_references_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_rename_table_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **AbstractBaseSession** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
+- **sessions/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
+- **Session** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
+- **BaseSessionManager** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
+- **CustomSession** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
+- **.get_decoded()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
+- **.get_session_store_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
+- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
+- **SessionManager** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
+- **Return the given session dictionary serialized and encoded as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
+- **Django provides full support for anonymous sessions. The session framework lets…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
+- **.get_session_store_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
+- **.get_session_store_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- **A session model with a column for an account ID.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
 
 ## Relationships
 
-- [Community 196](Community_196.md) (10 shared connections)
-- [Community 48](Community_48.md) (5 shared connections)
-- [Community 34](Community_34.md) (5 shared connections)
-- [Community 561](Community_561.md) (4 shared connections)
-- [Community 507](Community_507.md) (3 shared connections)
-- [Community 269](Community_269.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 114](Community_114.md) (1 shared connections)
-- [Community 417](Community_417.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 764](Community_764.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 4](Community_4.md) (7 shared connections)
+- [Community 660](Community_660.md) (2 shared connections)
+- [Community 412](Community_412.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 31 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

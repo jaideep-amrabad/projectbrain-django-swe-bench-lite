@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_exception_following_nested_client_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A nested test client request shouldn't clobber exception signals from the outer…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_valid_form_with_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **POST valid data to a form using multiple templates** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 516](Community_516.md) (1 shared connections)
+- [Community 526](Community_526.md) (1 shared connections)
 
 ## Source Files
 

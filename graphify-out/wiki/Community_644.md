@@ -1,60 +1,46 @@
 # Community 644
 
-> 29 nodes · cohesion 0.08
+> 15 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **generic_views/test_base.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **SimpleView** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **GetContextDataTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **AboutTemplateView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **InstanceView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **PostOnlyView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **UseMultipleObjectMixinTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **generic_views/__init__.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/__init__.py`
-- **AboutTemplateAttributeView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **DecoratedDispatchView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **SingleObjectTemplateResponseMixinTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **CustomizableView** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.dispatch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **SimplePostView** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_template_mixin_without_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_setup_get_and_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.get_template_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_get_context_data_super()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_object_at_custom_name_in_context_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_object_in_get_context_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- *... and 4 more nodes in this community*
+- **SessionStore** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **CacheSessionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.create()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.test_load_overlong_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_non_default_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **A cache-based session store.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.cache_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.clear_expired()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **.test_create_and_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_default_cache()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (5 shared connections)
-- [Community 150](Community_150.md) (5 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 80](Community_80.md) (3 shared connections)
-- [Community 77](Community_77.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 212](Community_212.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 412](Community_412.md) (3 shared connections)
+- [Community 120](Community_120.md) (1 shared connections)
+- [Community 187](Community_187.md) (1 shared connections)
+- [Community 516](Community_516.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 284](Community_284.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 23 (88%)
+- INFERRED: 3 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

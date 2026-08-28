@@ -1,38 +1,36 @@
 # Community 737
 
-> 13 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **ParallelTestSuite** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **DummyList** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.run()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.initialize_suite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.append()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Dummy list class for faking storage of results in unittest.TestResult.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Run a series of tests in parallel in several processes. While the unittest…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Distribute test cases across workers. Return an identifier of each test case…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **NullBooleanSelectTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_fieldset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_value_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_value_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_value_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_value_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_value_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_value_unknown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **The NullBooleanSelect widget's options are lazily localized (#17190).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
 
 ## Relationships
 
-- [Community 124](Community_124.md) (4 shared connections)
-- [Community 893](Community_893.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 567](Community_567.md) (1 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 14 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

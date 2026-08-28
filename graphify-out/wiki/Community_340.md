@@ -1,62 +1,62 @@
 # Community 340
 
-> 42 nodes · cohesion 0.05
+> 35 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ManyToManyDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **ReverseManyToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **StartsWithRelation** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **ReverseGenericManyToOneDescriptor** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **CustomManyToManyField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **BrokenContainsRelation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **AutoFieldInheritanceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- **create_generic_related_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.contribute_to_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **create_reverse_many_to_one_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.related_manager_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__get__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__set__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.contribute_to_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **.related_manager_cls()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **._get_set_deprecation_msg_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.related_manager_cls()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.test_isinstance_of_autofield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- **Accessor to the related objects manager on the one-to-many relation created by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **Factory function to create a manager that subclasses another manager (generally…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **Accessor to the related objects manager on the reverse side of a many-to-one…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- *... and 17 more nodes in this community*
+- **basehttp.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **wsgi/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **get_internal_wsgi_application()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **Command** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **get_wsgi_application()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/wsgi.py`
+- **WSGITest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **core/wsgi.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/wsgi.py`
+- **GetInternalWSGIApplicationTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.get_handler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.inner_run()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.test_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.test_success()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **run()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.test_bad_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.test_bad_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.test_file_wrapper()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.test_get_wsgi_application()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.on_bind()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **is_broken_pipe_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.handle_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (11 shared connections)
-- [Community 97](Community_97.md) (5 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
-- [Community 459](Community_459.md) (1 shared connections)
-- [Community 118](Community_118.md) (1 shared connections)
-- [Community 363](Community_363.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 816](Community_816.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 419](Community_419.md) (1 shared connections)
+- [Community 24](Community_24.md) (7 shared connections)
+- [Community 3](Community_3.md) (7 shared connections)
+- [Community 395](Community_395.md) (6 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 230](Community_230.md) (5 shared connections)
+- [Community 339](Community_339.md) (5 shared connections)
+- [Community 118](Community_118.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 167](Community_167.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 517](Community_517.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- `raw/code/hyd-evaluation/django-django/django/core/wsgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (89%)
-- INFERRED: 8 (11%)
+- EXTRACTED: 101 (94%)
+- INFERRED: 7 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

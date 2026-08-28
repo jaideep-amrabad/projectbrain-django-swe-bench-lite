@@ -1,58 +1,48 @@
 # Community 529
 
-> 22 nodes · cohesion 0.11
+> 22 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **SimpleLazyObject** (53 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **SimpleLazyObjectTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_subquery_filter_by_lazy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **TestUtilsSimpleLazyObjectDjangoTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
-- **.test_pickle_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **new_method_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **.__radd__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_list_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_radd()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_trace()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
-- **A lazy object initialized from any function. Designed for compound objects of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **Pass in a callable that returns the object to be wrapped. If copies are made of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **.__copy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **Test on an actual model, based on the report in #25426.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **LocMemCache** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **cache/backends/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **._has_expired()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **._delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **closeable_cache.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **liberal_backend.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.has_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.incr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **._set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **CloseHookMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **LiberalKeyValidationMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **._cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **Thread-safe in-memory cache backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **.validate_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
 
 ## Relationships
 
-- [Community 323](Community_323.md) (7 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 573](Community_573.md) (5 shared connections)
-- [Community 40](Community_40.md) (4 shared connections)
-- [Community 62](Community_62.md) (3 shared connections)
-- [Community 109](Community_109.md) (2 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 120](Community_120.md) (2 shared connections)
-- [Community 121](Community_121.md) (2 shared connections)
-- [Community 253](Community_253.md) (2 shared connections)
+- [Community 394](Community_394.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 189](Community_189.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (85%)
-- INFERRED: 12 (15%)
+- EXTRACTED: 41 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

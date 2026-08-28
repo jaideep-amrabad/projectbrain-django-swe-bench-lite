@@ -1,55 +1,59 @@
 # Community 291
 
-> 43 nodes · cohesion 0.06
+> 43 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ClearableFileInputTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **ClearableFileInput** (17 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **FakeFieldFile** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.clear_checkbox_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.is_initial()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_from_datadict()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_clear_input_checked_returns_false_only_if_not_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_clear_input_renders_only_if_not_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_render_as_subwidget()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.clear_checkbox_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.format_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_from_datadict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_clear_input_renders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_html_escaped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_clear_input_checked_returns_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_clear_input_renders_only_if_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_fieldset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_html_does_not_mask_exceptions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_multiple_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_render_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_render_no_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **test_compilation.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **MessageCompilationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **ExcludedLocaleCompilationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **IgnoreDirectoryCompilationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **RunInTmpDirMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- **copytree()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- **CompilationErrorHandling** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **FuzzyTranslationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **MultipleLocaleCompilationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **PoFileTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_fuzzy_compiling()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_nofuzzy_compiling()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.assertAllExist()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.assertNoneExist()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_ignores_based_on_pattern()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_multiple_locale_dirs_ignored()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_one_locale_dir_ignored()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **ProjectAndAppTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **AppCompilationTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_multiple_locales()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_one_locale()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **PathLibLocaleCompilationTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
 - *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 28](Community_28.md) (4 shared connections)
-- [Community 102](Community_102.md) (4 shared connections)
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 192](Community_192.md) (2 shared connections)
-- [Community 803](Community_803.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 153](Community_153.md) (1 shared connections)
+- [Community 8](Community_8.md) (20 shared connections)
+- [Community 3](Community_3.md) (11 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 548](Community_548.md) (3 shared connections)
+- [Community 353](Community_353.md) (2 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 773](Community_773.md) (1 shared connections)
+- [Community 651](Community_651.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (86%)
-- INFERRED: 10 (14%)
+- EXTRACTED: 118 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

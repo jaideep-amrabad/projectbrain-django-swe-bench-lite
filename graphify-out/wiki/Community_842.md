@@ -1,36 +1,33 @@
 # Community 842
 
-> 10 nodes · cohesion 0.24
+> 10 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Meta** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **ArticleWithAuthor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **CertificationAudit** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Evaluation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **InternalCertificationAudit** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **QualityControl** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **AuditBase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **.test_get_next_previous_by_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **Regression tests for #8076 get_(next/previous)_by_date should work** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **AsyncHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **AsyncReceiversTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **SyncHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_asend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_asend_robust()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_send()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_send_robust()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
 
 ## Relationships
 
-- [Community 466](Community_466.md) (13 shared connections)
-- [Community 338](Community_338.md) (4 shared connections)
-- [Community 1063](Community_1063.md) (1 shared connections)
-- [Community 879](Community_879.md) (1 shared connections)
+- [Community 40](Community_40.md) (3 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

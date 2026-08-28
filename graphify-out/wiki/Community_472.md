@@ -1,57 +1,48 @@
 # Community 472
 
-> 25 nodes · cohesion 0.13
+> 26 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **InMemoryStorage** (34 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **._resolve()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.path()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **._relative_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **._save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **InMemoryStorageTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
-- **.test_setting_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **._open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.get_accessed_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.get_created_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.get_modified_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.listdir()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.test_deconstruction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
-- **.base_location()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.base_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.directory_permissions_mode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.file_permissions_mode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.location()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **Storage** (1 connections)
-- **A storage saving files in memory.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **Properties using settings values as defaults should be updated on referenced…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **IfChangedTagTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **setup** (18 connections)
+- **.test_ifchanged_else01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_filter_ws()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_param01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_param03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_param04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_param05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_else02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_else03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_else04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_param02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **Test one parameter given to ifchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **Test multiple parameters to ifchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **Test a date+hour like construct, where the hour of the last day is the same but…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **Logically the same as above, just written with explicit ifchanged for the day.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **Test the else clause of ifchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 53](Community_53.md) (4 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
-- [Community 62](Community_62.md) (1 shared connections)
-- [Community 328](Community_328.md) (1 shared connections)
-- [Community 523](Community_523.md) (1 shared connections)
-- [Community 640](Community_640.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 44 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,53 +1,47 @@
 # Community 478
 
-> 25 nodes · cohesion 0.18
+> 25 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ModelAdminPermissionTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockRequest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockAddUser** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_add_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_change_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_delete_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_module_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_view_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockChangeUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockDeleteUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockViewUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_inline_has_add_permission_uses_obj()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_get_deleted_objects_with_custom_has_delete_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **has_delete_permission returns True for users who can delete objects and False…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **as_module_permission returns True for users who have any permission for the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **ModelAdmin.get_deleted_objects() uses ModelAdmin.has_delete_permission() for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **has_view_permission() returns True for users who can view objects and False for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **has_add_permission returns True for users who can add objects and False for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **has_change_permission returns True for users who can edit objects and False for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **FormatStylePlaceholderCursor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **VariableWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.executemany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.execute()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._fix_for_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._format_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._guess_input_sizes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._output_type_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._param_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.arrayvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._get_decimal_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.var()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._output_number_converter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **An adapter class for cursor variables that prevents the wrapped object from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **Django uses "format" (e.g. '%s') style placeholders, but Oracle uses ":var"…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **Called for each db column fetched from cursors. Return numbers as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.bind_parameter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__setattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
 
 ## Relationships
 
-- [Community 22](Community_22.md) (7 shared connections)
-- [Community 64](Community_64.md) (7 shared connections)
-- [Community 227](Community_227.md) (4 shared connections)
-- [Community 38](Community_38.md) (4 shared connections)
-- [Community 146](Community_146.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 276](Community_276.md) (1 shared connections)
+- [Community 4](Community_4.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (90%)
-- INFERRED: 8 (10%)
+- EXTRACTED: 41 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **UndeletableObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Model whose show_delete in admin change_view has been disabled Refs #10057.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.test_subclasses_with_parent_gen_rel()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **Generic relations on a base class (Vegetable) work correctly in subclasses…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Relationships
 
-- [Community 88](Community_88.md) (1 shared connections)
-- [Community 79](Community_79.md) (1 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

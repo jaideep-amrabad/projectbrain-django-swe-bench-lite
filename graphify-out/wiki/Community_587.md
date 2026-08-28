@@ -1,37 +1,44 @@
 # Community 587
 
-> 10 nodes · cohesion 0.20
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **RedisCacheTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_redis_pool_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.incr_decr_type_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_client_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_backend_timeout_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_client()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_connection_pool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_connection_pool_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_incr_write_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_serializer_dumps()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **AsyncRelatedManagersOperationTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **test_async_related_managers.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **ManyToManyModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- **RelatedModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aadd()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aadd_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aclear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aclear_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_acreate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_acreate_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aget_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aget_or_create_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aremove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aremove_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aset_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aupdate_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aupdate_or_create_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 178](Community_178.md) (1 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 861](Community_861.md) (2 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 127](Community_127.md) (1 shared connections)
-- [Community 607](Community_607.md) (1 shared connections)
-- [Community 559](Community_559.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 25 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

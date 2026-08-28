@@ -1,56 +1,37 @@
 # Community 516
 
-> 23 nodes · cohesion 0.09
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **ClientTest** (93 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_response_resolver_match_middleware_urlconf()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_copy_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_copy_response_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_exc_info_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_external_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_follow_307_and_308_get_head_query_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_follow_307_and_308_preserves_get_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_follow_307_and_308_preserves_post_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_follow_307_and_308_preserves_put_body()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_follow_307_and_308_preserves_query_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_get_data_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_get_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_post_data_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_put()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_query_string_encoding()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_relative_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_relative_redirect_no_trailing_slash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_trace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_unknown_page()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_uploading_named_temp_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_uploading_temp_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **TestingSessionStore** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **TestingHttpRequest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **PostErrorRequest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._get_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._set_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A version of SessionStore that stores what cookie values are passed to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A version of HttpRequest that lets one track and change some things more easily.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **TestingHttpRequest that can raise errors when accessing POST data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.is_secure()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.__setitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **SessionStore** (1 connections)
 
 ## Relationships
 
-- [Community 1029](Community_1029.md) (4 shared connections)
-- [Community 1079](Community_1079.md) (3 shared connections)
-- [Community 1080](Community_1080.md) (3 shared connections)
-- [Community 483](Community_483.md) (2 shared connections)
-- [Community 1113](Community_1113.md) (2 shared connections)
-- [Community 1115](Community_1115.md) (2 shared connections)
-- [Community 1114](Community_1114.md) (2 shared connections)
-- [Community 1116](Community_1116.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 1217](Community_1217.md) (1 shared connections)
-- [Community 1204](Community_1204.md) (1 shared connections)
+- [Community 120](Community_120.md) (3 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
+- [Community 644](Community_644.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 93 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

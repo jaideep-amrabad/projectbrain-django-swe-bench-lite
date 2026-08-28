@@ -1,33 +1,37 @@
 # Community 820
 
-> 11 nodes · cohesion 0.27
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **TestRss2FeedWithDecoratedMethod** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **wraps_decorator()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss2FeedWithCallableObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TimeToLive** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.description()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.feed_copyright()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_title()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.title()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.categories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **CreateModel** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **_check_for_duplicates()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.state_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **Create a model's table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Relationships
 
-- [Community 139](Community_139.md) (5 shared connections)
+- [Community 243](Community_243.md) (5 shared connections)
+- [Community 304](Community_304.md) (3 shared connections)
+- [Community 329](Community_329.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 533](Community_533.md) (1 shared connections)
+- [Community 699](Community_699.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (74%)
+- INFERRED: 6 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

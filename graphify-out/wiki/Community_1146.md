@@ -1,27 +1,24 @@
 # Community 1146
 
-> 5 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **LiveServerTestCloseConnectionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.tearDownConnectionTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_closes_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **._make_connections_override()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_inheritance16()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **A block within another block (level 2)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 772](Community_772.md) (2 shared connections)
-- [Community 119](Community_119.md) (1 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 844](Community_844.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

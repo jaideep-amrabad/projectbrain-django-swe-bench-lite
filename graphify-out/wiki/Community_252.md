@@ -1,70 +1,60 @@
 # Community 252
 
-> 48 nodes · cohesion 0.08
+> 49 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **messages_tests/test_cookie.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **Message** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **storage/cookie.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **messages_tests/base.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **test_session.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **test_fallback.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **messages/__init__.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/__init__.py`
-- **messages/storage/base.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **messages/constants.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/constants.py`
-- **storage/session.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **messages_tests/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
-- **MessageDecoder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **fallback.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
-- **messages/utils.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
-- **bisect_keep_left()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **bisect_keep_right()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **.test_full_request_response_cycle()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_multiple_posts()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **stored_cookie_messages_count()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.process_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **BisectTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **stored_session_messages_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **MessageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
-- **TestLevelTags** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
-- *... and 23 more nodes in this community*
+- **delete/tests.py** (49 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **delete/models.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **FastDeleteTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **RChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **GenericB2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **R** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **User** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **DeleteTop** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **GenericB1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **GenericDeleteBottom** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Origin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **RChildChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Referrer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **B1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **B2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **B3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **DeleteBottom** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **get_default_r()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **HiddenUser** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **HiddenUserProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **M2MFrom** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 432](Community_432.md) (12 shared connections)
-- [Community 4](Community_4.md) (12 shared connections)
-- [Community 503](Community_503.md) (8 shared connections)
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 307](Community_307.md) (8 shared connections)
-- [Community 458](Community_458.md) (7 shared connections)
-- [Community 558](Community_558.md) (7 shared connections)
-- [Community 26](Community_26.md) (6 shared connections)
-- [Community 3](Community_3.md) (6 shared connections)
-- [Community 512](Community_512.md) (5 shared connections)
-- [Community 456](Community_456.md) (4 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
+- [Community 402](Community_402.md) (19 shared connections)
+- [Community 401](Community_401.md) (19 shared connections)
+- [Community 43](Community_43.md) (10 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 497](Community_497.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/constants.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 200 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 115 (74%)
+- INFERRED: 40 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

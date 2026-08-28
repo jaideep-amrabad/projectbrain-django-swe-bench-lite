@@ -1,48 +1,46 @@
 # Community 554
 
-> 21 nodes · cohesion 0.10
+> 21 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **serializers/test_data.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **SerializerDataTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **data_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **data_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **fk_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **fk_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **generic_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **generic_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **im2m_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **im2m_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **im_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **im_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **inherited_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **inherited_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **m2m_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **m2m_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **o2o_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **o2o_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **pk_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **pk_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **A test spanning all the capabilities of all the serializers. This class defines…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **jslex.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **test_jslex.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **JsLexer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **prepare_js_for_gettext()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **Lexer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **Tok** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **make_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **.lex()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **literals()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **JsToCForGettextTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **JsTokensTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **JsLex: a lexer for JavaScript** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **Convert the JavaScript source `js` into something resembling C for xgettext.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **Create a regex from a space-separated list of literal `choices`. If provided,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **A generic multi-state regex-based lexer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **Lexically analyze `text`. Yield pairs (`name`, `tokentext`).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **A specification for a token class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **A JavaScript lexer >>> lexer = JsLexer() >>> list(lexer.lex("a = 1")) [('id',…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (5 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 665](Community_665.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 578](Community_578.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 791](Community_791.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (44%)
-- INFERRED: 18 (56%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

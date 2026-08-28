@@ -1,45 +1,51 @@
 # Community 273
 
-> 19 nodes · cohesion 0.11
+> 45 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ManageAlternateSettings** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_output_color()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py can execute user commands if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for manage.py when using a settings file with a name other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands fail with an error when no default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands work with settings provided as argument** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands work if settings are provided in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py can't execute user commands without settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py output syntax color can be deactivated with the `--no-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **SelectRelatedRegressTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- **select_related_regress/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **select_related_regress/tests.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- **Base** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **B** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **Chick** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **Client** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **Hen** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **Item** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **Port** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **SpecialClient** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **Building** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **Class** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **ClientStatus** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **Connection** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **Device** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **Enrollment** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **Fowl** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **Organizer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- **State** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 122](Community_122.md) (9 shared connections)
-- [Community 582](Community_582.md) (9 shared connections)
-- [Community 90](Community_90.md) (9 shared connections)
-- [Community 201](Community_201.md) (2 shared connections)
-- [Community 301](Community_301.md) (1 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 78 (78%)
+- INFERRED: 22 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

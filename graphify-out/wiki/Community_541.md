@@ -1,48 +1,48 @@
 # Community 541
 
-> 23 nodes · cohesion 0.11
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **SafeStringTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.assertRenderEqual()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **customescape** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_add_lazy_safe_text_and_safe_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_decorator_does_not_affect_promises()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_lazy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_lazy_i18n()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_object_implementing_dunder_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_as_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_decorator_does_not_affect_dunder_html()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_lazy_result_implements_dunder_html()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_object_implementing_dunder_str()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_str()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_default_additional_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_default_safe_data_additional_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_result_implements_dunder_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.__html__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **str** (1 connections)
-- **mark_safe doesn't affect lazy strings (Promise objects).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **Calling str() on a SafeString instance doesn't lose the safe status.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **mark_safe used as a decorator leaves the result of a function unchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **mark_safe doesn't affect a callable that has an __html__() method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **RecursiveM2MTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **RecursiveSymmetricalM2MThroughTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **m2m_recursive/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **m2m_recursive/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- **Colleague** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- **Many-to-many relationships between the same two tables In this example, a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_add_in_both_directions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_add_via_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_related_to_self()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_remove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_reverse_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_remove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_reverse_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (13 shared connections)
-- [Community 35](Community_35.md) (10 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (95%)
-- INFERRED: 3 (5%)
+- EXTRACTED: 29 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

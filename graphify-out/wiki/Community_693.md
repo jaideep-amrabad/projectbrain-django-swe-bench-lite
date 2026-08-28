@@ -1,41 +1,46 @@
 # Community 693
 
-> 15 nodes · cohesion 0.13
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **tests_sample.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **doctests.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
-- **TestDjangoTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **TestVanillaUnittest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **TestZimpleTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **factorial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
-- **EmptyTestCase** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **Doctest example from the official Python documentation.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
-- **Return the factorial of n, an exact integer >= 0. >>> [factorial(n) for n in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
-- **sample/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/__init__.py`
-- **load_tests()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **DjangoTestCase** (1 connections)
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **admin/apps.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **SimpleAdminConfig** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **check_dependencies()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **_contains_subclass()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **AdminConfig** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **.ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **check_admin_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **admin_default_site/apps.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
+- **MyCustomAdminConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
+- **.ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **The default AppConfig for admin which does autodiscovery.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **Simple AppConfig which does not do automatic discovery.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **Return whether or not a dotted class path (or a subclass of that class) is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that the admin's dependencies are correctly installed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 657](Community_657.md) (4 shared connections)
+- [Community 257](Community_257.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 461](Community_461.md) (1 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
+- [Community 235](Community_235.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 28 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

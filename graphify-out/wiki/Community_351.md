@@ -1,53 +1,62 @@
 # Community 351
 
-> 36 nodes · cohesion 0.08
+> 42 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **SignalTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **LazyModelRefTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **signals/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **BaseSignalSetup** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.receiver()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **Car** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **Page** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **.test_disconnect_registered_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_disconnect_unregistered_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_register_model_class_senders_immediately()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_disconnect_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_already_loaded_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_not_loaded_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_decorators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_delete_signals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_disconnect_in_dispatch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_lazy_model_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_model_pre_init_and_post_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_save_signals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- *... and 11 more nodes in this community*
+- **Widget** (21 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **ChoiceWidget** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **get_default_renderer()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.render()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **WidgetTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
+- **.optgroups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.format_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.create_option()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.subwidgets()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.build_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.value_from_datadict()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_attr_false_not_rendered()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
+- **.test_format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
+- **.test_no_trailing_newline_in_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
+- **.test_value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 26](Community_26.md) (13 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 156](Community_156.md) (12 shared connections)
+- [Community 498](Community_498.md) (4 shared connections)
+- [Community 152](Community_152.md) (3 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 269](Community_269.md) (1 shared connections)
+- [Community 97](Community_97.md) (1 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 151](Community_151.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 90](Community_90.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (85%)
-- INFERRED: 10 (15%)
+- EXTRACTED: 84 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

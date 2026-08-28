@@ -4,61 +4,58 @@
 
 ## Key Concepts
 
-- **model_fields/test_imagefield.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldTwoDimensionsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.check_dimensions()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldTestMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **TwoImageFieldTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **SerializeMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **ImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **TestImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **ImageFieldNoDimensionsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **skipIf** (7 connections)
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **PersonDimensionsFirst** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **PersonWithHeight** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **ImageFieldDimensionsFirstTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldOneDimensionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldUsingFileTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **._get_image_dimensions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **PersonTwoImages** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **PersonWithHeightAndWidth** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestSerializeMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
-- **TestSerializeMixinUse** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
-- **.height()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **.width()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **custom_lookups/tests.py** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **LookupTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **YearLteTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Author** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **RelatedGreaterThan** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **custom_lookups/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **CustomisedMethodsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **TrackCallsYearTransform** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **DateTimeLookupTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SQLFuncFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SQLFuncMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **CustomField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.test_datetime_output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Div3Transform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.test_birthdate_month()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **LookupTransformCallOrderTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **skipUnless** (4 connections)
+- **SQLFuncLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SQLFuncTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SubqueryTransformTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **YearLte** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **YearTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **MySQLUnixTimestamp** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **.test_bilateral_multi_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
 - *... and 63 more nodes in this community*
 
 ## Relationships
 
-- [Community 45](Community_45.md) (8 shared connections)
-- [Community 218](Community_218.md) (5 shared connections)
-- [Community 93](Community_93.md) (5 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
+- [Community 85](Community_85.md) (19 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 165](Community_165.md) (5 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 534](Community_534.md) (3 shared connections)
+- [Community 55](Community_55.md) (3 shared connections)
 - [Community 4](Community_4.md) (2 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
-- [Community 285](Community_285.md) (1 shared connections)
-- [Community 779](Community_779.md) (1 shared connections)
-- [Community 537](Community_537.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 151 (92%)
-- INFERRED: 14 (8%)
+- EXTRACTED: 154 (92%)
+- INFERRED: 13 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

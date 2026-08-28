@@ -1,36 +1,40 @@
 # Community 764
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Reference** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.references_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.references_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.rename_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.rename_table_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Return whether or not this instance references the specified table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Return whether or not this instance references the specified column.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Rename all references to the old_name to the new_table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Rename all references to the old_column to the new_column.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Base class that defines the reference interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **RoutePattern** (12 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **test_resolvers.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **_route_to_regex()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **RegexPatternTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **RoutePatternTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **ResolverCacheTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **._compile()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **Convert a path pattern into a regular expression. Return the regular expression…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.match()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 
 ## Relationships
 
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 561](Community_561.md) (1 shared connections)
-- [Community 600](Community_600.md) (1 shared connections)
+- [Community 6](Community_6.md) (12 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 701](Community_701.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 34 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

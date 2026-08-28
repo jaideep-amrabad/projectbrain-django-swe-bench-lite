@@ -1,43 +1,41 @@
 # Community 695
 
-> 15 nodes · cohesion 0.30
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **PerformConstraintChecksTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
-- **validation/test_constraints.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
-- **Product** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **UniqueConstraintProduct** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **ChildProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **UniqueConstraintConditionProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **ChildUniqueConstraintProduct** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_full_clean_with_check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
-- **.test_full_clean_with_check_constraints_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
-- **.test_full_clean_with_check_constraints_on_child_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
-- **.test_full_clean_with_partial_unique_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
-- **.test_full_clean_with_partial_unique_constraints_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
-- **.test_full_clean_with_unique_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
-- **.test_full_clean_with_unique_constraints_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **AutocompleteJsonView** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **.get()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **.process_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **.get_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **.has_perm()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **.serialize_result()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **.get_paginator()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Check if user has permission to access the related model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Return a JsonResponse with search results as defined in serialize_result(), by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Convert the provided model object to a dictionary that is added to the results…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Use the ModelAdmin's paginator.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Return queryset based on ModelAdmin.get_search_results().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Validate request integrity, extract and return request parameters. Since the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Handle AutocompleteWidget's AJAX requests for data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
 
 ## Relationships
 
-- [Community 620](Community_620.md) (8 shared connections)
-- [Community 24](Community_24.md) (6 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 657](Community_657.md) (3 shared connections)
+- [Community 251](Community_251.md) (2 shared connections)
+- [Community 375](Community_375.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 138](Community_138.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (90%)
-- INFERRED: 5 (10%)
+- EXTRACTED: 23 (88%)
+- INFERRED: 3 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

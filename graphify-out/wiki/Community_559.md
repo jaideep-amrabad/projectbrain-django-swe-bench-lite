@@ -1,44 +1,43 @@
 # Community 559
 
-> 20 nodes · cohesion 0.17
+> 17 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **RedisCacheClient** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.get_client()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **RedisSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **._get_connection_pool()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.add()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.delete_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **._get_connection_pool_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.get_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.has_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.incr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.set()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.set_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.dumps()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.loads()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **LocMemCacheTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **PicklingSideEffect** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **limit_locmem_entries** (3 connections)
+- **.test_locking_on_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_lru_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_lru_incr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_lru_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_multiple_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_incr_decr_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Multiple locmem caches are isolated** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **#20613/#18541 -- Ensures pickling is done outside of the lock.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **incr/decr does not modify expiry time (matches memcached behavior)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **get() moves cache keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **set() moves cache keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **incr() moves cache keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 178](Community_178.md) (1 shared connections)
-- [Community 587](Community_587.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 189](Community_189.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 310](Community_310.md) (1 shared connections)
+- [Community 217](Community_217.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 25 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

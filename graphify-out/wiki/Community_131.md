@@ -1,64 +1,53 @@
 # Community 131
 
-> 64 nodes · cohesion 0.05
+> 80 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **MigrationQuestioner** (47 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **InteractiveMigrationQuestioner** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **Command** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.handle()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.handle_merge()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **NonInteractiveMigrationQuestioner** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.write_migration_files()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.write_to_last_migration_files()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.test_alter_db_table_with_model_change()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_field_and_unique_together()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_m2m_through_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_model_with_renamed_rel_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **QuestionerTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **._ask_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **._choice_input()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.log()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.timezone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.ask_auto_now_add_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_alteration()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_unique_callable_default_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **._boolean_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.test_ask_not_null_alteration_not_provided()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.ask_rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- *... and 39 more nodes in this community*
+- **M2mThroughTests** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **m2m_through/tests.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **m2m_through/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **M2mThroughReferentialTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **M2mThroughToFieldsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **CustomMembership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Membership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Ingredient** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **PersonChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Recipe** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Event** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Friendship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Invitation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **PersonSelfRefM2M** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **RecipeIngredient** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **Relationship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **SymmetricalFriendship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **.test_add_on_symmetrical_m2m_with_intermediate_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_set_on_symmetrical_m2m_with_intermediate_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_query_model_by_intermediate_can_return_non_unique_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_through_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- *... and 55 more nodes in this community*
 
 ## Relationships
 
-- [Community 25](Community_25.md) (38 shared connections)
-- [Community 2](Community_2.md) (21 shared connections)
-- [Community 42](Community_42.md) (5 shared connections)
-- [Community 118](Community_118.md) (5 shared connections)
-- [Community 792](Community_792.md) (5 shared connections)
-- [Community 120](Community_120.md) (4 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 632](Community_632.md) (2 shared connections)
-- [Community 411](Community_411.md) (2 shared connections)
-- [Community 247](Community_247.md) (1 shared connections)
-- [Community 490](Community_490.md) (1 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 66](Community_66.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 55](Community_55.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 173 (90%)
-- INFERRED: 20 (10%)
+- EXTRACTED: 112 (86%)
+- INFERRED: 18 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,44 +1,62 @@
 # Community 515
 
-> 23 nodes · cohesion 0.14
+> 31 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **CacheTagTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **setup** (15 connections)
-- **.test_cache08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache16()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache17()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache18()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_none_timeout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **Regression test for #11270.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **Test whitespace in filter arguments** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **A timeout of None means "cache forever".** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **Allow first argument to be a variable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **Regression test for #7460.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **postgres/validators.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **forms/array.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **BaseValidator** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **MaxLengthValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **MinValueValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **MaxValueValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **MinLengthValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **ArrayMaxLengthValidator** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **RangeMaxValueValidator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **RangeMinValueValidator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **.__call__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **ArrayMinLengthValidator** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **TestValidators** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_basic_equality()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.compare()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.test_decimal_equality()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_max()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_min()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **.compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **.clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
+- [Community 238](Community_238.md) (15 shared connections)
+- [Community 546](Community_546.md) (7 shared connections)
+- [Community 16](Community_16.md) (5 shared connections)
+- [Community 242](Community_242.md) (4 shared connections)
+- [Community 10](Community_10.md) (4 shared connections)
+- [Community 163](Community_163.md) (4 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 626](Community_626.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 624](Community_624.md) (2 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 100 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

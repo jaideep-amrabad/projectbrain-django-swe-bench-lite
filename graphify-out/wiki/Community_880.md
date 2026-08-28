@@ -1,33 +1,31 @@
 # Community 880
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Issue** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **ProxyBug** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Improvement** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **ProxyProxyBug** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Bug** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Proxy of an inherited class** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A proxy of proxy model with related field** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A model that has relation to a proxy model or to a proxy of proxy model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **._check_bad_or_missing_cookie()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_no_csrf_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_bad_csrf_cookie_characters()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_bad_csrf_cookie_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **If the CSRF cookie has invalid characters in a POST request, the middleware…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **If the CSRF cookie has an incorrect length in a POST request, the middleware…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **Passing None for cookie includes no cookie.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **If no CSRF cookies is present, the middleware rejects the incoming request.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 
 ## Relationships
 
-- [Community 661](Community_661.md) (8 shared connections)
-- [Community 594](Community_594.md) (6 shared connections)
-- [Community 339](Community_339.md) (5 shared connections)
+- [Community 59](Community_59.md) (4 shared connections)
+- [Community 293](Community_293.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (78%)
-- INFERRED: 6 (22%)
+- EXTRACTED: 13 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

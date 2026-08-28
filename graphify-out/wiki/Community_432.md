@@ -1,60 +1,57 @@
 # Community 432
 
-> 28 nodes · cohesion 0.09
+> 28 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **CookieTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **SessionStorage** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **MessageEncoder** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **.encode_decode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_json_encoder_decoder()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_max_cookie_length()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_safedata()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **.serialize_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **._store()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **.stored_messages_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_cookie_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_extra_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.deserialize_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_get_bad_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.default()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Compactly serialize instances of the ``Message`` class as JSON.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Retrieve a list of messages from the request's session. This storage always…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **Store a list of messages to the request's session.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **Store messages in the session (that is, django.contrib.sessions).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **.test_message_rfc6265()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **If the data exceeds what is allowed in a cookie, older messages are removed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **A complex nested data structure containing Message instances is properly…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **CaseInsensitiveMapping** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **CaseInsensitiveMappingTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **._unpack_items()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_create_with_invalid_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_create_with_invalid_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **Mapping** (1 connections)
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **Return current object as a dict with singular values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **Mapping allowing case-insensitive key lookups. Original case of keys is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.test_copy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_del()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_getitem()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 - *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 252](Community_252.md) (12 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 458](Community_458.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 512](Community_512.md) (2 shared connections)
-- [Community 942](Community_942.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 307](Community_307.md) (1 shared connections)
-- [Community 558](Community_558.md) (1 shared connections)
-- [Community 456](Community_456.md) (1 shared connections)
+- [Community 451](Community_451.md) (4 shared connections)
+- [Community 250](Community_250.md) (3 shared connections)
+- [Community 80](Community_80.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 212](Community_212.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
+- [Community 889](Community_889.md) (1 shared connections)
+- [Community 482](Community_482.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (85%)
-- INFERRED: 9 (15%)
+- EXTRACTED: 46 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

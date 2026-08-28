@@ -1,37 +1,43 @@
 # Community 716
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **MigrationSuggestNameTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_auto()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_many_operations_suffix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_no_operations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_no_operations_initial()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_none_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_none_name_with_initial_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_operation_with_invalid_chars_in_suggested_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_operation_with_no_suggested_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_single_operation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_single_operation_long_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_two_create_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_two_create_models_with_initial_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_two_operations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **proxy_model_inheritance/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **MultiTableInheritanceProxyTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **proxy_model_inheritance/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **ProxyModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **ConcreteModelSubclass** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **ConcreteModelSubclassProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **ProxyModelInheritanceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **ConcreteModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **.test_table_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **.test_model_subclass_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **.test_deletion_through_intermediate_proxy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **Proxy model inheritance across apps can result in migrate not creating the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **Deleting an instance of a model proxying a multi-table inherited subclass…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 369](Community_369.md) (2 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 35 (88%)
+- INFERRED: 5 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

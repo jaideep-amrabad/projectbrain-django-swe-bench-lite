@@ -1,34 +1,34 @@
 # Community 729
 
-> 13 nodes · cohesion 0.24
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **MapWidget** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.constructor()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **OLMapWidget.js** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.clearFeatures()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **GeometryTypeControl** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.createInteractions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.createMap()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.defaultCenter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.disableDrawing()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.enableDrawing()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.serializeFeatures()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.constructor()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **TODO: allow deleting individual features (#8972)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.adapt_unknown_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.adapt_datefield_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.adapt_datetimefield_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.adapt_decimalfield_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.adapt_timefield_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.year_lookup_bounds_for_date_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.year_lookup_bounds_for_datetime_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return a two-elements list with the lower and upper bound to be used with a…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Transform a value to something compatible with the backend driver. This method…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Transform a date value to an object compatible with what is expected by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Transform a datetime value to an object compatible with what is expected by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Transform a time value to an object compatible with what is expected by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Transform a decimal.Decimal value to an object compatible with what is expected…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 78](Community_78.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

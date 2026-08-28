@@ -1,24 +1,24 @@
 # Community 993
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **TestSerializedRollbackInhibitsPostMigrate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **patch** (1 connections)
-- **TransactionTestCase._fixture_teardown() inhibits the post_migrate signal for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **GetChoicesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_lazy_strings_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_blank_in_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_blank_in_grouped_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_empty_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Relationships
 
-- [Community 93](Community_93.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 194](Community_194.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Audit Trail
 

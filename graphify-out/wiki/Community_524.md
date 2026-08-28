@@ -1,48 +1,43 @@
 # Community 524
 
-> 22 nodes · cohesion 0.14
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.find_fixtures()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.load_label()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.loaddata()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.parse_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.reset_sequences()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.save_obj()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.fixture_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **humanize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.compression_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.find_fixture_files_in_dir()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.get_fixture_name_and_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.get_targets()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **A dict mapping format names to (open function, mode arg) tuples.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **Reset database sequences for the given connection and models.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **Save an object if permitted.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **Load fixtures files for a given label.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **Find fixture files for a given label.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **Return a list of fixture directories. The list contains the 'fixtures'…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **Split fixture name in name, serialization format, compression format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **BasicTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_swappable_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_swappable_user_bad_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_swappable_user_nonexistent_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_get_user_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_superuser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_user_no_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_user_verbose_names_translatable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_superuser_no_email_or_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_unicode_username()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **The alternate user setting must point to something in the format app.model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **The current user model must point to an installed model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **Default User model verbose names are translatable (#19945)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **Users can be created and can set their password** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **Users can be created without an email** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **Check the creation and properties of a superuser** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **The current user model can be retrieved** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **The current user model can be swapped out for another** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 271](Community_271.md) (2 shared connections)
-- [Community 201](Community_201.md) (1 shared connections)
-- [Community 528](Community_528.md) (1 shared connections)
+- [Community 84](Community_84.md) (5 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 27 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

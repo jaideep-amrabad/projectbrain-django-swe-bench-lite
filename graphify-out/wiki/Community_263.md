@@ -1,62 +1,61 @@
 # Community 263
 
-> 41 nodes · cohesion 0.07
+> 36 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **AdminSeleniumTestCase** (39 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_until()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **SeleniumTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **test_widgets.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
-- **SeleniumTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- **.wait_page_loaded()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_page_ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.test_select()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_select_multiple()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **._assertOptionsValues()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for_and_switch_to_popup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **LiveWidgetTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
-- **.assertSelectedOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.assertSelectOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_until_invisible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_until_visible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.select2_ajax_wait()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_textarea_trailing_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
-- **.admin_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.assertCountSeleniumElements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.has_css_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **Assert that the <SELECT> widget identified by `selector` has the options with…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- *... and 16 more nodes in this community*
+- **_unmask_cipher_token()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **CsrfFunctionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **_check_token_format()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_does_token_match()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.assertMaskedSecretCorrect()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._check_token()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._get_secret()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.process_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **RejectRequest** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_get_failure_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **InvalidTokenFormat** (6 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._check_referer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._reject()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.test_get_token_csrf_cookie_not_set()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_get_token_csrf_cookie_set()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **check_csrf_failure_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- **._bad_token_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._origin_verified()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.process_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.test_does_token_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_mask_cipher_secret()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_rotate_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._accept()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **Exception** (2 connections)
+- **.test_check_token_format_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 19](Community_19.md) (14 shared connections)
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 267](Community_267.md) (4 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 65](Community_65.md) (3 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 250](Community_250.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
-- [Community 285](Community_285.md) (1 shared connections)
-- [Community 145](Community_145.md) (1 shared connections)
+- [Community 120](Community_120.md) (21 shared connections)
+- [Community 59](Community_59.md) (10 shared connections)
+- [Community 58](Community_58.md) (3 shared connections)
+- [Community 80](Community_80.md) (3 shared connections)
+- [Community 293](Community_293.md) (3 shared connections)
+- [Community 67](Community_67.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 212](Community_212.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 170](Community_170.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 99 (95%)
-- INFERRED: 5 (5%)
+- EXTRACTED: 95 (96%)
+- INFERRED: 4 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

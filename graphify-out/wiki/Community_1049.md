@@ -4,22 +4,23 @@
 
 ## Key Concepts
 
-- **TestRouter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.allow_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.db_for_read()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.db_for_write()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.test_session_modifying_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_session_engine_is_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_sessions_app_is_not_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that modifies the session** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 105](Community_105.md) (1 shared connections)
+- [Community 526](Community_526.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

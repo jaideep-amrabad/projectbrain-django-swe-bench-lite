@@ -1,25 +1,26 @@
 # Community 1068
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **MissingDjangoVersionQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **PreviousDjangoVersionQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **TestModelCheckTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_check_composite_foreign_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_check_subset_composite_foreign_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
 
 ## Relationships
 
-- [Community 634](Community_634.md) (2 shared connections)
+- [Community 58](Community_58.md) (2 shared connections)
+- [Community 465](Community_465.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

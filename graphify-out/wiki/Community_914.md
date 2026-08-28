@@ -1,29 +1,30 @@
 # Community 914
 
-> 8 nodes · cohesion 0.43
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **VerbatimTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **setup** (6 connections)
-- **.test_verbatim_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **.test_verbatim_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **.test_verbatim_tag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **.test_verbatim_tag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **.test_verbatim_tag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **.test_verbatim_tag06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
+- **TestNumberFormat** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_decimal_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_decimal_subclass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_float_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_format_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_format_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_large_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

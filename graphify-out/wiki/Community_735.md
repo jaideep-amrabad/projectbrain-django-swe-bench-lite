@@ -1,36 +1,61 @@
 # Community 735
 
-> 13 nodes · cohesion 0.18
+> 24 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Loader** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.get_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.cache_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.generate_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.get_contents()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.get_dirs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.get_template_sources()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **BaseLoader** (1 connections)
-- **Perform the caching that gives this loader its name. Often many of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **Generate a cache key for the template name and skip. If skip is provided, only…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **Empty the template cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **DeferredAttribute** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **field_subclassing/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **field_subclassing/fields.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **db/models/proxy.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
+- **ForeignKeyDeferredAttribute** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **CustomDeferredAttribute** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **CustomTypedField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **CustomDescriptorField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **DescriptorClassTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **TestDbType** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **._check_parent_chain()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.__get__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._count_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **.test_db_parameters_respects_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **.test_descriptor_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **The SpatialProxy object allows for lazy-geometries and lazy-rasters. The proxy…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
+- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **A wrapper for a deferred-loading field. When the value is read from this object…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Retrieve and caches the value from the datastore on the first lookup. Return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Check if the field value can be fetched from a parent field already loaded in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 271](Community_271.md) (1 shared connections)
+- [Community 4](Community_4.md) (8 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 133](Community_133.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 277](Community_277.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 115](Community_115.md) (1 shared connections)
+- [Community 823](Community_823.md) (1 shared connections)
+- [Community 884](Community_884.md) (1 shared connections)
+- [Community 201](Community_201.md) (1 shared connections)
+- [Community 216](Community_216.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 53 (88%)
+- INFERRED: 7 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

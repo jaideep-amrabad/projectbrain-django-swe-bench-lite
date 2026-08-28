@@ -1,34 +1,23 @@
 # Community 1106
 
-> 7 nodes · cohesion 0.29
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **NaturalKeyWithFKDependencyManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Relationships
 
-- [Community 257](Community_257.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 124](Community_124.md) (1 shared connections)
+- [Community 364](Community_364.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

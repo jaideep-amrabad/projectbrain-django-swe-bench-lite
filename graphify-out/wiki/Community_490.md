@@ -1,63 +1,50 @@
 # Community 490
 
-> 38 nodes · cohesion 0.07
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **.apps()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **StateApps** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **AppConfigStub** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **ProxyModelWithSameAppLabelTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **ProxyModelWithDifferentAppLabelTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.render_multiple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **MultiDBProxyModelAppLabelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_migrate_with_existing_target_permission()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.test_abstract_model_pending_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- **.test_abstract_model_pending_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.bulk_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.register_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.test_migrate_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_migrate_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_proxy_model_permissions_contenttype()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_user_has_now_proxy_model_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_user_keeps_same_permissions_after_migrating_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_migrate_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_proxy_model_permissions_contenttype()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_user_keeps_same_permissions_after_migrating_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- *... and 13 more nodes in this community*
+- **TestSigner** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_decode_detects_tampering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_default_keys_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_dumps_loads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_invalid_sep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_sign_unsign()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_sign_unsign_ignore_secret_key_fallbacks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_sign_unsign_multiple_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_unsign_detects_tampering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **signature() method should generate a signature** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **dumps and loads be reversible for any JSON serializable object** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **loads should raise exception for tampered objects** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **should warn on invalid separator** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **The default key is a valid verification key.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **sign/unsign should be reversible** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **unsign should raise an exception if the value has been tampered with** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_custom_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_invalid_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_sign_unsign_non_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_sign_unsign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_signature_with_salt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_valid_sep()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_verify_with_non_default_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_works_with_non_ascii_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (4 shared connections)
-- [Community 17](Community_17.md) (4 shared connections)
-- [Community 81](Community_81.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 164](Community_164.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 131](Community_131.md) (1 shared connections)
-- [Community 221](Community_221.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 579](Community_579.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_migrations.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (76%)
-- INFERRED: 18 (24%)
+- EXTRACTED: 28 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

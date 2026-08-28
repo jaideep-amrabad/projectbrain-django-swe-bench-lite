@@ -1,32 +1,32 @@
 # Community 825
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **._assign_simple_slice()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **._checkindex()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__delitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **._rebuild()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **._assign_extended_slice_rebuild()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Assign an extended slice by rebuilding entire list** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Assign a simple slice; Can assign slice of any length** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Get the item(s) at the specified index/slice.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Delete the item(s) at the specified index/slice.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **SQLInsertCompiler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.assemble_as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.field_as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.prepare_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.pre_save_val()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Take a field and a value intended to be saved on that field, and return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Prepare a value to be used in a query by resolving it if it is an expression…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Get the given field's value off the given obj. pre_save() is used for things…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Take a sequence of N fields and a sequence of M rows of values, and generate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Relationships
 
-- [Community 431](Community_431.md) (6 shared connections)
-- [Community 886](Community_886.md) (2 shared connections)
+- [Community 306](Community_306.md) (3 shared connections)
+- [Community 80](Community_80.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,62 +1,42 @@
 # Community 602
 
-> 81 nodes · cohesion 0.04
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **MigrationExecutor** (50 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- **ExecutorTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.migrate()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- **.test_migrations_applied_and_recorded_atomically()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **ExecutorUnitTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.Migration()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
-- **.test_custom_user()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_migrations_not_applied_on_deferred_sql_failure()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **FakeMigration** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.apply_migration()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- **._create_project_state()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- **.test_apply_all_replaced_marks_replacement_as_applied()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_migrate_marks_replacement_applied_even_if_it_did_nothing()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_backwards_nothing_to_do()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_minimize_rollbacks()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_minimize_rollbacks_branchy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.schema_editor()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **._migrate_all_backwards()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- **.test_atomic_operation_in_non_atomic_migration()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_detect_soft_applied_add_field_manytomanyfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_empty_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_migrate_skips_schema_creation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_mixed_plan_not_supported()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_non_atomic_migration()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_process_callback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- *... and 56 more nodes in this community*
+- **._iter_column_sql()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._alter_column_default_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._alter_column_type_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.db_default_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._alter_column_comment_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._comment_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.prepare_default()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.skip_default_on_alter()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._collate_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._column_default_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.quote_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.skip_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Some backends don't accept default values for certain columns types (i.e. MySQL…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Hook to specialize column type alteration for different backends, for cases…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Only used for backends which have requires_literal_defaults feature** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return the SQL to use in a DEFAULT clause. The resulting string should contain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return the sql and params for the field's database default.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return a quoted version of the value so it's safe to use in an SQL string. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Relationships
 
-- [Community 86](Community_86.md) (21 shared connections)
-- [Community 3](Community_3.md) (18 shared connections)
-- [Community 42](Community_42.md) (10 shared connections)
-- [Community 7](Community_7.md) (8 shared connections)
-- [Community 81](Community_81.md) (6 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 96](Community_96.md) (4 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
-- [Community 925](Community_925.md) (1 shared connections)
-- [Community 285](Community_285.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 239](Community_239.md) (18 shared connections)
+- [Community 378](Community_378.md) (10 shared connections)
+- [Community 22](Community_22.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 166 (82%)
-- INFERRED: 37 (18%)
+- EXTRACTED: 51 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,56 +1,59 @@
 # Community 290
 
-> 28 nodes · cohesion 0.08
+> 43 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **BaseEmailBackend** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **EmailBackend** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **EmailBackend** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- **.close()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **custombackend.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
-- **EmailBackend** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
-- **.send_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **EmailBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
-- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **.send_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **.write_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **.send_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **Open a network connection. This method can be overwritten by backend…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **Close a network connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **Base class for email backend implementations. Subclasses must at least…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **Send one or more EmailMessage objects and return the number of email messages…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **Write all messages to the stream in a thread-safe way.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **.send_messages()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- **An email backend for use during test sessions. The test connection stores email…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- **Redirect messages to the dummy outbox** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- *... and 3 more nodes in this community*
+- **Truncator** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **truncatewords_html()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **truncatechars_html()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **truncatewords()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords_html.py`
+- **FunctionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
+- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
+- **add_truncation_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.chars()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **._truncate_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **test_truncatechars_html.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
+- **test_truncatewords_html.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords_html.py`
+- **._text_chars()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **._text_words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **Truncate a string after a certain number of chars.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.test_invalid_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
+- **.test_truncate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
+- **.test_truncate2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
+- **.test_truncate3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
+- **.test_truncate_something()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
+- **.test_truncate_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
+- **.test_truncate_zero()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
+- **.test_invalid_number()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
+- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 405](Community_405.md) (9 shared connections)
-- [Community 552](Community_552.md) (2 shared connections)
-- [Community 731](Community_731.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 884](Community_884.md) (1 shared connections)
+- [Community 1](Community_1.md) (15 shared connections)
+- [Community 27](Community_27.md) (7 shared connections)
+- [Community 37](Community_37.md) (2 shared connections)
+- [Community 313](Community_313.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 214](Community_214.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords_html.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 100 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

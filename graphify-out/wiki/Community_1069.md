@@ -1,28 +1,25 @@
 # Community 1069
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **GetLatestLastmodNoneSiteMap** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **.lastmod()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **.get_latest_lastmod()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **.test_generic_get_or_create_when_created()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_generic_get_or_create_when_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **Should be able to use get_or_create from the generic related manager to create…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Relationships
 
-- [Community 496](Community_496.md) (1 shared connections)
-- [Community 457](Community_457.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 178](Community_178.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (83%)
-- INFERRED: 1 (17%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

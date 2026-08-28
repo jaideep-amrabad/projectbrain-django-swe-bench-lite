@@ -1,52 +1,46 @@
 # Community 620
 
-> 18 nodes · cohesion 0.22
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **validation/models.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **test_unique.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **GetUniqueCheckTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **UniqueForDateModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **UniqueFuncConstraintModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **UniqueTogetherModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **CustomPKModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **FlexibleDatePost** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **UniqueFieldsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **AuthorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **validate_answer_to_universe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_func_unique_constraint_ignored()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_primary_key_is_considered_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_unique_fields_get_collected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_unique_for_date_exclusion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_unique_for_date_gets_picked_up()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_unique_together_gets_picked_up_and_converted_to_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **LegacyDatabaseTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_aggregation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_local_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_local_timezone_with_microsecond()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_utc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_unsupported()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_annotation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_auto_now_and_auto_now_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_cursor_execute_accepts_naive_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_cursor_execute_returns_naive_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_filter_date_field_with_aware_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_naive_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_naive_datetime_with_microsecond()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_datetime_lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_datetimes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_raw_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Relationships
 
-- [Community 695](Community_695.md) (8 shared connections)
-- [Community 855](Community_855.md) (7 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 36](Community_36.md) (3 shared connections)
-- [Community 724](Community_724.md) (3 shared connections)
-- [Community 760](Community_760.md) (3 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 788](Community_788.md) (2 shared connections)
-- [Community 725](Community_725.md) (2 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
+- [Community 656](Community_656.md) (5 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 780](Community_780.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (91%)
-- INFERRED: 7 (9%)
+- EXTRACTED: 25 (76%)
+- INFERRED: 8 (24%)
 - AMBIGUOUS: 0 (0%)
 
 ---

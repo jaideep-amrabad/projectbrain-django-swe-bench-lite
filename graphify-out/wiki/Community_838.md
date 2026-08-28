@@ -1,39 +1,36 @@
 # Community 838
 
-> 10 nodes · cohesion 0.31
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **get_object_or_404/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
-- **get_object_or_404/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- **GetObjectOr404Tests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
-- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- **ArticleManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- **AttributeErrorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- **DB-API Shortcuts ``get_object_or_404()`` is a shortcut function to be used in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **Meta** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ArticleWithAuthor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **CertificationAudit** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Evaluation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **InternalCertificationAudit** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **QualityControl** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **AuditBase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.test_get_next_previous_by_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **Regression tests for #8076 get_(next/previous)_by_date should work** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
 
 ## Relationships
 
-- [Community 631](Community_631.md) (7 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 470](Community_470.md) (13 shared connections)
+- [Community 335](Community_335.md) (4 shared connections)
+- [Community 1035](Community_1035.md) (1 shared connections)
+- [Community 875](Community_875.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 27 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

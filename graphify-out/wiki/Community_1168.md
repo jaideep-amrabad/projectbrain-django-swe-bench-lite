@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_simple_sitemap_custom_lastmod_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **A simple sitemap index can be rendered with a custom template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_follow_relative_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **A URL with a relative redirect can be followed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 176](Community_176.md) (1 shared connections)
+- [Community 526](Community_526.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

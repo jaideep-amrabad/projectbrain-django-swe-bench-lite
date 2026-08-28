@@ -1,65 +1,53 @@
 # Community 325
 
-> 55 nodes · cohesion 0.05
+> 39 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **helpers.py** (46 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **admin_views/test_actions.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **InlineAdminForm** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **AdminAuthenticationForm** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- **InlineAdminFormSet** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **admin_views/forms.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
-- **AdminField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **MediaActionForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
-- **Fieldline** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **Fieldset** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **SubscriberAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **AdminAuthenticationFormTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
-- **InlineFieldset** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **CustomAdminAuthenticationForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
-- **ActionForm** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **AdminErrorList** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.label_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.test_immutable_content_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.mail_admin()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.confirm_login_allowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- **.errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- *... and 30 more nodes in this community*
+- **PrefetchRelatedTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.assertWhereContains()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_then_m2m_object_ids()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_then_reverse_fk_object_ids()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_then_reverse_one_to_one_object_ids()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_filter_deferred()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_onetoone_reverse_with_to_field_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreign_key_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_forward_m2m_to_attr_conflict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_in_and_prefetch_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_reverse_m2m_to_attr_conflict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_reverse_one_to_one_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_attribute_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreignkey_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreignkey_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_invalid_final_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_len()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 35](Community_35.md) (12 shared connections)
-- [Community 11](Community_11.md) (8 shared connections)
-- [Community 65](Community_65.md) (7 shared connections)
-- [Community 761](Community_761.md) (6 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 82](Community_82.md) (4 shared connections)
-- [Community 46](Community_46.md) (4 shared connections)
-- [Community 88](Community_88.md) (4 shared connections)
-- [Community 36](Community_36.md) (3 shared connections)
-- [Community 239](Community_239.md) (3 shared connections)
-- [Community 79](Community_79.md) (3 shared connections)
-- [Community 804](Community_804.md) (3 shared connections)
+- [Community 127](Community_127.md) (8 shared connections)
+- [Community 305](Community_305.md) (3 shared connections)
+- [Community 202](Community_202.md) (3 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 519](Community_519.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 163 (96%)
-- INFERRED: 6 (4%)
+- EXTRACTED: 51 (85%)
+- INFERRED: 9 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

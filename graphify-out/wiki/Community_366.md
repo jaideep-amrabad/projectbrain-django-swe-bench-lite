@@ -1,61 +1,60 @@
 # Community 366
 
-> 35 nodes · cohesion 0.11
+> 43 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **renderers.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Jinja2** (20 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **test_renderers.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **DjangoTemplates** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **BaseRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **DjangoDivFormRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Jinja2DivFormRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **TemplatesSetting** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **DeprecationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **EngineMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Jinja2Tests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **SharedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **BaseTemplateRendererTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **DjangoTemplatesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **TemplatesSettingTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Load Jinja2 templates from the built-in widget templates in django/forms/jinja2…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.test_get_renderer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.test_deprecation_renderers_can_be_instantiated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- *... and 10 more nodes in this community*
+- **Lookup** (42 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **YearLookup** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **test_lookups.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
+- **.rhs_is_direct_value()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **YearExact** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.process_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **YearGt** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **YearGte** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **YearLt** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **YearLte** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **LookupTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
+- **.test_repr()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
+- **.batch_process_rhs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_source_expressions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **CustomLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
+- **.test_equality()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
+- **.test_hash()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
+- **.test_get_bound_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
+- **.get_db_prep_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.apply_bilateral_transforms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_prep_lhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_prep_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **YearLookupTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
+- **.get_group_by_cols()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (11 shared connections)
-- [Community 52](Community_52.md) (7 shared connections)
-- [Community 63](Community_63.md) (6 shared connections)
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 35](Community_35.md) (5 shared connections)
-- [Community 28](Community_28.md) (5 shared connections)
-- [Community 209](Community_209.md) (3 shared connections)
-- [Community 59](Community_59.md) (3 shared connections)
-- [Community 111](Community_111.md) (3 shared connections)
-- [Community 257](Community_257.md) (2 shared connections)
-- [Community 292](Community_292.md) (1 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
+- [Community 165](Community_165.md) (20 shared connections)
+- [Community 30](Community_30.md) (10 shared connections)
+- [Community 66](Community_66.md) (8 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 534](Community_534.md) (3 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 85](Community_85.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 80](Community_80.md) (2 shared connections)
+- [Community 264](Community_264.md) (2 shared connections)
+- [Community 109](Community_109.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
 
 ## Audit Trail
 
-- EXTRACTED: 99 (82%)
-- INFERRED: 21 (18%)
+- EXTRACTED: 121 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

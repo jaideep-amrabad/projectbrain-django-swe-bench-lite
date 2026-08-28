@@ -1,32 +1,34 @@
 # Community 850
 
-> 10 nodes · cohesion 0.33
+> 10 nodes · cohesion 0.38
 
 ## Key Concepts
 
-- **NamedEndblockTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
-- **setup** (7 connections)
-- **.test_namedendblocks06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
-- **.test_namedendblocks01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
-- **.test_namedendblocks02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
-- **.test_namedendblocks03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
-- **.test_namedendblocks04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
-- **.test_namedendblocks05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
-- **.test_namedendblocks07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
-- **Mixed named and unnamed endblocks** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **DiscoverRunnerGetDatabasesTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.assertSkippedDatabases()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.get_databases()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_default_and_other()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_default_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_mixed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_no_databases_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_other_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
+- [Community 114](Community_114.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 353](Community_353.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

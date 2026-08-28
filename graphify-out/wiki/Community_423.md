@@ -1,54 +1,60 @@
 # Community 423
 
-> 29 nodes · cohesion 0.07
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **OneToOneTests** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_cached_relation_invalidated_on_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_hidden_accessor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_cached_when_related_is_accessed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_relationship_cache_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_none_null_reverse_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_none_reverse_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_none_to_null_cached_reverse_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_o2o_id_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_o2o_id_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_getter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_manager_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_manager_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_nullable_o2o_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_o2o_primary_key_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_primary_key_to_field_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_rel_pk_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_rel_pk_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_related_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_setter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_update_one_to_one_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Regression test for #9023: accessing the reverse relationship shouldn't result…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- *... and 4 more nodes in this community*
+- **LiveServerTestCase** (24 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **classproperty** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **LiveServerThreadTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **.setUpClass()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._start_server_thread()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.modify_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._create_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.view_is_async()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.run_live_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **.test_classproperty_getter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **.allowed_host()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.live_server_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._make_connections_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **A context manager that temporarily sets a setting and reverts to the original…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_closes_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **._terminate_thread()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Do basically the same as TransactionTestCase but also launch a live HTTP server…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **Decorator that converts a method with a single cls argument into a property…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.test_server_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
 
 ## Relationships
 
-- [Community 593](Community_593.md) (14 shared connections)
-- [Community 687](Community_687.md) (9 shared connections)
-- [Community 1108](Community_1108.md) (2 shared connections)
-- [Community 1067](Community_1067.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 1169](Community_1169.md) (1 shared connections)
-- [Community 1170](Community_1170.md) (1 shared connections)
+- [Community 16](Community_16.md) (6 shared connections)
+- [Community 10](Community_10.md) (5 shared connections)
+- [Community 230](Community_230.md) (4 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 328](Community_328.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 64](Community_64.md) (2 shared connections)
+- [Community 194](Community_194.md) (2 shared connections)
+- [Community 209](Community_209.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (74%)
-- INFERRED: 15 (26%)
+- EXTRACTED: 65 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

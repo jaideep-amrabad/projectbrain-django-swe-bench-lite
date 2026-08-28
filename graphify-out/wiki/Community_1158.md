@@ -1,28 +1,25 @@
 # Community 1158
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_reverse_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.test_inheritance_28()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Set up a base template with a space in it.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 860](Community_860.md) (3 shared connections)
-- [Community 229](Community_229.md) (3 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 844](Community_844.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 3 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

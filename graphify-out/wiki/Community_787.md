@@ -1,42 +1,34 @@
 # Community 787
 
-> 12 nodes · cohesion 0.62
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Event** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **SerializationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_json_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_python_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_xml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_yaml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_local_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_other_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_utc()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_naive_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_naive_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **SpatialiteSchemaEditor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.column_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.geo_quote_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.alter_db_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.remove_geometry_metadata()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **DatabaseSchemaEditor** (1 connections)
+- **.create_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.remove_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
 
 ## Relationships
 
-- [Community 382](Community_382.md) (5 shared connections)
-- [Community 915](Community_915.md) (5 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 917](Community_917.md) (1 shared connections)
-- [Community 618](Community_618.md) (1 shared connections)
-- [Community 426](Community_426.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 198](Community_198.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (84%)
-- INFERRED: 9 (16%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

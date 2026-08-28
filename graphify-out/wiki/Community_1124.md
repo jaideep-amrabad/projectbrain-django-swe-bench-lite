@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **good_function_based_error_handlers.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_function_based_error_handlers.py`
-- **good_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_function_based_error_handlers.py`
+- **.test_fast_add_ignore_conflicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **A single query is necessary to add auto-created through instances if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 419](Community_419.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_function_based_error_handlers.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

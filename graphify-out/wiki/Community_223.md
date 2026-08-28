@@ -1,64 +1,62 @@
 # Community 223
 
-> 54 nodes · cohesion 0.04
+> 55 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **OGRGeomType** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
-- **Point** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Polygon** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **spatialite/introspection.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- **postgis/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
-- **SpatiaLiteIntrospection** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- **.geos()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.centroid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **FlexibleFieldLookupDict** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **GeoFlexibleFieldLookupDict** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- **.geom_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the X coordinate for this Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
-- **.test_geomtype()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
-- **.test_geomtype_25d()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
-- **.get_geometry_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- **._create_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **._geos_ptr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.z()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.point_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- *... and 29 more nodes in this community*
+- **search.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **SearchConfig** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchQueryCombinable** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramWordBase** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **CombinedSearchQuery** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **._combine()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **CombinedSearchVector** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.from_parameter()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramBase** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramDistance** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramSimilarity** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramStrictWordDistance** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramStrictWordSimilarity** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramWordDistance** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramWordSimilarity** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **_Float4Field** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchVectorCombinable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchConfigTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **Field** (3 connections)
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Community 117](Community_117.md) (10 shared connections)
-- [Community 41](Community_41.md) (10 shared connections)
-- [Community 318](Community_318.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 147](Community_147.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 1006](Community_1006.md) (1 shared connections)
-- [Community 605](Community_605.md) (1 shared connections)
-- [Community 663](Community_663.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
+- [Community 123](Community_123.md) (19 shared connections)
+- [Community 102](Community_102.md) (11 shared connections)
+- [Community 30](Community_30.md) (7 shared connections)
+- [Community 109](Community_109.md) (5 shared connections)
+- [Community 264](Community_264.md) (4 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 175](Community_175.md) (2 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 366](Community_366.md) (1 shared connections)
+- [Community 226](Community_226.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
 
 ## Audit Trail
 
-- EXTRACTED: 92 (93%)
-- INFERRED: 7 (7%)
+- EXTRACTED: 142 (94%)
+- INFERRED: 9 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

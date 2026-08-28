@@ -1,49 +1,53 @@
 # Community 626
 
-> 17 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **AdminHistoryViewTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FieldOverridePost** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **State** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **StateAdminForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FieldOverridePostForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.test_changed_message_uses_form_labels()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- **CityInlineAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **StoryForm** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.changed_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.awesomeness_level()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- **Admin's model history change messages use form labels instead of field names.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **RegexValidator** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **TestValidatorEquality** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **TestValidators** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_serialize_class_based_validators()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.test_email_equality()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_regex_equality()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_regex_equality_blank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_regex_equality_nocache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_max_length_validator_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_message_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_message_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_regex_validator_flags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_single_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **Validate that the input contains (or does *not* contain, if inverse_match is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **Ticket #22943: Test serialization of class-based validators, including compiled…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **Validators have valid equality operators (#21638)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_validators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 
 ## Relationships
 
-- [Community 88](Community_88.md) (8 shared connections)
-- [Community 79](Community_79.md) (4 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 761](Community_761.md) (1 shared connections)
-- [Community 530](Community_530.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 238](Community_238.md) (10 shared connections)
+- [Community 16](Community_16.md) (4 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 125](Community_125.md) (3 shared connections)
+- [Community 515](Community_515.md) (3 shared connections)
+- [Community 546](Community_546.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 145](Community_145.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (84%)
-- INFERRED: 6 (16%)
+- EXTRACTED: 51 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

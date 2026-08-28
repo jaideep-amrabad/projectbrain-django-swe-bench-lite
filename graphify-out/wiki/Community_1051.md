@@ -4,18 +4,19 @@
 
 ## Key Concepts
 
-- **PersonManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **SpyManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **AssertRaisesMsgTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_special_re_chars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_assert_raises_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **assertRaisesMessage shouldn't interpret RE special chars.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 384](Community_384.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 

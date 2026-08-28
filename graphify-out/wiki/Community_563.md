@@ -1,46 +1,55 @@
 # Community 563
 
-> 17 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **RemoveIndex** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **RemoveConstraint** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **IndexOperation** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.model_name_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **Remove an index from a model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **admin_views/test_forms.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- **AdminForm** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **ArticleForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **FieldOverridePost** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **AdminFormTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **StateAdminForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **FieldOverridePostForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- **StoryForm** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **.fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **.is_bound()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **.media()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **.non_field_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **.changed_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.awesomeness_level()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 673](Community_673.md) (2 shared connections)
-- [Community 562](Community_562.md) (2 shared connections)
-- [Community 509](Community_509.md) (1 shared connections)
-- [Community 550](Community_550.md) (1 shared connections)
-- [Community 474](Community_474.md) (1 shared connections)
-- [Community 579](Community_579.md) (1 shared connections)
-- [Community 677](Community_677.md) (1 shared connections)
+- [Community 89](Community_89.md) (7 shared connections)
+- [Community 36](Community_36.md) (4 shared connections)
+- [Community 657](Community_657.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 76](Community_76.md) (2 shared connections)
+- [Community 84](Community_84.md) (2 shared connections)
+- [Community 227](Community_227.md) (1 shared connections)
+- [Community 829](Community_829.md) (1 shared connections)
+- [Community 537](Community_537.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 44 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,58 +1,64 @@
 # Community 245
 
-> 50 nodes · cohesion 0.06
+> 65 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **SelectRelatedTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **select_related/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **select_related/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **SelectRelatedValidationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **Bookmark** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Domain** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Species** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **TaggedItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **.create_tree()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **Family** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Genus** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **HybridSpecies** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Kingdom** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Klass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Order** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Phylum** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Pizza** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Running select_related() after calling values() raises a TypeError** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.test_access_fks_with_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.test_access_fks_without_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.test_certain_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.test_list_with_depth()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.test_list_with_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.test_more_certain_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- *... and 25 more nodes in this community*
+- **time()** (39 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **CheckboxInputTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **TimeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **LocalizedTimeTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **TimeInputTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
+- **setup** (8 connections)
+- **CustomTimeInputFormatsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **SimpleTimeFormatTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
+- **FunctionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_localized_timeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_timeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_timeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_timeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_timeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_timeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_timeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_timeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **TimeFields can parse dates in the default format** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **TimeFields with manually specified input formats can accept those formats** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **Localized TimeFields with manually specified input formats can accept those…** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_timeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_timeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_timeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_timeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [Community 190](Community_190.md) (4 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 159](Community_159.md) (1 shared connections)
+- [Community 1](Community_1.md) (9 shared connections)
+- [Community 16](Community_16.md) (7 shared connections)
+- [Community 156](Community_156.md) (4 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 686](Community_686.md) (3 shared connections)
+- [Community 128](Community_128.md) (2 shared connections)
+- [Community 475](Community_475.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 285](Community_285.md) (1 shared connections)
+- [Community 151](Community_151.md) (1 shared connections)
+- [Community 369](Community_369.md) (1 shared connections)
+- [Community 286](Community_286.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 77 (82%)
-- INFERRED: 17 (18%)
+- EXTRACTED: 103 (80%)
+- INFERRED: 26 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

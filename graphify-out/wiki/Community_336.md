@@ -1,54 +1,54 @@
 # Community 336
 
-> 38 nodes · cohesion 0.13
+> 38 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **DatabaseCreation** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_settings_get()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._get_test_db_params()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._create_test_db()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._destroy_test_db()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_user_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._create_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._destroy_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._execute_allow_fail_statements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._execute_statements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._execute_test_db_destruction()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._handle_objects_preventing_db_destruction()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_passwd()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._execute_test_db_creation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_tmp_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._switch_to_test_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_oracle_managed_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_extsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_maxsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **ProxyModelTests** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_swappable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_basic_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_basic_proxy_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_correct_type_proxy_of_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_inheritance_new_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_new_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_no_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_included_in_ancestors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_model_signals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_same_manager_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_abstract_base_with_model_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_concrete_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_filter_proxy_relation_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_myperson_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_no_base_classes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_otherperson_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_permissions_created()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_bug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_for_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_load_from_fixture()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
 - *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 774](Community_774.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 624](Community_624.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 296](Community_296.md) (1 shared connections)
-- [Community 271](Community_271.md) (1 shared connections)
-- [Community 456](Community_456.md) (1 shared connections)
+- [Community 655](Community_655.md) (11 shared connections)
+- [Community 774](Community_774.md) (5 shared connections)
+- [Community 876](Community_876.md) (5 shared connections)
+- [Community 592](Community_592.md) (4 shared connections)
+- [Community 58](Community_58.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 43 (65%)
+- INFERRED: 23 (35%)
 - AMBIGUOUS: 0 (0%)
 
 ---

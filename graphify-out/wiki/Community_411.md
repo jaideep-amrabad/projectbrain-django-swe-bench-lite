@@ -1,45 +1,61 @@
 # Community 411
 
-> 14 nodes · cohesion 0.14
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **.make_project_state()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_last_dependency()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_first_dependency()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_swappable_changed()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_trim_apps()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_arrange_for_graph()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_arrange_for_graph_with_multiple_initial()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_custom_migration_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Tests auto-naming of migrations for graph matching.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Trim does not remove dependencies but does remove unwanted apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Tests custom naming of migrations for graph matching.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Shortcut to make ProjectStates from lists of predefined models** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **A dependency to an app with no migrations uses __first__.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **A dependency to an app with existing migrations uses the last migration of that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **BooleanField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.has_default()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **DateTimeCheckMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_if_value_fixed()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_fix_default_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **_to_naive()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_fix_default_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **_get_naive_now()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_fix_default_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_choices()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_mutually_exclusive_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_pk_value_on_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Warn that using an actual date or datetime value is probably wrong; it's only…** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **return_None()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.output_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.output_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_fix_default_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Return a boolean of whether this field has a default value.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 25](Community_25.md) (21 shared connections)
-- [Community 118](Community_118.md) (7 shared connections)
-- [Community 96](Community_96.md) (4 shared connections)
-- [Community 131](Community_131.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 344](Community_344.md) (1 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
-- [Community 750](Community_750.md) (1 shared connections)
+- [Community 201](Community_201.md) (6 shared connections)
+- [Community 330](Community_330.md) (6 shared connections)
+- [Community 4](Community_4.md) (5 shared connections)
+- [Community 228](Community_228.md) (3 shared connections)
+- [Community 670](Community_670.md) (2 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
+- [Community 873](Community_873.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 204](Community_204.md) (1 shared connections)
+- [Community 128](Community_128.md) (1 shared connections)
+- [Community 366](Community_366.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 68 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

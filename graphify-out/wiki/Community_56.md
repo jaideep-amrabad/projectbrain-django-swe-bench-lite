@@ -1,63 +1,61 @@
 # Community 56
 
-> 142 nodes · cohesion 0.02
+> 140 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **CollectionTestCase** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.run_collectstatic()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestDefaults** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **DummyStorage** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **TestCollectionLinks** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **BaseStaticFilesMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **staticfiles_tests/test_views.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
-- **TestServeStatic** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
-- **.assertFileContains()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **TestCollection** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestFindStatic** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestInteractiveMessages** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollectionClear** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollectionNonLocalStorage** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollectionOverwriteWarning** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollectionVerbosity** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollectionDryRun** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollectionFilesOverride** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestCollectionNoDefaultIgnore** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestConfiguration** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **._collectstatic_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestServeDisabled** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
-- **TestServeStaticWithDefaultURL** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
-- **TestServeStaticWithURLHelper** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
-- **.assertStaticRenders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- *... and 117 more nodes in this community*
+- **admin_filters/tests.py** (75 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **ListFiltersTests** (69 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **BookAdmin** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DecadeFilterBookAdmin** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DecadeListFilter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **select_by()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **ShowFacets** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **EmployeeAdmin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **BookAdminWithEmptyFieldListFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DecadeListFilterWithTitleAndParameter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **BookAdminRelatedOnlyFilter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **BookAdminWithCustomQueryset** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DepartmentListFilterLookupWithNonStringValue** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- **Department** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- **BookAdminWithTupleBooleanFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **CustomUserAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DecadeFilterBookAdminDisallowFacets** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DecadeFilterBookAdminWithAlwaysFacets** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DepartmentAdminWithEmptyFieldListFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **EmployeeNameCustomDividerFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.assertChoicesDisplay()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.test_datefieldlistfilter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.test_datefieldlistfilter_with_time_zone_support()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- *... and 115 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (29 shared connections)
-- [Community 3](Community_3.md) (20 shared connections)
-- [Community 8](Community_8.md) (13 shared connections)
-- [Community 140](Community_140.md) (8 shared connections)
-- [Community 130](Community_130.md) (4 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 504](Community_504.md) (1 shared connections)
-- [Community 471](Community_471.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 374](Community_374.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 21](Community_21.md) (17 shared connections)
+- [Community 31](Community_31.md) (13 shared connections)
+- [Community 43](Community_43.md) (9 shared connections)
+- [Community 52](Community_52.md) (6 shared connections)
+- [Community 657](Community_657.md) (4 shared connections)
+- [Community 313](Community_313.md) (2 shared connections)
+- [Community 84](Community_84.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 271 (99%)
-- INFERRED: 4 (1%)
+- EXTRACTED: 285 (96%)
+- INFERRED: 11 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

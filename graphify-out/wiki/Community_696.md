@@ -4,42 +4,35 @@
 
 ## Key Concepts
 
-- **admin/apps.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **SimpleAdminConfig** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **check_dependencies()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **_contains_subclass()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **AdminConfig** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **.ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **check_admin_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **admin_default_site/apps.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
-- **MyCustomAdminConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
-- **.ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **The default AppConfig for admin which does autodiscovery.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **Simple AppConfig which does not do automatic discovery.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **Return whether or not a dotted class path (or a subclass of that class) is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that the admin's dependencies are correctly installed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **LineString** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **._listarr()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.x()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the X coordinates in a list.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **LinearRing** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the Point at the given index.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the number of points in the LineString.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the tuple representation of this LineString.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Internal routine that returns a sequence (list) corresponding with the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 164](Community_164.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 163](Community_163.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 305](Community_305.md) (1 shared connections)
+- [Community 49](Community_49.md) (2 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 21 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

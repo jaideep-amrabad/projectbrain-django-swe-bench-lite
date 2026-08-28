@@ -1,50 +1,63 @@
 # Community 206
 
-> 35 nodes · cohesion 0.09
+> 39 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **IfParser** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **Literal** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **smartif.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **TokenBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **SmartIfTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.assertCalcEqual()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **EndToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.create_var()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.next_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.translate_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **test_smartif.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.parse()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **infix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.display()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.test_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_not()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_not_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_or()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.nud()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.eval()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- *... and 10 more nodes in this community*
+- **FileResponse** (40 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **FileResponseTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **test_fileresponse.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **builtin_server/views.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
+- **.set_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **._set_streaming_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.streaming_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **builtin_server/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/urls.py`
+- **.test_buffer_explicit_absolute_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_compressed_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_file_from_named_pipe_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_unicode_attachment()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **file_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
+- **.test_content_disposition_buffer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_content_disposition_buffer_attachment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_content_disposition_buffer_explicit_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_content_disposition_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_content_disposition_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_content_length_buffer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_content_length_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_content_length_nonzero_starting_position_buffer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_content_length_nonzero_starting_position_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_content_length_nonzero_starting_position_file_seekable_no_tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_content_type_buffer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_content_type_buffer_explicit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 768](Community_768.md) (1 shared connections)
+- [Community 51](Community_51.md) (4 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 80](Community_80.md) (2 shared connections)
+- [Community 1030](Community_1030.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 75](Community_75.md) (2 shared connections)
+- [Community 162](Community_162.md) (1 shared connections)
+- [Community 340](Community_340.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/builtin_server/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/builtin_server/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 88 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

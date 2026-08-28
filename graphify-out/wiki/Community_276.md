@@ -1,63 +1,54 @@
 # Community 276
 
-> 57 nodes · cohesion 0.05
+> 45 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **date()** (81 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **UpdateOrCreateTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **GetOrCreateTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **UpdateOrCreateTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_defaults_not_evaluated_unless_needed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_creation_in_transaction()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_updates_in_transaction()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_callable_defaults()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_defaults_exact()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_defaults_not_evaluated_unless_needed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_redundant_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_create_defaults_exact()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_defaults_exact()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_escape_characters()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **.test_custom_methods()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_invalid_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_method_with_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_method_with_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_with_model_property_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_with_pk_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **If you have a field named defaults and want to use it as an exact lookup, you…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- *... and 32 more nodes in this community*
+- **templatetags/custom.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **simple_tag** (21 connections)
+- **CounterNode** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **escape_explicit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **escape_format_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **make_data_div()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **counter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **escape_naive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **explicit_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **no_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **no_params_with_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **one_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **params_and_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **filter** (3 connections)
+- **simple_one_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **simple_only_unlimited_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **simple_tag_takes_context_without_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **simple_tag_without_context_parameter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **simple_two_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **simple_unlimited_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **simple_unlimited_args_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **trim()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **context_stack_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **current_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **minustwo_overridden_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 266](Community_266.md) (16 shared connections)
-- [Community 249](Community_249.md) (12 shared connections)
-- [Community 23](Community_23.md) (11 shared connections)
-- [Community 892](Community_892.md) (6 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 354](Community_354.md) (3 shared connections)
-- [Community 871](Community_871.md) (3 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 115](Community_115.md) (2 shared connections)
-- [Community 356](Community_356.md) (2 shared connections)
+- [Community 37](Community_37.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 402](Community_402.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 536](Community_536.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
 
 ## Audit Trail
 
-- EXTRACTED: 84 (51%)
-- INFERRED: 82 (49%)
+- EXTRACTED: 84 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

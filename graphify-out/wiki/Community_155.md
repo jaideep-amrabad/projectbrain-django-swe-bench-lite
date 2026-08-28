@@ -1,55 +1,51 @@
 # Community 155
 
-> 69 nodes · cohesion 0.04
+> 73 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **CreatesuperuserManagementCommandTestCase** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **mock_inputs()** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **get_default_username()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **MockTTY** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_swappable_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_blank_username()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_default_username()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_existing_username_meta_unique_constraint()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_keyboard_interrupt()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_swappable_user_missing_required_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_usermodel_without_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_input_not_found()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **get_system_username()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **.test_basic_usage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_blank_username_non_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_environment_variable_m2m_non_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_environment_variable_non_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_existing_username()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_existing_username_non_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_existing_username_provided_via_option_and_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_fields_with_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_fields_with_fk_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_fields_with_fk_via_option_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_fields_with_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_fields_with_m2m_and_through()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- *... and 44 more nodes in this community*
+- **TestHashedFiles** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **hashed_file_path()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.assertPostCondition()** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestCollectionManifestStorage** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestStaticFilePermissions** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestCollectionHashedFilesCache** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestCollectionSimpleStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestExtraPatternsStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.setUp()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestCollectionJSModuleImportAggregationManifestStorage** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_post_processing_failure()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_file_change_after_collectstatic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_import_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_post_processing_nonutf8()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_template_tag_absolute_root()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.run_collectstatic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_multi_extension_patterns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_css_import_case_insensitive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_css_source_map()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_css_source_map_data_uri()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_css_source_map_sensitive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_css_source_map_tabs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_import_replacement()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_js_source_map()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.test_js_source_map_data_uri()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (22 shared connections)
-- [Community 3](Community_3.md) (21 shared connections)
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 793](Community_793.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 531](Community_531.md) (1 shared connections)
-- [Community 276](Community_276.md) (1 shared connections)
+- [Community 5](Community_5.md) (11 shared connections)
+- [Community 116](Community_116.md) (8 shared connections)
+- [Community 24](Community_24.md) (8 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 361](Community_361.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 153 (99%)
+- EXTRACTED: 159 (99%)
 - INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 

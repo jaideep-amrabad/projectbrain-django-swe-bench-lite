@@ -1,29 +1,32 @@
 # Community 977
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **CopyPluralFormsExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_translate_and_plural_blocktranslate_collision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertMsgIdPlural()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_copy_plural_forms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_override_plural_forms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Ensures a correct workaround for the gettext bug when handling a literal found…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **filter_tests_by_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **test_match_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.enable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Return the matching tests as an iterator.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- [Community 611](Community_611.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 458](Community_458.md) (1 shared connections)
+- [Community 794](Community_794.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (78%)
+- INFERRED: 2 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

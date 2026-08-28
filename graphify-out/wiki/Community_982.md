@@ -1,28 +1,26 @@
 # Community 982
 
-> 6 nodes · cohesion 0.40
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **ModelPickleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
-- **.test_missing_django_version_unpickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
-- **.test_unsupported_unpickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
-- **.test_with_getstate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
-- **#21430 -- Verifies a warning is raised for models that are unpickled without a…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
-- **A model may override __getstate__() to choose the attributes to pickle.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **RowLevelChangePermissionModelAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.has_change_permission()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.has_view_permission()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Only allow changing objects with even id number** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Only allow viewing objects if id is a multiple of 3.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 89](Community_89.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

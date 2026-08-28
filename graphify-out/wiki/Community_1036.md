@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **.index()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.remove()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list index method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list remove method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **DirectorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **SchoolManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
 
 ## Relationships
 
-- [Community 431](Community_431.md) (2 shared connections)
+- [Community 591](Community_591.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
 
 ## Audit Trail
 

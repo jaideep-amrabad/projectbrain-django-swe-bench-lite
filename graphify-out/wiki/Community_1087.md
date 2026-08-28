@@ -1,24 +1,24 @@
 # Community 1087
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.combine_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.combine_duration_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Combine a list of subexpressions into a single expression, using the provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **GISConfig** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/apps.py`
+- **.ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/apps.py`
 
 ## Relationships
 
-- [Community 87](Community_87.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/apps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

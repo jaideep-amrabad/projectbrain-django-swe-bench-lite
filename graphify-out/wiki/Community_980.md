@@ -1,30 +1,26 @@
 # Community 980
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **MailTimeZoneTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_date_header_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_date_header_utc()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **requires_tz_support** (1 connections)
-- **EMAIL_USE_LOCALTIME=False creates a datetime in UTC.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **EMAIL_USE_LOCALTIME=True creates a datetime in the local time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **SQLiteCursorWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.convert_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **Django uses the "format" and "pyformat" styles, but Python's sqlite3 module…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
 
 ## Relationships
 
-- [Community 129](Community_129.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 405](Community_405.md) (1 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

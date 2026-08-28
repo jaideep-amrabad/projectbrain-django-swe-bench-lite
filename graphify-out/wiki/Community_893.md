@@ -1,33 +1,33 @@
 # Community 893
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.48
 
 ## Key Concepts
 
-- **DebugSQLTextTestResult** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addFailure()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addFailure()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.startTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.stopTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.startTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.stopTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.printErrorList()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **DateHierarchyTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.assertDateParams()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.test_bounded_params_with_dst_time_zone()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.test_bounded_params_with_time_zone()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.test_bounded_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.test_invalid_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
 
 ## Relationships
 
-- [Community 567](Community_567.md) (5 shared connections)
-- [Community 894](Community_894.md) (2 shared connections)
-- [Community 124](Community_124.md) (1 shared connections)
-- [Community 737](Community_737.md) (1 shared connections)
+- [Community 39](Community_39.md) (4 shared connections)
+- [Community 66](Community_66.md) (3 shared connections)
+- [Community 128](Community_128.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 657](Community_657.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (71%)
+- INFERRED: 6 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

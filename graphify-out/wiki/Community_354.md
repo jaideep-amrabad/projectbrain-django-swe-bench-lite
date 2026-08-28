@@ -1,59 +1,62 @@
 # Community 354
 
-> 58 nodes · cohesion 0.04
+> 32 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **BaseModelBackendTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.authenticate()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **PermissionDeniedBackendTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **AuthenticateTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **ModelBackendTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **_clean_credentials()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- **CustomPermissionsUserModelBackendTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **ExtensionUserModelBackendTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authenticate_sensitive_variables()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **CustomUserModelBackendAuthenticateTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_clean_credentials_sensitive_variables()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_skips_backends_without_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_type_error_raised()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authentication_timing()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authenticate_user_without_is_active_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_permission_denied()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_skips_backends_with_decorated_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_anonymous_has_no_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authentication_without_credentials()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_inactive_has_no_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.create_users()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authenticate()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authenticate_inactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authenticates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- *... and 33 more nodes in this community*
+- **geogapp/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **Area** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **GeographyFunctionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **GeographyTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **geogapp/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **NamedModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **CityUnique** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **County** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **Zipcode** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **.test_operators_functions_unavailable_for_geography()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **.test_cast_aggregate()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.test_distance_function()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.test_geodetic_area_raises_if_not_supported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.test_geography_area()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.test_geography_unique()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **.test_area()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **.test02_distance_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.as_sqlite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **.output_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **.test01_fixture_load()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **Testing distance lookup support on non-point geography fields.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 306](Community_306.md) (12 shared connections)
-- [Community 3](Community_3.md) (10 shared connections)
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 16](Community_16.md) (5 shared connections)
-- [Community 33](Community_33.md) (4 shared connections)
-- [Community 276](Community_276.md) (3 shared connections)
-- [Community 253](Community_253.md) (2 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 282](Community_282.md) (1 shared connections)
+- [Community 28](Community_28.md) (15 shared connections)
+- [Community 63](Community_63.md) (8 shared connections)
+- [Community 4](Community_4.md) (6 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 105](Community_105.md) (2 shared connections)
+- [Community 133](Community_133.md) (2 shared connections)
+- [Community 175](Community_175.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 202](Community_202.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 96](Community_96.md) (2 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 108 (96%)
-- INFERRED: 4 (4%)
+- EXTRACTED: 95 (90%)
+- INFERRED: 11 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

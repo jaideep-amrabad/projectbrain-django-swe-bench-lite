@@ -1,61 +1,63 @@
 # Community 247
 
-> 28 nodes · cohesion 0.09
+> 52 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Migration** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **OperationTestBase** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **IrreversibleError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **.set_up_test_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.suggest_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.unapply()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.apply_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.cleanup_test_tables()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.make_test_state()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.apply()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.mutate_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **Take a project_state representing all migrations prior to this one and a…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.unapply_operations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **RuntimeError** (1 connections)
-- **An irreversible migration is about to be reversed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **The base class for all migrations. Migration files will import this from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **Suggest a name for the operations this migration might represent. Names are not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **Take a ProjectState and return a new one with the migration's operations…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- *... and 3 more nodes in this community*
+- **ASGITest** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **ASGIHandler** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **get_asgi_application()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- **ASGIStaticFilesHandler** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.handle()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **staticfiles_tests/test_handlers.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
+- **TestASGIStaticFilesHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
+- **.test_static_file_response()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.send_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.listen_for_disconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.read_body()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **get_script_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.test_file_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **MockApplication** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.chunk_bytes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.handle_uncaught_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.test_get_asgi_application()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_get_async_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
+- **.test_get_async_response_not_found()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
+- **.test_non_http_requests_passed_to_the_wrapped_application()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
+- **.run_get_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.test_assert_in_listen_for_disconnect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_concurrent_async_uses_multiple_thread_pools()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (12 shared connections)
-- [Community 377](Community_377.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 677](Community_677.md) (2 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 359](Community_359.md) (2 shared connections)
-- [Community 131](Community_131.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 118](Community_118.md) (1 shared connections)
-- [Community 450](Community_450.md) (1 shared connections)
-- [Community 451](Community_451.md) (1 shared connections)
-- [Community 826](Community_826.md) (1 shared connections)
+- [Community 7](Community_7.md) (16 shared connections)
+- [Community 395](Community_395.md) (5 shared connections)
+- [Community 328](Community_328.md) (3 shared connections)
+- [Community 146](Community_146.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 172](Community_172.md) (2 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
+- [Community 140](Community_140.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (86%)
-- INFERRED: 9 (14%)
+- EXTRACTED: 115 (95%)
+- INFERRED: 6 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

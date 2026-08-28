@@ -1,52 +1,66 @@
 # Community 140
 
-> 73 nodes · cohesion 0.05
+> 81 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **TestHashedFiles** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **hashed_file_path()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.assertPostCondition()** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestCollectionManifestStorage** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestStaticFilePermissions** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestCollectionHashedFilesCache** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestCollectionSimpleStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestExtraPatternsStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.setUp()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestCollectionJSModuleImportAggregationManifestStorage** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_post_processing_failure()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_file_change_after_collectstatic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_import_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_post_processing_nonutf8()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_template_tag_absolute_root()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.run_collectstatic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_multi_extension_patterns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_css_import_case_insensitive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_css_source_map()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_css_source_map_data_uri()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_css_source_map_sensitive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_css_source_map_tabs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_import_replacement()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_js_source_map()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_js_source_map_data_uri()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- *... and 48 more nodes in this community*
+- **AnonymousUser** (47 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **view()** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nonimported_module.py`
+- **AnonymousUserTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **UserPassesTestTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **PermissionsRequiredMixinTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **AccessMixinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **._test_redirect()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **_user_get_permissions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_perm()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_perms()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **_user_has_module_perms()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **_user_has_perm()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.test_login_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_template_engine()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_template_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.has_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.get_group_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.get_user_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_module_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_perm()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.test_access_mixin_permission_denied_remote_login_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_access_mixin_permission_denied_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_stacked_mixins_not_logged_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_raise_exception_custom_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_raise_exception_custom_message_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- *... and 56 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (11 shared connections)
-- [Community 56](Community_56.md) (8 shared connections)
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 768](Community_768.md) (1 shared connections)
+- [Community 84](Community_84.md) (12 shared connections)
+- [Community 321](Community_321.md) (6 shared connections)
+- [Community 26](Community_26.md) (6 shared connections)
+- [Community 111](Community_111.md) (6 shared connections)
+- [Community 169](Community_169.md) (5 shared connections)
+- [Community 23](Community_23.md) (3 shared connections)
+- [Community 386](Community_386.md) (2 shared connections)
+- [Community 201](Community_201.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 72](Community_72.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_class_based_error_handlers.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nonimported_module.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 159 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 130 (80%)
+- INFERRED: 33 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,37 +1,30 @@
 # Community 889
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **BooleanField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **NullBooleanField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.output_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.output_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.items()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.lists()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__copy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__eq__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **Yield (key, value) pairs, where value is the last item in the list associated…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **Yield (key, list) pairs.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **Return a shallow copy of this object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
 
 ## Relationships
 
-- [Community 34](Community_34.md) (5 shared connections)
-- [Community 197](Community_197.md) (2 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
-- [Community 235](Community_235.md) (1 shared connections)
-- [Community 447](Community_447.md) (1 shared connections)
-- [Community 224](Community_224.md) (1 shared connections)
+- [Community 250](Community_250.md) (3 shared connections)
+- [Community 432](Community_432.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

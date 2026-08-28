@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **SelectBox.js** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectBox.js`
-- **get_hidden_node_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectBox.js`
+- **.test_loading_stdin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **Loading fixtures from stdin with json and xml.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 677](Community_677.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectBox.js`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

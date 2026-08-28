@@ -1,58 +1,49 @@
 # Community 381
 
-> 33 nodes · cohesion 0.08
+> 33 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **serializers/models/base.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Meta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Actor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Movie** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **CategoryMetaData** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **ProxyBaseModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_serialize_superfluous_queries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_unicode_roundtrip()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **ProxyProxyBaseModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **TestDeserializedObjectTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserializedobject.py`
-- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserializedobject.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **AuthorProfile** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **CategoryMetaDataManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **TopicManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_unicode_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **TermColorTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **parse_color_setting()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **colorize()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **termcolors.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **make_style()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **test_termcolors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_color()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_palette()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_role()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_color_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_empty_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_fg_bg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_opts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_empty_definition()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_empty_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_empty_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg_bg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg_bg_opts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg_opts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_multiple_roles()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_opts_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_override_nocolor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
 - *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 402](Community_402.md) (6 shared connections)
-- [Community 185](Community_185.md) (3 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 623](Community_623.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 946](Community_946.md) (1 shared connections)
-- [Community 688](Community_688.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserializedobject.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (84%)
-- INFERRED: 10 (16%)
+- EXTRACTED: 62 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

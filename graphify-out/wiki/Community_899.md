@@ -1,36 +1,32 @@
 # Community 899
 
-> 8 nodes · cohesion 0.36
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **custom_columns/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **custom_columns/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **Custom column/table names If your database column name is different than your…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **ShadowingFieldsTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_id_clash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_diamond_mti_common_parent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_field_name_clash_with_child_accessor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_field_name_clash_with_m2m_through()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_inheritance_clash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_multigeneration_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_multiinheritance_clash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
 
 ## Relationships
 
-- [Community 654](Community_654.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
+- [Community 58](Community_58.md) (2 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

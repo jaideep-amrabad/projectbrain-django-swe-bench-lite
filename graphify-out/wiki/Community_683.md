@@ -1,39 +1,38 @@
 # Community 683
 
-> 15 nodes · cohesion 0.15
+> 15 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **SMTPBackendStoppedServerTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **SMTPBackendTestsBase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **SMTPHandler** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **skipUnless** (3 connections)
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_fail_silently_on_connection_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_server_stopped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Closing the backend while the SMTP server is stopped doesn't raise an exception.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **A socket connection error is silenced with fail_silently=True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.stop_smtp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.stop_smtp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.handle_DATA()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **BooleanFieldTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **._test_get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **._test_to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_booleanfield_choices_blank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_booleanfield_choices_blank_desired()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_booleanfield_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_booleanfield_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_nullbooleanfield_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_nullbooleanfield_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_nullbooleanfield_formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_return_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **BooleanField with choices and defaults doesn't generate a formfield with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **BooleanField with choices and no default should generated a formfield with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **Boolean fields retrieved via select_related() should return booleans.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 405](Community_405.md) (3 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 68](Community_68.md) (5 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (88%)
+- INFERRED: 3 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

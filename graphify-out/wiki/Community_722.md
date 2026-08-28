@@ -1,37 +1,46 @@
 # Community 722
 
-> 14 nodes · cohesion 0.23
+> 13 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **RegroupTagTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **setup** (9 connections)
-- **.test_regroup03()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup_unpack()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **Test for silent failure when target variable isn't found** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **Regression tests for #17675 The date template filter has expects_localtime =…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **The join template filter has needs_autoescape = True** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **auth_tests/test_handlers.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **modwsgi.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
+- **check_password()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
+- **groups_for_user()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
+- **ModWsgiHandlerTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **.test_check_password_custom_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **.test_check_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **.test_groups_for_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **check_password() returns the correct values as per…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **Authorize a user based on groups** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
+- **Authenticate against Django's auth database. mod_wsgi docs specify None, True,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
+- **Tests for the mod_wsgi authentication handler** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **groups_for_user() returns correct values as per…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 276](Community_276.md) (1 shared connections)
+- [Community 84](Community_84.md) (3 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 395](Community_395.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 151](Community_151.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 37 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,26 +1,25 @@
 # Community 1009
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **SecretHideout** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **SuperSecretHideout** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Secret! Not registered with the admin!** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **calendar.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
+- **calendarMonth()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
+- **Calendar()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
+- **onClick()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
 
 ## Relationships
 
-- [Community 79](Community_79.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

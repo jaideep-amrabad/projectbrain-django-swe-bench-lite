@@ -1,48 +1,52 @@
 # Community 527
 
-> 22 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **UpdateQuery** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **AggregateQuery** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **.add_update_values()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **InsertQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **.add_related_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **.add_update_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **._setup_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **.test_sql_insert_compiler_return_id_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **.get_related_updates()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **.update_batch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **.insert_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **Append a sequence of (field, model, value) triples to the internal list that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **Add (name, value) to an update query for an ancestor model. Update are…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **Return a list of query objects: one for each update required to an ancestor…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **Take another query as a parameter to the FROM clause and only select the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **Run on initialization and at the end of chaining. Any attributes that would…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **Convert a dictionary of field name to value mappings into an update query. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **.clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **Regression test for #14019: SQLInsertCompiler.as_sql() failure** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **inspectapp/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **ogrinspect()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- **OGRInspectTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **inspectapp/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
+- **get_ogr_db_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **AllOGRFields** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
+- **.test_time_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **Fields3D** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
+- **.test_date_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **.test_management_command()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **.test_mapping_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **.test_poly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **.test_poly_multi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **Helper routine for `ogrinspect` that generates GeoDjango models corresponding…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- **Given a data source (either a string or a DataSource object) and a string model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
+- **Construct the DB string that GDAL will use to inspect the database. GDAL will…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **# TODO: Support Oracle (OCI).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
 
 ## Relationships
 
-- [Community 34](Community_34.md) (5 shared connections)
-- [Community 114](Community_114.md) (3 shared connections)
-- [Community 270](Community_270.md) (1 shared connections)
-- [Community 314](Community_314.md) (1 shared connections)
+- [Community 49](Community_49.md) (5 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 286](Community_286.md) (3 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 322](Community_322.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 49 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,62 +1,63 @@
 # Community 98
 
-> 94 nodes · cohesion 0.04
+> 95 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **LayerMapping** (50 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **LayerMapTest** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **layermap/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **LayerMapError** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **layermap/models.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **.__init__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **NamedModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **.verify_ogr_field()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **State** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **.check_layer()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.feature_kwargs()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **ICity1** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **LayerMapRouterTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **InvalidDecimal** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **InvalidString** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.check_srs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.coord_transform()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.verify_fk()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.verify_geom()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **MissingForeignKey** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **ICity2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **Interstate** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **.test_layermap_unique_multigeometry_fk()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- *... and 69 more nodes in this community*
+- **Paginator** (49 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **PaginationTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **paginator.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **pagination/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **Page** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **ModelPaginationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **InvalidPage** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **EmptyPage** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **PageNotAnInteger** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.validate_number()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.get_page()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **pagination/custom.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **ValidAdjacentNumsPage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **ValidAdjacentNumsPaginator** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **.page()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.check_paginator()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **._check_object_list_is_ordered()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **UnorderedObjectListWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
+- **.check_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.has_other_pages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.get_elided_page_range()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.ordered()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.test_page_getitem()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_paginating_unordered_object_list_raises_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- *... and 70 more nodes in this community*
 
 ## Relationships
 
-- [Community 161](Community_161.md) (16 shared connections)
-- [Community 117](Community_117.md) (5 shared connections)
-- [Community 55](Community_55.md) (3 shared connections)
+- [Community 4](Community_4.md) (5 shared connections)
+- [Community 80](Community_80.md) (5 shared connections)
+- [Community 375](Community_375.md) (5 shared connections)
+- [Community 657](Community_657.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 39](Community_39.md) (3 shared connections)
+- [Community 61](Community_61.md) (3 shared connections)
 - [Community 1](Community_1.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 656](Community_656.md) (1 shared connections)
-- [Community 223](Community_223.md) (1 shared connections)
-- [Community 84](Community_84.md) (1 shared connections)
-- [Community 519](Community_519.md) (1 shared connections)
-- [Community 41](Community_41.md) (1 shared connections)
+- [Community 457](Community_457.md) (2 shared connections)
+- [Community 313](Community_313.md) (2 shared connections)
+- [Community 829](Community_829.md) (2 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 200 (89%)
-- INFERRED: 24 (11%)
+- EXTRACTED: 179 (90%)
+- INFERRED: 20 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

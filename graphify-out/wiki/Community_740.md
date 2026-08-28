@@ -1,38 +1,36 @@
 # Community 740
 
-> 13 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ModelRefreshTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_clears_reverse_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_prefetched_cache_cleared()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_clears_one_to_one_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_fk_on_delete_set_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_lookup_in_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_no_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_null_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_unknown_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **refresh_from_db() clear cached reverse relations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **FakePostGISOperations** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **TestPostGISVersionCheck** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **FakeConnection** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **.test_get_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **.test_no_version_number()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **.test_valid_version_numbers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **.test_version_classic_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **.test_version_dev_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **.test_version_loose_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **._get_postgis_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **The PostGIS version check parses correctly the version numbers** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
 
 ## Relationships
 
-- [Community 23](Community_23.md) (4 shared connections)
-- [Community 629](Community_629.md) (3 shared connections)
-- [Community 436](Community_436.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 564](Community_564.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (68%)
-- INFERRED: 7 (32%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

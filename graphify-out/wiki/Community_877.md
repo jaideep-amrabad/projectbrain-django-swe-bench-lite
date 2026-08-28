@@ -1,44 +1,35 @@
 # Community 877
 
-> 15 nodes · cohesion 0.21
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **date_format()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **NowTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **setup** (8 connections)
-- **.test_sub_locales()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_now02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **Format a datetime.date or datetime.datetime object using a localizable format.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **Check if sublocales fall back to the main locale** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **#15092 - Also accept simple quotes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
+- **FileSessionTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **FileSessionPathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.mkdtemp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_configuration_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.mkdtemp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_invalid_key_backslash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_invalid_key_forwardslash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Relationships
 
-- [Community 21](Community_21.md) (7 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 65](Community_65.md) (1 shared connections)
-- [Community 276](Community_276.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 412](Community_412.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 284](Community_284.md) (1 shared connections)
+- [Community 625](Community_625.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

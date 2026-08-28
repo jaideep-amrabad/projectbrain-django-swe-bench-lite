@@ -1,65 +1,70 @@
 # Community 21
 
-> 73 nodes · cohesion 0.05
+> 167 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **i18n/tests.py** (84 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **formats.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **FormattingTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **get_format()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **localize()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **number_format()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **iter_format_modules()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **localize_input()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **time_format()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **check_for_language()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **i18n/forms.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
-- **i18n/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
-- **.test_l10n_enabled()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **reset_format_cache()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **numberformat.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/numberformat.py`
-- **CompanyForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
-- **Company** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
-- **TestModels** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **sanitize_strftime_format()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **format()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/numberformat.py`
-- **get_format_modules()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **sanitize_separators()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **.test_localized_as_text_as_hidden_input()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_sanitize_separators()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_check_for_language()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- *... and 48 more nodes in this community*
+- **ModelAdmin** (158 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **HttpResponseRedirect** (65 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **TemplateResponse** (45 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.changeform_view()** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **InlineModelAdmin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.changelist_view()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **contenttypes/admin.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- **unquote()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.get_formset()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.delete_view()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **add_preserved_filters()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
+- **.get_form()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.response_add()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_change_permission()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_changelist_instance()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_preserved_filters()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.history_view()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.render_change_form()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.response_change()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **DisallowedModelAdminToField** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/exceptions.py`
+- **.response_delete()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.user_change_password()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
+- **get_content_type_for_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_actions()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **._get_obj_does_not_exist_redirect()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- *... and 142 more nodes in this community*
 
 ## Relationships
 
-- [Community 163](Community_163.md) (17 shared connections)
-- [Community 225](Community_225.md) (12 shared connections)
-- [Community 4](Community_4.md) (10 shared connections)
-- [Community 65](Community_65.md) (8 shared connections)
-- [Community 10](Community_10.md) (8 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 877](Community_877.md) (7 shared connections)
-- [Community 609](Community_609.md) (7 shared connections)
-- [Community 126](Community_126.md) (5 shared connections)
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 543](Community_543.md) (5 shared connections)
-- [Community 968](Community_968.md) (5 shared connections)
+- [Community 313](Community_313.md) (28 shared connections)
+- [Community 32](Community_32.md) (28 shared connections)
+- [Community 52](Community_52.md) (18 shared connections)
+- [Community 657](Community_657.md) (17 shared connections)
+- [Community 56](Community_56.md) (17 shared connections)
+- [Community 12](Community_12.md) (15 shared connections)
+- [Community 36](Community_36.md) (13 shared connections)
+- [Community 7](Community_7.md) (11 shared connections)
+- [Community 37](Community_37.md) (10 shared connections)
+- [Community 221](Community_221.md) (9 shared connections)
+- [Community 80](Community_80.md) (8 shared connections)
+- [Community 146](Community_146.md) (8 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/numberformat.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 283 (96%)
-- INFERRED: 11 (4%)
+- EXTRACTED: 588 (92%)
+- INFERRED: 54 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

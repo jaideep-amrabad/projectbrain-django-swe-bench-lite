@@ -1,45 +1,33 @@
 # Community 817
 
-> 11 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **model_inheritance/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **Place** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ItalianRestaurant** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Supplier** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ItalianRestaurantCommonParent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **CustomSupplier** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ParkingLot** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **SubBase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **InheritanceSameModelNameTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_abstract_fk_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **DummyCache** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **cache/backends/dummy.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.set()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.touch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
 
 ## Relationships
 
-- [Community 752](Community_752.md) (13 shared connections)
-- [Community 540](Community_540.md) (9 shared connections)
-- [Community 878](Community_878.md) (7 shared connections)
-- [Community 553](Community_553.md) (5 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 26](Community_26.md) (4 shared connections)
-- [Community 908](Community_908.md) (4 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
+- [Community 394](Community_394.md) (2 shared connections)
+- [Community 189](Community_189.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (84%)
-- INFERRED: 11 (16%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

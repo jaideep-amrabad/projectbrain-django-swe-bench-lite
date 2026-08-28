@@ -1,63 +1,54 @@
 # Community 182
 
-> 47 nodes · cohesion 0.07
+> 64 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **time()** (39 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **TimeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **LocalizedTimeTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **TimeInputTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
-- **setup** (8 connections)
-- **CustomTimeInputFormatsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **SimpleTimeFormatTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
-- **.test_localized_timeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **TimeFields can parse dates in the default format** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **TimeFields with manually specified input formats can accept those formats** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **Localized TimeFields with manually specified input formats can accept those…** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_timeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_timeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_render_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
-- **.test_time00()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- *... and 22 more nodes in this community*
+- **DatabaseOperations** (62 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.quote_name()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **._convert_sql_to_tz()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **._get_no_autofield_sequence_name()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **InsertVar** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
+- **.sequence_reset_by_name_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.sequence_reset_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.adapt_datetimefield_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **._get_sequence_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.last_insert_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.max_name_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **._prepare_tzname_delta()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.return_insert_columns()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.sql_flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.from_datetime()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
+- **.adapt_datefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.adapt_timefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.bulk_batch_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.cache_key_culling_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.combine_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.conditional_expression_supported_in_where_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.convert_binaryfield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.date_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (7 shared connections)
-- [Community 23](Community_23.md) (4 shared connections)
-- [Community 900](Community_900.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 225](Community_225.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 281](Community_281.md) (1 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 359](Community_359.md) (1 shared connections)
+- [Community 4](Community_4.md) (19 shared connections)
+- [Community 237](Community_237.md) (2 shared connections)
+- [Community 83](Community_83.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
+- [Community 302](Community_302.md) (1 shared connections)
+- [Community 49](Community_49.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (76%)
-- INFERRED: 26 (24%)
+- EXTRACTED: 104 (95%)
+- INFERRED: 6 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,32 +1,31 @@
 # Community 901
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **ShadowingFieldsTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_id_clash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_diamond_mti_common_parent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_field_name_clash_with_child_accessor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_field_name_clash_with_m2m_through()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_inheritance_clash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_multigeneration_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_multiinheritance_clash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **FormMixinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_initial_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_get_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_get_context_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_get_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **Test instance independence of initial data dict (see #16138)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **Test prefix can be set (see #18872)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 106](Community_106.md) (1 shared connections)
+- [Community 99](Community_99.md) (2 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (90%)
+- INFERRED: 1 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

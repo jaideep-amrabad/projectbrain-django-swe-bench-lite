@@ -1,62 +1,54 @@
 # Community 409
 
-> 36 nodes · cohesion 0.07
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **modelform_factory()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **FormFieldCallbackTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **StrictAssignmentTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.test_empty_fields_to_construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **StrictAssignmentAll** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **StrictAssignmentFieldSpecific** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **CustomMetaclassTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__setattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__setattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_baseform_with_widgets_in_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_custom_callback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_factory_with_widget_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_modelform_factory_with_all_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_modelform_factory_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_save_blank_null_unique_charfield_saves_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_setattr_raises_validation_error_field_specific()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_setattr_raises_validation_error_non_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_editable_generic_rel()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- **.test_modelform_factory_metaclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_bad_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_custom_callback_from_base_form_meta()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_inherit_after_custom_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_extra_field_modelform_factory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- *... and 11 more nodes in this community*
+- **SpatiaLiteOperations** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **._get_spatialite_func()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.geom_lib_version()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.spatialite_version_tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.lwgeom_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.rttopo_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.spatial_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.spatialite_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.convert_extent()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.geos_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.proj_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **Return the version of the PROJ library used by SpatiaLite.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.geo_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.get_distance()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.spatial_aggregate_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.unsupported_functions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **DatabaseOperations** (1 connections)
+- **Convert the polygon data received from SpatiaLite to min/max values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **Return None because geometry columns are added via the `AddGeometryColumn`…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **Return the distance parameters for the given geometry field, lookup value, and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **Helper routine for calling SpatiaLite functions and returning their result. Any…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **Return the version of GEOS used by SpatiaLite as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **Return the version of LWGEOM library used by SpatiaLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **Return the version of the version-dependant geom library used by SpatiaLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **Return the SpatiaLite library version as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 144](Community_144.md) (11 shared connections)
-- [Community 203](Community_203.md) (4 shared connections)
-- [Community 259](Community_259.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 28](Community_28.md) (2 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 160](Community_160.md) (2 shared connections)
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
-- [Community 379](Community_379.md) (1 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 83](Community_83.md) (2 shared connections)
+- [Community 57](Community_57.md) (2 shared connections)
+- [Community 198](Community_198.md) (1 shared connections)
+- [Community 105](Community_105.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (92%)
-- INFERRED: 7 (8%)
+- EXTRACTED: 47 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

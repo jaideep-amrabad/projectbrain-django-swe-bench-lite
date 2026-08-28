@@ -1,33 +1,44 @@
 # Community 823
 
-> 11 nodes · cohesion 0.33
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **UrlizeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **setup** (9 connections)
-- **.test_urlize01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_urlize02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_urlize03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_urlize04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_urlize05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_urlize06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_urlize07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_urlize08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_urlize09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
+- **model_inheritance/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **Supplier** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **CustomSupplier** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **SubBase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **InheritanceSameModelNameTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **Chef** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Post** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Title** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.test_abstract_fk_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (6 shared connections)
+- [Community 185](Community_185.md) (17 shared connections)
+- [Community 216](Community_216.md) (7 shared connections)
+- [Community 864](Community_864.md) (4 shared connections)
+- [Community 560](Community_560.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 58](Community_58.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 735](Community_735.md) (1 shared connections)
+- [Community 202](Community_202.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 51 (86%)
+- INFERRED: 8 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

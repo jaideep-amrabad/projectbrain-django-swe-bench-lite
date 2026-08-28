@@ -1,54 +1,48 @@
 # Community 512
 
-> 23 nodes · cohesion 0.21
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **FallbackTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **set_cookie_data()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.get_session_storage()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **set_session_data()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.stored_session_messages_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_flush_used_backends()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.get_cookie_storage()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.get_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.stored_cookie_messages_count()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get_fallback()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get_fallback_only()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_no_fallback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_session_fallback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_session_fallback_only()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.stored_messages_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **Set ``request.COOKIES`` with the encoded data and remove the storage backend's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **(1) A short number of messages whose data size doesn't exceed what is allowed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **If the data exceeds what is allowed in a cookie, messages which did not fit are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **Large messages, none of which fit in a cookie, are stored in the SessionBackend…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **Return the storage totals from both cookie and session backends.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **Sets the messages into the backend request's session and remove the backend's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **DefusedExpatParser** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **DTDForbidden** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **EntitiesForbidden** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **DefusedXmlException** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **ExternalReferenceForbidden** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.entity_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.external_entity_ref_handler()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.start_doctype_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.unparsed_entity_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **_ExpatParser** (1 connections)
+- **.reset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **An expat parser hardened against XML bomb attacks. Forbid DTDs, external entity…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Document type definition is forbidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Entity definition is forbidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Resolving an external reference is forbidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
 
 ## Relationships
 
-- [Community 252](Community_252.md) (5 shared connections)
-- [Community 432](Community_432.md) (2 shared connections)
-- [Community 456](Community_456.md) (2 shared connections)
-- [Community 942](Community_942.md) (2 shared connections)
-- [Community 558](Community_558.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 307](Community_307.md) (1 shared connections)
-- [Community 458](Community_458.md) (1 shared connections)
+- [Community 10](Community_10.md) (6 shared connections)
+- [Community 664](Community_664.md) (2 shared connections)
+- [Community 410](Community_410.md) (1 shared connections)
+- [Community 905](Community_905.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 37 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

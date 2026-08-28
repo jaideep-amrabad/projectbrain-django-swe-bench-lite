@@ -1,45 +1,53 @@
 # Community 389
 
-> 21 nodes · cohesion 0.19
+> 32 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **DispatcherTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.assertTestIsClean()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **receiver_1_arg()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **garbage_collect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_cached_garbaged_collected()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_disconnection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_garbage_collected()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_multiple_registration()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_cannot_connect_no_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_cannot_connect_non_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_connected_no_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_different_no_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_robust_ignored_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_robust_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_robust_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_uid_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_no_receivers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **.test_send_robust_no_receivers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **Make sure signal caching sender receivers don't prevent garbage collection of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **Assert that everything has been cleaned up automatically** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **AdminFormfieldForDBFieldTests** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.assertFormfield()** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_formfield_overrides_for_custom_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_m2m_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_URLField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_CharField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_choices_with_radio_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_DateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_DateTimeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_EmailField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_field_with_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_FileField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_filtered_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_formfield_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_formfield_overrides_for_datetime_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_IntegerField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_m2m_widgets_no_allow_multiple_selected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_radio_fields_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_raw_id_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_raw_id_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_TextField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_TimeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 1012](Community_1012.md) (9 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 44](Community_44.md) (9 shared connections)
+- [Community 221](Community_221.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (88%)
-- INFERRED: 6 (12%)
+- EXTRACTED: 58 (88%)
+- INFERRED: 8 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

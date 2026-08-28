@@ -1,57 +1,57 @@
 # Community 308
 
-> 41 nodes · cohesion 0.08
+> 44 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **check_url_config()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **CheckUrlConfigTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **check_url_namespaces_unique()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **check_url_settings()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **get_warning_for_invalid_pattern()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **CheckCustomErrorHandlersTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **CheckURLSettingsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **E006()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **UpdatedToPathTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_no_root_urlconf_in_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_media_url_no_slash()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_static_url_no_slash()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **register** (3 connections)
-- **.test_bad_class_based_handlers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_bad_function_based_handlers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_bad_handlers_invalid_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_good_class_based_handlers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_good_function_based_handlers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_beginning_with_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_beginning_with_slash_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_check_non_unique_namespaces()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_check_resolver_recursive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_check_unique_namespaces()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_check_view_not_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_contains_included_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- *... and 16 more nodes in this community*
+- **Node** (29 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **NodeTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **tree.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.add_filtered_relation()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **rename_prefix_from_q()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **test_tree.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **get_children_from_q()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.negate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.add()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__copy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_add_eq_child_mixed_connector()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_copy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_deepcopy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_eq_children()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_eq_connector()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_eq_negated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (26 shared connections)
-- [Community 26](Community_26.md) (18 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 57](Community_57.md) (3 shared connections)
-- [Community 663](Community_663.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 242](Community_242.md) (2 shared connections)
-- [Community 410](Community_410.md) (1 shared connections)
-- [Community 211](Community_211.md) (1 shared connections)
+- [Community 80](Community_80.md) (4 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
+- [Community 759](Community_759.md) (2 shared connections)
+- [Community 173](Community_173.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
 
 ## Audit Trail
 
-- EXTRACTED: 118 (94%)
-- INFERRED: 8 (6%)
+- EXTRACTED: 67 (93%)
+- INFERRED: 5 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

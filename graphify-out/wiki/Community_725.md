@@ -1,41 +1,35 @@
 # Community 725
 
-> 14 nodes · cohesion 0.27
+> 13 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **ModelToValidate** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **BaseModelValidationTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_correct_email_value_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_correct_FK_value_validates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_custom_validate_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_full_clean_does_not_mutate_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_limited_FK_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_malformed_slug_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_missing_required_field_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_text_greater_that_charfields_max_length_raises_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_with_correct_value_model_validates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_wrong_email_value_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_wrong_FK_value_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_wrong_url_value_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **MapWidget** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.constructor()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **OLMapWidget.js** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.clearFeatures()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **GeometryTypeControl** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.createInteractions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.createMap()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.defaultCenter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.disableDrawing()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.enableDrawing()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.serializeFeatures()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.constructor()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **TODO: allow deleting individual features (#8972)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
 
 ## Relationships
 
-- [Community 724](Community_724.md) (6 shared connections)
-- [Community 760](Community_760.md) (6 shared connections)
-- [Community 855](Community_855.md) (4 shared connections)
-- [Community 620](Community_620.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

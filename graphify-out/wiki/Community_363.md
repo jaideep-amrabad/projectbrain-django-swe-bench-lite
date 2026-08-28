@@ -1,60 +1,53 @@
 # Community 363
 
-> 34 nodes · cohesion 0.07
+> 35 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ForeignObject** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_unique_target()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_path_info()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_reverse_related_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_extra_descriptor_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_instance_value_for_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.resolve_related_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_to_fields_exist()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_extra_restriction()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_foreign_related_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_joining_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_joining_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_local_related_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_reverse_joining_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_reverse_joining_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_reverse_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.path_infos()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.related_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.path_infos()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.contribute_to_related_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.__copy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.foreign_related_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_class_lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- *... and 9 more nodes in this community*
+- **Tests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **skipUnless** (3 connections)
+- **._select()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_server_side_binding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_copy_cursors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_copy_to_expert_cursors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_nodb_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_check_database_version_supported()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_and_rollback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_custom_cursor_factory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_isolation_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_non_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_role()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_correct_extraction_psycopg_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_lookup_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_nodb_cursor_raises_postgres_authentication_failure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_nodb_cursor_reraise_exceptions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_select_ascii_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_select_unicode_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_service_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **object** (1 connections)
+- **skipIf** (1 connections)
+- **PostgreSQL shouldn't roll back SET TIME ZONE, even if the first transaction is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **The connection wrapper shouldn't believe that autocommit is enabled after…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **The transaction level can be configured with DATABASES…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 97](Community_97.md) (9 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 419](Community_419.md) (2 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
-- [Community 340](Community_340.md) (1 shared connections)
-- [Community 459](Community_459.md) (1 shared connections)
-- [Community 222](Community_222.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 359](Community_359.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 50](Community_50.md) (4 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 303](Community_303.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (89%)
-- INFERRED: 7 (11%)
+- EXTRACTED: 49 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

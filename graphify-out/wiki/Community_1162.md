@@ -1,24 +1,23 @@
 # Community 1162
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **NrOfMembersFilter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **.test_empty_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **POST an empty dictionary to a view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 44](Community_44.md) (1 shared connections)
+- [Community 526](Community_526.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

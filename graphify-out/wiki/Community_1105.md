@@ -1,30 +1,24 @@
 # Community 1105
 
-> 7 nodes · cohesion 0.29
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **PostGISSchemaEditor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
-- **._create_index_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
-- **._alter_column_type_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
-- **._field_should_be_indexed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
-- **.geo_quote_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
-- **DatabaseSchemaEditor** (1 connections)
-- **Special case when dimension changed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **Circle6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Relationships
 
-- [Community 34](Community_34.md) (3 shared connections)
-- [Community 318](Community_318.md) (2 shared connections)
+- [Community 364](Community_364.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 2 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

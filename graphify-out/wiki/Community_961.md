@@ -1,29 +1,31 @@
 # Community 961
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **BadSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **Stub serializer to hold exception raised during registration This allows the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **Register a new serializer. ``serializer_module`` should be the fully qualified…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **rasterapp/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
+- **RasterModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
+- **RasterRelatedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 665](Community_665.md) (1 shared connections)
+- [Community 85](Community_85.md) (3 shared connections)
+- [Community 70](Community_70.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (85%)
+- INFERRED: 2 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

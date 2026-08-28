@@ -1,58 +1,65 @@
 # Community 221
 
-> 58 nodes · cohesion 0.06
+> 55 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **utils/autoreload.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **WatchmanReloader** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **BaseReloader** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._update_watches()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **get_reloader()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **StatReloader** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.watched_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **iter_modules_and_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.check_server_status()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._subscribe()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.notify_file_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.run_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **get_child_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **iter_all_python_module_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **run_with_reloader()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **start_django()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.check_availability()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.tick()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._watch_glob()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.watched_roots()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.wait_for_apps_ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **common_roots()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **ensure_echo_on()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **restart_with_reloader()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- *... and 33 more nodes in this community*
+- **ModelAdminTests** (49 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **BandAdmin** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **AdminActionsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
+- **Concert** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
+- **.test_no_distinct_for_m2m_in_list_filter_without_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.test_specified_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_specified_ordering_by_f_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_formfield_overrides_m2m_filter_widget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_formfield_overrides_widget_instances()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_get_actions_respects_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
+- **.test_custom_form_meta_exclude()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_custom_form_meta_exclude_with_readonly()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_form_exclude_kwarg_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_formset_exclude_kwarg_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_lookup_allowed_allows_nonexistent_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_queryset_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_raw_id_fields_widget_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_regression_for_ticket_15820()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_actions_replace_global_action()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
+- **.test_global_actions_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_custom_form_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_custom_formfield_override_readonly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_default_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 293](Community_293.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 359](Community_359.md) (3 shared connections)
-- [Community 95](Community_95.md) (2 shared connections)
-- [Community 57](Community_57.md) (2 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 609](Community_609.md) (2 shared connections)
-- [Community 163](Community_163.md) (1 shared connections)
-- [Community 490](Community_490.md) (1 shared connections)
-- [Community 271](Community_271.md) (1 shared connections)
+- [Community 39](Community_39.md) (10 shared connections)
+- [Community 21](Community_21.md) (9 shared connections)
+- [Community 313](Community_313.md) (6 shared connections)
+- [Community 489](Community_489.md) (5 shared connections)
+- [Community 32](Community_32.md) (5 shared connections)
+- [Community 362](Community_362.md) (2 shared connections)
+- [Community 389](Community_389.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 69](Community_69.md) (2 shared connections)
+- [Community 55](Community_55.md) (2 shared connections)
+- [Community 58](Community_58.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 119 (95%)
-- INFERRED: 6 (5%)
+- EXTRACTED: 79 (64%)
+- INFERRED: 44 (36%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,33 +1,33 @@
 # Community 890
 
-> 8 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **to_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertFormError()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertFormsetError()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._assert_form_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Assert that a field named "field" on the given form object has specific errors.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Similar to assertFormError() but for formsets. Use form_index=None to check the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Put value into a list if it's not already one.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **DebugSQLTextTestResult** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addError()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addError()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.startTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.stopTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.startTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.stopTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.printErrorList()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 330](Community_330.md) (1 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
+- [Community 606](Community_606.md) (5 shared connections)
+- [Community 891](Community_891.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 732](Community_732.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 16 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

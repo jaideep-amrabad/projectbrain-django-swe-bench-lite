@@ -1,30 +1,28 @@
 # Community 945
 
-> 7 nodes · cohesion 0.48
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **ReservedNameTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.generate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_dates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_month_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_order_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **AutoFieldMeta** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__instancecheck__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__subclasscheck__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._subclasses()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **type** (1 connections)
+- **Metaclass to maintain backward inheritance compatibility for AutoField. It is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Relationships
 
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 6 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

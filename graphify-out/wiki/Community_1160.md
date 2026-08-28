@@ -1,29 +1,25 @@
 # Community 1160
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **AtomicMergeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_inner_savepoint_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_outer_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **Test merging transactions with savepoint=False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_if_tag_shortcircuit02()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **The is_bad() function should not be evaluated. If it is, an exception is raised.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
 
 ## Relationships
 
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 862](Community_862.md) (1 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

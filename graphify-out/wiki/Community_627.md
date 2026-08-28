@@ -1,45 +1,43 @@
 # Community 627
 
-> 17 nodes · cohesion 0.15
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **InlinesCheckTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.assertIsInvalidRegexp()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **model_admin()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_get_paginator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_search_use_distinct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_missing_search_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_invalid_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_invalid_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_invalid_model_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_missing_model_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_not_correct_inline_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_not_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_not_model_admin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_valid_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **Searching across model relations use QuerySet.distinct() to avoid duplicates.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **Search results are paginated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **Same as assertIsInvalid but treats the given msg as a regexp.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **Team** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **TeamField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.test_custom_field_serialization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.last_executed_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Player** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Return a string of the query last executed by the given cursor, with…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.get_db_prep_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Custom fields serialize and deserialize intact** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Relationships
 
-- [Community 38](Community_38.md) (10 shared connections)
-- [Community 250](Community_250.md) (4 shared connections)
-- [Community 65](Community_65.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 64](Community_64.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- [Community 443](Community_443.md) (3 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
+- [Community 406](Community_406.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (79%)
-- INFERRED: 8 (21%)
+- EXTRACTED: 19 (86%)
+- INFERRED: 3 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

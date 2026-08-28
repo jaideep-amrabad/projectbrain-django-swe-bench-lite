@@ -4,35 +4,31 @@
 
 ## Key Concepts
 
-- **DistinctOnTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_basic_distinct_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_distinct_not_implemented_checks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_distinct_on_get_ordering_preserved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_distinct_on_mixed_case_annotation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_distinct_on_in_ordered_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_sliced_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **Ordering shouldn't be cleared when distinct on fields are specified. refs #25081** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **QuerySet.distinct('field', ...) works** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **CITextTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **.test_citext_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **.test_equal_lowercase()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **.test_fail_citext_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **.test_array_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **.test_lookups_description_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **.test_lookups_email()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **.test_lookups_name_char()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **citext removes the need for iexact as the index is case-insensitive.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **Creating an entry for a citext field used as a primary key which clashes with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
 
 ## Relationships
 
-- [Community 965](Community_965.md) (6 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
+- [Community 102](Community_102.md) (3 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (71%)
-- INFERRED: 6 (29%)
+- EXTRACTED: 12 (80%)
+- INFERRED: 3 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

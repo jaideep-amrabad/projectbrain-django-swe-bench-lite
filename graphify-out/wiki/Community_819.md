@@ -1,34 +1,34 @@
 # Community 819
 
-> 11 nodes · cohesion 0.18
+> 10 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **TestCustomManifestStorage** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **CustomManifestStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **CustomStaticFilesStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **Used in TestStaticFilePermissions** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_read_manifest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_read_manifest_nonexistent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_save_manifest_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_save_manifest_override()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **DatabaseCreation** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **.is_in_memory_db()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **.get_test_db_clone_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **.test_db_signature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **._clone_test_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **._create_test_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **._get_test_db_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **._destroy_test_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **.setup_worker_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **Return a tuple that uniquely identifies a test database. This takes into…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 348](Community_348.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

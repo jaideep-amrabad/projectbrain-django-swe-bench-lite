@@ -4,30 +4,29 @@
 
 ## Key Concepts
 
-- **ModelLookupTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_too_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_all_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_does_not_exist()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_equal_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_lookup_by_primary_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_rich_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **DateTimeInputTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
+- **.test_render_formatted()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
+- **.test_render_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
+- **.test_l10n()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
+- **.test_fieldset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
+- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
+- **The microseconds are trimmed on display, by default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
+- **Use 'format' to change the way a value is displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
 
 ## Relationships
 
-- [Community 436](Community_436.md) (3 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 629](Community_629.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 66](Community_66.md) (3 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (79%)
-- INFERRED: 3 (21%)
+- EXTRACTED: 9 (69%)
+- INFERRED: 4 (31%)
 - AMBIGUOUS: 0 (0%)
 
 ---

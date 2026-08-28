@@ -1,40 +1,31 @@
 # Community 935
 
-> 13 nodes · cohesion 0.26
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **autodiscover_modules()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- **AutodiscoverModulesTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_found_but_bad_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_several_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_several_found_with_registry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_several_one_bad_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_validate_registry_keeps_intact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_validate_registry_resets_after_erroneous_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_validate_registry_resets_after_missing_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **Auto-discover INSTALLED_APPS modules and fail silently when not present. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **module.js** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
+- **module_test.js** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
+- **firstConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
+- **secondConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
+- **testConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
+- **dynamicModule** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
+- **nested.js** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/nested/js/nested.js`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 262](Community_262.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/nested/js/nested.js`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 9 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,72 @@
 # Community 110
 
-> 87 nodes · cohesion 0.03
+> 79 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **TestQuerying** (76 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **KeyTransform** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTextTransform** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **compile_json_path()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.preprocess_lhs()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.test_contains_contained_by_with_key_transform()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.test_has_key_deep()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_has_key_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_key_transform_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_nested_key_transform_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_nested_key_transform_on_subquery()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.as_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_mysql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_mysql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_oracle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.test_expression_wrapper_key_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_key_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_key_transform_raw_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_nested_key_transform_raw_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_obj_subquery_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- *... and 62 more nodes in this community*
+- **core/mail/__init__.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **mail/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **EmailMultiAlternatives** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **message.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **send_mail()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **mail_managers()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **sanitize_address()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **smtp.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **mail_admins()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **mail/backends/filebased.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- **get_connection()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **SafeMIMEText** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **sendtestemail.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
+- **LocmemBackendTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **mail/backends/base.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **forbid_multi_line_headers()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **SafeMIMEMultipart** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **mail/backends/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- **BadHeaderError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_mime_attachment()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **mail/utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- **.test_connection_arg()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **console.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **send_mass_mail()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **MIMEMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- *... and 54 more nodes in this community*
 
 ## Relationships
 
-- [Community 254](Community_254.md) (8 shared connections)
-- [Community 24](Community_24.md) (8 shared connections)
-- [Community 7](Community_7.md) (7 shared connections)
-- [Community 15](Community_15.md) (7 shared connections)
-- [Community 12](Community_12.md) (6 shared connections)
-- [Community 20](Community_20.md) (5 shared connections)
-- [Community 34](Community_34.md) (5 shared connections)
-- [Community 103](Community_103.md) (5 shared connections)
-- [Community 180](Community_180.md) (5 shared connections)
-- [Community 40](Community_40.md) (4 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
+- [Community 93](Community_93.md) (26 shared connections)
+- [Community 344](Community_344.md) (14 shared connections)
+- [Community 881](Community_881.md) (11 shared connections)
+- [Community 24](Community_24.md) (11 shared connections)
+- [Community 167](Community_167.md) (5 shared connections)
+- [Community 468](Community_468.md) (5 shared connections)
+- [Community 237](Community_237.md) (5 shared connections)
+- [Community 238](Community_238.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 62](Community_62.md) (3 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 173 (96%)
-- INFERRED: 7 (4%)
+- EXTRACTED: 263 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

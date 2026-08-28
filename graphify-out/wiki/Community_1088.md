@@ -1,26 +1,24 @@
 # Community 1088
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.d()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Day of the month, 2 digits with leading zeros; i.e. '01' to '31** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Day of the week, textual, 3 letters; e.g. 'Fri** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **Return an exact copy of this ModelState.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 
 ## Relationships
 
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 578](Community_578.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (75%)
-- INFERRED: 1 (25%)
+- EXTRACTED: 2 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

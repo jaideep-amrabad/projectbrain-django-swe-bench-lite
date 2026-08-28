@@ -1,60 +1,64 @@
 # Community 208
 
-> 66 nodes · cohesion 0.04
+> 65 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **BaseForm** (36 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **Media** (17 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.full_clean()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.add_error()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **._bound_items()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **._clean_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **._clean_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.absolute_path()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.merge()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.add_initial_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.add_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.get_initial_for_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.non_field_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.order_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **._post_clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.render_css()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.render_js()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._get_media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.changed_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- *... and 41 more nodes in this community*
+- **MultiWidget** (26 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **TextInput** (23 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **MultiWidgetTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **TextInputTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **MyMultiWidget** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **SelectMultiple** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **DeepCopyWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.w()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **ComplexMultiWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_queries_limit()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_needs_multipart_true()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_needs_multipart_false()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_constructor_attrs_with_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_deepcopy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_nested_multiwidget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_no_whitespace_between_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_subwidgets_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_text_inputs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_value_from_datadict_subwidgets_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_value_omitted_from_data_subwidgets_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [Community 28](Community_28.md) (7 shared connections)
-- [Community 35](Community_35.md) (4 shared connections)
-- [Community 271](Community_271.md) (2 shared connections)
-- [Community 209](Community_209.md) (1 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 146](Community_146.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 219](Community_219.md) (1 shared connections)
-- [Community 237](Community_237.md) (1 shared connections)
-- [Community 244](Community_244.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 156](Community_156.md) (14 shared connections)
+- [Community 16](Community_16.md) (8 shared connections)
+- [Community 324](Community_324.md) (5 shared connections)
+- [Community 659](Community_659.md) (2 shared connections)
+- [Community 498](Community_498.md) (2 shared connections)
+- [Community 351](Community_351.md) (1 shared connections)
+- [Community 481](Community_481.md) (1 shared connections)
+- [Community 289](Community_289.md) (1 shared connections)
+- [Community 313](Community_313.md) (1 shared connections)
+- [Community 152](Community_152.md) (1 shared connections)
+- [Community 90](Community_90.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
 - `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (95%)
-- INFERRED: 5 (5%)
+- EXTRACTED: 106 (77%)
+- INFERRED: 31 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

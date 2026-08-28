@@ -1,22 +1,23 @@
 # Community 1004
 
-> 5 nodes · cohesion 0.60
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **SQLiteCursorWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.convert_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **Django uses the "format" and "pyformat" styles, but Python's sqlite3 module…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **CustomOptionsTestRunner** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
+- **test_runner/runner.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
+- **.run_tests()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 114](Community_114.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
 
 ## Audit Trail
 

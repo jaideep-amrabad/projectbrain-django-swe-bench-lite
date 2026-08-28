@@ -1,27 +1,25 @@
 # Community 1054
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **ObjectDoesNotExistDetail** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **CustomMultipleObjectMixinView** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **cancel.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
+- **handleClick()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
+- **ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
 
 ## Relationships
 
-- [Community 112](Community_112.md) (2 shared connections)
-- [Community 240](Community_240.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (83%)
-- INFERRED: 1 (17%)
+- EXTRACTED: 2 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

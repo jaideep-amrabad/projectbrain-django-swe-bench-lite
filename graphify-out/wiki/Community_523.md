@@ -1,45 +1,47 @@
 # Community 523
 
-> 21 nodes · cohesion 0.15
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **InMemoryDirNode** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **InMemoryFileNode** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **TimingMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **._update_accessed_time()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **._update_modified_time()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **._convert_stream_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **._initialize_stream()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **._initialize_times()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.remove_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **._resolve_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **.listdir()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **Helper class representing an in-memory file node. Handle unicode/bytes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **Initialize underlying stream according to the content type.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **Convert actual file content according to the opening mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **Helper class representing an in-memory directory node. Handle path navigation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
-- **Navigate current directory tree, returning node matching path or creating a new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **CharFieldTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_lazy_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_non_iterable_choices_two_letters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_bad_db_index_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_bad_max_length_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_bad_validators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_choices_containing_lazy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_choices_containing_non_pairs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_choices_in_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_choices_named_group()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_choices_named_group_bad_structure()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_choices_named_group_lazy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_choices_named_group_non_pairs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_db_collation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_db_collation_required_db_features()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_iterable_of_iterable_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_missing_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_negative_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_non_iterable_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_str_max_length_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_str_max_length_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_valid_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **Two letters isn't a valid choice pair.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 472](Community_472.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 379](Community_379.md) (1 shared connections)
+- [Community 194](Community_194.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

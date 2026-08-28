@@ -1,47 +1,50 @@
 # Community 520
 
-> 22 nodes · cohesion 0.17
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **HashedFilesMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **ManifestFilesMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.post_process()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.hashed_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.clean_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **._url()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.stored_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.file_hash()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.hash_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **._stored_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.save_manifest()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.url_converter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.load_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.post_process()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.read_manifest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Return a hash of the file with the given name and optional content.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Return the non-hashed URL in DEBUG mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Return the custom URL converter for the given file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Post process the given dictionary of files (called from collectstatic).…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **test_clickjacking.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **XFrameOptionsExemptTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **xframe_options_exempt()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **XFrameOptionsDenyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **XFrameOptionsSameoriginTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **xframe_options_deny()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **xframe_options_sameorigin()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **decorators/clickjacking.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **.test_decorator_stops_x_frame_options_being_set()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_exempt_decorator_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **Modify a view function so its response has the X-Frame-Options HTTP header set…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **.test_decorator_sets_x_frame_options_to_deny()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_decorator_sets_x_frame_options_to_deny_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_decorator_sets_x_frame_options_to_sameorigin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_decorator_sets_x_frame_options_to_sameorigin_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **Modify a view function by setting a response variable that instructs…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **@xframe_options_exempt instructs the XFrameOptionsMiddleware to NOT set the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 22](Community_22.md) (3 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 471](Community_471.md) (2 shared connections)
+- [Community 67](Community_67.md) (7 shared connections)
+- [Community 87](Community_87.md) (6 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (90%)
-- INFERRED: 5 (10%)
+- EXTRACTED: 50 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

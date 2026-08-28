@@ -1,43 +1,58 @@
 # Community 217
 
-> 21 nodes · cohesion 0.10
+> 29 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **EnvelopeTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test01_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test02_properties()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test03_equivalence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test07_expand_to_include_envelope()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test08_expand_to_include_point()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **TestPoint** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test04_expand_to_include_pt_2_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test05_expand_to_include_pt_2_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test06_expand_to_include_extent_4_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.test06_expand_to_include_extent_4_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **Testing Envelope expand_to_include -- extent as 4 parameters.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **Testing Envelope initialization.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **Testing Envelope properties.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **Testing Envelope equivalence.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **Testing Envelope expand_to_include -- point as two parameters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **Testing Envelope expand_to_include -- point as a single 2-tuple parameter.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **Testing Envelope expand_to_include with Envelope as parameter.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **Testing Envelope expand_to_include with Point as parameter.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- **DBCacheTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **RedisCacheTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.setUp()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_has_key_query_columns_quoted()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.drop_table()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.tearDown()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_createcachetable_with_table_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cull_queries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **DBCacheWithTimeZoneTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.create_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_createcachetable_dry_run_mode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_delete_cursor_rowcount()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_redis_pool_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_delete_many_num_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_many_num_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_second_call_doesnt_crash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **The rowcount attribute should not be checked on a closed cursor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Delete and recreate cache table with legacy behavior (explicitly specifying the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.incr_decr_type_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_client_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_backend_timeout_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_client()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 117](Community_117.md) (7 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 189](Community_189.md) (3 shared connections)
+- [Community 310](Community_310.md) (3 shared connections)
+- [Community 202](Community_202.md) (3 shared connections)
+- [Community 608](Community_608.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 559](Community_559.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 565](Community_565.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_envelope.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 51 (93%)
+- INFERRED: 4 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

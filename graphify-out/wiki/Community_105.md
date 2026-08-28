@@ -1,66 +1,64 @@
 # Community 105
 
-> 91 nodes · cohesion 0.04
+> 90 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **contenttypes_tests/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **contenttypes_tests/test_views.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **contenttypes_tests/test_models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **order_with_respect_to/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **ContentTypesViewsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **contenttypes_tests/test_fields.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
-- **BaseOrderWithRespectToTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **GenericForeignKeyTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
-- **Post** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **ContentTypesViewsSiteRelTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **order_with_respect_to/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **test_order_with_respect_to.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
-- **ShortcutViewTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **Answer** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **FooWithUrl** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **Author** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **Question** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **FooWithBrokenAbsoluteUrl** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **FooWithoutUrl** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **ModelWithNullFKToSite** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **OrderWithRespectToGFKTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
-- **OrderWithRespectToBaseTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **ProxyModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **GenericRelationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
-- **ContentTypesMultidbTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- *... and 66 more nodes in this community*
+- **MeasureBase** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **Distance** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **DistanceTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **measure.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **Area** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **AreaField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/sql/conversion.py`
+- **DistanceField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/sql/conversion.py`
+- **AreaTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **pretty_name()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **conversion.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/sql/conversion.py`
+- **gis_tests/test_fields.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_fields.py`
+- **test_measure.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **gis/db/models/sql/__init__.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/sql/__init__.py`
+- **FieldsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_fields.py`
+- **.__mul__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.default_units()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.test_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.test_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **.output_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/sql/conversion.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/sql/conversion.py`
+- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/sql/conversion.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/sql/conversion.py`
+- **.__truediv__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__add__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- *... and 65 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (15 shared connections)
-- [Community 1](Community_1.md) (14 shared connections)
-- [Community 26](Community_26.md) (13 shared connections)
-- [Community 190](Community_190.md) (9 shared connections)
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 319](Community_319.md) (6 shared connections)
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 163](Community_163.md) (5 shared connections)
-- [Community 16](Community_16.md) (4 shared connections)
-- [Community 145](Community_145.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 83](Community_83.md) (2 shared connections)
+- [Community 4](Community_4.md) (8 shared connections)
+- [Community 83](Community_83.md) (8 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 63](Community_63.md) (4 shared connections)
+- [Community 85](Community_85.md) (4 shared connections)
+- [Community 133](Community_133.md) (3 shared connections)
+- [Community 354](Community_354.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
+- [Community 564](Community_564.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/sql/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/sql/conversion.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
 
 ## Audit Trail
 
-- EXTRACTED: 210 (86%)
-- INFERRED: 35 (14%)
+- EXTRACTED: 162 (93%)
+- INFERRED: 13 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

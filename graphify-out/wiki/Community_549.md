@@ -1,49 +1,60 @@
 # Community 549
 
-> 21 nodes · cohesion 0.16
+> 41 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **DatabaseCreationTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
-- **DatabaseCreation** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
-- **.check_sql_table_creation_suffix()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
-- **.test_create_test_db()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
-- **._clone_test_db()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
-- **._get_database_create_suffix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
-- **._database_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
-- **._execute_create_test_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
-- **._quote_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
-- **.sql_table_creation_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
-- **.changed_test_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
-- **._execute_raise_database_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
-- **._execute_raise_permission_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
-- **.patch_test_db_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
-- **.test_sql_table_creation_raises_with_collation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
-- **.test_sql_table_creation_suffix_with_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
-- **.test_sql_table_creation_suffix_with_encoding_and_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
-- **.test_sql_table_creation_suffix_with_none_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
-- **.test_sql_table_creation_suffix_with_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
-- **patch** (1 connections)
-- **skipUnless** (1 connections)
+- **AddIndexConcurrently** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **ValidateConstraint** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **AddConstraintNotValid** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **RemoveIndexConcurrently** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **AddIndexConcurrentlyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **skipUnless** (7 connections)
+- **._ensure_not_in_transaction()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **AddConstraintNotValidTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **RemoveIndexConcurrentlyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **ValidateConstraintTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.test_validate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **NotInTransactionMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.test_add()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.test_non_check_constraint_not_supported()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.test_add()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.test_add_other_index_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.test_add_with_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.test_requires_atomic_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.test_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 296](Community_296.md) (2 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 199](Community_199.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 4](Community_4.md) (9 shared connections)
+- [Community 301](Community_301.md) (5 shared connections)
+- [Community 54](Community_54.md) (4 shared connections)
+- [Community 807](Community_807.md) (4 shared connections)
+- [Community 92](Community_92.md) (4 shared connections)
+- [Community 136](Community_136.md) (3 shared connections)
+- [Community 202](Community_202.md) (3 shared connections)
+- [Community 533](Community_533.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 161](Community_161.md) (2 shared connections)
+- [Community 855](Community_855.md) (1 shared connections)
+- [Community 304](Community_304.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (92%)
-- INFERRED: 4 (8%)
+- EXTRACTED: 85 (92%)
+- INFERRED: 7 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

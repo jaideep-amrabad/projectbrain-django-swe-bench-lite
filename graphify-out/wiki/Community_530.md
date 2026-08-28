@@ -1,49 +1,46 @@
 # Community 530
 
-> 22 nodes · cohesion 0.10
+> 21 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Meta** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Chapter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Plot** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **UserProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Color** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Color2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Language** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Pizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **PlotProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ReadablePizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ReadOnlyPizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FoodDelivery** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CategoryInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ChapterInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **User** (1 connections)
-- **Proxy a model with a different app_label.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **InMemoryDirNode** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **InMemoryFileNode** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **TimingMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._update_accessed_time()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._update_modified_time()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._convert_stream_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._initialize_stream()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._initialize_times()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.remove_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._resolve_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.listdir()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **Helper class representing an in-memory file node. Handle unicode/bytes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **Initialize underlying stream according to the content type.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **Convert actual file content according to the opening mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **Helper class representing an in-memory directory node. Handle path navigation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **Navigate current directory tree, returning node matching path or creating a new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
 
 ## Relationships
 
-- [Community 88](Community_88.md) (14 shared connections)
-- [Community 79](Community_79.md) (13 shared connections)
-- [Community 250](Community_250.md) (3 shared connections)
-- [Community 626](Community_626.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 58](Community_58.md) (3 shared connections)
+- [Community 279](Community_279.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 39 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

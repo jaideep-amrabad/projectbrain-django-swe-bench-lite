@@ -1,66 +1,52 @@
 # Community 486
 
-> 26 nodes · cohesion 0.13
+> 25 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **messages_tests/urls.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **never_cache()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- **messages_tests/test_mixins.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
-- **SuccessMessageMixinTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
-- **SuccessMessageMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
-- **DeleteView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **remote_user_auth_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **DeleteFormViewWithMsg** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **messages_tests/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/models.py`
-- **SomeObject** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/models.py`
-- **ContactFormViewWithMsg** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **.admin_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **messages/views.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
-- **add()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **add_template_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **show()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **show_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
-- **.form_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
-- **.get_success_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
-- **.test_set_messages_success_on_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
-- **Decorator to create an admin view attached to this ``AdminSite``. This wraps…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **Add a success message on successful form submission.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
-- **Decorator that adds headers to a response so that it will never be cached.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- **View for deleting an object retrieved with self.get_object(), with a response…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **Dummy view for remote user tests** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- *... and 1 more nodes in this community*
+- **EarliestOrLatestTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **get_earliest_or_latest/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **TestFirstLast** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **get_earliest_or_latest/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **IndexErrorArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **Comment** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **IndexErrorQuerySet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **.test_first_last_unordered_qs_aggregation_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_index_error_not_suppressed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_earliest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_latest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_latest_manual()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_first()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_last()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **Emulates the case when some internal code raises an unexpected IndexError.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_earliest_sliced_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_latest_sliced_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **Tests for the earliest() and latest() objects methods** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **#23555 -- Unexpected IndexError exceptions in QuerySet iteration shouldn't be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
 
 ## Relationships
 
-- [Community 80](Community_80.md) (5 shared connections)
-- [Community 19](Community_19.md) (5 shared connections)
-- [Community 22](Community_22.md) (5 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 412](Community_412.md) (4 shared connections)
-- [Community 83](Community_83.md) (4 shared connections)
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 335](Community_335.md) (3 shared connections)
-- [Community 141](Community_141.md) (2 shared connections)
-- [Community 252](Community_252.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 66](Community_66.md) (8 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 94 (94%)
-- INFERRED: 6 (6%)
+- EXTRACTED: 37 (73%)
+- INFERRED: 14 (27%)
 - AMBIGUOUS: 0 (0%)
 
 ---

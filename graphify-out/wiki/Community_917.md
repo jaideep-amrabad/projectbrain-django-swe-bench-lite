@@ -1,35 +1,31 @@
 # Community 917
 
-> 8 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **ForcedTimeZoneDatabaseTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **override_database_connection_timezone()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_cursor_explicit_time_zone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_read_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_write_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_convert_timezones()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **Test the TIME_ZONE database configuration parameter. Since this involves…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **default_if_none()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **test_default_if_none.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
+- **.test_empty_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
+- **.test_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
+- **.test_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
+- **If value is None, use given default.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 915](Community_915.md) (2 shared connections)
-- [Community 426](Community_426.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 787](Community_787.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 15 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

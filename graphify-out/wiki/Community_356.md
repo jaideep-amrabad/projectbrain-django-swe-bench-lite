@@ -1,54 +1,48 @@
 # Community 356
 
-> 35 nodes · cohesion 0.11
+> 36 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **m2m_through/tests.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **m2m_through/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **M2mThroughReferentialTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **M2mThroughToFieldsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **CustomMembership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Membership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Ingredient** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **PersonChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Recipe** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Event** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Friendship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Invitation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **PersonSelfRefM2M** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **RecipeIngredient** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Relationship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **SymmetricalFriendship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **.test_add_on_symmetrical_m2m_with_intermediate_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_set_on_symmetrical_m2m_with_intermediate_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **TestNoDefaultsOrNulls** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- *... and 10 more nodes in this community*
+- **ForTagTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **setup** (32 connections)
+- **.test_for_tag_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_empty01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_empty02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_empty03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_filter_ws()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_unpack_strs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_vars01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- **.test_for_tag_vars02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 277](Community_277.md) (8 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 276](Community_276.md) (2 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (80%)
-- INFERRED: 17 (20%)
+- EXTRACTED: 68 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,50 +1,45 @@
 # Community 661
 
-> 16 nodes · cohesion 0.23
+> 15 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **proxy_models/tests.py** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **Meta** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **UserProxy** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **MultiUserProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **MyPersonProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **User** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Abstract** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **ProxyImprovement** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **State** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **StateProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **UserProxyProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **AnotherUserProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **LowerStatusPerson** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A simple abstract base class, to be used for error checking.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Feed** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.get_feed()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.__call__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **._get_dynamic_attr()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.feed_extra_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.get_context_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.item_extra_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.item_enclosures()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.item_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.item_title()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **Return an extra keyword arguments dictionary that is used when initializing the…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.item_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **Return a dictionary to use as extra context if either…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **Return a feedgenerator.DefaultFeed object, fully populated, for this feed.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
 
 ## Relationships
 
-- [Community 594](Community_594.md) (19 shared connections)
-- [Community 339](Community_339.md) (11 shared connections)
-- [Community 780](Community_780.md) (8 shared connections)
-- [Community 880](Community_880.md) (8 shared connections)
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 26](Community_26.md) (5 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 141](Community_141.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
+- [Community 37](Community_37.md) (3 shared connections)
+- [Community 128](Community_128.md) (3 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 448](Community_448.md) (1 shared connections)
+- [Community 138](Community_138.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 84 (89%)
-- INFERRED: 10 (11%)
+- EXTRACTED: 36 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

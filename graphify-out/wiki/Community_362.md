@@ -1,47 +1,58 @@
 # Community 362
 
-> 21 nodes · cohesion 0.12
+> 35 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **jslex.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **test_jslex.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
-- **JsLexer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **prepare_js_for_gettext()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **Lexer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **Tok** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **make_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
-- **.lex()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **literals()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **JsToCForGettextTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
-- **JsTokensTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **JsLex: a lexer for JavaScript** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **Convert the JavaScript source `js` into something resembling C for xgettext.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **Create a regex from a space-separated list of literal `choices`. If provided,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **A generic multi-state regex-based lexer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **Lexically analyze `text`. Yield pairs (`name`, `tokentext`).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **A specification for a token class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **A JavaScript lexer >>> lexer = JsLexer() >>> list(lexer.lex("a = 1")) [('id',…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **admin_ordering/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **TestRelatedFieldsAdminOrdering** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **TestAdminOrdering** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **admin_ordering/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **TestInlineModelAdminOrdering** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **Band** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **Song** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **DynOrderingBandAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **.check_ordering_of_field_choices()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **SongInlineDefaultOrdering** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **SongInlineNewOrdering** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **MockSuperUser** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_dynamic_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_specified_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_custom_queryset_still_wins()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **Let's make sure that ModelAdmin.get_queryset uses the ordering we define in…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **The default ordering should be by name, as specified in the inner Meta class.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_admin_ordering_beats_model_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_admin_with_no_ordering_fallback_to_model_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_no_admin_fallback_to_model_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 934](Community_934.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 52](Community_52.md) (4 shared connections)
+- [Community 21](Community_21.md) (4 shared connections)
+- [Community 84](Community_84.md) (2 shared connections)
+- [Community 221](Community_221.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 212](Community_212.md) (1 shared connections)
+- [Community 313](Community_313.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 72 (88%)
+- INFERRED: 10 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

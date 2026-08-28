@@ -1,57 +1,64 @@
 # Community 353
 
-> 35 nodes · cohesion 0.09
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **PasswordResetTokenGenerator** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **TokenGeneratorTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.check_token()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._make_token_with_timestamp()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **MockedPasswordResetTokenGenerator** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.make_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._num_seconds()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._make_hash_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._now()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **.test_10265()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_check_token_secret_key_fallbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_check_token_secret_key_fallbacks_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_secret_lazy_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_timeout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_token_with_different_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_token_with_different_secret()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_check_token_secret_fallbacks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_check_token_with_nonexistent_token_and_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_make_token()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_token_with_different_secret_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **._get_fallbacks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._get_secret()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._set_fallbacks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._set_secret()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- *... and 10 more nodes in this community*
+- **captured_stdout()** (56 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **RemoveStaleContentTypesTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **captured_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_program_name_from_argv()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_contenttypes_removed_for_apps_not_in_installed_apps()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_contenttypes_removed_in_installed_apps_without_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_interactive_false()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_interactive_true_with_dependent_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_interactive_true_without_dependent_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_command_help()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_command_help()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.run_suite_with_runner()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **ExecuteFromCommandLine** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_unavailable_content_type_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_run_suite_logs_seed_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_run_suite_logs_seed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **Return a context manager used by captured_stdout/stdin/stderr that temporarily…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Capture the output of sys.stdout: with captured_stdout() as stdout:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Program name is computed from the execute_from_command_line()'s argv argument,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **interactive mode (the default) deletes stale content types and warns of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **interactive mode deletes stale content types even if there aren't any dependent…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **non-interactive mode deletes stale content types.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **A ContentType isn't created if the model isn't available.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 386](Community_386.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 80](Community_80.md) (2 shared connections)
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 109](Community_109.md) (1 shared connections)
-- [Community 456](Community_456.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 8](Community_8.md) (28 shared connections)
+- [Community 114](Community_114.md) (16 shared connections)
+- [Community 24](Community_24.md) (8 shared connections)
+- [Community 43](Community_43.md) (4 shared connections)
+- [Community 54](Community_54.md) (3 shared connections)
+- [Community 198](Community_198.md) (2 shared connections)
+- [Community 209](Community_209.md) (2 shared connections)
+- [Community 291](Community_291.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 496](Community_496.md) (1 shared connections)
+- [Community 555](Community_555.md) (1 shared connections)
+- [Community 850](Community_850.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 102 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,45 +1,30 @@
 # Community 958
 
-> 12 nodes · cohesion 0.24
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **SimpleModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
-- **async/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
-- **AsyncModelOperationTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
-- **test_async_related_managers.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
-- **test_async_model_methods.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
-- **.test_update_conflicts_unique_field_unsupported()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **ManyToManyModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
-- **RelatedModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
-- **.test_adelete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
-- **.test_arefresh_from_db()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
-- **.test_asave()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **SqliteDbshellCommandTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **.settings_to_cmd_args_env()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **.test_non_zero_exit_status_when_path_to_db_is_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **.test_path_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 435](Community_435.md) (5 shared connections)
-- [Community 651](Community_651.md) (4 shared connections)
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 408](Community_408.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
-- `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (85%)
-- INFERRED: 6 (15%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

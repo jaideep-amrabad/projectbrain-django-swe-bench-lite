@@ -1,39 +1,42 @@
 # Community 739
 
-> 13 nodes · cohesion 0.22
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **ArgumentOrder** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **._test()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_option_then_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_option_then_setting_then_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_setting_then_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_setting_then_short_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_short_option_then_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Tests for 2-stage argument parsing scheme. django-admin command arguments are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Options passed after settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Short options passed after settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Options passed before settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Short options passed before settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Options are correctly handled when they are passed before and after a setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **geoadmin/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **GeoAdminTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **geoadmin/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
+- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
+- **GISAdminTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **.test_widget_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
+- **CityAdminCustomWidgetKwargs** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
+- **.test_widget_empty_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **.test_widget_invalid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **.test_custom_gis_widget_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **.test_default_gis_widget_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
 
 ## Relationships
 
-- [Community 201](Community_201.md) (2 shared connections)
-- [Community 301](Community_301.md) (1 shared connections)
-- [Community 122](Community_122.md) (1 shared connections)
-- [Community 582](Community_582.md) (1 shared connections)
-- [Community 90](Community_90.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 25 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

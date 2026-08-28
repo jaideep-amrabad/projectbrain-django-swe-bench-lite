@@ -1,30 +1,25 @@
 # Community 1149
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **.test_integrity_checks_on_creation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- **Try to create a model instance that violates a FK constraint. If it fails it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_inheritance19()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **{% load %} tag (within a child template)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 843](Community_843.md) (2 shared connections)
-- [Community 399](Community_399.md) (1 shared connections)
-- [Community 835](Community_835.md) (1 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 844](Community_844.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (67%)
-- INFERRED: 3 (33%)
+- EXTRACTED: 3 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

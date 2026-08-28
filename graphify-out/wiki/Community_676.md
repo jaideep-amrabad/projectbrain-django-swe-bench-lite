@@ -1,39 +1,42 @@
 # Community 676
 
-> 15 nodes · cohesion 0.24
+> 15 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **unordered_list()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **.test_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **.test_list_gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **.test_nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **.test_nested2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **.test_nested3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **.test_nested_generators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **.test_nested_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **.test_nested_multiple2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **.test_ulitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **.test_ulitem_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **Recursively take a self-nested list and return an HTML unordered list --…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **DateTimesTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **datetimes/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **datetimes/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **.test_21432()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_datetimes_has_lazy_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_datetimes_returns_available_dates_for_given_scope_and_given_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **.test_datetimes_disallows_date_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_datetimes_fails_when_given_invalid_kind_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_datetimes_fails_when_given_invalid_order_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 35](Community_35.md) (3 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 29 (91%)
+- INFERRED: 3 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

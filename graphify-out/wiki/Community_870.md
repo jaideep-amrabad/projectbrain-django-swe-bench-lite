@@ -1,37 +1,35 @@
 # Community 870
 
-> 9 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **field_tests/test_base.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **BasicFieldsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **DisabledFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **Field** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_cooperative_multiple_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.test_field_deepcopies_widget_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.test_field_sets_widget_is_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.test_disabled_field_has_changed_always_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **Nested** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **m2m_intermediary/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
+- **m2m_intermediary/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **M2MIntermediaryTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
+- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **Writer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **.test_intermediary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
+- **Many-to-many relationships via an intermediary table For many-to-many…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 215](Community_215.md) (1 shared connections)
-- [Community 267](Community_267.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (76%)
-- INFERRED: 4 (24%)
+- EXTRACTED: 17 (81%)
+- INFERRED: 4 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

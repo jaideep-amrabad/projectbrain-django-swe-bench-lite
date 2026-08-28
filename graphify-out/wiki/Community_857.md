@@ -1,39 +1,33 @@
 # Community 857
 
-> 9 nodes · cohesion 0.36
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **security/csrf.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **_get_failure_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **._reject()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **check_csrf_cookie_secure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **check_csrf_failure_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **check_csrf_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **_csrf_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **register** (3 connections)
-- **Return the view to be used for CSRF rejections.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **ContextDict** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **dict** (1 connections)
+- **Push other_dict to the stack of dictionaries in the Context** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (4 shared connections)
-- [Community 109](Community_109.md) (2 shared connections)
-- [Community 137](Community_137.md) (1 shared connections)
-- [Community 242](Community_242.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 49](Community_49.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
+- [Community 295](Community_295.md) (2 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 357](Community_357.md) (1 shared connections)
+- [Community 471](Community_471.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,28 +1,26 @@
 # Community 960
 
-> 6 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **HStoreField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
-- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
-- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
-- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
-- **A field for HStore data which accepts dictionary JSON input.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
-- **Return True if data differs from initial.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.serialize_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **HTTP headers as a bytestring.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **Full HTTP message, including headers, as a bytestring.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,34 +1,25 @@
 # Community 1136
 
-> 6 nodes · cohesion 0.33
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **noop()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **.test_large_deletes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.test_can_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cannot_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **If the number of objects > chunk size, deletion still occurs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **A noop filter that always return its first argument and does nothing with its…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **.test_inheritance06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Three-level with variable parent-template name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 74](Community_74.md) (2 shared connections)
-- [Community 280](Community_280.md) (2 shared connections)
-- [Community 151](Community_151.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 844](Community_844.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (75%)
-- INFERRED: 3 (25%)
+- EXTRACTED: 3 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

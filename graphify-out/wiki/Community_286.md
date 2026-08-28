@@ -1,67 +1,65 @@
 # Community 286
 
-> 45 nodes · cohesion 0.08
+> 69 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **foreign_object/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **foreign_object/models/__init__.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/__init__.py`
-- **foreign_object/models/article.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **person.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **foreign_object/test_forms.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **test_agnostic_order_trimjoin.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
-- **customers.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- **SlugPage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **Group** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **Membership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **TestLookupQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
-- **test_empty_join.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **RestrictedConditionsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **NewsArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **Address** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- **Customer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- **Country** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **FormsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
-- **ArticleIdea** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ArticleTag** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **Contact** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- **Friendship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- *... and 20 more nodes in this community*
+- **layermapping.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **Field** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **field.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **test_ds.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **utils/ogrinspect.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- **gis/utils/__init__.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/__init__.py`
+- **OFTInteger** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTDateTime** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTDate** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTReal** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTTime** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.as_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTString** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **mapping()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- **add_srs_entry()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/srs.py`
+- **OFTInteger64** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **utils/srs.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/srs.py`
+- **.as_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.test_add_entry()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
+- **.as_double()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.as_int()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- *... and 44 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (11 shared connections)
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 26](Community_26.md) (6 shared connections)
-- [Community 225](Community_225.md) (5 shared connections)
-- [Community 1157](Community_1157.md) (4 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
-- [Community 475](Community_475.md) (2 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 49](Community_49.md) (31 shared connections)
+- [Community 96](Community_96.md) (16 shared connections)
+- [Community 237](Community_237.md) (6 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 66](Community_66.md) (3 shared connections)
+- [Community 527](Community_527.md) (3 shared connections)
+- [Community 91](Community_91.md) (3 shared connections)
+- [Community 322](Community_322.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 133](Community_133.md) (2 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/srs.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
 
 ## Audit Trail
 
-- EXTRACTED: 128 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 188 (93%)
+- INFERRED: 15 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,47 +1,52 @@
 # Community 476
 
-> 23 nodes · cohesion 0.09
+> 25 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **CharFieldTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_lazy_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_non_iterable_choices_two_letters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_bad_db_index_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_bad_max_length_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_bad_validators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_containing_lazy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_containing_non_pairs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_in_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_named_group()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_named_group_bad_structure()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_named_group_lazy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_named_group_non_pairs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_db_collation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_db_collation_required_db_features()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_iterable_of_iterable_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_missing_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_negative_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_non_iterable_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_str_max_length_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_str_max_length_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_valid_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **Two letters isn't a valid choice pair.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **check_framework/test_templates.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **check_for_template_tags_with_the_same_name()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- **CheckTemplateTagLibrariesWithSameName** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **check_string_if_invalid_is_string()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- **CheckTemplateStringIfInvalidTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **check_setting_app_dirs_loaders()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- **CheckTemplateSettingsAppDirsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.get_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_template_tags_with_same_library_name_and_module_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_app_dirs_and_loaders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_template_tags_same_library_in_installed_apps_libraries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **register** (3 connections)
+- **.test_string_if_invalid_not_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_template_tags_with_different_library_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_template_tags_with_different_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_template_tags_with_same_library_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_template_tags_with_same_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_app_dirs_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_loaders_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_both_are_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_first_is_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **Error if template loaders are specified and APP_DIRS is True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
+- [Community 5](Community_5.md) (7 shared connections)
+- [Community 58](Community_58.md) (5 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 248](Community_248.md) (4 shared connections)
+- [Community 357](Community_357.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 67 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

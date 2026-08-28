@@ -1,48 +1,46 @@
 # Community 558
 
-> 20 nodes · cohesion 0.13
+> 21 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **CookieStorage** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._store()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._encode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._encode_parts()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **MessagePartSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **.m()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **._decode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._update_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **.dumps()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Either set the cookie with the encoded data if there is any data to store, or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Store the messages to a cookie and return a list of any messages which could…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Return an encoded version of the serialized messages list which can be stored…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Return an encoded version of the messages list which can be stored as plain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Safely decode an encoded text stream back into a list of messages. If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Store messages in a cookie.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Retrieve a list of messages from the messages cookie. If the not_finished…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Month; i.e. '01' to '12** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Month, textual, 3 letters; e.g. 'Jan** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **HandlerLoggingTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.assertLogsRequest()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **I18nLoggingTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **SecurityLoggerTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **SetupDefaultLoggingMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **LoggingAssertionMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_internal_server_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_internal_server_error_599()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_multi_part_parser_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_page_not_found_raised()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_page_not_found_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_permission_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_uncaught_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_suspicious_email_admins()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_suspicious_operation_creates_log_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_suspicious_operation_uses_sublogger()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_page_found_no_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_redirect_no_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_i18n_page_found_no_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_i18n_page_not_found_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 
 ## Relationships
 
-- [Community 252](Community_252.md) (7 shared connections)
-- [Community 44](Community_44.md) (3 shared connections)
-- [Community 458](Community_458.md) (2 shared connections)
-- [Community 432](Community_432.md) (1 shared connections)
-- [Community 512](Community_512.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
+- [Community 7](Community_7.md) (6 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 111](Community_111.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (85%)
-- INFERRED: 6 (15%)
+- EXTRACTED: 44 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

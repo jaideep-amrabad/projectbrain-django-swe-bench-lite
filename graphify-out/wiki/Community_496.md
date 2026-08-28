@@ -1,60 +1,58 @@
 # Community 496
 
-> 26 nodes · cohesion 0.12
+> 24 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **urls/http.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **SimpleSitemap** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **https.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/https.py`
-- **AlternatesI18nSitemap** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **SimpleI18nSitemap** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **CallableLastmodNoItemsSitemap** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **GetLatestLastmodSiteMap** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **ItemByLangAlternatesSitemap** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **ItemByLangSitemap** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **SimplePagedSitemap** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **DateSiteMap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **FixedLastmodSitemap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **FixedNewerLastmodSitemap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **.get_latest_lastmod()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **.get_languages_for_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **.get_languages_for_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **LimitedI18nSitemap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **testmodelview()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **TimezoneSiteMap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **XDefaultI18nSitemap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **HTTPSSitemap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/https.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **.lastmod()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- *... and 1 more nodes in this community*
+- **.apps()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **ProxyModelWithSameAppLabelTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **ProxyModelWithDifferentAppLabelTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **MultiDBProxyModelAppLabelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_migrate_with_existing_target_permission()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_abstract_model_pending_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
+- **.test_abstract_model_pending_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
+- **.test_migrate_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_migrate_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_proxy_model_permissions_contenttype()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_user_has_now_proxy_model_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_user_keeps_same_permissions_after_migrating_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_migrate_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_proxy_model_permissions_contenttype()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_user_keeps_same_permissions_after_migrating_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_user_still_has_proxy_model_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **Create proxy permissions with content_type to the concrete model rather than…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_add_legacy_name_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_migrations.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **Permissions may already exist: - Old workaround was to manually create…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **Foreign key fields declared on abstract models should not add lazy relations to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
+- **Many-to-many fields declared on abstract models should not add lazy relations…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
 
 ## Relationships
 
-- [Community 457](Community_457.md) (8 shared connections)
-- [Community 37](Community_37.md) (4 shared connections)
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 667](Community_667.md) (1 shared connections)
-- [Community 331](Community_331.md) (1 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
-- [Community 412](Community_412.md) (1 shared connections)
-- [Community 988](Community_988.md) (1 shared connections)
+- [Community 58](Community_58.md) (3 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 282](Community_282.md) (1 shared connections)
+- [Community 353](Community_353.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/https.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_migrations.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 30 (64%)
+- INFERRED: 17 (36%)
 - AMBIGUOUS: 0 (0%)
 
 ---

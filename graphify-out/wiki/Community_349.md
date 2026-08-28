@@ -1,49 +1,60 @@
 # Community 349
 
-> 36 nodes · cohesion 0.07
+> 38 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Archive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **BaseArchive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **TarArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **ZipArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.has_leading_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **ArchiveException** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **._copy_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.split_leading_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.target_filename()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **UnrecognizedArchiveFormat** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **._archive_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **Exception** (1 connections)
-- **Base Archive class. Implementations should inherit this class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- *... and 11 more nodes in this community*
+- **IntegerField** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **BigIntegerField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **SmallIntegerField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **AutoField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **PositiveBigIntegerField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **PositiveIntegerField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **PositiveIntegerRelDbTypeMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **PositiveSmallIntegerField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **BigAutoField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **SmallAutoField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.rel_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.test_AutoField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.test_PositiveBigIntegerField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.test_PositiveIntegerField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.test_PositiveSmallIntegerField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.test_SmallIntegerField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.rel_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.rel_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_max_length_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 49](Community_49.md) (1 shared connections)
+- [Community 4](Community_4.md) (11 shared connections)
+- [Community 194](Community_194.md) (10 shared connections)
+- [Community 228](Community_228.md) (9 shared connections)
+- [Community 201](Community_201.md) (4 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
+- [Community 670](Community_670.md) (1 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
+- [Community 330](Community_330.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 80 (92%)
+- INFERRED: 7 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

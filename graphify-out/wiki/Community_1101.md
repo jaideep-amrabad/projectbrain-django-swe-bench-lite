@@ -1,30 +1,25 @@
 # Community 1101
 
-> 8 nodes · cohesion 0.25
+> 4 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **TagRegistrationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_tag()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_tag_call()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_tag_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_tag_name_arg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_tag_name_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_tag_parens()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.test_refresh_from_db_when_default_manager_filters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_save_clears_annotations_from_base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **Model.refresh_from_db() works for instances hidden by the default manager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **Model.save() clears annotations from the base manager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 464](Community_464.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

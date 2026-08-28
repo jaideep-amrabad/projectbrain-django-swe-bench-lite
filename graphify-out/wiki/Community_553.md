@@ -1,47 +1,47 @@
 # Community 553
 
-> 21 nodes · cohesion 0.10
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **ModelInheritanceDataTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_select_related_defer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_update_query_counts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_exclude_inherited_on_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_filter_inherited_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_filter_inherited_on_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_filter_on_parent_returns_object_of_parent_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_inherited_does_not_exist_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_inherited_multiple_objects_returned_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_parent_cache_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_parent_child_one_to_one_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_parent_child_one_to_one_link_on_nonrelated_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_parent_fields_available_for_filtering_in_child_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_related_objects_for_inherited_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_select_related_works_on_parent_model_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_update_inherited_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_update_works_on_parent_and_child_models_at_once()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_values_works_on_parent_model_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **#23370 - Should be able to defer child fields when using select_related() from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **Update queries do not generate unnecessary queries (#18304).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **Shuffler** (26 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **ShufflerTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **test_shuffler.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **._hash_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._hash_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.shuffle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_hash_item_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_hash_item_seed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_hash_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_init_no_seed_argument()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_init_none_seed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_seed_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_shuffle_consistency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_shuffle_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_shuffle_same_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **This class implements shuffling with a special consistency property.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Return a new list of the items in a shuffled order. The `key` is a function…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.seed_display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_hash_text_hash_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
 
 ## Relationships
 
-- [Community 817](Community_817.md) (5 shared connections)
-- [Community 908](Community_908.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 878](Community_878.md) (1 shared connections)
-- [Community 752](Community_752.md) (1 shared connections)
+- [Community 368](Community_368.md) (6 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 794](Community_794.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (73%)
-- INFERRED: 8 (27%)
+- EXTRACTED: 44 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

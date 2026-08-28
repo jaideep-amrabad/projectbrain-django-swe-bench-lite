@@ -1,35 +1,34 @@
 # Community 869
 
-> 9 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **Article** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **SubclassTestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **TestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_class_fixtures()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_class_fixtures()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Test case has installed 3 fixture objects** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **Make sure that subclasses can remove fixtures from parent class (#21089).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **There were no fixture objects installed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **ReverseQueryNameClashTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **._test_reverse_query_name_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_no_clash_across_apps_without_accessor()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Relationships
 
-- [Community 384](Community_384.md) (5 shared connections)
-- [Community 367](Community_367.md) (1 shared connections)
-- [Community 492](Community_492.md) (1 shared connections)
+- [Community 58](Community_58.md) (3 shared connections)
+- [Community 112](Community_112.md) (2 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (76%)
-- INFERRED: 4 (24%)
+- EXTRACTED: 21 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

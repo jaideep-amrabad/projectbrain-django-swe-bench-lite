@@ -1,40 +1,45 @@
 # Community 630
 
-> 16 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **JSONFieldTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_custom_widget_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_redisplay_wrong_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_converted_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_custom_encoder_decoder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_custom_widget_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_formfield_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_redisplay_none_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_valid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_valid_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **.test_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **Displaying a bound form (typically due to invalid input). The form should not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
-- **The widget can be overridden with an attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **._dumpdata_assert()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **ForwardReferenceTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_format_discovery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_circular_reference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_circular_reference_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_excludes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_file_gzip_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_file_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_file_zip_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_filtering_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_pks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_loading_and_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_output_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_forward_reference_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_forward_reference_fk_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_forward_reference_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_forward_reference_m2m_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Relationships
 
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
+- [Community 677](Community_677.md) (8 shared connections)
+- [Community 233](Community_233.md) (7 shared connections)
+- [Community 929](Community_929.md) (3 shared connections)
+- [Community 1114](Community_1114.md) (1 shared connections)
+- [Community 1115](Community_1115.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 40 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,59 +1,60 @@
 # Community 122
 
-> 80 nodes · cohesion 0.04
+> 79 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **.run_manage()** (91 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **CommandTypes** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **ManageFullPathDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **ColorCommand** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_app_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_app_command_multiple_apps()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_base_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_base_command_with_wrong_option()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_help_commands()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_label_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_label_command_multiple_label()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_noargs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_specific_help()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_app_command_invalid_app_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_app_command_no_apps()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_app_command_some_invalid_app_labels()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- *... and 55 more nodes in this community*
+- **model_fields/test_imagefield.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldTwoDimensionsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.check_dimensions()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldTestMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **TwoImageFieldTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **ImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **TestImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **ImageFieldNoDimensionsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **skipIf** (7 connections)
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PersonDimensionsFirst** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PersonWithHeight** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **ImageFieldDimensionsFirstTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldOneDimensionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldUsingFileTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **._get_image_dimensions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **PersonTwoImages** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PersonWithHeightAndWidth** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.height()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.width()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.test_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_assignment_to_None()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- *... and 54 more nodes in this community*
 
 ## Relationships
 
-- [Community 90](Community_90.md) (26 shared connections)
-- [Community 201](Community_201.md) (21 shared connections)
-- [Community 582](Community_582.md) (20 shared connections)
-- [Community 301](Community_301.md) (12 shared connections)
-- [Community 273](Community_273.md) (9 shared connections)
-- [Community 649](Community_649.md) (9 shared connections)
-- [Community 650](Community_650.md) (8 shared connections)
-- [Community 830](Community_830.md) (8 shared connections)
-- [Community 8](Community_8.md) (8 shared connections)
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 896](Community_896.md) (3 shared connections)
-- [Community 739](Community_739.md) (1 shared connections)
+- [Community 68](Community_68.md) (8 shared connections)
+- [Community 150](Community_150.md) (5 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 892](Community_892.md) (2 shared connections)
+- [Community 540](Community_540.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 247 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 137 (91%)
+- INFERRED: 13 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

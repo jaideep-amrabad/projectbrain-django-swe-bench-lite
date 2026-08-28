@@ -1,26 +1,25 @@
 # Community 929
 
-> 7 nodes · cohesion 0.43
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **wordcount()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordcount.py`
-- **.test_count_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordcount.py`
-- **.test_count_one()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordcount.py`
-- **.test_empty_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordcount.py`
-- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordcount.py`
-- **Return the number of words.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **skipUnless** (6 connections)
+- **.test_dumpdata_with_file_bz2_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_file_lzma_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_file_xz_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_compressed_loading_bz2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_compressed_loading_lzma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_compressed_loading_xz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Relationships
 
-- [Community 35](Community_35.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
+- [Community 677](Community_677.md) (6 shared connections)
+- [Community 630](Community_630.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordcount.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 

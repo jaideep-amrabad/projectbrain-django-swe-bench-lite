@@ -1,44 +1,39 @@
 # Community 704
 
-> 14 nodes · cohesion 0.20
+> 14 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **vary_on_headers()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/vary.py`
-- **test_vary.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_vary.py`
-- **VaryOnCookieTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_vary.py`
-- **VaryOnHeadersTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_vary.py`
-- **vary.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/vary.py`
-- **.test_vary_on_headers_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_vary.py`
-- **.test_vary_on_headers_decorator_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_vary.py`
-- **.test_vary_on_cookie_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_vary.py`
-- **.test_vary_on_cookie_decorator_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_vary.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_vary.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_vary.py`
-- **A view decorator that adds the specified headers to the Vary header of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/vary.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_vary.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_vary.py`
+- **TestDbCreationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **get_connection_copy()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **.test_mark_expected_failures_and_skips_call()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **TestDbSignatureTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **patch** (5 connections)
+- **.test_migrate_test_setting_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **.test_migrate_test_setting_false_ensure_schema()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **.test_migrate_test_setting_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **.test_custom_test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **.test_custom_test_name_with_test_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **.test_default_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **object** (2 connections)
+- **dict** (1 connections)
+- **mark_expected_failures_and_skips() isn't called unless…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
 
 ## Relationships
 
-- [Community 83](Community_83.md) (5 shared connections)
-- [Community 49](Community_49.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 412](Community_412.md) (2 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 348](Community_348.md) (6 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/vary.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/test_vary.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 33 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,43 +1,40 @@
 # Community 667
 
-> 15 nodes · cohesion 0.17
+> 15 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **GenericSitemap** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **GenericViewsSitemapTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **.items()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.get_latest_lastmod()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.lastmod()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.test_generic_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **.test_generic_sitemap_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **.test_generic_sitemap_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **.test_generic_sitemap_lastmod()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **.test_get_protocol_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **.test_get_protocol_defined_in_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **.test_get_protocol_passed_as_argument()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **.get_latest_lastmod()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **A minimal generic sitemap can be rendered** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **RegisterLookupMixin** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._clear_cached_class_lookups()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.get_class_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.merge_dicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._unregister_class_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.get_instance_lookups()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._get_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.register_class_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._unregister_instance_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **subclasses()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Merge dicts in reverse to preference the order of the original list. e.g.,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Remove given lookup from cls lookups. For use in tests only as it's not thread-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Remove given lookup from instance lookups. For use in tests only as it's not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.register_instance_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
 ## Relationships
 
-- [Community 16](Community_16.md) (4 shared connections)
-- [Community 457](Community_457.md) (3 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 496](Community_496.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
+- [Community 201](Community_201.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 25 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

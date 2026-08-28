@@ -1,43 +1,48 @@
 # Community 632
 
-> 17 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **AutodetectorIndexTogetherTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_alter_field_and_index_together()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_field_and_index_together()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_add_field_and_index_together()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_index_together_ordering()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_remove_field_and_index_together()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_create_model_and_index_together()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_index_together_to_index_order_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_empty_index_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_index_together_no_changes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Empty index_together shouldn't generate a migration.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **index_together doesn't generate a migration if no changes have been made.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **index_together triggers on ordering changes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Added fields will be created before using them in index_together.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Removed fields will be removed after updating index_together.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Fields are altered after deleting some index_together.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Fields are renamed before updating index_together.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **queryset_pickle/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **queryset_pickle/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **Event** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **AbstractEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Container** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Happening** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **MyEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **BinaryFieldModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **M2MModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Numbers** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.test_pickle_filteredrelation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **Edition** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.get_static_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **SomeModel** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **standalone_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
 
 ## Relationships
 
-- [Community 25](Community_25.md) (39 shared connections)
-- [Community 131](Community_131.md) (2 shared connections)
-- [Community 257](Community_257.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 750](Community_750.md) (1 shared connections)
+- [Community 376](Community_376.md) (9 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 996](Community_996.md) (3 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 1038](Community_1038.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 40 (82%)
+- INFERRED: 9 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,56 +1,51 @@
 # Community 323
 
-> 38 nodes · cohesion 0.11
+> 39 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **.lazy_wrap()** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **LazyObjectTestCase** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Foo** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_getattribute()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_cached_property_set_name_not_called()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
-- **.test_copy_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_copy_class_no_evaluation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_deepcopy_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_deepcopy_class_no_evaluation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_delattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_getattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_setattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_setattr2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_classproperty_override_getter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
-- **.test_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_cmp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_copy_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_copy_list_no_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_deepcopy_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_deepcopy_list_no_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_delitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- *... and 13 more nodes in this community*
+- **DatabaseFeatures** (37 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **TestFeatures** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- **.allows_auto_pk_0()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.can_introspect_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **._mysql_storage_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supports_transactions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.test_allows_auto_pk_0()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- **.test_skip_locked_no_wait()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- **.test_supports_transactions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- **.can_introspect_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.can_introspect_json_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.can_rename_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.can_return_columns_from_insert()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.django_test_skips()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.has_select_for_update_nowait()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.has_select_for_update_of()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.has_select_for_update_skip_locked()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.has_zoneinfo_database()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.ignores_table_name_case()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.introspected_field_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.is_sql_auto_is_null_enabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.minimum_database_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supported_explain_formats()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supports_column_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- **.supports_default_in_lead_lag()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 529](Community_529.md) (7 shared connections)
-- [Community 162](Community_162.md) (2 shared connections)
-- [Community 573](Community_573.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 285](Community_285.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 1753](Community_1753.md) (1 shared connections)
-- [Community 544](Community_544.md) (1 shared connections)
+- [Community 4](Community_4.md) (7 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
 
 ## Audit Trail
 
-- EXTRACTED: 87 (96%)
-- INFERRED: 4 (4%)
+- EXTRACTED: 46 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

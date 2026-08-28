@@ -1,29 +1,30 @@
 # Community 913
 
-> 8 nodes · cohesion 0.43
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **SpacelessTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **setup** (6 connections)
-- **.test_spaceless01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
+- **CommandRunTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_disallowed_abbreviated_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_script_prefix_set_in_commands()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_skip_checks()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_subparser_error_formatting()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_subparser_non_django_error_formatting()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **Tests that need to run by simulating the command line, not by call_command.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **To avoid conflicts with custom options, commands don't allow abbreviated forms…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 209](Community_209.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,47 +1,44 @@
 # Community 565
 
-> 20 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Join** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **BaseTable** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.relabeled_clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.demote()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.promote()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.identity()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.identity()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.relabeled_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **The BaseTable class is used for base table references in FROM clause. For…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **Used by sql.Query and sql.SQLCompiler to generate JOIN clauses into the FROM…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **Generate the full LEFT OUTER JOIN sometable ON sometable.somecol =…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **RedisCacheClient** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **.get_client()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **RedisSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **._get_connection_pool()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **.add()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **.delete_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **._get_connection_pool_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **.get_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **.has_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **.incr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **.set()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **.set_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **.dumps()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **.loads()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
 
 ## Relationships
 
-- [Community 34](Community_34.md) (5 shared connections)
-- [Community 114](Community_114.md) (2 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 189](Community_189.md) (3 shared connections)
+- [Community 217](Community_217.md) (1 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (83%)
-- INFERRED: 5 (17%)
+- EXTRACTED: 36 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

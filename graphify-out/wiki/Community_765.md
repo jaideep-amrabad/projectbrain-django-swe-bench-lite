@@ -1,41 +1,36 @@
 # Community 765
 
-> 12 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **BinaryField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_str_default_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_BinaryField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
-- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_placeholder()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return field's value prepared for saving into a database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **trans_null.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **ngettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **npgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **pgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **activate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **check_for_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **deactivate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_bidi()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_from_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_from_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
 
 ## Relationships
 
-- [Community 197](Community_197.md) (4 shared connections)
-- [Community 235](Community_235.md) (2 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 143](Community_143.md) (2 shared connections)
-- [Community 447](Community_447.md) (2 shared connections)
-- [Community 162](Community_162.md) (2 shared connections)
-- [Community 778](Community_778.md) (1 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 14 (82%)
+- INFERRED: 3 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

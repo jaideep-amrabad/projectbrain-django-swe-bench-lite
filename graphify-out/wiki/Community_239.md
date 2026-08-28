@@ -1,56 +1,59 @@
 # Community 239
 
-> 51 nodes · cohesion 0.04
+> 51 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **AdminActionsTest** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_non_localized_pk()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_action_column_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_actions_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_custom_function_action_no_perm_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_custom_function_action_streaming_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_custom_function_action_with_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_custom_function_mail_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_default_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_delete_selected_uses_get_deleted_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_media_from_actions_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_model_admin_custom_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_model_admin_default_delete_action_no_change_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_model_admin_default_delete_action_protected()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_model_without_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_model_without_action_still_has_jquery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_multiple_actions_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_popup_actions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_popup_template_response_on_add()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_selection_counter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_user_message_on_no_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_user_message_on_none_selected()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_default_delete_action_nonexistent_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_delete_queryset_hook()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_model_admin_default_delete_action()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **BaseDatabaseSchemaEditor** (91 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.execute()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._create_index_sql()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._create_unique_sql()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.add_field()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._create_fk_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.create_model()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._delete_composed_index()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.table_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._field_indexes_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.alter_db_table_comment()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.alter_index_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.alter_unique_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.column_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._fk_constraint_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._index_include_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._model_indexes_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.rename_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._rename_index_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.add_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.alter_db_tablespace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._index_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.remove_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._unique_constraint_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._unique_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 - *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 19](Community_19.md) (26 shared connections)
-- [Community 325](Community_325.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 250](Community_250.md) (2 shared connections)
-- [Community 79](Community_79.md) (2 shared connections)
-- [Community 804](Community_804.md) (2 shared connections)
+- [Community 378](Community_378.md) (41 shared connections)
+- [Community 602](Community_602.md) (18 shared connections)
+- [Community 4](Community_4.md) (14 shared connections)
+- [Community 697](Community_697.md) (7 shared connections)
+- [Community 477](Community_477.md) (7 shared connections)
+- [Community 494](Community_494.md) (6 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 65](Community_65.md) (1 shared connections)
-- [Community 292](Community_292.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 495](Community_495.md) (1 shared connections)
+- [Community 603](Community_603.md) (1 shared connections)
+- [Community 551](Community_551.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (90%)
-- INFERRED: 9 (10%)
+- EXTRACTED: 194 (97%)
+- INFERRED: 7 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,31 +1,39 @@
 # Community 833
 
-> 10 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **override** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **deactivate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **activate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.__enter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **ContextDecorator** (1 connections)
-- **Unset the time zone for the current thread. Django will then use the time zone…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Temporarily set the time zone for the current thread. This is a context manager…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Set the time zone for the current thread. The ``timezone`` argument must be an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **postgres_tests/fields.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **postgres_tests/migrations/0002_create_test_models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0002_create_test_models.py`
+- **DummyArrayField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **DummyContinuousRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **Indirection layer for PostgreSQL-specific fields, so the tests don't fail when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0002_create_test_models.py`
 
 ## Relationships
 
-- [Community 23](Community_23.md) (3 shared connections)
+- [Community 102](Community_102.md) (5 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
+- [Community 264](Community_264.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 223](Community_223.md) (1 shared connections)
+- [Community 92](Community_92.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0002_create_test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

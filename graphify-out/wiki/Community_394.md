@@ -1,55 +1,54 @@
 # Community 394
 
-> 45 nodes · cohesion 0.08
+> 60 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **auth_tests/test_mixins.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **auth/mixins.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.handle_no_permission()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **PermissionRequiredMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **AccessMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **UserPassesTestMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **LoginRequiredMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **PermissionsRequiredMixinTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **EmptyResponseView** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **LoginRequiredMixinTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.get_login_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.dispatch()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.get_permission_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.has_permission()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **AlwaysFalseMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **AlwaysTrueMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **StackedMixinsView1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **StackedMixinsView2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.get_permission_denied_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.get_redirect_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.get_test_func()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **AlwaysFalseView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **AlwaysTrueView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- *... and 20 more nodes in this community*
+- **BaseCache** (52 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.get()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.aget()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.aincr_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.incr_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.aincr()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.get_or_set()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.incr()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **ValueError** (5 connections)
+- **.default()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **.aget_or_set()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.aset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.has_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.make_and_validate_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.validate_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.adelete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.__contains__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.decr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.decr_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.delete_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.get_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.make_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.aadd()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 80](Community_80.md) (5 shared connections)
-- [Community 69](Community_69.md) (5 shared connections)
-- [Community 49](Community_49.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 631](Community_631.md) (1 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 189](Community_189.md) (7 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 817](Community_817.md) (2 shared connections)
+- [Community 529](Community_529.md) (2 shared connections)
+- [Community 150](Community_150.md) (1 shared connections)
+- [Community 528](Community_528.md) (1 shared connections)
+- [Community 449](Community_449.md) (1 shared connections)
+- [Community 663](Community_663.md) (1 shared connections)
+- [Community 280](Community_280.md) (1 shared connections)
+- [Community 204](Community_204.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
 
 ## Audit Trail
 

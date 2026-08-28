@@ -1,61 +1,37 @@
 # Community 734
 
-> 27 nodes · cohesion 0.09
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **test_datastructures.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **ImmutableList** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **DictWrapper** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **._load_post_and_files()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.parse_file_upload()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **._mark_post_parse_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **MultiValueDictKeyError** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **ImmutableListTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **DictWrapperTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_dictwrapper()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **dict** (2 connections)
-- **.test_custom_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **Return a tuple of (POST QueryDict, FILES MultiValueDict).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **Populate self._post and self._files if the content-type is a form type** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.complain()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **KeyError** (1 connections)
-- **tuple** (1 connections)
-- **A tuple-like object that raises useful errors when it is asked to mutate.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **Wrap accesses to a dictionary so that certain values (those starting with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **Retrieve the real value after stripping the prefix string (if present). If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- *... and 2 more nodes in this community*
+- **DefaultNonExpiringCacheKeyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_caches_set_with_timeout_as_none_has_correct_default_timeout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_caches_set_with_timeout_as_none_set_non_expiring_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_caches_with_unset_timeout_set_expiring_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_caches_with_unset_timeout_has_correct_default_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_default_expiration_time_for_keys_is_5_minutes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Memory caches that have the TIMEOUT parameter set to `None` in the default…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Settings having Cache arguments with a TIMEOUT=None create Caches that will set…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **The default expiration time of a cache key is 5 minutes. This value is defined…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Caches that have the TIMEOUT parameter undefined in the default settings will…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Memory caches that have the TIMEOUT parameter unset will set cache keys having…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 244](Community_244.md) (7 shared connections)
-- [Community 49](Community_49.md) (6 shared connections)
-- [Community 428](Community_428.md) (4 shared connections)
-- [Community 83](Community_83.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 248](Community_248.md) (2 shared connections)
-- [Community 395](Community_395.md) (2 shared connections)
-- [Community 778](Community_778.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 187](Community_187.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 189](Community_189.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

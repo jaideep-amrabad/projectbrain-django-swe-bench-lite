@@ -1,34 +1,27 @@
 # Community 981
 
-> 6 nodes · cohesion 0.33
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **TestMethods** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_key_transform_text_lookup_mixin_non_key_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_deconstruct_custom_encoder_decoder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_get_transforms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **lookuperror_c/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/models.py`
+- **C1** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/models.py`
+- **C2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/models.py`
+- **C3** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/models.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (1 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 779](Community_779.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 254](Community_254.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (75%)
-- INFERRED: 3 (25%)
+- EXTRACTED: 5 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

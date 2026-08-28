@@ -1,25 +1,24 @@
 # Community 1066
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **DirectorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **SchoolManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **.test_dependency_sorting_m2m_complex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_m2m_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **M2M relations without explicit through models SHOULD count as dependencies…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Relationships
 
-- [Community 593](Community_593.md) (2 shared connections)
+- [Community 364](Community_364.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

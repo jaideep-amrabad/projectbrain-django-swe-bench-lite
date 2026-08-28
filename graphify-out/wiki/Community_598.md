@@ -1,50 +1,53 @@
 # Community 598
 
-> 18 nodes · cohesion 0.16
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **InlineModelAdminChecks** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **.check()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **_get_foreign_key()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._check_exclude_of_parent_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_formset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **GenericInlineModelAdminChecks** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **._check_extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_max_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_min_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_relation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **.test_foreign_keys_in_parents()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **Check that extra is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that max_num is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that min_num is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check formset is a subclass of BaseModelFormSet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_exclude_of_parent_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **._check_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **Find and return the ForeignKey from model to parent if there is one (return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **frozenset** (25 connections)
+- **DatabaseAliasTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **iter_modules_and_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **iter_all_python_module_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._property_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.test_in_bulk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **.test_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_main_module_without_file_is_not_resolved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_module_without_spec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_path_with_embedded_null_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Return a set of the names of the properties defined on the model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **Iterate through all modules needed to be watched.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_close_match()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_no_close_match()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 232](Community_232.md) (5 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 22](Community_22.md) (3 shared connections)
-- [Community 305](Community_305.md) (3 shared connections)
-- [Community 111](Community_111.md) (2 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 369](Community_369.md) (3 shared connections)
+- [Community 181](Community_181.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
+- [Community 282](Community_282.md) (2 shared connections)
+- [Community 807](Community_807.md) (2 shared connections)
+- [Community 300](Community_300.md) (1 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
+- [Community 815](Community_815.md) (1 shared connections)
+- [Community 173](Community_173.md) (1 shared connections)
+- [Community 460](Community_460.md) (1 shared connections)
+- [Community 536](Community_536.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 19 (43%)
+- INFERRED: 25 (57%)
 - AMBIGUOUS: 0 (0%)
 
 ---

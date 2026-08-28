@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **.test_follow_relative_redirect_no_trailing_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A URL with a relative redirect with no trailing slash can be followed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **user_commands/models.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/models.py`
+- **User-registered management commands The ``manage.py`` utility provides a number…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/models.py`
 
 ## Relationships
 
-- [Community 516](Community_516.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,38 +1,41 @@
 # Community 753
 
-> 13 nodes · cohesion 0.32
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **null_fk_ordering/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **null_fk_ordering/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
-- **NullFkOrderingTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Forum** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Post** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **SystemInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **.test_ordering_across_null_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
-- **Regression tests for proper working of ForeignKey(null=True). Tests these bugs:…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Regression test for #7512 ordering across nullable Foreign Keys shouldn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
+- **TestBadSetUpTestData** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **TestRaiseLastException** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **MyException** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_no_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_raises_custom_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_raises_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Exception** (1 connections)
+- **An exception in setUpTestData() shouldn't leak a transaction which would…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_failure_in_setUpTestData_should_rollback_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_raises_exception_with_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 332](Community_332.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 576](Community_576.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (80%)
-- INFERRED: 6 (20%)
+- EXTRACTED: 18 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

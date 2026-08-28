@@ -1,54 +1,63 @@
 # Community 210
 
-> 57 nodes · cohesion 0.07
+> 38 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Shuffler** (26 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **TestSuiteTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **iter_test_cases()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **ShufflerTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.assertTestNames()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.make_tests()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **reorder_test_bin()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **reorder_tests()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **shuffle_tests()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.make_test_suite()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **test_shuffler.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **MySuite** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_test_bin_random()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_test_bin_random_and_reverse()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_tests_random()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_tests_random_mixed_classes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_tests_reverse_with_duplicates()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_tests_same_type_consecutive()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_shuffle_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **partition_suite_by_case()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_iter_test_cases_basic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_iter_test_cases_custom_test_suite_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_iter_test_cases_mixed_test_suite_classes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_test_bin_no_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_test_bin_reverse()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- *... and 32 more nodes in this community*
+- **distapp/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **DistanceTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **Union** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **distapp/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **NamedModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **.get_names()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **AustraliaCity** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **CensusZipcode** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **Interstate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **SouthTexasCity** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **SouthTexasCityFt** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **SouthTexasInterstate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **SouthTexasZipcode** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **.test_geodetic_distance_lookups()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **.test_distance_lookups_with_expression_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **.test_dwithin()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **.test_dwithin_with_expression_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **.test_unionagg()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- **.test_dwithin_with_expression_rhs_not_supported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **.test_union_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
+- **.test_distance_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **.test_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **.test_mysql_geodetic_distance_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 124](Community_124.md) (15 shared connections)
-- [Community 51](Community_51.md) (5 shared connections)
+- [Community 28](Community_28.md) (20 shared connections)
+- [Community 63](Community_63.md) (9 shared connections)
+- [Community 57](Community_57.md) (8 shared connections)
+- [Community 46](Community_46.md) (6 shared connections)
+- [Community 30](Community_30.md) (4 shared connections)
+- [Community 20](Community_20.md) (4 shared connections)
+- [Community 17](Community_17.md) (4 shared connections)
 - [Community 4](Community_4.md) (3 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/relatedapp/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 136 (98%)
-- INFERRED: 3 (2%)
+- EXTRACTED: 121 (88%)
+- INFERRED: 17 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

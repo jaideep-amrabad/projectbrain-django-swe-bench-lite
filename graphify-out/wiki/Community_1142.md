@@ -1,26 +1,24 @@
 # Community 1142
 
-> 5 nodes · cohesion 0.40
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **DBCacheRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.db_for_read()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.db_for_write()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **A router that puts the cache table on the 'other' database.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_inheritance12()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Three-level with this level providing one and second level providing the other** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 178](Community_178.md) (1 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 844](Community_844.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

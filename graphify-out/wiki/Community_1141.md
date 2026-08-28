@@ -1,27 +1,24 @@
 # Community 1141
 
-> 5 nodes · cohesion 0.40
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **localize()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- **unlocalize()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- **filter** (2 connections)
-- **Force a value to be rendered as a non-localized value.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- **Force a value to be rendered as a localized value.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- **.test_inheritance11()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Three-level with both blocks defined on this level, but none on second level** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 844](Community_844.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

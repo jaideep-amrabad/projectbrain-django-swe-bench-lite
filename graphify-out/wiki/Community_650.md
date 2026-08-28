@@ -1,42 +1,40 @@
 # Community 650
 
-> 16 nodes · cohesion 0.14
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ManageMinimalSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py builtin commands fail if settings are provided as argument** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py can't execute user commands, even if settings are provided…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for manage.py when using a settings.py file that doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py can't execute user commands without appropriate settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **JSONFieldTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_custom_widget_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_redisplay_wrong_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_converted_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_custom_encoder_decoder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_custom_widget_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_formfield_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_redisplay_none_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_valid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_valid_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **.test_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **Displaying a bound form (typically due to invalid input). The form should not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
+- **The widget can be overridden with an attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
 
 ## Relationships
 
-- [Community 122](Community_122.md) (8 shared connections)
-- [Community 582](Community_582.md) (8 shared connections)
-- [Community 90](Community_90.md) (8 shared connections)
-- [Community 201](Community_201.md) (2 shared connections)
-- [Community 301](Community_301.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_jsonfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

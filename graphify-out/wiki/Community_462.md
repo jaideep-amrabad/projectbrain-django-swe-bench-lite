@@ -1,59 +1,44 @@
 # Community 462
 
-> 27 nodes · cohesion 0.08
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **OtherModelFormTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Inventory** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **model_to_dict()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Colour** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **Character** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **ModelToDictTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ArticleStatusForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **CustomFieldForExclusionForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **InventoryForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_foreignkeys_which_use_to_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__str__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_choices_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **SelectInventoryForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_modelform_subclassed_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_field_that_returns_none_to_exclude_itself_with_explicit_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_prefetch_related_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Return a dict containing the data in ``instance`` suitable for passing as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_callable_field_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_iterable_model_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- *... and 2 more nodes in this community*
+- **ExcludeTest17600** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **NullInExcludeTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_only_orders_with_all_items_having_status_1()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **This should exclude Orders which have some items with status 1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_is_equal_to_plain_exclude()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_is_equal_to_plain_exclude_variation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_object_distinct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_object_no_distinct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_col_not_in_list_containing_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_plain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_plain_distinct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_double_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **expectedFailure** (2 connections)
+- **Using exclude(condition) and exclude(Q(condition)) should yield the same…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_null_in_exclude_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Some regressiontests for ticket #17600. Some of these likely duplicate other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **This should only return orders having ALL items set to status 1, or those items…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **The following case is not handled properly because SQL's COL NOT IN (list…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 144](Community_144.md) (20 shared connections)
-- [Community 370](Community_370.md) (3 shared connections)
-- [Community 614](Community_614.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 684](Community_684.md) (1 shared connections)
-- [Community 259](Community_259.md) (1 shared connections)
-- [Community 539](Community_539.md) (1 shared connections)
-- [Community 379](Community_379.md) (1 shared connections)
+- [Community 11](Community_11.md) (6 shared connections)
+- [Community 100](Community_100.md) (5 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (79%)
-- INFERRED: 13 (21%)
+- EXTRACTED: 33 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

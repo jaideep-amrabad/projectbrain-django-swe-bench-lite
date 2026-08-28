@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **.test_cached_relation_invalidated_on_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **Model.save() invalidates stale ForeignKey relations after a primary key…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **.test_inheritance18()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **{% load %} tag (standard usage, without inheritance)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 421](Community_421.md) (1 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 844](Community_844.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

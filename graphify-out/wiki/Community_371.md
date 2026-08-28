@@ -1,52 +1,61 @@
 # Community 371
 
-> 34 nodes · cohesion 0.09
+> 34 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **PickleabilityTestCase** (48 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.assert_pickles()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_annotation_with_callable_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_binaryfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_datetime_callable_default_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_datetime_callable_default_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_filter_deferred()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_filter_reverse_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_order_by_model_with_abstract_inheritance_and_meta_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_pickle_exists_kwargs_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_pickle_exists_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_pickle_subquery_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_specialized_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_standalone_method_as_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_staticmethod_as_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_string_as_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_annotation_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_annotation_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_doesnotexist_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_doesnotexist_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_forward_relatedobjectdoesnotexist_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_manager_pickle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_model_pickle_dynamic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **generic_relations/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **generic_relations/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **generic_relations/test_forms.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **TaggedItem** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Mineral** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Animal** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ProxyRelatedModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Vegetable** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **AllowsNullGFK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ConcreteRelatedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ForConcreteModelModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Gecko** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Rock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ValuableRock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **TestInitWithNoneArgument** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **Carrot** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ManualPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ValuableTaggedItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **.test_unsaved_generic_foreign_key_parent_bulk_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **TaggedItemForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_assign_content_object_in_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_unsaved_generic_foreign_key_parent_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_none_allowed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **GeckoManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
 - *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 634](Community_634.md) (9 shared connections)
-- [Community 1022](Community_1022.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 1171](Community_1171.md) (1 shared connections)
-- [Community 1172](Community_1172.md) (1 shared connections)
+- [Community 43](Community_43.md) (19 shared connections)
+- [Community 178](Community_178.md) (15 shared connections)
+- [Community 772](Community_772.md) (8 shared connections)
+- [Community 547](Community_547.md) (8 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 1028](Community_1028.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (89%)
-- INFERRED: 7 (11%)
+- EXTRACTED: 109 (78%)
+- INFERRED: 30 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

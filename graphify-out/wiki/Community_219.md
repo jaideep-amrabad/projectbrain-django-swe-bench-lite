@@ -1,56 +1,56 @@
 # Community 219
 
-> 55 nodes · cohesion 0.05
+> 54 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **ErrorList** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **ErrorDict** (17 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **FormsUtilsTestCase** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_utils.py`
-- **RenderableFieldMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **.render()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **RenderableMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **RenderableErrorMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **.test_validation_error()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_utils.py`
-- **.get_json_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **.__str__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **.test_error_dict_copy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_utils.py`
-- **.test_error_dict_is_json_serializable()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_utils.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **.as_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **.as_div()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **.as_p()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **.as_table()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **.as_ul()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **.test_flatatt_no_side_effects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_utils.py`
-- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **.as_json()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **.as_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **.as_ul()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **.as_field_group()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- *... and 30 more nodes in this community*
+- **RawQuerySet** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._fetch_all()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **BaseIterable** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._iterator()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **RawModelIterable** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ValuesListIterable** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **FlatValuesListIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **NamedValuesListIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._clone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.iterator()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._prefetch_related_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ValuesIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._async_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.prefetch_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.using()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__aiter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._fetch_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return the database used if this query is executed now.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Community 28](Community_28.md) (18 shared connections)
 - [Community 4](Community_4.md) (8 shared connections)
-- [Community 36](Community_36.md) (4 shared connections)
-- [Community 35](Community_35.md) (3 shared connections)
-- [Community 203](Community_203.md) (2 shared connections)
-- [Community 208](Community_208.md) (1 shared connections)
-- [Community 209](Community_209.md) (1 shared connections)
-- [Community 237](Community_237.md) (1 shared connections)
+- [Community 48](Community_48.md) (8 shared connections)
+- [Community 200](Community_200.md) (3 shared connections)
+- [Community 398](Community_398.md) (2 shared connections)
+- [Community 127](Community_127.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 202](Community_202.md) (1 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 112 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 84 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

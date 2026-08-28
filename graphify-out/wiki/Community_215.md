@@ -1,64 +1,62 @@
 # Community 215
 
-> 57 nodes · cohesion 0.04
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **MultiValueFieldTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **SplitDateTimeField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **MultiValueField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **test_multivaluefield.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **SplitDateTimeWidgetTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **SplitHiddenDateTimeWidgetTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
-- **ComplexField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **ComplexFieldForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **SplitDateTimeFieldTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- **ComplexMultiWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_formatting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_clean_disabled_multivalue()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **PartiallyRequiredField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **PartiallyRequiredForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_splitdatetimefield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_constructor_different_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_render_date_and_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.compress()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_disabled_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_form_as_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_form_as_table_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- *... and 32 more nodes in this community*
+- **gis/forms/fields.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **test_geoforms.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **gis/forms/widgets.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **gis/forms/__init__.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/__init__.py`
+- **GeometryField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **BaseGeometryWidget** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **SpecializedFieldTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **OpenLayersWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **.assertTextarea()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.assertMapWidget()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **GeometryWidgetTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **OSMWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **.to_python()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **OSMWidgetTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_pointfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **GeometryCollectionField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **LineStringField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **MultiLineStringField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **MultiPointField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **MultiPolygonField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **PointField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **PolygonField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [Community 28](Community_28.md) (12 shared connections)
-- [Community 63](Community_63.md) (7 shared connections)
-- [Community 23](Community_23.md) (7 shared connections)
-- [Community 36](Community_36.md) (5 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 209](Community_209.md) (2 shared connections)
-- [Community 205](Community_205.md) (2 shared connections)
-- [Community 165](Community_165.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 870](Community_870.md) (1 shared connections)
+- [Community 57](Community_57.md) (16 shared connections)
+- [Community 16](Community_16.md) (6 shared connections)
+- [Community 65](Community_65.md) (6 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 49](Community_49.md) (4 shared connections)
+- [Community 37](Community_37.md) (4 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 93 (79%)
-- INFERRED: 24 (21%)
+- EXTRACTED: 150 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

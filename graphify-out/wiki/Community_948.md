@@ -1,30 +1,30 @@
 # Community 948
 
-> 7 nodes · cohesion 0.43
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **module.js** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
-- **module_test.js** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
-- **firstConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
-- **secondConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
-- **testConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
-- **dynamicModule** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
-- **nested.js** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/nested/js/nested.js`
+- **LookaheadTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_invalid_resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_invalid_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_valid_resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_valid_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 213](Community_213.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/nested/js/nested.js`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

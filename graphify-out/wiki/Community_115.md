@@ -1,62 +1,63 @@
 # Community 115
 
-> 82 nodes · cohesion 0.03
+> 67 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **custom_lookups/tests.py** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **YearLteTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Author** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **StartsWith** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **custom_lookups/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **CustomisedMethodsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **TrackCallsYearTransform** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **DateTimeLookupTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **UUIDStartsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **CustomField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_datetime_output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Div3Transform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_birthdate_month()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **LookupTransformCallOrderTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **skipUnless** (4 connections)
-- **SQLFuncLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SubqueryTransformTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **YearLte** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **YearTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **MySQLUnixTimestamp** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **.test_bilateral_multi_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- *... and 57 more nodes in this community*
+- **ForeignKey** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **ManyToManyField** (35 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.check()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._get_field_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **.formfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.contribute_to_related_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_reverse_path_info()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.test_no_index_for_foreignkey()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_proxy_model_parent()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.db_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_attname_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_relationship_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_table_uniqueness()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._get_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.do_related_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.formfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_limit_choices_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **._check_on_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.contribute_to_related_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_attname()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- *... and 42 more nodes in this community*
 
 ## Relationships
 
-- [Community 68](Community_68.md) (24 shared connections)
-- [Community 34](Community_34.md) (7 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 276](Community_276.md) (2 shared connections)
-- [Community 326](Community_326.md) (1 shared connections)
-- [Community 340](Community_340.md) (1 shared connections)
+- [Community 0](Community_0.md) (16 shared connections)
+- [Community 815](Community_815.md) (8 shared connections)
+- [Community 360](Community_360.md) (7 shared connections)
+- [Community 32](Community_32.md) (4 shared connections)
+- [Community 198](Community_198.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 44](Community_44.md) (2 shared connections)
+- [Community 161](Community_161.md) (2 shared connections)
+- [Community 152](Community_152.md) (1 shared connections)
+- [Community 735](Community_735.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 148 (92%)
-- INFERRED: 12 (8%)
+- EXTRACTED: 120 (93%)
+- INFERRED: 9 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

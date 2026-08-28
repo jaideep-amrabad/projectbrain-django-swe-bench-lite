@@ -1,45 +1,45 @@
 # Community 508
 
-> 23 nodes · cohesion 0.13
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **FormatStylePlaceholderCursor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **VariableWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.executemany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.execute()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._fix_for_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._format_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._guess_input_sizes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._output_type_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._param_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.arrayvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._get_decimal_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.var()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._output_number_converter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **An adapter class for cursor variables that prevents the wrapped object from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Django uses "format" (e.g. '%s') style placeholders, but Oracle uses ":var"…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Called for each db column fetched from cursors. Return numbers as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.bind_parameter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__setattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **DebugInvocationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **ErrorTestCase** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.get_runner()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.isolate_debug_test()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **test_simpletestcase.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_debug_bubbles_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_debug_bubbles_post_teardown_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_debug_bubbles_pre_setup_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_run_cleanup()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_debug_cleanup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_debug_skipped_test_no_cleanup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_run_post_teardown_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_run_pre_setup_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_run_skipped_test_no_cleanup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.skipped_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.raising_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.simple_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **object** (1 connections)
+- **skip** (1 connections)
+- **debug() bubbles up exceptions during _pre_setup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **debug() bubbles up exceptions during _post_teardown.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **Simple test run: catches errors and runs cleanup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **Simple debug run without errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **debug() bubbles up exceptions before cleanup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 624](Community_624.md) (2 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

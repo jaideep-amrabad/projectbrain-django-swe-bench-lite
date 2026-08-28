@@ -1,27 +1,24 @@
 # Community 1157
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **ArticleTranslation** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.test_translations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_foreign_key_raises_informative_does_not_exist()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.test_inheritance42()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Expression starting and ending with a quote** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 286](Community_286.md) (4 shared connections)
-- [Community 475](Community_475.md) (2 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 844](Community_844.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

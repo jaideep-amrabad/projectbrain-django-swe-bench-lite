@@ -1,29 +1,28 @@
 # Community 950
 
-> 7 nodes · cohesion 0.43
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **IriencodeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **setup** (4 connections)
-- **.test_iriencode03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **.test_iriencode04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **.test_iriencode01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **.test_iriencode02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **Ensure iriencode keeps safe strings.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
+- **.db_returning()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.db_returning_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **Private API intended only to be used by Django itself.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Private API intended only to be used by Django itself. Fields to be returned…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
+- [Community 201](Community_201.md) (1 shared connections)
+- [Community 181](Community_181.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 4 (80%)
+- INFERRED: 1 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

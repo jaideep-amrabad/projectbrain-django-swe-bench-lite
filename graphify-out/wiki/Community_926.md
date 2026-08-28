@@ -1,28 +1,26 @@
 # Community 926
 
-> 7 nodes · cohesion 0.29
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Deserializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Abstract base deserializer class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Init this serializer given a stream or a string** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Iteration interface -- return the next item in the stream** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **PermissionDeniedBackend** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.authenticate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **Always raises PermissionDenied in `authenticate`, `has_perm` and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 84](Community_84.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

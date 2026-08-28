@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **.test_pickle_prefetch_related_with_m2m_and_objects_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **#24831 -- Cached properties on ManyToOneRel created in QuerySet.delete() caused…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_force_login_without_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **force_login() without passing a backend and with multiple backends configured…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 371](Community_371.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 526](Community_526.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

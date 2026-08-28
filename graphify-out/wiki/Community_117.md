@@ -1,78 +1,63 @@
 # Community 117
 
-> 169 nodes · cohesion 0.03
+> 86 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **GDALException** (66 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
-- **encoding.py** (58 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **gdal/__init__.py** (52 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/__init__.py`
-- **geometries.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **DataSource** (34 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
-- **Envelope** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **layer.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **generation.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- **Driver** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- **source.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **gdal/error.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
-- **GDALBase** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/base.py`
-- **gdal/prototypes/errcheck.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- **libgdal.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **ds.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/ds.py`
-- **gdal/prototypes/geom.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/geom.py`
-- **gdal/srs.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **datasource.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
-- **feature.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **test_raster.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
-- **driver.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- **raster.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/raster.py`
-- **prototypes/srs.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/srs.py`
-- **band.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **gdal/base.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/base.py`
-- *... and 144 more nodes in this community*
+- **HTTPSitemapTests** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **sitemaps_tests/test_http.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **SitemapTestsBase** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- **sitemaps_tests/base.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- **TestModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **sitemaps_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **test_generic.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **I18nTestModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **test_https.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **HTTPSDetectionSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **HTTPSSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **.test_alternate_i18n_sitemap_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_alternate_i18n_sitemap_limited()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_alternate_i18n_sitemap_xdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_alternate_language_for_item_i18n_sitemap()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_language_for_item_i18n_sitemap()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_localized_priority()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_simple_custom_sitemap()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_simple_i18n_sitemap_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_simple_sitemap_custom_lastmod_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.get_absolute_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **.test_cached_sitemap_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_callable_sitemod_full()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_callable_sitemod_partial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_paged_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- *... and 61 more nodes in this community*
 
 ## Relationships
 
-- [Community 161](Community_161.md) (31 shared connections)
-- [Community 62](Community_62.md) (30 shared connections)
-- [Community 147](Community_147.md) (17 shared connections)
-- [Community 0](Community_0.md) (16 shared connections)
-- [Community 66](Community_66.md) (15 shared connections)
-- [Community 41](Community_41.md) (13 shared connections)
-- [Community 9](Community_9.md) (12 shared connections)
-- [Community 84](Community_84.md) (11 shared connections)
-- [Community 535](Community_535.md) (11 shared connections)
-- [Community 223](Community_223.md) (10 shared connections)
-- [Community 320](Community_320.md) (8 shared connections)
-- [Community 217](Community_217.md) (7 shared connections)
+- [Community 5](Community_5.md) (15 shared connections)
+- [Community 144](Community_144.md) (14 shared connections)
+- [Community 24](Community_24.md) (5 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 198](Community_198.md) (4 shared connections)
+- [Community 54](Community_54.md) (4 shared connections)
+- [Community 15](Community_15.md) (4 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 66](Community_66.md) (3 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 189](Community_189.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/ds.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/errcheck.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/generation.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/geom.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/raster.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/srs.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
 
 ## Audit Trail
 
-- EXTRACTED: 617 (93%)
-- INFERRED: 45 (7%)
+- EXTRACTED: 164 (97%)
+- INFERRED: 5 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

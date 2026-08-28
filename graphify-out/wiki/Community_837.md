@@ -1,46 +1,34 @@
 # Community 837
 
-> 16 nodes · cohesion 0.12
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **UpdateViewTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **AuthorForm** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
-- **.test_recleaning_model_form_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_assignment_of_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_assignment_of_none_null_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_update_get_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_update_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_update_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_update_with_interpolated_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_update_with_object_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_update_with_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_update_with_special_properties()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_update_without_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **Re-cleaning an instance that was added via a ModelForm shouldn't raise a pk…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **PayloadEncodingTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_non_utf_payload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_simple_payload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_utf16_payload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_utf8_payload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Regression tests for #10571.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **A simple ASCII-only text can be POSTed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Non-ASCII data encoded as UTF-8 can be POSTed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Non-ASCII data encoded as UTF-16 can be POSTed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Non-ASCII data as a non-UTF based encoding can be POSTed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 112](Community_112.md) (7 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 144](Community_144.md) (2 shared connections)
-- [Community 745](Community_745.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 84](Community_84.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 379](Community_379.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (67%)
-- INFERRED: 10 (33%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

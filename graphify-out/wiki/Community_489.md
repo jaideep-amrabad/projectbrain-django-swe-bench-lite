@@ -1,50 +1,53 @@
 # Community 489
 
-> 24 nodes · cohesion 0.13
+> 25 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **DatabaseSchemaEditor** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._set_field_new_type()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._create_missing_fk_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._is_limited_data_type()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.skip_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._alter_column_null_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._alter_column_type_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._column_default_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._delete_composed_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._field_should_be_indexed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.remove_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.remove_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._rename_field_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.skip_default_on_alter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._alter_column_comment_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._comment_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._field_db_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.sql_delete_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.sql_rename_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._supports_limited_data_type_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **MySQL can remove an implicit FK index on a field when that field is covered by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **Keep the NULL and DEFAULT properties of the old field. If it has changed, it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **ModelAdminPermissionTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **MockRequest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **MockAddUser** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_has_add_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_has_change_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_has_delete_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_has_module_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_has_view_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **MockChangeUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **MockDeleteUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **MockViewUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_inline_has_add_permission_uses_obj()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **MockUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_get_deleted_objects_with_custom_has_delete_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **has_delete_permission returns True for users who can delete objects and False…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **as_module_permission returns True for users who have any permission for the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **ModelAdmin.get_deleted_objects() uses ModelAdmin.has_delete_permission() for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **has_view_permission() returns True for users who can view objects and False for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **has_add_permission returns True for users who can add objects and False for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **has_change_permission returns True for users who can edit objects and False for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 
 ## Relationships
 
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 196](Community_196.md) (1 shared connections)
-- [Community 418](Community_418.md) (1 shared connections)
+- [Community 21](Community_21.md) (7 shared connections)
+- [Community 69](Community_69.md) (7 shared connections)
+- [Community 221](Community_221.md) (5 shared connections)
+- [Community 32](Community_32.md) (3 shared connections)
+- [Community 313](Community_313.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 72 (90%)
+- INFERRED: 8 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

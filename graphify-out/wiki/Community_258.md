@@ -1,56 +1,60 @@
 # Community 258
 
-> 47 nodes · cohesion 0.05
+> 48 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **TestQuerying** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **HStoreModel** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **KeyTransform** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **SimpleTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **KeyTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.test_key_transform_raw_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_obj_subquery_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_save_load_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_value_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_key_transform_annotation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_roundtrip_with_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.test_array_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_key_val_cast_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_contained_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- *... and 22 more nodes in this community*
+- **ModelFormBaseTest** (61 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **fields_for_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.test_empty_fields_to_fields_for_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_fields_for_model_applies_limit_choices_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_blank_false_with_null_true_foreign_key_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_blank_with_null_foreign_key_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_default_filefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_empty_fields_on_modelform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_fields_for_model_form_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Return a dictionary containing form fields for the given model. ``fields`` is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.test_article_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_bad_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_base_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_confused_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_default_not_populated_on_checkboxselectmultiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_default_not_populated_on_non_empty_value_in_cleaned_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_default_not_populated_on_optional_checkbox_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_default_not_populated_on_selectmultiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_default_populated_on_optional_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_default_selectdatewidget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_default_splitdatetime_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_exclude_and_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_exclude_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_exclude_fields_with_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_exclude_nonexistent_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (14 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 547](Community_547.md) (1 shared connections)
-- [Community 214](Community_214.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
+- [Community 159](Community_159.md) (10 shared connections)
+- [Community 413](Community_413.md) (4 shared connections)
+- [Community 152](Community_152.md) (2 shared connections)
+- [Community 311](Community_311.md) (2 shared connections)
+- [Community 241](Community_241.md) (2 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 715](Community_715.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 441](Community_441.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 421](Community_421.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 70 (93%)
-- INFERRED: 5 (7%)
+- EXTRACTED: 63 (83%)
+- INFERRED: 13 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,43 +1,29 @@
 # Community 954
 
-> 12 nodes · cohesion 0.20
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **LiveServerThread** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.run()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **LiveServerThreadTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **.run_live_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **FailingLiveServerThread** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **._create_server()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test_closes_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **.terminate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Thread for running a live HTTP server while the tests are running.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Set up the live server and databases, and then loop over handling HTTP requests.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test_server_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **._create_server()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **AdminURLWidgetTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_render_quoting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_get_context_validates_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_render_idn()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **WARNING: This test doesn't use assertHTMLEqual since it will get rid of some…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
 
 ## Relationships
 
-- [Community 93](Community_93.md) (3 shared connections)
-- [Community 717](Community_717.md) (3 shared connections)
-- [Community 772](Community_772.md) (2 shared connections)
-- [Community 398](Community_398.md) (2 shared connections)
-- [Community 157](Community_157.md) (2 shared connections)
-- [Community 271](Community_271.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 285](Community_285.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (86%)
-- INFERRED: 4 (14%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

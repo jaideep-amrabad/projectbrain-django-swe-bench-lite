@@ -1,62 +1,55 @@
 # Community 628
 
-> 29 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **test_autocomplete_widget.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **AutocompleteMixinTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **AutocompleteSelect** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **Album** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
-- **RelatedFieldWidgetWrapperTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **AlbumForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **NotRequiredBandForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **RequiredBandForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **VideoStreamForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_render_options_not_required_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_render_options_required_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_build_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_build_attrs_no_custom_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_build_attrs_not_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_build_attrs_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_get_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_media()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_render_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_render_options_fk_as_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **Empty option is present if the field isn't required.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
-- **.test_custom_widget_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_no_can_add_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_on_delete_cascade_rel_cant_delete_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- *... and 4 more nodes in this community*
+- **RedirectView** (21 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.get()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **test_client/urls.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/urls.py`
+- **test_client_regress/urls.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/urls.py`
+- **.get_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.test_direct_instantiation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.head()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.patch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.post()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.put()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Provide a redirect on any GET request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Return the URL redirect to. Keyword arguments from the URL pattern match…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **It should be possible to use the view without going through .as_view() (#21564).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **test_client/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/__init__.py`
+- **test_client_regress/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/__init__.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (13 shared connections)
-- [Community 146](Community_146.md) (4 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 227](Community_227.md) (1 shared connections)
-- [Community 387](Community_387.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 141](Community_141.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 138](Community_138.md) (3 shared connections)
+- [Community 146](Community_146.md) (2 shared connections)
+- [Community 313](Community_313.md) (1 shared connections)
+- [Community 169](Community_169.md) (1 shared connections)
+- [Community 452](Community_452.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
+- [Community 64](Community_64.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (79%)
-- INFERRED: 18 (21%)
+- EXTRACTED: 46 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

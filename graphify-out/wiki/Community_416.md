@@ -1,53 +1,58 @@
 # Community 416
 
-> 29 nodes · cohesion 0.08
+> 30 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **BaseStorageFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **FileSystemFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **AppDirectoriesFinder** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **DefaultStorageFinder** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find_location()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find_in_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Look for files in the extra locations as defined in STATICFILES_DIRS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Find a requested static file in a location and return the found absolute path…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **List all files in all locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **A static files finder that looks in the directory of each app as specified in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **List all files in all app storages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Look for files in the app directories.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Find a requested static file in an app's static locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **A base static files finder to be used to extended with an own storage class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- *... and 4 more nodes in this community*
+- **force_insert_update/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **Counter** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **ForceInsertInheritanceTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **force_insert_update/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **SubCounter** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **InheritanceTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **DiamondSubSubCounter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **ProxyCounter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **SubSubCounter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **InheritedCounter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **OtherSubCounter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **ForceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **WithCustomPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- **.test_force_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **.test_force_update_on_inherited_model_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **.assertQuerysetEqual()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_force_insert_diamond_mti()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **.test_force_insert_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **.test_force_insert_not_base()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **.test_force_insert_not_bool_or_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **.test_force_insert_not_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **.test_force_insert_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **.test_force_insert_with_existing_grandparent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **.test_force_insert_with_grandparent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **.test_force_update_on_inherited_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 504](Community_504.md) (3 shared connections)
-- [Community 544](Community_544.md) (1 shared connections)
-- [Community 242](Community_242.md) (1 shared connections)
-- [Community 640](Community_640.md) (1 shared connections)
-- [Community 170](Community_170.md) (1 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 4](Community_4.md) (5 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 287](Community_287.md) (1 shared connections)
+- [Community 497](Community_497.md) (1 shared connections)
+- [Community 519](Community_519.md) (1 shared connections)
+- [Community 461](Community_461.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 69 (81%)
+- INFERRED: 16 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,31 +1,26 @@
 # Community 1041
 
-> 4 nodes · cohesion 0.50
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **EmptyQuerySet** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_emptyqs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Marker class to checking if a queryset is empty by .none():…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **SafeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safe.py`
+- **setup** (2 connections)
+- **.test_safe01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safe.py`
+- **.test_safe02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safe.py`
 
 ## Relationships
 
-- [Community 436](Community_436.md) (2 shared connections)
-- [Community 629](Community_629.md) (1 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 751](Community_751.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safe.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (78%)
-- INFERRED: 2 (22%)
+- EXTRACTED: 6 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

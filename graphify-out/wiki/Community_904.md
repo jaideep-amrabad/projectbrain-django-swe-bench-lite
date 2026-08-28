@@ -1,32 +1,36 @@
 # Community 904
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **ChildNullableParent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **First** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **ToFieldChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **.test_fk_assignment_and_related_object_cache()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_save_nullable_fk_after_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_save_nullable_fk_after_parent_with_to_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **model_forms/test_uuid.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- **ModelFormBaseTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- **UUIDPKForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- **UUIDPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.test_create_save_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- **.test_update_save_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- **.test_model_multiple_choice_field_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
 
 ## Relationships
 
-- [Community 591](Community_591.md) (10 shared connections)
-- [Community 421](Community_421.md) (8 shared connections)
+- [Community 159](Community_159.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (80%)
-- INFERRED: 5 (20%)
+- EXTRACTED: 18 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

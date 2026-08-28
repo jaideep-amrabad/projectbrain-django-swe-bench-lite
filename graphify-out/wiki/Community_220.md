@@ -1,59 +1,59 @@
 # Community 220
 
-> 49 nodes · cohesion 0.06
+> 40 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **SimpleTemplateResponse** (29 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **SimpleTemplateResponseTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **._response()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **TemplateResponseTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **ContentNotRenderedError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.resolve_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.rendered_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.__getstate__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.test_post_callbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_template_resolving()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.add_post_render_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.resolve_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **._response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_content_access_rendered()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_content_access_unrendered()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_dict_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_explicit_baking()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_iteration_rendered()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- *... and 24 more nodes in this community*
+- **trans_real.py** (48 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **translation()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_supported_language_variant()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **check_for_language()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_language_from_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **gettext()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_language_from_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_languages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **ngettext()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **pgettext()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **activate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **all_locale_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **catalog()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **do_ntranslate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_language_bidi()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **_parse_accept_lang_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **deactivate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **deactivate_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **gettext_noop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **npgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Translation helper functions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Return a translation object in the default 'django' domain.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Fetch the translation object for a given language and install it as the current…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Uninstall the active translation object so that further _() calls resolve to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 987](Community_987.md) (7 shared connections)
-- [Community 22](Community_22.md) (7 shared connections)
-- [Community 82](Community_82.md) (2 shared connections)
-- [Community 637](Community_637.md) (2 shared connections)
-- [Community 292](Community_292.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 230](Community_230.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 49](Community_49.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 15](Community_15.md) (8 shared connections)
+- [Community 151](Community_151.md) (4 shared connections)
+- [Community 382](Community_382.md) (4 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 27](Community_27.md) (3 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 80](Community_80.md) (2 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 339](Community_339.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 87 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

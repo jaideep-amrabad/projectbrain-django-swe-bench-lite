@@ -1,45 +1,42 @@
 # Community 643
 
-> 16 nodes · cohesion 0.20
+> 16 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **RegexField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **RegexFieldTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **test_regexfield.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **._set_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_change_regex_after_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_empty_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_get_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_strip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_unicode_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **regex can be either a string or a compiled regular expression object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **._get_regex()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **MediaType** (15 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **MediaTypeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_accept_header.py`
+- **test_accept_header.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_accept_header.py`
+- **.accepted_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **parse_accept_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_accept_header.py`
+- **.test_is_all_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_accept_header.py`
+- **.test_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_accept_header.py`
+- **.test_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_accept_header.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_accept_header.py`
+- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_accept_header.py`
+- **.is_all_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.match()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **Return a list of MediaType instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 
 ## Relationships
 
-- [Community 28](Community_28.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 205](Community_205.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 67](Community_67.md) (3 shared connections)
+- [Community 212](Community_212.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests_tests/test_accept_header.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (71%)
-- INFERRED: 10 (29%)
+- EXTRACTED: 30 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

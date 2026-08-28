@@ -1,78 +1,60 @@
 # Community 163
 
-> 131 nodes · cohesion 0.03
+> 65 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **translation/__init__.py** (223 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **gettext()** (72 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **timesince()** (27 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **humanize.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/humanize.py`
-- **TranslationTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **TimesinceTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **ngettext()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **contenttypes/views.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/views.py`
-- **utils_tests/test_timesince.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **timeuntil()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **ngettext_lazy()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **timesince.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **is_aware()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **shortcut()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/views.py`
-- **filesizeformat()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **template.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
-- **MinimumLengthValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **npgettext_lazy()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **templatize()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
-- **pgettext()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.test_safe_status()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **test_filesizeformat.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
-- **filter** (6 connections)
-- **avoid_wrapping()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **intword()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/humanize.py`
-- *... and 106 more nodes in this community*
+- **test_ranges.py** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **RangesModel** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **TestQuerying** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **TestQueryingWithRanges** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **TestSaveLoad** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **BasicTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **TestRangeContainsLookup** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **RangeLookupsModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **BigAutoFieldModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **SmallAutoFieldModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **TestChecks** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **TestWidget** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_get_field_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_bound_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_auto_field_contained_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_big_auto_field_contained_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_f_ranges()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_small_auto_field_contained_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_all_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_model_set_on_base_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_range_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [Community 35](Community_35.md) (26 shared connections)
-- [Community 0](Community_0.md) (19 shared connections)
-- [Community 4](Community_4.md) (19 shared connections)
-- [Community 21](Community_21.md) (17 shared connections)
-- [Community 6](Community_6.md) (15 shared connections)
-- [Community 11](Community_11.md) (15 shared connections)
-- [Community 49](Community_49.md) (12 shared connections)
-- [Community 28](Community_28.md) (12 shared connections)
-- [Community 26](Community_26.md) (12 shared connections)
-- [Community 225](Community_225.md) (10 shared connections)
-- [Community 2](Community_2.md) (9 shared connections)
-- [Community 16](Community_16.md) (9 shared connections)
+- [Community 102](Community_102.md) (18 shared connections)
+- [Community 92](Community_92.md) (5 shared connections)
+- [Community 10](Community_10.md) (5 shared connections)
+- [Community 136](Community_136.md) (4 shared connections)
+- [Community 515](Community_515.md) (4 shared connections)
+- [Community 232](Community_232.md) (3 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 58](Community_58.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/views.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/humanize.py`
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/exclude/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/project_dir/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/project_dir/app_no_locale/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/project_dir/app_with_locale/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/unchanged/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
 
 ## Audit Trail
 
-- EXTRACTED: 602 (99%)
-- INFERRED: 6 (1%)
+- EXTRACTED: 136 (91%)
+- INFERRED: 14 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

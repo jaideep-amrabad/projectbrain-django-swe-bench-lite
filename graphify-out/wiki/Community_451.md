@@ -1,52 +1,45 @@
 # Community 451
 
-> 27 nodes · cohesion 0.11
+> 14 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **MultiDBOperationTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **._test_create_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_create_model4()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **MigrateEverythingRouter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **._test_run_python()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **._test_run_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **AgnosticRouter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **MigrateNothingRouter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_create_model2()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_create_model3()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_python_migrate_foo_router_with_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_python_migrate_foo_router_without_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_python_migrate_nothing_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_sql_migrate_foo_router_with_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_sql_migrate_foo_router_without_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_sql_migrate_nothing_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **A router that doesn't allow migrating.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **A router that always allows migrating.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **CreateModel honors multi-db settings.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **Test when router doesn't have an opinion (i.e. CreateModel should run).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **Test when router returns False (i.e. CreateModel shouldn't run).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **Test when router returns True (i.e. CreateModel should run).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- *... and 2 more nodes in this community*
+- **test_datastructures.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **DictWrapper** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **MultiValueDictKeyError** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **DictWrapperTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_dictwrapper()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **dict** (2 connections)
+- **KeyError** (1 connections)
+- **Wrap accesses to a dictionary so that certain values (those starting with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **Retrieve the real value after stripping the prefix string (if present). If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **Return the last data value for this key, or [] if it's an empty list; raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **Tests for stuff in django.utils.datastructures.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (12 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 247](Community_247.md) (1 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
+- [Community 250](Community_250.md) (5 shared connections)
+- [Community 432](Community_432.md) (4 shared connections)
+- [Community 80](Community_80.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 671](Community_671.md) (2 shared connections)
+- [Community 518](Community_518.md) (2 shared connections)
+- [Community 201](Community_201.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 177](Community_177.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 36 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

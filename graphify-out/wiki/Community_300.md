@@ -1,61 +1,55 @@
 # Community 300
 
-> 35 nodes · cohesion 0.09
+> 41 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **learn_cache_key()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **get_cache_key()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **CacheUtils** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **CacheI18nTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **TestWithTemplateResponse** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **_i18n_cache_key_suffix()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **_generate_cache_header_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **_generate_cache_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **.check_accept_language_vary()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_key_i18n_timezone()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_key_i18n_translation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_key_i18n_translation_accept_language()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_key_varies_by_url()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_cache_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_cache_key_with_query()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_key_no_i18n()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_cache_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_cache_key_with_query()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_learn_cache_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_patch_vary_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.process_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **PrefixedCacheI18nTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **PrefixedCacheUtils** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Check whether the page is already cached and return the cached version if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **If necessary, add the current locale or time zone to the cache key.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- *... and 10 more nodes in this community*
+- **model_enums/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **ChoicesTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **CustomChoicesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **Constants** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **Separator** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **Set** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **Suit** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **YearInSchool** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **bytes** (1 connections)
+- **float** (1 connections)
+- **.test_do_not_call_in_templates_member()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices_auto_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices_containment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices_functional_api()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_invalid_definition()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_label_member()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_property_names_conflict_with_member_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_auto_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_blank_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_containment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 178](Community_178.md) (9 shared connections)
-- [Community 3](Community_3.md) (9 shared connections)
-- [Community 18](Community_18.md) (9 shared connections)
-- [Community 49](Community_49.md) (7 shared connections)
-- [Community 331](Community_331.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 83](Community_83.md) (3 shared connections)
-- [Community 22](Community_22.md) (3 shared connections)
-- [Community 225](Community_225.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 412](Community_412.md) (1 shared connections)
-- [Community 607](Community_607.md) (1 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 23](Community_23.md) (3 shared connections)
+- [Community 37](Community_37.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 598](Community_598.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 105 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 57 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

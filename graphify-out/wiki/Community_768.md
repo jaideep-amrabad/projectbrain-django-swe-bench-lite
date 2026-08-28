@@ -1,49 +1,41 @@
 # Community 768
 
-> 22 nodes · cohesion 0.14
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.collect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.link_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.delete_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.clear_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.copy_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.set_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.is_local_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.local()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Perform the bulk of the work of collectstatic. Split off from handle() to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Copies or symlinks static files from different locations to the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Delete the given relative path using the destination storage backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Check if the target file should be deleted if it already exists.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Attempt to link ``path``** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Attempt to copy ``path`` with storage** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Set instance variables based on an options dict** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Create a prefix operator, given a binding power and a function that evaluates…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **LoginRequiredTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **.test_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **normal_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/views.py`
+- **.test_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **.test_login_required()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **.test_login_required_next_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **.test_full_dec_normal()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **login_required works on a simple view wrapped in a login_required decorator.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **Tests the login_required decorators** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **login_required is assignable to callable objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **login_required is assignable to normal views.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **All methods of middleware are called for normal HttpResponses** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 140](Community_140.md) (1 shared connections)
-- [Community 271](Community_271.md) (1 shared connections)
-- [Community 206](Community_206.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 61](Community_61.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 73](Community_73.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 19 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,39 +1,43 @@
 # Community 692
 
-> 15 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **RequestMethodStringDataTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_empty_string_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_patch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_put()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view with string data via request method POST** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view with string data via request method PUT** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view with string data via request method PATCH** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view with empty string data via request method GET/POST/HEAD** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json_bytes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json_charset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json_multiple_access()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json_structured_suffixes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_json_wrong_header()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **PerformConstraintChecksTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **validation/test_constraints.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **Product** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueConstraintProduct** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **ChildProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueConstraintConditionProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **ChildUniqueConstraintProduct** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_full_clean_with_check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_check_constraints_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_check_constraints_on_child_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_partial_unique_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_partial_unique_constraints_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_unique_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_unique_constraints_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 230](Community_230.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 578](Community_578.md) (8 shared connections)
+- [Community 28](Community_28.md) (6 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 46 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

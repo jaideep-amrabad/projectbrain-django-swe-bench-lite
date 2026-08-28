@@ -1,44 +1,39 @@
 # Community 637
 
-> 17 nodes · cohesion 0.13
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **AssertContainsTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_not_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_not_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unicode_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unicode_not_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **An unrendered SimpleTemplateResponse may be used in assertContains().** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **auto-rendering does not affect responses that aren't instances (or subclasses)…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_binary_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_binary_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nontext_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nontext_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Unicode characters can be found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Unicode characters can be searched for, and not found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Responses can be inspected for content, including counting repeated substrings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Command** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.handle_inspection()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **gis/management/commands/inspectdb.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **.get_field_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.get_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.normalize_col_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.normalize_table_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **InspectDBCommand** (1 connections)
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Modify the column name to make it Python-compatible as a field name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Translate the table name to a Python-compatible model name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Given the database connection, the table name, and the cursor row description,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Return a sequence comprising the lines of code necessary to construct the inner…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
 
 ## Relationships
 
-- [Community 220](Community_220.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 230](Community_230.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 271](Community_271.md) (1 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

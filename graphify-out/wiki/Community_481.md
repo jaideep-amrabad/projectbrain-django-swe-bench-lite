@@ -1,50 +1,58 @@
 # Community 481
 
-> 25 nodes · cohesion 0.08
+> 29 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **TestSigner** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_decode_detects_tampering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_default_keys_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_dumps_loads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_invalid_sep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_sign_unsign()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_sign_unsign_ignore_secret_key_fallbacks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_sign_unsign_multiple_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_unsign_detects_tampering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **signature() method should generate a signature** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **dumps and loads be reversible for any JSON serializable object** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **loads should raise exception for tampered objects** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **should warn on invalid separator** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **The default key is a valid verification key.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **sign/unsign should be reversible** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **unsign should raise an exception if the value has been tampered with** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_custom_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_invalid_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_sign_unsign_non_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_sign_unsign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_signature_with_salt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_valid_sep()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_verify_with_non_default_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_works_with_non_ascii_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **Media** (17 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **BoundWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **html_safe()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.absolute_path()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.merge()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.render_css()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.render_js()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **._get_media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **._css()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **._js()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.choice_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.template_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **A container class used for iterating over widgets. This is useful for widgets…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **Return all media required to render the widgets on this form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.__add__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Given a relative or absolute path to a static asset, return an absolute path.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 456](Community_456.md) (1 shared connections)
+- [Community 37](Community_37.md) (7 shared connections)
+- [Community 156](Community_156.md) (4 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 249](Community_249.md) (1 shared connections)
+- [Community 269](Community_269.md) (1 shared connections)
+- [Community 152](Community_152.md) (1 shared connections)
+- [Community 351](Community_351.md) (1 shared connections)
+- [Community 208](Community_208.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 51 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
