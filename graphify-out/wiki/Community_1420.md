@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **sampleproject/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/sampleproject/__init__.py`
+- **compatibility/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/compatibility/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/sampleproject/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/compatibility/__init__.py`
 
 ## Audit Trail
 

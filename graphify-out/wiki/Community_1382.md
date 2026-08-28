@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **generic_relations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/__init__.py`
+- **filters.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/filters.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/filters.js`
 
 ## Audit Trail
 

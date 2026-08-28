@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **faulty_migrations/file.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/faulty_migrations/file.py`
+- **app_waiting_migration/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_waiting_migration/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/faulty_migrations/file.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_waiting_migration/__init__.py`
 
 ## Audit Trail
 
