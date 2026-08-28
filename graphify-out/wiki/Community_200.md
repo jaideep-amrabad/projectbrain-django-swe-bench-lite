@@ -1,60 +1,69 @@
 # Community 200
 
-> 29 nodes · cohesion 0.09
+> 120 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **AnonymousUser** (46 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **UserPassesTestTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **._test_redirect()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.has_perm()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.has_perms()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.has_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.test_raise_exception_custom_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_raise_exception_custom_message_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_user_passes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_custom_redirect_parameter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_custom_redirect_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_no_redirect_parameter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_raise_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.check_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.get_group_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.get_username()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.groups()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.__int__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.is_anonymous()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.is_authenticated()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- *... and 4 more nodes in this community*
+- **distapp/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **DistanceFunctionsTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **Distance** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **Length** (25 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **geogapp/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **DistanceTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **gis/db/__init__.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/__init__.py`
+- **Area** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **gis_tests/utils.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
+- **FuncTestMixin** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
+- **.as_sql()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **Perimeter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **distapp/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **GeographyFunctionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **Transform** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **NamedModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **GeographyTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.get_names()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- **test_gis_tests_utils.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **FuncTestMixinTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **DistanceResultMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **geogapp/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **.as_postgresql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **AustraliaCity** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- **CensusZipcode** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- *... and 95 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 505](Community_505.md) (7 shared connections)
-- [Community 45](Community_45.md) (3 shared connections)
-- [Community 107](Community_107.md) (3 shared connections)
-- [Community 351](Community_351.md) (2 shared connections)
-- [Community 756](Community_756.md) (2 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 150](Community_150.md) (2 shared connections)
-- [Community 27](Community_27.md) (2 shared connections)
-- [Community 973](Community_973.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 65](Community_65.md) (34 shared connections)
+- [Community 28](Community_28.md) (29 shared connections)
+- [Community 47](Community_47.md) (18 shared connections)
+- [Community 77](Community_77.md) (15 shared connections)
+- [Community 66](Community_66.md) (14 shared connections)
+- [Community 36](Community_36.md) (9 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 38](Community_38.md) (6 shared connections)
+- [Community 14](Community_14.md) (6 shared connections)
+- [Community 564](Community_564.md) (6 shared connections)
+- [Community 128](Community_128.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/migrations/0002_create_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (93%)
-- INFERRED: 5 (7%)
+- EXTRACTED: 374 (89%)
+- INFERRED: 46 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

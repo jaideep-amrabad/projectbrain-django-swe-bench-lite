@@ -1,59 +1,65 @@
 # Community 68
 
-> 98 nodes · cohesion 0.02
+> 97 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **BaseDatabaseOperations** (89 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.window_frame_rows_start_end()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.combine_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.compiler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.distinct_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.limit_offset_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.window_frame_range_start_end()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.adapt_ipaddressfield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.autoinc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.binary_placeholder_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.bulk_batch_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.check_expression_support()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.combine_duration_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.conditional_expression_supported_in_where_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.date_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.datetime_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.deferrable_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.end_transaction_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.execute_sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.explain_query_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.fetch_returned_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.field_cast_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- *... and 73 more nodes in this community*
+- **contenttypes_tests/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **contenttypes_tests/test_views.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- **ContentTypesTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **contenttypes_tests/test_models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **ContentTypesViewsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- **contenttypes_tests/test_fields.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
+- **GenericForeignKeyTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
+- **shortcut()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/views.py`
+- **Post** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **ContentTypesViewsSiteRelTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- **test_order_with_respect_to.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
+- **ShortcutViewTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- **Answer** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **FooWithUrl** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **Author** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **Question** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **.get_absolute_url()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/models.py`
+- **FooWithBrokenAbsoluteUrl** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **FooWithoutUrl** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **ModelWithNullFKToSite** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **OrderWithRespectToGFKTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
+- **ProxyModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **GenericRelationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
+- **ContentTypesMultidbTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.test_not_dependent_on_sites_app()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- *... and 72 more nodes in this community*
 
 ## Relationships
 
-- [Community 67](Community_67.md) (9 shared connections)
-- [Community 654](Community_654.md) (7 shared connections)
-- [Community 796](Community_796.md) (5 shared connections)
-- [Community 987](Community_987.md) (3 shared connections)
-- [Community 272](Community_272.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 1681](Community_1681.md) (2 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
-- [Community 381](Community_381.md) (1 shared connections)
-- [Community 273](Community_273.md) (1 shared connections)
-- [Community 196](Community_196.md) (1 shared connections)
-- [Community 246](Community_246.md) (1 shared connections)
+- [Community 0](Community_0.md) (25 shared connections)
+- [Community 55](Community_55.md) (9 shared connections)
+- [Community 84](Community_84.md) (6 shared connections)
+- [Community 19](Community_19.md) (6 shared connections)
+- [Community 11](Community_11.md) (6 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 44](Community_44.md) (4 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 61](Community_61.md) (3 shared connections)
+- [Community 66](Community_66.md) (3 shared connections)
+- [Community 236](Community_236.md) (3 shared connections)
+- [Community 357](Community_357.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 141 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 209 (86%)
+- INFERRED: 33 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

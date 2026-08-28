@@ -4,38 +4,37 @@
 
 ## Key Concepts
 
-- **Tests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **TransactionalTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **skipUnless** (2 connections)
-- **.test_check_database_version_supported()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_cursor_var()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_dbms_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_order_of_nls_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_quote_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **object** (1 connections)
-- **%' chars are escaped for query execution.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **A stored procedure can be called through a cursor wrapper.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **Cursor variables can be passed as query parameters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **An 'almost right' datetime works with configured NLS parameters (#18465).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_quote_name_db_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_hidden_no_data_found_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_password_with_at_sign()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **AsyncRelatedManagersOperationTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aadd()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aadd_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aclear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aclear_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_acreate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_acreate_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aget_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aget_or_create_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aremove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aremove_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aset_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aupdate_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aupdate_or_create_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
 
 ## Relationships
 
-- [Community 67](Community_67.md) (2 shared connections)
+- [Community 908](Community_908.md) (3 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
+- [Community 981](Community_981.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (85%)
+- INFERRED: 3 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

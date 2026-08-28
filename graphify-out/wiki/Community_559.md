@@ -1,43 +1,42 @@
 # Community 559
 
-> 18 nodes · cohesion 0.21
+> 16 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **StateRelationsTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.get_base_project_state()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_add_field_m2m_with_through()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_add_model_no_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_add_model_other_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_alter_field_m2m_to_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_relations_population()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_add_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_alter_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_many_relations_to_same_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_remove_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_remove_field_no_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_remove_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_rename_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_rename_field_no_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_rename_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_rename_model_no_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **test_api.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **ApiTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **DummyStorage** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **CustomRequest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **CustomRequestApiTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.test_middleware_missing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.test_middleware_missing_silently()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.test_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.test_request_is_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **dummy message-store to test the api methods** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **add_message() should use ducktyping to allow request wrappers such as the one…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
 
 ## Relationships
 
-- [Community 23](Community_23.md) (6 shared connections)
-- [Community 77](Community_77.md) (4 shared connections)
-- [Community 180](Community_180.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
+- [Community 200](Community_200.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 25 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

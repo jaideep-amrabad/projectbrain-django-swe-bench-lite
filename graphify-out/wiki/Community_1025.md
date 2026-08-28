@@ -4,24 +4,22 @@
 
 ## Key Concepts
 
-- **.select_for_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.update_or_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Return a new QuerySet instance that will select objects with a FOR UPDATE lock.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Look up an object with the given kwargs, updating one with defaults if it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **PersonManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **SpyManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
 
 ## Relationships
 
-- [Community 56](Community_56.md) (2 shared connections)
-- [Community 346](Community_346.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 355](Community_355.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

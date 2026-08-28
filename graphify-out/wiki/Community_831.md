@@ -1,31 +1,33 @@
 # Community 831
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **._check_bad_or_missing_cookie()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_no_csrf_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_bad_csrf_cookie_characters()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_bad_csrf_cookie_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **If the CSRF cookie has invalid characters in a POST request, the middleware…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **If the CSRF cookie has an incorrect length in a POST request, the middleware…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **Passing None for cookie includes no cookie.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **If no CSRF cookies is present, the middleware rejects the incoming request.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **join()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **.test_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **.test_noniterable_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **.test_noniterable_arg_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **Join a list with a string, like Python's ``str.join(list)``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 232](Community_232.md) (4 shared connections)
-- [Community 221](Community_221.md) (3 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,48 +1,51 @@
 # Community 432
 
-> 26 nodes · cohesion 0.13
+> 47 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **IfChangedTagTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **setup** (18 connections)
-- **.test_ifchanged_else01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged_filter_ws()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged_param01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged_param03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged_param04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged_param05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged_else02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged_else03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged_else04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged_param02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **Test one parameter given to ifchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **Test multiple parameters to ifchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **Test a date+hour like construct, where the hour of the last day is the same but…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **Logically the same as above, just written with explicit ifchanged for the day.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **Test the else clause of ifchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- *... and 1 more nodes in this community*
+- **.urlopen()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerBase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerViews** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerTestCloseConnectionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerDatabase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerTestCaseSetupTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerThreadedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerAddress** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerInMemoryDatabaseLockTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerPort** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_database_writes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_fixtures_loaded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_in_memory_database_lock()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_no_collectstatic_emulation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_protocol()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_port_bind()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_specified_port_bind()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.check_allowed_hosts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.tearDownConnectionTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_closes_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_check_model_instance_from_subview()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_view_calls_subview()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
+- [Community 27](Community_27.md) (9 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 108](Community_108.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 73 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

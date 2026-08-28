@@ -1,34 +1,32 @@
 # Community 760
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **CheckSessionCookieSecureTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_session_cookie_secure_both()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_session_cookie_secure_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_session_cookie_secure_with_installed_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_session_cookie_secure_with_installed_app_truthy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_session_cookie_secure_with_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **Warn if SESSION_COOKIE_SECURE is off and "django.contrib.sessions" is in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **SESSION_COOKIE_SECURE must be boolean.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **Warn if SESSION_COOKIE_SECURE is off and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **If SESSION_COOKIE_SECURE is off and we find both the session app and the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **If SESSION_COOKIE_SECURE is on, there's no warning about it.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **ForceEscapeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **setup** (8 connections)
+- **.test_force_escape01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **.test_force_escape08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- **Force_escape is applied immediately. It can be used to provide double-escaping,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (5 shared connections)
-- [Community 549](Community_549.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

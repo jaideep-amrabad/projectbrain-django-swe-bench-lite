@@ -1,52 +1,69 @@
 # Community 228
 
-> 23 nodes · cohesion 0.12
+> 69 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **token_view()** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **._check_token_present()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._get_csrf_cookie_request()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_empty_csrf_cookie()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_get_token_for_exempt_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_no_csrf_cookie()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_bare_secret_accepted_and_not_replaced()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_masked_secret_accepted_and_replaced()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_get_token_for_requires_csrf_token_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_token_node_with_csrf_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_malformed_host()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_masked_unmasked_combinations()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_masked_unmasked_combinations()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **CsrfTokenNode works when no CSRF cookie is set.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **All combinations are allowed of (1) masked and unmasked cookies, (2) masked and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **For a view that uses the csrf_token, the csrf cookie is replaced with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **The csrf cookie is left unchanged if originally not masked.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **Masked and unmasked tokens are allowed both as POST and as the X-CSRFToken…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **The method argument defaults to "GET". The cookie argument defaults to this…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **A new token is sent if the csrf_cookie is the empty string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **get_token still works for a view decorated with 'csrf_exempt'.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **get_token() works for a view decorated solely with requires_csrf_token.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **CsrfViewMiddleware generates a 403 response if it receives an HTTPS request…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **admindocs/views.py** (55 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **inspect.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
+- **admindocs/utils.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **BaseAdminDocsView** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **response_for_exception()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/exception.py`
+- **get_urlconf()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **.get_context_data()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.get_context_data()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **simplify_regex()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **func_accepts_kwargs()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
+- **_get_callable_parameters()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
+- **.get_context_data()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **method_has_no_args()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
+- **._get_view_func()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **dispatcher.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.process_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
+- **_find_groups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **get_view_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **remove_non_capturing_groups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **replace_named_groups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **replace_unnamed_groups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **get_return_data_type()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **handle_uncaught_exception()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/exception.py`
+- **get_mod_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
+- **func_accepts_var_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
+- *... and 44 more nodes in this community*
 
 ## Relationships
 
-- [Community 232](Community_232.md) (24 shared connections)
-- [Community 221](Community_221.md) (17 shared connections)
-- [Community 181](Community_181.md) (8 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 198](Community_198.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
+- [Community 161](Community_161.md) (16 shared connections)
+- [Community 15](Community_15.md) (11 shared connections)
+- [Community 43](Community_43.md) (8 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 70](Community_70.md) (7 shared connections)
+- [Community 51](Community_51.md) (7 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 206](Community_206.md) (4 shared connections)
+- [Community 145](Community_145.md) (4 shared connections)
+- [Community 295](Community_295.md) (3 shared connections)
+- [Community 66](Community_66.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/exception.py`
+- `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/inspect.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (78%)
-- INFERRED: 19 (22%)
+- EXTRACTED: 243 (97%)
+- INFERRED: 8 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

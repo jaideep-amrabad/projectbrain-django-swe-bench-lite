@@ -1,30 +1,29 @@
 # Community 857
 
-> 8 nodes · cohesion 0.36
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **AbsoluteUrlOverrideTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- **._create_model_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- **.test_get_absolute_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- **.test_insert_get_absolute_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- **.test_override_get_absolute_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- **ABSOLUTE_URL_OVERRIDES should override get_absolute_url().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- **ABSOLUTE_URL_OVERRIDES should work even if the model doesn't have a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- **get_absolute_url() functions as a normal method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- **CutTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- **setup** (6 connections)
+- **.test_cut01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- **.test_cut02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- **.test_cut03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- **.test_cut04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- **.test_cut05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- **.test_cut06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 3](Community_3.md) (8 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

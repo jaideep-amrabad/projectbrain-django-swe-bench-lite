@@ -1,68 +1,61 @@
 # Community 235
 
-> 45 nodes · cohesion 0.08
+> 48 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **auth/management/__init__.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **auth_tests/test_checks.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **contenttypes_tests/test_checks.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- **auth/apps.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- **contenttypes/apps.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- **contenttypes/management/__init__.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **auth/checks.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
-- **create_permissions()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **contenttypes/checks.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/checks.py`
-- **create_contenttypes()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **CreatePermissionsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **check_model_name_lengths()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/checks.py`
-- **.ready()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- **_get_builtin_permissions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **RenameContentType** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **check_models_permissions()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
-- **update_last_login()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- **inject_rename_contenttypes_operations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **ModelCheckTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- **AuthConfig** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- **check_user_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
-- **_get_all_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **check_generic_foreign_keys()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/checks.py`
-- **ContentTypesConfig** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- *... and 20 more nodes in this community*
+- **FileField** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **GenerateFilenameStorageTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **ImageField** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **FieldCallableFileStorageTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_filefield_awss3_storage()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.test_deconstruction()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.generate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **callable_storage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- **.test_file_field_storage_none_uses_default_storage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._check_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._check_upload_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._check_image_library_installed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.update_dimension_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.test_filefield_dangerous_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (15 shared connections)
-- [Community 84](Community_84.md) (12 shared connections)
-- [Community 27](Community_27.md) (8 shared connections)
-- [Community 34](Community_34.md) (6 shared connections)
-- [Community 67](Community_67.md) (6 shared connections)
-- [Community 54](Community_54.md) (6 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 45](Community_45.md) (4 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 166](Community_166.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
+- [Community 15](Community_15.md) (8 shared connections)
+- [Community 176](Community_176.md) (4 shared connections)
+- [Community 168](Community_168.md) (4 shared connections)
+- [Community 209](Community_209.md) (3 shared connections)
+- [Community 262](Community_262.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 554](Community_554.md) (1 shared connections)
+- [Community 130](Community_130.md) (1 shared connections)
+- [Community 805](Community_805.md) (1 shared connections)
+- [Community 409](Community_409.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 156 (92%)
-- INFERRED: 13 (8%)
+- EXTRACTED: 91 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,44 +1,40 @@
 # Community 594
 
-> 17 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **AssertContainsTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_not_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_not_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unicode_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unicode_not_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **An unrendered SimpleTemplateResponse may be used in assertContains().** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **auto-rendering does not affect responses that aren't instances (or subclasses)…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_binary_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_binary_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nontext_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nontext_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Unicode characters can be found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Unicode characters can be searched for, and not found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Responses can be inspected for content, including counting repeated substrings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **_AssertFormErrorDeprecationHelper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertFormError()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertFormsetError()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **to_list()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertFormError()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertFormSetError()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._assert_form_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **patch_signature** (2 connections)
+- **.patch_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Search through all the rendered contexts of the `response` for a form named…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Search for a formset named "formset" in the "response" and dispatch to the new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Replace the decorated method with a new one that inspects the passed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that a field named "field" on the given form object has specific errors.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Put value into a list if it's not already one.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Similar to assertFormError() but for formsets. Use form_index=None to check the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 152](Community_152.md) (2 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 173](Community_173.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 24 (92%)
+- INFERRED: 2 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

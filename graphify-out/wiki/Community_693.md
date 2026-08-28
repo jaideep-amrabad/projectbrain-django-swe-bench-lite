@@ -1,39 +1,42 @@
 # Community 693
 
-> 13 nodes · cohesion 0.21
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **m2o_recursive/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **m2o_recursive/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **ManyToOneRecursiveTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **MultipleManyToOneRecursiveTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **Relating an object to itself, many-to-one To define a many-to-one relationship…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **.test_m2o_recursive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **.test_m2o_recursive2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **PlainTextReportTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_disallowed_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_request_with_items_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_disallowed_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_request_with_items_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_template_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_no_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_no_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_message_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **An exception report can be generated even for a disallowed host.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **An exception report can be generated for requests with 'items' in request GET,…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **An exception report can be generated for just a request** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
+- [Community 455](Community_455.md) (9 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 119](Community_119.md) (3 shared connections)
+- [Community 82](Community_82.md) (2 shared connections)
+- [Community 145](Community_145.md) (2 shared connections)
 - [Community 3](Community_3.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1005](Community_1005.md) (1 shared connections)
+- [Community 1688](Community_1688.md) (1 shared connections)
+- [Community 1689](Community_1689.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 33 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

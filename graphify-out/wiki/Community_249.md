@@ -1,62 +1,58 @@
 # Community 249
 
-> 51 nodes · cohesion 0.05
+> 41 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **activate()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **deactivate()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **ResolutionOrderI18NTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **translation_file_changed()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
-- **.assertGettext()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **TranslationFileChangedTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **TranslationFilesMissing** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **LocalePathsResolutionOrderI18NTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **TranslationLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_translation_loading()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_override_exit()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **TranslationThreadSafetyTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.__enter__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.__exit__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.test_app_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **TranslationFallbackI18NTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_failure_finding_default_mo_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_override()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_override_decorator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **deactivate_all()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **Trans** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.__getattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **AppResolutionOrderI18NTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- *... and 26 more nodes in this community*
+- **model_regress/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **ModelTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **model_regress/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Worker** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **EvaluateMethodTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Department** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **ModelFieldsCacheTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Event** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **NonAutoPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **ModelValidationTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Model1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Model2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Model3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Party** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **.test_metaclass_can_access_attribute_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_timezones()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_model_with_evaluate_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_chained_fks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_get_next_prev_by_field_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_model_init_too_many_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_related_gte_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_related_lte_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_pk_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Regression test for #10153: foreign key __gte lookups.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 41](Community_41.md) (19 shared connections)
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 70](Community_70.md) (6 shared connections)
-- [Community 19](Community_19.md) (4 shared connections)
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 474](Community_474.md) (2 shared connections)
-- [Community 477](Community_477.md) (2 shared connections)
-- [Community 323](Community_323.md) (2 shared connections)
-- [Community 220](Community_220.md) (2 shared connections)
-- [Community 710](Community_710.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 98](Community_98.md) (3 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 44](Community_44.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 124 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 76 (85%)
+- INFERRED: 13 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

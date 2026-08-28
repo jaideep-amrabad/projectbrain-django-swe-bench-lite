@@ -1,62 +1,70 @@
 # Community 110
 
-> 70 nodes · cohesion 0.07
+> 122 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **ExclusionConstraint** (68 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **ExclusionConstraintTests** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.get_constraints()** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **OpClass** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **ExclusionConstraintOpclassesDepracationTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.constraint_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **._test_range_overlaps()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **._get_expressions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **RangeBoundary** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **.test_range_overlaps_custom()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_overlaps_custom_opclasses()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_opclass_func()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.create_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **.test_range_adjacent_opclasses_condition()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_spgist_opclasses_include()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_eq()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_expressions_with_key_transform()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_opclass_condition()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_spgist_include_condition()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_spgist_opclass_include()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_repr()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_gist_opclasses_include()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_opclasses()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent_opclasses_deferrable()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_repr()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- *... and 45 more nodes in this community*
+- **lazystr()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **TestUtilsHtml** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **SafeStringTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **keep_lazy_text()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **linebreaksbr()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **TestUtilsText** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **linebreaks_filter()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **wordwrap()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **json_script()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
+- **striptags()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **linebreaks()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **strip_tags()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **MLStripper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **wrap()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **FunctionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaksbr.py`
+- **.check_output()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **.assertRenderEqual()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **strip_spaces_between_tags()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **normalize_newlines()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **unescape_string_literal()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
+- **urlize()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_striptags.py`
+- **_strip_once()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- *... and 97 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (14 shared connections)
-- [Community 15](Community_15.md) (13 shared connections)
-- [Community 741](Community_741.md) (11 shared connections)
-- [Community 21](Community_21.md) (11 shared connections)
-- [Community 143](Community_143.md) (9 shared connections)
-- [Community 99](Community_99.md) (9 shared connections)
-- [Community 28](Community_28.md) (6 shared connections)
-- [Community 8](Community_8.md) (5 shared connections)
-- [Community 117](Community_117.md) (4 shared connections)
-- [Community 513](Community_513.md) (3 shared connections)
-- [Community 452](Community_452.md) (3 shared connections)
-- [Community 97](Community_97.md) (3 shared connections)
+- [Community 3](Community_3.md) (69 shared connections)
+- [Community 9](Community_9.md) (10 shared connections)
+- [Community 41](Community_41.md) (8 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 239](Community_239.md) (4 shared connections)
+- [Community 18](Community_18.md) (4 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 176](Community_176.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 472](Community_472.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaksbr.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_striptags.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
 
 ## Audit Trail
 
-- EXTRACTED: 238 (92%)
-- INFERRED: 22 (8%)
+- EXTRACTED: 291 (95%)
+- INFERRED: 14 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

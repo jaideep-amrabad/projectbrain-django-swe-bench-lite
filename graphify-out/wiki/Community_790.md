@@ -1,40 +1,33 @@
 # Community 790
 
-> 9 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **._order_by_pairs()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.find_ordering_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.get_distinct()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **get_order_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **._setup_joins()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Helper method for get_order_by() and get_distinct(). get_ordering() and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Return a quoted list of fields to use in DISTINCT ON part of the query. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Return the table alias (the name might be ambiguous, the alias will not be) and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Return the field name and direction for an order specification. For example,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **PayloadEncodingTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_non_utf_payload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_simple_payload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_utf16_payload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_utf8_payload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Regression tests for #10571.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **A simple ASCII-only text can be POSTed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Non-ASCII data encoded as UTF-8 can be POSTed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Non-ASCII data encoded as UTF-16 can be POSTed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Non-ASCII data as a non-UTF based encoding can be POSTed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 529](Community_529.md) (5 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 62](Community_62.md) (2 shared connections)
-- [Community 791](Community_791.md) (2 shared connections)
-- [Community 97](Community_97.md) (2 shared connections)
-- [Community 762](Community_762.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
 - [Community 3](Community_3.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

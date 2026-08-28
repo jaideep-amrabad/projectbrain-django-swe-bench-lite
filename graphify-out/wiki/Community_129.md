@@ -1,62 +1,59 @@
 # Community 129
 
-> 94 nodes · cohesion 0.03
+> 78 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **TestQuerying** (76 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **KeyTransform** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **TestSaveLoad** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **NullableJSONModel** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **JSONModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **JSONFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **compile_json_path()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **TestSerialization** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.preprocess_lhs()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.test_contains_contained_by_with_key_transform()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **AbstractPersonWithHeight** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **RelatedJSONModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_has_key_deep()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_has_key_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_key_transform_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_nested_key_transform_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_json_null_different_from_sql_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_array_agg_jsonfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.as_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_mysql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_mysql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_oracle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- *... and 69 more nodes in this community*
+- **.run_manage()** (91 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **CommandTypes** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageFullPathDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ColorCommand** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command_multiple_apps()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_base_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_base_command_with_wrong_option()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_help_commands()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_label_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_label_command_multiple_label()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_noargs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_specific_help()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command_invalid_app_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command_no_apps()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_app_command_some_invalid_app_labels()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- *... and 53 more nodes in this community*
 
 ## Relationships
 
-- [Community 97](Community_97.md) (14 shared connections)
-- [Community 28](Community_28.md) (13 shared connections)
-- [Community 138](Community_138.md) (8 shared connections)
-- [Community 8](Community_8.md) (8 shared connections)
-- [Community 15](Community_15.md) (7 shared connections)
-- [Community 21](Community_21.md) (7 shared connections)
-- [Community 127](Community_127.md) (4 shared connections)
-- [Community 33](Community_33.md) (4 shared connections)
-- [Community 139](Community_139.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 132](Community_132.md) (3 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
+- [Community 94](Community_94.md) (26 shared connections)
+- [Community 201](Community_201.md) (20 shared connections)
+- [Community 274](Community_274.md) (12 shared connections)
+- [Community 225](Community_225.md) (11 shared connections)
+- [Community 578](Community_578.md) (10 shared connections)
+- [Community 533](Community_533.md) (9 shared connections)
+- [Community 602](Community_602.md) (9 shared connections)
+- [Community 603](Community_603.md) (8 shared connections)
+- [Community 579](Community_579.md) (8 shared connections)
+- [Community 39](Community_39.md) (6 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 834](Community_834.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 191 (93%)
-- INFERRED: 15 (7%)
+- EXTRACTED: 243 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

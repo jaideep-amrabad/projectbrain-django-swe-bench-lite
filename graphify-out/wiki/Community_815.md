@@ -1,33 +1,35 @@
 # Community 815
 
-> 9 nodes · cohesion 0.28
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **ResponseHeaders** (9 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **._convert_to_charset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Populate the initial data using __setitem__ to ensure values are correctly…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Convert headers key/value to ascii/latin-1 native strings. `charset` must be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.setdefault()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **FileSessionTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **FileSessionPathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.mkdtemp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_configuration_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.mkdtemp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_invalid_key_backslash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_invalid_key_forwardslash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Relationships
 
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 338](Community_338.md) (1 shared connections)
-- [Community 396](Community_396.md) (1 shared connections)
+- [Community 146](Community_146.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 341](Community_341.md) (1 shared connections)
+- [Community 572](Community_572.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,66 @@
 # Community 102
 
-> 96 nodes · cohesion 0.03
+> 37 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Model** (81 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._save_table()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.full_clean()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.validate_unique()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **TestMultiDBChecks** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
-- **.save()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._check_indexes()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._check_local_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.save_base()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._save_parents()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.validate_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **TestDeprecatedField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_field_deprecation.py`
-- **TestRemovedField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_field_deprecation.py`
-- **._check_constraints()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._check_index_together()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._check_unique_together()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.clean_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.get_deferred_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._get_pk_val()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._perform_unique_checks()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.__reduce__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._check_field_name_clashes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._check_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._check_id_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **._check_long_column_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- *... and 71 more nodes in this community*
+- **gis/admin/__init__.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/__init__.py`
+- **gis/admin/options.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **autodiscover_modules()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **AutodiscoverModulesTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **GeoModelAdmin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **OpenLayersWidget** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- **StackedInline** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.formfield_for_dbfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **.get_map_widget()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **GISModelAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **autodiscover()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
+- **.media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **GeoModelAdminMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **OSMGeoAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- **.map_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- **.formfield_for_dbfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **Media** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **.test_autodiscover_modules_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_autodiscover_modules_found_but_bad_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_autodiscover_modules_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_autodiscover_modules_several_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_autodiscover_modules_several_found_with_registry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_autodiscover_modules_several_one_bad_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_validate_registry_keeps_intact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 93](Community_93.md) (19 shared connections)
-- [Community 8](Community_8.md) (9 shared connections)
-- [Community 24](Community_24.md) (6 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 34](Community_34.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 454](Community_454.md) (2 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 17](Community_17.md) (7 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 60](Community_60.md) (5 shared connections)
+- [Community 319](Community_319.md) (3 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 531](Community_531.md) (2 shared connections)
+- [Community 199](Community_199.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 615](Community_615.md) (1 shared connections)
+- [Community 188](Community_188.md) (1 shared connections)
+- [Community 294](Community_294.md) (1 shared connections)
+- [Community 49](Community_49.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_field_deprecation.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Audit Trail
 
-- EXTRACTED: 176 (92%)
-- INFERRED: 16 (8%)
+- EXTRACTED: 93 (96%)
+- INFERRED: 4 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

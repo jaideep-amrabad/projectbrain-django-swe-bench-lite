@@ -4,22 +4,24 @@
 
 ## Key Concepts
 
-- **SafeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safe.py`
-- **setup** (2 connections)
-- **.test_safe01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safe.py`
-- **.test_safe02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safe.py`
+- **tag_27584.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
+- **BadNode** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
+- **badtag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
+- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safe.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

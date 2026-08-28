@@ -4,23 +4,22 @@
 
 ## Key Concepts
 
-- **ModelState** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Store model instance state.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **ReportAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_urls()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 102](Community_102.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

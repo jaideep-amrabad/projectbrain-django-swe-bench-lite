@@ -1,54 +1,58 @@
 # Community 421
 
-> 25 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **AdminEmailHandlerTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **AdminEmailHandler** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.get_admin_email_handler()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.emit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.test_accepts_args()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_accepts_args_and_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_emit_no_form_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_emit_non_ascii()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.format_subject()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.send_mail()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.test_custom_exception_reporter_is_used()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_disallowed_host_doesnt_crash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_subject_accepts_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_uses_custom_email_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.copy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.test_customize_send_mail_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_default_exception_reporter_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_fail_silently()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **Escape CR and LF characters.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **An exception log handler that emails log entries to site admins. If the request…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **User-supplied arguments and the EMAIL_SUBJECT_PREFIX setting are used to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **The subject is also handled if being passed a request object.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **Newlines in email reports' subjects are escaped to prevent AdminErrorHandler…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **#23593 - AdminEmailHandler should allow Unicode characters in the request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **HTML email doesn't contain forms.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **TestContextDecorator** (17 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **DoNothingDecorator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.enable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **TestContextDecoratorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_exception_in_setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.decorate_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_override_database_routers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.save_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.decorate_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.decorate_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **object** (2 connections)
+- **A base class that can either be used as a context manager during tests or as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding DATABASE_ROUTERS should update the base router.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **An exception is setUp() is reraised after disable() is called.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_cleanups_run_after_tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (9 shared connections)
-- [Community 18](Community_18.md) (6 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
-- [Community 396](Community_396.md) (1 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 44](Community_44.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 76](Community_76.md) (1 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 370](Community_370.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 471](Community_471.md) (1 shared connections)
+- [Community 681](Community_681.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 253](Community_253.md) (1 shared connections)
+- [Community 124](Community_124.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 41 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

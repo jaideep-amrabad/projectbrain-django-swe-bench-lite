@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.wasSuccessful()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Tells whether or not this result was a success.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.ellipsoid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **Return a tuple of the ellipsoid parameters: (semimajor axis, semiminor axis,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
 
 ## Relationships
 
-- [Community 517](Community_517.md) (1 shared connections)
+- [Community 327](Community_327.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
 
 ## Audit Trail
 

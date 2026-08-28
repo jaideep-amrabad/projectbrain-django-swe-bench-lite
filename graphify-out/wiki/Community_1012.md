@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **Persona** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple persona associated with accounts, to test inlining of related accounts…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **AdminAutoDiscoverTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
+- **.test_double_call_autodiscover()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
+- **Test for bug #8245 - don't raise an AlreadyRegistered exception when using…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
 
 ## Relationships
 
-- [Community 89](Community_89.md) (1 shared connections)
-- [Community 80](Community_80.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
 
 ## Audit Trail
 

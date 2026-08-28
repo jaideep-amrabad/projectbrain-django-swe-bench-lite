@@ -1,48 +1,46 @@
 # Community 494
 
-> 22 nodes · cohesion 0.10
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Meta** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Store** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Widget** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **NaturalKeyWithFKDependency** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **CommonFeature** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **NaturalKeyFixtureOnOtherDatabaseTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **WidgetProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Feature** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Plant** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **SpecialArticle** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.test_natural_key_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Natural keys with foreing keys in dependencies works in a multiple database…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Shuffler** (26 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **ShufflerTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **test_shuffler.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **._hash_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._hash_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.shuffle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_hash_item_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_hash_item_seed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_hash_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_init_no_seed_argument()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_init_none_seed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_seed_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_shuffle_consistency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_shuffle_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **.test_shuffle_same_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **This class implements shuffling with a special consistency property.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Return a new list of the items in a shuffled order. The `key` is a function…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.seed_display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_hash_text_hash_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
 
 ## Relationships
 
-- [Community 324](Community_324.md) (20 shared connections)
-- [Community 170](Community_170.md) (4 shared connections)
-- [Community 355](Community_355.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 367](Community_367.md) (7 shared connections)
+- [Community 15](Community_15.md) (4 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (84%)
-- INFERRED: 8 (16%)
+- EXTRACTED: 45 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

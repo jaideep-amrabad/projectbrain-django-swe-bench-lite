@@ -1,45 +1,40 @@
 # Community 561
 
-> 18 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **.get_changelist_instance()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_search_results()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_sortable_by()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_list_display()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_search_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_changelist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_list_display_links()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_list_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_list_select_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **Return a sequence containing the fields to be displayed on the changelist.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **Return a sequence containing the fields to be displayed as links on the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **Return a sequence containing the fields to be displayed as filters in the right…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **Return a list of fields to add to the select_related() part of the changelist…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **Return a sequence containing the fields to be searched whenever somebody…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **Return a tuple containing a queryset to implement the search and a boolean…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **Hook for specifying which fields can be sorted in the changelist.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **Return the ChangeList class for use on the changelist page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **Return a `ChangeList` instance based on `request`. May raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **FieldFlagsTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_all_field_types_should_have_flags()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_cardinality_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_cardinality_m2o()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_cardinality_o2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_cardinality_o2o()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_each_field_should_have_a_concrete_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_each_field_should_have_a_has_rel_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_each_field_should_have_an_editable_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_each_object_should_have_auto_created()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_field_names_should_always_be_available()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_hidden_flag()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_model_and_reverse_model_should_equal_on_relations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_non_concrete_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_non_editable_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_related_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
 
 ## Relationships
 
-- [Community 60](Community_60.md) (10 shared connections)
-- [Community 166](Community_166.md) (1 shared connections)
-- [Community 234](Community_234.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 206](Community_206.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

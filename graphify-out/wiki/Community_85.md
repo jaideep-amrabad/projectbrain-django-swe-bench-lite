@@ -1,6 +1,6 @@
 # Community 85
 
-> 99 nodes · cohesion 0.04
+> 101 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -17,7 +17,6 @@
 - **.test_exclude()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
 - **.test_fail_insert()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
 - **.test_filter()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
-- **.test_filter_conditional_annotation()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
 - **.test_range_n_preceding_and_following()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
 - **.test_range_unbound()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
 - **.test_row_range_rank()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
@@ -29,22 +28,23 @@
 - **.test_heterogeneous_filter()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
 - **.test_invalid_end_value_range()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
 - **.test_invalid_filter()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
-- *... and 74 more nodes in this community*
+- **.test_invalid_start_value_range()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- *... and 76 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (36 shared connections)
-- [Community 97](Community_97.md) (36 shared connections)
-- [Community 26](Community_26.md) (36 shared connections)
-- [Community 157](Community_157.md) (9 shared connections)
-- [Community 40](Community_40.md) (7 shared connections)
-- [Community 3](Community_3.md) (7 shared connections)
+- [Community 14](Community_14.md) (39 shared connections)
+- [Community 95](Community_95.md) (36 shared connections)
+- [Community 26](Community_26.md) (33 shared connections)
+- [Community 38](Community_38.md) (8 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 63](Community_63.md) (6 shared connections)
 - [Community 28](Community_28.md) (6 shared connections)
-- [Community 8](Community_8.md) (5 shared connections)
-- [Community 21](Community_21.md) (5 shared connections)
-- [Community 139](Community_139.md) (3 shared connections)
-- [Community 62](Community_62.md) (3 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
+- [Community 158](Community_158.md) (5 shared connections)
+- [Community 21](Community_21.md) (4 shared connections)
+- [Community 88](Community_88.md) (3 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
 
 ## Source Files
 
@@ -54,8 +54,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 305 (90%)
-- INFERRED: 33 (10%)
+- EXTRACTED: 305 (89%)
+- INFERRED: 36 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

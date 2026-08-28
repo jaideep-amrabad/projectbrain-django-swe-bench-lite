@@ -1,65 +1,51 @@
 # Community 422
 
-> 142 nodes · cohesion 0.02
+> 24 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **RequestFactory** (93 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **test_client_regress/tests.py** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Client** (36 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **ASGIRequest** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.generic()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **ContextList** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **AsyncRequestFactory** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **._handle_redirects()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **ContextTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.request()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **AssertTemplateUsedTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **TestDataMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.request()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.generic()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **ViewTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **ReverseLazyTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.request()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **encode_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **encode_multipart()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **._encode_json()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **ExceptionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **RequestFactoryEnvironmentTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **._base_environ()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.post()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **store_rendered_templates()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- *... and 117 more nodes in this community*
+- **._dumpdata_assert()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **ForwardReferenceTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **CircularReferenceTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **DumpDataAssertMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **FixtureTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_proxy_with_concrete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_proxy_without_concrete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_format_discovery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_circular_reference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_circular_reference_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_excludes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_file_gzip_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_file_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_file_zip_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_filtering_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_pks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_loading_and_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_output_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_forward_reference_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_forward_reference_fk_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_forward_reference_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_forward_reference_m2m_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **A warning is displayed if a proxy model is dumped without its concrete parent.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **A warning isn't displayed if a proxy model is dumped with its concrete parent.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (34 shared connections)
-- [Community 2](Community_2.md) (14 shared connections)
-- [Community 42](Community_42.md) (12 shared connections)
-- [Community 0](Community_0.md) (12 shared connections)
-- [Community 11](Community_11.md) (10 shared connections)
-- [Community 45](Community_45.md) (8 shared connections)
-- [Community 101](Community_101.md) (6 shared connections)
-- [Community 19](Community_19.md) (6 shared connections)
-- [Community 71](Community_71.md) (6 shared connections)
-- [Community 185](Community_185.md) (5 shared connections)
-- [Community 220](Community_220.md) (5 shared connections)
-- [Community 18](Community_18.md) (5 shared connections)
+- [Community 87](Community_87.md) (14 shared connections)
+- [Community 355](Community_355.md) (7 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 812](Community_812.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 391 (98%)
-- INFERRED: 10 (2%)
+- EXTRACTED: 52 (93%)
+- INFERRED: 4 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

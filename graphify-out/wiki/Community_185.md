@@ -1,66 +1,59 @@
 # Community 185
 
-> 61 nodes · cohesion 0.05
+> 58 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **force_bytes()** (59 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **force_str()** (50 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **test_encoding.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **TestEncodingUtils** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **repercent_broken_unicode()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **uri_to_iri()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **DjangoUnicodeDecodeError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **escape_uri_path()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **filepath_to_uri()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **is_protected_type()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **smart_bytes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **smart_str()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **TestRFC3987IEncodingUtils** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **get_system_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- **.auth_code()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.auth_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.units()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.xml()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.test_force_bytes_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_force_str_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_force_str_lazy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_complementarity()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- *... and 36 more nodes in this community*
+- **utils/autoreload.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **WatchmanReloader** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **BaseReloader** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._update_watches()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **get_reloader()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **StatReloader** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.watched_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **iter_modules_and_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.check_server_status()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._subscribe()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.notify_file_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.run_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **get_child_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **iter_all_python_module_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **run_with_reloader()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **start_django()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.check_availability()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.tick()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._watch_glob()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.watched_roots()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.wait_for_apps_ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **common_roots()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **ensure_echo_on()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **restart_with_reloader()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Community 75](Community_75.md) (30 shared connections)
-- [Community 18](Community_18.md) (9 shared connections)
-- [Community 142](Community_142.md) (8 shared connections)
-- [Community 106](Community_106.md) (6 shared connections)
-- [Community 67](Community_67.md) (6 shared connections)
-- [Community 422](Community_422.md) (5 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 73](Community_73.md) (4 shared connections)
-- [Community 63](Community_63.md) (4 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 12](Community_12.md) (4 shared connections)
-- [Community 29](Community_29.md) (3 shared connections)
+- [Community 286](Community_286.md) (5 shared connections)
+- [Community 15](Community_15.md) (4 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 206](Community_206.md) (3 shared connections)
+- [Community 361](Community_361.md) (3 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 161](Community_161.md) (2 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 663](Community_663.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 120](Community_120.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 206 (96%)
-- INFERRED: 8 (4%)
+- EXTRACTED: 119 (95%)
+- INFERRED: 6 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

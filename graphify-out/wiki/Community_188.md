@@ -1,53 +1,64 @@
 # Community 188
 
-> 58 nodes · cohesion 0.06
+> 37 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **DeferTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.assert_delayed()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **defer/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **TestDefer2** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **defer/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **BigChildDeferTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **Primary** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **InvalidDeferTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **RefreshPrimaryProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **BigChild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **Child** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **ChildProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **Secondary** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **AssertionMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **ShadowChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **ShadowParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **.test_defer_proxy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **.test_defer_baseclass_when_subclass_has_added_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_subclass_both()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_only_baseclass_when_subclass_has_added_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_only_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_baseclass_when_subclass_has_no_added_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- *... and 33 more nodes in this community*
+- **display()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- **Article** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **PostAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.action_checkbox()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.colored_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **LinkInline** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.multiline_html()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **AdminOrderedModelMethod** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Link** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.test_cached_property_name_deprecation_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **.age_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **.event_date_func()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **admin_ordered_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **AdminOrderedAdminMethodAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.some_admin_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ArticleAdmin6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.modeladmin_year()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ArticleInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **callable_on_unknown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **callable_year()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ComplexSortedPersonAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **FieldOverridePostAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **InquisitionAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.sketch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 86](Community_86.md) (14 shared connections)
+- [Community 865](Community_865.md) (6 shared connections)
+- [Community 79](Community_79.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 102](Community_102.md) (1 shared connections)
+- [Community 60](Community_60.md) (1 shared connections)
+- [Community 472](Community_472.md) (1 shared connections)
+- [Community 400](Community_400.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
 
 ## Audit Trail
 
-- EXTRACTED: 104 (90%)
-- INFERRED: 12 (10%)
+- EXTRACTED: 73 (91%)
+- INFERRED: 7 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

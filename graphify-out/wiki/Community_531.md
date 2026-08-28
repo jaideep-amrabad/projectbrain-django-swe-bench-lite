@@ -1,44 +1,51 @@
 # Community 531
 
-> 19 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **TestInlinePermissions** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_fk_add_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_fk_noperm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_m2m_add_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_m2m_noperm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_m2m_view_only_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **Make sure the admin respects permissions for objects that are edited inline.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_add_change_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_add_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_all_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_change_del_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_change_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_noperm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_m2m_add_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_m2m_change_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_m2m_noperm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_m2m_view_only_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **geoadmin_deprecated/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
+- **GeoAdminTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
+- **geoadmin_deprecated/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/models.py`
+- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/models.py`
+- **DeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
+- **geoadmin_deprecated/admin.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/admin.py`
+- **UnmodifiableAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/admin.py`
+- **.test_olwidget_has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
+- **.test_olmap_OSM_rendering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
+- **.test_olmap_WMS_rendering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/models.py`
+- **.test_openlayerswidget_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
+- **.test_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
+- **.test_ensure_geographic_media()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
+- **.test_olwidget_empty_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
+- **.test_olwidget_invalid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
+- **Changes are accurately noticed by OpenLayersWidget.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
 
 ## Relationships
 
-- [Community 25](Community_25.md) (7 shared connections)
-- [Community 52](Community_52.md) (5 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 47](Community_47.md) (7 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 681](Community_681.md) (3 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 102](Community_102.md) (2 shared connections)
+- [Community 43](Community_43.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 200](Community_200.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (88%)
-- INFERRED: 4 (12%)
+- EXTRACTED: 45 (92%)
+- INFERRED: 4 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,54 +1,54 @@
 # Community 411
 
-> 22 nodes · cohesion 0.11
+> 25 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **test_datastructures.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **ImmutableList** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **DictWrapper** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **MultiValueDictKeyError** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **ImmutableListTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **DictWrapperTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_dictwrapper()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **dict** (2 connections)
-- **.test_custom_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.complain()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **KeyError** (1 connections)
-- **tuple** (1 connections)
-- **A tuple-like object that raises useful errors when it is asked to mutate.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **Wrap accesses to a dictionary so that certain values (those starting with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **Retrieve the real value after stripping the prefix string (if present). If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **Return the last data value for this key, or [] if it's an empty list; raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **Tests for stuff in django.utils.datastructures.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **Author** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **MultiTableInheritanceTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **MultiDbTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **RawQuerySetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **ReadPrefetchedObjectsCacheTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **TestDataMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **AuthorWithAge** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **.test_retrieves_results_from_prefetched_objects_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_using_is_honored_custom_qs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_child_link_prefetch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **.test_using_is_honored_fkey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_using_is_honored_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_using_is_honored_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreignkey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreignkey_to_inherited()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_to_inheriting_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_parent_link_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **When intermediary results are prefetched without a destination attribute, they…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_basic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_before_raw()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Relationships
 
-- [Community 216](Community_216.md) (5 shared connections)
-- [Community 18](Community_18.md) (5 shared connections)
-- [Community 396](Community_396.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 467](Community_467.md) (2 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 109](Community_109.md) (20 shared connections)
+- [Community 246](Community_246.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 330](Community_330.md) (3 shared connections)
+- [Community 276](Community_276.md) (2 shared connections)
+- [Community 823](Community_823.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 40 (63%)
+- INFERRED: 23 (37%)
 - AMBIGUOUS: 0 (0%)
 
 ---

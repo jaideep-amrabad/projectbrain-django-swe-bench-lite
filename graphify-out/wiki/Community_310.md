@@ -1,53 +1,64 @@
 # Community 310
 
-> 36 nodes · cohesion 0.06
+> 37 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ModelChoiceFieldTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **ModelChoiceIteratorValue** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **ModelChoiceIterator** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.choice()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.test_choice_value_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_disabled_multiplemodelchoicefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_overridable_choice_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_basics()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choice_iterator_passes_model_to_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_bool_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_freshness()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_not_fetched_when_not_rendering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_radio_blank()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_clean_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- *... and 11 more nodes in this community*
+- **extend_sys_path()** (38 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **EggLoadingTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **TestSysPathDirectories** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **TestCollectionFilesOverride** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **NamespacePackageAppTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **TestStartProjectSettings** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
+- **.test_egg1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_egg2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_egg3()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_egg4()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_egg5()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_multiple_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_multiple_paths_explicit_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_single_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_middleware_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_sys_paths_directories()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_sys_paths_non_existing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_sys_paths_with_directories()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Context manager to temporarily add paths to sys.path.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **Models module can be loaded from an app in an egg** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **Loading an app from an egg that has no models returns no models (and no error).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **Models module can be loaded from an app located under an egg's top-level…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 135](Community_135.md) (7 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 314](Community_314.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 15](Community_15.md) (6 shared connections)
+- [Community 361](Community_361.md) (5 shared connections)
+- [Community 84](Community_84.md) (3 shared connections)
+- [Community 677](Community_677.md) (2 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 456](Community_456.md) (2 shared connections)
+- [Community 286](Community_286.md) (2 shared connections)
+- [Community 378](Community_378.md) (1 shared connections)
+- [Community 251](Community_251.md) (1 shared connections)
+- [Community 621](Community_621.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (88%)
-- INFERRED: 6 (12%)
+- EXTRACTED: 79 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

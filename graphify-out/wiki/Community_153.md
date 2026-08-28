@@ -4,55 +4,57 @@
 
 ## Key Concepts
 
-- **UniqueConstraintTests** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **constraints/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **CheckConstraintTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **constraints/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **UniqueConstraintProduct** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **Product** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **UniqueConstraintConditionProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **ChildUniqueConstraintProduct** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **ChildModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **UniqueConstraintDeferrable** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **UniqueConstraintInclude** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **get_constraints()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_model_validation_with_condition()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **AbstractModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **.test_abstract_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_validate_nullable_field_with_isnull()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_validate_nullable_field_with_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_validate_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_validate_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_validate_expression_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_database_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_database_constraint_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **serializer.py** (50 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **BaseSerializer** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **serializer_factory()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **BaseSequenceSerializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DeconstructableSerializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize_deconstructed()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **RangeSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- **OperationSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **Serializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **postgres/serializers.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- **BaseSimpleSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DatetimeDatetimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DateTimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **ModelFieldSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **ModelManagerSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **TypeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **ChoicesSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DecimalSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **._serialize_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DictionarySerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **EnumSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FloatSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FrozensetSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FunctionTypeSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
 - *... and 42 more nodes in this community*
 
 ## Relationships
 
-- [Community 28](Community_28.md) (12 shared connections)
-- [Community 93](Community_93.md) (9 shared connections)
-- [Community 67](Community_67.md) (4 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 143](Community_143.md) (2 shared connections)
+- [Community 13](Community_13.md) (7 shared connections)
+- [Community 528](Community_528.md) (6 shared connections)
+- [Community 115](Community_115.md) (3 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 114](Community_114.md) (3 shared connections)
+- [Community 117](Community_117.md) (2 shared connections)
+- [Community 82](Community_82.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 - [Community 2](Community_2.md) (2 shared connections)
-- [Community 132](Community_132.md) (2 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 137 (95%)
-- INFERRED: 7 (5%)
+- EXTRACTED: 143 (96%)
+- INFERRED: 6 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

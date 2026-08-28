@@ -1,46 +1,51 @@
 # Community 492
 
-> 21 nodes · cohesion 0.16
+> 20 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Shuffler** (26 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **ShufflerTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **test_shuffler.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **._hash_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **._hash_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.shuffle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_hash_item_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_hash_item_seed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_hash_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_init_no_seed_argument()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_init_none_seed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_seed_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_shuffle_consistency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_shuffle_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_shuffle_same_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **This class implements shuffling with a special consistency property.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Return a new list of the items in a shuffled order. The `key` is a function…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.seed_display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_hash_text_hash_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **BaseModelForm** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **model_to_dict()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._post_clean()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.validate_unique()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._get_validation_exclusions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._save_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._update_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.test_many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_modelform_subclassed_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **For backwards-compatibility, exclude several types of fields from model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Construct and return a model instance from the bound ``form``'s…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Call the instance's validate_unique() method and update the form's validation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Save the many-to-many fields and generic relations for this form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Save this form's self.instance object if commit=True. Otherwise, add a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Return a dict containing the data in ``instance`` suitable for passing as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Data for a ManyToManyField is a list rather than a lazy QuerySet.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 319](Community_319.md) (7 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
+- [Community 135](Community_135.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 320](Community_320.md) (2 shared connections)
+- [Community 173](Community_173.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 223](Community_223.md) (1 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
+- [Community 88](Community_88.md) (1 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 40 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

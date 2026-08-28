@@ -1,34 +1,37 @@
 # Community 742
 
-> 11 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **DeprecatedTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
-- **.test_field_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
-- **.test_field_name_with_hidden_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
-- **.test_field_name_with_hidden_input_and_non_matching_row_ender()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
-- **.test_field_with_css_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
-- **.test_field_without_css_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
-- **BaseForm._html_output() should merge all the hidden input fields and put them…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
-- **.test_errorlist_override_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
-- **`css_classes` may be used as a key in _html_output() (class comes from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
-- **#5749 - `field_name` may be used as a key in _html_output().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
-- **`css_classes` may be used as a key in _html_output() (empty classes).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **geoadmin/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **GeoAdminTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
+- **GISAdminTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **.test_widget_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
+- **.test_widget_empty_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **.test_widget_invalid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **.test_custom_gis_widget_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
+- **.test_default_gis_widget_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 741](Community_741.md) (1 shared connections)
+- [Community 47](Community_47.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 200](Community_200.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (91%)
+- INFERRED: 2 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

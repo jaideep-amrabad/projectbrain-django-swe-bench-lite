@@ -1,31 +1,30 @@
 # Community 870
 
-> 7 nodes · cohesion 0.43
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **MIMEText** (7 connections)
-- **PythonGlobalState** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_7bit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_8bit_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_8bit_non_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_utf8()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Tests for #12422 -- Django smarts (#2472/#11212) with charset of utf-8 text…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.assertTemplateUsed()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertTemplateNotUsed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._get_template_used()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._check_test_client_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that the template with the provided name was used in rendering the…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._assert_template_used()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Raise a ValueError if the given response doesn't have the required attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 184](Community_184.md) (2 shared connections)
-- [Community 133](Community_133.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (57%)
-- INFERRED: 6 (43%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,33 +1,35 @@
 # Community 794
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **Account** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **BarAccount** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FooAccount** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **BarAccountAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **FooAccountAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple, generic account encapsulating the information shared by all types of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A service-specific account of type Foo.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A service-specific account of type Bar.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **NoOpTestRunner** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **DiscoverRunnerExtraTestsDeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.get_runner()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_extra_tests_run_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_extra_tests_build_suite()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.run_checks()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.setup_databases()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.setup_test_environment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.teardown_databases()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.teardown_test_environment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Relationships
 
-- [Community 89](Community_89.md) (4 shared connections)
-- [Community 80](Community_80.md) (3 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 133](Community_133.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (87%)
-- INFERRED: 2 (13%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,37 +1,33 @@
 # Community 836
 
-> 9 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **ForcedTimeZoneDatabaseTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **override_database_connection_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_connection_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_cursor_explicit_time_zone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_read_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_write_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_convert_timezones()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **Test the TIME_ZONE database configuration parameter. Since this involves…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.get_or_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.get()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._extract_model_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Perform the query and return a single object matching the given keyword…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Create a new object with the given kwargs, saving it to the database and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Look up an object with the given kwargs, creating one if necessary. Return a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Prepare `params` for creating a model instance based on the given kwargs; for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 82](Community_82.md) (3 shared connections)
-- [Community 636](Community_636.md) (2 shared connections)
-- [Community 741](Community_741.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 727](Community_727.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 57](Community_57.md) (4 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 241](Community_241.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

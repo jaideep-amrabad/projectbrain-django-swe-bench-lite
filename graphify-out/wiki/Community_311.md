@@ -1,63 +1,47 @@
 # Community 311
 
-> 37 nodes · cohesion 0.07
+> 36 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **extend_sys_path()** (38 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **EggLoadingTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **TestSysPathDirectories** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **TestCollectionFilesOverride** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **NamespacePackageAppTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **TestStartProjectSettings** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
-- **.test_egg1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg3()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg4()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg5()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_multiple_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_multiple_paths_explicit_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_single_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_middleware_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **.test_sys_paths_directories()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_sys_paths_non_existing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_sys_paths_with_directories()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **Context manager to temporarily add paths to sys.path.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Models module can be loaded from an app in an egg** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Loading an app from an egg that has no models returns no models (and no error).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Models module can be loaded from an app located under an egg's top-level…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- *... and 12 more nodes in this community*
+- **Archive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **BaseArchive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **TarArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **ZipArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.has_leading_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **ArchiveException** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **._copy_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.split_leading_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.target_filename()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **UnrecognizedArchiveFormat** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **._archive_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **Exception** (1 connections)
+- **Base Archive class. Implementations should inherit this class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 18](Community_18.md) (6 shared connections)
-- [Community 360](Community_360.md) (5 shared connections)
-- [Community 84](Community_84.md) (3 shared connections)
-- [Community 670](Community_670.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 229](Community_229.md) (2 shared connections)
-- [Community 288](Community_288.md) (2 shared connections)
-- [Community 375](Community_375.md) (1 shared connections)
-- [Community 254](Community_254.md) (1 shared connections)
-- [Community 638](Community_638.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 146](Community_146.md) (8 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (100%)
+- EXTRACTED: 53 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

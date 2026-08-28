@@ -1,31 +1,26 @@
 # Community 937
 
-> 7 nodes · cohesion 0.29
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **TestValidators** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_max_length_validator_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_message_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_message_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_regex_validator_flags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_single_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_validators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **SQLiteCursorWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.convert_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **Django uses the "format" and "pyformat" styles, but Python's sqlite3 module…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 367](Community_367.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

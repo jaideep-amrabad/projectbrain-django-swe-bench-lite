@@ -1,33 +1,33 @@
 # Community 752
 
-> 10 nodes · cohesion 0.24
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **sandwiched_rotate_token_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **TestingHttpResponse** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **ensured_and_protected_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **ensure_csrf_cookie** (3 connections)
-- **csrf_protect** (3 connections)
-- **csrf_rotating_token** (1 connections)
-- **A version of HttpResponse that stores what cookie values are passed to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **This is a view that calls rotate_token() in process_response() between two…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **.set_cookie()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **DeprecatedTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **.test_field_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **.test_field_name_with_hidden_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **.test_field_name_with_hidden_input_and_non_matching_row_ender()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **.test_field_with_css_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **.test_field_without_css_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **BaseForm._html_output() should merge all the hidden input fields and put them…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **.test_errorlist_override_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **`css_classes` may be used as a key in _html_output() (class comes from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **#5749 - `field_name` may be used as a key in _html_output().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **`css_classes` may be used as a key in _html_output() (empty classes).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
 
 ## Relationships
 
-- [Community 181](Community_181.md) (5 shared connections)
-- [Community 221](Community_221.md) (4 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 681](Community_681.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

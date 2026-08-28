@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **CommandRunTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_disallowed_abbreviated_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_script_prefix_set_in_commands()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_skip_checks()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **Tests that need to run by simulating the command line, not by call_command.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **To avoid conflicts with custom options, commands don't allow abbreviated forms…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **NullableTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_in_bulk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_nullable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_traverse_nullable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **In-bulk does correctly prefetch objects by not using .iterator() directly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Relationships
 
-- [Community 91](Community_91.md) (1 shared connections)
-- [Community 187](Community_187.md) (1 shared connections)
+- [Community 109](Community_109.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

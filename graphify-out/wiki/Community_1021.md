@@ -4,24 +4,25 @@
 
 ## Key Concepts
 
-- **.postgis_proj_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.proj_version_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **Return the version of the PROJ library used with PostGIS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **Return the version of PROJ used by PostGIS as a tuple of the major, minor, and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **CsrfCookieMaskedDeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_csrf_cookie_masked.py`
+- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_csrf_cookie_masked.py`
+- **.test_access()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_csrf_cookie_masked.py`
+- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_csrf_cookie_masked.py`
 
 ## Relationships
 
-- [Community 285](Community_285.md) (2 shared connections)
-- [Community 652](Community_652.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 124](Community_124.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_csrf_cookie_masked.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

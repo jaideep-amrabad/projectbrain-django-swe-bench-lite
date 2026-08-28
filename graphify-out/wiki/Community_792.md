@@ -1,39 +1,33 @@
 # Community 792
 
-> 10 nodes · cohesion 0.27
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **geoip2/base.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **GeoIP2Exception** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **geoip2/__init__.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/__init__.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **resources.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/resources.py`
-- **City()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/resources.py`
-- **Country()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/resources.py`
-- **Exception** (1 connections)
-- **Initialize the GeoIP object. No parameters are required to use default…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **This module houses the GeoIP2 object, a wrapper for the MaxMind GeoIP2(R)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/__init__.py`
+- **._create_collection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **._set_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **.tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **.ptr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
+- **Initialize a Geometry Collection from a sequence of Geometry objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **Create a new collection, and destroy the contents of the previous pointer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **Return a tuple of all the coordinates in this Geometry Collection** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **setter** (1 connections)
 
 ## Relationships
 
-- [Community 209](Community_209.md) (6 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 47](Community_47.md) (4 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/resources.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (85%)
+- INFERRED: 2 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

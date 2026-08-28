@@ -1,54 +1,60 @@
 # Community 316
 
-> 35 nodes · cohesion 0.11
+> 61 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **must_be()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **ModelAdminChecks** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **.check()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_date_hierarchy()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_inlines()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_inlines_item()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_display()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_display_links()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_editable()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_max_show_all()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_per_page()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_select_related()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_save_as()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_save_on_top()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_search_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_action_permission_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_actions_uniqueness()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_editable_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_display_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_display_links_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that list_select_related is a boolean, a list or a tuple.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that list_per_page is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that list_max_show_all is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that list_editable is a sequence of editable fields from list_display…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- *... and 10 more nodes in this community*
+- **auth_tests/test_validators.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **password_validation.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **CommonPasswordValidator** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **PasswordValidationTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **validate_password()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **UserAttributeSimilarityValidator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **MinimumLengthValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **get_default_password_validators()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **NumericPasswordValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **CommonPasswordValidatorTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **get_password_validators()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **password_changed()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **password_validators_help_texts()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **UserAttributeSimilarityValidatorTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **_password_validators_help_text_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **MinimumLengthValidatorTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **NumericPasswordValidatorTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **UsernameValidatorsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **exceeds_maximum_length_ratio()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.test_validate_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [Community 281](Community_281.md) (15 shared connections)
-- [Community 8](Community_8.md) (5 shared connections)
-- [Community 610](Community_610.md) (4 shared connections)
-- [Community 848](Community_848.md) (3 shared connections)
-- [Community 60](Community_60.md) (2 shared connections)
-- [Community 847](Community_847.md) (2 shared connections)
-- [Community 890](Community_890.md) (1 shared connections)
+- [Community 3](Community_3.md) (11 shared connections)
+- [Community 17](Community_17.md) (11 shared connections)
+- [Community 15](Community_15.md) (6 shared connections)
+- [Community 39](Community_39.md) (5 shared connections)
+- [Community 80](Community_80.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 66](Community_66.md) (3 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 472](Community_472.md) (2 shared connections)
+- [Community 70](Community_70.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 44](Community_44.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 93 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 155 (96%)
+- INFERRED: 6 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

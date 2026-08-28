@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.modify_insert_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Allow modification of insert parameters. Needed for Oracle Spatial backend due…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **Return the string representation, a 'pretty' OGC WKT.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
 
 ## Relationships
 
-- [Community 68](Community_68.md) (1 shared connections)
+- [Community 327](Community_327.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
 
 ## Audit Trail
 

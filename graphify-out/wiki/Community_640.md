@@ -1,39 +1,41 @@
 # Community 640
 
-> 15 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **RequestMethodTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_patch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_put()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view via request method PATCH** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view via request method GET** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view via request method POST** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view via request method HEAD** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view via request method OPTIONS** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view via request method PUT** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view via request method DELETE** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **inspectdb/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **PeopleMoreData** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **CharFieldDbCollation** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **FuncUniqueConstraint** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **JSONFieldColumnType** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **SpecialName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **TextFieldDbCollation** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **UniqueTogether** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **ColumnTypes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **DigitsInColumnName** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **ForeignKeyToField** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **Message** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **People** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **PeopleData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 34](Community_34.md) (2 shared connections)
+- [Community 91](Community_91.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

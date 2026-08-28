@@ -1,21 +1,23 @@
 # Community 1675
 
-> 4 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **JsonScriptTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_json_script.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_json_script.py`
-- **.test_without_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_json_script.py`
-- **setup** (2 connections)
+- **bad_tag.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
+- **badsimpletag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
+- **badtag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
+- **simple_tag** (1 connections)
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_json_script.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
 
 ## Audit Trail
 

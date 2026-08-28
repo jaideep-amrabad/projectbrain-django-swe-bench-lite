@@ -1,61 +1,62 @@
 # Community 62
 
-> 83 nodes · cohesion 0.03
+> 69 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **BaseExpression** (39 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **OrderBy** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **Join** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.copy()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.get_source_expressions()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.resolve_expression()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **OrderByTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.prefix_references()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **._resolve_output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.flatten()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.get_source_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.relabeled_clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.resolve_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.resolve_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.relabeled_clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.test_equal()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_nulls_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.asc()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.contains_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.contains_over_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.convert_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- *... and 58 more nodes in this community*
+- **generic_relations/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **generic_relations/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **GenericInlineFormsetTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **generic_inlineformset_factory()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
+- **TaggedItem** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ProxyRelatedModelTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **ForProxyModelModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Mineral** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Animal** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Comparison** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ProxyRelatedModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Vegetable** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **AllowsNullGFK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ConcreteRelatedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ForConcreteModelModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Gecko** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Rock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ValuableRock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **TestInitWithNoneArgument** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **Carrot** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ManualPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ValuableTaggedItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **.test_unsaved_generic_foreign_key_parent_bulk_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **AbstractComparison** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **.test_get_queryset_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- *... and 44 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (11 shared connections)
-- [Community 8](Community_8.md) (9 shared connections)
-- [Community 40](Community_40.md) (9 shared connections)
-- [Community 157](Community_157.md) (6 shared connections)
-- [Community 17](Community_17.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 139](Community_139.md) (3 shared connections)
-- [Community 97](Community_97.md) (3 shared connections)
-- [Community 85](Community_85.md) (3 shared connections)
-- [Community 300](Community_300.md) (2 shared connections)
-- [Community 790](Community_790.md) (2 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
+- [Community 0](Community_0.md) (18 shared connections)
+- [Community 138](Community_138.md) (16 shared connections)
+- [Community 55](Community_55.md) (14 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 116](Community_116.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 151 (96%)
-- INFERRED: 7 (4%)
+- EXTRACTED: 157 (81%)
+- INFERRED: 36 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

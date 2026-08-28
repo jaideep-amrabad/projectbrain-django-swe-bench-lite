@@ -1,60 +1,62 @@
 # Community 59
 
-> 61 nodes · cohesion 0.05
+> 141 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **auth_tests/test_validators.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **password_validation.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **CommonPasswordValidator** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **PasswordValidationTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **validate_password()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **UserAttributeSimilarityValidator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **MinimumLengthValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **get_default_password_validators()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **NumericPasswordValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **CommonPasswordValidatorTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **get_password_validators()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **password_changed()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **password_validators_help_texts()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **UserAttributeSimilarityValidatorTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **_password_validators_help_text_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **MinimumLengthValidatorTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **NumericPasswordValidatorTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **UsernameValidatorsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **exceeds_maximum_length_ratio()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.test_validate_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- *... and 36 more nodes in this community*
+- **AdminSite** (104 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **SystemChecksTestCase** (67 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **admin_checks/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **admin_checks/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- **.each_context()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **.login()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **.get_app_list()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **Song** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- **.app_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **._build_app_dict()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **.get_urls()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **.has_permission()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **.index()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **MyAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **.password_change()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **Influence** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- **.test_custom_get_form_with_fieldsets()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **.test_custom_modelforms_with_fields_fieldsets()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **.test_fk_exclusion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **.logout()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **.password_change_done()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **.unregister()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **Album** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- *... and 116 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (11 shared connections)
-- [Community 8](Community_8.md) (11 shared connections)
-- [Community 18](Community_18.md) (6 shared connections)
-- [Community 70](Community_70.md) (4 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 67](Community_67.md) (3 shared connections)
-- [Community 91](Community_91.md) (3 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 470](Community_470.md) (2 shared connections)
-- [Community 71](Community_71.md) (2 shared connections)
-- [Community 39](Community_39.md) (2 shared connections)
-- [Community 45](Community_45.md) (2 shared connections)
+- [Community 11](Community_11.md) (10 shared connections)
+- [Community 49](Community_49.md) (9 shared connections)
+- [Community 12](Community_12.md) (8 shared connections)
+- [Community 431](Community_431.md) (7 shared connections)
+- [Community 43](Community_43.md) (7 shared connections)
+- [Community 60](Community_60.md) (5 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 280](Community_280.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 23](Community_23.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 105](Community_105.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 155 (96%)
-- INFERRED: 6 (4%)
+- EXTRACTED: 289 (93%)
+- INFERRED: 21 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

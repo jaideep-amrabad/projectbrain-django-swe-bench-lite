@@ -1,52 +1,61 @@
 # Community 209
 
-> 41 nodes · cohesion 0.07
+> 66 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **GeoIP2** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **GeoIPTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.country()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **._check_query()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.city()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.coords()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.geos()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.lon_lat()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.test03_country()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.test04_city()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.country_code()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.country_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.lat_lon()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.test01_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.test02_bad_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.test06_ipv6_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.test_check_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **patch** (3 connections)
-- **._country_or_city()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.test_no_database_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.__del__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.open()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **._reader()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- *... and 16 more nodes in this community*
+- **FileSystemStorage** (58 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
+- **.path()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
+- **file_storage/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- **FileStoragePermissions** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **FileLikeObjectTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **FileSaveRaceConditionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **._datetime_from_timestamp()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
+- **._save()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
+- **ContentFileStorageTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_upload_default_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_upload_directory_default_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_upload_directory_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_upload_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **OverwritingStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **SlowFile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.get_accessed_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
+- **.get_created_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
+- **.get_modified_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
+- **CallableStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- **CustomValidNameStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- **.test_content_saving()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **CustomStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **DiscardingFalseContentStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.save_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **FileSystemStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- *... and 41 more nodes in this community*
 
 ## Relationships
 
-- [Community 792](Community_792.md) (6 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 15](Community_15.md) (22 shared connections)
+- [Community 168](Community_168.md) (9 shared connections)
+- [Community 11](Community_11.md) (5 shared connections)
+- [Community 235](Community_235.md) (3 shared connections)
+- [Community 230](Community_230.md) (2 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 262](Community_262.md) (1 shared connections)
+- [Community 271](Community_271.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 138 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

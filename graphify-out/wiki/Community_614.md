@@ -1,40 +1,44 @@
 # Community 614
 
-> 15 nodes · cohesion 0.18
+> 15 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **_AssertFormErrorDeprecationHelper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertFormError()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertFormsetError()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **to_list()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertFormError()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertFormSetError()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._assert_form_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **patch_signature** (2 connections)
-- **.patch_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Search through all the rendered contexts of the `response` for a form named…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Search for a formset named "formset" in the "response" and dispatch to the new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Replace the decorated method with a new one that inspects the passed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that a field named "field" on the given form object has specific errors.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Put value into a list if it's not already one.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Similar to assertFormError() but for formsets. Use form_index=None to check the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **InlineModelAdminChecks** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **.check()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_exclude_of_parent_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_formset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **GenericInlineModelAdminChecks** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- **._check_extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_max_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_min_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_relation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that extra is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that max_num is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that min_num is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check formset is a subclass of BaseModelFormSet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_exclude_of_parent_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- **._check_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 338](Community_338.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 315](Community_315.md) (4 shared connections)
+- [Community 279](Community_279.md) (2 shared connections)
+- [Community 116](Community_116.md) (2 shared connections)
+- [Community 855](Community_855.md) (2 shared connections)
+- [Community 60](Community_60.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 35 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,34 +1,40 @@
 # Community 368
 
-> 6 nodes · cohesion 0.33
+> 14 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **noop()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **.test_large_deletes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.test_can_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cannot_defer_constraint_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **If the number of objects > chunk size, deletion still occurs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **A noop filter that always return its first argument and does nothing with its…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **ShellCommandTestCase** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **captured_stdin()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_stdin_read()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **.test_stdin_read_globals()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **.test_stdin_read_inline_function_call()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **patch** (5 connections)
+- **.test_shell_with_bpython_not_installed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **.test_shell_with_ipython_not_installed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **skipIf** (3 connections)
+- **.test_command_option_globals()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **.test_command_option_inline_function_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **dict** (2 connections)
+- **.test_command_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **Capture the input to sys.stdin: with captured_stdin() as stdin:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
 ## Relationships
 
-- [Community 333](Community_333.md) (2 shared connections)
-- [Community 242](Community_242.md) (2 shared connections)
-- [Community 217](Community_217.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
+- [Community 5](Community_5.md) (8 shared connections)
+- [Community 133](Community_133.md) (6 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (75%)
-- INFERRED: 3 (25%)
+- EXTRACTED: 40 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

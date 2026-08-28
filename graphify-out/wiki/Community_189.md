@@ -1,54 +1,62 @@
 # Community 189
 
-> 64 nodes · cohesion 0.03
+> 49 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **HTTPSitemapTests** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_get_urls_no_site_2()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_get_urls_no_site_1()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_item()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_alternate_i18n_sitemap_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_alternate_i18n_sitemap_limited()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_alternate_i18n_sitemap_xdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_localized_priority()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_simple_custom_sitemap()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_simple_i18n_sitemap_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_cached_sitemap_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_callable_sitemod_full()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_callable_sitemod_partial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_paged_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_requestsite_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_simple_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_simple_sitemap_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_simple_sitemap_section()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_get_latest_lastmod()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_get_latest_lastmod_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_last_modified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_last_modified_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_last_modified_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_last_modified_mixed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_last_modified_tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- *... and 39 more nodes in this community*
+- **test_autocomplete_view.py** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **AutocompleteJsonViewTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **Book** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Answer** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Employee** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Manager** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **PKChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Answer2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **WorkHour** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ParentAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **QuestionAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Authorship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Bonus** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Toy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **AnswerAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Author** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **AuthorshipInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_has_view_or_change_permission_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_to_field_resolution_with_mti()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
+- **.save_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (6 shared connections)
-- [Community 213](Community_213.md) (3 shared connections)
-- [Community 136](Community_136.md) (3 shared connections)
-- [Community 741](Community_741.md) (3 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 41](Community_41.md) (1 shared connections)
+- [Community 79](Community_79.md) (14 shared connections)
+- [Community 0](Community_0.md) (11 shared connections)
+- [Community 86](Community_86.md) (10 shared connections)
+- [Community 23](Community_23.md) (5 shared connections)
+- [Community 70](Community_70.md) (4 shared connections)
+- [Community 495](Community_495.md) (3 shared connections)
+- [Community 865](Community_865.md) (3 shared connections)
+- [Community 630](Community_630.md) (3 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 96](Community_96.md) (2 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 73](Community_73.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 108 (87%)
+- INFERRED: 16 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,33 +1,36 @@
 # Community 725
 
-> 11 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **RelatedFieldWidgetWrapper** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_related_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **This class is a wrapper to a given widget to add the add icon for the admin…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.is_hidden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.media()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **RedirectTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_redirect_not_found_with_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_redirect_shortcircuits_non_404_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_redirect_with_append_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_redirect_with_append_slash_and_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_response_gone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **Exercise the second Redirect.DoesNotExist branch in RedirectFallbackMiddleware.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **RedirectFallbackMiddleware short-circuits on non-404 requests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **When the redirect target is '', return a 410** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
 
 ## Relationships
 
-- [Community 483](Community_483.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 43](Community_43.md) (2 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

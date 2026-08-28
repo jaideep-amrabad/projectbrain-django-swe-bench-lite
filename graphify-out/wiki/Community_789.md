@@ -1,34 +1,31 @@
 # Community 789
 
-> 11 nodes · cohesion 0.24
+> 10 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **TemplateReloadTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **patch** (5 connections)
-- **.test_non_template_changed_in_template_directory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **.test_reset_all_loaders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **.test_non_template_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **.test_reset_all_loaders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **.test_template_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **.test_template_dirs_ignore_empty_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **.test_template_dirs_normalized_to_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **.test_get_template_directories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **.test_watch_for_template_changes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **NamedEndblockTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **setup** (7 connections)
+- **.test_namedendblocks06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **Mixed named and unnamed endblocks** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 456](Community_456.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,61 +1,67 @@
 # Community 89
 
-> 111 nodes · cohesion 0.02
+> 79 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **admin_views/admin.py** (287 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **BooleanFieldListFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **RelatedPrepopulated** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **SubPostInline** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **DependentChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FancyDoodad** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Restaurant** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CustomChangeList** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **DependentChildAdminForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **WorkerInlineAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **DooHickey** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Grommet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **InlineReference** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Picture** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **PrePopulatedSubPost** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Whatsit** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Widget** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Worker** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ActorAdmin6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ArticleAdmin2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ArticleAdmin9** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ChildInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **CityAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ColorAdmin6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- *... and 86 more nodes in this community*
+- **management/utils.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **user_commands/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **management/templates.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **TemplateCommand** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.handle()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **popen_wrapper()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **compilemessages.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/compilemessages.py`
+- **is_ignored_path()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **.build_potfiles()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.handle()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **find_command()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **get_random_secret_key()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **.process_locale_dir()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.write_po_file()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **startproject.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
+- **.download()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.handle_template()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **UtilsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.compile_messages()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/compilemessages.py`
+- **handle_extensions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/compilemessages.py`
+- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/compilemessages.py`
+- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
+- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- *... and 54 more nodes in this community*
 
 ## Relationships
 
-- [Community 80](Community_80.md) (85 shared connections)
-- [Community 190](Community_190.md) (14 shared connections)
-- [Community 493](Community_493.md) (14 shared connections)
-- [Community 8](Community_8.md) (10 shared connections)
-- [Community 191](Community_191.md) (10 shared connections)
-- [Community 398](Community_398.md) (9 shared connections)
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 533](Community_533.md) (8 shared connections)
-- [Community 859](Community_859.md) (7 shared connections)
-- [Community 45](Community_45.md) (7 shared connections)
-- [Community 611](Community_611.md) (5 shared connections)
-- [Community 234](Community_234.md) (4 shared connections)
+- [Community 39](Community_39.md) (31 shared connections)
+- [Community 15](Community_15.md) (27 shared connections)
+- [Community 13](Community_13.md) (6 shared connections)
+- [Community 173](Community_173.md) (5 shared connections)
+- [Community 66](Community_66.md) (4 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 550](Community_550.md) (3 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 225](Community_225.md) (3 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/compilemessages.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 332 (95%)
-- INFERRED: 16 (5%)
+- EXTRACTED: 237 (95%)
+- INFERRED: 12 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

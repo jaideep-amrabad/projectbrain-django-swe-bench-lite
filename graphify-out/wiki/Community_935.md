@@ -1,29 +1,27 @@
 # Community 935
 
-> 5 nodes · cohesion 0.60
+> 5 nodes · cohesion 0.80
 
 ## Key Concepts
 
-- **not_installed/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
-- **M2MRelatedModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
-- **NotInstalledModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
-- **RelatedModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
+- **theme.js** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **cycleTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **initTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **setTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **setupTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
 
 ## Relationships
 
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

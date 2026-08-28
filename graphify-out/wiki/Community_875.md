@@ -1,35 +1,31 @@
 # Community 875
 
-> 8 nodes · cohesion 0.39
+> 7 nodes · cohesion 0.48
 
 ## Key Concepts
 
-- **model_forms/test_uuid.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **ModelFormBaseTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **UUIDPKForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **UUIDPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_create_save_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **.test_update_save_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **.test_model_multiple_choice_field_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- **LoginRedirectUrlTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.assertLoginRedirectURLEqual()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_custom()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_named()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_remote()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Tests for settings.LOGIN_REDIRECT_URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 135](Community_135.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 296](Community_296.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 16 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

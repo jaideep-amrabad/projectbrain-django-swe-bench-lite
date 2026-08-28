@@ -4,28 +4,34 @@
 
 ## Key Concepts
 
-- **AsyncModelOperationTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
-- **test_async_model_methods.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
-- **.test_adelete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
-- **.test_arefresh_from_db()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
-- **.test_asave()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **.timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **UTCAliasTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **timezone_constructor()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.test_timezone_module_dir_includes_utc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **Return a tzinfo of the database connection time zone. This is only used when…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.test_alias_deprecation_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 975](Community_975.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 901](Community_901.md) (1 shared connections)
+- [Community 90](Community_90.md) (1 shared connections)
+- [Community 98](Community_98.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 662](Community_662.md) (1 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 618](Community_618.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 10 (71%)
+- INFERRED: 4 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **AdminAutoDiscoverTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
-- **.test_double_call_autodiscover()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
-- **Test for bug #8245 - don't raise an AlreadyRegistered exception when using…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
+- **SingleObjectTemplateResponseMixinTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_template_mixin_without_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **We want to makes sure that if you use a template mixin, but forget the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Audit Trail
 

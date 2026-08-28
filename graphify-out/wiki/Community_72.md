@@ -1,60 +1,61 @@
 # Community 72
 
-> 131 nodes · cohesion 0.02
+> 53 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **admin_filters/tests.py** (67 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **ListFiltersTests** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookAdmin** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DecadeListFilter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **select_by()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **EmployeeAdmin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookAdminWithEmptyFieldListFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DecadeListFilterWithTitleAndParameter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **Bookmark** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **TaggedItem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **BookAdminRelatedOnlyFilter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookAdminWithCustomQueryset** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DepartmentListFilterLookupWithNonStringValue** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **Department** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **BookAdminWithTupleBooleanFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **CustomUserAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DepartmentAdminWithEmptyFieldListFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **EmployeeNameCustomDividerFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_datefieldlistfilter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_datefieldlistfilter_with_time_zone_support()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_parameter_ends_with__in__or__isnull()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.verify_booleanfieldlistfilter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.verify_booleanfieldlistfilter_choices()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- *... and 106 more nodes in this community*
+- **DataSource** (34 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- **gis_tests/test_data.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **DataSourceTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.test06_spatial_filter()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **TestDataMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **get_ds_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestDS** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestGeom** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestObj** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **strconvert()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.geometries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestGeomSet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- **.test01_valid_shp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.test02_invalid_shp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.test03a_layers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.test03b_layer_slice()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.test04_features()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.test05_geometries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.test07_integer_overflow()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.test_ds_input_pathlib()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **tuplize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 60](Community_60.md) (17 shared connections)
-- [Community 0](Community_0.md) (12 shared connections)
-- [Community 234](Community_234.md) (7 shared connections)
-- [Community 45](Community_45.md) (4 shared connections)
-- [Community 418](Community_418.md) (4 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
+- [Community 121](Community_121.md) (9 shared connections)
+- [Community 157](Community_157.md) (7 shared connections)
+- [Community 100](Community_100.md) (4 shared connections)
+- [Community 548](Community_548.md) (3 shared connections)
+- [Community 47](Community_47.md) (3 shared connections)
+- [Community 143](Community_143.md) (2 shared connections)
+- [Community 48](Community_48.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 528](Community_528.md) (1 shared connections)
+- [Community 184](Community_184.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
 
 ## Audit Trail
 
-- EXTRACTED: 253 (96%)
-- INFERRED: 10 (4%)
+- EXTRACTED: 104 (95%)
+- INFERRED: 5 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

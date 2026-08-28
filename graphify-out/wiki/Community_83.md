@@ -21,10 +21,10 @@
 ## Relationships
 
 - [Community 9](Community_9.md) (4 shared connections)
-- [Community 70](Community_70.md) (2 shared connections)
-- [Community 41](Community_41.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 80](Community_80.md) (2 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 

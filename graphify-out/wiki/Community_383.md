@@ -1,51 +1,61 @@
 # Community 383
 
-> 32 nodes · cohesion 0.07
+> 33 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **UniqueTest** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **BookForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **DerivedBookForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ProductForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_explicitpk_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_explicitpk_unspecified()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_inherited_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_together_exclusion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_blank_foreign_key_with_radio()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_renderer_kwarg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_abstract_inherited_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_abstract_inherited_unique_together()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_inherited_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_inherited_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_multiple_field_unique_together()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_simple_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_for_date_in_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **unique/unique_together validation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ModelForm test of unique_together constraint** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Forms don't validate unique_together constraints when only part of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **When the same field is involved in multiple unique_together constraints, we…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Test for primary_key being in the form and failing validation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- *... and 7 more nodes in this community*
+- **admin_custom_urls/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **admin_custom_urls/models.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **AdminCustomUrlsTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **Action** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **ActionAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **.get_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **.remove_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **Car** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **PersonAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **.response_post_save_add()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **.response_post_save_change()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **.test_add_with_GET_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_admin_URLs_no_clash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_basic_add_GET()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_basic_add_POST()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_post_save_add_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_post_save_change_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_post_url_continue()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **CarAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **.response_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **ModelAdmin.response_post_save_add() controls the redirection after the 'Save'…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **admin_custom_urls/urls.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/urls.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **A ModelAdmin for the Action model that changes the URL of the add_view to '<app…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 135](Community_135.md) (24 shared connections)
-- [Community 251](Community_251.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 23](Community_23.md) (12 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 161](Community_161.md) (3 shared connections)
+- [Community 43](Community_43.md) (2 shared connections)
+- [Community 236](Community_236.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 110](Community_110.md) (1 shared connections)
+- [Community 60](Community_60.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (81%)
-- INFERRED: 12 (19%)
+- EXTRACTED: 73 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,50 +1,78 @@
 # Community 146
 
-> 32 nodes · cohesion 0.07
+> 130 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **ViewTest** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **._assert_simple()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_args_kwargs_request_on_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_calling_more_than_once()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_direct_instantiation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_get_and_head()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_get_and_post()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_get_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_no_init_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **A view can't be accidentally instantiated before deployment** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_class_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_dispatch_decoration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_head_no_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_invalid_keyword_argument()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_no_init_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_pathological_http_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Test a view which only allows GET doesn't allow other methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Test a view which supplies a GET method also responds correctly to HEAD.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Test a view which supplies no GET method responds to HEAD with HTTP 405.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Test a view which only allows both GET and POST.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **View arguments must be predefined on the class and can't be named like an HTTP…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Test a view can only be called once.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **The callable returned from as_view() has proper special attributes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Attributes set by decorators on the dispatch method are also present on the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- *... and 7 more nodes in this community*
+- **sessions_tests/tests.py** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **RemovedInDjango51Warning** (54 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **signing.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **core/cache/__init__.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **SuspiciousOperation** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **base_user.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **sessions/backends/base.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **sessions/backends/db.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **cache/backends/base.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **signing/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **BaseUserManager** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **backends/file.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
+- **archive.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **SessionStore** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **connection.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **memcached.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **BadRequest** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **Signer** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **TimestampSigner** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **ConnectionProxy** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **sessions_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- **backends/cache.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- **sessions/exceptions.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- **test_archive.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **UpdateError** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- *... and 105 more nodes in this community*
 
 ## Relationships
 
-- [Community 505](Community_505.md) (6 shared connections)
-- [Community 71](Community_71.md) (5 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 15](Community_15.md) (47 shared connections)
+- [Community 43](Community_43.md) (20 shared connections)
+- [Community 0](Community_0.md) (20 shared connections)
+- [Community 3](Community_3.md) (19 shared connections)
+- [Community 66](Community_66.md) (16 shared connections)
+- [Community 17](Community_17.md) (14 shared connections)
+- [Community 35](Community_35.md) (12 shared connections)
+- [Community 12](Community_12.md) (10 shared connections)
+- [Community 31](Community_31.md) (8 shared connections)
+- [Community 58](Community_58.md) (8 shared connections)
+- [Community 311](Community_311.md) (8 shared connections)
+- [Community 34](Community_34.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/serializers.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 497 (94%)
+- INFERRED: 32 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

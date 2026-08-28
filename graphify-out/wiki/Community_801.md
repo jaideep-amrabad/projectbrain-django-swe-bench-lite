@@ -1,33 +1,33 @@
 # Community 801
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **Article** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Reporter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_hasattr_related_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **ResponseHeaders** (9 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **._convert_to_charset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **Populate the initial data using __setitem__ to ensure values are correctly…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **Convert headers key/value to ascii/latin-1 native strings. `charset` must be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.setdefault()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Relationships
 
-- [Community 389](Community_389.md) (6 shared connections)
-- [Community 537](Community_537.md) (4 shared connections)
+- [Community 43](Community_43.md) (2 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
+- [Community 398](Community_398.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

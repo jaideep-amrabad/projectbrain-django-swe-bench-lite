@@ -1,35 +1,34 @@
 # Community 720
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **ReadLimitedStreamTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_body_from_empty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_read_from_empty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_read_from_nonempty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_read_numbytes_from_empty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_read_numbytes_from_nonempty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.body, HttpRequest.read(), and HttpRequest.read(BUFFER) have proper…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.body on a test client GET request should return the empty string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.read() on a test client GET request should return the empty string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.read(LARGE_BUFFER) on a test client GET request should return the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.read() on a test client PUT request with some payload should return…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.read(LARGE_BUFFER) on a test client PUT request with some payload…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **FilePathFieldTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.assertChoices()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **fix_os_paths()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_allow_folders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_fix_os_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_no_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_recursive()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_recursive_folders_without_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_recursive_no_folders_or_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_nonexistent_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

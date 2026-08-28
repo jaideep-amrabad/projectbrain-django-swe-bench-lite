@@ -1,23 +1,21 @@
 # Community 1000
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **NullBooleanField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **A field whose valid values are None, True, and False. Clean invalid values to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **Explicitly check for the string 'True' and 'False', which is what a hidden…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **UrlencodeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlencode.py`
+- **setup** (2 connections)
+- **.test_urlencode01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlencode.py`
+- **.test_urlencode02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlencode.py`
 
 ## Relationships
 
-- [Community 199](Community_199.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlencode.py`
 
 ## Audit Trail
 

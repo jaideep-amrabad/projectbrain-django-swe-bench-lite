@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **ObjectDoesNotExistDetail** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **CustomMultipleObjectMixinView** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **OSMWidgetTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_default_lat_lon()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_osm_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
 
 ## Relationships
 
-- [Community 94](Community_94.md) (2 shared connections)
-- [Community 439](Community_439.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (83%)
-- INFERRED: 1 (17%)
+- EXTRACTED: 6 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

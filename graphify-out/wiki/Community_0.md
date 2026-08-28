@@ -1,6 +1,6 @@
 # Community 0
 
-> 349 nodes · cohesion 0.01
+> 380 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **test_history_view.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
 - **test_context_processors.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
 - **test_adminsite.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
-- *... and 324 more nodes in this community*
+- *... and 355 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (132 shared connections)
-- [Community 8](Community_8.md) (72 shared connections)
-- [Community 45](Community_45.md) (65 shared connections)
-- [Community 67](Community_67.md) (62 shared connections)
-- [Community 2](Community_2.md) (57 shared connections)
-- [Community 4](Community_4.md) (55 shared connections)
-- [Community 20](Community_20.md) (50 shared connections)
-- [Community 25](Community_25.md) (42 shared connections)
-- [Community 11](Community_11.md) (42 shared connections)
-- [Community 107](Community_107.md) (34 shared connections)
-- [Community 101](Community_101.md) (29 shared connections)
-- [Community 18](Community_18.md) (28 shared connections)
+- [Community 2](Community_2.md) (134 shared connections)
+- [Community 12](Community_12.md) (70 shared connections)
+- [Community 66](Community_66.md) (59 shared connections)
+- [Community 3](Community_3.md) (57 shared connections)
+- [Community 19](Community_19.md) (48 shared connections)
+- [Community 4](Community_4.md) (46 shared connections)
+- [Community 11](Community_11.md) (44 shared connections)
+- [Community 23](Community_23.md) (42 shared connections)
+- [Community 17](Community_17.md) (36 shared connections)
+- [Community 105](Community_105.md) (35 shared connections)
+- [Community 15](Community_15.md) (29 shared connections)
+- [Community 161](Community_161.md) (26 shared connections)
 
 ## Source Files
 
@@ -53,26 +53,26 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/signals.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/views.py`
+- `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/admin.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2624 (100%)
-- INFERRED: 12 (0%)
+- EXTRACTED: 2687 (99%)
+- INFERRED: 17 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

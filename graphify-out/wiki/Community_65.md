@@ -1,12 +1,11 @@
 # Community 65
 
-> 117 nodes · cohesion 0.04
+> 104 nodes · cohesion 0.04
 
 ## Key Concepts
 
 - **models/functions.py** (69 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
 - **geo3d/tests.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
-- **Length** (25 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
 - **Geo3DFunctionsTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
 - **GeoFunc** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
 - **GeomOutputGeoFunc** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
@@ -14,8 +13,6 @@
 - **geo3d/models.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
 - **OracleToleranceMixin** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
 - **.__init__()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **.as_sql()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **Perimeter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
 - **Geo3DLoadingHelper** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
 - **._handle_param()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
 - **GeoFuncMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
@@ -25,26 +22,29 @@
 - **Scale** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
 - **Meta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
 - **AsGeoJSON** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **DistanceResultMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
 - **City3D** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
 - **Interstate3D** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
 - **InterstateProj3D** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
-- *... and 92 more nodes in this community*
+- **Polygon3D** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
+- **IsValid** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **Translate** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
+- **.test_union()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
+- *... and 79 more nodes in this community*
 
 ## Relationships
 
-- [Community 202](Community_202.md) (29 shared connections)
-- [Community 88](Community_88.md) (14 shared connections)
-- [Community 63](Community_63.md) (13 shared connections)
-- [Community 67](Community_67.md) (9 shared connections)
-- [Community 40](Community_40.md) (8 shared connections)
-- [Community 3](Community_3.md) (8 shared connections)
-- [Community 78](Community_78.md) (7 shared connections)
-- [Community 36](Community_36.md) (5 shared connections)
+- [Community 200](Community_200.md) (34 shared connections)
+- [Community 77](Community_77.md) (15 shared connections)
+- [Community 47](Community_47.md) (13 shared connections)
+- [Community 38](Community_38.md) (6 shared connections)
+- [Community 66](Community_66.md) (5 shared connections)
+- [Community 128](Community_128.md) (5 shared connections)
 - [Community 28](Community_28.md) (5 shared connections)
-- [Community 97](Community_97.md) (4 shared connections)
+- [Community 36](Community_36.md) (4 shared connections)
+- [Community 95](Community_95.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
 - [Community 0](Community_0.md) (3 shared connections)
-- [Community 103](Community_103.md) (3 shared connections)
+- [Community 100](Community_100.md) (3 shared connections)
 
 ## Source Files
 
@@ -54,8 +54,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 346 (88%)
-- INFERRED: 45 (12%)
+- EXTRACTED: 309 (91%)
+- INFERRED: 31 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

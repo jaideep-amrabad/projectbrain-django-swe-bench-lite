@@ -1,40 +1,39 @@
 # Community 600
 
-> 16 nodes · cohesion 0.12
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **AsyncRelatedManagersOperationTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
-- **.test_aadd()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
-- **.test_aadd_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
-- **.test_aclear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
-- **.test_aclear_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
-- **.test_acreate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
-- **.test_acreate_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
-- **.test_aget_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
-- **.test_aget_or_create_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
-- **.test_aremove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
-- **.test_aremove_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
-- **.test_aset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
-- **.test_aset_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
-- **.test_aupdate_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
-- **.test_aupdate_or_create_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **geoapp/feeds.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **TestGeoRSS1** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **TestGeoRSS2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **TestGeoAtom2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **TestW3CGeo3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **TestGeoAtom1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **TestW3CGeo1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **TestW3CGeo2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **.item_geometry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **.geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **.item_geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **.item_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **.geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **.item_geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
 
 ## Relationships
 
-- [Community 901](Community_901.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 975](Community_975.md) (1 shared connections)
+- [Community 77](Community_77.md) (4 shared connections)
+- [Community 47](Community_47.md) (3 shared connections)
+- [Community 350](Community_350.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (85%)
-- INFERRED: 3 (15%)
+- EXTRACTED: 27 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

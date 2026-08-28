@@ -1,54 +1,52 @@
 # Community 341
 
-> 33 nodes · cohesion 0.08
+> 44 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **tz.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **do_timezone()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **GetCurrentTimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **LocalTimeNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **TimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **get_current_timezone_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **localtime()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **localtime_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **timezone_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **utc()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **datetimeobject** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **filter** (3 connections)
-- **Node** (3 connections)
-- **timezone_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **UnknownTimezoneException** (2 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **BaseException** (1 connections)
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **# HACK: the convert_to_local_time flag will prevent** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Template node class used by ``localtime_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Template node class used by ``timezone_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Template node class used by ``get_current_timezone_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Force or prevent conversion of datetime objects to local time, regardless of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- *... and 8 more nodes in this community*
+- **SessionTestsMixin** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_get_expire_at_browser_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_key_empty_string_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_key_too_short_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_key_valid_string_saved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_load_does_not_create_record()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_save_does_not_resurrect_session_logged_out_in_other_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Falsey values (Such as an empty string) are rejected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Strings shorter than 8 characters are rejected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Strings of length 8 and up are accepted and stored.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Loading an unknown session key does not create a session record. Creating…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Sessions shouldn't be resurrected by a concurrent request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_actual_expiry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_custom_expiry_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_custom_expiry_reset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_custom_expiry_seconds()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_custom_expiry_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_cycle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_cycle_with_no_session_cache()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_decode()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_decode_failure_logged_to_security()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_default_expiry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Community 161](Community_161.md) (6 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 182](Community_182.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
+- [Community 146](Community_146.md) (3 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 988](Community_988.md) (1 shared connections)
+- [Community 751](Community_751.md) (1 shared connections)
+- [Community 542](Community_542.md) (1 shared connections)
+- [Community 815](Community_815.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (98%)
+- EXTRACTED: 51 (98%)
 - INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 

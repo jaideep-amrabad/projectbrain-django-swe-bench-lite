@@ -1,50 +1,40 @@
 # Community 612
 
-> 16 nodes · cohesion 0.33
+> 15 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **filtered_relation/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **filtered_relation/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **FilteredRelationAnalyticalAggregationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **FilteredRelationAggregationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **Editor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **BookDailySales** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **ExchangeRate** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **Borrower** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **Currency** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **RentalSession** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **Reservation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **Seller** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **core/management/commands/inspectdb.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.handle_inspection()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **gis/management/commands/inspectdb.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **.get_field_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.get_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.normalize_col_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **InspectDBCommand** (1 connections)
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Modify the column name to make it Python-compatible as a field name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Given the database connection, the table name, and the cursor row description,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Return a sequence comprising the lines of code necessary to construct the inner…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
 
 ## Relationships
 
-- [Community 21](Community_21.md) (8 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 54](Community_54.md) (4 shared connections)
-- [Community 67](Community_67.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 39](Community_39.md) (5 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (74%)
-- INFERRED: 18 (26%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

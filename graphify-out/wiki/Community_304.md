@@ -1,43 +1,65 @@
 # Community 304
 
-> 19 nodes · cohesion 0.11
+> 43 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **SyndicationFeed** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.latest_post_date()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.writeString()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_item_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_root_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.root_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Add an item to the feed. All args are expected to be strings except pubdate and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Return extra attributes to place on the root (i.e. feed/channel) element.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Add elements in the root (i.e. feed/channel) element. Called from write().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Add elements on each item (i.e. item/entry) element.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Output the feed in the given encoding to outfile, which is a file-like object.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Return the feed in the given encoding as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Return the latest item's pubdate or updateddate. If no items have either of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Base class for all syndication feeds. Subclasses should provide write()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.num_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **test_formsets.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **formsets.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Form** (23 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **jinja2_tests()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/__init__.py`
+- **TestIsBoundBehavior** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **forms_tests/tests/test_i18n.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **FormsetAsTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **all_valid()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **ManagementForm** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **forms_tests/tests/__init__.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/__init__.py`
+- **FormsI18nTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.test_formset_with_none_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **BaseFavoriteDrinksFormSet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **ChoiceFormsetWithNonFormError** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **CustomKwargForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Jinja2FormsetAsTagTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Jinja2FormsFormsetTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Jinja2FormsI18nTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.assertWidgetRendersTo()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
+- **ArticleForm** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Choice** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **FavoriteDrinkForm** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 350](Community_350.md) (7 shared connections)
-- [Community 470](Community_470.md) (2 shared connections)
-- [Community 192](Community_192.md) (1 shared connections)
+- [Community 17](Community_17.md) (14 shared connections)
+- [Community 64](Community_64.md) (13 shared connections)
+- [Community 3](Community_3.md) (11 shared connections)
+- [Community 137](Community_137.md) (6 shared connections)
+- [Community 164](Community_164.md) (5 shared connections)
+- [Community 156](Community_156.md) (4 shared connections)
+- [Community 150](Community_150.md) (4 shared connections)
+- [Community 224](Community_224.md) (4 shared connections)
+- [Community 328](Community_328.md) (3 shared connections)
+- [Community 204](Community_204.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 147 (93%)
+- INFERRED: 11 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,35 +1,43 @@
 # Community 785
 
-> 10 nodes · cohesion 0.24
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **NoOpTestRunner** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **DiscoverRunnerExtraTestsDeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.get_runner()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_extra_tests_run_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_extra_tests_build_suite()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.run_checks()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.setup_databases()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.setup_test_environment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.teardown_databases()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.teardown_test_environment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **InheritanceTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Inherit from a template with block wrapped in an {% if %} tag (in parent),…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance34()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance35()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance37()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance38()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_extends_duplicate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance32()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance40()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance41()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 124](Community_124.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 786](Community_786.md) (15 shared connections)
+- [Community 1032](Community_1032.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 1091](Community_1091.md) (1 shared connections)
+- [Community 1092](Community_1092.md) (1 shared connections)
+- [Community 1093](Community_1093.md) (1 shared connections)
+- [Community 1094](Community_1094.md) (1 shared connections)
+- [Community 1095](Community_1095.md) (1 shared connections)
+- [Community 1096](Community_1096.md) (1 shared connections)
+- [Community 1097](Community_1097.md) (1 shared connections)
+- [Community 1098](Community_1098.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 59 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

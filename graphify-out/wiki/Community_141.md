@@ -1,63 +1,65 @@
 # Community 141
 
-> 72 nodes · cohesion 0.05
+> 90 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Index** (46 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **indexes/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **SchemaIndexesPostgreSQLTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **PartialIndexTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **SchemaIndexesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **Article** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **SchemaIndexesTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
-- **indexes/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **CoveringIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **SchemaIndexesMySQLTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **CoveringIndexIgnoredTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **PartialIndexConditionIgnoredTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_partial_func_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.set_name_with_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **.test_index_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
-- **IndexedArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **IndexedArticle2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- **.test_covering_func_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_multiple_conditions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **SchemaIndexesNotPostgreSQLTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_op_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **.test_namespaced_db_table()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
-- **ArticleTranslation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- *... and 47 more nodes in this community*
+- **fields/json.py** (59 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **model_fields/test_jsonfield.py** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **JSONField** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **Transform** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **reverse_related.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **KeyTextTransform** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformTextLookupMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **CaseInsensitiveMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **HasKeyLookup** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **fields/mixins.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **CheckFieldDefaultMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.as_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **TestMethods** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.process_rhs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **HasKeyOrArrayIndex** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformNumericLookupMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **jsonb.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- **.process_lhs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **ContainedBy** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **DataContains** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **HasKeys** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformExact** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- *... and 65 more nodes in this community*
 
 ## Relationships
 
-- [Community 21](Community_21.md) (13 shared connections)
-- [Community 34](Community_34.md) (9 shared connections)
-- [Community 28](Community_28.md) (9 shared connections)
-- [Community 99](Community_99.md) (5 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 93](Community_93.md) (4 shared connections)
-- [Community 67](Community_67.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 132](Community_132.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 157](Community_157.md) (2 shared connections)
-- [Community 548](Community_548.md) (2 shared connections)
+- [Community 127](Community_127.md) (13 shared connections)
+- [Community 8](Community_8.md) (11 shared connections)
+- [Community 66](Community_66.md) (10 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 34](Community_34.md) (8 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 17](Community_17.md) (7 shared connections)
+- [Community 479](Community_479.md) (7 shared connections)
+- [Community 16](Community_16.md) (6 shared connections)
+- [Community 10](Community_10.md) (6 shared connections)
+- [Community 115](Community_115.md) (5 shared connections)
+- [Community 95](Community_95.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 151 (76%)
-- INFERRED: 47 (24%)
+- EXTRACTED: 284 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

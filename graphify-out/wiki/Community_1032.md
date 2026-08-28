@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **echo.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/subpackage/echo.py`
-- **echo2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/subpackage/echo.py`
-- **simple_tag** (1 connections)
+- **.test_inheritance22()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance23()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Three-level inheritance with {{ block.super }} from grandparent** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 786](Community_786.md) (2 shared connections)
+- [Community 785](Community_785.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/subpackage/echo.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

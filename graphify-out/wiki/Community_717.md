@@ -1,39 +1,35 @@
 # Community 717
 
-> 12 nodes · cohesion 0.26
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **reverse_lookup/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **ReverseLookupTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **reverse_lookup/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- **Choice** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- **Poll** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- **User** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- **.test_reverse_field_name_disallowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **Reverse lookups This demonstrates the reverse lookup features of the database…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- **If a related_name is given you can't use the field name instead** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **.test_reverse_by_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **.test_reverse_by_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- **TestReadOnlyChangeViewInlinePermissions** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_add_url_not_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_extra_inlines_are_not_shown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_get_to_change_url_is_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_delete_buttons_are_not_shown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inlines_are_rendered_as_read_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_main_model_is_rendered_as_read_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_post_to_change_url_not_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_submit_line_shows_only_close_button()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 53](Community_53.md) (3 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (88%)
-- INFERRED: 3 (12%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

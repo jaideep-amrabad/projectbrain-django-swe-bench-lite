@@ -1,52 +1,61 @@
 # Community 339
 
-> 34 nodes · cohesion 0.09
+> 35 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **PickleabilityTestCase** (48 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.assert_pickles()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_annotation_with_callable_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_binaryfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_datetime_callable_default_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_datetime_callable_default_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_filter_deferred()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_filter_reverse_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_order_by_model_with_abstract_inheritance_and_meta_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_pickle_exists_kwargs_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_pickle_exists_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_pickle_subquery_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_specialized_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_standalone_method_as_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_staticmethod_as_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_string_as_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_annotation_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_annotation_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_doesnotexist_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_doesnotexist_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_forward_relatedobjectdoesnotexist_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_manager_pickle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_model_pickle_dynamic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- *... and 9 more nodes in this community*
+- **postgres/validators.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **BaseValidator** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **MaxLengthValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **MinValueValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **DecimalValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **MaxValueValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **MinLengthValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **ArrayMaxLengthValidator** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **StepValueValidator** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **RangeMaxValueValidator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **RangeMinValueValidator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **ArrayMinLengthValidator** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.test_basic_equality()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_decimal_equality()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.compare()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.test_max()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_min()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **.compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **.clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 583](Community_583.md) (9 shared connections)
-- [Community 955](Community_955.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 1083](Community_1083.md) (1 shared connections)
-- [Community 1084](Community_1084.md) (1 shared connections)
+- [Community 354](Community_354.md) (15 shared connections)
+- [Community 271](Community_271.md) (9 shared connections)
+- [Community 17](Community_17.md) (8 shared connections)
+- [Community 8](Community_8.md) (6 shared connections)
+- [Community 52](Community_52.md) (3 shared connections)
+- [Community 509](Community_509.md) (3 shared connections)
+- [Community 571](Community_571.md) (1 shared connections)
+- [Community 505](Community_505.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 659](Community_659.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (89%)
-- INFERRED: 7 (11%)
+- EXTRACTED: 94 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

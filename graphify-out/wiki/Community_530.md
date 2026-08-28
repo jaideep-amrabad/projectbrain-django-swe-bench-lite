@@ -26,10 +26,10 @@
 
 ## Relationships
 
-- [Community 42](Community_42.md) (6 shared connections)
+- [Community 43](Community_43.md) (6 shared connections)
 - [Community 11](Community_11.md) (3 shared connections)
-- [Community 293](Community_293.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 291](Community_291.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 

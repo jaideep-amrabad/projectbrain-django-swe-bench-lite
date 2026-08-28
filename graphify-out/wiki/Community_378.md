@@ -1,61 +1,62 @@
 # Community 378
 
-> 30 nodes · cohesion 0.10
+> 31 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **fixtures/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **fixtures/models.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **NaturalKeyThing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **ProxySpy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Spy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **ProxyModelWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
-- **CircularA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **CircularB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Visa** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **PrimaryKeyUUIDModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Blog** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **NaturalKeyManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- *... and 5 more nodes in this community*
+- **MigrationTestBase** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **migrations/test_deprecated_fields.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
+- **module_dir()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **.get_table_description()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.temporary_migration_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.basedir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **._get_column_allows_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **Tests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
+- **._get_column_collation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.test_migrate()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
+- **.assertColumnCollation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNotNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertConstraintExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertConstraintNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertFKExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertFKNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **Find the name of the directory that contains a module, if possible. Raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **.assertIndexNameExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexNameNotExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 90](Community_90.md) (8 shared connections)
-- [Community 469](Community_469.md) (7 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 820](Community_820.md) (5 shared connections)
-- [Community 34](Community_34.md) (4 shared connections)
-- [Community 91](Community_91.md) (3 shared connections)
-- [Community 67](Community_67.md) (3 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 1038](Community_1038.md) (2 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 204](Community_204.md) (1 shared connections)
+- [Community 30](Community_30.md) (6 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 84](Community_84.md) (4 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 456](Community_456.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 180](Community_180.md) (1 shared connections)
+- [Community 310](Community_310.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (88%)
-- INFERRED: 11 (12%)
+- EXTRACTED: 67 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

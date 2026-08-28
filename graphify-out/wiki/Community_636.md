@@ -1,53 +1,41 @@
 # Community 636
 
-> 15 nodes · cohesion 0.22
+> 15 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **timezones/tests.py** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **timezones/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **timezones/forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **timezones/admin.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
-- **Timestamp** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **EventLocalizedForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **AllDayEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **Session** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **SessionEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **DailyEvent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **MaybeEvent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **timezones/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
-- **EventAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
-- **TimestampAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
-- **timezones/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
+- **DateFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **GetDate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_l10n_date_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_strptime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_form_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_form_label_association()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_l10n_invalid_date_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **field.strptime() doesn't raise a UnicodeEncodeError (#16123)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **DateField.has_changed() with SelectDateWidget works with a localized date…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
 
 ## Relationships
 
-- [Community 526](Community_526.md) (12 shared connections)
-- [Community 82](Community_82.md) (8 shared connections)
-- [Community 727](Community_727.md) (5 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 589](Community_589.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 34](Community_34.md) (3 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 834](Community_834.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 137](Community_137.md) (1 shared connections)
+- [Community 304](Community_304.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (88%)
-- INFERRED: 12 (12%)
+- EXTRACTED: 21 (88%)
+- INFERRED: 3 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

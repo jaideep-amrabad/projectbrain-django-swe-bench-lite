@@ -1,34 +1,31 @@
 # Community 853
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **DeclarativeFieldsMetaclass** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **MediaDefiningClass** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **media_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__new__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **Collect Fields declared on the base classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **type** (1 connections)
-- **Metaclass for classes that can have media definitions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **MIMEText** (7 connections)
+- **PythonGlobalState** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_7bit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_8bit_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_8bit_non_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_utf8()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Tests for #12422 -- Django smarts (#2472/#11212) with charset of utf-8 text…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 199](Community_199.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 155](Community_155.md) (1 shared connections)
+- [Community 183](Community_183.md) (2 shared connections)
+- [Community 132](Community_132.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (57%)
+- INFERRED: 6 (43%)
 - AMBIGUOUS: 0 (0%)
 
 ---

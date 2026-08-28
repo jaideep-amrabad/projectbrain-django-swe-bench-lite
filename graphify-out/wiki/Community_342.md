@@ -1,55 +1,55 @@
 # Community 342
 
-> 29 nodes · cohesion 0.07
+> 33 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **EmailMultiAlternatives** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_mime_attachment()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.attach()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_attachments()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_attachment()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_alternatives()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.attach_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._set_list_header_if_not_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.attach_alternative()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.test_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_safe_mime_multipart()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_safe_mime_multipart_with_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **._create_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Initialize a single email message (which can be sent to multiple recipients).** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.test_email_multi_alternatives_content_mimetype_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Attach a file with the given filename and content. The filename can be omitted…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Attach a file from the filesystem. Set the mimetype to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Convert the content, mimetype pair into a MIME attachment object. If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Convert the filename, content, mimetype triple into a MIME attachment object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Set msg's header, either from self.extra_headers, if present, or from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **A version of EmailMessage that makes it easy to send multipart/alternative…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- *... and 4 more nodes in this community*
+- **tz.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **do_timezone()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **GetCurrentTimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **LocalTimeNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **TimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **get_current_timezone_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **localtime()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **localtime_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **timezone_tag()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **utc()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **datetimeobject** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **filter** (3 connections)
+- **Node** (3 connections)
+- **timezone_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **UnknownTimezoneException** (2 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **BaseException** (1 connections)
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **# HACK: the convert_to_local_time flag will prevent** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **Template node class used by ``localtime_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **Template node class used by ``timezone_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **Template node class used by ``get_current_timezone_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **Force or prevent conversion of datetime objects to local time, regardless of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 133](Community_133.md) (15 shared connections)
-- [Community 184](Community_184.md) (10 shared connections)
-- [Community 293](Community_293.md) (3 shared connections)
-- [Community 185](Community_185.md) (1 shared connections)
-- [Community 435](Community_435.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 98](Community_98.md) (6 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 9](Community_9.md) (4 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 182](Community_182.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 63 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,53 +1,57 @@
 # Community 455
 
-> 24 nodes · cohesion 0.09
+> 21 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ValidateConstraint** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **AddConstraintNotValid** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **AddConstraint** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.test_validate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **Add a table constraint without enforcing validation, using PostgreSQL's NOT…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **Validate a table NOT VALID constraint.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **ExceptionReporter** (60 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **builtin_template_path()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_exception_traceback_frames()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **._get_lines_from_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_frames()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.test_ignore_traceback_evaluation_exceptions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **._get_explicit_or_implicit_cause()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **CustomExceptionReporter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
+- **.test_too_large_values_handling()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **CustomExceptionReporter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **._get_source()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.html_template_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.text_template_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **TemplateOverrideExceptionReporter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **Organize and coordinate reporting on exceptions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return a path to a builtin template. Avoid calling this function at the module…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return context_lines before and after lineno from file. Return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
+- **Large values should not create a large HTML.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Don't trip over exceptions generated by crafted objects when evaluating them…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.get_traceback_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Relationships
 
-- [Community 37](Community_37.md) (4 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 343](Community_343.md) (2 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
+- [Community 119](Community_119.md) (18 shared connections)
+- [Community 145](Community_145.md) (9 shared connections)
+- [Community 693](Community_693.md) (9 shared connections)
+- [Community 807](Community_807.md) (5 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 1004](Community_1004.md) (2 shared connections)
+- [Community 1688](Community_1688.md) (2 shared connections)
+- [Community 1005](Community_1005.md) (2 shared connections)
+- [Community 1689](Community_1689.md) (2 shared connections)
+- [Community 1701](Community_1701.md) (1 shared connections)
+- [Community 1702](Community_1702.md) (1 shared connections)
+- [Community 1703](Community_1703.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 80 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **.test_inheritance22()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance23()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Three-level inheritance with {{ block.super }} from grandparent** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **annotated_tag_function.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/annotated_tag_function.py`
+- **annotated_tag_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/annotated_tag_function.py`
+- **simple_tag** (1 connections)
 
 ## Relationships
 
-- [Community 777](Community_777.md) (2 shared connections)
-- [Community 776](Community_776.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/annotated_tag_function.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

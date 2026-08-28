@@ -1,51 +1,46 @@
 # Community 526
 
-> 21 nodes · cohesion 0.18
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **NewFormsTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **LegacyFormsTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **EventForm** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **get_timezones()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **EventModelForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **EventLocalizedModelForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **EventSplitForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **.test_localized_model_form()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form_with_ambiguous_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form_with_non_existent_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form_with_ambiguous_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form_with_non_existent_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_model_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_split_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **.test_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_model_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_split_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_filter_with_pytz_timezones()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form_with_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **DataTypesTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Donut** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **datatypes/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **datatypes/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **.test_error_on_timezone()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **RumBaba** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **.test_boolean_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_date_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_datefield_auto_now_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_textfields_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_time_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_year_boundaries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **This is a basic model to test saving and loading boolean and date-related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **Regression test for #10970, auto_now_add for DateField should store a Python…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Year boundary tests (ticket #3689)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **TextField values returned from the database should be str.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Regression test for #8354: the MySQL and Oracle backends should raise an error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
 
 ## Relationships
 
-- [Community 636](Community_636.md) (12 shared connections)
-- [Community 82](Community_82.md) (6 shared connections)
-- [Community 727](Community_727.md) (5 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
+- [Community 564](Community_564.md) (2 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 741](Community_741.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (81%)
-- INFERRED: 14 (19%)
+- EXTRACTED: 31 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

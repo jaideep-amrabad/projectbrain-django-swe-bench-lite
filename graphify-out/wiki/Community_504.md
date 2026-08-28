@@ -1,52 +1,58 @@
 # Community 504
 
-> 22 nodes · cohesion 0.12
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **AbstractBaseSession** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **base_session.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **sessions/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **Session** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **BaseSessionManager** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **sessions/migrations/0001_initial.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/migrations/0001_initial.py`
-- **CustomSession** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **.get_decoded()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **.get_session_store_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **SessionManager** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **This module allows importing AbstractBaseSession even when…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **Return the given session dictionary serialized and encoded as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/migrations/0001_initial.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **Django provides full support for anonymous sessions. The session framework lets…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **.get_session_store_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **.get_session_store_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **A session model with a column for an account ID.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- **Message** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.test_full_request_response_cycle()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_multiple_posts()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **filter_tests_by_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **test_match_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **MessageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **._prepare()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.enable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.level_tag()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Queue a message to be stored. The message is only queued if it contained…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Prepare the message for serialization by forcing the ``message`` and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Represent an actual message that can be stored in any of the supported storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Return the matching tests as an iterator.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **With the message middleware enabled, messages are properly stored and retrieved…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **Messages persist properly when multiple POSTs are made before a GET.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (6 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 595](Community_595.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 409](Community_409.md) (6 shared connections)
+- [Community 262](Community_262.md) (3 shared connections)
+- [Community 388](Community_388.md) (2 shared connections)
+- [Community 674](Community_674.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 503](Community_503.md) (1 shared connections)
+- [Community 880](Community_880.md) (1 shared connections)
+- [Community 367](Community_367.md) (1 shared connections)
+- [Community 253](Community_253.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/migrations/0001_initial.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 42 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

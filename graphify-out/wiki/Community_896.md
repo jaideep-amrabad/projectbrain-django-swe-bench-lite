@@ -1,28 +1,28 @@
 # Community 896
 
-> 6 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **RelatedPopulator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **get_related_populators()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **RelatedPopulator is used for select_related() object instantiation. The idea is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.populate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **URLHandling** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **.test_nonascii_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **.test_permanent_nonascii_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **A non-ASCII argument to HttpRedirect is handled properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **A non-ASCII argument to HttpPermanentRedirect is handled properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **Tests for URL handling in views and responses.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
 
 ## Relationships
 
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

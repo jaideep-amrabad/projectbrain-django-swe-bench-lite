@@ -1,32 +1,34 @@
 # Community 869
 
-> 7 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **get_app_template_dirs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
-- **app_directories.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
-- **Loader** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
-- **.get_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
-- **FilesystemLoader** (1 connections)
-- **Wrapper for loading templates from "templates" directories in INSTALLED_APPS…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
-- **Return an iterable of paths of directories to load app templates from. dirname…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- **.annotate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.dates()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.datetimes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._validate_values_are_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a list of date objects representing all available dates for the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a list of datetime objects representing all available datetimes for the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a query set in which the returned objects have been annotated with extra…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 87](Community_87.md) (4 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 154](Community_154.md) (1 shared connections)
+- [Community 57](Community_57.md) (4 shared connections)
+- [Community 241](Community_241.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
-- `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

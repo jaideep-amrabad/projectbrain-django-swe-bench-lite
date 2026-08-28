@@ -1,49 +1,40 @@
 # Community 595
 
-> 16 nodes · cohesion 0.17
+> 15 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **SessionStore** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.test_ticket_12163()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.create_model_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.get_model_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **._get_session_from_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.create()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.load()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **Implement database session store.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **Return a new instance of the session model object, which represents the current…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **Save the current session data to the database. If 'must_create' is True, raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **RegisterLookupMixin** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._clear_cached_class_lookups()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.get_class_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.merge_dicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._unregister_class_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.get_instance_lookups()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._get_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.register_class_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._unregister_instance_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **subclasses()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Merge dicts in reverse to preference the order of the original list. e.g.,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Remove given lookup from cls lookups. For use in tests only as it's not thread-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Remove given lookup from instance lookups. For use in tests only as it's not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.register_instance_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 262](Community_262.md) (4 shared connections)
-- [Community 504](Community_504.md) (2 shared connections)
-- [Community 577](Community_577.md) (2 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
-- [Community 738](Community_738.md) (1 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 140](Community_140.md) (1 shared connections)
-- [Community 173](Community_173.md) (1 shared connections)
-- [Community 741](Community_741.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 141](Community_141.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (80%)
-- INFERRED: 8 (20%)
+- EXTRACTED: 25 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

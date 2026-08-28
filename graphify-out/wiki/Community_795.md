@@ -1,34 +1,40 @@
 # Community 795
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **ModelsPermissionsChecksTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_clashing_custom_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_clashing_default_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_custom_permission_codename_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_custom_permission_name_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_empty_default_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_model_name_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_non_clashing_custom_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **.test_verbose_name_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **ValidationAssertions** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
+- **test_custom_messages.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- **validation/test_validators.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
+- **validation/__init__.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
+- **CustomMessagesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- **CustomMessagesModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_custom_null_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- **.test_custom_simple_validator_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- **.assertFailsValidation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
+- **.assertFieldFailsValidationWithMessage()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
 
 ## Relationships
 
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 858](Community_858.md) (1 shared connections)
-- [Community 235](Community_235.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 568](Community_568.md) (4 shared connections)
+- [Community 525](Community_525.md) (3 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 712](Community_712.md) (2 shared connections)
+- [Community 732](Community_732.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 31 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

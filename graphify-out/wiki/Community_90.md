@@ -1,51 +1,67 @@
 # Community 90
 
-> 34 nodes · cohesion 0.07
+> 169 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **FixtureLoadingTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **skipUnless** (7 connections)
-- **.test_dumpdata_with_file_bz2_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_file_lzma_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_file_xz_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_compressed_loading_bz2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_compressed_loading_lzma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_compressed_loading_xz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_progressbar()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_exclude_option_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_load_fixture_with_special_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loaddata_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loaddata_null_characters_on_postgresql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loading_stdin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_stdin_without_format()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_ambiguous_compressed_fixture()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_compress_format_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_compressed_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_compressed_loading_gzip()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_compressed_specified_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_db_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_uuid_pks()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loaddata_app_option()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loaddata_verbosity_three()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loading_using()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- *... and 9 more nodes in this community*
+- **BaseDatabaseWrapper** (74 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **async_unsafe()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/asyncio.py`
+- **DatabaseWrapper** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **DatabaseWrapper** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **TransactionManagementError** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **.validate_thread_sharing()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.connect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._cursor()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._set_autocommit()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **CursorWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **DatabaseErrorWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.ensure_connection()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._rollback()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.validate_no_atomic_block()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **DatabaseWrapperTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **._commit()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.get_autocommit()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._prepare_cursor()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **AsyncUnsafeTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.check_database_version_supported()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._close()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.close_if_health_check_failed()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.on_commit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.run_and_clear_commit_hooks()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._savepoint()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- *... and 144 more nodes in this community*
 
 ## Relationships
 
-- [Community 469](Community_469.md) (14 shared connections)
-- [Community 378](Community_378.md) (8 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 820](Community_820.md) (1 shared connections)
+- [Community 66](Community_66.md) (36 shared connections)
+- [Community 70](Community_70.md) (7 shared connections)
+- [Community 453](Community_453.md) (4 shared connections)
+- [Community 220](Community_220.md) (4 shared connections)
+- [Community 120](Community_120.md) (4 shared connections)
+- [Community 32](Community_32.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 173](Community_173.md) (2 shared connections)
+- [Community 147](Community_147.md) (2 shared connections)
+- [Community 936](Community_936.md) (1 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
+- [Community 298](Community_298.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/asyncio.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (87%)
-- INFERRED: 8 (13%)
+- EXTRACTED: 289 (93%)
+- INFERRED: 23 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

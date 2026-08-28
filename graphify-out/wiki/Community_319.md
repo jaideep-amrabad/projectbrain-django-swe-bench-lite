@@ -1,57 +1,60 @@
 # Community 319
 
-> 42 nodes · cohesion 0.10
+> 32 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **TestSuiteTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **iter_test_cases()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.assertTestNames()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.make_tests()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.build_suite()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **reorder_test_bin()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **reorder_tests()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.make_test_suite()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.load_tests_for_label()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **MySuite** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_test_bin_random()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_test_bin_random_and_reverse()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_tests_random()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_tests_random_mixed_classes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_tests_reverse_with_duplicates()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_tests_same_type_consecutive()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_shuffle_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **._get_databases()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.setup_shuffler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **partition_suite_by_case()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_iter_test_cases_basic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_iter_test_cases_custom_test_suite_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_iter_test_cases_mixed_test_suite_classes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_test_bin_no_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- *... and 17 more nodes in this community*
+- **gis/forms/fields.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **gis/forms/widgets.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **gis/forms/__init__.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/__init__.py`
+- **GeometryField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **BaseGeometryWidget** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **OpenLayersWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **OSMWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **.to_python()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **GeometryCollectionField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **LineStringField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **MultiLineStringField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **MultiPointField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **MultiPolygonField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **PointField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **PolygonField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **.deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **.deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **This is the basic form field for a Geometry. Any textual input that is accepted…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **Transform the value to a Geometry object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **Validate that the input value can be converted to a Geometry object and return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 18](Community_18.md) (12 shared connections)
-- [Community 124](Community_124.md) (8 shared connections)
-- [Community 492](Community_492.md) (7 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 502](Community_502.md) (1 shared connections)
-- [Community 229](Community_229.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 17](Community_17.md) (9 shared connections)
+- [Community 47](Community_47.md) (7 shared connections)
+- [Community 121](Community_121.md) (4 shared connections)
+- [Community 102](Community_102.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 146](Community_146.md) (2 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 272](Community_272.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 137](Community_137.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 114 (98%)
+- EXTRACTED: 92 (98%)
 - INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 

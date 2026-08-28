@@ -1,36 +1,34 @@
 # Community 804
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **SplitDateTimeWidgetTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_formatting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_constructor_different_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_fieldset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_render_date_and_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_render_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **Use 'date_format' and 'time_format' to change the way a value is displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_render_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
+- **DatetimeTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
+- **.date()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- **new_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- **.test_compare_datetimes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
+- **.test_safe_strftime()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
+- **.test_zero_padding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
+- **Generate a safe date from a datetime.date object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
+- **Regression for #12524 Pre-1000AD dates are padded with zeros if necessary** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 199](Community_199.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 580](Community_580.md) (1 shared connections)
-- [Community 323](Community_323.md) (1 shared connections)
+- [Community 20](Community_20.md) (4 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 43](Community_43.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (55%)
-- INFERRED: 9 (45%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

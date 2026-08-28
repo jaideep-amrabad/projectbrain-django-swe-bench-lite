@@ -1,28 +1,28 @@
 # Community 889
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.48
 
 ## Key Concepts
 
-- **URLHandling** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **.test_nonascii_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **.test_permanent_nonascii_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **A non-ASCII argument to HttpRedirect is handled properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **A non-ASCII argument to HttpPermanentRedirect is handled properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **Tests for URL handling in views and responses.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **UnorderedListTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **setup** (5 connections)
+- **.test_unordered_list03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_unordered_list04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_unordered_list01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_unordered_list02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_unordered_list05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

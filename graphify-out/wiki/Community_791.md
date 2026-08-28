@@ -1,37 +1,38 @@
 # Community 791
 
-> 9 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **.as_sql()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.get_select_for_update_of_arguments()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.quote_name_unless_alias()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.get_from_clause()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.get_combinator_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Return a list of strings that are joined together to go after the "FROM" part…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Return a quoted list of arguments for the SELECT FOR UPDATE OF part of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **A wrapper around connection.ops.quote_name that doesn't quote aliases for table…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Create the SQL for this query. Return the SQL string and list of parameters. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **RequestFactoryTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_get_request_from_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_request_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_trace_request_from_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_request_factory_default_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Tests for the request factory.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **The request factory implements all the HTTP/1.1 methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **The request factory returns a templated response for a GET request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **The request factory returns an echo response for a TRACE request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_request_factory_sets_headers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 529](Community_529.md) (6 shared connections)
-- [Community 762](Community_762.md) (4 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 790](Community_790.md) (2 shared connections)
-- [Community 930](Community_930.md) (1 shared connections)
-- [Community 92](Community_92.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 134](Community_134.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 515](Community_515.md) (1 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

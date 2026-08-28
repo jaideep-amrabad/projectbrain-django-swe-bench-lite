@@ -1,31 +1,58 @@
 # Community 122
 
-> 8 nodes · cohesion 0.36
+> 32 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **gdal_version()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **gdal_full_version()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **gdal_tests/tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
-- **GDALTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
-- **.test_gdal_full_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
-- **.test_gdal_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
-- **Return only the GDAL version number information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **Return the full GDAL version information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
+- **TestDebugSQL** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **._test_output()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **AutoIncrementResetTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **test_debug_sql.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **test_runner/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **ErrorSetUpTestDataTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **Through** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **ErrorSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **ErrorTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **FailingSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **FailingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **PassingSubTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **PassingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **.test_setupclass_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **._test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **ThroughBase** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **.test_output_normal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.test_output_verbose()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.test_autoincrement_reset1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_autoincrement_reset2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **.runTest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 75](Community_75.md) (6 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 15](Community_15.md) (6 shared connections)
+- [Community 133](Community_133.md) (4 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 67 (93%)
+- INFERRED: 5 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

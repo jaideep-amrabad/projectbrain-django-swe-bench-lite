@@ -1,42 +1,40 @@
 # Community 727
 
-> 12 nodes · cohesion 0.62
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Event** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **SerializationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_json_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_python_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_xml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_yaml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_local_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_other_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_utc()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_naive_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_naive_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **TemplateStringsTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_csrf_token()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.check_tokens_equivalent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_django_html_escaping()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_from_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_get_template_nonexistent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_get_template_syntax_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_html_escaping()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_no_directory_traversal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_non_ascii_characters()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
 
 ## Relationships
 
-- [Community 526](Community_526.md) (5 shared connections)
-- [Community 636](Community_636.md) (5 shared connections)
-- [Community 834](Community_834.md) (1 shared connections)
-- [Community 836](Community_836.md) (1 shared connections)
-- [Community 589](Community_589.md) (1 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 231](Community_231.md) (2 shared connections)
+- [Community 181](Community_181.md) (2 shared connections)
+- [Community 224](Community_224.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (84%)
-- INFERRED: 9 (16%)
+- EXTRACTED: 22 (92%)
+- INFERRED: 2 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,33 +1,39 @@
 # Community 798
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **BasicFieldsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **Field** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_cooperative_multiple_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.test_field_deepcopies_widget_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.test_field_sets_widget_is_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.test_disabled_field_has_changed_always_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **Nested** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **security/csrf.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- **_get_failure_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._reject()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **check_csrf_cookie_secure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- **check_csrf_failure_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- **check_csrf_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- **_csrf_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- **register** (3 connections)
+- **Return the view to be used for CSRF rejections.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 580](Community_580.md) (1 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
+- [Community 25](Community_25.md) (4 shared connections)
+- [Community 550](Community_550.md) (2 shared connections)
+- [Community 43](Community_43.md) (2 shared connections)
+- [Community 228](Community_228.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 181](Community_181.md) (1 shared connections)
+- [Community 231](Community_231.md) (1 shared connections)
+- [Community 161](Community_161.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (67%)
-- INFERRED: 4 (33%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

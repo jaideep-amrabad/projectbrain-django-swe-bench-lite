@@ -1,36 +1,34 @@
 # Community 813
 
-> 10 nodes · cohesion 0.27
+> 9 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- **PropertyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
-- **properties/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- **properties/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
-- **.test_setter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
-- **._get_full_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- **._set_full_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- **Using properties on models Use properties on models just like on any other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
-- **.test_getter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **Place** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Restaurant** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ItalianRestaurant** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ParkingLot** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.test_model_inheritance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **ParkingLot3** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.test_issue_7276()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_issue_6755()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **Regression test for #6755** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 430](Community_430.md) (12 shared connections)
+- [Community 292](Community_292.md) (8 shared connections)
+- [Community 781](Community_781.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 29 (85%)
+- INFERRED: 5 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

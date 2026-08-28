@@ -1,27 +1,29 @@
 # Community 977
 
-> 4 nodes · cohesion 0.50
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **Unpicklable** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_add_fail_on_pickleerror()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_set_fail_on_pickleerror()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **SQLDeleteCompiler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.contains_self_reference_subquery()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **._expr_refs_base_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.single_alias()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Relationships
 
-- [Community 269](Community_269.md) (2 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 529](Community_529.md) (1 shared connections)
+- [Community 772](Community_772.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

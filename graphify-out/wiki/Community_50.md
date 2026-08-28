@@ -1,67 +1,59 @@
 # Community 50
 
-> 131 nodes · cohesion 0.03
+> 161 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **cache/tests.py** (93 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **core/cache/__init__.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **cache/backends/base.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **learn_cache_key()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **decorators/cache.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- **get_cache_key()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **CacheMiddlewareTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **FetchFromCacheMiddleware** (15 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **UpdateCacheMiddleware** (15 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **CacheUtils** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **CacheMiddleware** (12 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- **cache_page()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- **CacheI18nTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **connection.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **empty_response()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **memcached.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **ConnectionProxy** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- **patch_cache_control()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- **cache_control()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- **tests_async.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **TestWithTemplateResponse** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **InvalidCacheBackendError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **CacheHandlerTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **CacheHEADTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **hello_world_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- *... and 106 more nodes in this community*
+- **GEOSGeometryBase** (102 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **._topology()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **PreparedGeometry** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- **LinearGeometryMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.transform()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **Return True if the DE-9IM Intersection Matrix for the two geometries is…** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.clone()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **._post_init()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **ewkb_w()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **wkb_w()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.hex()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.intersection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.relate_pattern()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.__setstate__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.sym_difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.union()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.__and__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.boundary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.buffer()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.buffer_with_style()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.centroid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.convex_hull()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.__copy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.__deepcopy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- *... and 136 more nodes in this community*
 
 ## Relationships
 
-- [Community 42](Community_42.md) (39 shared connections)
-- [Community 18](Community_18.md) (19 shared connections)
-- [Community 11](Community_11.md) (19 shared connections)
-- [Community 35](Community_35.md) (16 shared connections)
-- [Community 2](Community_2.md) (12 shared connections)
-- [Community 67](Community_67.md) (11 shared connections)
-- [Community 45](Community_45.md) (9 shared connections)
-- [Community 48](Community_48.md) (7 shared connections)
-- [Community 71](Community_71.md) (5 shared connections)
-- [Community 10](Community_10.md) (5 shared connections)
-- [Community 363](Community_363.md) (5 shared connections)
-- [Community 182](Community_182.md) (4 shared connections)
+- [Community 47](Community_47.md) (24 shared connections)
+- [Community 29](Community_29.md) (10 shared connections)
+- [Community 36](Community_36.md) (7 shared connections)
+- [Community 363](Community_363.md) (3 shared connections)
+- [Community 193](Community_193.md) (2 shared connections)
+- [Community 184](Community_184.md) (2 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 436](Community_436.md) (1 shared connections)
+- [Community 283](Community_283.md) (1 shared connections)
+- [Community 376](Community_376.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
 
 ## Audit Trail
 
-- EXTRACTED: 429 (95%)
-- INFERRED: 21 (5%)
+- EXTRACTED: 237 (94%)
+- INFERRED: 16 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

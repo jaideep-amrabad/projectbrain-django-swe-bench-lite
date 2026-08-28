@@ -1,59 +1,70 @@
 # Community 80
 
-> 115 nodes · cohesion 0.02
+> 65 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **admin_views/models.py** (167 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Actor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **UnchangeableObject** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Bookmark** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ModelWithStringPrimaryKey** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Podcast** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Villain** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ChapterXtra1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ChildOfReferer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CoverLetter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CyclicOne** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CyclicTwo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **EmptyModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Gadget** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **GenRelReference** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Inquisition** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Media** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ParentWithDependentChildren** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ParentWithUUIDPK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **PlotDetails** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **PrePopulatedPostLargeSlug** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Promo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Recommendation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Recommender** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- *... and 90 more nodes in this community*
+- **gettext()** (71 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **humanize.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/humanize.py`
+- **TranslationTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **ngettext()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **ngettext_lazy()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **npgettext_lazy()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **pgettext()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **.test_safe_status()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **gis/views.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/views.py`
+- **filter** (6 connections)
+- **feed()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/views.py`
+- **intword()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/humanize.py`
+- **ordinal()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/humanize.py`
+- **get_language_bidi()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **lazy_number()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **round_away_from_one()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **to_language()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **naturalday()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/humanize.py`
+- **naturaltime()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/humanize.py`
+- **.string_for()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/humanize.py`
+- **npgettext()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **.test_english_fallback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_empty_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_multiple_plurals_per_language()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_ngettext_lazy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [Community 89](Community_89.md) (85 shared connections)
-- [Community 0](Community_0.md) (14 shared connections)
-- [Community 191](Community_191.md) (14 shared connections)
-- [Community 493](Community_493.md) (13 shared connections)
-- [Community 54](Community_54.md) (5 shared connections)
-- [Community 398](Community_398.md) (4 shared connections)
-- [Community 794](Community_794.md) (3 shared connections)
-- [Community 734](Community_734.md) (3 shared connections)
-- [Community 190](Community_190.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 859](Community_859.md) (2 shared connections)
-- [Community 45](Community_45.md) (2 shared connections)
+- [Community 17](Community_17.md) (19 shared connections)
+- [Community 42](Community_42.md) (19 shared connections)
+- [Community 3](Community_3.md) (14 shared connections)
+- [Community 1](Community_1.md) (9 shared connections)
+- [Community 338](Community_338.md) (7 shared connections)
+- [Community 11](Community_11.md) (7 shared connections)
+- [Community 70](Community_70.md) (6 shared connections)
+- [Community 205](Community_205.md) (6 shared connections)
+- [Community 316](Community_316.md) (4 shared connections)
+- [Community 41](Community_41.md) (4 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/humanize.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/exclude/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/project_dir/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/project_dir/app_no_locale/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/project_dir/app_with_locale/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/unchanged/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 280 (98%)
-- INFERRED: 5 (2%)
+- EXTRACTED: 234 (98%)
+- INFERRED: 6 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,27 +1,28 @@
 # Community 1019
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **TestTicket11101** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_ticket_11101()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Fixtures can be rolled back (ticket #11101).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.select_for_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.update_or_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a new QuerySet instance that will select objects with a FOR UPDATE lock.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Look up an object with the given kwargs, updating one with defaults if it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 324](Community_324.md) (2 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 57](Community_57.md) (2 shared connections)
+- [Community 241](Community_241.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (83%)
-- INFERRED: 1 (17%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

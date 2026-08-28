@@ -1,62 +1,62 @@
 # Community 126
 
-> 56 nodes · cohesion 0.04
+> 79 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **LazySettings** (22 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Settings** (18 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **UserSettingsHolder** (13 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **IsOverriddenTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **DeprecationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
-- **.__getattr__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **._setup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **._add_script_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **TestListSettings** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.configure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__delattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__setattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__getattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.disable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_use_deprecated_pytz_deprecation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.configured()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.USE_L10N()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **._USE_L10N_INTERNAL()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__delattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.is_overridden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__setattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- *... and 31 more nodes in this community*
+- **MigrationAutodetector** (70 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._detect_changes()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.add_operation()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **resolve_relation()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **.generate_altered_fields()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._get_dependencies_for_foreign_key()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.through()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.generate_created_models()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.deep_deconstruct()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_renamed_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._sort_migrations()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._build_migration_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.changes()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_added_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_altered_foo_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_deleted_models()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_removed_altered_foo_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_through_model_map()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._get_altered_foo_together_operations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.parse_number()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._resolve_dependency()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.arrange_for_graph()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.check_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.create_renamed_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_added_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- *... and 54 more nodes in this community*
 
 ## Relationships
 
-- [Community 81](Community_81.md) (4 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 415](Community_415.md) (4 shared connections)
-- [Community 71](Community_71.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 39](Community_39.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 101](Community_101.md) (1 shared connections)
-- [Community 1037](Community_1037.md) (1 shared connections)
-- [Community 323](Community_323.md) (1 shared connections)
+- [Community 22](Community_22.md) (9 shared connections)
+- [Community 13](Community_13.md) (7 shared connections)
+- [Community 75](Community_75.md) (4 shared connections)
+- [Community 37](Community_37.md) (4 shared connections)
+- [Community 114](Community_114.md) (3 shared connections)
+- [Community 76](Community_76.md) (3 shared connections)
+- [Community 180](Community_180.md) (2 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 576](Community_576.md) (1 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
+- [Community 738](Community_738.md) (1 shared connections)
+- [Community 577](Community_577.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 99 (95%)
-- INFERRED: 5 (5%)
+- EXTRACTED: 186 (92%)
+- INFERRED: 17 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

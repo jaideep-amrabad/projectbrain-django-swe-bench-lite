@@ -1,43 +1,48 @@
 # Community 609
 
-> 15 nodes · cohesion 0.15
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **LocMemCacheTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **limit_locmem_entries** (3 connections)
-- **.test_lru_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_lru_incr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_lru_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_multiple_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_incr_decr_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Multiple locmem caches are isolated** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **incr/decr does not modify expiry time (matches memcached behavior)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **get() moves cache keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **set() moves cache keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **incr() moves cache keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.assertOptimizesTo()** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.optimize()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_field_delete_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_reordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_reordering_circular_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_single()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_model_managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_model_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_and_remove_model_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_optimize_elidable_operation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **Handy shortcut for getting results + number of loops** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **AddField optimizes into CreateModel if it's a FK to a model that's between them…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **CreateModel reordering behavior doesn't result in an infinite loop if there are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **The optimizer does nothing on a single operation, and that it does it in just…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **RemoveField should absorb AlterField** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
-- [Community 578](Community_578.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 269](Community_269.md) (1 shared connections)
-- [Community 941](Community_941.md) (1 shared connections)
-- [Community 556](Community_556.md) (1 shared connections)
+- [Community 675](Community_675.md) (13 shared connections)
+- [Community 757](Community_757.md) (5 shared connections)
+- [Community 810](Community_810.md) (3 shared connections)
+- [Community 1073](Community_1073.md) (1 shared connections)
+- [Community 1074](Community_1074.md) (1 shared connections)
+- [Community 1075](Community_1075.md) (1 shared connections)
+- [Community 1076](Community_1076.md) (1 shared connections)
+- [Community 955](Community_955.md) (1 shared connections)
+- [Community 1077](Community_1077.md) (1 shared connections)
+- [Community 1078](Community_1078.md) (1 shared connections)
+- [Community 1079](Community_1079.md) (1 shared connections)
+- [Community 1080](Community_1080.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 47 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

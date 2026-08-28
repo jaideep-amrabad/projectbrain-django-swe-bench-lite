@@ -1,66 +1,61 @@
 # Community 272
 
-> 109 nodes · cohesion 0.03
+> 70 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **BaseDatabaseCreation** (42 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **dummy/base.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- **base/creation.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **DatabaseCreationTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
-- **DatabaseCreation** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **.create_test_db()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **DatabaseCreation** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
-- **DatabaseCreation** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **postgresql/test_creation.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
-- **DatabaseCreationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **postgresql/creation.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
-- **TestDbCreationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **get_connection_copy()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **mysql/test_creation.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **.check_sql_table_creation_suffix()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
-- **.destroy_test_db()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **mysql/creation.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **.clone_test_db()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **.is_in_memory_db()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **.test_mark_expected_failures_and_skips_call()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **TestDbSignatureTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **._get_database_display_str()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **.get_test_db_clone_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **patch** (5 connections)
-- **.test_create_test_db_database_exists()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- *... and 84 more nodes in this community*
+- **Widget** (21 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **SelectDateWidgetTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **SelectDateWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **ChoiceWidget** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.render()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **WidgetTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
+- **.optgroups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.format_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.create_option()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.subwidgets()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.id_for_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **._parse_date_fmt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.build_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_custom_input_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.id_for_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.value_from_datadict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_years_rendered_without_separator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [Community 67](Community_67.md) (30 shared connections)
-- [Community 2](Community_2.md) (9 shared connections)
-- [Community 30](Community_30.md) (8 shared connections)
-- [Community 18](Community_18.md) (6 shared connections)
-- [Community 32](Community_32.md) (6 shared connections)
-- [Community 137](Community_137.md) (6 shared connections)
-- [Community 71](Community_71.md) (5 shared connections)
-- [Community 167](Community_167.md) (4 shared connections)
-- [Community 92](Community_92.md) (4 shared connections)
-- [Community 611](Community_611.md) (3 shared connections)
-- [Community 174](Community_174.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
+- [Community 137](Community_137.md) (13 shared connections)
+- [Community 17](Community_17.md) (5 shared connections)
+- [Community 42](Community_42.md) (3 shared connections)
+- [Community 477](Community_477.md) (3 shared connections)
+- [Community 584](Community_584.md) (2 shared connections)
+- [Community 96](Community_96.md) (2 shared connections)
+- [Community 352](Community_352.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 168](Community_168.md) (1 shared connections)
+- [Community 577](Community_577.md) (1 shared connections)
+- [Community 536](Community_536.md) (1 shared connections)
+- [Community 319](Community_319.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
 
 ## Audit Trail
 
-- EXTRACTED: 264 (93%)
-- INFERRED: 20 (7%)
+- EXTRACTED: 121 (95%)
+- INFERRED: 7 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,11 +1,10 @@
 # Community 347
 
-> 33 nodes · cohesion 0.12
+> 29 nodes · cohesion 0.12
 
 ## Key Concepts
 
 - **OperationTestCase** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **OperationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
 - **.alter_gis_model()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
 - **.assertColumnExists()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
 - **.assertSpatialIndexExists()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
@@ -23,21 +22,22 @@
 - **.assertGeometryColumnsCount()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
 - **.test_add_raster_field_on_db_without_raster_support()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
 - **.get_table_description()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_add_check_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
 - **.test_create_raster_model_on_db_without_raster_support()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
 - **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
 - **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
 - **.test_create_model_spatial_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_geom_col_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- *... and 8 more nodes in this community*
+- **.has_spatial_indexes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **Test the AddField operation with a geometry-enabled column.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **Test the AddField operation with a raster-enabled column.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 63](Community_63.md) (6 shared connections)
-- [Community 28](Community_28.md) (5 shared connections)
-- [Community 274](Community_274.md) (2 shared connections)
+- [Community 47](Community_47.md) (13 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 576](Community_576.md) (2 shared connections)
 - [Community 180](Community_180.md) (2 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
+- [Community 564](Community_564.md) (1 shared connections)
 - [Community 34](Community_34.md) (1 shared connections)
 
 ## Source Files
@@ -46,8 +46,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 78 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 71 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,25 +4,24 @@
 
 ## Key Concepts
 
-- **UUIDFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_clean_value_with_dashes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_uuidfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_uuidfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_uuidfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_uuidfield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- **ListAggregate** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
+- **StdDevPop** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
+- **StdDevSamp** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
+- **VarPop** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
+- **VarSamp** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
+- **list** (1 connections)
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 167](Community_167.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

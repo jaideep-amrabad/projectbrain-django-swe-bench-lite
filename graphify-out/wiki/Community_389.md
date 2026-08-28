@@ -1,53 +1,60 @@
 # Community 389
 
-> 29 nodes · cohesion 0.07
+> 29 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ManyToOneTests** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_add_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_add_remove_set_by_pk_raises()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_add_then_remove_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_assign()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_assign_fk_id_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_assign_fk_id_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_cached_foreign_key_with_to_field_not_cleared_by_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_clear_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_create_relation_with_gettext_lazy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_deepcopy_and_circular_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_explicit_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_fk_instantiation_outside_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_fk_to_bigautofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_fk_to_smallautofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_manager_class_caching()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_multiple_foreignkeys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_related_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_remove_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_reverse_assignment_deprecation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_reverse_foreign_key_instance_to_field_caching()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_reverse_selects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **runtests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **SeleniumTestCaseBase** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **django_tests()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.create_webdriver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **collect_test_modules()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **setup_collect_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **setup_run_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.import_webdriver()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **ActionSelenium** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_filtered_test_modules()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **teardown_collect_tests()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.create_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.import_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.__new__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **bisect_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_label_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_subprocess_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_test_modules()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **paired_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **teardown_run_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.get_capability()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **get_apps_to_install()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_installed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 537](Community_537.md) (12 shared connections)
-- [Community 838](Community_838.md) (8 shared connections)
-- [Community 801](Community_801.md) (6 shared connections)
-- [Community 981](Community_981.md) (3 shared connections)
+- [Community 15](Community_15.md) (9 shared connections)
+- [Community 769](Community_769.md) (4 shared connections)
+- [Community 501](Community_501.md) (3 shared connections)
+- [Community 370](Community_370.md) (3 shared connections)
+- [Community 70](Community_70.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 108](Community_108.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 1072](Community_1072.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 146](Community_146.md) (1 shared connections)
+- [Community 84](Community_84.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (69%)
-- INFERRED: 18 (31%)
+- EXTRACTED: 78 (94%)
+- INFERRED: 5 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

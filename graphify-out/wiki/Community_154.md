@@ -1,68 +1,59 @@
 # Community 154
 
-> 64 nodes · cohesion 0.05
+> 29 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **test/signals.py** (53 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **receiver()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **django/dispatch/__init__.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/__init__.py`
-- **template/autoreload.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
-- **BaseHandler** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **.get_response()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **set_urlconf()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **.get_response_async()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **get_commands()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.execute()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.resolve_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **.fetch_command()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **get_template_directories()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
-- **find_commands()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **load_command_class()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.autocomplete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.main_help_text()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.check_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **.make_view_atomic()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **template_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
-- **root_urlconf_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **is_django_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **ReceiverTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- **close_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **.adapt_method_mode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- *... and 39 more nodes in this community*
+- **SimpleTemplateResponse** (29 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **ContentNotRenderedError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.resolve_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.rendered_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.__getstate__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.test_post_callbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.add_post_render_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.is_rendered()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.resolve_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **._response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_pickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_pickling_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_repickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **Exception** (1 connections)
+- **setter** (1 connections)
+- **Render (thereby finalizing) the content of the response. If the content has…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **Set the content for the response.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **Raise an exception if trying to pickle an unrendered response. Pickle only…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 18](Community_18.md) (21 shared connections)
-- [Community 12](Community_12.md) (7 shared connections)
-- [Community 137](Community_137.md) (6 shared connections)
-- [Community 260](Community_260.md) (4 shared connections)
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 45](Community_45.md) (4 shared connections)
-- [Community 101](Community_101.md) (3 shared connections)
-- [Community 91](Community_91.md) (3 shared connections)
-- [Community 229](Community_229.md) (3 shared connections)
-- [Community 424](Community_424.md) (3 shared connections)
-- [Community 67](Community_67.md) (3 shared connections)
-- [Community 186](Community_186.md) (3 shared connections)
+- [Community 461](Community_461.md) (9 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 60](Community_60.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 562](Community_562.md) (2 shared connections)
+- [Community 457](Community_457.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 228](Community_228.md) (1 shared connections)
+- [Community 269](Community_269.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/dispatch/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- `raw/code/hyd-evaluation/django-django/django/template/autoreload.py`
-- `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 198 (96%)
-- INFERRED: 9 (4%)
+- EXTRACTED: 56 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

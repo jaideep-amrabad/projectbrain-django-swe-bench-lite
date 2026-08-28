@@ -1,39 +1,42 @@
 # Community 652
 
-> 13 nodes · cohesion 0.18
+> 15 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **._get_postgis_func()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.spatial_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.postgis_version_tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.postgis_lib_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.postgis_full_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.postgis_geos_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.postgis_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **Return PostGIS version number and compile-time options.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **Determine the version of the PostGIS library.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **Helper routine for calling PostGIS functions and returning their result.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **Return the version of the GEOS library used with PostGIS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **Return the version number of the PostGIS library used with PostgreSQL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **Return the PostGIS version as a tuple (version string, major, minor, subminor).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **PerformConstraintChecksTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **validation/test_constraints.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **Product** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueConstraintProduct** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **ChildProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueConstraintConditionProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **ChildUniqueConstraintProduct** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_full_clean_with_check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_check_constraints_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_check_constraints_on_child_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_partial_unique_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_partial_unique_constraints_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_unique_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_unique_constraints_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
 
 ## Relationships
 
-- [Community 285](Community_285.md) (7 shared connections)
-- [Community 1021](Community_1021.md) (1 shared connections)
-- [Community 274](Community_274.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 728](Community_728.md) (1 shared connections)
+- [Community 525](Community_525.md) (8 shared connections)
+- [Community 28](Community_28.md) (6 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 46 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

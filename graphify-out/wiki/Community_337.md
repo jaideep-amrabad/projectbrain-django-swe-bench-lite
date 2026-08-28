@@ -1,56 +1,54 @@
 # Community 337
 
-> 49 nodes · cohesion 0.05
+> 34 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **check_finders()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
-- **BaseFinder** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **FindersCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **BaseStorageFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **FileSystemFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **AppDirectoriesFinder** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **DefaultStorageFinder** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find_location()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.test_check_finders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_nonexistent_directories()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find_in_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.test_dirs_not_tuple_or_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- *... and 24 more nodes in this community*
+- **IntrospectionTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **introspection/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **introspection/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **ArticleReporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **CheckConstraintModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **UniqueConstraintConditionModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **District** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **.test_get_constraints_indexes_orders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_constraints_unique_indexes_orders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_postgresql_real_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_table_names_with_views()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_bigautofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_django_table_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_django_table_names_retval_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_constraints_index_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_primary_key_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_table_description_col_lengths()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 18](Community_18.md) (16 shared connections)
-- [Community 84](Community_84.md) (2 shared connections)
-- [Community 71](Community_71.md) (2 shared connections)
-- [Community 204](Community_204.md) (2 shared connections)
-- [Community 210](Community_210.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 28](Community_28.md) (5 shared connections)
+- [Community 66](Community_66.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 34](Community_34.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 173](Community_173.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage/filesystem.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (91%)
-- INFERRED: 8 (9%)
+- EXTRACTED: 60 (86%)
+- INFERRED: 10 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

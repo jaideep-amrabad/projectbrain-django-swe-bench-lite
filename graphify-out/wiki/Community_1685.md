@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **SingleObjectTemplateResponseMixinTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_template_mixin_without_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **We want to makes sure that if you use a template mixin, but forget the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **echo.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/subpackage/echo.py`
+- **echo2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/subpackage/echo.py`
+- **simple_tag** (1 connections)
 
 ## Relationships
 
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/subpackage/echo.py`
 
 ## Audit Trail
 

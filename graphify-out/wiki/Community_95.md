@@ -1,59 +1,73 @@
 # Community 95
 
-> 48 nodes · cohesion 0.06
+> 132 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **.decode()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **PBKDF2PasswordHasher** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **MD5PasswordHasher** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **CryptPasswordHasher** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **mask_hash()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **ScryptPasswordHasher** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **SHA1PasswordHasher** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **._check_encode_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **must_update_salt()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.must_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.must_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.harden_runtime()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.must_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- *... and 23 more nodes in this community*
+- **Func** (104 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **Cast** (68 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **expressions_window/tests.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- **Col** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **CastTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **window.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **JSONObject** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **Collate** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.as_sql()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **Lead** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **NthValue** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **JSONObjectTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_json_object.py`
+- **NullIf** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **Lag** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **ValidationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/window/test_validation.py`
+- **.test_key_transform()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- **PostGISSchemaEditor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **Ntile** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **RowNumber** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **test_validation.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/window/test_validation.py`
+- **postgis/schema.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **CollateTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_collate.py`
+- **NullIfTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
+- **expressions_window/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/models.py`
+- **FixDurationInputMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- *... and 107 more nodes in this community*
 
 ## Relationships
 
-- [Community 18](Community_18.md) (13 shared connections)
-- [Community 590](Community_590.md) (11 shared connections)
-- [Community 542](Community_542.md) (8 shared connections)
-- [Community 735](Community_735.md) (6 shared connections)
-- [Community 149](Community_149.md) (4 shared connections)
-- [Community 45](Community_45.md) (4 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 239](Community_239.md) (1 shared connections)
-- [Community 1680](Community_1680.md) (1 shared connections)
+- [Community 2](Community_2.md) (51 shared connections)
+- [Community 85](Community_85.md) (36 shared connections)
+- [Community 1](Community_1.md) (24 shared connections)
+- [Community 14](Community_14.md) (18 shared connections)
+- [Community 38](Community_38.md) (12 shared connections)
+- [Community 8](Community_8.md) (11 shared connections)
+- [Community 24](Community_24.md) (10 shared connections)
+- [Community 158](Community_158.md) (10 shared connections)
+- [Community 66](Community_66.md) (8 shared connections)
+- [Community 16](Community_16.md) (7 shared connections)
+- [Community 26](Community_26.md) (7 shared connections)
+- [Community 202](Community_202.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_collate.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_json_object.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/window/test_validation.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions_window/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 120 (96%)
-- INFERRED: 5 (4%)
+- EXTRACTED: 495 (98%)
+- INFERRED: 10 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

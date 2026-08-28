@@ -1,46 +1,62 @@
 # Community 74
 
-> 18 nodes · cohesion 0.16
+> 199 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **DataTypesTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **Donut** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- **datatypes/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **datatypes/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- **.test_error_on_timezone()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **RumBaba** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- **.test_boolean_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **.test_date_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **.test_datefield_auto_now_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **.test_textfields_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **.test_time_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **.test_year_boundaries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- **This is a basic model to test saving and loading boolean and date-related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- **Regression test for #10970, auto_now_add for DateField should store a Python…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **Year boundary tests (ticket #3689)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **TextField values returned from the database should be str.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **Regression test for #8354: the MySQL and Oracle backends should raise an error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **multiple_database/tests.py** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **QueryTestCase** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **RouterTestCase** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **RouteForWriteTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.override_router()** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Book** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **multiple_database/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **ConnectionRouter** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Person** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **TestRouter** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **AuthRouter** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **Review** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **RelationAssignmentTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **RouterAttributeErrorTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Pet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **UserProfile** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **RouterModelArgumentTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **WriteRouter** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **SignalTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **multiple_database/routers.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **ConnectionRouterTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_partial_router()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **AttributeErrorRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **AuthTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- *... and 174 more nodes in this community*
 
 ## Relationships
 
-- [Community 132](Community_132.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (21 shared connections)
+- [Community 11](Community_11.md) (15 shared connections)
+- [Community 66](Community_66.md) (8 shared connections)
+- [Community 55](Community_55.md) (4 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 206](Community_206.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (94%)
-- INFERRED: 2 (6%)
+- EXTRACTED: 328 (91%)
+- INFERRED: 33 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,39 +1,41 @@
 # Community 634
 
-> 15 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **SMTPBackendStoppedServerTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **SMTPBackendTestsBase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **SMTPHandler** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **skipUnless** (3 connections)
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_fail_silently_on_connection_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_server_stopped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Closing the backend while the SMTP server is stopped doesn't raise an exception.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **A socket connection error is silenced with fail_silently=True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.stop_smtp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.stop_smtp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.handle_DATA()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **admin_default_site/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
+- **CustomAdminSiteTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
+- **CustomAdminSite** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/sites.py`
+- **admin_default_site/sites.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/sites.py`
+- **AdminSiteTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
+- **DefaultAdminSiteTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
+- **.test_custom_adminsite()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
+- **.test_use_custom_admin_site()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
+- **.test_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
+- **.test_use_default_admin_site()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 184](Community_184.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_default_site/sites.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 26 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,36 +1,33 @@
 # Community 862
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.48
 
 ## Key Concepts
 
-- **ImageFieldTestMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **PersonWithHeightAndWidth** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Model that defines height and width fields after the ImageField.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **Mixin class to provide common functionality to ImageField test classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Creates a pristine temp directory (or deletes and recreates if it already…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Removes temp directory and all its contents.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **FieldCacheMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.get_cache_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.delete_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.get_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.is_cached()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **.set_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **Provide an API for working with the model's fields value cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
 
 ## Relationships
 
-- [Community 263](Community_263.md) (3 shared connections)
-- [Community 479](Community_479.md) (2 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 403](Community_403.md) (1 shared connections)
-- [Community 613](Community_613.md) (1 shared connections)
-- [Community 821](Community_821.md) (1 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 141](Community_141.md) (2 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
+- [Community 298](Community_298.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (88%)
-- INFERRED: 2 (12%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

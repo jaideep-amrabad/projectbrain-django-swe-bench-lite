@@ -1,36 +1,42 @@
 # Community 713
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **UnprefixedDefaultLanguageTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_default_lang_without_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_no_redirect_on_404()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_unprefixed_language_with_accept_language()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_unprefixed_language_with_cookie_language()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **With i18n_patterns(..., prefix_default_language=False), the default language…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **Accept-Language' is respected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **A language set in the cookies is respected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **A request for a nonexistent URL shouldn't cause a redirect to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_other_lang_with_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_page_with_dash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_unprefixed_language_with_non_valid_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **admin/apps.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **SimpleAdminConfig** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **check_dependencies()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **AdminConfig** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **.ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **check_admin_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **admin_default_site/apps.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
+- **MyCustomAdminConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
+- **.ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **The default AppConfig for admin which does autodiscovery.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **Simple AppConfig which does not do automatic discovery.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **Check that the admin's dependencies are correctly installed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 41](Community_41.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 84](Community_84.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 855](Community_855.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,33 +1,32 @@
 # Community 860
 
-> 8 nodes · cohesion 0.54
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **ConnectionHealthChecksTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.patch_settings_dict()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.run_query()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_health_checks_disabled()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_health_checks_enabled()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_health_checks_enabled_errors_occurred()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_set_autocommit_health_checks_enabled()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **get_app_template_dirs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- **app_directories.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- **Loader** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- **.get_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- **FilesystemLoader** (1 connections)
+- **Wrapper for loading templates from "templates" directories in INSTALLED_APPS…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- **Return an iterable of paths of directories to load app templates from. dirname…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
 
 ## Relationships
 
-- [Community 28](Community_28.md) (4 shared connections)
-- [Community 30](Community_30.md) (4 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 45](Community_45.md) (4 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- `raw/code/hyd-evaluation/django-django/django/template/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (84%)
-- INFERRED: 4 (16%)
+- EXTRACTED: 14 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

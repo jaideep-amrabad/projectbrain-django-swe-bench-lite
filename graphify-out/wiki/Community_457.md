@@ -1,50 +1,46 @@
 # Community 457
 
-> 24 nodes · cohesion 0.08
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **AsyncQuerySetTest** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aaggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_acount_cached_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **._get_db_feature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_abulk_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_acount()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_acreate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_adelete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aearliest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aexists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_afirst()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aget_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_ain_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aiterator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aiterator_invalid_chunk_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aiterator_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_alast()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_alatest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_async_iteration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aupdate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aupdate_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_raw()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **require_jinja2()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **RenderTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **Jinja2TemplateReloadTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_using()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_using()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_render_with_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **Decorator to enable a Jinja2 template engine in addition to the regular Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render_with_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render_with_multiple_templates()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render_with_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_get_template_directories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_watch_for_template_changes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
 
 ## Relationships
 
-- [Community 975](Community_975.md) (5 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
+- [Community 3](Community_3.md) (7 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 461](Community_461.md) (2 shared connections)
+- [Community 460](Community_460.md) (1 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 763](Community_763.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
+- [Community 60](Community_60.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (88%)
-- INFERRED: 4 (12%)
+- EXTRACTED: 30 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

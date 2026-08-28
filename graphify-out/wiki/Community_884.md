@@ -1,31 +1,36 @@
 # Community 884
 
-> 7 nodes · cohesion 0.48
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **DebugTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_debug.py`
-- **setup** (5 connections)
-- **.test_non_ascii()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_debug.py`
-- **.test_non_debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_debug.py`
-- **.test_modules()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_debug.py`
-- **.test_plain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_debug.py`
-- **.test_script()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_debug.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **PropertyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **properties/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **properties/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **.test_setter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **._get_full_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **._set_full_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **Using properties on models Use properties on models just like on any other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **.test_getter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

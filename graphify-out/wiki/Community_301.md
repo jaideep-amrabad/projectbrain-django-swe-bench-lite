@@ -1,73 +1,51 @@
 # Community 301
 
-> 74 nodes · cohesion 0.04
+> 37 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **FileResponse** (40 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **views/static.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/views/static.py`
-- **FileResponseTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **tests/test_static.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **serve()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/static.py`
-- **view_tests/urls.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/urls.py`
-- **static()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
-- **urls/static.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
-- **test_fileresponse.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **StaticHelperTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **serve()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/views.py`
-- **staticfiles/urls.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/urls.py`
-- **was_modified_since()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/static.py`
-- **directory_index()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/static.py`
-- **staticfiles_urlpatterns()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/urls.py`
-- **admin_scripts/urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/urls.py`
-- **builtin_server/views.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
-- **.set_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **view_tests/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/__init__.py`
-- **.test_debug_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_was_modified_since_fp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **._set_streaming_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.streaming_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **builtin_server/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/urls.py`
-- **file_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
-- *... and 49 more nodes in this community*
+- **LoremIpsumTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **words()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **lorem_ipsum.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **paragraphs()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **sentence()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **paragraph()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **test_lorem_ipsum.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **patch** (5 connections)
+- **.test_not_common_words()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_paragraph()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_paragraphs_not_common()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_sentence()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_sentence_ending()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.test_common_large_number_of_words()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_common_words_in_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_more_words_than_common()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_negative_words()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_paragraphs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_sentence_starts_with_capital()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_same_or_less_common_words()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **Utility functions for generating "lorem ipsum" Latin text.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **Return a randomly generated sentence of lorem ipsum text. The first word is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **Return a randomly generated paragraph of lorem ipsum text. The paragraph…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **Return a list of paragraphs as returned by paragraph(). If `common` is True,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 42](Community_42.md) (23 shared connections)
-- [Community 18](Community_18.md) (17 shared connections)
-- [Community 101](Community_101.md) (9 shared connections)
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 71](Community_71.md) (6 shared connections)
-- [Community 12](Community_12.md) (5 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 35](Community_35.md) (4 shared connections)
-- [Community 187](Community_187.md) (3 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 70](Community_70.md) (2 shared connections)
+- [Community 9](Community_9.md) (4 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/urls.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/views.py`
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/django/views/static.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/builtin_server/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/builtin_server/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/builtin_server/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/urls/helper.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/regression_21530_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
 
 ## Audit Trail
 
-- EXTRACTED: 215 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 64 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

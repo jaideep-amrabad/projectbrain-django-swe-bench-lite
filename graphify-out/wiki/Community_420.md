@@ -1,53 +1,53 @@
 # Community 420
 
-> 25 nodes · cohesion 0.15
+> 31 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **check_framework/test_templates.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **check_for_template_tags_with_the_same_name()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
-- **CheckTemplateTagLibrariesWithSameName** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **check_string_if_invalid_is_string()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
-- **CheckTemplateStringIfInvalidTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **check_setting_app_dirs_loaders()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
-- **CheckTemplateSettingsAppDirsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.get_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_template_tags_with_same_library_name_and_module_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_app_dirs_and_loaders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_template_tags_same_library_in_installed_apps_libraries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **register** (3 connections)
-- **.test_string_if_invalid_not_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_template_tags_with_different_library_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_template_tags_with_different_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_template_tags_with_same_library_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_template_tags_with_same_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_app_dirs_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_loaders_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_string_if_invalid_both_are_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_string_if_invalid_first_is_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_string_if_invalid_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **Error if template loaders are specified and APP_DIRS is True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **BaseManager** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **ManagerTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **ManagerDescriptor** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **._get_queryset_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **._set_creation_counter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.test_manager_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.from_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__class_getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.db()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.db_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **Set the creation counter value for this instance and increment the class-level…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (7 shared connections)
-- [Community 27](Community_27.md) (5 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 204](Community_204.md) (4 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 10](Community_10.md) (4 shared connections)
+- [Community 424](Community_424.md) (3 shared connections)
+- [Community 439](Community_439.md) (1 shared connections)
+- [Community 456](Community_456.md) (1 shared connections)
 - [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 40 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,63 +1,63 @@
 # Community 58
 
-> 143 nodes · cohesion 0.02
+> 107 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **AdminSite** (104 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **SystemChecksTestCase** (67 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **admin_checks/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **admin_checks/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **.each_context()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.login()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.get_app_list()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **Song** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **.app_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **._build_app_dict()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.get_urls()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.has_permission()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.index()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **MyAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **._filter_actions_by_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.password_change()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **Influence** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **.test_custom_get_form_with_fieldsets()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **.test_custom_modelforms_with_fields_fieldsets()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **.test_fk_exclusion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **.logout()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.password_change_done()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.unregister()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **Album** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- *... and 118 more nodes in this community*
+- **cache/tests.py** (93 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **learn_cache_key()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **decorators/cache.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **get_cache_key()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **CacheMiddlewareTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **FetchFromCacheMiddleware** (15 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- **UpdateCacheMiddleware** (15 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- **CacheUtils** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **CacheMiddleware** (12 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- **cache_page()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **CacheI18nTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **empty_response()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.process_response()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- **patch_cache_control()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **cache_control()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **TestWithTemplateResponse** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **CacheHandlerTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **CacheHEADTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **hello_world_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **CacheHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **add_never_cache_headers()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **_generate_cache_header_key()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **_generate_cache_key()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **_i18n_cache_key_suffix()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **.test_cache_write_unpicklable_object()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- *... and 82 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (10 shared connections)
-- [Community 47](Community_47.md) (9 shared connections)
-- [Community 430](Community_430.md) (7 shared connections)
-- [Community 45](Community_45.md) (7 shared connections)
-- [Community 42](Community_42.md) (7 shared connections)
-- [Community 60](Community_60.md) (6 shared connections)
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 282](Community_282.md) (4 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 107](Community_107.md) (3 shared connections)
+- [Community 43](Community_43.md) (35 shared connections)
+- [Community 11](Community_11.md) (18 shared connections)
+- [Community 35](Community_35.md) (16 shared connections)
+- [Community 12](Community_12.md) (9 shared connections)
+- [Community 3](Community_3.md) (9 shared connections)
+- [Community 146](Community_146.md) (8 shared connections)
+- [Community 15](Community_15.md) (7 shared connections)
+- [Community 61](Community_61.md) (7 shared connections)
+- [Community 98](Community_98.md) (5 shared connections)
+- [Community 60](Community_60.md) (4 shared connections)
+- [Community 101](Community_101.md) (4 shared connections)
+- [Community 134](Community_134.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 292 (93%)
-- INFERRED: 21 (7%)
+- EXTRACTED: 339 (94%)
+- INFERRED: 20 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

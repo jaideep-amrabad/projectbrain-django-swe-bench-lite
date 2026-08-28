@@ -1,53 +1,35 @@
 # Community 735
 
-> 26 nodes · cohesion 0.08
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **BasePasswordHasher** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **BasePasswordHasherTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.salt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.harden_runtime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.must_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Abstract base class for password hashers When creating your own hasher, you…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Generate a cryptographically secure nonce salt in ASCII with an entropy of at…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Check if the given password is correct.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Create an encoded database value. The result is normally formatted as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Return a decoded database value. The result is a dictionary and should contain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Return a summary of safe values. The result is a dictionary and will be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Bridge the runtime gap between the work factor supplied in `encoded` and the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.test_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_decode()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_encode()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_load_library_importerror()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_load_library_no_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_must_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_safe_summary()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- *... and 1 more nodes in this community*
+- **CheckSessionCookieSecureTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **.test_session_cookie_secure_both()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **.test_session_cookie_secure_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **.test_session_cookie_secure_with_installed_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **.test_session_cookie_secure_with_installed_app_truthy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **.test_session_cookie_secure_with_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **Warn if SESSION_COOKIE_SECURE is off and "django.contrib.sessions" is in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **SESSION_COOKIE_SECURE must be boolean.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **Warn if SESSION_COOKIE_SECURE is off and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **If SESSION_COOKIE_SECURE is off and we find both the session app and the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **If SESSION_COOKIE_SECURE is on, there's no warning about it.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 
 ## Relationships
 
-- [Community 95](Community_95.md) (6 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 590](Community_590.md) (3 shared connections)
-- [Community 542](Community_542.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 11](Community_11.md) (5 shared connections)
+- [Community 550](Community_550.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

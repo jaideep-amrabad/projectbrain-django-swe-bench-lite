@@ -1,56 +1,51 @@
 # Community 356
 
-> 37 nodes · cohesion 0.09
+> 32 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **signals/tests.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **SignalTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **LazyModelRefTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **signals/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **BaseSignalSetup** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.receiver()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **Car** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **Page** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **.test_disconnect_registered_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_disconnect_unregistered_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_register_model_class_senders_immediately()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_disconnect_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_already_loaded_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_not_loaded_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_decorators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_delete_signals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_disconnect_in_dispatch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_lazy_model_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_model_pre_init_and_post_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_save_signals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- *... and 12 more nodes in this community*
+- **NaturalKeyFixtureTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Circle1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Circle2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Circle3** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **ExternalDependency** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **RefToNKChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.test_dependency_sorting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_nk_deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_nk_deserialize_xml()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_nk_on_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_normal_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.test_dependency_self_referential()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_6()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_dangling()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_long()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_normal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (5 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 77](Community_77.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 154](Community_154.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 84](Community_84.md) (2 shared connections)
+- [Community 324](Community_324.md) (12 shared connections)
+- [Community 497](Community_497.md) (3 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (87%)
-- INFERRED: 10 (13%)
+- EXTRACTED: 38 (81%)
+- INFERRED: 9 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

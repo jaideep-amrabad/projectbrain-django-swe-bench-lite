@@ -1,36 +1,38 @@
 # Community 655
 
-> 13 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **.order_by()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.last()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.reverse()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._earliest()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.first()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._check_ordering_first_last_queryset_aggregation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.latest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Return the earliest object according to fields (if given) or by the model's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Return the latest object according to fields (if given) or by the model's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Return the first object of a query or None if no match is found.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Return the last object of a query or None if no match is found.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Return a new QuerySet instance with the ordering changed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Reverse the ordering of the QuerySet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **LineString** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **._listarr()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.x()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the X coordinates in a list.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **LinearRing** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the Point at the given index.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the number of points in the LineString.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the tuple representation of this LineString.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Internal routine that returns a sequence (list) corresponding with the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Relationships
 
-- [Community 56](Community_56.md) (7 shared connections)
-- [Community 346](Community_346.md) (3 shared connections)
+- [Community 121](Community_121.md) (2 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 21 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

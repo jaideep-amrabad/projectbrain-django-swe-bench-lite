@@ -1,60 +1,54 @@
 # Community 333
 
-> 105 nodes · cohesion 0.04
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **delete/tests.py** (49 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **delete/models.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **OnDeleteTests** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **DeletionTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **create_a()** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **FastDeleteTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **Avatar** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **RChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericB2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **M** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **R** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **User** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **DeleteTop** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericB1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericDeleteBottom** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Origin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **RChildChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Referrer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **AvatarProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- *... and 80 more nodes in this community*
+- **RemoteUserTest** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **RemoteUserCustomTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **AllowAllUsersRemoteUserBackendTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **PersistentRemoteUserTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **RemoteUserNoCreateTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **CustomHeaderRemoteUserTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **RemoteUserCustomNoCreatedArgumentTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_header_disappears()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_last_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_header_disappears()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Tests the case where the username passed in the header does not exist as a User.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_known_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_unknown_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_known_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_no_remote_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_unknown_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_user_switch_forces_new_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_inactive_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **A user's last_login is set the first time they make a request but not updated…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **A logged in user is logged out automatically when the REMOTE_USER header…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **If the username in the header changes between requests that the original user…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Contains the same tests as RemoteUserTest, but using a custom auth backend…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Backend that allows inactive users.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Tests a custom RemoteUserBackend subclass that overrides the clean_username and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 54](Community_54.md) (7 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 24](Community_24.md) (4 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 454](Community_454.md) (3 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 368](Community_368.md) (2 shared connections)
-- [Community 525](Community_525.md) (1 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 43](Community_43.md) (8 shared connections)
+- [Community 681](Community_681.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
 
 ## Audit Trail
 
-- EXTRACTED: 195 (81%)
-- INFERRED: 45 (19%)
+- EXTRACTED: 47 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

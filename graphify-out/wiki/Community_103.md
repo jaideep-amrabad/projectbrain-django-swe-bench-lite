@@ -1,62 +1,61 @@
 # Community 103
 
-> 94 nodes · cohesion 0.04
+> 45 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **LayerMapping** (50 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **LayerMapTest** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **layermap/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **LayerMapError** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **layermap/models.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **.__init__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **NamedModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **.verify_ogr_field()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **State** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **.check_layer()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.feature_kwargs()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **ICity1** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **LayerMapRouterTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **InvalidDecimal** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **InvalidString** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.check_srs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.coord_transform()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.save()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.verify_fk()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.verify_geom()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **MissingForeignKey** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **ICity2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **Interstate** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- *... and 69 more nodes in this community*
+- **patterns/tests.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLTestCaseBase** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **LocaleMiddleware** (12 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/locale.py`
+- **URLResponseTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **clear_url_caches()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **PathUnusedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_request_urlconf_considered()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLRedirectWithoutTrailingSlashSettingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLRedirectWithoutTrailingSlashTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLVaryAcceptLanguageTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **RequestURLConfTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLNamespaceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLRedirectWithScriptAliasTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.get_fallback_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/locale.py`
+- **.process_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/locale.py`
+- **PermanentRedirectLocaleMiddleWare** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **Tests the redirect when the requested URL doesn't end with a slash…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_account_register()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_en_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_not_prefixed_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_language_prefix_with_script_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_en_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **Parse a request and decide what translation object to install in the current…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/locale.py`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 156](Community_156.md) (14 shared connections)
-- [Community 460](Community_460.md) (4 shared connections)
-- [Community 65](Community_65.md) (3 shared connections)
-- [Community 202](Community_202.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 547](Community_547.md) (2 shared connections)
-- [Community 75](Community_75.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 201](Community_201.md) (1 shared connections)
-- [Community 106](Community_106.md) (1 shared connections)
-- [Community 210](Community_210.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
+- [Community 23](Community_23.md) (8 shared connections)
+- [Community 11](Community_11.md) (8 shared connections)
+- [Community 43](Community_43.md) (7 shared connections)
+- [Community 161](Community_161.md) (7 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 18](Community_18.md) (4 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 206](Community_206.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 82](Community_82.md) (2 shared connections)
+- [Community 776](Community_776.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/locale.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 200 (89%)
-- INFERRED: 25 (11%)
+- EXTRACTED: 111 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

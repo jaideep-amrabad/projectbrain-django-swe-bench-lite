@@ -1,32 +1,36 @@
 # Community 908
 
-> 6 nodes · cohesion 0.53
+> 4 nodes · cohesion 0.83
 
 ## Key Concepts
 
-- **empty/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
-- **empty/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
-- **Empty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
-- **EmptyModelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
-- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
-- **Empty model tests These test that things behave sensibly for the rare corner-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
+- **async/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- **test_async_related_managers.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **ManyToManyModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- **RelatedModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 604](Community_604.md) (3 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 981](Community_981.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 922](Community_922.md) (1 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
+- [Community 98](Community_98.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

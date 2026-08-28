@@ -1,52 +1,65 @@
 # Community 271
 
-> 40 nodes · cohesion 0.06
+> 27 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **GDALBand** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **BandList** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.statistics()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.nodata_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.datatype()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **._flush()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.description()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.max()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.mean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.min()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.std()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.color_interp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.height()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.pixel_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.width()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.bands()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **list** (1 connections)
-- **setter** (1 connections)
-- **Return the minimum pixel value for this band.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- *... and 15 more nodes in this community*
+- **deconstructible()** (41 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
+- **test_deconstruct.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **auth/validators.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- **deconstruct.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
+- **DeconstructibleTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **0004_alter_user_username_opts.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0004_alter_user_username_opts.py`
+- **0007_alter_validators_add_error_messages.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0007_alter_validators_add_error_messages.py`
+- **0008_alter_user_username_max_length.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0008_alter_user_username_max_length.py`
+- **DeconstructibleWithPathClass** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **UnicodeUsernameValidator** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- **DeconstructibleClass** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleInvalidPathClass** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleChildClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleInvalidPathChildClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_invalid_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleWithPathChildClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **ASCIIUsernameValidator** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- **deconstructible_classes.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/deconstructible_classes.py`
+- **.test_deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_deconstruct_child()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_deconstruct_child_with_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_deconstruct_with_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_parent_invalid_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0004_alter_user_username_opts.py`
+- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0007_alter_validators_add_error_messages.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 75](Community_75.md) (8 shared connections)
-- [Community 73](Community_73.md) (3 shared connections)
-- [Community 185](Community_185.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
+- [Community 339](Community_339.md) (9 shared connections)
+- [Community 354](Community_354.md) (7 shared connections)
+- [Community 222](Community_222.md) (6 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 66](Community_66.md) (3 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 47](Community_47.md) (3 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0004_alter_user_username_opts.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0007_alter_validators_add_error_messages.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0008_alter_user_username_max_length.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/deconstructible_classes.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (92%)
-- INFERRED: 5 (8%)
+- EXTRACTED: 107 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,34 +1,32 @@
 # Community 759
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **CheckSessionCookieHttpOnlyTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_session_cookie_httponly_both()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_session_cookie_httponly_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_session_cookie_httponly_with_installed_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_session_cookie_httponly_with_installed_app_truthy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **.test_session_cookie_httponly_with_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **If SESSION_COOKIE_HTTPONLY is off and we find both the session app and the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **If SESSION_COOKIE_HTTPONLY is on, there's no warning about it.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **Warn if SESSION_COOKIE_HTTPONLY is off and "django.contrib.sessions" is in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **SESSION_COOKIE_HTTPONLY must be boolean.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **Warn if SESSION_COOKIE_HTTPONLY is off and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **TestRss2FeedWithDecoratedMethod** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **wraps_decorator()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestRss2FeedWithCallableObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TimeToLive** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.description()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.feed_copyright()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_title()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.title()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.categories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (5 shared connections)
-- [Community 549](Community_549.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 191](Community_191.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

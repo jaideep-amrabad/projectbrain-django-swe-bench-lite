@@ -4,27 +4,29 @@
 
 ## Key Concepts
 
-- **test_migrations_plan/0001_initial.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
-- **grow_tail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
-- **shrink_tail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
-- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
-- **Shrink salamander tail.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
-- **Grow salamander tail.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- **typecast_timestamp()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **_sqlite_format_dtdelta()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
+- **_sqlite_timestamp_diff()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
+- **_sqlite_prepare_dtdelta_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
+- **typecast_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **LHS and RHS can be either: - An integer number of microseconds - A string…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
 
 ## Relationships
 
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 167](Community_167.md) (6 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 281](Community_281.md) (1 shared connections)
+- [Community 662](Community_662.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

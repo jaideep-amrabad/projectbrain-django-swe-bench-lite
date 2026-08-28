@@ -1,78 +1,67 @@
 # Community 20
 
-> 234 nodes · cohesion 0.01
+> 104 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **modify_settings** (130 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Site** (42 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **sites/models.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **flatpages/models.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/models.py`
-- **test_model_checks.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **sites_framework/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **FlatPage** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/models.py`
-- **FlatpageForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- **flatpages_tests/test_middleware.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **flatpages_tests/test_views.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **CurrentSiteManager** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **RemoveStaleContentTypesTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **FlatpageCSRFTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **flatpages_tests/test_forms.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **flatpages_tests/test_templatetags.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
-- **flatpages_tests/test_csrf.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- **FlatpageAdminFormTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **flatpages/forms.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- **FlatpageMiddlewareTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **FullyDecoratedTranTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **PermissionDeniedBackendTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **FlatpageMiddlewareAppendSlashTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **FlatpageViewTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **sites_framework/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **managers.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- *... and 209 more nodes in this community*
+- **datetime** (426 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- **DateFunctionTests** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.create_model()** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **DateFormatTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
+- **Trunc** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **DateFunctionWithTimeZoneTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **format()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **truncate_to()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **TruncTime** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **.get_timezones()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_timezone_applied_before_truncation()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_ambiguous_and_invalid_times()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **DateTimeFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datetimefield.py`
+- **.test_extract_outerref()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_extract_year_exact_lookup()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **._test_trunc_week()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_func_with_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_extract_duration()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_extract_iso_weekday_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_extract_year_greaterthan_lookup()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_extract_year_lessthan_lookup()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_day_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_hour_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_minute_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_trunc_month_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- *... and 79 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (50 shared connections)
-- [Community 11](Community_11.md) (33 shared connections)
-- [Community 2](Community_2.md) (22 shared connections)
-- [Community 84](Community_84.md) (21 shared connections)
-- [Community 8](Community_8.md) (18 shared connections)
-- [Community 42](Community_42.md) (18 shared connections)
-- [Community 67](Community_67.md) (15 shared connections)
-- [Community 18](Community_18.md) (14 shared connections)
-- [Community 3](Community_3.md) (14 shared connections)
-- [Community 38](Community_38.md) (13 shared connections)
-- [Community 213](Community_213.md) (9 shared connections)
-- [Community 78](Community_78.md) (8 shared connections)
+- [Community 221](Community_221.md) (59 shared connections)
+- [Community 424](Community_424.md) (30 shared connections)
+- [Community 98](Community_98.md) (23 shared connections)
+- [Community 3](Community_3.md) (19 shared connections)
+- [Community 17](Community_17.md) (19 shared connections)
+- [Community 43](Community_43.md) (15 shared connections)
+- [Community 66](Community_66.md) (12 shared connections)
+- [Community 423](Community_423.md) (12 shared connections)
+- [Community 323](Community_323.md) (11 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 387](Community_387.md) (8 shared connections)
+- [Community 15](Community_15.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/templatetags/flatpages.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/redirects/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/redirects/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/migrations/0001_initial.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/migrations/0002_alter_domain_unique.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/settings.py`
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datetimefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 685 (97%)
-- INFERRED: 18 (3%)
+- EXTRACTED: 499 (71%)
+- INFERRED: 199 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

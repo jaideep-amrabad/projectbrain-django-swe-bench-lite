@@ -1,74 +1,70 @@
 # Community 137
 
-> 61 nodes · cohesion 0.05
+> 74 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Signal** (24 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **BaseDatabaseClient** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
-- **spatialite/base.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- **DatabaseClient** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
-- **auth/signals.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/signals.py`
-- **spatialite/introspection.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- **base/client.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
-- **._live_receivers()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **test_mysql.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **mysql/client.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
-- **DatabaseClient** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/client.py`
-- **DatabaseClient** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
-- **DatabaseClient** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
-- **SpatiaLiteIntrospection** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- **oracle/client.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/client.py`
-- **postgresql/client.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
-- **sqlite3/client.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
-- **dsn()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
-- **.connect()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **dbshell/test_sqlite.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
-- **SqliteDbshellCommandTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
-- **spatialite/client.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
-- **SpatiaLiteClient** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
-- **FlexibleFieldLookupDict** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **_make_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- *... and 36 more nodes in this community*
+- **django/forms/fields.py** (84 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **django/forms/widgets.py** (73 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Input** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **SplitDateTimeWidget** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **FileInput** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **HiddenInput** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Textarea** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **MultipleHiddenInput** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **to_current_timezone()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
+- **NullBooleanSelect** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **DateTimeBaseInput** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **DeclarativeFieldsMetaclass** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **MediaDefiningClass** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **NumberInput** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **PasswordInput** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **SplitHiddenDateTimeWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_charfield_widget_attrs()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **DateInput** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **TimeInput** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **test_input.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_input.py`
+- **DateTimeInput** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **EmailInput** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- *... and 49 more nodes in this community*
 
 ## Relationships
 
-- [Community 67](Community_67.md) (18 shared connections)
-- [Community 2](Community_2.md) (12 shared connections)
-- [Community 154](Community_154.md) (6 shared connections)
-- [Community 272](Community_272.md) (6 shared connections)
-- [Community 728](Community_728.md) (4 shared connections)
-- [Community 92](Community_92.md) (4 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 229](Community_229.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 201](Community_201.md) (2 shared connections)
-- [Community 196](Community_196.md) (2 shared connections)
-- [Community 84](Community_84.md) (2 shared connections)
+- [Community 17](Community_17.md) (20 shared connections)
+- [Community 7](Community_7.md) (18 shared connections)
+- [Community 3](Community_3.md) (14 shared connections)
+- [Community 272](Community_272.md) (13 shared connections)
+- [Community 352](Community_352.md) (12 shared connections)
+- [Community 304](Community_304.md) (6 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 575](Community_575.md) (5 shared connections)
+- [Community 98](Community_98.md) (4 shared connections)
+- [Community 536](Community_536.md) (4 shared connections)
+- [Community 43](Community_43.md) (4 shared connections)
+- [Community 583](Community_583.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/signals.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_input.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_passwordinput.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textarea.py`
 
 ## Audit Trail
 
-- EXTRACTED: 162 (96%)
-- INFERRED: 7 (4%)
+- EXTRACTED: 271 (91%)
+- INFERRED: 26 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---
