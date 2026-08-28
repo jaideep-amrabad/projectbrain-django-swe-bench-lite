@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **field_subclassing/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/__init__.py`
+- **fixtures_model_package/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/__init__.py`
 
 ## Audit Trail
 

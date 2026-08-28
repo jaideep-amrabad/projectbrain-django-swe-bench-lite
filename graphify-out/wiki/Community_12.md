@@ -1,6 +1,6 @@
 # Community 12
 
-> 125 nodes · cohesion 0.03
+> 124 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -9,7 +9,6 @@
 - **BaseDateListView** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **.get_dated_items()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **_get_next_prev()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **generic_views/urls.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/urls.py`
 - **.get_dated_items()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **.get_object()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
@@ -29,22 +28,23 @@
 - **.get_year()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **BaseMonthArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - **BaseWeekArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- *... and 100 more nodes in this community*
+- **BaseYearArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- *... and 99 more nodes in this community*
 
 ## Relationships
 
-- [Community 19](Community_19.md) (19 shared connections)
-- [Community 81](Community_81.md) (12 shared connections)
-- [Community 50](Community_50.md) (11 shared connections)
-- [Community 4](Community_4.md) (8 shared connections)
-- [Community 333](Community_333.md) (7 shared connections)
+- [Community 73](Community_73.md) (18 shared connections)
+- [Community 51](Community_51.md) (13 shared connections)
+- [Community 54](Community_54.md) (9 shared connections)
+- [Community 334](Community_334.md) (7 shared connections)
+- [Community 20](Community_20.md) (7 shared connections)
 - [Community 2](Community_2.md) (4 shared connections)
-- [Community 425](Community_425.md) (4 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
+- [Community 462](Community_462.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 456](Community_456.md) (2 shared connections)
+- [Community 711](Community_711.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 70](Community_70.md) (2 shared connections)
 
 ## Source Files
 
@@ -52,11 +52,10 @@
 - `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 - `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
 - `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_class_based_error_handlers.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 348 (99%)
+- EXTRACTED: 336 (99%)
 - INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 

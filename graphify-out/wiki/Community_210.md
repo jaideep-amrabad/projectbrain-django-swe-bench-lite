@@ -1,6 +1,6 @@
 # Community 210
 
-> 71 nodes · cohesion 0.04
+> 73 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -24,30 +24,32 @@
 - **.name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
 - **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
 - **get_system_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
 - **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
 - **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
 - **.layer_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- *... and 46 more nodes in this community*
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [Community 72](Community_72.md) (30 shared connections)
-- [Community 4](Community_4.md) (13 shared connections)
-- [Community 0](Community_0.md) (11 shared connections)
-- [Community 109](Community_109.md) (8 shared connections)
-- [Community 7](Community_7.md) (7 shared connections)
-- [Community 144](Community_144.md) (7 shared connections)
-- [Community 105](Community_105.md) (7 shared connections)
-- [Community 15](Community_15.md) (6 shared connections)
+- [Community 72](Community_72.md) (35 shared connections)
+- [Community 20](Community_20.md) (13 shared connections)
+- [Community 1](Community_1.md) (11 shared connections)
+- [Community 103](Community_103.md) (8 shared connections)
+- [Community 6](Community_6.md) (7 shared connections)
+- [Community 142](Community_142.md) (7 shared connections)
+- [Community 98](Community_98.md) (7 shared connections)
+- [Community 14](Community_14.md) (6 shared connections)
 - [Community 71](Community_71.md) (5 shared connections)
-- [Community 19](Community_19.md) (5 shared connections)
-- [Community 570](Community_570.md) (5 shared connections)
+- [Community 51](Community_51.md) (5 shared connections)
+- [Community 35](Community_35.md) (5 shared connections)
 - [Community 68](Community_68.md) (4 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
@@ -61,7 +63,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 265 (97%)
+- EXTRACTED: 267 (97%)
 - INFERRED: 9 (3%)
 - AMBIGUOUS: 0 (0%)
 

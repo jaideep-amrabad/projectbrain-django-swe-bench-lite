@@ -1,6 +1,6 @@
 # Community 71
 
-> 113 nodes · cohesion 0.03
+> 117 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -20,6 +20,8 @@
 - **.clone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.srid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.hex()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.driver()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.origin()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.__repr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.scale()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
@@ -27,24 +29,22 @@
 - **.warp()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
 - **.test_raster_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
-- **.extent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.height()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- *... and 88 more nodes in this community*
+- *... and 92 more nodes in this community*
 
 ## Relationships
 
-- [Community 72](Community_72.md) (12 shared connections)
-- [Community 34](Community_34.md) (6 shared connections)
+- [Community 72](Community_72.md) (15 shared connections)
+- [Community 29](Community_29.md) (6 shared connections)
 - [Community 210](Community_210.md) (5 shared connections)
-- [Community 105](Community_105.md) (5 shared connections)
-- [Community 29](Community_29.md) (4 shared connections)
-- [Community 570](Community_570.md) (3 shared connections)
+- [Community 98](Community_98.md) (5 shared connections)
+- [Community 25](Community_25.md) (4 shared connections)
 - [Community 309](Community_309.md) (3 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 17](Community_17.md) (2 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 44](Community_44.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 147](Community_147.md) (1 shared connections)
 
 ## Source Files
 
@@ -56,7 +56,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 196 (93%)
+- EXTRACTED: 200 (93%)
 - INFERRED: 15 (7%)
 - AMBIGUOUS: 0 (0%)
 

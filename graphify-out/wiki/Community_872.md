@@ -13,7 +13,7 @@
 
 ## Relationships
 
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 

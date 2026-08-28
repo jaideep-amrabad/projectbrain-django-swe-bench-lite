@@ -1,6 +1,6 @@
 # Community 2
 
-> 548 nodes · cohesion 0.01
+> 572 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,27 +29,26 @@
 - **user_commands/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
 - **test_storage.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
 - **staticfiles/storage.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- *... and 523 more nodes in this community*
+- *... and 547 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (105 shared connections)
-- [Community 0](Community_0.md) (100 shared connections)
-- [Community 5](Community_5.md) (92 shared connections)
-- [Community 4](Community_4.md) (56 shared connections)
-- [Community 19](Community_19.md) (56 shared connections)
-- [Community 7](Community_7.md) (55 shared connections)
-- [Community 60](Community_60.md) (44 shared connections)
-- [Community 69](Community_69.md) (41 shared connections)
-- [Community 36](Community_36.md) (32 shared connections)
-- [Community 13](Community_13.md) (30 shared connections)
-- [Community 141](Community_141.md) (28 shared connections)
-- [Community 26](Community_26.md) (24 shared connections)
+- [Community 1](Community_1.md) (102 shared connections)
+- [Community 69](Community_69.md) (77 shared connections)
+- [Community 20](Community_20.md) (60 shared connections)
+- [Community 0](Community_0.md) (57 shared connections)
+- [Community 51](Community_51.md) (53 shared connections)
+- [Community 53](Community_53.md) (46 shared connections)
+- [Community 3](Community_3.md) (44 shared connections)
+- [Community 6](Community_6.md) (43 shared connections)
+- [Community 87](Community_87.md) (41 shared connections)
+- [Community 211](Community_211.md) (40 shared connections)
+- [Community 24](Community_24.md) (31 shared connections)
+- [Community 34](Community_34.md) (30 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/__main__.py`
 - `raw/code/hyd-evaluation/django-django/django/apps/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/apps/config.py`
 - `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
@@ -68,10 +67,11 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/utils.py`
 - `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
 - `raw/code/hyd-evaluation/django-django/django/core/files/storage/handler.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2785 (97%)
+- EXTRACTED: 2810 (97%)
 - INFERRED: 78 (3%)
 - AMBIGUOUS: 0 (0%)
 

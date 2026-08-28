@@ -13,8 +13,8 @@
 
 ## Relationships
 
-- [Community 419](Community_419.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
+- [Community 423](Community_423.md) (1 shared connections)
+- [Community 188](Community_188.md) (1 shared connections)
 
 ## Source Files
 

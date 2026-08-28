@@ -15,12 +15,12 @@
 
 ## Relationships
 
-- [Community 131](Community_131.md) (1 shared connections)
+- [Community 130](Community_130.md) (1 shared connections)
 - [Community 255](Community_255.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 485](Community_485.md) (1 shared connections)
+- [Community 678](Community_678.md) (1 shared connections)
 - [Community 12](Community_12.md) (1 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
+- [Community 142](Community_142.md) (1 shared connections)
 
 ## Source Files
 

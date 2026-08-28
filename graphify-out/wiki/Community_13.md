@@ -1,6 +1,6 @@
 # Community 13
 
-> 344 nodes · cohesion 0.01
+> 335 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -16,7 +16,6 @@
 - **SendTestEmailManagementCommand** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
 - **.assertServerSettings()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **test_sendtestemail.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
-- **TestFindStatic** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
 - **ManageTestserver** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **InspectDBTransactionalTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
 - **migrations/test_deprecated_fields.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
@@ -29,22 +28,23 @@
 - **.test_showmigrations_list()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
 - **patch** (6 connections)
 - **empty_models/test_commands.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/empty_models/test_commands.py`
-- *... and 319 more nodes in this community*
+- **.make_field_type_asserter()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- *... and 310 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (66 shared connections)
-- [Community 141](Community_141.md) (39 shared connections)
-- [Community 2](Community_2.md) (30 shared connections)
-- [Community 149](Community_149.md) (23 shared connections)
-- [Community 5](Community_5.md) (23 shared connections)
+- [Community 7](Community_7.md) (66 shared connections)
+- [Community 139](Community_139.md) (39 shared connections)
+- [Community 2](Community_2.md) (29 shared connections)
+- [Community 3](Community_3.md) (28 shared connections)
+- [Community 146](Community_146.md) (23 shared connections)
 - [Community 288](Community_288.md) (20 shared connections)
-- [Community 228](Community_228.md) (13 shared connections)
-- [Community 29](Community_29.md) (12 shared connections)
-- [Community 491](Community_491.md) (10 shared connections)
-- [Community 212](Community_212.md) (10 shared connections)
-- [Community 133](Community_133.md) (8 shared connections)
-- [Community 0](Community_0.md) (8 shared connections)
+- [Community 211](Community_211.md) (14 shared connections)
+- [Community 222](Community_222.md) (13 shared connections)
+- [Community 25](Community_25.md) (12 shared connections)
+- [Community 496](Community_496.md) (10 shared connections)
+- [Community 131](Community_131.md) (8 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
 
 ## Source Files
 
@@ -61,12 +61,11 @@
 - `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
 - `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
 - `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
 - `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 868 (97%)
+- EXTRACTED: 857 (97%)
 - INFERRED: 28 (3%)
 - AMBIGUOUS: 0 (0%)
 

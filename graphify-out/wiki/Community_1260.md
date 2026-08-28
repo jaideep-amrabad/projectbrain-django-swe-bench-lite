@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **admin_utils/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/__init__.py`
+- **not_installed/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/__init__.py`
 
 ## Audit Trail
 

@@ -12,8 +12,8 @@
 
 ## Relationships
 
-- [Community 662](Community_662.md) (4 shared connections)
-- [Community 615](Community_615.md) (1 shared connections)
+- [Community 660](Community_660.md) (4 shared connections)
+- [Community 613](Community_613.md) (1 shared connections)
 
 ## Source Files
 

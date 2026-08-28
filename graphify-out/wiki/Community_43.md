@@ -1,6 +1,6 @@
 # Community 43
 
-> 160 nodes · cohesion 0.02
+> 163 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -21,6 +21,7 @@
 - **.__setstate__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
 - **.sym_difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
 - **.union()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **wkt_w()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
 - **.__and__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
 - **.boundary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
 - **.buffer()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
@@ -28,23 +29,21 @@
 - **.centroid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
 - **.convex_hull()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
 - **.__copy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.__deepcopy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- *... and 135 more nodes in this community*
+- *... and 138 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (28 shared connections)
-- [Community 24](Community_24.md) (7 shared connections)
-- [Community 68](Community_68.md) (3 shared connections)
-- [Community 374](Community_374.md) (3 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 227](Community_227.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 609](Community_609.md) (1 shared connections)
-- [Community 320](Community_320.md) (1 shared connections)
-- [Community 390](Community_390.md) (1 shared connections)
+- [Community 14](Community_14.md) (32 shared connections)
+- [Community 23](Community_23.md) (7 shared connections)
+- [Community 68](Community_68.md) (4 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
+- [Community 221](Community_221.md) (2 shared connections)
+- [Community 147](Community_147.md) (1 shared connections)
+- [Community 557](Community_557.md) (1 shared connections)
+- [Community 321](Community_321.md) (1 shared connections)
+- [Community 396](Community_396.md) (1 shared connections)
 - [Community 210](Community_210.md) (1 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
+- [Community 141](Community_141.md) (1 shared connections)
 
 ## Source Files
 
@@ -54,7 +53,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 235 (94%)
+- EXTRACTED: 240 (94%)
 - INFERRED: 16 (6%)
 - AMBIGUOUS: 0 (0%)
 
