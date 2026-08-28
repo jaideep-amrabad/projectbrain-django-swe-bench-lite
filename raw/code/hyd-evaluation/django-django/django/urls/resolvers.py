@@ -10,7 +10,6 @@ import inspect
 import re
 import string
 from importlib import import_module
-from pickle import PicklingError
 from urllib.parse import quote
 
 from asgiref.local import Local
@@ -71,9 +70,6 @@ class ResolverMatch:
                 self.app_names, self.namespaces, self.route,
             )
         )
-
-    def __reduce_ex__(self, protocol):
-        raise PicklingError(f'Cannot pickle {self.__class__.__qualname__}.')
 
 
 def get_resolver(urlconf=None):

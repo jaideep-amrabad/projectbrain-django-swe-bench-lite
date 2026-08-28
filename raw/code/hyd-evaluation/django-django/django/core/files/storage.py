@@ -154,7 +154,7 @@ class Storage:
     def url(self, name):
         """
         Return an absolute URL where the file's contents can be accessed
-        directly by a web browser.
+        directly by a Web browser.
         """
         raise NotImplementedError('subclasses of Storage must provide a url() method')
 

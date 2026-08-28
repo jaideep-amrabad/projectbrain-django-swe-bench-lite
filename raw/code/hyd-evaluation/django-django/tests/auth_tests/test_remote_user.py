@@ -33,7 +33,10 @@ class RemoteUserTest(TestCase):
         self.patched_settings.disable()
 
     def test_no_remote_user(self):
-        """Users are not created when remote user is not specified."""
+        """
+        Tests requests where no remote user is specified and insures that no
+        users get created.
+        """
         num_users = User.objects.count()
 
         response = self.client.get('/remote_user/')

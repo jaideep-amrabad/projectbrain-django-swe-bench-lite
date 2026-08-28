@@ -392,13 +392,13 @@ class Field(RegisterLookupMixin):
         return []
 
     def get_col(self, alias, output_field=None):
-        if (
-            alias == self.model._meta.db_table and
-            (output_field is None or output_field == self)
-        ):
+        if output_field is None:
+            output_field = self
+        if alias != self.model._meta.db_table or output_field != self:
+            from django.db.models.expressions import Col
+            return Col(alias, self, output_field)
+        else:
             return self.cached_col
-        from django.db.models.expressions import Col
-        return Col(alias, self, output_field)
 
     @cached_property
     def cached_col(self):
@@ -1103,16 +1103,6 @@ class CommaSeparatedIntegerField(CharField):
     }
 
 
-def _to_naive(value):
-    if timezone.is_aware(value):
-        value = timezone.make_naive(value, timezone.utc)
-    return value
-
-
-def _get_naive_now():
-    return _to_naive(timezone.now())
-
-
 class DateTimeCheckMixin:
 
     def check(self, **kwargs):
@@ -1144,42 +1134,6 @@ class DateTimeCheckMixin:
     def _check_fix_default_value(self):
         return []
 
-    # Concrete subclasses use this in their implementations of
-    # _check_fix_default_value().
-    def _check_if_value_fixed(self, value, now=None):
-        """
-        Check if the given value appears to have been provided as a "fixed"
-        time value, and include a warning in the returned list if it does. The
-        value argument must be a date object or aware/naive datetime object. If
-        now is provided, it must be a naive datetime object.
-        """
-        if now is None:
-            now = _get_naive_now()
-        offset = datetime.timedelta(seconds=10)
-        lower = now - offset
-        upper = now + offset
-        if isinstance(value, datetime.datetime):
-            value = _to_naive(value)
-        else:
-            assert isinstance(value, datetime.date)
-            lower = lower.date()
-            upper = upper.date()
-        if lower <= value <= upper:
-            return [
-                checks.Warning(
-                    'Fixed default value provided.',
-                    hint=(
-                        'It seems you set a fixed date / time / datetime '
-                        'value as default for this field. This may not be '
-                        'what you want. If you want to have the current date '
-                        'as default, use `django.utils.timezone.now`'
-                    ),
-                    obj=self,
-                    id='fields.W161',
-                )
-            ]
-        return []
-
 
 class DateField(DateTimeCheckMixin, Field):
     empty_strings_allowed = False
@@ -1207,16 +1161,37 @@ class DateField(DateTimeCheckMixin, Field):
         if not self.has_default():
             return []
 
+        now = timezone.now()
+        if not timezone.is_naive(now):
+            now = timezone.make_naive(now, timezone.utc)
         value = self.default
         if isinstance(value, datetime.datetime):
-            value = _to_naive(value).date()
+            if not timezone.is_naive(value):
+                value = timezone.make_naive(value, timezone.utc)
+            value = value.date()
         elif isinstance(value, datetime.date):
+            # Nothing to do, as dates don't have tz information
             pass
         else:
             # No explicit date / datetime value -- no checks necessary
             return []
-        # At this point, value is a date object.
-        return self._check_if_value_fixed(value)
+        offset = datetime.timedelta(days=1)
+        lower = (now - offset).date()
+        upper = (now + offset).date()
+        if lower <= value <= upper:
+            return [
+                checks.Warning(
+                    'Fixed default value provided.',
+                    hint='It seems you set a fixed date / time / datetime '
+                         'value as default for this field. This may not be '
+                         'what you want. If you want to have the current date '
+                         'as default, use `django.utils.timezone.now`',
+                    obj=self,
+                    id='fields.W161',
+                )
+            ]
+
+        return []
 
     def deconstruct(self):
         name, path, args, kwargs = super().deconstruct()
@@ -1326,10 +1301,39 @@ class DateTimeField(DateField):
         if not self.has_default():
             return []
 
+        now = timezone.now()
+        if not timezone.is_naive(now):
+            now = timezone.make_naive(now, timezone.utc)
         value = self.default
-        if isinstance(value, (datetime.datetime, datetime.date)):
-            return self._check_if_value_fixed(value)
-        # No explicit date / datetime value -- no checks necessary.
+        if isinstance(value, datetime.datetime):
+            second_offset = datetime.timedelta(seconds=10)
+            lower = now - second_offset
+            upper = now + second_offset
+            if timezone.is_aware(value):
+                value = timezone.make_naive(value, timezone.utc)
+        elif isinstance(value, datetime.date):
+            second_offset = datetime.timedelta(seconds=10)
+            lower = now - second_offset
+            lower = datetime.datetime(lower.year, lower.month, lower.day)
+            upper = now + second_offset
+            upper = datetime.datetime(upper.year, upper.month, upper.day)
+            value = datetime.datetime(value.year, value.month, value.day)
+        else:
+            # No explicit date / datetime value -- no checks necessary
+            return []
+        if lower <= value <= upper:
+            return [
+                checks.Warning(
+                    'Fixed default value provided.',
+                    hint='It seems you set a fixed date / time / datetime '
+                         'value as default for this field. This may not be '
+                         'what you want. If you want to have the current date '
+                         'as default, use `django.utils.timezone.now`',
+                    obj=self,
+                    id='fields.W161',
+                )
+            ]
+
         return []
 
     def get_internal_type(self):
@@ -2193,19 +2197,40 @@ class TimeField(DateTimeCheckMixin, Field):
         if not self.has_default():
             return []
 
+        now = timezone.now()
+        if not timezone.is_naive(now):
+            now = timezone.make_naive(now, timezone.utc)
         value = self.default
         if isinstance(value, datetime.datetime):
-            now = None
+            second_offset = datetime.timedelta(seconds=10)
+            lower = now - second_offset
+            upper = now + second_offset
+            if timezone.is_aware(value):
+                value = timezone.make_naive(value, timezone.utc)
         elif isinstance(value, datetime.time):
-            now = _get_naive_now()
-            # This will not use the right date in the race condition where now
-            # is just before the date change and value is just past 0:00.
+            second_offset = datetime.timedelta(seconds=10)
+            lower = now - second_offset
+            upper = now + second_offset
             value = datetime.datetime.combine(now.date(), value)
+            if timezone.is_aware(value):
+                value = timezone.make_naive(value, timezone.utc).time()
         else:
             # No explicit time / datetime value -- no checks necessary
             return []
-        # At this point, value is a datetime object.
-        return self._check_if_value_fixed(value, now=now)
+        if lower <= value <= upper:
+            return [
+                checks.Warning(
+                    'Fixed default value provided.',
+                    hint='It seems you set a fixed date / time / datetime '
+                         'value as default for this field. This may not be '
+                         'what you want. If you want to have the current date '
+                         'as default, use `django.utils.timezone.now`',
+                    obj=self,
+                    id='fields.W161',
+                )
+            ]
+
+        return []
 
     def deconstruct(self):
         name, path, args, kwargs = super().deconstruct()
@@ -2459,11 +2484,10 @@ class AutoFieldMixin:
         return value
 
     def contribute_to_class(self, cls, name, **kwargs):
-        if cls._meta.auto_field:
-            raise ValueError(
-                "Model %s can't have more than one auto-generated field."
-                % cls._meta.label
-            )
+        assert not cls._meta.auto_field, (
+            "Model %s can't have more than one auto-generated field."
+            % cls._meta.label
+        )
         super().contribute_to_class(cls, name, **kwargs)
         cls._meta.auto_field = self
 

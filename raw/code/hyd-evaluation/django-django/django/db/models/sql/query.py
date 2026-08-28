@@ -144,7 +144,7 @@ class Query(BaseExpression):
 
     compiler = 'SQLCompiler'
 
-    def __init__(self, model, alias_cols=True):
+    def __init__(self, model, where=WhereNode, alias_cols=True):
         self.model = model
         self.alias_refcount = {}
         # alias_map is the most important data structure regarding joins.
@@ -175,7 +175,8 @@ class Query(BaseExpression):
         # clause to contain other than default fields (values(), subqueries...)
         # Note that annotations go to annotations dictionary.
         self.select = ()
-        self.where = WhereNode()
+        self.where = where()
+        self.where_class = where
         # The group_by attribute can have one of the following forms:
         #  - None: no group by at all in the query
         #  - A tuple of expressions: group by (at least) those expressions.
@@ -272,12 +273,12 @@ class Query(BaseExpression):
         memo[id(self)] = result
         return result
 
-    def get_compiler(self, using=None, connection=None, elide_empty=True):
+    def get_compiler(self, using=None, connection=None):
         if using is None and connection is None:
             raise ValueError("Need either using or connection")
         if using:
             connection = connections[using]
-        return connection.ops.compiler(self.compiler)(self, connection, using, elide_empty)
+        return connection.ops.compiler(self.compiler)(self, connection, using)
 
     def get_meta(self):
         """
@@ -489,19 +490,14 @@ class Query(BaseExpression):
             self.default_cols = False
             self.extra = {}
 
-        empty_aggregate_result = [
-            expression.empty_aggregate_value
-            for expression in outer_query.annotation_select.values()
-        ]
-        elide_empty = not any(result is NotImplemented for result in empty_aggregate_result)
         outer_query.clear_ordering(force=True)
         outer_query.clear_limits()
         outer_query.select_for_update = False
         outer_query.select_related = False
-        compiler = outer_query.get_compiler(using, elide_empty=elide_empty)
+        compiler = outer_query.get_compiler(using)
         result = compiler.execute_sql(SINGLE)
         if result is None:
-            result = empty_aggregate_result
+            result = [None] * len(outer_query.annotation_select)
 
         converters = compiler.get_converters(outer_query.annotation_select.values())
         result = next(compiler.apply_converters((result,), converters))
@@ -566,14 +562,14 @@ class Query(BaseExpression):
         The 'connector' parameter describes how to connect filters from the
         'rhs' query.
         """
-        if self.model != rhs.model:
-            raise TypeError('Cannot combine queries on two different base models.')
+        assert self.model == rhs.model, \
+            "Cannot combine queries on two different base models."
         if self.is_sliced:
             raise TypeError('Cannot combine queries once a slice has been taken.')
-        if self.distinct != rhs.distinct:
-            raise TypeError('Cannot combine a unique query with a non-unique query.')
-        if self.distinct_fields != rhs.distinct_fields:
-            raise TypeError('Cannot combine queries with different distinct fields.')
+        assert self.distinct == rhs.distinct, \
+            "Cannot combine a unique query with a non-unique query."
+        assert self.distinct_fields == rhs.distinct_fields, \
+            "Cannot combine queries with different distinct fields."
 
         # Work out how to relabel the rhs aliases, if necessary.
         change_map = {}
@@ -1261,10 +1257,12 @@ class Query(BaseExpression):
         if hasattr(filter_expr, 'resolve_expression'):
             if not getattr(filter_expr, 'conditional', False):
                 raise TypeError('Cannot filter against a non-conditional expression.')
-            condition = filter_expr.resolve_expression(self, allow_joins=allow_joins)
-            if not isinstance(condition, Lookup):
-                condition = self.build_lookup(['exact'], condition, True)
-            return WhereNode([condition], connector=AND), []
+            condition = self.build_lookup(
+                ['exact'], filter_expr.resolve_expression(self, allow_joins=allow_joins), True
+            )
+            clause = self.where_class()
+            clause.add(condition, AND)
+            return clause, []
         arg, value = filter_expr
         if not arg:
             raise FieldError("Cannot parse keyword query %r" % arg)
@@ -1283,9 +1281,11 @@ class Query(BaseExpression):
         if check_filterable:
             self.check_filterable(value)
 
+        clause = self.where_class()
         if reffed_expression:
             condition = self.build_lookup(lookups, reffed_expression, value)
-            return WhereNode([condition], connector=AND), []
+            clause.add(condition, AND)
+            return clause, []
 
         opts = self.get_meta()
         alias = self.get_initial_alias()
@@ -1328,7 +1328,7 @@ class Query(BaseExpression):
 
         condition = self.build_lookup(lookups, col, value)
         lookup_type = condition.lookup_name
-        clause = WhereNode([condition], connector=AND)
+        clause.add(condition, AND)
 
         require_outer = lookup_type == 'isnull' and condition.rhs is True and not current_negated
         if current_negated and (lookup_type != 'isnull' or condition.rhs is False) and condition.rhs is not None:
@@ -1357,8 +1357,8 @@ class Query(BaseExpression):
                     clause.add(lookup_class(value, False), AND)
         return clause, used_joins if not require_outer else ()
 
-    def add_filter(self, filter_lhs, filter_rhs):
-        self.add_q(Q((filter_lhs, filter_rhs)))
+    def add_filter(self, filter_clause):
+        self.add_q(Q(**{filter_clause[0]: filter_clause[1]}))
 
     def add_q(self, q_object):
         """
@@ -1380,9 +1380,6 @@ class Query(BaseExpression):
     def build_where(self, filter_expr):
         return self.build_filter(filter_expr, allow_joins=False)[0]
 
-    def clear_where(self):
-        self.where = WhereNode()
-
     def _add_q(self, q_object, used_aliases, branch_negated=False,
                current_negated=False, allow_joins=True, split_subq=True,
                check_filterable=True):
@@ -1390,7 +1387,8 @@ class Query(BaseExpression):
         connector = q_object.connector
         current_negated = current_negated ^ q_object.negated
         branch_negated = branch_negated or q_object.negated
-        target_clause = WhereNode(connector=connector, negated=q_object.negated)
+        target_clause = self.where_class(connector=connector,
+                                         negated=q_object.negated)
         joinpromoter = JoinPromoter(q_object.connector, len(q_object.children), current_negated)
         for child in q_object.children:
             child_clause, needed_inner = self.build_filter(
@@ -1409,7 +1407,7 @@ class Query(BaseExpression):
         connector = q_object.connector
         current_negated ^= q_object.negated
         branch_negated = branch_negated or q_object.negated
-        target_clause = WhereNode(connector=connector, negated=q_object.negated)
+        target_clause = self.where_class(connector=connector, negated=q_object.negated)
         for child in q_object.children:
             if isinstance(child, Node):
                 child_clause = self.build_filtered_relation_q(
@@ -1762,15 +1760,15 @@ class Query(BaseExpression):
                 LIMIT 1
             )
         """
+        filter_lhs, filter_rhs = filter_expr
+        if isinstance(filter_rhs, OuterRef):
+            filter_expr = (filter_lhs, OuterRef(filter_rhs))
+        elif isinstance(filter_rhs, F):
+            filter_expr = (filter_lhs, OuterRef(filter_rhs.name))
         # Generate the inner query.
         query = Query(self.model)
         query._filtered_relations = self._filtered_relations
-        filter_lhs, filter_rhs = filter_expr
-        if isinstance(filter_rhs, OuterRef):
-            filter_rhs = OuterRef(filter_rhs)
-        elif isinstance(filter_rhs, F):
-            filter_rhs = OuterRef(filter_rhs.name)
-        query.add_filter(filter_lhs, filter_rhs)
+        query.add_filter(filter_expr)
         query.clear_ordering(force=True)
         # Try to have as simple as possible subquery -> trim leading joins from
         # the subquery.
@@ -2087,12 +2085,7 @@ class Query(BaseExpression):
             self.deferred_loading = existing.union(field_names), True
         else:
             # Remove names from the set of any existing "immediate load" names.
-            if new_existing := existing.difference(field_names):
-                self.deferred_loading = new_existing, False
-            else:
-                self.clear_deferred_loading()
-                if new_only := set(field_names).difference(existing):
-                    self.deferred_loading = new_only, True
+            self.deferred_loading = existing.difference(field_names), False
 
     def add_immediate_loading(self, field_names):
         """
@@ -2302,7 +2295,8 @@ class Query(BaseExpression):
             select_fields = [r[0] for r in join_field.related_fields]
             select_alias = lookup_tables[trimmed_paths + 1]
             self.unref_alias(lookup_tables[trimmed_paths])
-            extra_restriction = join_field.get_extra_restriction(None, lookup_tables[trimmed_paths + 1])
+            extra_restriction = join_field.get_extra_restriction(
+                self.where_class, None, lookup_tables[trimmed_paths + 1])
             if extra_restriction:
                 self.where.add(extra_restriction, AND)
         else:
