@@ -789,6 +789,24 @@ class SchemaTests(TransactionTestCase):
         # Introspection treats BLOBs as TextFields
         self.assertEqual(columns["bits"][0], "TextField")
 
+    def test_remove_field(self):
+        with connection.schema_editor() as editor:
+            editor.create_model(Author)
+            with CaptureQueriesContext(connection) as ctx:
+                editor.remove_field(Author, Author._meta.get_field("name"))
+        columns = self.column_classes(Author)
+        self.assertNotIn("name", columns)
+        if getattr(connection.features, "can_alter_table_drop_column", True):
+            # Table is not rebuilt.
+            self.assertIs(
+                any("CREATE TABLE" in query["sql"] for query in ctx.captured_queries),
+                False,
+            )
+            self.assertIs(
+                any("DROP TABLE" in query["sql"] for query in ctx.captured_queries),
+                False,
+            )
+
     def test_alter(self):
         """
         Tests simple altering of fields
@@ -1875,6 +1893,41 @@ class SchemaTests(TransactionTestCase):
 
     def test_m2m_create_through_inherited(self):
         self._test_m2m_create_through(InheritedManyToManyField)
+
+    def test_m2m_through_remove(self):
+        class LocalAuthorNoteThrough(Model):
+            book = ForeignKey("schema.Author", CASCADE)
+            tag = ForeignKey("self", CASCADE)
+
+            class Meta:
+                app_label = "schema"
+                apps = new_apps
+
+        class LocalNoteWithM2MThrough(Model):
+            authors = ManyToManyField("schema.Author", through=LocalAuthorNoteThrough)
+
+            class Meta:
+                app_label = "schema"
+                apps = new_apps
+
+        self.local_models = [LocalAuthorNoteThrough, LocalNoteWithM2MThrough]
+        # Create the tables.
+        with connection.schema_editor() as editor:
+            editor.create_model(Author)
+            editor.create_model(LocalAuthorNoteThrough)
+            editor.create_model(LocalNoteWithM2MThrough)
+        # Remove the through parameter.
+        old_field = LocalNoteWithM2MThrough._meta.get_field("authors")
+        new_field = ManyToManyField("Author")
+        new_field.set_attributes_from_name("authors")
+        msg = (
+            f"Cannot alter field {old_field} into {new_field} - they are not "
+            f"compatible types (you cannot alter to or from M2M fields, or add or "
+            f"remove through= on M2M fields)"
+        )
+        with connection.schema_editor() as editor:
+            with self.assertRaisesMessage(ValueError, msg):
+                editor.alter_field(LocalNoteWithM2MThrough, old_field, new_field)
 
     def _test_m2m(self, M2MFieldClass):
         """

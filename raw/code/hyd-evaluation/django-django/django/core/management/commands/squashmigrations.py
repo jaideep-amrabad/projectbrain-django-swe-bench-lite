@@ -1,8 +1,10 @@
 import os
+import shutil
 
 from django.apps import apps
 from django.conf import settings
 from django.core.management.base import BaseCommand, CommandError
+from django.core.management.utils import run_formatters
 from django.db import DEFAULT_DB_ALIAS, connections, migrations
 from django.db.migrations.loader import AmbiguityError, MigrationLoader
 from django.db.migrations.migration import SwappableTuple
@@ -220,6 +222,7 @@ class Command(BaseCommand):
             )
         with open(writer.path, "w", encoding="utf-8") as fh:
             fh.write(writer.as_string())
+        run_formatters([writer.path])
 
         if self.verbosity > 0:
             self.stdout.write(
@@ -242,6 +245,13 @@ class Command(BaseCommand):
                     "  See the comment at the top of the squashed migration for "
                     "details."
                 )
+                if shutil.which("black"):
+                    self.stdout.write(
+                        self.style.WARNING(
+                            "Squashed migration couldn't be formatted using the "
+                            '"black" command. You can call it manually.'
+                        )
+                    )
 
     def find_migration(self, loader, app_label, name):
         try:

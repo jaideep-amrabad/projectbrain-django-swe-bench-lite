@@ -32,9 +32,39 @@ class LazyObjectTestCase(TestCase):
 
         return AdHocLazyObject()
 
+    def test_getattribute(self):
+        """
+        Proxy methods don't exist on wrapped objects unless they're set.
+        """
+        attrs = [
+            "__getitem__",
+            "__setitem__",
+            "__delitem__",
+            "__iter__",
+            "__len__",
+            "__contains__",
+        ]
+        foo = Foo()
+        obj = self.lazy_wrap(foo)
+        for attr in attrs:
+            with self.subTest(attr):
+                self.assertFalse(hasattr(obj, attr))
+                setattr(foo, attr, attr)
+                obj_with_attr = self.lazy_wrap(foo)
+                self.assertTrue(hasattr(obj_with_attr, attr))
+                self.assertEqual(getattr(obj_with_attr, attr), attr)
+
     def test_getattr(self):
         obj = self.lazy_wrap(Foo())
         self.assertEqual(obj.foo, "bar")
+
+    def test_getattr_falsey(self):
+        class Thing:
+            def __getattr__(self, key):
+                return []
+
+        obj = self.lazy_wrap(Thing())
+        self.assertEqual(obj.main, [])
 
     def test_setattr(self):
         obj = self.lazy_wrap(Foo())
@@ -316,6 +346,17 @@ class SimpleLazyObjectTestCase(LazyObjectTestCase):
         self.assertEqual(obj, 42)  # evaluate the lazy object
         self.assertIsInstance(obj._wrapped, int)
         self.assertEqual(repr(obj), "<SimpleLazyObject: 42>")
+
+    def test_add(self):
+        obj1 = self.lazy_wrap(1)
+        self.assertEqual(obj1 + 1, 2)
+        obj2 = self.lazy_wrap(2)
+        self.assertEqual(obj2 + obj1, 3)
+        self.assertEqual(obj1 + obj2, 3)
+
+    def test_radd(self):
+        obj1 = self.lazy_wrap(1)
+        self.assertEqual(1 + obj1, 2)
 
     def test_trace(self):
         # See ticket #19456

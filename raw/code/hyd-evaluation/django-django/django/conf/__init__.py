@@ -88,9 +88,10 @@ class LazySettings(LazyObject):
 
     def __getattr__(self, name):
         """Return the value of a setting and cache it in self.__dict__."""
-        if self._wrapped is empty:
+        if (_wrapped := self._wrapped) is empty:
             self._setup(name)
-        val = getattr(self._wrapped, name)
+            _wrapped = self._wrapped
+        val = getattr(_wrapped, name)
 
         # Special case some settings which require further modification.
         # This is done here for performance reasons so the modified value is cached.
@@ -157,8 +158,9 @@ class LazySettings(LazyObject):
     def USE_L10N(self):
         stack = traceback.extract_stack()
         # Show a warning if the setting is used outside of Django.
-        # Stack index: -1 this line, -2 the caller.
-        filename, _, _, _ = stack[-2]
+        # Stack index: -1 this line, -2 the LazyObject __getattribute__(),
+        # -3 the caller.
+        filename, _, _, _ = stack[-3]
         if not filename.startswith(os.path.dirname(django.__file__)):
             warnings.warn(
                 USE_L10N_DEPRECATED_MSG,

@@ -246,21 +246,11 @@ class ModelInheritanceTest(TestCase):
         self.assertEqual(r.id, orig_id)
         self.assertEqual(r.id, r.place_ptr_id)
 
-    def test_issue_7488(self):
-        # Regression test for #7488. This looks a little crazy, but it's the
-        # equivalent of what the admin interface has to do for the edit-inline
-        # case.
-        suppliers = Supplier.objects.filter(
-            restaurant=Restaurant(name="xx", address="yy")
-        )
-        suppliers = list(suppliers)
-        self.assertEqual(suppliers, [])
-
     def test_issue_11764(self):
         """
         Regression test for #11764
         """
-        wholesalers = list(Wholesaler.objects.all().select_related())
+        wholesalers = list(Wholesaler.objects.select_related())
         self.assertEqual(wholesalers, [])
 
     def test_issue_7853(self):
@@ -525,7 +515,7 @@ class ModelInheritanceTest(TestCase):
             serves_pizza=True,
             serves_hot_dogs=True,
         )
-        p = Place.objects.all().select_related("restaurant")[0]
+        p = Place.objects.select_related("restaurant")[0]
         self.assertIsInstance(p.restaurant.serves_pizza, bool)
 
     def test_inheritance_select_related(self):

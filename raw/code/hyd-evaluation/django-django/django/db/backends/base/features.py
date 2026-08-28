@@ -3,6 +3,8 @@ from django.utils.functional import cached_property
 
 
 class BaseDatabaseFeatures:
+    # An optional tuple indicating the minimum supported database version.
+    minimum_database_version = None
     gis_enabled = False
     # Oracle can't group by LOB (large object) data types.
     allows_group_by_lob = True
@@ -322,6 +324,9 @@ class BaseDatabaseFeatures:
     supports_collation_on_textfield = True
     # Does the backend support non-deterministic collations?
     supports_non_deterministic_collations = True
+
+    # Does the backend support the logical XOR operator?
+    supports_logical_xor = False
 
     # Collation names for use by the Django test suite.
     test_collations = {
