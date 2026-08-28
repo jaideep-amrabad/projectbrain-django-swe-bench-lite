@@ -2,7 +2,7 @@
 
 > God node · 1426 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
-**Community:** [Community 9](Community_9.md)
+**Community:** [Community 8](Community_8.md)
 
 ## Connections by Relation
 
@@ -46,8 +46,8 @@
 - test_array.py `EXTRACTED`
 - tests/test_debug.py `EXTRACTED`
 - admin_filters/tests.py `EXTRACTED`
-- admin_inlines/tests.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
+- admin_inlines/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
