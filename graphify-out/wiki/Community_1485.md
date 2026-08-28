@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **get_earliest_or_latest/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/__init__.py`
+- **inline_formsets/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/inline_formsets/__init__.py`
 
 ## Audit Trail
 

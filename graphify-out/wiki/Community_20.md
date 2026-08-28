@@ -1,21 +1,18 @@
 # Community 20
 
-> 196 nodes · cohesion 0.02
+> 191 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **F** (460 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **F** (463 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 - **NonAggregateAnnotationTestCase** (66 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
 - **ExpressionWrapper** (46 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 - **annotations/tests.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
 - **AliasTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
 - **FTimeDeltaTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
 - **ExpressionOperatorTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **Replace** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
 - **annotations/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **test_replace.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_replace.py`
 - **ExpressionsNumericTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **ReplaceTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_replace.py`
 - **FTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
 - **.test_custom_functions_can_ref_other_functions()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
 - **TestRangeContainsLookup** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
@@ -26,33 +23,34 @@
 - **.test_distinct_on_with_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
 - **.test_grouping_by_q_expression_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
 - **.test_q_expression_annotation_with_aggregation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_replace_expression()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_replace.py`
 - **.test_date_subtraction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
 - **.test_datetime_subtraction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- *... and 171 more nodes in this community*
+- **.test_time_subtraction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- **DepartmentStore** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- *... and 166 more nodes in this community*
 
 ## Relationships
 
-- [Community 40](Community_40.md) (81 shared connections)
-- [Community 63](Community_63.md) (59 shared connections)
-- [Community 26](Community_26.md) (57 shared connections)
-- [Community 83](Community_83.md) (41 shared connections)
-- [Community 18](Community_18.md) (30 shared connections)
-- [Community 65](Community_65.md) (25 shared connections)
-- [Community 28](Community_28.md) (22 shared connections)
-- [Community 1](Community_1.md) (21 shared connections)
-- [Community 74](Community_74.md) (17 shared connections)
-- [Community 95](Community_95.md) (16 shared connections)
-- [Community 66](Community_66.md) (10 shared connections)
-- [Community 37](Community_37.md) (10 shared connections)
+- [Community 39](Community_39.md) (76 shared connections)
+- [Community 11](Community_11.md) (55 shared connections)
+- [Community 51](Community_51.md) (52 shared connections)
+- [Community 138](Community_138.md) (38 shared connections)
+- [Community 85](Community_85.md) (35 shared connections)
+- [Community 8](Community_8.md) (26 shared connections)
+- [Community 68](Community_68.md) (20 shared connections)
+- [Community 28](Community_28.md) (20 shared connections)
+- [Community 86](Community_86.md) (13 shared connections)
+- [Community 62](Community_62.md) (13 shared connections)
+- [Community 146](Community_146.md) (13 shared connections)
+- [Community 74](Community_74.md) (10 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
 - `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_replace.py`
 - `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
@@ -62,8 +60,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 862 (96%)
-- INFERRED: 37 (4%)
+- EXTRACTED: 834 (96%)
+- INFERRED: 39 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

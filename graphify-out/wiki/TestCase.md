@@ -1,8 +1,8 @@
 # TestCase
 
-> God node · 1010 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1017 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 49](Community_49.md)
+**Community:** [Community 74](Community_74.md)
 
 ## Connections by Relation
 
@@ -21,8 +21,8 @@
 - admin_scripts/tests.py `EXTRACTED`
 - test_auth_backends.py `EXTRACTED`
 - auth_tests/test_views.py `EXTRACTED`
-- admin_filters/tests.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
+- admin_filters/tests.py `EXTRACTED`
 - admin_inlines/tests.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
@@ -39,8 +39,8 @@
 - Queries1Tests `EXTRACTED`
 - ClientTest `EXTRACTED`
 - CaseExpressionTests `EXTRACTED`
-- BasicExpressionsTests `EXTRACTED`
 - AggregationTests `EXTRACTED`
+- BasicExpressionsTests `EXTRACTED`
 - TestQuerying `EXTRACTED`
 - ModelFormsetTest `EXTRACTED`
 - BulkCreateTests `EXTRACTED`

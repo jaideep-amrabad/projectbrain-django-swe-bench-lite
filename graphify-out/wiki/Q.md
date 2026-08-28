@@ -1,8 +1,8 @@
 # Q
 
-> God node · 321 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+> God node · 336 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 18](Community_18.md)
+**Community:** [Community 85](Community_85.md)
 
 ## Connections by Relation
 
@@ -58,6 +58,7 @@
 - .__init__() `EXTRACTED`
 - .__or__() `EXTRACTED`
 - .__and__() `EXTRACTED`
+- .__xor__() `EXTRACTED`
 - .deconstruct() `EXTRACTED`
 - .__invert__() `EXTRACTED`
 - .resolve_expression() `EXTRACTED`
