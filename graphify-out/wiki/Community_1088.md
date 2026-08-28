@@ -12,10 +12,10 @@
 
 ## Relationships
 
-- [Community 359](Community_359.md) (5 shared connections)
+- [Community 360](Community_360.md) (5 shared connections)
 - [Community 870](Community_870.md) (1 shared connections)
-- [Community 528](Community_528.md) (1 shared connections)
-- [Community 506](Community_506.md) (1 shared connections)
+- [Community 524](Community_524.md) (1 shared connections)
+- [Community 502](Community_502.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files

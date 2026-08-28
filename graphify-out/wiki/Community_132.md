@@ -1,6 +1,6 @@
 # Community 132
 
-> 50 nodes · cohesion 0.05
+> 56 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -8,6 +8,7 @@
 - **CharField** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - **.deconstruct()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - **.__init__()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **BooleanField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - **IPAddressField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - **SlugField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - **EmailField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
@@ -28,33 +29,34 @@
 - **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- *... and 25 more nodes in this community*
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [Community 479](Community_479.md) (11 shared connections)
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 157](Community_157.md) (7 shared connections)
-- [Community 116](Community_116.md) (4 shared connections)
-- [Community 353](Community_353.md) (3 shared connections)
+- [Community 475](Community_475.md) (11 shared connections)
+- [Community 159](Community_159.md) (10 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 115](Community_115.md) (5 shared connections)
+- [Community 15](Community_15.md) (4 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 354](Community_354.md) (3 shared connections)
 - [Community 17](Community_17.md) (3 shared connections)
-- [Community 745](Community_745.md) (2 shared connections)
-- [Community 1112](Community_1112.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 1019](Community_1019.md) (2 shared connections)
-- [Community 166](Community_166.md) (2 shared connections)
+- [Community 746](Community_746.md) (2 shared connections)
+- [Community 1014](Community_1014.md) (2 shared connections)
+- [Community 169](Community_169.md) (2 shared connections)
+- [Community 217](Community_217.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
 
 ## Audit Trail
 
-- EXTRACTED: 111 (95%)
-- INFERRED: 6 (5%)
+- EXTRACTED: 122 (94%)
+- INFERRED: 8 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -22,9 +22,9 @@
 
 ## Relationships
 
-- [Community 180](Community_180.md) (6 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 522](Community_522.md) (1 shared connections)
+- [Community 183](Community_183.md) (6 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 519](Community_519.md) (1 shared connections)
 - [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files

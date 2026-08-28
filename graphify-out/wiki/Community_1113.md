@@ -12,10 +12,10 @@
 
 ## Relationships
 
-- [Community 544](Community_544.md) (2 shared connections)
-- [Community 509](Community_509.md) (1 shared connections)
+- [Community 540](Community_540.md) (2 shared connections)
+- [Community 505](Community_505.md) (1 shared connections)
 - [Community 812](Community_812.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
 
 ## Source Files
 

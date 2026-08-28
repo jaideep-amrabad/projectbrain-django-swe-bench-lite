@@ -10,8 +10,8 @@
 
 ## Relationships
 
+- [Community 889](Community_889.md) (2 shared connections)
 - [Community 888](Community_888.md) (2 shared connections)
-- [Community 887](Community_887.md) (2 shared connections)
 
 ## Source Files
 

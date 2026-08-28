@@ -17,7 +17,7 @@
 
 ## Relationships
 
-- [Community 428](Community_428.md) (3 shared connections)
+- [Community 426](Community_426.md) (3 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
 - [Community 60](Community_60.md) (1 shared connections)
 

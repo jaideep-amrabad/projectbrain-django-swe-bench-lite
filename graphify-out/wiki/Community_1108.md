@@ -13,9 +13,9 @@
 ## Relationships
 
 - [Community 694](Community_694.md) (2 shared connections)
-- [Community 542](Community_542.md) (1 shared connections)
+- [Community 538](Community_538.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
 
 ## Source Files
 

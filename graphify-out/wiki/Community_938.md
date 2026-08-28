@@ -15,11 +15,11 @@
 
 ## Relationships
 
-- [Community 438](Community_438.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 351](Community_351.md) (1 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 436](Community_436.md) (3 shared connections)
+- [Community 131](Community_131.md) (2 shared connections)
+- [Community 352](Community_352.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 

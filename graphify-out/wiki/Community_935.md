@@ -16,10 +16,10 @@
 
 ## Relationships
 
-- [Community 31](Community_31.md) (4 shared connections)
+- [Community 30](Community_30.md) (4 shared connections)
 - [Community 10](Community_10.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
 
 ## Source Files
 

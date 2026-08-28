@@ -12,10 +12,10 @@
 
 ## Relationships
 
-- [Community 426](Community_426.md) (2 shared connections)
-- [Community 623](Community_623.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 399](Community_399.md) (1 shared connections)
+- [Community 424](Community_424.md) (2 shared connections)
+- [Community 621](Community_621.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 395](Community_395.md) (1 shared connections)
 
 ## Source Files
 

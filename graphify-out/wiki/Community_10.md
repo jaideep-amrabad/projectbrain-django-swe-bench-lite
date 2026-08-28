@@ -1,6 +1,6 @@
 # Community 10
 
-> 357 nodes · cohesion 0.01
+> 348 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -22,29 +22,29 @@
 - **DefaultLoggingTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 - **MiddlewareNotUsedTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
 - **CacheDBSessionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **DebugTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_debug.py`
 - **CheckCSRFCookieSecureTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 - **CheckSessionCookieHttpOnlyTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 - **CheckSessionCookieSecureTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **ReverseLazyTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 - **ManageRunserverMigrationWarning** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **CheckReferrerPolicyTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- *... and 332 more nodes in this community*
+- **CheckStrictTransportSecurityPreloadTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **CheckStrictTransportSecuritySubdomainsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- *... and 323 more nodes in this community*
 
 ## Relationships
 
-- [Community 9](Community_9.md) (70 shared connections)
-- [Community 25](Community_25.md) (48 shared connections)
-- [Community 24](Community_24.md) (42 shared connections)
-- [Community 8](Community_8.md) (42 shared connections)
-- [Community 2](Community_2.md) (40 shared connections)
-- [Community 296](Community_296.md) (36 shared connections)
-- [Community 1](Community_1.md) (35 shared connections)
-- [Community 4](Community_4.md) (28 shared connections)
-- [Community 104](Community_104.md) (28 shared connections)
-- [Community 249](Community_249.md) (27 shared connections)
-- [Community 5](Community_5.md) (26 shared connections)
-- [Community 169](Community_169.md) (26 shared connections)
+- [Community 5](Community_5.md) (68 shared connections)
+- [Community 23](Community_23.md) (46 shared connections)
+- [Community 20](Community_20.md) (42 shared connections)
+- [Community 2](Community_2.md) (39 shared connections)
+- [Community 9](Community_9.md) (37 shared connections)
+- [Community 297](Community_297.md) (36 shared connections)
+- [Community 0](Community_0.md) (35 shared connections)
+- [Community 6](Community_6.md) (29 shared connections)
+- [Community 103](Community_103.md) (28 shared connections)
+- [Community 250](Community_250.md) (27 shared connections)
+- [Community 173](Community_173.md) (26 shared connections)
+- [Community 30](Community_30.md) (24 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 1917 (99%)
+- EXTRACTED: 1902 (99%)
 - INFERRED: 10 (1%)
 - AMBIGUOUS: 0 (0%)
 

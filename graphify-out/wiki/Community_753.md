@@ -1,52 +1,37 @@
 # Community 753
 
-> 26 nodes · cohesion 0.12
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **cache_control()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- **CacheControlDecoratorTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **NeverCacheDecoratorTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **HttpRequestProxy** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_cache_control_decorator_http_request_proxy()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_never_cache_decorator_http_request_proxy()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_cache_control_decorator_http_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_cache_control_decorator_http_request_async_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_cache_control_empty_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_cache_control_empty_decorator_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_cache_control_full_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_cache_control_full_decorator_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_never_cache_decorator_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_never_cache_decorator_headers_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_never_cache_decorator_http_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_never_cache_decorator_http_request_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.__getattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_never_cache_decorator_expires_not_overridden()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_never_cache_decorator_expires_not_overridden_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **patch** (2 connections)
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- *... and 1 more nodes in this community*
+- **DefaultNonExpiringCacheKeyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_caches_set_with_timeout_as_none_has_correct_default_timeout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_caches_set_with_timeout_as_none_set_non_expiring_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_caches_with_unset_timeout_set_expiring_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_caches_with_unset_timeout_has_correct_default_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_default_expiration_time_for_keys_is_5_minutes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Memory caches that have the TIMEOUT parameter set to `None` in the default…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Settings having Cache arguments with a TIMEOUT=None create Caches that will set…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **The default expiration time of a cache key is 5 minutes. This value is defined…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Caches that have the TIMEOUT parameter undefined in the default settings will…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Memory caches that have the TIMEOUT parameter unset will set cache keys having…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 40](Community_40.md) (14 shared connections)
-- [Community 63](Community_63.md) (11 shared connections)
-- [Community 35](Community_35.md) (4 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
