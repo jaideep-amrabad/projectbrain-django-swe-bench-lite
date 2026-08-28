@@ -1,49 +1,43 @@
 # Community 518
 
-> 22 nodes · cohesion 0.15
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **DatabaseSchemaEditor** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._remake_table()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.alter_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.alter_db_table()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._alter_many_to_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.delete_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._is_referenced_by_fk_constraint()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.add_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.prepare_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.add_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.remove_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._collate_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Shortcut to transform a model from old_model into new_model This follows the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Create a field on a model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Remove a field from a model. Usually involves deleting a column, but for M2Ms…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Perform a "physical" (non-ManyToMany) field update.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Alter M2Ms to repoint their to= endpoints.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **Return whether or not the provided table name is referenced by another one. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **GetImageDimensionsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **skipUnless** (6 connections)
+- **DimensionClosingBug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_not_closing_of_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **InconsistentGetImageDimensionsBug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_closing_of_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_bug_19457()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_multiple_calls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_invalid_image()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_valid_image()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_webp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_missing_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **get_image_dimensions() properly closes files (#8817)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **Open files passed into get_image_dimensions() should stay opened.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **get_image_dimensions() called with a filename should closed the file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **get_image_dimensions() works properly after various calls using a file handler…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **Multiple calls of get_image_dimensions() should return the same size.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **Regression test for #19457 get_image_dimensions() fails on some PNGs, while…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **get_image_dimensions() should return (None, None) for the dimensions of invalid…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **get_image_dimensions() should catch struct.error while feeding the PIL Image…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 35](Community_35.md) (3 shared connections)
-- [Community 28](Community_28.md) (2 shared connections)
-- [Community 147](Community_147.md) (1 shared connections)
-- [Community 595](Community_595.md) (1 shared connections)
-- [Community 480](Community_480.md) (1 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

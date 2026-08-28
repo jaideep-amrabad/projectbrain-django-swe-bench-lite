@@ -1,32 +1,36 @@
 # Community 862
 
-> 10 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **tests_failures.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **ErrorTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **ExpectedFailureTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **FailureTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **UnexpectedSuccessTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **.test_sample()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **expectedFailure** (2 connections)
-- **.test_sample()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **ImageFieldTestMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **PersonWithHeightAndWidth** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Model that defines height and width fields after the ImageField.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **Mixin class to provide common functionality to ImageField test classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Creates a pristine temp directory (or deletes and recreates if it already…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Removes temp directory and all its contents.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
 
 ## Relationships
 
-- [Community 21](Community_21.md) (4 shared connections)
+- [Community 263](Community_263.md) (3 shared connections)
+- [Community 479](Community_479.md) (2 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
+- [Community 403](Community_403.md) (1 shared connections)
+- [Community 613](Community_613.md) (1 shared connections)
+- [Community 821](Community_821.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 14 (88%)
+- INFERRED: 2 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

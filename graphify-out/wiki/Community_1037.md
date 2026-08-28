@@ -1,28 +1,28 @@
 # Community 1037
 
-> 4 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **RootElement** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **CsrfCookieMaskedDeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_csrf_cookie_masked.py`
+- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_csrf_cookie_masked.py`
+- **.test_access()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_csrf_cookie_masked.py`
+- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_csrf_cookie_masked.py`
 
 ## Relationships
 
-- [Community 869](Community_869.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 435](Community_435.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_csrf_cookie_masked.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

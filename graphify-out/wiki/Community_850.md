@@ -1,35 +1,35 @@
 # Community 850
 
-> 10 nodes · cohesion 0.20
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **UpdateViewTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_update_get_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_update_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_update_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_update_with_interpolated_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_update_with_object_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_update_with_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_update_with_special_properties()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_update_without_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **test_database.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
+- **check_database_backends()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/database.py`
+- **DatabaseCheckTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
+- **.test_mysql_strict_mode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
+- **.test_database_checks_called()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
+- **register** (1 connections)
+- **patch** (1 connections)
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 77](Community_77.md) (3 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/database.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_database.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (80%)
-- INFERRED: 3 (20%)
+- EXTRACTED: 15 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

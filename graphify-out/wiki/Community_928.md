@@ -1,31 +1,27 @@
 # Community 928
 
-> 7 nodes · cohesion 0.29
+> 5 nodes · cohesion 0.80
 
 ## Key Concepts
 
-- **URLHandling** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **test_specials.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **.test_nonascii_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **.test_permanent_nonascii_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **A non-ASCII argument to HttpRedirect is handled properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **A non-ASCII argument to HttpPermanentRedirect is handled properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **Tests for URL handling in views and responses.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **theme.js** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **cycleTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **initTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **setTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **setupTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

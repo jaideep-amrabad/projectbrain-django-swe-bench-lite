@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **deprecation/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/__init__.py`
+- **migrations2/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations2/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations2/__init__.py`
 
 ## Audit Trail
 

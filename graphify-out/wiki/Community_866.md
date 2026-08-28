@@ -1,34 +1,34 @@
 # Community 866
 
-> 9 nodes · cohesion 0.39
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **mysql/compiler.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
-- **SQLCompiler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
-- **SQLDeleteCompiler** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
-- **SQLUpdateCompiler** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
-- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
-- **SQLAggregateCompiler** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
-- **.as_subquery_condition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
-- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
-- **SQLInsertCompiler** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **field_defaults/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
+- **field_defaults/tests.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
+- **DefaultTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
+- **.test_field_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
+- **Callable defaults You can pass callable objects as the ``default`` parameter to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
 
 ## Relationships
 
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

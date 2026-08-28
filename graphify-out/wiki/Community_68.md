@@ -1,65 +1,59 @@
 # Community 68
 
-> 97 nodes · cohesion 0.03
+> 98 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **edit.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **test_edit.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **FormMixin** (18 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **ModelFormMixin** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **forms_tests/views.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/views.py`
-- **SingleObjectMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **ContextMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **BaseDeleteView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **DeleteView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **ProcessFormView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **BaseCreateView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.post()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **BaseUpdateView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **CreateView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_form()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **UpdateView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **FormMixinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.get_object()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **.form_valid()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **DeletionMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **form_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/views.py`
-- **ModelFormMixinTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **BaseFormView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.delete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_success_url()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- *... and 72 more nodes in this community*
+- **BaseDatabaseOperations** (89 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.window_frame_rows_start_end()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.combine_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.compiler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.distinct_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.limit_offset_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.window_frame_range_start_end()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.adapt_ipaddressfield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.autoinc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.binary_placeholder_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.bulk_batch_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.check_expression_support()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.combine_duration_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.conditional_expression_supported_in_where_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.date_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.datetime_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.deferrable_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.end_transaction_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.execute_sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.explain_query_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.fetch_returned_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.field_cast_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- *... and 73 more nodes in this community*
 
 ## Relationships
 
-- [Community 121](Community_121.md) (11 shared connections)
-- [Community 9](Community_9.md) (11 shared connections)
-- [Community 11](Community_11.md) (9 shared connections)
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 77](Community_77.md) (9 shared connections)
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 138](Community_138.md) (4 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 652](Community_652.md) (3 shared connections)
-- [Community 50](Community_50.md) (3 shared connections)
-- [Community 85](Community_85.md) (3 shared connections)
+- [Community 67](Community_67.md) (9 shared connections)
+- [Community 654](Community_654.md) (7 shared connections)
+- [Community 796](Community_796.md) (5 shared connections)
+- [Community 987](Community_987.md) (3 shared connections)
+- [Community 272](Community_272.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 1681](Community_1681.md) (2 shared connections)
+- [Community 132](Community_132.md) (1 shared connections)
+- [Community 381](Community_381.md) (1 shared connections)
+- [Community 273](Community_273.md) (1 shared connections)
+- [Community 196](Community_196.md) (1 shared connections)
+- [Community 246](Community_246.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 240 (96%)
-- INFERRED: 10 (4%)
+- EXTRACTED: 141 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

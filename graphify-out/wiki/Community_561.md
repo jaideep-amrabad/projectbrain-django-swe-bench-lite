@@ -1,48 +1,45 @@
 # Community 561
 
-> 21 nodes · cohesion 0.15
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **DiscoverRunnerParallelArgumentTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **get_max_test_processes()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.get_parser()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.add_arguments()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **ArgumentParser** (4 connections)
-- **parallel_type()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_get_max_test_processes_env_var()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_parallel_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_add_arguments_debug_mode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_add_arguments_shuffle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_get_max_test_processes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_get_max_test_processes_forkserver()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_get_max_test_processes_spawn()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_parallel_auto()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_parallel_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_parallel_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_parallel_flag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **dict** (2 connections)
-- **The maximum number of test processes when using the --parallel option.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Parse value passed to the --parallel option.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **object** (1 connections)
+- **.get_changelist_instance()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_search_results()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_sortable_by()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_list_display()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_search_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_changelist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_list_display_links()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_list_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_list_select_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Return a sequence containing the fields to be displayed on the changelist.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Return a sequence containing the fields to be displayed as links on the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Return a sequence containing the fields to be displayed as filters in the right…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Return a list of fields to add to the select_related() part of the changelist…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Return a sequence containing the fields to be searched whenever somebody…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Return a tuple containing a queryset to implement the search and a boolean…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Hook for specifying which fields can be sorted in the changelist.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Return the ChangeList class for use on the changelist page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Return a `ChangeList` instance based on `request`. May raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 
 ## Relationships
 
-- [Community 97](Community_97.md) (7 shared connections)
-- [Community 75](Community_75.md) (3 shared connections)
-- [Community 786](Community_786.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 60](Community_60.md) (10 shared connections)
+- [Community 166](Community_166.md) (1 shared connections)
+- [Community 234](Community_234.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

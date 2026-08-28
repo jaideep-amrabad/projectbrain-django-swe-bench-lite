@@ -1,31 +1,31 @@
 # Community 982
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **DecimalFieldLookupTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- **.test_gt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- **.test_gte()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- **.test_lt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- **.test_lte()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
 
 ## Relationships
 
-- [Community 548](Community_548.md) (1 shared connections)
-- [Community 409](Community_409.md) (1 shared connections)
-- [Community 410](Community_410.md) (1 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 399](Community_399.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (73%)
+- INFERRED: 3 (27%)
 - AMBIGUOUS: 0 (0%)
 
 ---

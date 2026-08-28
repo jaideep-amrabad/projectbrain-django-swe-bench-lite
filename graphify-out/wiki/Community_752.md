@@ -1,39 +1,34 @@
 # Community 752
 
-> 13 nodes · cohesion 0.15
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **CreateViewTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_with_special_properties()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_restricted()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_view_all_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_view_with_restricted_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_view_without_explicit_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_with_interpolated_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_with_object_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_with_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_create_without_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_define_both_fields_and_form_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **sandwiched_rotate_token_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **TestingHttpResponse** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **ensured_and_protected_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **ensure_csrf_cookie** (3 connections)
+- **csrf_protect** (3 connections)
+- **csrf_rotating_token** (1 connections)
+- **A version of HttpResponse that stores what cookie values are passed to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **This is a view that calls rotate_token() in process_response() between two…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **.set_cookie()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
 
 ## Relationships
 
-- [Community 77](Community_77.md) (3 shared connections)
-- [Community 68](Community_68.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 181](Community_181.md) (5 shared connections)
+- [Community 221](Community_221.md) (4 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (80%)
-- INFERRED: 4 (20%)
+- EXTRACTED: 21 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

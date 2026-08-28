@@ -1,35 +1,32 @@
 # Community 864
 
-> 10 nodes · cohesion 0.24
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **NoOpTestRunner** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **DiscoverRunnerExtraTestsDeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.get_runner()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_extra_tests_run_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_extra_tests_build_suite()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.run_checks()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.setup_databases()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.setup_test_environment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.teardown_databases()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.teardown_test_environment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **TestCollectionOverwriteWarning** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **._collectstatic_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_no_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **Test warning in ``collectstatic`` output when a file is skipped because a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **Run collectstatic, and capture and return the output. We want to run the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **There isn't a warning if there isn't a duplicate destination.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **There is a warning when there are duplicate destinations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
 
 ## Relationships
 
-- [Community 75](Community_75.md) (2 shared connections)
-- [Community 97](Community_97.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 - [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

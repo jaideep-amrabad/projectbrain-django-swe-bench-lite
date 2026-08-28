@@ -1,57 +1,60 @@
 # Community 59
 
-> 48 nodes · cohesion 0.07
+> 61 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **InteractiveMigrationQuestioner** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **OutputWrapper** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **test_questioner.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **QuestionerHelperMethodsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **NonInteractiveMigrationQuestioner** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **patch** (8 connections)
-- **QuestionerTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **._ask_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **._choice_input()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.style_func()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.ask_auto_now_add_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_alteration()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_unique_callable_default_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **._boolean_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.test_ask_not_null_alteration_not_provided()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.ask_rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_rename_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.log_lack_of_migration()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.test_ask_initial_with_disabled_migrations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.isatty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.ask_merge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- *... and 23 more nodes in this community*
+- **auth_tests/test_validators.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **password_validation.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **CommonPasswordValidator** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **PasswordValidationTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **validate_password()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **UserAttributeSimilarityValidator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **MinimumLengthValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **get_default_password_validators()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **NumericPasswordValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **CommonPasswordValidatorTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **get_password_validators()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **password_changed()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **password_validators_help_texts()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **UserAttributeSimilarityValidatorTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **_password_validators_help_text_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **MinimumLengthValidatorTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **NumericPasswordValidatorTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **UsernameValidatorsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **exceeds_maximum_length_ratio()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.test_validate_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (16 shared connections)
-- [Community 370](Community_370.md) (12 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 981](Community_981.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 2](Community_2.md) (11 shared connections)
+- [Community 8](Community_8.md) (11 shared connections)
+- [Community 18](Community_18.md) (6 shared connections)
+- [Community 70](Community_70.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 67](Community_67.md) (3 shared connections)
+- [Community 91](Community_91.md) (3 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 470](Community_470.md) (2 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
+- [Community 39](Community_39.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 107 (95%)
-- INFERRED: 6 (5%)
+- EXTRACTED: 155 (96%)
+- INFERRED: 6 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

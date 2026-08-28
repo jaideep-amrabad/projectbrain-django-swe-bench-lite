@@ -1,78 +1,72 @@
 # Community 5
 
-> 105 nodes · cohesion 0.03
+> 310 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **RemovedInDjango50Warning** (129 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **deprecation.py** (99 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **settings_tests/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **urls/http.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **contrib/sitemaps/__init__.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **contrib/sitemaps/views.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
-- **views/static.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/views/static.py`
-- **http_date()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **sitemaps_tests/test_http.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **tests/test_static.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **HttpResponseNotModified** (15 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **serve()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/static.py`
-- **staticfiles/views.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/views.py`
-- **test_selectdatewidget.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **static()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
-- **datetime_safe.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **test_deprecation_forms.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
-- **test_datetimeinput.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- **test_functional.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
-- **test_timezone.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **SimpleSitemap** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **urls/static.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
-- **sitemap()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
-- **geoapp/urls.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/urls.py`
-- **StaticHelperTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- *... and 80 more nodes in this community*
+- **call_command()** (360 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **MakeMigrationsTests** (70 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **InspectDBTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **AppLabelErrorTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **ChangepasswordManagementCommandTestCase** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **SquashMigrationsTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **MessageCompilationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **ManageCommandParallelTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **ContentTypeOperationsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_operations.py`
+- **OptimizeMigrationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **object** (9 connections)
+- **SendTestEmailManagementCommand** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
+- **ExcludedLocaleCompilationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **IgnoreDirectoryCompilationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **test_sendtestemail.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
+- **InspectDBTransactionalTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **inspectdb_tables_only()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- **skipUnless** (6 connections)
+- **patch** (6 connections)
+- **TestConfiguration** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **empty_models/test_commands.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/empty_models/test_commands.py`
+- **CompilationErrorHandling** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **FuzzyTranslationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **MultipleLocaleCompilationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **PoFileTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- *... and 285 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (72 shared connections)
-- [Community 11](Community_11.md) (40 shared connections)
-- [Community 0](Community_0.md) (32 shared connections)
-- [Community 24](Community_24.md) (24 shared connections)
-- [Community 9](Community_9.md) (22 shared connections)
-- [Community 21](Community_21.md) (20 shared connections)
-- [Community 95](Community_95.md) (16 shared connections)
-- [Community 269](Community_269.md) (13 shared connections)
-- [Community 606](Community_606.md) (12 shared connections)
-- [Community 50](Community_50.md) (11 shared connections)
-- [Community 1](Community_1.md) (11 shared connections)
-- [Community 111](Community_111.md) (11 shared connections)
+- [Community 11](Community_11.md) (69 shared connections)
+- [Community 18](Community_18.md) (38 shared connections)
+- [Community 124](Community_124.md) (29 shared connections)
+- [Community 145](Community_145.md) (24 shared connections)
+- [Community 0](Community_0.md) (13 shared connections)
+- [Community 858](Community_858.md) (13 shared connections)
+- [Community 34](Community_34.md) (12 shared connections)
+- [Community 362](Community_362.md) (11 shared connections)
+- [Community 30](Community_30.md) (10 shared connections)
+- [Community 67](Community_67.md) (9 shared connections)
+- [Community 28](Community_28.md) (9 shared connections)
+- [Community 365](Community_365.md) (8 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/sitemaps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/urls.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/views.py`
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- `raw/code/hyd-evaluation/django-django/django/views/static.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_csrf_cookie_masked.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/empty_models/test_commands.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/update_catalogs.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 613 (89%)
-- INFERRED: 74 (11%)
+- EXTRACTED: 809 (98%)
+- INFERRED: 16 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

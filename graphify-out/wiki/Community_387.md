@@ -1,54 +1,60 @@
 # Community 387
 
-> 31 nodes · cohesion 0.15
+> 29 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **TestSuiteTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **iter_test_cases()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.assertTestNames()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.make_tests()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **reorder_test_bin()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **reorder_tests()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.make_test_suite()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **MySuite** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_test_bin_random()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_test_bin_random_and_reverse()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_tests_random()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_tests_random_mixed_classes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_tests_reverse_with_duplicates()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_tests_same_type_consecutive()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_shuffle_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_iter_test_cases_basic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_iter_test_cases_custom_test_suite_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_iter_test_cases_mixed_test_suite_classes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_test_bin_no_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_reorder_test_bin_reverse()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.build_test_suite()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_iter_test_cases_iterable_of_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_iter_test_cases_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **Return an iterator that reorders the given tests, keeping tests next to other…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Reorder an iterable of tests, grouping by the given TestCase classes. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- *... and 6 more nodes in this community*
+- **runtests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **SeleniumTestCaseBase** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **django_tests()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.create_webdriver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **collect_test_modules()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **setup_collect_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **setup_run_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.import_webdriver()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **ActionSelenium** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_filtered_test_modules()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **teardown_collect_tests()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.create_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.import_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.__new__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **bisect_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_label_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_subprocess_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_test_modules()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **paired_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **teardown_run_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.get_capability()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **get_apps_to_install()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_installed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 75](Community_75.md) (10 shared connections)
-- [Community 522](Community_522.md) (6 shared connections)
-- [Community 821](Community_821.md) (4 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 18](Community_18.md) (9 shared connections)
+- [Community 91](Community_91.md) (4 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 499](Community_499.md) (3 shared connections)
+- [Community 415](Community_415.md) (3 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 84](Community_84.md) (1 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 78 (94%)
+- INFERRED: 5 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

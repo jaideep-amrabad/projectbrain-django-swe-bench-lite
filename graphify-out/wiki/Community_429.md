@@ -1,51 +1,59 @@
 # Community 429
 
-> 26 nodes · cohesion 0.08
+> 26 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Storage** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.generate_filename()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_alternative_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_valid_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_accessed_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_created_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.get_modified_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.listdir()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **Validate the filename by calling get_valid_name() and return a filename to be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **Return a local filesystem path where the file can be retrieved using Python's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **Delete the specified file from the storage system.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **Return True if a file referenced by the given name already exists in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **List the contents of the specified path. Return a 2-tuple of lists: the first…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **Return the total size, in bytes, of the file specified by name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **Return an absolute URL where the file's contents can be accessed directly by a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **Return the last accessed time (as a datetime) of the file specified by name.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **Return the creation time (as a datetime) of the file specified by name. The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **Return the last modified time (as a datetime) of the file specified by name.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **A base storage class, providing some default behaviors that all other storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **Return a filename, based on the provided filename, that's suitable for use in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **model_inheritance_regress/models.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **model_inheritance_regress/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **Congressman** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ParkingLot4A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ParkingLot4B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Station** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **BusStation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **DerivedM** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **M2MChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ParkingLot4** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Politician** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Profile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **SelfRefChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **SelfRefParent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Senator** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Supplier** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **TrainStation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Wholesaler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **BaseM** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **M2MBase** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Parent** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **SearchableLocation** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 270](Community_270.md) (5 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 64](Community_64.md) (1 shared connections)
+- [Community 294](Community_294.md) (18 shared connections)
+- [Community 772](Community_772.md) (13 shared connections)
+- [Community 805](Community_805.md) (12 shared connections)
+- [Community 988](Community_988.md) (7 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 97 (85%)
+- INFERRED: 17 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

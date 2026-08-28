@@ -1,22 +1,25 @@
 # Community 1689
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **queryset_pickle/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/__init__.py`
+- **debugtags.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/templatetags/debugtags.py`
+- **go_boom()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/templatetags/debugtags.py`
+- **simple_tag** (1 connections)
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/templatetags/debugtags.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

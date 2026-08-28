@@ -1,30 +1,28 @@
 # Community 893
 
-> 8 nodes · cohesion 0.36
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **gdal_version()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **gdal_full_version()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **gdal_tests/tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
-- **GDALTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
-- **.test_gdal_full_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
-- **.test_gdal_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
-- **Return only the GDAL version number information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- **Return the full GDAL version information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
+- **.make_and_validate_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.validate_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.make_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **Warn about keys that would not be portable to the memcached backend. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **Helper to make and validate keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **Construct the key used by all other methods. By default, use the key_func to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
 
 ## Relationships
 
-- [Community 31](Community_31.md) (6 shared connections)
+- [Community 363](Community_363.md) (3 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,58 +1,54 @@
 # Community 253
 
-> 63 nodes · cohesion 0.07
+> 28 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **_functions.py** (68 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **register()** (44 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_datetime_parse()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **sqlite/test_functions.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_functions.py`
-- **ListAggregate** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_time_trunc()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **typecast_timestamp()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **_sqlite_date_trunc()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_datetime_trunc()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **typecast_time()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_functions.py`
-- **timezone_constructor()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **_sqlite_format_dtdelta()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_timestamp_diff()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_datetime_cast_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_datetime_cast_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_datetime_extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_ln()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_log()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_md5()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_prepare_dtdelta_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_time_diff()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_time_extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_acos()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- **_sqlite_asin()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- *... and 38 more nodes in this community*
+- **Reporter** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- **AtomicErrorsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **AtomicMergeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **AtomicMiscTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **NonAutocommitTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **AtomicMySQLTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_allows_queries_after_fixing_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_implicit_savepoint_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_orm_query_after_error_and_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_prevents_queries_in_broken_transaction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_prevents_queries_in_broken_transaction_after_client_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_orm_query_without_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- **.test_atomic_prevents_calling_transaction_methods()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_prevents_setting_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_merged_inner_savepoint_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_merged_outer_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_mark_for_rollback_on_error_in_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_mark_for_rollback_on_error_in_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **skipIf** (1 connections)
+- **skipUnless** (1 connections)
+- **Test merging transactions with savepoint=False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (17 shared connections)
-- [Community 291](Community_291.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 167](Community_167.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 981](Community_981.md) (1 shared connections)
-- [Community 315](Community_315.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 67](Community_67.md) (8 shared connections)
+- [Community 28](Community_28.md) (5 shared connections)
+- [Community 34](Community_34.md) (5 shared connections)
+- [Community 372](Community_372.md) (1 shared connections)
+- [Community 132](Community_132.md) (1 shared connections)
+- [Community 424](Community_424.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/_functions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_functions.py`
+- `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 112 (72%)
-- INFERRED: 44 (28%)
+- EXTRACTED: 44 (86%)
+- INFERRED: 7 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

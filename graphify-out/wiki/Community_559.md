@@ -1,46 +1,43 @@
 # Community 559
 
-> 20 nodes · cohesion 0.19
+> 18 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **patch** (27 connections)
-- **TestChildArguments** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **dict** (7 connections)
-- **RunWithReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **StartDjangoTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_calls_start_django()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_calls_sys_exit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_swallows_keyboard_interrupt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_run_as_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_run_as_non_django_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_run_as_non_django_module_non_package()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_errors_called()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_echo_on_called()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_starts_thread_with_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_entrypoint_fallback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_exe_fallback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_module_no_spec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_raises_runtimeerror()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_warnoptions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_xoptions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **StateRelationsTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.get_base_project_state()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_add_field_m2m_with_through()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_add_model_no_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_add_model_other_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_alter_field_m2m_to_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_relations_population()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_add_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_alter_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_many_relations_to_same_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_remove_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_remove_field_no_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_remove_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_rename_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_rename_field_no_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_rename_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_rename_model_no_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 
 ## Relationships
 
-- [Community 420](Community_420.md) (8 shared connections)
-- [Community 281](Community_281.md) (4 shared connections)
-- [Community 650](Community_650.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 731](Community_731.md) (1 shared connections)
+- [Community 23](Community_23.md) (6 shared connections)
+- [Community 77](Community_77.md) (4 shared connections)
+- [Community 180](Community_180.md) (3 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 43 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

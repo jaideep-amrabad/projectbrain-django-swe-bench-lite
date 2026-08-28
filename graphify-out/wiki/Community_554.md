@@ -1,54 +1,44 @@
 # Community 554
 
-> 20 nodes · cohesion 0.14
+> 20 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **get_version()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **version/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **get_complete_version()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **VersionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **.as_string()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **get_git_changeset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **get_main_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **.test_migration_file_header_comments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_development()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **.test_development_no_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **.test_get_version_invalid_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **.test_get_version_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **.test_releases()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **Return a string of the file contents.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **Return a PEP 440-compliant version number from VERSION.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **Return main version (X.Y[.Z]) from VERSION.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **Return a tuple of the django version. If version argument is non-empty, check…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **Return a numeric identifier of the latest git changeset. The result is the UTC…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **Test comments at top of file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **skipUnless** (1 connections)
+- **BaseIterable** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **RawModelIterable** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ValuesListIterable** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **FlatValuesListIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **NamedValuesListIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ValuesIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._async_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__aiter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable that yields a model instance for each row from a raw queryset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values() that yields a dict for each row.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values_list(flat=False) that yields a tuple for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values_list(named=True) that yields a namedtuple…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values_list(flat=True) that yields single values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (9 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 159](Community_159.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 914](Community_914.md) (1 shared connections)
-- [Community 113](Community_113.md) (1 shared connections)
-- [Community 203](Community_203.md) (1 shared connections)
-- [Community 202](Community_202.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 67](Community_67.md) (6 shared connections)
+- [Community 197](Community_197.md) (3 shared connections)
+- [Community 111](Community_111.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

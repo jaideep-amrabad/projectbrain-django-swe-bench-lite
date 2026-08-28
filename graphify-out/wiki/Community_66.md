@@ -1,59 +1,61 @@
 # Community 66
 
-> 225 nodes · cohesion 0.03
+> 45 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **.get_changes()** (146 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **AutodetectorTests** (145 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.assertOperationTypes()** (133 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.assertNumberMigrations()** (132 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.assertOperationAttributes()** (110 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **AutodetectorIndexTogetherTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **BaseAutodetectorTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.assertOperationFieldAttributes()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **patch** (9 connections)
-- **.test_alter_field_to_not_null_oneoff_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_alter_field_to_not_null_with_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_alter_field_to_not_null_without_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_field_preserved_db_column()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_model_with_fks_in_different_position()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_swappable()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_swappable_first_setting()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_alter_field_and_index_together()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_field_and_index_together()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_add_blank_textfield_and_charfield()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_add_many_to_many()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_add_model_with_field_removed_from_base_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_add_non_blank_textfield_and_charfield()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_alter_db_table_with_model_change()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_alter_field_and_unique_together()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_circular_fk_dependency()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- *... and 200 more nodes in this community*
+- **patterns/tests.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLTestCaseBase** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **LocaleMiddleware** (12 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/locale.py`
+- **URLResponseTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **clear_url_caches()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **PathUnusedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_request_urlconf_considered()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLRedirectWithoutTrailingSlashSettingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLRedirectWithoutTrailingSlashTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLVaryAcceptLanguageTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **RequestURLConfTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLNamespaceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLRedirectWithScriptAliasTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.get_fallback_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/locale.py`
+- **.process_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/locale.py`
+- **PermanentRedirectLocaleMiddleWare** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **Tests the redirect when the requested URL doesn't end with a slash…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_account_register()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_en_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_not_prefixed_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_language_prefix_with_script_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_en_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **Parse a request and decide what translation object to install in the current…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/locale.py`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 320](Community_320.md) (93 shared connections)
-- [Community 119](Community_119.md) (24 shared connections)
-- [Community 370](Community_370.md) (20 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 592](Community_592.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 311](Community_311.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 25](Community_25.md) (8 shared connections)
+- [Community 11](Community_11.md) (8 shared connections)
+- [Community 42](Community_42.md) (7 shared connections)
+- [Community 101](Community_101.md) (7 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 422](Community_422.md) (2 shared connections)
+- [Community 812](Community_812.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/locale.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 866 (99%)
-- INFERRED: 11 (1%)
+- EXTRACTED: 111 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,33 +1,31 @@
 # Community 936
 
-> 8 nodes · cohesion 0.25
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **RequestFactoryTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_get_request_from_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_request_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_trace_request_from_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Tests for the request factory.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **The request factory implements all the HTTP/1.1 methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **The request factory returns a templated response for a GET request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **The request factory returns an echo response for a TRACE request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **AsyncModelOperationTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **test_async_model_methods.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **.test_adelete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **.test_arefresh_from_db()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **.test_asave()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 334](Community_334.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 975](Community_975.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 901](Community_901.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

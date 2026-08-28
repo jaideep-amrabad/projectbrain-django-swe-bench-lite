@@ -1,42 +1,36 @@
 # Community 655
 
-> 16 nodes · cohesion 0.14
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **ManageDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for manage.py when using a settings.py file that contains the…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py builtin commands succeed if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py can execute user commands when settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py builtin commands succeed when default settings are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py builtin commands succeed if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py can execute user commands when default settings are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.order_by()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.last()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.reverse()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._earliest()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.first()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._check_ordering_first_last_queryset_aggregation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.latest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return the earliest object according to fields (if given) or by the model's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return the latest object according to fields (if given) or by the model's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return the first object of a query or None if no match is found.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return the last object of a query or None if no match is found.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a new QuerySet instance with the ordering changed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Reverse the ordering of the QuerySet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 113](Community_113.md) (9 shared connections)
-- [Community 203](Community_203.md) (8 shared connections)
-- [Community 94](Community_94.md) (8 shared connections)
-- [Community 202](Community_202.md) (2 shared connections)
-- [Community 293](Community_293.md) (1 shared connections)
+- [Community 56](Community_56.md) (7 shared connections)
+- [Community 346](Community_346.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

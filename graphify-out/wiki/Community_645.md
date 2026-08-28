@@ -1,42 +1,42 @@
 # Community 645
 
-> 16 nodes · cohesion 0.16
+> 15 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **StaticFilesHandlerMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.get_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.serve()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **._should_handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.get_base_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.get_response_async()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **Common methods used by WSGI and ASGI handlers.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **Check if the path should be handled. Ignore the path if: * the host is provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **Return the relative path to the media file on disk for the given URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **Serve the request path.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.load_middleware()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **PerformConstraintChecksTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **validation/test_constraints.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **Product** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueConstraintProduct** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **ChildProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueConstraintConditionProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **ChildUniqueConstraintProduct** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_full_clean_with_check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_check_constraints_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_check_constraints_on_child_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_partial_unique_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_partial_unique_constraints_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_unique_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_unique_constraints_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
 
 ## Relationships
 
-- [Community 478](Community_478.md) (3 shared connections)
-- [Community 646](Community_646.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 232](Community_232.md) (2 shared connections)
+- [Community 525](Community_525.md) (8 shared connections)
+- [Community 28](Community_28.md) (6 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 46 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,59 +1,56 @@
 # Community 164
 
-> 61 nodes · cohesion 0.05
+> 62 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **OrderingTests** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **ordering/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **ordering/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **.test_orders_nulls_first_on_filtered_subquery()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **OrderedByFArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **ChildArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **OrderedByExpression** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **OrderedByExpressionChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **Reference** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **.assertQuerySetEqualReversible()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_nulls_first()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_nulls_last()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **OrderedByAuthorArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **OrderedByExpressionGrandChild** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **.test_order_by_f_expression_duplicates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_default_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_default_ordering_by_f_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_default_ordering_does_not_affect_group_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_default_ordering_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_default_ordering_override_unknown_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_extra_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- *... and 36 more nodes in this community*
+- **BaseFormSet** (48 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.initial_form_count()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.add_fields()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.full_clean()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.is_valid()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.total_form_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **._construct_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **._should_delete_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.deleted_forms()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.forms()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.management_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.non_form_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.ordered_forms()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.empty_form()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.get_form_kwargs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.add_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.cleaned_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.extra_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.initial_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.total_error_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.get_default_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.get_deletion_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (8 shared connections)
-- [Community 35](Community_35.md) (5 shared connections)
-- [Community 24](Community_24.md) (5 shared connections)
-- [Community 58](Community_58.md) (4 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 21](Community_21.md) (3 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
+- [Community 305](Community_305.md) (5 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 147](Community_147.md) (2 shared connections)
+- [Community 64](Community_64.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 236](Community_236.md) (1 shared connections)
+- [Community 320](Community_320.md) (1 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
+- [Community 909](Community_909.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 109 (89%)
-- INFERRED: 14 (11%)
+- EXTRACTED: 109 (96%)
+- INFERRED: 4 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

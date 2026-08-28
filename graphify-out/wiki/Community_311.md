@@ -1,65 +1,64 @@
 # Community 311
 
-> 49 nodes · cohesion 0.05
+> 37 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **migrations/test_state.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **migrations/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **test_optimizer.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **StateApps** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **FoodQuerySet** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **UnicodeModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **InvalidBasesError** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **AppConfigStub** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **get_related_models_recursive()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.render_multiple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **UnserializableModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **.describe_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **_get_related_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **get_related_models_tuples()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **DeconstructibleObject** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.sync_apps()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **ModelWithCustomBase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **ValueError** (2 connections)
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Return all models that have a direct relationship to the given model.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.bulk_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.register_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- *... and 24 more nodes in this community*
+- **extend_sys_path()** (38 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **EggLoadingTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **TestSysPathDirectories** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **TestCollectionFilesOverride** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **NamespacePackageAppTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **TestStartProjectSettings** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
+- **.test_egg1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_egg2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_egg3()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_egg4()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_egg5()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.test_multiple_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_multiple_paths_explicit_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_single_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_middleware_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_sys_paths_directories()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_sys_paths_non_existing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_sys_paths_with_directories()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Context manager to temporarily add paths to sys.path.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **Models module can be loaded from an app in an egg** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **Loading an app from an egg that has no models returns no models (and no error).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **Models module can be loaded from an app located under an egg's top-level…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (30 shared connections)
-- [Community 28](Community_28.md) (16 shared connections)
-- [Community 320](Community_320.md) (6 shared connections)
-- [Community 17](Community_17.md) (6 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 186](Community_186.md) (4 shared connections)
-- [Community 63](Community_63.md) (4 shared connections)
-- [Community 21](Community_21.md) (3 shared connections)
-- [Community 416](Community_416.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 833](Community_833.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 18](Community_18.md) (6 shared connections)
+- [Community 360](Community_360.md) (5 shared connections)
+- [Community 84](Community_84.md) (3 shared connections)
+- [Community 670](Community_670.md) (2 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 229](Community_229.md) (2 shared connections)
+- [Community 288](Community_288.md) (2 shared connections)
+- [Community 375](Community_375.md) (1 shared connections)
+- [Community 254](Community_254.md) (1 shared connections)
+- [Community 638](Community_638.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 139 (89%)
-- INFERRED: 18 (11%)
+- EXTRACTED: 79 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,34 +1,28 @@
 # Community 981
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **UTCAliasTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_timezone_module_dir_includes_utc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **Return a tzinfo of the database connection time zone. This is only used when…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.test_alias_deprecation_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Record** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.test_save_parent_after_assign()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
 
 ## Relationships
 
-- [Community 253](Community_253.md) (1 shared connections)
-- [Community 219](Community_219.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 614](Community_614.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 537](Community_537.md) (4 shared connections)
+- [Community 389](Community_389.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (64%)
-- INFERRED: 4 (36%)
+- EXTRACTED: 8 (80%)
+- INFERRED: 2 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

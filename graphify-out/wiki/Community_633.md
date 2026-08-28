@@ -1,39 +1,40 @@
 # Community 633
 
-> 17 nodes · cohesion 0.16
+> 15 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **QuerySetSupportsPythonIdioms** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.get_ordered_articles()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_can_get_items_using_index_and_slice_notation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_can_slice_again_after_slicing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_negative_indexing_not_supported_for_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_negative_indexing_not_supported_for_single_element()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_with_steps_can_be_used()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_with_tests_is_not_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_without_step_is_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **hint: inverting your ordering might do what you need** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_can_combine_queries_using_and_and_or_operators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_can_get_number_of_items_in_queryset_using_standard_len()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_invalid_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_cannot_combine_queries_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_cannot_filter_queryset_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_cannot_reorder_queryset_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **inspectdb/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **PeopleMoreData** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **CharFieldDbCollation** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **FuncUniqueConstraint** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **JSONFieldColumnType** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **SpecialName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **TextFieldDbCollation** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **UniqueTogether** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **ColumnTypes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **DigitsInColumnName** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **ForeignKeyToField** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **Message** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **People** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **PeopleData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
 
 ## Relationships
 
-- [Community 78](Community_78.md) (2 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 34](Community_34.md) (2 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
+- EXTRACTED: 25 (96%)
 - INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 

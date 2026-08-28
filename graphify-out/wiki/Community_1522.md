@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **static/javascript.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/someapp/static/javascript.js`
+- **test_migrations_noop/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_noop/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/someapp/static/javascript.js`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_noop/__init__.py`
 
 ## Audit Trail
 

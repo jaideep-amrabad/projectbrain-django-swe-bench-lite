@@ -1,51 +1,51 @@
 # Community 283
 
-> 41 nodes · cohesion 0.05
+> 17 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **AsyncDummyCacheTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_data_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aadd()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aclear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aclose()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_adecr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_adecr_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_adelete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_adelete_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aget_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_ahas_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aincr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aincr_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aset_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_expiration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_adelete_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aget_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aget_or_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aget_or_set_callable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_aset_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **.test_atouch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- **Expiration has no effect on the dummy cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
-- *... and 16 more nodes in this community*
+- **duration_iso_string()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- **duration.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- **test_duration.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **duration_microseconds()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- **TestISODurationString** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **TestParseISODurationRoundtrip** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **_get_duration_components()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- **.test_days()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_microseconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_negative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **TestDurationMicroseconds** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_days()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_microseconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_negative()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 364](Community_364.md) (1 shared connections)
+- [Community 622](Community_622.md) (5 shared connections)
+- [Community 712](Community_712.md) (5 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 34](Community_34.md) (2 shared connections)
+- [Community 67](Community_67.md) (2 shared connections)
+- [Community 167](Community_167.md) (2 shared connections)
+- [Community 199](Community_199.md) (1 shared connections)
+- [Community 363](Community_363.md) (1 shared connections)
+- [Community 551](Community_551.md) (1 shared connections)
+- [Community 939](Community_939.md) (1 shared connections)
+- [Community 22](Community_22.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests_async.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 55 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

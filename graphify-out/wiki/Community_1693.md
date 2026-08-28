@@ -1,22 +1,23 @@
 # Community 1693
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **reserved_names/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/__init__.py`
+- **.wasSuccessful()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Tells whether or not this result was a success.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 517](Community_517.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/reserved_names/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

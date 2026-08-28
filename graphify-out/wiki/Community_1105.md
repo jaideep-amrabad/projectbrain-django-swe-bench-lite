@@ -1,27 +1,25 @@
 # Community 1105
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **DatabaseConnectionTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_get_async_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **A database connection cannot be used in an async context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_inheritance16()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **A block within another block (level 2)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 294](Community_294.md) (1 shared connections)
+- [Community 777](Community_777.md) (1 shared connections)
+- [Community 776](Community_776.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 3 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

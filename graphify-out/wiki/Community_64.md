@@ -1,78 +1,61 @@
 # Community 64
 
-> 135 nodes · cohesion 0.02
+> 128 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **SimpleLazyObject** (53 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **middleware/csrf.py** (50 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **Client** (36 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **utils/decorators.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **csrf_tests/views.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **LazyObject** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **get_token()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **get_random_string()** (23 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **template/context_processors.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **decorators/csrf.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
-- **BaseEngine** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- **template/backends/dummy.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
-- **._handle_redirects()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **HttpHeaders** (11 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **csrf()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- **rotate_token()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **template/backends/utils.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/utils.py`
-- **_mask_cipher_secret()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **decorator_from_middleware()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **test_context_processor.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
-- **BaseStorageFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **_add_new_csrf_cookie()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_get_new_csrf_string()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **TemplateStrings** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
-- **decorator_from_middleware_with_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- *... and 110 more nodes in this community*
+- **FormsFormsetTestCase** (77 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **formset_factory()** (66 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **ChoiceFormSet** (30 connections)
+- **get_default_renderer()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.make_choiceformset()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **DeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_no_management_form_warning()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_invalid()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_warning()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_custom_renderer()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **AllValidTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_valid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_displaying_more_than_one_blank_form()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_empty_ordered_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_splitdatetimefield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_validate_max_flag()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_validate_min_flag()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_validate_min_unchanged_forms()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_with_deletion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_with_ordering_and_deletion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formsets_with_ordering()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_hard_limit_on_instantiated_forms()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_increase_hard_limit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_min_num_displaying_more_than_one_blank_form()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_min_num_displaying_more_than_one_blank_form_with_zero_extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- *... and 103 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (54 shared connections)
-- [Community 25](Community_25.md) (37 shared connections)
-- [Community 11](Community_11.md) (30 shared connections)
-- [Community 0](Community_0.md) (17 shared connections)
-- [Community 1](Community_1.md) (17 shared connections)
-- [Community 23](Community_23.md) (13 shared connections)
-- [Community 6](Community_6.md) (10 shared connections)
-- [Community 41](Community_41.md) (7 shared connections)
-- [Community 50](Community_50.md) (6 shared connections)
-- [Community 71](Community_71.md) (6 shared connections)
-- [Community 9](Community_9.md) (5 shared connections)
-- [Community 328](Community_328.md) (5 shared connections)
+- [Community 305](Community_305.md) (13 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 226](Community_226.md) (4 shared connections)
+- [Community 909](Community_909.md) (3 shared connections)
+- [Community 118](Community_118.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 236](Community_236.md) (2 shared connections)
+- [Community 164](Community_164.md) (2 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
+- [Community 225](Community_225.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
-- `raw/code/hyd-evaluation/django-django/django/template/backends/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 465 (96%)
-- INFERRED: 20 (4%)
+- EXTRACTED: 253 (97%)
+- INFERRED: 9 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

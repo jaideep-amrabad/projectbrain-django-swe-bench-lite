@@ -1,34 +1,32 @@
 # Community 909
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **model_regress/test_state.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_state.py`
-- **ModelState** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **ModelStateFieldsCacheDescriptor** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **ModelStateTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_state.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Store model instance state.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.test_fields_cache_descriptor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_state.py`
+- **TestEmptyFormSet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_empty_formset_is_multipart()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_empty_formset_is_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_empty_formset_media()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **An empty formset still calls clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Media is available on empty formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **is_multipart() works with an empty formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 88](Community_88.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 64](Community_64.md) (3 shared connections)
+- [Community 305](Community_305.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 164](Community_164.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_regress/test_state.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

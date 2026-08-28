@@ -1,32 +1,37 @@
 # Community 929
 
-> 8 nodes · cohesion 0.32
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Person** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
-- **save_delete_hooks/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
-- **SaveDeleteHookTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
-- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **.timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **UTCAliasTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **timezone_constructor()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.test_timezone_module_dir_includes_utc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **Return a tzinfo of the database connection time zone. This is only used when…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.test_alias_deprecation_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Relationships
 
-- [Community 21](Community_21.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
+- [Community 92](Community_92.md) (1 shared connections)
+- [Community 161](Community_161.md) (1 shared connections)
+- [Community 224](Community_224.md) (1 shared connections)
+- [Community 705](Community_705.md) (1 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
+- [Community 636](Community_636.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 10 (71%)
+- INFERRED: 4 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

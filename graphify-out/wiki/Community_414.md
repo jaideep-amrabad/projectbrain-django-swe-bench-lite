@@ -1,54 +1,51 @@
 # Community 414
 
-> 29 nodes · cohesion 0.07
+> 27 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **ManyToManyTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_add_existing_different_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_slow_add_ignore_conflicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_add_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_add_remove_invalid_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_add_remove_set_by_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_add_remove_set_by_to_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_add_then_remove_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_assign()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_assign_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_assign_ids()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_assign_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_bulk_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_clear_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_custom_default_manager_exists_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_forward_assign_with_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_related_manager_refresh()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_related_sets()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_remove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_remove_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_reverse_assign_with_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_reverse_selects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- *... and 4 more nodes in this community*
+- **schema/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Meta** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Thing** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Author** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorCharFieldWithIndex** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorTextFieldWithIndex** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithDefaultHeight** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithEvenLongerName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithIndexedName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithUniqueName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithUniqueNameAndBirthday** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Book** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookForeignObj** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWeak** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWithLongName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWithO2O** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWithoutAuthor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWithSlug** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **IntegerPK** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Node** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Note** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **NoteRename** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Tag** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **TagM2MTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **TagUniqueRename** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 756](Community_756.md) (4 shared connections)
-- [Community 962](Community_962.md) (4 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 1180](Community_1180.md) (1 shared connections)
-- [Community 1181](Community_1181.md) (1 shared connections)
-- [Community 294](Community_294.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 84](Community_84.md) (1 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (88%)
-- INFERRED: 5 (12%)
+- EXTRACTED: 53 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

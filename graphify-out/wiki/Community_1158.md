@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_forever_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Passing in None into timeout results in a value that is cached forever** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_reverse_lazy_decodes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **reverse_lazy() works in the test client** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 284](Community_284.md) (1 shared connections)
+- [Community 481](Community_481.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 

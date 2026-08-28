@@ -1,60 +1,51 @@
 # Community 537
 
-> 41 nodes · cohesion 0.06
+> 19 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **TestContextDecorator** (17 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **HandlerLoggingTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **LoggingCaptureMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.assertLogsRequest()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **I18nLoggingTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **SecurityLoggerTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **SetupDefaultLoggingMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.enable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **LoggingAssertionMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.disable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.decorate_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.save_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.decorate_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.decorate_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_internal_server_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_internal_server_error_599()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_multi_part_parser_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_page_not_found_raised()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_page_not_found_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- *... and 16 more nodes in this community*
+- **many_to_one/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **many_to_one/models.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **ChildStringPrimaryKeyParent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **District** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **ParentStringPrimaryKey** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Relation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Third** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **School** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Student** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.test_save_fk_after_parent_with_non_numeric_pk_set_on_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **SchoolManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.test_relation_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Many-to-one relationships To define a many-to-one relationship, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Second** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (9 shared connections)
-- [Community 73](Community_73.md) (6 shared connections)
-- [Community 67](Community_67.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 201](Community_201.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 216](Community_216.md) (1 shared connections)
-- [Community 326](Community_326.md) (1 shared connections)
-- [Community 127](Community_127.md) (1 shared connections)
+- [Community 389](Community_389.md) (12 shared connections)
+- [Community 838](Community_838.md) (10 shared connections)
+- [Community 67](Community_67.md) (4 shared connections)
+- [Community 981](Community_981.md) (4 shared connections)
+- [Community 801](Community_801.md) (4 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 62 (87%)
+- INFERRED: 9 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

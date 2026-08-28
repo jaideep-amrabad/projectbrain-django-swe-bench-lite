@@ -1,57 +1,65 @@
 # Community 402
 
-> 31 nodes · cohesion 0.09
+> 27 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **MiscTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.g()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **get_language_from_request()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **CountrySpecificLanguageTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_support_for_deprecated_chinese_language_codes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_cache_resetting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_english_fallback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_language_from_path_real()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_supported_language_variant_real()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_patterns_returns_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_parse_language_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_special_fallback_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_subsequent_code_fallback_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_check_for_language()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_language_from_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_specific_language_codes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_language_from_path_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_supported_language_variant_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_parse_literal_http_header()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_parse_spec_http_header()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_plural_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **Hour, 12-hour format without leading zeros; i.e. '1' to '12** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Hour, 24-hour format without leading zeros; i.e. '0' to '23** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.test_check_for_language_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_language_from_request_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- *... and 6 more nodes in this community*
+- **deconstructible()** (41 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
+- **test_deconstruct.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **auth/validators.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- **deconstruct.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
+- **DeconstructibleTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **0004_alter_user_username_opts.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0004_alter_user_username_opts.py`
+- **0007_alter_validators_add_error_messages.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0007_alter_validators_add_error_messages.py`
+- **0008_alter_user_username_max_length.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0008_alter_user_username_max_length.py`
+- **DeconstructibleWithPathClass** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **UnicodeUsernameValidator** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- **DeconstructibleClass** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleInvalidPathClass** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleChildClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleInvalidPathChildClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_invalid_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **DeconstructibleWithPathChildClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **ASCIIUsernameValidator** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- **deconstructible_classes.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/deconstructible_classes.py`
+- **.test_deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_deconstruct_child()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_deconstruct_child_with_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_deconstruct_with_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **.test_parent_invalid_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
+- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0004_alter_user_username_opts.py`
+- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0007_alter_validators_add_error_messages.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 32](Community_32.md) (4 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 459](Community_459.md) (1 shared connections)
-- [Community 364](Community_364.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 501](Community_501.md) (1 shared connections)
+- [Community 367](Community_367.md) (9 shared connections)
+- [Community 16](Community_16.md) (8 shared connections)
+- [Community 274](Community_274.md) (6 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 67](Community_67.md) (3 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 63](Community_63.md) (3 shared connections)
+- [Community 40](Community_40.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0004_alter_user_username_opts.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0007_alter_validators_add_error_messages.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0008_alter_user_username_max_length.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/deconstructible_classes.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_deconstruct.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (80%)
-- INFERRED: 12 (20%)
+- EXTRACTED: 107 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

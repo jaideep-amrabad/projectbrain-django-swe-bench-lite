@@ -1,56 +1,42 @@
 # Community 500
 
-> 23 nodes · cohesion 0.12
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **OrderedSet** (33 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **OrderedSetTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.get_parent_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.discard()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.test_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_discard()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_init_with_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_len()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_reversed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **Return all the ancestors of this model as a list ordered by MRO. Useful for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__reversed__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **A set which keeps the ordering of the inserted items.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **devDependencies** (7 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **package.json** (5 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **scripts** (3 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **eslint** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-cli** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-contrib-qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **puppeteer** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **engines** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **eslint** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-cli** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-contrib-qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **puppeteer** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **npm** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **name** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **private** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **pretest** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **test** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 674](Community_674.md) (2 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 434](Community_434.md) (2 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 411](Community_411.md) (1 shared connections)
-- [Community 175](Community_175.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 75](Community_75.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- `raw/code/hyd-evaluation/django-django/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

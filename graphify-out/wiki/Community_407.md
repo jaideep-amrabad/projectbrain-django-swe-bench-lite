@@ -1,6 +1,6 @@
 # Community 407
 
-> 30 nodes · cohesion 0.07
+> 28 nodes · cohesion 0.07
 
 ## Key Concepts
 
@@ -15,7 +15,6 @@
 - **.test_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 - **.test_no_template_source_loaders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 - **.test_non_l10ned_numeric_ids()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_safestring_in_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 - **.test_template_exceptions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 - **.test_template_override_exception_reporter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 - **.test_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
@@ -28,17 +27,19 @@
 - **.test_technical_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 - **.test_technical_404_converter_raise_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 - **.test_technical_500()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **skipIf** (1 connections)
-- *... and 5 more nodes in this community*
+- **Numeric IDs and fancy traceback context blocks line numbers shouldn't be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Tests for not existing file** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (9 shared connections)
-- [Community 69](Community_69.md) (2 shared connections)
-- [Community 195](Community_195.md) (2 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 11](Community_11.md) (9 shared connections)
+- [Community 116](Community_116.md) (2 shared connections)
+- [Community 179](Community_179.md) (2 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1016](Community_1016.md) (1 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
 
 ## Source Files
 
@@ -46,7 +47,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 44 (96%)
+- EXTRACTED: 43 (96%)
 - INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 

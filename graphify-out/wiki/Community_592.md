@@ -1,49 +1,42 @@
 # Community 592
 
-> 18 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **RegexValidator** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **TestValidatorEquality** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **TestValidators** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.test_email_equality()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_regex_equality()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_regex_equality_blank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_regex_equality_nocache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_max_length_validator_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_message_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_message_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_regex_validator_flags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_single_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **Validate that the input contains (or does *not* contain, if inverse_match is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **Validators have valid equality operators (#21638)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_validators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.assertNotInOutput()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DiffSettings** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_basic()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_default()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_unified()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_all()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_unified_all()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_suppress_base_options_command_help()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_settings_configured()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_dynamic_settings_configured()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Utility assertion: assert that the given message exists in the output** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Tests for diffsettings management command.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Runs without error and emits settings diff.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **The all option also shows settings with the default value.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **The --default option specifies an alternate settings module for comparison.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **--output=unified emits settings diff in unified mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **--output=unified --all emits settings diff in unified mode and includes…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 142](Community_142.md) (12 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 66](Community_66.md) (3 shared connections)
-- [Community 159](Community_159.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 943](Community_943.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 131](Community_131.md) (10 shared connections)
+- [Community 96](Community_96.md) (9 shared connections)
+- [Community 203](Community_203.md) (8 shared connections)
+- [Community 187](Community_187.md) (6 shared connections)
+- [Community 276](Community_276.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
+- EXTRACTED: 57 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,25 +1,25 @@
 # Community 1030
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.add_initial_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.add_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **Return the field name with a prefix appended, if this Form has a prefix set.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **Add an 'initial' prefix for checking dynamic initial values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **annotated_tag_function.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/annotated_tag_function.py`
+- **annotated_tag_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/annotated_tag_function.py`
+- **simple_tag** (1 connections)
 
 ## Relationships
 
-- [Community 234](Community_234.md) (2 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/annotated_tag_function.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

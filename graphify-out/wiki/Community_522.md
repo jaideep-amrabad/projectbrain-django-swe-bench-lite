@@ -1,51 +1,56 @@
 # Community 522
 
-> 22 nodes · cohesion 0.15
+> 59 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Shuffler** (26 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **ShufflerTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **test_shuffler.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **._hash_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **._hash_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.shuffle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **new_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **.test_hash_item_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_hash_item_seed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_hash_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_init_no_seed_argument()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_init_none_seed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_seed_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_shuffle_consistency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_shuffle_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_shuffle_same_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **This class implements shuffling with a special consistency property.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Return a new list of the items in a shuffled order. The `key` is a function…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.seed_display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_hash_text_hash_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **ReverseSelectRelatedTestCase** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
+- **select_related_onetoone/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
+- **select_related_onetoone/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
+- **ContentTypeManager** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Child1** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
+- **._add_to_cache()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.get_for_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Child2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
+- **Parent1** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
+- **Parent2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
+- **ReverseSelectRelatedValidationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
+- **.get_for_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Child3** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
+- **Child4** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
+- **.setUpTestData()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
+- **AdvancedUserStat** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
+- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
+- **UserStat** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
+- **.get_for_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **._get_from_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **._get_opts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Image** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
+- **LinkedList** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
+- **Product** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
+- **StatDetails** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
+- *... and 34 more nodes in this community*
 
 ## Relationships
 
-- [Community 387](Community_387.md) (6 shared connections)
-- [Community 75](Community_75.md) (4 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 821](Community_821.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 21](Community_21.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 69](Community_69.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 110 (87%)
+- INFERRED: 16 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

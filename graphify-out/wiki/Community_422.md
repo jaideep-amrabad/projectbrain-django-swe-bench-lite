@@ -1,54 +1,65 @@
 # Community 422
 
-> 28 nodes · cohesion 0.07
+> 142 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **TestModelDetailView** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **get_return_data_type()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_model_with_no_backward_relations_render_only_relevant_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_app_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_descriptions_render_correctly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_instance_of_cached_property_methods_are_displayed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_instance_of_property_methods_are_displayed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_method_data_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_method_excludes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_methods_with_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_methods_with_arguments_display_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_methods_with_arguments_display_arguments_default_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_methods_with_multiple_arguments_display_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_model_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_model_with_many_to_one()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **Return a somewhat-helpful data type given a function name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- **Methods that begin with strings defined in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **Methods that take arguments should also displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **Methods with arguments should have their arguments displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **Methods with keyword arguments should have their arguments displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **Methods with multiple arguments should have all their arguments displayed, but…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **Model properties are displayed as fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **Model cached properties are displayed as fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **The ``description`` field should render correctly for each field type.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- *... and 3 more nodes in this community*
+- **RequestFactory** (93 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **test_client_regress/tests.py** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Client** (36 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **ASGIRequest** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.generic()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **ContextList** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **AsyncRequestFactory** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._handle_redirects()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **ContextTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.request()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **AssertTemplateUsedTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **TestDataMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.request()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.generic()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **ViewTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **ReverseLazyTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.request()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **encode_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **encode_multipart()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._encode_json()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **ExceptionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **RequestFactoryEnvironmentTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **._base_environ()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.post()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **store_rendered_templates()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- *... and 117 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (7 shared connections)
-- [Community 524](Community_524.md) (4 shared connections)
-- [Community 89](Community_89.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 654](Community_654.md) (1 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
+- [Community 12](Community_12.md) (34 shared connections)
+- [Community 2](Community_2.md) (14 shared connections)
+- [Community 42](Community_42.md) (12 shared connections)
+- [Community 0](Community_0.md) (12 shared connections)
+- [Community 11](Community_11.md) (10 shared connections)
+- [Community 45](Community_45.md) (8 shared connections)
+- [Community 101](Community_101.md) (6 shared connections)
+- [Community 19](Community_19.md) (6 shared connections)
+- [Community 71](Community_71.md) (6 shared connections)
+- [Community 185](Community_185.md) (5 shared connections)
+- [Community 220](Community_220.md) (5 shared connections)
+- [Community 18](Community_18.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 391 (98%)
+- INFERRED: 10 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,53 +1,64 @@
 # Community 190
 
-> 25 nodes · cohesion 0.09
+> 37 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Jinja2** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- **Jinja2Tests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.get_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- **Template** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- **get_exception_info()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- **Origin** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- **.from_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- **.template_context_processors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- **.test_context_processors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_dirs_pathlib()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_self_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **A container to hold debug information as described in the template API…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- **Format exception information for display on the debug page using the structure…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- **.test_exception_debug_info_max_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_exception_debug_info_min_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_origin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_origin_from_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_template_render_error_nonexistent_source()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_template_render_nested_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **skipIf** (1 connections)
-- **Using 'self' in the context should not throw errors (#24538).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **display()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- **Article** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **PostAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.action_checkbox()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.colored_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **LinkInline** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.multiline_html()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **AdminOrderedModelMethod** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Link** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.test_cached_property_name_deprecation_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **.age_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **.event_date_func()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **admin_ordered_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **AdminOrderedAdminMethodAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.some_admin_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ArticleAdmin6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.modeladmin_year()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ArticleInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **callable_on_unknown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **callable_year()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ComplexSortedPersonAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **FieldOverridePostAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **InquisitionAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.sketch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 185](Community_185.md) (3 shared connections)
-- [Community 71](Community_71.md) (2 shared connections)
-- [Community 64](Community_64.md) (1 shared connections)
-- [Community 328](Community_328.md) (1 shared connections)
+- [Community 89](Community_89.md) (14 shared connections)
+- [Community 859](Community_859.md) (6 shared connections)
+- [Community 80](Community_80.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 53](Community_53.md) (2 shared connections)
+- [Community 306](Community_306.md) (1 shared connections)
+- [Community 105](Community_105.md) (1 shared connections)
+- [Community 60](Community_60.md) (1 shared connections)
+- [Community 470](Community_470.md) (1 shared connections)
+- [Community 398](Community_398.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 73 (91%)
+- INFERRED: 7 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

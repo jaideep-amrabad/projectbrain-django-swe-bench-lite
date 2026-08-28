@@ -1,58 +1,57 @@
 # Community 215
 
-> 49 nodes · cohesion 0.05
+> 50 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **AdminForm** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **InlineAdminForm** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **InlineAdminFormSet** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **AdminField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **Fieldline** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **Fieldset** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **ArticleForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **InlineFieldset** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **AdminFormTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
-- **AdminErrorList** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.label_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.test_immutable_content_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
-- **.errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.deletion_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.fk_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.pk_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- *... and 24 more nodes in this community*
+- **SelectRelatedTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **select_related/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **select_related/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **SelectRelatedValidationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **Bookmark** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Domain** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Species** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **TaggedItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **.create_tree()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **Family** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Genus** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **HybridSpecies** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Kingdom** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Klass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Order** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Phylum** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Pizza** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Running select_related() after calling values() raises a TypeError** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_access_fks_with_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_access_fks_without_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_certain_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_list_with_depth()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_list_with_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_more_certain_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (15 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 39](Community_39.md) (3 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 625](Community_625.md) (1 shared connections)
-- [Community 177](Community_177.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 54](Community_54.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 577](Community_577.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 77 (82%)
+- INFERRED: 17 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

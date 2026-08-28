@@ -1,39 +1,30 @@
 # Community 924
 
-> 13 nodes · cohesion 0.18
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **migrate_signals/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **MigrateSignalTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **Receiver** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.test_migrations_only()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **OneTimeReceiver** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.test_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.test_call_time()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **If all apps have migrations, migration signals should be sent.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **Special receiver for handle the fact that test runner calls migrate for several…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- **CSRFEnabledClientTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_csrf_enabled_client()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Client** (3 connections)
+- **.test_exc_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **CustomTestClient** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **A client can be instantiated with CSRF checks enabled** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 135](Community_135.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 134](Community_134.md) (2 shared connections)
+- [Community 481](Community_481.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

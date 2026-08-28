@@ -1,78 +1,73 @@
 # Community 24
 
-> 275 nodes · cohesion 0.02
+> 155 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **datetime** (426 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **functions/__init__.py** (189 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/__init__.py`
-- **Func** (104 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **models/expressions.py** (88 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **test_extract_trunc.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **DateFunctionTests** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **expressions_window/tests.py** (49 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
-- **datetime.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **.create_model()** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **test_query.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
-- **aggregation/tests.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
-- **annotations/tests.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **DateFormatTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
-- **Extract** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **postgres/constraints.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **models/indexes.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **IntegerField** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **test_q.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_q.py`
-- **Col** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **ExpressionList** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **comparison.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **Transform** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **TruncBase** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **window.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **ExtractYear** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- *... and 250 more nodes in this community*
+- **related.py** (66 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **db/models/base.py** (65 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **contenttypes/fields.py** (62 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **related_descriptors.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **deletion.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **OneToOneField** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **ObjectDoesNotExist** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **models/utils.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
+- **ForwardManyToOneDescriptor** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **AltersData** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
+- **ModelBase** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **ManyToManyDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ReverseManyToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ReverseOneToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **manager.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **CASCADE()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **lazy_related_operation()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **ManyToOneRel** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **Manager** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__new__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **ProtectedError** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **create_many_to_many_intermediary_model()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **ManyToManyRel** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **schema/fields.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- **_filter_prefetch_queryset()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- *... and 130 more nodes in this community*
 
 ## Relationships
 
-- [Community 21](Community_21.md) (98 shared connections)
-- [Community 2](Community_2.md) (90 shared connections)
-- [Community 0](Community_0.md) (48 shared connections)
-- [Community 35](Community_35.md) (47 shared connections)
-- [Community 104](Community_104.md) (44 shared connections)
-- [Community 36](Community_36.md) (38 shared connections)
-- [Community 12](Community_12.md) (36 shared connections)
-- [Community 57](Community_57.md) (34 shared connections)
-- [Community 58](Community_58.md) (31 shared connections)
-- [Community 101](Community_101.md) (30 shared connections)
-- [Community 6](Community_6.md) (27 shared connections)
-- [Community 30](Community_30.md) (25 shared connections)
+- [Community 8](Community_8.md) (48 shared connections)
+- [Community 67](Community_67.md) (38 shared connections)
+- [Community 3](Community_3.md) (22 shared connections)
+- [Community 17](Community_17.md) (15 shared connections)
+- [Community 84](Community_84.md) (15 shared connections)
+- [Community 18](Community_18.md) (9 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 454](Community_454.md) (6 shared connections)
+- [Community 102](Community_102.md) (6 shared connections)
+- [Community 410](Community_410.md) (6 shared connections)
+- [Community 376](Community_376.md) (6 shared connections)
+- [Community 344](Community_344.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_pi.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/window/test_validation.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/migrations/0002_rastermodels.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1522 (88%)
-- INFERRED: 212 (12%)
+- EXTRACTED: 525 (94%)
+- INFERRED: 35 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

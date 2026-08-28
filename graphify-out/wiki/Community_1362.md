@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **app_raising_messages/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_raising_messages/__init__.py`
+- **file_storage/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_raising_messages/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/__init__.py`
 
 ## Audit Trail
 

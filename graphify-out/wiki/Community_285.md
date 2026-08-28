@@ -1,60 +1,52 @@
 # Community 285
 
-> 35 nodes · cohesion 0.09
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **expressions/tests.py** (83 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **expressions/models.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **Employee** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **Company** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **Experiment** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **ExpressionsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **Number** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **Time** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **ExistsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **FieldTransformTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **Result** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **Manager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **RemoteEmployee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **UUID** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **.test_new_object_save()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_object_update_unsaved_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_insensitive_patterns_escape()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_patterns_escape()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **UUIDPK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- **.test_negated_empty_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_select_negated_empty_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_F_reuse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_month_aggregation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **r""" Special characters (e.g. %, _ and \) stored in database are properly…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- *... and 10 more nodes in this community*
+- **PostGISOperations** (38 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.geo_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **._normalize_distance_lookup_arg()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.parse_raster()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.convert_extent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.convert_extent3d()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.distance_expr_for_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.get_distance()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.get_geom_placeholder()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.function_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.geometry_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.get_area_att_for_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.spatial_aggregate_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.spatial_ref_sys()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **DatabaseOperations** (1 connections)
+- **Return a 4-tuple extent for the `Extent` aggregate by converting the bounding…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Return a 6-tuple extent for the `Extent3D` aggregate by converting the 3d…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Return the database field type for the given spatial field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Retrieve the distance parameters for the given geometry field, distance lookup…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Provide a proper substitution value for Geometries or rasters that are not in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Convert a PostGIS HEX String into a dict readable by GDALRaster.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (27 shared connections)
-- [Community 58](Community_58.md) (19 shared connections)
-- [Community 65](Community_65.md) (10 shared connections)
-- [Community 21](Community_21.md) (9 shared connections)
-- [Community 35](Community_35.md) (8 shared connections)
-- [Community 34](Community_34.md) (7 shared connections)
-- [Community 24](Community_24.md) (6 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 22](Community_22.md) (3 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
+- [Community 67](Community_67.md) (8 shared connections)
+- [Community 652](Community_652.md) (7 shared connections)
+- [Community 36](Community_36.md) (3 shared connections)
+- [Community 509](Community_509.md) (2 shared connections)
+- [Community 1021](Community_1021.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 664](Community_664.md) (1 shared connections)
+- [Community 733](Community_733.md) (1 shared connections)
+- [Community 49](Community_49.md) (1 shared connections)
+- [Community 385](Community_385.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 139 (81%)
-- INFERRED: 33 (19%)
+- EXTRACTED: 41 (85%)
+- INFERRED: 7 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

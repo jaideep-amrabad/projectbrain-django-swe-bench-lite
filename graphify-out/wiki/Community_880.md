@@ -1,32 +1,30 @@
 # Community 880
 
-> 9 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **DjangoAdminNoSettings** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_commands_with_invalid_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **no settings: django-admin builtin commands fail if settings file (from…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for django-admin when there is no settings.py file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **no settings: django-admin builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Commands that don't require settings succeed if the settings file doesn't exist.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **module.js** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
+- **module_test.js** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
+- **firstConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
+- **secondConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
+- **testConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
+- **dynamicModule** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
+- **nested.js** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/nested/js/nested.js`
 
 ## Relationships
 
-- [Community 94](Community_94.md) (8 shared connections)
-- [Community 203](Community_203.md) (4 shared connections)
-- [Community 202](Community_202.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/nested/js/nested.js`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

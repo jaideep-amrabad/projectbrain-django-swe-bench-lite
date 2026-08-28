@@ -1,29 +1,26 @@
 # Community 997
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **schema/fields.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **MediumBlobField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **InheritedManyToManyField** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **A MySQL BinaryField that uses a different blob size.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- **.test_session_modifying_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_session_engine_is_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_sessions_app_is_not_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that modifies the session** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 399](Community_399.md) (1 shared connections)
-- [Community 519](Community_519.md) (1 shared connections)
+- [Community 481](Community_481.md) (3 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
