@@ -1,8 +1,8 @@
 # TestCase
 
-> God node · 1000 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1004 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 19](Community_19.md)
+**Community:** [Community 20](Community_20.md)
 
 ## Connections by Relation
 
@@ -22,14 +22,14 @@
 - auth_tests/test_views.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
+- admin_inlines/tests.py `EXTRACTED`
 - admin_filters/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
-- admin_inlines/tests.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
-- auth_tests/test_forms.py `EXTRACTED`
+- timezones/tests.py `EXTRACTED`
 
 ### inherits
 - AutodetectorTests `EXTRACTED`
@@ -43,14 +43,14 @@
 - AggregationTests `EXTRACTED`
 - TestQuerying `EXTRACTED`
 - ModelFormsetTest `EXTRACTED`
-- LookupTests `EXTRACTED`
 - NonAggregateAnnotationTestCase `EXTRACTED`
+- LookupTests `EXTRACTED`
+- TestInline `EXTRACTED`
 - GenericRelationsTests `EXTRACTED`
 - ModelInheritanceTest `EXTRACTED`
 - ModelFormBaseTest `EXTRACTED`
 - ListFiltersTests `EXTRACTED`
 - ManyToOneTests `EXTRACTED`
-- TestInline `EXTRACTED`
 - PostgreSQLTestCase `EXTRACTED`
 
 ### method

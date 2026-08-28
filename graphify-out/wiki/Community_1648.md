@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **reverse_lookup/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/__init__.py`
+- **sample/empty.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/empty.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/empty.py`
 
 ## Audit Trail
 

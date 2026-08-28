@@ -4,17 +4,18 @@
 
 ## Key Concepts
 
-- **.test_dependency_sorting_m2m_complex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_m2m_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **M2M relations without explicit through models SHOULD count as dependencies…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **app_unmigrated/models.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/app_unmigrated/models.py`
+- **Foo** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/app_unmigrated/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/app_unmigrated/models.py`
 
 ## Relationships
 
-- [Community 374](Community_374.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/app_unmigrated/models.py`
 
 ## Audit Trail
 
