@@ -1,6 +1,6 @@
 # Community 40
 
-> 139 nodes · cohesion 0.03
+> 136 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **CustomPaginator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
 - **DynamicListDisplayChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
 - **DynamicListDisplayLinksChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- *... and 114 more nodes in this community*
+- *... and 111 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (16 shared connections)
+- [Community 11](Community_11.md) (20 shared connections)
 - [Community 5](Community_5.md) (15 shared connections)
-- [Community 10](Community_10.md) (13 shared connections)
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 323](Community_323.md) (8 shared connections)
-- [Community 274](Community_274.md) (6 shared connections)
+- [Community 9](Community_9.md) (12 shared connections)
+- [Community 42](Community_42.md) (9 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 275](Community_275.md) (6 shared connections)
 - [Community 0](Community_0.md) (5 shared connections)
-- [Community 90](Community_90.md) (5 shared connections)
-- [Community 693](Community_693.md) (4 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 193](Community_193.md) (3 shared connections)
-- [Community 58](Community_58.md) (3 shared connections)
+- [Community 699](Community_699.md) (4 shared connections)
+- [Community 194](Community_194.md) (3 shared connections)
+- [Community 57](Community_57.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 29](Community_29.md) (3 shared connections)
 
 ## Source Files
 
@@ -57,7 +57,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 361 (88%)
+- EXTRACTED: 358 (88%)
 - INFERRED: 47 (12%)
 - AMBIGUOUS: 0 (0%)
 

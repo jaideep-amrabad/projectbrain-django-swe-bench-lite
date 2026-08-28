@@ -1,6 +1,6 @@
 # Community 67
 
-> 110 nodes · cohesion 0.02
+> 111 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -8,12 +8,12 @@
 - **Actor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **UnchangeableObject** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **Bookmark** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ModelWithStringPrimaryKey** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **Persona** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **Podcast** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **Villain** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **ChapterXtra1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **ChildOfReferer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CoverLetter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **CyclicOne** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **CyclicTwo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **EmptyModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
@@ -29,22 +29,22 @@
 - **Recommendation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **Recommender** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **ReferencedByGenRel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- *... and 85 more nodes in this community*
+- *... and 86 more nodes in this community*
 
 ## Relationships
 
-- [Community 73](Community_73.md) (81 shared connections)
-- [Community 10](Community_10.md) (15 shared connections)
-- [Community 248](Community_248.md) (15 shared connections)
-- [Community 416](Community_416.md) (13 shared connections)
-- [Community 109](Community_109.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 599](Community_599.md) (4 shared connections)
-- [Community 862](Community_862.md) (3 shared connections)
-- [Community 802](Community_802.md) (3 shared connections)
-- [Community 180](Community_180.md) (3 shared connections)
-- [Community 993](Community_993.md) (2 shared connections)
-- [Community 301](Community_301.md) (2 shared connections)
+- [Community 71](Community_71.md) (81 shared connections)
+- [Community 249](Community_249.md) (15 shared connections)
+- [Community 9](Community_9.md) (14 shared connections)
+- [Community 420](Community_420.md) (13 shared connections)
+- [Community 104](Community_104.md) (5 shared connections)
+- [Community 605](Community_605.md) (4 shared connections)
+- [Community 867](Community_867.md) (3 shared connections)
+- [Community 807](Community_807.md) (3 shared connections)
+- [Community 179](Community_179.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 1000](Community_1000.md) (2 shared connections)
 
 ## Source Files
 
@@ -52,7 +52,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 270 (98%)
+- EXTRACTED: 271 (98%)
 - INFERRED: 5 (2%)
 - AMBIGUOUS: 0 (0%)
 

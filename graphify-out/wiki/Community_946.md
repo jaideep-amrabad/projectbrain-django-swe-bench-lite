@@ -16,8 +16,8 @@
 ## Relationships
 
 - [Community 285](Community_285.md) (5 shared connections)
-- [Community 478](Community_478.md) (4 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
+- [Community 480](Community_480.md) (4 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
 - [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files

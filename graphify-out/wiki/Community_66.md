@@ -1,6 +1,6 @@
 # Community 66
 
-> 100 nodes · cohesion 0.02
+> 98 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -15,7 +15,6 @@
 - **._get_srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 - **._set_srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 - **.auth_code()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.auth_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
 - **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
 - **.import_epsg()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
 - **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
@@ -29,21 +28,22 @@
 - **.test07_boolean_props()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
 - **.test08_angular_linear()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
 - **.test09_authority()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
-- *... and 75 more nodes in this community*
+- **.test10_attributes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- *... and 73 more nodes in this community*
 
 ## Relationships
 
-- [Community 36](Community_36.md) (13 shared connections)
-- [Community 153](Community_153.md) (7 shared connections)
-- [Community 31](Community_31.md) (6 shared connections)
-- [Community 62](Community_62.md) (5 shared connections)
+- [Community 33](Community_33.md) (13 shared connections)
+- [Community 154](Community_154.md) (7 shared connections)
+- [Community 30](Community_30.md) (6 shared connections)
+- [Community 61](Community_61.md) (5 shared connections)
 - [Community 159](Community_159.md) (3 shared connections)
-- [Community 318](Community_318.md) (2 shared connections)
+- [Community 317](Community_317.md) (2 shared connections)
 - [Community 6](Community_6.md) (2 shared connections)
-- [Community 762](Community_762.md) (1 shared connections)
-- [Community 80](Community_80.md) (1 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
+- [Community 766](Community_766.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
+- [Community 417](Community_417.md) (1 shared connections)
 
 ## Source Files
 
@@ -53,7 +53,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 160 (98%)
+- EXTRACTED: 158 (98%)
 - INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 

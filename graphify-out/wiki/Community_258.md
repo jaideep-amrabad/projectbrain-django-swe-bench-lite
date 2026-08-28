@@ -1,12 +1,21 @@
 # Community 258
 
-> 18 nodes · cohesion 0.14
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
 - **HttpResponseBase** (36 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 - **HttpResponseBaseTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **OSError** (6 connections)
+- **.set_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 - **.test_setdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **.delete_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.has_header()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.set_signed_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.setdefault()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.writelines()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 - **.test_closed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
 - **.test_tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
 - **.test_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
@@ -20,21 +29,20 @@
 - **.seekable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 - **.__setitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 - **.writable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **An HTTP response base class with dictionary-accessed headers. This class…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **HttpResponseBase.setdefault() should not change an existing header and should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 919](Community_919.md) (4 shared connections)
-- [Community 1000](Community_1000.md) (4 shared connections)
-- [Community 1711](Community_1711.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 1715](Community_1715.md) (1 shared connections)
-- [Community 1751](Community_1751.md) (1 shared connections)
-- [Community 1752](Community_1752.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 922](Community_922.md) (4 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 863](Community_863.md) (2 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
+- [Community 274](Community_274.md) (1 shared connections)
+- [Community 64](Community_64.md) (1 shared connections)
+- [Community 1704](Community_1704.md) (1 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
+- [Community 996](Community_996.md) (1 shared connections)
 - [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
@@ -44,8 +52,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 41 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 49 (88%)
+- INFERRED: 7 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

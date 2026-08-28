@@ -1,6 +1,6 @@
 # Community 4
 
-> 408 nodes · cohesion 0.01
+> 381 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -8,43 +8,43 @@
 - **defaultfilters.py** (153 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 - **safestring.py** (80 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
 - **utils/html.py** (62 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **filter** (57 connections)
-- **stringfilter()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **lazystr()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
 - **conditional_escape()** (31 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 - **escape()** (31 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 - **SafeData** (29 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
 - **humanize.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/humanize.py`
 - **test_html.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
 - **humanize_tests/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **TestUtilsHtml** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
 - **keep_lazy_text()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **linebreaksbr()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 - **linebreaks_filter()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **TestUtilsText** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **floatformat()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 - **SafeString** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
 - **test_safestring.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
 - **SafeStringTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **test_floatformat.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
 - **template/backends/dummy.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/dummy.py`
 - **linenumbers()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **urlizetrunc()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 - **punycode()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
 - **urlize()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 - **tests/test_utils.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_utils.py`
-- **test_linebreaks.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- *... and 383 more nodes in this community*
+- *... and 356 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (227 shared connections)
-- [Community 166](Community_166.md) (39 shared connections)
-- [Community 3](Community_3.md) (34 shared connections)
-- [Community 2](Community_2.md) (30 shared connections)
-- [Community 139](Community_139.md) (29 shared connections)
-- [Community 0](Community_0.md) (27 shared connections)
-- [Community 22](Community_22.md) (14 shared connections)
-- [Community 356](Community_356.md) (13 shared connections)
-- [Community 112](Community_112.md) (12 shared connections)
-- [Community 510](Community_510.md) (12 shared connections)
-- [Community 10](Community_10.md) (10 shared connections)
-- [Community 475](Community_475.md) (10 shared connections)
+- [Community 6](Community_6.md) (209 shared connections)
+- [Community 22](Community_22.md) (83 shared connections)
+- [Community 2](Community_2.md) (58 shared connections)
+- [Community 935](Community_935.md) (39 shared connections)
+- [Community 236](Community_236.md) (22 shared connections)
+- [Community 3](Community_3.md) (19 shared connections)
+- [Community 26](Community_26.md) (17 shared connections)
+- [Community 394](Community_394.md) (17 shared connections)
+- [Community 28](Community_28.md) (10 shared connections)
+- [Community 776](Community_776.md) (9 shared connections)
+- [Community 335](Community_335.md) (8 shared connections)
+- [Community 163](Community_163.md) (8 shared connections)
 
 ## Source Files
 
@@ -67,12 +67,12 @@
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
 - `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_addslashes.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1470 (98%)
-- INFERRED: 34 (2%)
+- EXTRACTED: 1390 (98%)
+- INFERRED: 35 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---
