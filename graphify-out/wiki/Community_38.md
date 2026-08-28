@@ -1,15 +1,15 @@
 # Community 38
 
-> 164 nodes · cohesion 0.03
+> 165 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **Value** (238 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **Case** (134 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **When** (134 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **Value** (240 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **Case** (135 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **When** (135 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 - **CaseExpressionTests** (85 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_case/tests.py`
 - **expressions_case/tests.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_case/tests.py`
-- **ValueTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **ValueTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
 - **.test_expressions()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
 - **StrIndex** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
 - **CaseDocumentationExamples** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_case/tests.py`
@@ -29,22 +29,22 @@
 - **.test_filter_with_aggregation_in_condition()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_case/tests.py`
 - **.test_distance_annotation_group_by()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
 - **.as_oracle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- *... and 139 more nodes in this community*
+- *... and 140 more nodes in this community*
 
 ## Relationships
 
-- [Community 21](Community_21.md) (82 shared connections)
-- [Community 15](Community_15.md) (52 shared connections)
-- [Community 13](Community_13.md) (28 shared connections)
-- [Community 16](Community_16.md) (24 shared connections)
-- [Community 17](Community_17.md) (22 shared connections)
-- [Community 62](Community_62.md) (19 shared connections)
-- [Community 46](Community_46.md) (15 shared connections)
-- [Community 49](Community_49.md) (15 shared connections)
-- [Community 84](Community_84.md) (12 shared connections)
-- [Community 55](Community_55.md) (10 shared connections)
-- [Community 159](Community_159.md) (8 shared connections)
-- [Community 115](Community_115.md) (7 shared connections)
+- [Community 20](Community_20.md) (76 shared connections)
+- [Community 19](Community_19.md) (43 shared connections)
+- [Community 13](Community_13.md) (20 shared connections)
+- [Community 97](Community_97.md) (18 shared connections)
+- [Community 183](Community_183.md) (15 shared connections)
+- [Community 3](Community_3.md) (14 shared connections)
+- [Community 33](Community_33.md) (14 shared connections)
+- [Community 62](Community_62.md) (13 shared connections)
+- [Community 0](Community_0.md) (12 shared connections)
+- [Community 48](Community_48.md) (11 shared connections)
+- [Community 285](Community_285.md) (10 shared connections)
+- [Community 96](Community_96.md) (9 shared connections)
 
 ## Source Files
 
@@ -68,7 +68,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 742 (94%)
+- EXTRACTED: 746 (94%)
 - INFERRED: 44 (6%)
 - AMBIGUOUS: 0 (0%)
 

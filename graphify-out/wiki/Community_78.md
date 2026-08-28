@@ -1,47 +1,50 @@
 # Community 78
 
-> 33 nodes · cohesion 0.12
+> 104 nodes · cohesion 0.04
 
 ## Key Concepts
 
 - **delete/tests.py** (48 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 - **delete/models.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **OnDeleteTests** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **DeletionTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **create_a()** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **FastDeleteTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **Avatar** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
 - **RChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
 - **GenericB2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **M** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
 - **R** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **User** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
 - **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
 - **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
 - **DeleteTop** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
 - **GenericB1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
 - **GenericDeleteBottom** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Origin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
 - **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
 - **RChildChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
 - **Referrer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **AvatarProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
 - **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
 - **B1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **DeleteBottom** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **get_default_r()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **HiddenUser** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **HiddenUserProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **M2MFrom** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **M2MTo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **MR** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **MRNull** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- *... and 8 more nodes in this community*
+- *... and 79 more nodes in this community*
 
 ## Relationships
 
-- [Community 338](Community_338.md) (19 shared connections)
-- [Community 977](Community_977.md) (16 shared connections)
-- [Community 538](Community_538.md) (11 shared connections)
-- [Community 16](Community_16.md) (9 shared connections)
-- [Community 132](Community_132.md) (7 shared connections)
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 483](Community_483.md) (1 shared connections)
+- [Community 135](Community_135.md) (7 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 393](Community_393.md) (3 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 913](Community_913.md) (2 shared connections)
+- [Community 391](Community_391.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 73](Community_73.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
@@ -50,8 +53,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 97 (74%)
-- INFERRED: 34 (26%)
+- EXTRACTED: 192 (81%)
+- INFERRED: 45 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---
