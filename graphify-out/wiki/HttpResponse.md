@@ -2,7 +2,7 @@
 
 > God node · 337 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
-**Community:** [Community 22](Community_22.md)
+**Community:** [Community 11](Community_11.md)
 
 ## Connections by Relation
 
@@ -51,7 +51,7 @@
 - test_client_regress/views.py `EXTRACTED`
 - auth_tests/urls.py `EXTRACTED`
 - sites_tests/tests.py `EXTRACTED`
-- urls/http.py `EXTRACTED`
+- test_client/tests.py `EXTRACTED`
 
 ### inherits
 - HttpResponseBase `EXTRACTED`

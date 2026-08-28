@@ -1,8 +1,8 @@
 # Q
 
-> God node · 363 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+> God node · 357 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 11](Community_11.md)
+**Community:** [Community 15](Community_15.md)
 
 ## Connections by Relation
 
@@ -42,16 +42,16 @@
 - contenttypes/models.py `EXTRACTED`
 - sql/query.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
-- delete/tests.py `EXTRACTED`
 - model_fields/test_jsonfield.py `EXTRACTED`
 - postgres_tests/test_constraints.py `EXTRACTED`
-- aggregation/tests.py `EXTRACTED`
 - lookup/tests.py `EXTRACTED`
 - postgres_tests/test_indexes.py `EXTRACTED`
 - test_query.py `EXTRACTED`
+- aggregation/tests.py `EXTRACTED`
 - annotations/tests.py `EXTRACTED`
 - distapp/tests.py `EXTRACTED`
 - postgres_tests/test_operations.py `EXTRACTED`
+- test_aggregates.py `EXTRACTED`
 
 ### method
 - ._combine() `EXTRACTED`

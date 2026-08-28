@@ -1,6 +1,6 @@
 # Value
 
-> God node · 255 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+> God node · 256 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
 **Community:** [Community 34](Community_34.md)
 
@@ -61,10 +61,10 @@
 - .empty_result_set_value() `EXTRACTED`
 - .__init__() `EXTRACTED`
 - .resolve_expression() `EXTRACTED`
-- .get_group_by_cols() `EXTRACTED`
-- ._resolve_output_field() `EXTRACTED`
 - .__repr__() `EXTRACTED`
 - .as_sql() `EXTRACTED`
+- .get_group_by_cols() `EXTRACTED`
+- ._resolve_output_field() `EXTRACTED`
 
 ### rationale_for
 - Represent a wrapped value as a node within an expression. `EXTRACTED`
