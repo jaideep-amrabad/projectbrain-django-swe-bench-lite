@@ -18,11 +18,12 @@
 
 ## Relationships
 
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 481](Community_481.md) (7 shared connections)
-- [Community 803](Community_803.md) (2 shared connections)
-- [Community 1194](Community_1194.md) (1 shared connections)
-- [Community 505](Community_505.md) (1 shared connections)
+- [Community 486](Community_486.md) (7 shared connections)
+- [Community 9](Community_9.md) (6 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 805](Community_805.md) (2 shared connections)
+- [Community 1191](Community_1191.md) (1 shared connections)
+- [Community 509](Community_509.md) (1 shared connections)
 
 ## Source Files
 

@@ -1,12 +1,11 @@
 # Community 29
 
-> 124 nodes · cohesion 0.02
+> 106 nodes · cohesion 0.03
 
 ## Key Concepts
 
 - **Apps** (88 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
 - **StateTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **ModelStateTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 - **FoodManager** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
 - **.from_apps()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 - **BaseReloaderTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
@@ -29,22 +28,23 @@
 - **.test_reload_related_model_on_non_relational_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 - **.test_render()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 - **.test_render_project_dependencies()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- *... and 99 more nodes in this community*
+- **.do_pending_operations()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- *... and 81 more nodes in this community*
 
 ## Relationships
 
-- [Community 36](Community_36.md) (24 shared connections)
-- [Community 0](Community_0.md) (18 shared connections)
-- [Community 24](Community_24.md) (15 shared connections)
-- [Community 3](Community_3.md) (12 shared connections)
-- [Community 231](Community_231.md) (5 shared connections)
-- [Community 82](Community_82.md) (5 shared connections)
-- [Community 373](Community_373.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 569](Community_569.md) (3 shared connections)
-- [Community 623](Community_623.md) (3 shared connections)
-- [Community 165](Community_165.md) (2 shared connections)
-- [Community 524](Community_524.md) (2 shared connections)
+- [Community 35](Community_35.md) (21 shared connections)
+- [Community 0](Community_0.md) (17 shared connections)
+- [Community 775](Community_775.md) (7 shared connections)
+- [Community 9](Community_9.md) (6 shared connections)
+- [Community 23](Community_23.md) (6 shared connections)
+- [Community 229](Community_229.md) (5 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 377](Community_377.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 572](Community_572.md) (3 shared connections)
+- [Community 628](Community_628.md) (3 shared connections)
+- [Community 166](Community_166.md) (2 shared connections)
 
 ## Source Files
 
@@ -52,16 +52,16 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
 - `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
 - `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_pad.py`
 - `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
 - `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 - `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 276 (86%)
-- INFERRED: 44 (14%)
+- EXTRACTED: 241 (86%)
+- INFERRED: 38 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

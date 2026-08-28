@@ -1,10 +1,11 @@
 # Community 42
 
-> 150 nodes · cohesion 0.03
+> 157 nodes · cohesion 0.03
 
 ## Key Concepts
 
 - **Func** (105 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **Sum** (98 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
 - **Window** (62 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 - **WindowFunctionTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
 - **expressions_window/tests.py** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
@@ -24,34 +25,36 @@
 - **Ntile** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
 - **test_validation.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/window/test_validation.py`
 - **.test_invalid_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- **.test_conditional_annotation()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
 - **.test_subquery_row_range_rank()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
 - **FixDurationInputMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
 - **FirstValue** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **LagLeadFunction** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **RowNumber** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- *... and 125 more nodes in this community*
+- *... and 132 more nodes in this community*
 
 ## Relationships
 
-- [Community 22](Community_22.md) (45 shared connections)
-- [Community 14](Community_14.md) (31 shared connections)
-- [Community 0](Community_0.md) (26 shared connections)
-- [Community 35](Community_35.md) (23 shared connections)
-- [Community 136](Community_136.md) (19 shared connections)
-- [Community 38](Community_38.md) (17 shared connections)
-- [Community 1](Community_1.md) (10 shared connections)
-- [Community 140](Community_140.md) (8 shared connections)
-- [Community 68](Community_68.md) (8 shared connections)
-- [Community 40](Community_40.md) (8 shared connections)
-- [Community 27](Community_27.md) (5 shared connections)
-- [Community 300](Community_300.md) (4 shared connections)
+- [Community 19](Community_19.md) (54 shared connections)
+- [Community 11](Community_11.md) (43 shared connections)
+- [Community 32](Community_32.md) (32 shared connections)
+- [Community 37](Community_37.md) (30 shared connections)
+- [Community 0](Community_0.md) (29 shared connections)
+- [Community 25](Community_25.md) (19 shared connections)
+- [Community 58](Community_58.md) (16 shared connections)
+- [Community 18](Community_18.md) (9 shared connections)
+- [Community 63](Community_63.md) (7 shared connections)
+- [Community 206](Community_206.md) (7 shared connections)
+- [Community 17](Community_17.md) (5 shared connections)
+- [Community 119](Community_119.md) (4 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/db_functions/window/test_validation.py`
 - `raw/code/hyd-evaluation/django-django/tests/expressions_window/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
@@ -59,8 +62,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 515 (94%)
-- INFERRED: 35 (6%)
+- EXTRACTED: 526 (83%)
+- INFERRED: 110 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

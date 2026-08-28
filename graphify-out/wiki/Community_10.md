@@ -1,6 +1,6 @@
 # Community 10
 
-> 187 nodes · cohesion 0.02
+> 166 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -13,8 +13,6 @@
 - **escapejs_filter()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 - **urlizetrunc()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 - **cut()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **join()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **filesizeformat()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 - **urlencode()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 - **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
 - **capfirst()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
@@ -27,24 +25,26 @@
 - **ljust()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 - **lower()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 - **rjust()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **timeuntil_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 - **title()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- *... and 162 more nodes in this community*
+- **upper()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
+- **FunctionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaksbr.py`
+- *... and 141 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (128 shared connections)
-- [Community 17](Community_17.md) (13 shared connections)
-- [Community 1](Community_1.md) (9 shared connections)
-- [Community 710](Community_710.md) (7 shared connections)
-- [Community 174](Community_174.md) (4 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 50](Community_50.md) (4 shared connections)
-- [Community 144](Community_144.md) (3 shared connections)
-- [Community 173](Community_173.md) (3 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 441](Community_441.md) (2 shared connections)
-- [Community 248](Community_248.md) (2 shared connections)
+- [Community 22](Community_22.md) (115 shared connections)
+- [Community 65](Community_65.md) (14 shared connections)
+- [Community 712](Community_712.md) (7 shared connections)
+- [Community 54](Community_54.md) (4 shared connections)
+- [Community 180](Community_180.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 167](Community_167.md) (3 shared connections)
+- [Community 172](Community_172.md) (3 shared connections)
+- [Community 246](Community_246.md) (2 shared connections)
+- [Community 242](Community_242.md) (2 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 173](Community_173.md) (2 shared connections)
 
 ## Source Files
 
@@ -56,23 +56,23 @@
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_capfirst.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_center.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_divisibleby.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_get_digit.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaksbr.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linenumbers.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_ljust.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_lower.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_make_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_rjust.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slugify.py`
 
 ## Audit Trail
 
-- EXTRACTED: 470 (96%)
-- INFERRED: 19 (4%)
+- EXTRACTED: 422 (96%)
+- INFERRED: 18 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

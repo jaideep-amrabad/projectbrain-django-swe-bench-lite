@@ -1,6 +1,6 @@
 # Community 28
 
-> 170 nodes · cohesion 0.02
+> 164 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **.convex_hull()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 - **.crosses()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 - **.disjoint()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- *... and 145 more nodes in this community*
+- *... and 139 more nodes in this community*
 
 ## Relationships
 
-- [Community 48](Community_48.md) (22 shared connections)
-- [Community 75](Community_75.md) (6 shared connections)
-- [Community 122](Community_122.md) (4 shared connections)
-- [Community 177](Community_177.md) (3 shared connections)
-- [Community 181](Community_181.md) (3 shared connections)
-- [Community 159](Community_159.md) (2 shared connections)
-- [Community 756](Community_756.md) (2 shared connections)
-- [Community 197](Community_197.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 73](Community_73.md) (1 shared connections)
-- [Community 746](Community_746.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
+- [Community 52](Community_52.md) (16 shared connections)
+- [Community 176](Community_176.md) (10 shared connections)
+- [Community 78](Community_78.md) (6 shared connections)
+- [Community 126](Community_126.md) (4 shared connections)
+- [Community 489](Community_489.md) (3 shared connections)
+- [Community 182](Community_182.md) (3 shared connections)
+- [Community 161](Community_161.md) (2 shared connections)
+- [Community 198](Community_198.md) (2 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 76](Community_76.md) (1 shared connections)
+- [Community 747](Community_747.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
 
 ## Source Files
 
@@ -54,7 +54,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 278 (96%)
+- EXTRACTED: 272 (96%)
 - INFERRED: 11 (4%)
 - AMBIGUOUS: 0 (0%)
 
