@@ -1,8 +1,8 @@
 # HttpResponse
 
-> God node · 336 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
+> God node · 337 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
-**Community:** [Community 15](Community_15.md)
+**Community:** [Community 1](Community_1.md)
 
 ## Connections by Relation
 
@@ -73,6 +73,7 @@
 - .write() `EXTRACTED`
 - .__init__() `EXTRACTED`
 - .writelines() `EXTRACTED`
+- .__getstate__() `EXTRACTED`
 - .__repr__() `EXTRACTED`
 - .__iter__() `EXTRACTED`
 - .tell() `EXTRACTED`

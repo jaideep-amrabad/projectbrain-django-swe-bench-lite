@@ -1,22 +1,25 @@
 # Community 1844
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **urls/empty.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/empty.py`
+- **check_framework/apps.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
+- **CheckDefaultPKConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
+- **CheckPKConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 377](Community_377.md) (3 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/empty.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/apps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

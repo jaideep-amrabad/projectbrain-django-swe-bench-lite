@@ -1,23 +1,27 @@
 # Community 1843
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **sitemaps_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/__init__.py`
+- **FeaturesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_features.py`
+- **.test_supports_json_field_operational_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_features.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_features.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (83%)
+- INFERRED: 1 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---
