@@ -1,55 +1,50 @@
 # Community 517
 
-> 24 nodes · cohesion 0.14
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **WSGIRequestHandler** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **test_basehttp.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **WSGIRequestHandlerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **Stub** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_strips_underscore_headers()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **WSGIServerTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.handle_one_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **BytesIO** (5 connections)
-- **UnclosableBytesIO** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_no_body_returned_for_head_requests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_broken_pipe_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_https()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_log_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.get_environ()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **Copy of WSGIRequestHandler.handle() but with different ServerHandler** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.address_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.log_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **WSGIServer handles broken pipe errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **WSGIRequestHandler ignores headers containing underscores. This follows the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.sendall()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **ThreadingMixIn** (1 connections)
+- **test_clickjacking.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **XFrameOptionsExemptTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **xframe_options_exempt()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **XFrameOptionsDenyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **XFrameOptionsSameoriginTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **xframe_options_deny()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **xframe_options_sameorigin()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **decorators/clickjacking.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **.test_decorator_stops_x_frame_options_being_set()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_exempt_decorator_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **Modify a view function so its response has the X-Frame-Options HTTP header set…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **.test_decorator_sets_x_frame_options_to_deny()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_decorator_sets_x_frame_options_to_deny_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_decorator_sets_x_frame_options_to_sameorigin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_decorator_sets_x_frame_options_to_sameorigin_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **Modify a view function by setting a response variable that instructs…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- **@xframe_options_exempt instructs the XFrameOptionsMiddleware to NOT set the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
 
 ## Relationships
 
-- [Community 88](Community_88.md) (6 shared connections)
-- [Community 230](Community_230.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 340](Community_340.md) (2 shared connections)
-- [Community 395](Community_395.md) (2 shared connections)
-- [Community 114](Community_114.md) (2 shared connections)
-- [Community 212](Community_212.md) (1 shared connections)
-- [Community 118](Community_118.md) (1 shared connections)
+- [Community 64](Community_64.md) (7 shared connections)
+- [Community 94](Community_94.md) (6 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (92%)
-- INFERRED: 5 (8%)
+- EXTRACTED: 50 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

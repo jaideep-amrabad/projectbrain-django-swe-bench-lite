@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_json_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **The test client serializes JSON data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_valid_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **POST valid data to a form** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 526](Community_526.md) (1 shared connections)
+- [Community 524](Community_524.md) (1 shared connections)
 
 ## Source Files
 

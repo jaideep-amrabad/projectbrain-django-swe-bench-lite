@@ -4,32 +4,38 @@
 
 ## Key Concepts
 
-- **SlugPage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **test_empty_join.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **RestrictedConditionsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **.test_restrictions_with_no_joining_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **It's possible to create a working related field that doesn't use any joining…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **.test_empty_join_conditions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
+- **SimpleModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- **.test_update_conflicts_unique_field_unsupported()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **DatabaseConnectionTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_abulk_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aexplain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **async_to_sync** (3 connections)
+- **.test_acontains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_get_async_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **A database connection cannot be used in an async context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
 
 ## Relationships
 
-- [Community 465](Community_465.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 495](Community_495.md) (5 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 29](Community_29.md) (3 shared connections)
+- [Community 586](Community_586.md) (2 shared connections)
+- [Community 48](Community_48.md) (2 shared connections)
+- [Community 979](Community_979.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 23 (82%)
+- INFERRED: 5 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

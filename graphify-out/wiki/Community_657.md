@@ -1,75 +1,42 @@
 # Community 657
 
-> 112 nodes · cohesion 0.03
+> 16 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **admin/sites.py** (60 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **main.py** (50 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **admin/checks.py** (44 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **FieldDoesNotExist** (30 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **admin_views/test_actions.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **ChangeList** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **action()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- **admin_registration/tests.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **TestRegistration** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **NotRegistered** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/exceptions.py`
-- **IncorrectLookupParameters** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **admin/exceptions.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/exceptions.py`
-- **autocomplete.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **TestRegistrationDecorator** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **register()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- **.get_filters()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **AdminAuthenticationForm** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- **admin_views/forms.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
-- **admin/forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- **get_fields_from_path()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **.get_queryset()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **admin/decorators.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- **AlreadyRegistered** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/exceptions.py`
-- **admin_registration/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- *... and 87 more nodes in this community*
+- **null_fk/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
+- **null_fk/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **NullFkTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
+- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **Forum** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **Item** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **PropertyValue** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **SystemDetails** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **SystemInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **.test_combine_isnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **Property** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **Regression tests for proper working of ForeignKey(null=True).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **.test_null_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
 
 ## Relationships
 
-- [Community 36](Community_36.md) (22 shared connections)
-- [Community 7](Community_7.md) (18 shared connections)
-- [Community 21](Community_21.md) (17 shared connections)
-- [Community 52](Community_52.md) (15 shared connections)
-- [Community 24](Community_24.md) (13 shared connections)
-- [Community 31](Community_31.md) (12 shared connections)
-- [Community 313](Community_313.md) (12 shared connections)
-- [Community 89](Community_89.md) (11 shared connections)
-- [Community 69](Community_69.md) (10 shared connections)
-- [Community 235](Community_235.md) (9 shared connections)
-- [Community 6](Community_6.md) (8 shared connections)
-- [Community 12](Community_12.md) (7 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 462 (91%)
-- INFERRED: 44 (9%)
+- EXTRACTED: 30 (81%)
+- INFERRED: 7 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,48 +1,49 @@
 # Community 495
 
-> 24 nodes · cohesion 0.13
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **DatabaseSchemaEditor** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._set_field_new_type()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._create_missing_fk_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._is_limited_data_type()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.skip_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._alter_column_null_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._alter_column_type_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._column_default_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._delete_composed_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._field_should_be_indexed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.remove_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.remove_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._rename_field_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.skip_default_on_alter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._alter_column_comment_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._comment_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._field_db_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.sql_delete_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.sql_rename_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._supports_limited_data_type_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **MySQL can remove an implicit FK index on a field when that field is covered by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **Keep the NULL and DEFAULT properties of the old field. If it has changed, it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **AsyncQuerySetTest** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aaggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_acount_cached_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **._get_db_feature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_abulk_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_acount()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_acreate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_adelete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aearliest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aexists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_afirst()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aget_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_ain_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aiterator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aiterator_invalid_chunk_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aiterator_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_alast()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_alatest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_async_iteration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aupdate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aupdate_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_raw()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 239](Community_239.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
+- [Community 865](Community_865.md) (5 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 63](Community_63.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 29 (88%)
+- INFERRED: 4 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,37 +1,41 @@
 # Community 769
 
-> 12 nodes · cohesion 0.24
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **DatabaseCreationTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_create_test_db()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_create_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.patch_execute_statements()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_oracle_managed_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **object** (3 connections)
-- **._execute_raise_insufficient_privileges()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._execute_raise_tablespace_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._execute_raise_user_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._test_database_passwd()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **patch** (1 connections)
-- **skipUnless** (1 connections)
+- **postgres_tests/fields.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **postgres_tests/migrations/0002_create_test_models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0002_create_test_models.py`
+- **DummyArrayField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **DummyContinuousRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **Indirection layer for PostgreSQL-specific fields, so the tests don't fail when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0002_create_test_models.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 317](Community_317.md) (3 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 104](Community_104.md) (5 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
+- [Community 640](Community_640.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 223](Community_223.md) (1 shared connections)
+- [Community 91](Community_91.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0002_create_test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (89%)
-- INFERRED: 3 (11%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

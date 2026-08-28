@@ -1,30 +1,31 @@
 # Community 936
 
-> 7 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **TestGetObjectFeed** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_comments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.get_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_title()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **module.js** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
+- **module_test.js** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
+- **firstConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
+- **secondConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
+- **testConst** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
+- **dynamicModule** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
+- **nested.js** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/nested/js/nested.js`
 
 ## Relationships
 
-- [Community 190](Community_190.md) (2 shared connections)
-- [Community 191](Community_191.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module.js`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/module_test.js`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/nested/js/nested.js`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (82%)
-- INFERRED: 2 (18%)
+- EXTRACTED: 9 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

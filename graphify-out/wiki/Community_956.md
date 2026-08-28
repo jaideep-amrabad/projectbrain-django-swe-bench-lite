@@ -1,29 +1,39 @@
 # Community 956
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **CustomQuerySet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **._optin_private_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.optout_public_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **._private_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.public_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **decorators/tests.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_preserve_attributes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **myattr2_dec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **myattr_dec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **compose()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **simple_dec()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Relationships
 
-- [Community 464](Community_464.md) (2 shared connections)
-- [Community 333](Community_333.md) (1 shared connections)
+- [Community 65](Community_65.md) (5 shared connections)
+- [Community 726](Community_726.md) (5 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 64](Community_64.md) (3 shared connections)
+- [Community 36](Community_36.md) (2 shared connections)
+- [Community 119](Community_119.md) (2 shared connections)
+- [Community 80](Community_80.md) (2 shared connections)
+- [Community 195](Community_195.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 411](Community_411.md) (1 shared connections)
+- [Community 583](Community_583.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (88%)
-- INFERRED: 1 (12%)
+- EXTRACTED: 37 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

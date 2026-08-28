@@ -1,73 +1,68 @@
 # Community 65
 
-> 119 nodes · cohesion 0.03
+> 47 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ignore_warnings** (77 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **deprecation.py** (73 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **RemovedInDjango51Warning** (65 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **file_storage/tests.py** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **files/storage/__init__.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/__init__.py`
-- **Storage** (27 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/base.py`
-- **Settings** (17 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **general.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **signing/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **test_storages.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_storages.py`
-- **StorageHandler** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/handler.py`
-- **file_storage/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- **citext.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **StaticfilesStorageDeprecationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_storages.py`
-- **CIText** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **get_storage_class()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/__init__.py`
-- **DefaultStorageDeprecationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_storages.py`
-- **GetStorageClassTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **DeprecatedFieldsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **.get_available_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/base.py`
-- **CICharField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **CIEmailField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **CITextField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **InvalidStorageError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/handler.py`
-- **StorageHandlerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- *... and 94 more nodes in this community*
+- **method_decorator()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **MethodDecoratorTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **middleware/views.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **no_append_slash()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
+- **test_common.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
+- **.dispatch()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.dispatch()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **NoAppendSlashTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
+- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **decorators/common.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
+- **.catch_all_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **ClsDec** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_wrapper_assignments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **SensitiveCBV** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.test_argumented()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_class_decoration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_invalid_method_name_to_decorate()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_invalid_non_callable_attribute_decoration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_new_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_tuple_of_decorators()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **middleware/extra_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/extra_urls.py`
+- **middleware/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/urls.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 24](Community_24.md) (41 shared connections)
-- [Community 1](Community_1.md) (26 shared connections)
-- [Community 224](Community_224.md) (15 shared connections)
-- [Community 141](Community_141.md) (14 shared connections)
-- [Community 147](Community_147.md) (11 shared connections)
-- [Community 2](Community_2.md) (10 shared connections)
-- [Community 87](Community_87.md) (10 shared connections)
-- [Community 75](Community_75.md) (9 shared connections)
-- [Community 10](Community_10.md) (8 shared connections)
-- [Community 37](Community_37.md) (8 shared connections)
-- [Community 84](Community_84.md) (8 shared connections)
-- [Community 176](Community_176.md) (8 shared connections)
+- [Community 44](Community_44.md) (10 shared connections)
+- [Community 64](Community_64.md) (6 shared connections)
+- [Community 956](Community_956.md) (5 shared connections)
+- [Community 36](Community_36.md) (5 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 22](Community_22.md) (3 shared connections)
+- [Community 661](Community_661.md) (3 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 146](Community_146.md) (2 shared connections)
+- [Community 83](Community_83.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage/handler.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_storages.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/test_common.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/extra_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 479 (91%)
-- INFERRED: 49 (9%)
+- EXTRACTED: 126 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

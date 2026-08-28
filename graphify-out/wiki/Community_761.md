@@ -1,44 +1,45 @@
 # Community 761
 
-> 12 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **AlterTogetherOptionOperation** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **normalize_together()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.reduce()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.can_reduce_through()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.option_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **option_together can be either a tuple of tuples, or a single tuple of two…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **validation/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **Article** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **ModelFormsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **ArticleForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_validation_with_empty_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_validation_with_invalid_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_FK_validates_using_base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_partial_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
 
 ## Relationships
 
-- [Community 329](Community_329.md) (4 shared connections)
-- [Community 304](Community_304.md) (2 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 567](Community_567.md) (1 shared connections)
-- [Community 605](Community_605.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 533](Community_533.md) (1 shared connections)
-- [Community 699](Community_699.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 921](Community_921.md) (1 shared connections)
+- [Community 621](Community_621.md) (6 shared connections)
+- [Community 577](Community_577.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 788](Community_788.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 856](Community_856.md) (2 shared connections)
+- [Community 195](Community_195.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 38 (88%)
+- INFERRED: 5 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

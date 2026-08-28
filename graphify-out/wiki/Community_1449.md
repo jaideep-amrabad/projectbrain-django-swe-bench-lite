@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **javascript_ignored.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/static/javascript_ignored.js`
+- **m2m_intermediary/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/static/javascript_ignored.js`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/__init__.py`
 
 ## Audit Trail
 

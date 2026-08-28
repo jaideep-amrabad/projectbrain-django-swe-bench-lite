@@ -1,51 +1,44 @@
 # Community 584
 
-> 17 nodes · cohesion 0.16
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **decorators/test_http.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
-- **require_http_methods()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
-- **.my_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **Admin2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **RequireHttpMethodsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
-- **.test_require_http_methods_methods()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
-- **.test_require_http_methods_methods_async_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
-- **RequireSafeDecoratorTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
-- **.test_require_safe_accepts_only_safe_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
-- **.test_require_safe_accepts_only_safe_methods_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
-- **Decorator to make a view only accept particular request methods. Usage::…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
-- **.get_app_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **.get_urls()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **.index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **.password_change()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **DjangoAdminSettingsDirectory** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_setup_environ()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_setup_environ_custom_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_startapp_unicode_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: django-admin builtin commands succeed if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **A series of tests for django-admin when the settings file is in a directory.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: startapp creates the correct directory** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: startapp creates the correct directory with a custom template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **startapp creates the correct directory with Unicode characters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: django-admin builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: django-admin builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: django-admin builtin commands fail if settings file (from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: django-admin can't execute user commands unless settings are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 67](Community_67.md) (6 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 80](Community_80.md) (3 shared connections)
-- [Community 415](Community_415.md) (3 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 959](Community_959.md) (1 shared connections)
-- [Community 169](Community_169.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 93](Community_93.md) (17 shared connections)
+- [Community 269](Community_269.md) (6 shared connections)
+- [Community 209](Community_209.md) (2 shared connections)
+- [Community 292](Community_292.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (87%)
-- INFERRED: 6 (13%)
+- EXTRACTED: 45 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

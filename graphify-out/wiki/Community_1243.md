@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **humanize/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/humanize/__init__.py`
+- **views/decorators/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/humanize/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/__init__.py`
 
 ## Audit Trail
 

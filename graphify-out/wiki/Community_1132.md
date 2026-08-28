@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_inheritance02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Standard two-level inheritance** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance29()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Inheritance from a template with a space in its name should work.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 845](Community_845.md) (1 shared connections)
-- [Community 844](Community_844.md) (1 shared connections)
+- [Community 850](Community_850.md) (1 shared connections)
+- [Community 849](Community_849.md) (1 shared connections)
 
 ## Source Files
 

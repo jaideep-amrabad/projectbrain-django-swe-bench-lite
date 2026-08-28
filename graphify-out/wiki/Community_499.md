@@ -4,46 +4,47 @@
 
 ## Key Concepts
 
-- **AsyncQuerySetTest** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aaggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_acount_cached_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **._get_db_feature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_abulk_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_acount()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_acreate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_adelete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aearliest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aexists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_afirst()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aget_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_ain_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aiterator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aiterator_invalid_chunk_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aiterator_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_alast()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_alatest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_async_iteration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aupdate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aupdate_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_raw()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **FormsMediaTestCase** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_merge_js_three_way()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_multi_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_add_css_deduplication()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_add_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_add_js_deduplication()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_combine_media()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_construction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_html_safe()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_deduplication()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_dsl()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_inheritance_extends()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_inheritance_from_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_inheritance_single_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_media_property_parent_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_merge()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_merge_css_three_way()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_merge_js_three_way2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_merge_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **.test_multi_media()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **Tests for the media handling on widgets and forms** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **The relative order of scripts is preserved in a three-way merge.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
 
 ## Relationships
 
-- [Community 861](Community_861.md) (5 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 119](Community_119.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 208](Community_208.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (88%)
-- INFERRED: 4 (12%)
+- EXTRACTED: 27 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

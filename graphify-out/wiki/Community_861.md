@@ -1,41 +1,31 @@
 # Community 861
 
-> 9 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **SimpleModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
-- **.test_update_conflicts_unique_field_unsupported()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **DatabaseConnectionTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_abulk_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_aexplain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **async_to_sync** (3 connections)
-- **.test_acontains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- **.test_get_async_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **A database connection cannot be used in an async context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **ConnectionProxy** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__delattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.__setattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **Proxy for accessing a connection object's attributes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
 
 ## Relationships
 
-- [Community 499](Community_499.md) (5 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 28](Community_28.md) (3 shared connections)
-- [Community 587](Community_587.md) (2 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 985](Community_985.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 176](Community_176.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
-- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (82%)
-- INFERRED: 5 (18%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

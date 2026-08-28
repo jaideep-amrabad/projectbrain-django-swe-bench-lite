@@ -23,8 +23,8 @@
 
 ## Relationships
 
-- [Community 43](Community_43.md) (3 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 42](Community_42.md) (3 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 

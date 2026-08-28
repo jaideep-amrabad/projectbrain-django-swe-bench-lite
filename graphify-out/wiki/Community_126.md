@@ -1,63 +1,62 @@
 # Community 126
 
-> 82 nodes · cohesion 0.04
+> 83 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **ExceptionReporter** (60 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **ExceptionReporterTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **PlainTextReportTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.get_traceback_data()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.test_highlight_error_position()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.get_exception_traceback_frames()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **._get_lines_from_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_traceback_frames()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_traceback_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_traceback_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.compile()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_disallowed_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_encoding_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_exception_with_notes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_get_raw_insecure_uri()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_ignore_traceback_evaluation_exceptions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_local_variable_escaping()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_request_and_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_request_with_items_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_disallowed_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_request_and_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_request_with_items_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_template_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **._get_explicit_or_implicit_cause()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- *... and 57 more nodes in this community*
+- **tests/test_debug.py** (73 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **view_tests/views.py** (69 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **views/debug.py** (46 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **technical_500_response()** (31 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **sensitive_variables()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
+- **sensitive_post_parameters()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
+- **send_log()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **decorators/debug.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
+- **technical_404_response()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **default_urlconf()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **custom_exception_reporter_filter_view()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **CallableSettingWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **get_default_exception_reporter_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **CustomExceptionReporterFilterTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **async_sensitive_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **Klass** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **paranoid_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **sensitive_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **async_sensitive_view_nested()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **multivalue_dict_key_error()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **builtin_template_path()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **non_sensitive_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **sensitive_args_function_caller()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **sensitive_kwargs_function_caller()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **UnsafeExceptionReporterFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- *... and 58 more nodes in this community*
 
 ## Relationships
 
-- [Community 124](Community_124.md) (14 shared connections)
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 18](Community_18.md) (5 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 212](Community_212.md) (3 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 214](Community_214.md) (2 shared connections)
-- [Community 482](Community_482.md) (1 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
-- [Community 237](Community_237.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 112](Community_112.md) (31 shared connections)
+- [Community 10](Community_10.md) (19 shared connections)
+- [Community 129](Community_129.md) (14 shared connections)
+- [Community 6](Community_6.md) (12 shared connections)
+- [Community 85](Community_85.md) (11 shared connections)
+- [Community 26](Community_26.md) (8 shared connections)
+- [Community 36](Community_36.md) (7 shared connections)
+- [Community 24](Community_24.md) (7 shared connections)
+- [Community 7](Community_7.md) (7 shared connections)
+- [Community 101](Community_101.md) (7 shared connections)
+- [Community 142](Community_142.md) (4 shared connections)
+- [Community 169](Community_169.md) (4 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
 - `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 - `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 170 (96%)
-- INFERRED: 8 (4%)
+- EXTRACTED: 344 (93%)
+- INFERRED: 25 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

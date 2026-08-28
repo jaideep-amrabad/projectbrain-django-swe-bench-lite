@@ -1,56 +1,60 @@
 # Community 278
 
-> 41 nodes · cohesion 0.06
+> 48 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Serializer** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **Serializer** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **Serializer** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **Serializer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **Serializer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **._value_from_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.get_dump_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.get_dump_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **.end_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.handle_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.handle_fk_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **Convert a queryset to GeoJSON, http://geojson.org/** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.handle_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.start_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **PythonSerializer** (1 connections)
-- **Convert a queryset to JSON.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **.end_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- *... and 16 more nodes in this community*
+- **InMemoryStorage** (34 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **MemoryStorageIOTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **._resolve()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.path()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._relative_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.test_setting_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.test_removing_temporary_file_after_save()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.test_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.test_file_node_cannot_have_children()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.test_file_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.test_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.get_accessed_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.get_created_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.get_modified_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.listdir()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.test_deconstruction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.test_convert_str_to_bytes_and_back()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- **.test_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (8 shared connections)
-- [Community 49](Community_49.md) (3 shared connections)
-- [Community 80](Community_80.md) (1 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
-- [Community 237](Community_237.md) (1 shared connections)
+- [Community 75](Community_75.md) (9 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 58](Community_58.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 153](Community_153.md) (2 shared connections)
+- [Community 543](Community_543.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 340](Community_340.md) (1 shared connections)
+- [Community 236](Community_236.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 528](Community_528.md) (1 shared connections)
+- [Community 459](Community_459.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_inmemory_storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (92%)
-- INFERRED: 5 (8%)
+- EXTRACTED: 87 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

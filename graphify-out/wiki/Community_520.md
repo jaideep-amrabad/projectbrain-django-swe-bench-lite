@@ -1,50 +1,38 @@
 # Community 520
 
-> 23 nodes · cohesion 0.13
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **test_clickjacking.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **XFrameOptionsExemptTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **xframe_options_exempt()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- **XFrameOptionsDenyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **XFrameOptionsSameoriginTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **xframe_options_deny()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- **xframe_options_sameorigin()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- **decorators/clickjacking.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- **.test_decorator_stops_x_frame_options_being_set()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_exempt_decorator_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **Modify a view function so its response has the X-Frame-Options HTTP header set…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- **.test_decorator_sets_x_frame_options_to_deny()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_decorator_sets_x_frame_options_to_deny_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_decorator_sets_x_frame_options_to_sameorigin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_decorator_sets_x_frame_options_to_sameorigin_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
-- **Modify a view function by setting a response variable that instructs…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- **@xframe_options_exempt instructs the XFrameOptionsMiddleware to NOT set the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- **AsyncHandlerRequestTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_sync_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Calling an async view down the normal synchronous path.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_async_streaming()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_bad_request_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_no_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_suspiciousop_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_sync_streaming()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_unawaited_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Async variants of the normal handler request tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Calling a sync view down the asynchronous path.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Relationships
 
-- [Community 67](Community_67.md) (7 shared connections)
-- [Community 87](Community_87.md) (6 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 120](Community_120.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 392](Community_392.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/clickjacking.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/test_clickjacking.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

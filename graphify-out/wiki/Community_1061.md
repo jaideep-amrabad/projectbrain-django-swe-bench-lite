@@ -1,27 +1,28 @@
 # Community 1061
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **FunkyTag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Because we all know there's only one real use case for GFKs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **bad_tag.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
+- **badsimpletag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
+- **badtag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
+- **simple_tag** (1 connections)
 
 ## Relationships
 
-- [Community 89](Community_89.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 6 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

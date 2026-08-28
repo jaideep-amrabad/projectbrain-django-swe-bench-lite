@@ -1,31 +1,31 @@
 # Community 921
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.contribute_to_class()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **camel_case_to_spaces()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._format_names_with_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **App label/class name interpolation for object names.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **Split CamelCase and convert to lowercase. Strip surrounding whitespace.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **CallbackFilter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **CallbackFilterTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_passes_on_record()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_sense()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **A logging filter that checks the return value of a given callable (which takes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
 
 ## Relationships
 
-- [Community 181](Community_181.md) (2 shared connections)
-- [Community 761](Community_761.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 169](Community_169.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

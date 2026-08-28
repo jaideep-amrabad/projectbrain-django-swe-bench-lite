@@ -1,47 +1,50 @@
 # Community 583
 
-> 19 nodes · cohesion 0.16
+> 17 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **BrokenLinkEmailsMiddleware** (16 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **BrokenLinkEmailsMiddlewareTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.process_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.is_ignorable_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.is_internal_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.test_referer_equal_to_requested_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_referer_equal_to_requested_url_without_trailing_slash_with_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_referer_equal_to_requested_url_without_trailing_slash_with_no_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_404_error_reporting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_404_error_reporting_ignored_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_404_error_reporting_no_referer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_referer_equal_to_requested_url_on_another_domain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Send broken link emails for relevant 404 NOT FOUND responses.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **Return True if the referring URL is the same domain as the current request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **Return True if the given request *shouldn't* notify the site managers according…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.get_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_custom_request_checker()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Some bots set the referer to the current URL to avoid being blocked by an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **decorators/test_http.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
+- **require_http_methods()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- **.my_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **Admin2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **RequireHttpMethodsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
+- **.test_require_http_methods_methods()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
+- **.test_require_http_methods_methods_async_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
+- **RequireSafeDecoratorTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
+- **.test_require_safe_accepts_only_safe_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
+- **.test_require_safe_accepts_only_safe_methods_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
+- **Decorator to make a view only accept particular request methods. Usage::…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- **.get_app_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **.get_urls()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **.index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **.password_change()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
 
 ## Relationships
 
-- [Community 87](Community_87.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 162](Community_162.md) (2 shared connections)
-- [Community 80](Community_80.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 64](Community_64.md) (6 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
+- [Community 411](Community_411.md) (3 shared connections)
+- [Community 36](Community_36.md) (2 shared connections)
+- [Community 956](Community_956.md) (1 shared connections)
+- [Community 171](Community_171.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 41 (87%)
+- INFERRED: 6 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

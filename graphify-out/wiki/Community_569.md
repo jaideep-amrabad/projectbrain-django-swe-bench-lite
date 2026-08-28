@@ -1,45 +1,41 @@
 # Community 569
 
-> 17 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Migration** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **IrreversibleError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **.suggest_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.unapply()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.apply()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.mutate_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **Take a project_state representing all migrations prior to this one and a…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **RuntimeError** (1 connections)
-- **An irreversible migration is about to be reversed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **The base class for all migrations. Migration files will import this from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **Suggest a name for the operations this migration might represent. Names are not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **Take a ProjectState and return a new one with the migration's operations…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **sandwiched_rotate_token_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **TestingHttpResponse** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **.test_rotate_token_triggers_second_reset()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_set_cookie_called_only_once()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **ensured_and_protected_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **ensure_csrf_cookie** (3 connections)
+- **._get_cookies_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **csrf_protect** (3 connections)
+- **csrf_rotating_token** (1 connections)
+- **set_cookie() is called only once when the view is decorated with both…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **If rotate_token() is called after the token is reset in CsrfViewMiddleware's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A version of HttpResponse that stores what cookie values are passed to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **This is a view that calls rotate_token() in process_response() between two…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **.set_cookie()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (7 shared connections)
-- [Community 807](Community_807.md) (3 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 373](Community_373.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 135](Community_135.md) (1 shared connections)
+- [Community 122](Community_122.md) (6 shared connections)
+- [Community 289](Community_289.md) (5 shared connections)
+- [Community 60](Community_60.md) (3 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (88%)
-- INFERRED: 4 (12%)
+- EXTRACTED: 32 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

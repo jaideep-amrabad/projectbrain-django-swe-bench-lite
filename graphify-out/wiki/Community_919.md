@@ -1,29 +1,30 @@
 # Community 919
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **DecimalValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **Validate that the input does not exceed the maximum number of digits expected,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **._setup_and_call()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Wrapper around default __call__ method to perform common Django test set up.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Perform the same as __call__(), without catching the exception.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Perform the following in order: pre-setup, run test, post-teardown, skipping…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 238](Community_238.md) (2 shared connections)
-- [Community 515](Community_515.md) (1 shared connections)
-- [Community 546](Community_546.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 605](Community_605.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,68 +1,65 @@
 # Community 156
 
-> 89 nodes · cohesion 0.04
+> 72 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **django/forms/fields.py** (88 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **django/forms/widgets.py** (67 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **formsets.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **boundfield.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **Input** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **SplitDateTimeWidget** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **CheckboxInput** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__init__()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **HiddenInput** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **SplitDateTimeWidgetTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **MultipleHiddenInput** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **to_current_timezone()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **NullBooleanSelect** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Textarea** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **DateTimeBaseInput** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **MediaDefiningClass** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **NumberInput** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **PasswordInput** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **SplitHiddenDateTimeWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_charfield_widget_attrs()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **NullBooleanField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **DateInput** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **TimeInput** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **DateTimeInput** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- *... and 64 more nodes in this community*
+- **OrderingTests** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **Upper** (36 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **ordering/tests.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **ordering/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **.test_orders_nulls_first_on_filtered_subquery()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **OrderedByFArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **ChildArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **OrderedByExpression** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **OrderedByExpressionChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **Reference** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **.assertQuerySetEqualReversible()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_nulls_first()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_nulls_last()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_ordering_select_related_collision()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_specified_ordering_by_f_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.test_specified_ordering_by_f_expression_without_asc_desc()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **OrderedByAuthorArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **OrderedByExpressionGrandChild** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **.test_order_by_expr_query_reuse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_expression_ref()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_f_expression_duplicates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_overlap_charfield_including_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- *... and 47 more nodes in this community*
 
 ## Relationships
 
-- [Community 121](Community_121.md) (24 shared connections)
-- [Community 16](Community_16.md) (20 shared connections)
-- [Community 208](Community_208.md) (14 shared connections)
-- [Community 152](Community_152.md) (12 shared connections)
-- [Community 351](Community_351.md) (12 shared connections)
-- [Community 37](Community_37.md) (11 shared connections)
-- [Community 15](Community_15.md) (9 shared connections)
-- [Community 66](Community_66.md) (7 shared connections)
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 324](Community_324.md) (5 shared connections)
-- [Community 498](Community_498.md) (5 shared connections)
-- [Community 481](Community_481.md) (4 shared connections)
+- [Community 3](Community_3.md) (16 shared connections)
+- [Community 18](Community_18.md) (12 shared connections)
+- [Community 27](Community_27.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 63](Community_63.md) (4 shared connections)
+- [Community 34](Community_34.md) (3 shared connections)
+- [Community 37](Community_37.md) (3 shared connections)
+- [Community 466](Community_466.md) (3 shared connections)
+- [Community 30](Community_30.md) (3 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_passwordinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 
 ## Audit Trail
 
-- EXTRACTED: 327 (92%)
-- INFERRED: 30 (8%)
+- EXTRACTED: 159 (91%)
+- INFERRED: 15 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

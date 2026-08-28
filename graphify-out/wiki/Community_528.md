@@ -1,49 +1,46 @@
 # Community 528
 
-> 22 nodes · cohesion 0.18
+> 21 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **FileBasedCache** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.f()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **._key_to_file()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.set()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._cull()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.has_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._is_expired()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.touch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.clear()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._list_cache_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._createdir()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._write_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.add()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Remove random cache entries if max_entries is reached at a ratio of num_entries…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Convert a key into a cache file path. Basically this is the root cache path…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Remove all the cache files.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Take an open cache file `f` and delete it if it's expired.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Get a list of paths to all the cache files. These are all the files in the root…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Time, in 12-hour hours and minutes, with minutes left off if they're zero.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **InMemoryDirNode** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **InMemoryFileNode** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **TimingMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._update_accessed_time()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._update_modified_time()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._convert_stream_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._initialize_stream()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._initialize_times()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.remove_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **._resolve_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **.listdir()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **Helper class representing an in-memory file node. Handle unicode/bytes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **Initialize underlying stream according to the content type.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **Convert actual file content according to the opening mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **Helper class representing an in-memory directory node. Handle path navigation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
+- **Navigate current directory tree, returning node matching path or creating a new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
 
 ## Relationships
 
-- [Community 248](Community_248.md) (3 shared connections)
-- [Community 150](Community_150.md) (2 shared connections)
-- [Community 475](Community_475.md) (2 shared connections)
-- [Community 394](Community_394.md) (1 shared connections)
-- [Community 548](Community_548.md) (1 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 39](Community_39.md) (3 shared connections)
+- [Community 278](Community_278.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage/memory.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (86%)
-- INFERRED: 7 (14%)
+- EXTRACTED: 39 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

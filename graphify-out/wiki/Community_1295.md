@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **complex_app/admin/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/admin/__init__.py`
+- **tests/apps/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/admin/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/__init__.py`
 
 ## Audit Trail
 

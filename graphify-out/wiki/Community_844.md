@@ -1,43 +1,39 @@
 # Community 844
 
-> 10 nodes · cohesion 0.27
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **InheritanceTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inherit from a template with block wrapped in an {% if %} tag (in parent),…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance34()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance35()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance37()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance38()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_extends_duplicate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance32()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance40()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance41()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.check()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **check_rel_lookup_compatibility()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.check_related_objects()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.check_query_object_type()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Do a database query to check if the expressions of the Q instance matches…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Check that self.model is compatible with target_opts. Compatibility is OK if:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Check whether the object passed while querying is of the correct type. If not,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Check the type of object passed to query relations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Relationships
 
-- [Community 845](Community_845.md) (15 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 1074](Community_1074.md) (2 shared connections)
-- [Community 1132](Community_1132.md) (1 shared connections)
-- [Community 1133](Community_1133.md) (1 shared connections)
-- [Community 1134](Community_1134.md) (1 shared connections)
-- [Community 1135](Community_1135.md) (1 shared connections)
-- [Community 1136](Community_1136.md) (1 shared connections)
-- [Community 1137](Community_1137.md) (1 shared connections)
-- [Community 1138](Community_1138.md) (1 shared connections)
-- [Community 1139](Community_1139.md) (1 shared connections)
-- [Community 1140](Community_1140.md) (1 shared connections)
+- [Community 23](Community_23.md) (3 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
+- [Community 155](Community_155.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 265](Community_265.md) (1 shared connections)
+- [Community 408](Community_408.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---
