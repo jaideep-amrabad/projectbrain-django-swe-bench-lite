@@ -57,6 +57,17 @@ class DatabaseFeatures(BaseDatabaseFeatures):
             return (5, 7)
 
     @cached_property
+    def bare_select_suffix(self):
+        if (
+            self.connection.mysql_is_mariadb and self.connection.mysql_version < (10, 4)
+        ) or (
+            not self.connection.mysql_is_mariadb
+            and self.connection.mysql_version < (8,)
+        ):
+            return " FROM DUAL"
+        return ""
+
+    @cached_property
     def test_collations(self):
         charset = "utf8"
         if self.connection.mysql_is_mariadb and self.connection.mysql_version >= (
@@ -294,6 +305,9 @@ class DatabaseFeatures(BaseDatabaseFeatures):
         """
         return self._mysql_storage_engine != "MyISAM"
 
+    uses_savepoints = property(operator.attrgetter("supports_transactions"))
+    can_release_savepoints = property(operator.attrgetter("supports_transactions"))
+
     @cached_property
     def ignores_table_name_case(self):
         return self.connection.mysql_server_data["lower_case_table_names"]
@@ -317,6 +331,8 @@ class DatabaseFeatures(BaseDatabaseFeatures):
 
     @cached_property
     def supports_index_column_ordering(self):
+        if self._mysql_storage_engine != "InnoDB":
+            return False
         if self.connection.mysql_is_mariadb:
             return self.connection.mysql_version >= (10, 8)
         return self.connection.mysql_version >= (8, 0, 1)
@@ -325,5 +341,12 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     def supports_expression_indexes(self):
         return (
             not self.connection.mysql_is_mariadb
+            and self._mysql_storage_engine != "MyISAM"
             and self.connection.mysql_version >= (8, 0, 13)
         )
+
+    @cached_property
+    def can_rename_index(self):
+        if self.connection.mysql_is_mariadb:
+            return self.connection.mysql_version >= (10, 5, 2)
+        return True

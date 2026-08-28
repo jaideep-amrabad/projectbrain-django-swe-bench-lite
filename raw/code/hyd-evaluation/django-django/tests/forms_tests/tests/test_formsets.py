@@ -23,6 +23,7 @@ from django.forms.formsets import (
     all_valid,
     formset_factory,
 )
+from django.forms.renderers import TemplatesSetting
 from django.forms.utils import ErrorList
 from django.forms.widgets import HiddenInput
 from django.test import SimpleTestCase
@@ -403,6 +404,37 @@ class FormsFormsetTestCase(SimpleTestCase):
             '<ul class="errorlist nonform"><li>Please submit at most 1 form.</li></ul>',
         )
 
+    def test_formset_validate_max_flag_custom_error(self):
+        data = {
+            "choices-TOTAL_FORMS": "2",
+            "choices-INITIAL_FORMS": "0",
+            "choices-MIN_NUM_FORMS": "0",
+            "choices-MAX_NUM_FORMS": "2",
+            "choices-0-choice": "Zero",
+            "choices-0-votes": "0",
+            "choices-1-choice": "One",
+            "choices-1-votes": "1",
+        }
+        ChoiceFormSet = formset_factory(Choice, extra=1, max_num=1, validate_max=True)
+        formset = ChoiceFormSet(
+            data,
+            auto_id=False,
+            prefix="choices",
+            error_messages={
+                "too_many_forms": "Number of submitted forms should be at most %(num)d."
+            },
+        )
+        self.assertFalse(formset.is_valid())
+        self.assertEqual(
+            formset.non_form_errors(),
+            ["Number of submitted forms should be at most 1."],
+        )
+        self.assertEqual(
+            str(formset.non_form_errors()),
+            '<ul class="errorlist nonform">'
+            "<li>Number of submitted forms should be at most 1.</li></ul>",
+        )
+
     def test_formset_validate_min_flag(self):
         """
         If validate_min is set and min_num is more than TOTAL_FORMS in the
@@ -428,6 +460,37 @@ class FormsFormsetTestCase(SimpleTestCase):
             str(formset.non_form_errors()),
             '<ul class="errorlist nonform"><li>'
             "Please submit at least 3 forms.</li></ul>",
+        )
+
+    def test_formset_validate_min_flag_custom_formatted_error(self):
+        data = {
+            "choices-TOTAL_FORMS": "2",
+            "choices-INITIAL_FORMS": "0",
+            "choices-MIN_NUM_FORMS": "0",
+            "choices-MAX_NUM_FORMS": "0",
+            "choices-0-choice": "Zero",
+            "choices-0-votes": "0",
+            "choices-1-choice": "One",
+            "choices-1-votes": "1",
+        }
+        ChoiceFormSet = formset_factory(Choice, extra=1, min_num=3, validate_min=True)
+        formset = ChoiceFormSet(
+            data,
+            auto_id=False,
+            prefix="choices",
+            error_messages={
+                "too_few_forms": "Number of submitted forms should be at least %(num)d."
+            },
+        )
+        self.assertFalse(formset.is_valid())
+        self.assertEqual(
+            formset.non_form_errors(),
+            ["Number of submitted forms should be at least 3."],
+        )
+        self.assertEqual(
+            str(formset.non_form_errors()),
+            '<ul class="errorlist nonform">'
+            "<li>Number of submitted forms should be at least 3.</li></ul>",
         )
 
     def test_formset_validate_min_unchanged_forms(self):
@@ -1435,6 +1498,26 @@ class FormsFormsetTestCase(SimpleTestCase):
         self.assertIs(formset._should_delete_form(formset.forms[1]), False)
         self.assertIs(formset._should_delete_form(formset.forms[2]), False)
 
+    def test_template_name_uses_renderer_value(self):
+        class CustomRenderer(TemplatesSetting):
+            formset_template_name = "a/custom/formset/template.html"
+
+        ChoiceFormSet = formset_factory(Choice, renderer=CustomRenderer)
+
+        self.assertEqual(
+            ChoiceFormSet().template_name, "a/custom/formset/template.html"
+        )
+
+    def test_template_name_can_be_overridden(self):
+        class CustomFormSet(BaseFormSet):
+            template_name = "a/custom/formset/template.html"
+
+        ChoiceFormSet = formset_factory(Choice, formset=CustomFormSet)
+
+        self.assertEqual(
+            ChoiceFormSet().template_name, "a/custom/formset/template.html"
+        )
+
     def test_custom_renderer(self):
         """
         A custom renderer passed to a formset_factory() is passed to all forms
@@ -1573,6 +1656,18 @@ class FormsetAsTagTests(SimpleTestCase):
                 '<input type="text" name="choices-0-choice" value="Calexico"></li>'
                 "<li>Votes: "
                 '<input type="number" name="choices-0-votes" value="100"></li>'
+            ),
+        )
+
+    def test_as_div(self):
+        self.assertHTMLEqual(
+            self.formset.as_div(),
+            self.management_form_html
+            + (
+                "<div>Choice: "
+                '<input type="text" name="choices-0-choice" value="Calexico"></div>'
+                '<div>Votes: <input type="number" name="choices-0-votes" value="100">'
+                "</div>"
             ),
         )
 

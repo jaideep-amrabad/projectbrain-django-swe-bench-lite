@@ -176,6 +176,9 @@ class BaseDatabaseFeatures:
     # Can it create foreign key constraints inline when adding columns?
     can_create_inline_fk = True
 
+    # Can an index be renamed?
+    can_rename_index = False
+
     # Does it automatically index foreign keys?
     indexes_foreign_keys = True
 
@@ -262,10 +265,6 @@ class BaseDatabaseFeatures:
 
     # What formats does the backend EXPLAIN syntax support?
     supported_explain_formats = set()
-
-    # Does DatabaseOperations.explain_query_prefix() raise ValueError if
-    # unknown kwargs are passed to QuerySet.explain()?
-    validates_explain_options = True
 
     # Does the backend support the default parameter in lead() and lag()?
     supports_default_in_lead_lag = True

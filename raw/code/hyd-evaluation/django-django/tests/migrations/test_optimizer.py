@@ -129,6 +129,30 @@ class OptimizerTests(SimpleTestCase):
             ],
         )
 
+    def test_create_alter_model_managers(self):
+        self.assertOptimizesTo(
+            [
+                migrations.CreateModel("Foo", fields=[]),
+                migrations.AlterModelManagers(
+                    name="Foo",
+                    managers=[
+                        ("objects", models.Manager()),
+                        ("things", models.Manager()),
+                    ],
+                ),
+            ],
+            [
+                migrations.CreateModel(
+                    "Foo",
+                    fields=[],
+                    managers=[
+                        ("objects", models.Manager()),
+                        ("things", models.Manager()),
+                    ],
+                ),
+            ],
+        )
+
     def test_create_model_and_remove_model_options(self):
         self.assertOptimizesTo(
             [
@@ -1089,4 +1113,42 @@ class OptimizerTests(SimpleTestCase):
                     "Phou", [("name", models.CharField(max_length=255))]
                 ),
             ],
+        )
+
+    def test_rename_index(self):
+        self.assertOptimizesTo(
+            [
+                migrations.RenameIndex(
+                    "Pony", new_name="mid_name", old_fields=("weight", "pink")
+                ),
+                migrations.RenameIndex(
+                    "Pony", new_name="new_name", old_name="mid_name"
+                ),
+            ],
+            [
+                migrations.RenameIndex(
+                    "Pony", new_name="new_name", old_fields=("weight", "pink")
+                ),
+            ],
+        )
+        self.assertOptimizesTo(
+            [
+                migrations.RenameIndex(
+                    "Pony", new_name="mid_name", old_name="old_name"
+                ),
+                migrations.RenameIndex(
+                    "Pony", new_name="new_name", old_name="mid_name"
+                ),
+            ],
+            [migrations.RenameIndex("Pony", new_name="new_name", old_name="old_name")],
+        )
+        self.assertDoesNotOptimize(
+            [
+                migrations.RenameIndex(
+                    "Pony", new_name="mid_name", old_name="old_name"
+                ),
+                migrations.RenameIndex(
+                    "Pony", new_name="new_name", old_fields=("weight", "pink")
+                ),
+            ]
         )
