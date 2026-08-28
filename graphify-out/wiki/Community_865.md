@@ -1,34 +1,31 @@
 # Community 865
 
-> 11 nodes · cohesion 0.18
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.get_object()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **.get_context_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **.get_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **.get_context_object_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **.get_slug_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **Return the object the view is displaying. Require `self.queryset` and a `pk` or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **Return the `QuerySet` that will be used to look up the object. This method is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **Get the name of a slug field to be used to look up by slug.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **Get the name to use for the object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
-- **Insert the single object into the context dict.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **DecimalValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.test_decimal_equality()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **Validate that the input does not exceed the maximum number of digits expected,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
 
 ## Relationships
 
-- [Community 78](Community_78.md) (6 shared connections)
+- [Community 322](Community_322.md) (2 shared connections)
+- [Community 362](Community_362.md) (2 shared connections)
 - [Community 9](Community_9.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 568](Community_568.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

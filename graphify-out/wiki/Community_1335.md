@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **core.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/core.test.js`
+- **explicit_default_config_empty_apps/apps.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/explicit_default_config_empty_apps/apps.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/admin/core.test.js`
+- `raw/code/hyd-evaluation/django-django/tests/apps/explicit_default_config_empty_apps/apps.py`
 
 ## Audit Trail
 

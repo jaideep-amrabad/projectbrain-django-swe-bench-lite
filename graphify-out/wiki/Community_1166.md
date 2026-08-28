@@ -1,34 +1,24 @@
 # Community 1166
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **where.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **EmptyResultSet** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **A database query predicate is impossible.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **Code to manage the creation and SQL rendering of 'where' constraints.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **.test_inheritance42()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Expression starting and ending with a quote** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 30](Community_30.md) (4 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 277](Community_277.md) (3 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 226](Community_226.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
+- [Community 775](Community_775.md) (1 shared connections)
+- [Community 806](Community_806.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

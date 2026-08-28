@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **sites/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/migrations/__init__.py`
+- **app_template/api.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/app_template/api.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/migrations/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/app_template/api.py`
 
 ## Audit Trail
 

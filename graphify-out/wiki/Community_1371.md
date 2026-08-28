@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **admin_scripts/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/__init__.py`
+- **custom_columns/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_columns/__init__.py`
 
 ## Audit Trail
 

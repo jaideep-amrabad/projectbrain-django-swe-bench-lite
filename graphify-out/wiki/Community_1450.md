@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **empty_models/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/empty_models/models.py`
+- **gis_migrations/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/migrations/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/empty_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/migrations/__init__.py`
 
 ## Audit Trail
 

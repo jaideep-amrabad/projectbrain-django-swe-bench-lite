@@ -1,26 +1,25 @@
 # Community 1044
 
-> 5 nodes · cohesion 0.40
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **DBCacheRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.db_for_read()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.db_for_write()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **A router that puts the cache table on the 'other' database.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **NoModelTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
+- **.test_no_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
+- **It's possible to load an app with no models.py file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 60](Community_60.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

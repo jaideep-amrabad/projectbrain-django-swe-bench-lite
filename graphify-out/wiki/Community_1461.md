@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **filtered_relation/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/__init__.py`
+- **javascript_ignored.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/static/javascript_ignored.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/filtered_relation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/static/javascript_ignored.js`
 
 ## Audit Trail
 
