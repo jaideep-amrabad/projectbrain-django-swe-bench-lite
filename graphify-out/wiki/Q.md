@@ -2,7 +2,7 @@
 
 > God node · 296 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 13](Community_13.md)
+**Community:** [Community 14](Community_14.md)
 
 ## Connections by Relation
 
@@ -58,9 +58,9 @@
 - .__init__() `EXTRACTED`
 - .__or__() `EXTRACTED`
 - .__and__() `EXTRACTED`
+- .deconstruct() `EXTRACTED`
 - .__invert__() `EXTRACTED`
 - .resolve_expression() `EXTRACTED`
-- .deconstruct() `EXTRACTED`
 
 ### rationale_for
 - Encapsulate filters as objects that can then be combined logically (using `&`… `EXTRACTED`
