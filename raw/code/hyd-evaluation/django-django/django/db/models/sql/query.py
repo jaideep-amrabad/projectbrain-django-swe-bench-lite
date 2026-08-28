@@ -400,7 +400,11 @@ class Query(BaseExpression):
         """
         if not aggregate_exprs:
             return {}
-        aggregates = {}
+        # Store annotation mask prior to temporarily adding aggregations for
+        # resolving purpose to facilitate their subsequent removal.
+        refs_subquery = False
+        replacements = {}
+        annotation_select_mask = self.annotation_select_mask
         for alias, aggregate_expr in aggregate_exprs.items():
             self.check_alias(alias)
             aggregate = aggregate_expr.resolve_expression(
@@ -408,7 +412,20 @@ class Query(BaseExpression):
             )
             if not aggregate.contains_aggregate:
                 raise TypeError("%s is not an aggregate expression" % alias)
-            aggregates[alias] = aggregate
+            # Temporarily add aggregate to annotations to allow remaining
+            # members of `aggregates` to resolve against each others.
+            self.append_annotation_mask([alias])
+            refs_subquery |= any(
+                getattr(self.annotations[ref], "subquery", False)
+                for ref in aggregate.get_refs()
+            )
+            aggregate = aggregate.replace_expressions(replacements)
+            self.annotations[alias] = aggregate
+            replacements[Ref(alias, aggregate)] = aggregate
+        # Stash resolved aggregates now that they have been allowed to resolve
+        # against each other.
+        aggregates = {alias: self.annotations.pop(alias) for alias in aggregate_exprs}
+        self.set_annotation_mask(annotation_select_mask)
         # Existing usage of aggregation can be determined by the presence of
         # selected aggregates but also by filters against aliased aggregates.
         _, having, qualify = self.where.split_having_qualify()
@@ -433,6 +450,7 @@ class Query(BaseExpression):
             isinstance(self.group_by, tuple)
             or self.is_sliced
             or has_existing_aggregation
+            or refs_subquery
             or qualify
             or self.distinct
             or self.combinator
