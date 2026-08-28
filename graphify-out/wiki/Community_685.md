@@ -28,11 +28,11 @@
 
 ## Relationships
 
-- [Community 28](Community_28.md) (12 shared connections)
-- [Community 576](Community_576.md) (3 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 222](Community_222.md) (1 shared connections)
-- [Community 540](Community_540.md) (1 shared connections)
+- [Community 25](Community_25.md) (12 shared connections)
+- [Community 578](Community_578.md) (3 shared connections)
+- [Community 61](Community_61.md) (2 shared connections)
+- [Community 220](Community_220.md) (1 shared connections)
+- [Community 542](Community_542.md) (1 shared connections)
 
 ## Source Files
 

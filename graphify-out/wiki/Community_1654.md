@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **migrated_app/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_app/models.py`
+- **migration_test_data_persistence/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_app/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/__init__.py`
 
 ## Audit Trail
 

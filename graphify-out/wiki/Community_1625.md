@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **migrate_signals/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/models.py`
+- **sampleproject/settings.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/sampleproject/settings.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrate_signals/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/sampleproject/settings.py`
 
 ## Audit Trail
 

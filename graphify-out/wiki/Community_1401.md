@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **Assert no messages are logged on the logger, with at least the given level.** (0 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **openlayers.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/openlayers.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/openlayers.js`
 
 ## Audit Trail
 

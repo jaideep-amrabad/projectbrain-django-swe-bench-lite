@@ -1,6 +1,6 @@
 # Community 176
 
-> 103 nodes · cohesion 0.02
+> 101 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -25,25 +25,25 @@
 - **.url_for_result()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
 - **.test_logentry_change_message_not_json()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
 - **.test_proxy_model_content_type_is_used_for_log_entries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_security_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_security_check_https()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 - **.test_unicode_file_name_rfc2231()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
 - **.test_unicode_name_rfc2231()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- *... and 78 more nodes in this community*
+- **.get_edited_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.is_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- *... and 76 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (18 shared connections)
-- [Community 14](Community_14.md) (11 shared connections)
-- [Community 60](Community_60.md) (7 shared connections)
+- [Community 14](Community_14.md) (18 shared connections)
+- [Community 15](Community_15.md) (10 shared connections)
+- [Community 55](Community_55.md) (7 shared connections)
 - [Community 7](Community_7.md) (6 shared connections)
-- [Community 71](Community_71.md) (5 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 516](Community_516.md) (4 shared connections)
-- [Community 35](Community_35.md) (3 shared connections)
-- [Community 125](Community_125.md) (3 shared connections)
-- [Community 68](Community_68.md) (2 shared connections)
-- [Community 142](Community_142.md) (2 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 497](Community_497.md) (4 shared connections)
+- [Community 86](Community_86.md) (4 shared connections)
+- [Community 48](Community_48.md) (3 shared connections)
+- [Community 123](Community_123.md) (3 shared connections)
+- [Community 69](Community_69.md) (2 shared connections)
+- [Community 143](Community_143.md) (2 shared connections)
 - [Community 118](Community_118.md) (2 shared connections)
 
 ## Source Files
@@ -62,7 +62,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 167 (78%)
+- EXTRACTED: 163 (78%)
 - INFERRED: 47 (22%)
 - AMBIGUOUS: 0 (0%)
 

@@ -29,9 +29,9 @@
 - [Community 686](Community_686.md) (2 shared connections)
 - [Community 7](Community_7.md) (2 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 264](Community_264.md) (1 shared connections)
-- [Community 220](Community_220.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 268](Community_268.md) (1 shared connections)
+- [Community 218](Community_218.md) (1 shared connections)
 
 ## Source Files
 

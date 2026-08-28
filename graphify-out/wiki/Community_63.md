@@ -1,6 +1,6 @@
 # Community 63
 
-> 128 nodes · cohesion 0.03
+> 116 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -12,7 +12,6 @@
 - **test_detail.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
 - **generic_views/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
 - **Artist** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **DeleteViewTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 - **UpdateViewTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 - **test_list.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
 - **AuthorForm** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
@@ -24,31 +23,31 @@
 - **BookConfig** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 - **ModelFormMixinTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 - **CustomContextView** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **DeleteViewCustomDeleteWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
 - **ConfirmDeleteForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
 - **ContactForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
 - **AuthorDeleteFormView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 - **AuthorList** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- *... and 103 more nodes in this community*
+- **BookDetailGetObjectCustomQueryset** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.get_object()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- *... and 91 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (12 shared connections)
-- [Community 11](Community_11.md) (12 shared connections)
-- [Community 234](Community_234.md) (10 shared connections)
-- [Community 546](Community_546.md) (8 shared connections)
-- [Community 14](Community_14.md) (7 shared connections)
-- [Community 35](Community_35.md) (6 shared connections)
-- [Community 7](Community_7.md) (6 shared connections)
-- [Community 443](Community_443.md) (5 shared connections)
-- [Community 415](Community_415.md) (5 shared connections)
-- [Community 56](Community_56.md) (5 shared connections)
-- [Community 780](Community_780.md) (4 shared connections)
-- [Community 725](Community_725.md) (4 shared connections)
+- [Community 14](Community_14.md) (12 shared connections)
+- [Community 232](Community_232.md) (10 shared connections)
+- [Community 46](Community_46.md) (10 shared connections)
+- [Community 528](Community_528.md) (8 shared connections)
+- [Community 15](Community_15.md) (7 shared connections)
+- [Community 180](Community_180.md) (6 shared connections)
+- [Community 448](Community_448.md) (5 shared connections)
+- [Community 420](Community_420.md) (5 shared connections)
+- [Community 48](Community_48.md) (5 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 57](Community_57.md) (5 shared connections)
+- [Community 782](Community_782.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
 - `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
 - `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
@@ -60,8 +59,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 289 (80%)
-- INFERRED: 73 (20%)
+- EXTRACTED: 275 (79%)
+- INFERRED: 71 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---
