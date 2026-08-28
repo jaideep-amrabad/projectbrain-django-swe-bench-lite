@@ -1,61 +1,57 @@
 # Community 421
 
-> 27 nodes · cohesion 0.08
+> 25 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ForeignKey** (38 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.test_no_index_for_foreignkey()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- **.test_proxy_model_parent()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.get_attname_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_attname()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_reverse_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.resolve_related_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_attname_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_reverse_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.related_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **Get path from the related model to this field's model.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_unique()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.__class_getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.convert_empty_strings()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.db_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_col()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_db_converters()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_db_prep_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_db_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.target_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **Return the to_field if the default value is an object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- *... and 2 more nodes in this community*
+- **TimeFormat** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.srid()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **time_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.P()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Formatter** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.h()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.O()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.s()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.Z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.a()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **._no_timezone_or_datetime_is_ambiguous_or_imaginary()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.T()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.u()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **setter** (1 connections)
+- **Get the SRID for the geometry. Return None if no SRID is set.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **Set the SRID for the geometry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.format()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Hour, 12-hour format; i.e. '01' to '12** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Hour, 24-hour format; i.e. '00' to '23** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Difference to Greenwich time in hours; e.g. '+0200', '-0430'. If timezone…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Time, in 12-hour hours, minutes and 'a.m.'/'p.m.', with minutes left off if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Seconds; i.e. '00' to '59** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Time zone of this machine; e.g. 'EST' or 'MDT'. If timezone information is not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Microseconds; i.e. '000000' to '999999** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Time zone offset in seconds (i.e. '-43200' to '43200'). The offset for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (5 shared connections)
-- [Community 450](Community_450.md) (4 shared connections)
-- [Community 391](Community_391.md) (4 shared connections)
-- [Community 37](Community_37.md) (3 shared connections)
-- [Community 124](Community_124.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 824](Community_824.md) (1 shared connections)
-- [Community 451](Community_451.md) (1 shared connections)
-- [Community 966](Community_966.md) (1 shared connections)
-- [Community 1001](Community_1001.md) (1 shared connections)
+- [Community 18](Community_18.md) (4 shared connections)
+- [Community 499](Community_499.md) (2 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 316](Community_316.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 368](Community_368.md) (1 shared connections)
+- [Community 384](Community_384.md) (1 shared connections)
+- [Community 455](Community_455.md) (1 shared connections)
+- [Community 249](Community_249.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (92%)
-- INFERRED: 4 (8%)
+- EXTRACTED: 39 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

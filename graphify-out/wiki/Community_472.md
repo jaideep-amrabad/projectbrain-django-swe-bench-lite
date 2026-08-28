@@ -1,33 +1,55 @@
 # Community 472
 
-> 9 nodes · cohesion 0.25
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **TimestampSigner** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **dumps()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **loads()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.sign()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.timestamp()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **b62_encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.test_decode_serializer_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Return URL-safe, hmac signed base64 compressed JSON string. If key is None, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Reverse of dumps(), raise BadSignature if signature fails. The serializer is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **MessageCompilationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **IgnoreDirectoryCompilationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **RunInTmpDirMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- **copytree()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- **FuzzyTranslationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **MultipleLocaleCompilationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_fuzzy_compiling()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_nofuzzy_compiling()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.assertAllExist()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.assertNoneExist()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_ignores_based_on_pattern()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_multiple_locale_dirs_ignored()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_one_locale_dir_ignored()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **ProjectAndAppTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **AppCompilationTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_multiple_locales()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_one_locale()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **PathLibLocaleCompilationTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_locale_paths_pathlib()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **PoFileContentsTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_app_locale_compiled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (8 shared connections)
-- [Community 254](Community_254.md) (2 shared connections)
+- [Community 8](Community_8.md) (14 shared connections)
+- [Community 6](Community_6.md) (14 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 142](Community_142.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 814](Community_814.md) (1 shared connections)
+- [Community 565](Community_565.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 77 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

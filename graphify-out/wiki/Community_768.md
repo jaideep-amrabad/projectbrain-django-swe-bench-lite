@@ -1,37 +1,44 @@
 # Community 768
 
-> 12 nodes · cohesion 0.20
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **trans_null.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **ngettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **npgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **pgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **activate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **check_for_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **deactivate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_bidi()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_from_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_from_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **._check_token()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.process_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **RejectRequest** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.parse_header_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **._check_referer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **HttpHeadersTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **._bad_token_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._origin_verified()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._accept()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_parse_header_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 92](Community_92.md) (1 shared connections)
-- [Community 74](Community_74.md) (1 shared connections)
+- [Community 5](Community_5.md) (7 shared connections)
+- [Community 104](Community_104.md) (7 shared connections)
+- [Community 162](Community_162.md) (4 shared connections)
+- [Community 209](Community_209.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 498](Community_498.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (82%)
-- INFERRED: 3 (18%)
+- EXTRACTED: 34 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

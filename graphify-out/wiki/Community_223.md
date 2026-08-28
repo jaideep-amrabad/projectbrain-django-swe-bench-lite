@@ -1,50 +1,60 @@
 # Community 223
 
-> 25 nodes · cohesion 0.08
+> 49 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **BasicFieldTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **RenamedField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_abstract_inherited_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_choices_form_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_deconstruct_nested_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_field_instance_is_picklable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_field_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_field_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_field_repr_nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_formfield_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_show_hidden_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_field_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_field_verbose_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_hash_immutability()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **Field instances can be pickled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **deconstruct() uses __qualname__ for nested class support.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **Field instances from abstract models are not equal.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **Fields with choices respect show_hidden_initial as a kwarg to formfield().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **__repr__() of a field displays its name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **__repr__() uses __qualname__ for nested class support.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **A defined field name (name="fieldname") is used instead of the model model's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **Can supply a custom choices form class to Field.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **Field.formfield() sets disabled for fields with choices.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **Fields are ordered based on their creation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **BaseDatabaseWrapper** (74 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.connect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.check_database_version_supported()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.init_connection_state()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.check_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.clean_savepoints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.get_connection_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.get_database_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.get_new_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.get_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.set_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **DatabaseWrapper** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.chunked_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.copy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.ensure_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.execute_wrapper()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._nodb_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.prepare_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.temporary_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.timezone_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.validate_no_broken_transaction()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.allow_thread_sharing()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.dec_thread_sharing()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.inc_thread_sharing()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 747](Community_747.md) (4 shared connections)
-- [Community 188](Community_188.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 0](Community_0.md) (17 shared connections)
+- [Community 503](Community_503.md) (11 shared connections)
+- [Community 603](Community_603.md) (9 shared connections)
+- [Community 1047](Community_1047.md) (3 shared connections)
+- [Community 1046](Community_1046.md) (3 shared connections)
+- [Community 1010](Community_1010.md) (1 shared connections)
+- [Community 410](Community_410.md) (1 shared connections)
+- [Community 635](Community_635.md) (1 shared connections)
+- [Community 456](Community_456.md) (1 shared connections)
+- [Community 662](Community_662.md) (1 shared connections)
+- [Community 1095](Community_1095.md) (1 shared connections)
+- [Community 911](Community_911.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 105 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

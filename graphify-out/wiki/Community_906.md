@@ -1,32 +1,40 @@
 # Community 906
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **._check_bad_or_missing_cookie()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_no_csrf_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_bad_csrf_cookie_characters()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_bad_csrf_cookie_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **If the CSRF cookie has invalid characters in a POST request, the middleware…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **If the CSRF cookie has an incorrect length in a POST request, the middleware…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **Passing None for cookie includes no cookie.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **If no CSRF cookies is present, the middleware rejects the incoming request.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **ValidationAssertions** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
+- **test_custom_messages.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- **validation/test_validators.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
+- **validation/__init__.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
+- **CustomMessagesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- **CustomMessagesModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_custom_null_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- **.test_custom_simple_validator_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- **.assertFailsValidation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
+- **.assertFieldFailsValidationWithMessage()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
 
 ## Relationships
 
-- [Community 319](Community_319.md) (3 shared connections)
-- [Community 205](Community_205.md) (3 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 625](Community_625.md) (4 shared connections)
+- [Community 573](Community_573.md) (3 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 799](Community_799.md) (2 shared connections)
+- [Community 826](Community_826.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 31 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

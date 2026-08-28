@@ -1,48 +1,61 @@
 # Community 166
 
-> 20 nodes · cohesion 0.12
+> 47 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **UUIDTextMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **StartsWith** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **EndsWith** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **Contains** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **IExact** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **IContains** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **IEndsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **IStartsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **UUIDContains** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **UUIDEndsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **UUIDIContains** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **UUIDIEndsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **UUIDIExact** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **UUIDIStartsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **UUIDStartsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **CustomEndsWith** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **CustomStartsWith** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.get_extra_restriction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **Strip hyphens from a value when filtering a UUIDField on backends without a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **MultiValueFieldTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **MultiValueField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **ComplexField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **ComplexFieldForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **ComplexField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **BasicFieldsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
+- **ComplexMultiWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **DisabledFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_clean_disabled_multivalue()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **PartiallyRequiredField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **PartiallyRequiredForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **Field** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.compress()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_cooperative_multiple_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
+- **.test_field_deepcopies_widget_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
+- **.test_field_sets_widget_is_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
+- **.test_disabled_field_has_changed_always_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
+- **.test_disabled_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_form_as_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 14](Community_14.md) (17 shared connections)
-- [Community 168](Community_168.md) (14 shared connections)
-- [Community 77](Community_77.md) (6 shared connections)
-- [Community 252](Community_252.md) (4 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
+- [Community 11](Community_11.md) (9 shared connections)
+- [Community 50](Community_50.md) (6 shared connections)
+- [Community 122](Community_122.md) (4 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 640](Community_640.md) (2 shared connections)
+- [Community 90](Community_90.md) (2 shared connections)
+- [Community 36](Community_36.md) (2 shared connections)
+- [Community 965](Community_965.md) (2 shared connections)
+- [Community 179](Community_179.md) (1 shared connections)
+- [Community 597](Community_597.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 74 (88%)
+- INFERRED: 10 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

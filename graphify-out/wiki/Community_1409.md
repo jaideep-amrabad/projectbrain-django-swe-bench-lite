@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **custom_migration_operations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/__init__.py`
+- **navigation.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/navigation.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/__init__.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/navigation.test.js`
 
 ## Audit Trail
 

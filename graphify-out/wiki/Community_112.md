@@ -1,57 +1,64 @@
 # Community 112
 
-> 75 nodes · cohesion 0.05
+> 51 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **model_inheritance/tests.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **ModelInheritanceTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **model_inheritance/models.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ModelInheritanceDataTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **Restaurant** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **GrandChild** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Place** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **CommonInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **InheritanceUniqueTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **GrandParent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ItalianRestaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **MixinModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Parent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Student** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Supplier** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Attachment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ParkingLot** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **SubBase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Worker** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **InheritanceSameModelNameTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **Chef** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Child** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Mixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- *... and 50 more nodes in this community*
+- **test_client/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **SessionMiddleware** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- **.middleware()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
+- **MiddlewareMixinTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **SessionMiddlewareTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **AsyncClientTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **AsyncRequestFactoryTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_empty_session_saved()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_httponly_session_cookie()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_no_httponly_session_cookie()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_samesite_session_cookie()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_secure_session_cookie()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_delete_on_end_with_custom_domain_and_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **CSRFEnabledClientTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **.test_sync_to_async_uses_base_thread_and_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **.test_flush_empty_without_session_cookie_doesnt_set_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_delete_on_end()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_update_error_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_csrf_enabled_client()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **CustomTestClientTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Client** (3 connections)
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- **.test_coroutine()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **.test_passing_explicit_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (8 shared connections)
-- [Community 45](Community_45.md) (5 shared connections)
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 190](Community_190.md) (2 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 1770](Community_1770.md) (1 shared connections)
+- [Community 1](Community_1.md) (13 shared connections)
+- [Community 7](Community_7.md) (13 shared connections)
+- [Community 10](Community_10.md) (6 shared connections)
+- [Community 23](Community_23.md) (5 shared connections)
+- [Community 93](Community_93.md) (5 shared connections)
+- [Community 66](Community_66.md) (5 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
+- [Community 40](Community_40.md) (2 shared connections)
+- [Community 75](Community_75.md) (2 shared connections)
+- [Community 118](Community_118.md) (2 shared connections)
+- [Community 151](Community_151.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 141 (85%)
-- INFERRED: 25 (15%)
+- EXTRACTED: 123 (80%)
+- INFERRED: 30 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

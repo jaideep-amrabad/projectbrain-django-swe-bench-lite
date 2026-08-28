@@ -1,39 +1,58 @@
 # Community 663
 
-> 15 nodes · cohesion 0.17
+> 41 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **RedisCache** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.get_backend_timeout()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.add()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.set()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.set_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **._cache()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.delete_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.get_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.incr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- **._chain()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._not_support_combined_queries()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.exclude()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.delete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._filter_or_exclude()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.update()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.alias()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.complex_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.defer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.distinct()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.only()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.prefetch_related()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.select_related()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.all()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.in_bulk()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.none()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.using()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.collapse_group_by()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Return a new QuerySet instance with the args ANDed to the existing set.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a dictionary mapping each of the given IDs to the object with that ID.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Delete the records in the current QuerySet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 333](Community_333.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 39](Community_39.md) (28 shared connections)
+- [Community 774](Community_774.md) (3 shared connections)
+- [Community 636](Community_636.md) (2 shared connections)
+- [Community 194](Community_194.md) (1 shared connections)
+- [Community 425](Community_425.md) (1 shared connections)
+- [Community 411](Community_411.md) (1 shared connections)
+- [Community 479](Community_479.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 64](Community_64.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/redis.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 85 (94%)
+- INFERRED: 5 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

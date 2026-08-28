@@ -1,8 +1,8 @@
 # F
 
-> God node · 465 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+> God node · 471 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 26](Community_26.md)
+**Community:** [Community 9](Community_9.md)
 
 ## Connections by Relation
 
@@ -46,12 +46,12 @@
 - main.py `EXTRACTED`
 - geoapp/tests.py `EXTRACTED`
 - postgres_tests/test_constraints.py `EXTRACTED`
+- sql/compiler.py `EXTRACTED`
+- aggregation/tests.py `EXTRACTED`
 - lookup/tests.py `EXTRACTED`
 - postgres_tests/test_indexes.py `EXTRACTED`
 - test_ranges.py `EXTRACTED`
 - test_query.py `EXTRACTED`
-- sql/compiler.py `EXTRACTED`
-- aggregation/tests.py `EXTRACTED`
 
 ### inherits
 - OuterRef `EXTRACTED`
@@ -67,6 +67,7 @@
 - .replace_expressions() `EXTRACTED`
 - .__eq__() `EXTRACTED`
 - .__hash__() `EXTRACTED`
+- .copy() `EXTRACTED`
 
 ### rationale_for
 - An object capable of resolving references to existing query objects. `EXTRACTED`

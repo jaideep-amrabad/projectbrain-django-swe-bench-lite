@@ -1,23 +1,25 @@
 # Community 1113
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.get_db_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return a list of functions needed to convert field data. Some field types on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **annotated_tag_function.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/annotated_tag_function.py`
+- **annotated_tag_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/annotated_tag_function.py`
+- **simple_tag** (1 connections)
 
 ## Relationships
 
-- [Community 327](Community_327.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/annotated_tag_function.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

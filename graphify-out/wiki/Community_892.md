@@ -1,31 +1,35 @@
 # Community 892
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **_user_has_module_perms()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **_user_has_perm()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.has_module_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.has_perm()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.has_module_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **A backend can raise `PermissionDenied` to short-circuit permission checking.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **Return True if the user has the specified permission. Query all available auth…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **Return True if the user has any permissions in the given app label. Use similar…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **Worker** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **EvaluateMethodTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Department** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **ModelFieldsCacheTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_model_with_evaluate_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_model_init_too_many_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **.test_fields_cache_reset_on_copy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Regression test for #13640: cannot filter by objects with 'evaluate' attr** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **You can filter by objects that have an 'evaluate' attr** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 257](Community_257.md) (2 shared connections)
+- [Community 789](Community_789.md) (6 shared connections)
+- [Community 621](Community_621.md) (3 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (71%)
+- INFERRED: 6 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,25 +1,27 @@
 # Community 941
 
-> 7 nodes · cohesion 0.38
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **MigrateTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **.test_migrate_gis()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **.assertTableExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **.assertTableNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **.get_table_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **Tests basic usage of the migrate command when a model uses Geodjango fields…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **Tests running the migrate command in Geodjango.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
+- **SessionStore** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **test_client_regress/session.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **A simple cookie-based session storage implementation. The session key is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 156](Community_156.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
 
 ## Audit Trail
 

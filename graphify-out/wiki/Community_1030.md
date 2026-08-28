@@ -1,27 +1,39 @@
 # Community 1030
 
-> 5 nodes · cohesion 0.60
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **SimpleTagTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_simple_tag.py`
-- **setup** (3 connections)
-- **.test_simpletag_renamed01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_simple_tag.py`
-- **.test_simpletag_renamed02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_simple_tag.py`
-- **.test_simpletag_renamed03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_simple_tag.py`
+- **Score** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.test_float_serialization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **SerializerAPITests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_stream_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_indentation_whitespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_no_indentation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Float values serialize and deserialize intact** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 416](Community_416.md) (1 shared connections)
+- [Community 592](Community_592.md) (1 shared connections)
+- [Community 570](Community_570.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 554](Community_554.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 372](Community_372.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_simple_tag.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (71%)
+- INFERRED: 4 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

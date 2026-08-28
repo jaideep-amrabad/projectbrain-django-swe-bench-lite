@@ -4,19 +4,19 @@
 
 ## Key Concepts
 
-- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.serialize_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **HTTP headers as a bytestring.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Full HTTP message, including headers, as a bytestring.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **SlugFieldTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_slugfield.py`
+- **.test_empty_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_slugfield.py`
+- **.test_slugfield_normalization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_slugfield.py`
+- **.test_slugfield_unicode_normalization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_slugfield.py`
 
 ## Relationships
 
+- [Community 11](Community_11.md) (1 shared connections)
 - [Community 10](Community_10.md) (1 shared connections)
-- [Community 367](Community_367.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_slugfield.py`
 
 ## Audit Trail
 

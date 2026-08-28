@@ -1,33 +1,33 @@
 # Community 883
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Issue** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **ProxyBug** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Improvement** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **ProxyProxyBug** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Bug** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Proxy of an inherited class** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A proxy of proxy model with related field** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A model that has relation to a proxy model or to a proxy of proxy model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **apps/apps.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **BadConfig** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **ModelPKAppsConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **MyAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **MyAuth** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **NoSuchApp** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **PlainAppsConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **RelabeledAppsConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **NotAConfig** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
+- **This class doesn't supply the mandatory 'name' attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
 
 ## Relationships
 
-- [Community 654](Community_654.md) (8 shared connections)
-- [Community 574](Community_574.md) (6 shared connections)
-- [Community 305](Community_305.md) (5 shared connections)
+- [Community 197](Community_197.md) (8 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/apps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (78%)
-- INFERRED: 6 (22%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,57 +1,53 @@
 # Community 436
 
-> 26 nodes · cohesion 0.17
+> 26 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **model_inheritance_regress/models.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **model_inheritance_regress/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **Congressman** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **ParkingLot4A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **ParkingLot4B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Station** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **BusStation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **DerivedM** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **M2MChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **ParkingLot4** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Politician** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Profile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **SelfRefChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **SelfRefParent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Senator** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Supplier** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **TrainStation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Wholesaler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **BaseM** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **M2MBase** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Parent** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **SearchableLocation** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **TimestampSigner** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Signer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **BadSignature** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.unsign()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **base64_hmac()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **SignatureExpired** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.sign_object()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.signature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.unsign()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **b64_encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **dumps()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **loads()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.sign()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.timestamp()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **b62_decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **b62_encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.sign()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.test_decode_serializer_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Exception** (1 connections)
+- **Return URL-safe, hmac signed base64 compressed JSON string. If key is None, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Reverse of dumps(), raise BadSignature if signature fails. The serializer is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Return URL-safe, hmac signed base64 compressed JSON string. If compress is True…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Retrieve original value and check it wasn't signed more than max_age seconds…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Signature does not match.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Signature timestamp is older than required max_age.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 304](Community_304.md) (18 shared connections)
-- [Community 841](Community_841.md) (13 shared connections)
-- [Community 882](Community_882.md) (12 shared connections)
-- [Community 1062](Community_1062.md) (7 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 312](Community_312.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 58](Community_58.md) (1 shared connections)
+- [Community 1](Community_1.md) (12 shared connections)
+- [Community 420](Community_420.md) (2 shared connections)
+- [Community 264](Community_264.md) (2 shared connections)
+- [Community 598](Community_598.md) (1 shared connections)
+- [Community 756](Community_756.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (85%)
-- INFERRED: 17 (15%)
+- EXTRACTED: 48 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

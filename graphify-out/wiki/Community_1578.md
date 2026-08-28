@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **unspecified_app_with_conflict/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unspecified_app_with_conflict/models.py`
+- **gis_tests/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/models.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/unspecified_app_with_conflict/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/models.py`
 
 ## Audit Trail
 

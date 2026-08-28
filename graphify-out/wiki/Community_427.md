@@ -1,58 +1,60 @@
 # Community 427
 
-> 26 nodes · cohesion 0.11
+> 27 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **UserCreationForm** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **UserCreationFormTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **patch** (4 connections)
-- **.test_duplicate_normalized_unicode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_help_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_create_form_validates_password_with_all_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_validates_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.clean_password2()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **._post_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_both_passwords()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_invalid_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_normalize_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_unicode_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_username_field_autocapitalize_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **A form that creates a user, with no privileges, from the given username and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **To prevent almost identical usernames, visually identical but differing by…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **UserCreationForm password validation uses all of the form's data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_form_hidden_username_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- *... and 1 more nodes in this community*
+- **TestContextDecorator** (17 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **DoNothingDecorator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.enable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **TestContextDecoratorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_exception_in_setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.disable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.decorate_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_override_database_routers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.save_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.decorate_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.decorate_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **object** (2 connections)
+- **A base class that can either be used as a context manager during tests or as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding DATABASE_ROUTERS should update the base router.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 693](Community_693.md) (2 shared connections)
-- [Community 728](Community_728.md) (2 shared connections)
-- [Community 694](Community_694.md) (1 shared connections)
-- [Community 963](Community_963.md) (1 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
-- [Community 316](Community_316.md) (1 shared connections)
-- [Community 757](Community_757.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 20](Community_20.md) (5 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
+- [Community 359](Community_359.md) (1 shared connections)
+- [Community 186](Community_186.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 270](Community_270.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 46 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

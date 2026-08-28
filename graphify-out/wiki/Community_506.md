@@ -1,43 +1,56 @@
 # Community 506
 
-> 12 nodes · cohesion 0.32
+> 25 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Truncator** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.add_truncation_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.chars()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._truncate_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._text_chars()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._text_words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **Truncate a string after a certain number of chars.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **Truncate HTML to a certain number of chars (not counting tags and comments),…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **An object used to truncate text, either by characters or words.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **Return the text truncated to be no longer than the specified number of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **ManyToManyDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ReverseManyToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.contribute_to_class()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **CustomManyToManyField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- **create_reverse_many_to_one_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.related_manager_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__get__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__set__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.contribute_to_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.contribute_to_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **._get_set_deprecation_msg_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.related_manager_cls()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Accessor to the related objects manager on the reverse side of a many-to-one…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Get the related objects through the reverse relation. With the example above,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Create a manager for the reverse side of a many-to-one relation. This manager…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Accessor to the related objects manager on the forward and reverse sides of a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **._get_set_deprecation_msg_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- **Ticket #24104 - Need to have a custom ManyToManyField, which is not an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 149](Community_149.md) (1 shared connections)
-- [Community 177](Community_177.md) (1 shared connections)
-- [Community 801](Community_801.md) (1 shared connections)
-- [Community 919](Community_919.md) (1 shared connections)
-- [Community 765](Community_765.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 596](Community_596.md) (1 shared connections)
+- [Community 5](Community_5.md) (14 shared connections)
+- [Community 394](Community_394.md) (3 shared connections)
+- [Community 437](Community_437.md) (2 shared connections)
+- [Community 395](Community_395.md) (2 shared connections)
+- [Community 438](Community_438.md) (1 shared connections)
+- [Community 113](Community_113.md) (1 shared connections)
+- [Community 739](Community_739.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 44 (88%)
+- INFERRED: 6 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

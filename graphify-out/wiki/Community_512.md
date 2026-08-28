@@ -29,10 +29,10 @@
 
 ## Relationships
 
-- [Community 330](Community_330.md) (20 shared connections)
-- [Community 154](Community_154.md) (4 shared connections)
-- [Community 364](Community_364.md) (3 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 228](Community_228.md) (20 shared connections)
+- [Community 169](Community_169.md) (4 shared connections)
+- [Community 440](Community_440.md) (3 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 

@@ -1,60 +1,56 @@
 # Community 182
 
-> 54 nodes · cohesion 0.06
+> 58 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **EmailMessage** (77 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **MailTests** (55 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_cc()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_custom_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_dummy_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_from_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_multiple_message_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_non_ascii_attachment_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_non_ascii_dns_non_unicode_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_recipients_with_empty_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_reply_to_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_sanitize_address()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_space_continuation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_to_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_unicode_address_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_arbitrary_keyword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_ascii()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_content_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_cc_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_cc_in_headers_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_dont_base64_encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_dont_base64_encode_message_rfc822()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_dont_mangle_from_in_body()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_multi_alternatives_content_mimetype_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- *... and 29 more nodes in this community*
+- **Options** (49 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **make_immutable_fields_list()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.add_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._expire_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._format_names_with_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_base_chain()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_path_to_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.local_concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._non_pk_concrete_field_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._populate_directed_relation_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._property_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.setup_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.verbose_name_raw()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.add_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.can_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_ancestor_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_path_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Community 378](Community_378.md) (9 shared connections)
-- [Community 910](Community_910.md) (9 shared connections)
-- [Community 81](Community_81.md) (8 shared connections)
-- [Community 776](Community_776.md) (7 shared connections)
-- [Community 1158](Community_1158.md) (6 shared connections)
-- [Community 793](Community_793.md) (6 shared connections)
-- [Community 856](Community_856.md) (4 shared connections)
-- [Community 208](Community_208.md) (4 shared connections)
-- [Community 829](Community_829.md) (3 shared connections)
-- [Community 197](Community_197.md) (2 shared connections)
-- [Community 659](Community_659.md) (2 shared connections)
-- [Community 434](Community_434.md) (2 shared connections)
+- [Community 5](Community_5.md) (13 shared connections)
+- [Community 702](Community_702.md) (2 shared connections)
+- [Community 769](Community_769.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 1143](Community_1143.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 366](Community_366.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 273](Community_273.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 
 ## Audit Trail
 
-- EXTRACTED: 151 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 86 (96%)
+- INFERRED: 4 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

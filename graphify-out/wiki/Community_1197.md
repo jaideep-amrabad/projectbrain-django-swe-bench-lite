@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **test_client_regress/context_processors.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/context_processors.py`
-- **special()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/context_processors.py`
+- **.test_unique_together_no_changes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **unique_together doesn't generate a migration if no changes have been made.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 27](Community_27.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

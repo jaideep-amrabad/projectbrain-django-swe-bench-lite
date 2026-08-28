@@ -1,27 +1,30 @@
 # Community 1041
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **.get_users()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **_unicode_ci_compare()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Perform case-insensitive comparison of two identifiers, using the recommended…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Given an email, return matching user(s) who should receive a reset. This allows…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **TestValidators** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_max_length_validator_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_message_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_message_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_regex_validator_flags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_single_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_validators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 
 ## Relationships
 
-- [Community 81](Community_81.md) (1 shared connections)
-- [Community 446](Community_446.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 141](Community_141.md) (3 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

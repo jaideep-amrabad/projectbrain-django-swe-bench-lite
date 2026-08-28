@@ -1,37 +1,36 @@
 # Community 823
 
-> 11 nodes · cohesion 0.27
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Article** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **ModelFormsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **ArticleForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_validation_with_empty_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_validation_with_invalid_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_FK_validates_using_base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_partial_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **ReadLimitedStreamTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_body_from_empty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_read_from_empty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_read_from_nonempty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_read_numbytes_from_empty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_read_numbytes_from_nonempty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **HttpRequest.body, HttpRequest.read(), and HttpRequest.read(BUFFER) have proper…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **HttpRequest.body on a test client GET request should return the empty string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **HttpRequest.read() on a test client GET request should return the empty string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **HttpRequest.read(LARGE_BUFFER) on a test client GET request should return the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **HttpRequest.read() on a test client PUT request with some payload should return…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **HttpRequest.read(LARGE_BUFFER) on a test client PUT request with some payload…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 279](Community_279.md) (5 shared connections)
-- [Community 402](Community_402.md) (3 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (84%)
-- INFERRED: 4 (16%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

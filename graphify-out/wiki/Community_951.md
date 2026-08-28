@@ -4,28 +4,31 @@
 
 ## Key Concepts
 
-- **mutually_referential/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
-- **mutually_referential/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
-- **MutuallyReferentialTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
-- **.test_mutually_referential()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
-- **Child** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
-- **Mutually referential many-to-one relationships Strings can be used instead of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
+- **Cos** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **CosTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 306](Community_306.md) (1 shared connections)
+- [Community 287](Community_287.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 85](Community_85.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,36 +1,46 @@
 # Community 569
 
-> 11 nodes · cohesion 0.18
+> 20 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **AsyncHandlerRequestTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_sync_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **Calling an async view down the normal synchronous path.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_bad_request_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_no_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_suspiciousop_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_unawaited_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **Async variants of the normal handler request tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **Calling a sync view down the asynchronous path.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **NestedForeignKeysTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **nested_foreign_keys/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **nested_foreign_keys/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **DeeplyNestedForeignKeysTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **Event** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **Screening** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **Movie** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **Package** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **ScreeningNullFK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **PackageNullFK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_explicit_ForeignKey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_explicit_ForeignKey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_explicit_ForeignKey_NullFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_inheritance_null_FK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_null_exclude()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 456](Community_456.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 34 (74%)
+- INFERRED: 12 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

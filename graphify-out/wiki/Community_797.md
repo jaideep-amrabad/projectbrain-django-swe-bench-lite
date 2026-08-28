@@ -1,35 +1,36 @@
 # Community 797
 
-> 11 nodes · cohesion 0.22
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **ResponseHeaders** (9 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **._convert_to_charset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **ValueError** (3 connections)
-- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Populate the initial data using __setitem__ to ensure values are correctly…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Convert headers key/value to ascii/latin-1 native strings. `charset` must be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.setdefault()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **ActiveTranslationField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **ArticleTranslationDescriptor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **ColConstraint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_extra_restriction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **ActiveTranslationFieldWithQ** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_extra_descriptor_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_extra_descriptor_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **This field will allow querying and fetching the currently active translation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **The set of articletranslation should not set any local fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
 
 ## Relationships
 
-- [Community 367](Community_367.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 403](Community_403.md) (1 shared connections)
+- [Community 353](Community_353.md) (4 shared connections)
+- [Community 53](Community_53.md) (3 shared connections)
+- [Community 438](Community_438.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,29 +1,38 @@
 # Community 924
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Deserializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Abstract base deserializer class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Init this serializer given a stream or a string** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Iteration interface -- return the next item in the stream** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **basic/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **ChildPrimaryKeyWithDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **PrimaryKeyWithDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **SelfRef** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **FeaturedArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **.test_save_parent_primary_with_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_save_primary_with_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **Bare-bones model This is a basic model with only two non-primary-key fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 28](Community_28.md) (5 shared connections)
+- [Community 611](Community_611.md) (5 shared connections)
+- [Community 775](Community_775.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 1063](Community_1063.md) (1 shared connections)
+- [Community 397](Community_397.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (80%)
+- INFERRED: 5 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

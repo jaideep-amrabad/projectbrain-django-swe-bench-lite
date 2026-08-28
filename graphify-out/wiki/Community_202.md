@@ -1,60 +1,64 @@
 # Community 202
 
-> 58 nodes · cohesion 0.05
+> 73 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **SelectForUpdateTests** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **select_for_update/tests.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **select_for_update/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **Country** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **.end_blocking_transaction()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_raw_lock_not_available()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.start_blocking_transaction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_nowait_raises_error_on_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_skip_locked_skips_locked_rows()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **CountryProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **EUCountry** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **.test_unsuported_no_key_raises_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_unsupported_nowait_raises_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_unsupported_of_raises_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_unsupported_skip_locked_raises_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.raw()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **CityCountryProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **CountryProxyProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **EUCity** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **PersonProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **NotSupportedError is raised if a SELECT...FOR UPDATE NOWAIT is run on a…** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_of_self_when_self_is_not_selected()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- *... and 33 more nodes in this community*
+- **BaseSpatialOperations** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- **gis/db/backends/oracle/operations.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
+- **OracleOperations** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
+- **SpatialOperator** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/utils.py`
+- **WKTAdapter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- **OracleSpatialAdapter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **gis/db/backends/utils.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/utils.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **spatialite/adapter.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
+- **SpatiaLiteAdapter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
+- **base/adapter.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- **._fix_geometry_collection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **._fix_polygon()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **SDORelate** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
+- **.get_geom_placeholder()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- **.spatial_function_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- **SpatialiteNullCheckOperator** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.check_expression_support()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- **.geo_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- **.get_db_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- **.get_distance()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- **.get_geometry_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- **._polygon_must_be_fixed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **.convert_extent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
+- **.geo_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [Community 21](Community_21.md) (24 shared connections)
-- [Community 190](Community_190.md) (13 shared connections)
-- [Community 5](Community_5.md) (11 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 437](Community_437.md) (2 shared connections)
-- [Community 310](Community_310.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 239](Community_239.md) (1 shared connections)
+- [Community 5](Community_5.md) (18 shared connections)
+- [Community 17](Community_17.md) (8 shared connections)
+- [Community 25](Community_25.md) (7 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 95](Community_95.md) (5 shared connections)
+- [Community 757](Community_757.md) (2 shared connections)
+- [Community 77](Community_77.md) (2 shared connections)
+- [Community 303](Community_303.md) (1 shared connections)
+- [Community 375](Community_375.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 163](Community_163.md) (1 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 141 (94%)
+- EXTRACTED: 131 (94%)
 - INFERRED: 9 (6%)
 - AMBIGUOUS: 0 (0%)
 

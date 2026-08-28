@@ -1,51 +1,62 @@
 # Community 269
 
-> 42 nodes · cohesion 0.05
+> 54 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **DummyCacheTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_data_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_decr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_decr_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_delete_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_expiration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_has_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_incr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_incr_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_set_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_delete_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_or_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_or_set_callable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_set_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Dummy cache backend ignores cache set calls** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- *... and 17 more nodes in this community*
+- **URLResolver** (32 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **get_callable()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
+- **conf.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
+- **LocalePrefixPattern** (13 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **URLPattern** (13 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **ViewLoadingTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **ResolverMatch** (9 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **._populate()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **._reverse_with_prefix()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.resolve()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **._check_pattern_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **._check_custom_error_handlers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.app_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **._join_route()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.namespace_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.resolve_error_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.reverse_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.test_view_loading()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.language_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **._check_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.lookup_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 44](Community_44.md) (18 shared connections)
+- [Community 11](Community_11.md) (16 shared connections)
+- [Community 70](Community_70.md) (6 shared connections)
+- [Community 53](Community_53.md) (5 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 181](Community_181.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
+- [Community 313](Community_313.md) (1 shared connections)
+- [Community 249](Community_249.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 129 (93%)
+- INFERRED: 10 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

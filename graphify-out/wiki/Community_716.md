@@ -1,37 +1,38 @@
 # Community 716
 
-> 14 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **FakePostGISOperations** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **TestPostGISVersionCheck** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **FakeConnection** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_get_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_no_version_number()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_valid_version_numbers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_version_classic_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_version_dev_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.test_version_loose_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **._get_postgis_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
-- **skipUnless** (1 connections)
-- **The PostGIS version check parses correctly the version numbers** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- **RemoteTestResultTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.test_add_failing_subtests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **._test_error_exc_info()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.test_was_successful_one_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.test_was_successful_one_failure()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **skipUnless** (3 connections)
+- **.test_was_successful_one_expected_failure()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.test_picklable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.test_was_successful_no_events()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.test_was_successful_one_skip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.test_was_successful_one_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **Failing subtests are added correctly using addSubTest().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
+- [Community 561](Community_561.md) (9 shared connections)
+- [Community 119](Community_119.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 1028](Community_1028.md) (1 shared connections)
+- [Community 1133](Community_1133.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 28 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

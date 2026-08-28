@@ -1,54 +1,53 @@
 # Community 557
 
-> 19 nodes · cohesion 0.15
+> 20 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **syndication_tests/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **Entry** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **TestGetObjectFeed** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **FeedTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **syndication_tests/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **TestNoPubdateFeed** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **syndication/__init__.py** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/__init__.py`
-- **.item_comments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **.get_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_title()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **Statement** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **MockReference** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **StatementTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_references_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_references_table()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_rename_column_references()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_rename_table_references()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_str()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **Statement template and formatting parameters container. Allows keeping a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_column_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_table_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.references_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.references_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.rename_column_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.rename_table_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
 
 ## Relationships
 
-- [Community 180](Community_180.md) (10 shared connections)
-- [Community 179](Community_179.md) (7 shared connections)
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 313](Community_313.md) (2 shared connections)
-- [Community 355](Community_355.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 312](Community_312.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 52](Community_52.md) (3 shared connections)
+- [Community 763](Community_763.md) (3 shared connections)
+- [Community 604](Community_604.md) (3 shared connections)
+- [Community 143](Community_143.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 246](Community_246.md) (2 shared connections)
+- [Community 651](Community_651.md) (1 shared connections)
+- [Community 805](Community_805.md) (1 shared connections)
+- [Community 504](Community_504.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (85%)
-- INFERRED: 9 (15%)
+- EXTRACTED: 51 (93%)
+- INFERRED: 4 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

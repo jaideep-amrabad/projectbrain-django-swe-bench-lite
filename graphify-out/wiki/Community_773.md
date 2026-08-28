@@ -1,45 +1,38 @@
 # Community 773
 
-> 20 nodes · cohesion 0.11
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **LookupTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **YearLteTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_datetime_output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **skipUnless** (4 connections)
-- **.test_birthdate_month()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_basic_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_custom_exact_lookup_none_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_custom_name_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_div3_extract()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_foreignobject_lookup_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_lookups_caching()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_year_lte()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_year_lte_fexpr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **__exact=None is transformed to __isnull=True if a custom lookup class with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_custom_implementation_year_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_postgres_year_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_year_lte_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **ParallelTestSuite** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **DummyList** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.initialize_suite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.append()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Dummy list class for faking storage of results in unittest.TestResult.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Run a series of tests in parallel in several processes. While the unittest…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Distribute test cases across workers. Return an identifier of each test case…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- [Community 168](Community_168.md) (7 shared connections)
-- [Community 252](Community_252.md) (6 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 312](Community_312.md) (1 shared connections)
+- [Community 119](Community_119.md) (4 shared connections)
+- [Community 953](Community_953.md) (1 shared connections)
+- [Community 73](Community_73.md) (1 shared connections)
+- [Community 561](Community_561.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (89%)
-- INFERRED: 4 (11%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

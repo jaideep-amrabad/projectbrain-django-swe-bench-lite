@@ -1,40 +1,42 @@
 # Community 678
 
-> 16 nodes · cohesion 0.15
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **WeekMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_next_week()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **._get_weekday()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_previous_week()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_week()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_week_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Return the start date of the current interval.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **._get_current_week()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **._get_current_day()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **._get_current_year()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Mixin for views manipulating week-based data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get a week format string in strptime syntax to be used to parse the week from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Return the week for which this view should display data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get the next valid week.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get the previous valid week.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Return the weekday for a given date. The first day according to the week format…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **SessionTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout_with_custom_auth_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout_with_custom_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Logout should send user_logged_out signal if user was logged in.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_login_with_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_login_without_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout_with_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout_without_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **The session isn't lost if a user logs in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Logout should work whether the user is logged in or not (#9978).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a logout after logging in with custom authentication backend** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Logout should send signal even if user not authenticated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Login should send user_logged_in signal on successful login.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Login shouldn't send signal if user wasn't logged in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_session_initiated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (7 shared connections)
-- [Community 127](Community_127.md) (4 shared connections)
-- [Community 430](Community_430.md) (2 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 320](Community_320.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 23 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

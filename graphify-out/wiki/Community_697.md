@@ -1,44 +1,40 @@
 # Community 697
 
-> 15 nodes · cohesion 0.23
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **DatabaseCreation** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **DatabaseCreationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **.test_create_test_db_database_exists()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **.test_create_test_db_unexpected_error()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **._clone_test_db()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **.patch_test_db_creation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **.test_clone_test_db_database_exists()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **.test_clone_test_db_options_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **._clone_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **._execute_create_test_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **.sql_table_creation_suffix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **._execute_raise_access_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **._execute_raise_database_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **patch** (2 connections)
-- **skipUnless** (1 connections)
+- **url_has_allowed_host_and_scheme()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **URLHasAllowedHostAndSchemeTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **_urlparse()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **_urlsplit()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **_remove_unsafe_bytes_from_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **.test_allowed_hosts_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_bad_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_basic_auth()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_good_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_no_allowed_hosts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_secure_param_https_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_secure_param_non_https_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **Return ``True`` if the url uses an allowed host and a safe scheme. Always…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **Parse a URL into 6 components:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **Parse a URL into 5 components: <scheme>://<netloc>/<path>?<query>#<fragment>…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 190](Community_190.md) (4 shared connections)
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 220](Community_220.md) (2 shared connections)
-- [Community 64](Community_64.md) (1 shared connections)
-- [Community 418](Community_418.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 59](Community_59.md) (2 shared connections)
+- [Community 53](Community_53.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (82%)
-- INFERRED: 7 (18%)
+- EXTRACTED: 30 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

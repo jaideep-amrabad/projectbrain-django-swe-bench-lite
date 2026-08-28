@@ -1,41 +1,53 @@
 # Community 600
 
-> 18 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **FieldFlagsTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_all_field_types_should_have_flags()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_cardinality_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_cardinality_m2o()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_cardinality_o2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_cardinality_o2o()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_each_field_should_have_a_concrete_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_each_field_should_have_a_has_rel_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_each_field_should_have_an_editable_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_each_object_should_have_auto_created()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_field_names_should_always_be_available()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_hidden_flag()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_model_and_reverse_model_should_equal_on_relations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_non_concrete_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_non_editable_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **.test_related_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **inspectapp/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **ogrinspect()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- **OGRInspectTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **inspectapp/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
+- **get_ogr_db_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **AllOGRFields** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
+- **.test_time_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **Fields3D** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
+- **.test_date_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **.test_management_command()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **.test_mapping_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **.test_poly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **.test_poly_multi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **Helper routine for `ogrinspect` that generates GeoDjango models corresponding…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- **Given a data source (either a string or a DataSource object) and a string model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
+- **Construct the DB string that GDAL will use to inspect the database. GDAL will…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- **# TODO: Support Oracle (OCI).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 188](Community_188.md) (1 shared connections)
+- [Community 51](Community_51.md) (5 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 188](Community_188.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 491](Community_491.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 49 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

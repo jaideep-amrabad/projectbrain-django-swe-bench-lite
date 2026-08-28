@@ -1,39 +1,46 @@
 # Community 665
 
-> 15 nodes · cohesion 0.19
+> 19 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Deserializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._handle_object()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._handle_fk_field_node()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._handle_m2m_field_node()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._make_parser()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **getInnerText()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._get_model_from_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Create a hardened XML parser (no custom/external entities).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Convert an <object> node to a DeserializedObject.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Handle a <field> node for a ForeignKey** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Handle a <field> node for a ManyToManyField.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Look up a model from a <object model=...> or a <field rel=... to=...> node.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Get all the inner text of a DOM node (recursively).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **UUIDPrefetchRelatedLookups** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
+- **Person** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **prefetch_related/test_uuid.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
+- **UUIDPrefetchRelated** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
+- **Flea** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **Pet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **.all_houses()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **.cached_all_houses()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **.primary_house()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **.test_prefetch_related_from_uuid_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
+- **.test_prefetch_related_from_uuid_model_to_uuid_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
+- **.test_prefetch_related_from_uuid_model_to_uuid_model_with_values_flat()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
+- **.test_prefetch_related_to_uuid_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
+- **.test_from_integer_pk_lookup_integer_pk_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
+- **.test_from_integer_pk_lookup_integer_pk_uuid_pk_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
+- **.test_from_integer_pk_lookup_uuid_pk_integer_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
+- **.test_from_uuid_pk_lookup_integer_pk2_uuid_pk2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
+- **.test_from_uuid_pk_lookup_uuid_pk_integer_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 488](Community_488.md) (2 shared connections)
-- [Community 239](Community_239.md) (1 shared connections)
+- [Community 72](Community_72.md) (11 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 268](Community_268.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 30 (73%)
+- INFERRED: 11 (27%)
 - AMBIGUOUS: 0 (0%)
 
 ---

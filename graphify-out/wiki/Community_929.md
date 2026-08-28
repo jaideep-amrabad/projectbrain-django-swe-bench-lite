@@ -1,29 +1,36 @@
 # Community 929
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **MLStripper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.get_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.handle_charref()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.handle_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.handle_entityref()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **HTMLParser** (1 connections)
+- **m2m_intermediary/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
+- **m2m_intermediary/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **M2MIntermediaryTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
+- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **Writer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **.test_intermediary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
+- **Many-to-many relationships via an intermediary table For many-to-many…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
 
 ## Relationships
 
-- [Community 44](Community_44.md) (2 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (81%)
+- INFERRED: 4 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

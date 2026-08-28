@@ -1,63 +1,67 @@
 # Community 63
 
-> 53 nodes · cohesion 0.06
+> 128 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **runtests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **dependency_ordered()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **NullTimeKeeper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **TimeKeeper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.handle()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **ParallelTestSuite** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **get_runner()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **get_unique_databases_and_mirrors()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **setup_databases()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **django_tests()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **DependencyOrderingTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **collect_test_modules()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **setup_collect_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **setup_run_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **DummyList** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **parallel_type()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **get_filtered_test_modules()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **teardown_collect_tests()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- **.run()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **bisect_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **get_label_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **get_subprocess_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- *... and 28 more nodes in this community*
+- **generic_views/views.py** (78 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **test_edit.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **Author** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **Book** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **test_dates.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **test_detail.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- **generic_views/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **Artist** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **DeleteViewTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **UpdateViewTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **test_list.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **AuthorForm** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
+- **TestDataMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **BookSigning** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **BookSigningConfig** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **generic_views/forms.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
+- **Page** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **BookConfig** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **ModelFormMixinTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **CustomContextView** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **DeleteViewCustomDeleteWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **ConfirmDeleteForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
+- **ContactForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
+- **AuthorDeleteFormView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **AuthorList** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- *... and 103 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (18 shared connections)
-- [Community 4](Community_4.md) (9 shared connections)
-- [Community 15](Community_15.md) (6 shared connections)
-- [Community 552](Community_552.md) (4 shared connections)
-- [Community 102](Community_102.md) (4 shared connections)
-- [Community 152](Community_152.md) (3 shared connections)
-- [Community 181](Community_181.md) (2 shared connections)
-- [Community 178](Community_178.md) (2 shared connections)
-- [Community 113](Community_113.md) (2 shared connections)
-- [Community 804](Community_804.md) (2 shared connections)
-- [Community 468](Community_468.md) (1 shared connections)
-- [Community 300](Community_300.md) (1 shared connections)
+- [Community 38](Community_38.md) (12 shared connections)
+- [Community 11](Community_11.md) (12 shared connections)
+- [Community 234](Community_234.md) (10 shared connections)
+- [Community 546](Community_546.md) (8 shared connections)
+- [Community 14](Community_14.md) (7 shared connections)
+- [Community 35](Community_35.md) (6 shared connections)
+- [Community 7](Community_7.md) (6 shared connections)
+- [Community 443](Community_443.md) (5 shared connections)
+- [Community 415](Community_415.md) (5 shared connections)
+- [Community 56](Community_56.md) (5 shared connections)
+- [Community 780](Community_780.md) (4 shared connections)
+- [Community 725](Community_725.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 126 (94%)
-- INFERRED: 8 (6%)
+- EXTRACTED: 289 (80%)
+- INFERRED: 73 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

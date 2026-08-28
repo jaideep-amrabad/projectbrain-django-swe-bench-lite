@@ -1,63 +1,64 @@
 # Community 93
 
-> 54 nodes · cohesion 0.05
+> 67 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **uploadedfile.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **files/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **File** (26 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **files/base.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **UploadedFile** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **temp.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
-- **FileProxyMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
-- **files/utils.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
-- **validate_file_name()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
-- **TemporaryFile** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
-- **.__iter__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **endswith_cr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **endswith_lf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **equals_lf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **.chunks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **SpooledTempTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **.multiple_chunks()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **Return True if line (a text or bytestring) ends with '\r'.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
-- **.__del__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
-- **._set_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **.test_unicode_uploadedfile_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- *... and 29 more nodes in this community*
+- **middleware_exceptions/middleware.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **utils/decorators.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **BaseMiddleware** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **decorators/csrf.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **utils_tests/test_decorators.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **async_only_middleware()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **decorator_from_middleware()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **decorator_from_middleware_with_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **sync_and_async_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **sync_only_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **decorators/gzip.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
+- **AsyncNoTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **AsyncProcessExceptionMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **AsyncProcessViewMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **AsyncTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NotSyncOrAsyncMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **PaymentMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **make_middleware_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **_multi_decorate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **async_payment_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **DecoratedPaymentMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **LogMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NoTemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NotFoundMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessExceptionExcMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- *... and 42 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (21 shared connections)
-- [Community 4](Community_4.md) (8 shared connections)
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 14](Community_14.md) (6 shared connections)
-- [Community 212](Community_212.md) (5 shared connections)
-- [Community 349](Community_349.md) (5 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 213](Community_213.md) (4 shared connections)
-- [Community 151](Community_151.md) (4 shared connections)
-- [Community 187](Community_187.md) (4 shared connections)
-- [Community 544](Community_544.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 23](Community_23.md) (14 shared connections)
+- [Community 11](Community_11.md) (9 shared connections)
+- [Community 112](Community_112.md) (5 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 498](Community_498.md) (4 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 130](Community_130.md) (3 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 84](Community_84.md) (2 shared connections)
+- [Community 59](Community_59.md) (2 shared connections)
+- [Community 349](Community_349.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 157 (97%)
-- INFERRED: 5 (3%)
+- EXTRACTED: 169 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

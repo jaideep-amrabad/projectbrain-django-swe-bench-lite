@@ -1,77 +1,57 @@
 # Community 407
 
-> 134 nodes · cohesion 0.02
+> 28 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **state.py** (51 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **test_writer.py** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **migrations/test_commands.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **version.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **MigrationTestBase** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **test_autodetector.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **migrations/test_state.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **get_docs_version()** (31 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **migrations/test_base.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **Migration** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **OperationTestBase** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **migrations/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **get_version()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **FoodManager** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **migrations/test_multidb.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **deconstruct.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
-- **FoodQuerySet** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **UnicodeModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **DatabaseValidation** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/validation.py`
-- **InvalidBasesError** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **test_parallel.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **version/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
-- **mysql/validation.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/validation.py`
-- **get_complete_version()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- **migrations/test_deprecated_fields.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
-- *... and 109 more nodes in this community*
+- **CaseInsensitiveMapping** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **CaseInsensitiveMappingTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **._unpack_items()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_create_with_invalid_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_create_with_invalid_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **Mapping** (1 connections)
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **Return current object as a dict with singular values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **Mapping allowing case-insensitive key lookups. Original case of keys is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.test_copy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_del()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_getitem()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (45 shared connections)
-- [Community 5](Community_5.md) (35 shared connections)
-- [Community 4](Community_4.md) (26 shared connections)
-- [Community 6](Community_6.md) (19 shared connections)
-- [Community 74](Community_74.md) (17 shared connections)
-- [Community 12](Community_12.md) (16 shared connections)
-- [Community 15](Community_15.md) (14 shared connections)
-- [Community 162](Community_162.md) (13 shared connections)
-- [Community 17](Community_17.md) (10 shared connections)
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 359](Community_359.md) (7 shared connections)
-- [Community 31](Community_31.md) (7 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 226](Community_226.md) (3 shared connections)
+- [Community 366](Community_366.md) (2 shared connections)
+- [Community 807](Community_807.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 918](Community_918.md) (1 shared connections)
+- [Community 974](Community_974.md) (1 shared connections)
+- [Community 644](Community_644.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/validation.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/version.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- `raw/code/hyd-evaluation/django-django/tests/version/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 544 (95%)
-- INFERRED: 30 (5%)
+- EXTRACTED: 46 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

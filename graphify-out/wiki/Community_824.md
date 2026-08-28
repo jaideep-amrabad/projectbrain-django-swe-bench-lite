@@ -1,43 +1,36 @@
 # Community 824
 
-> 10 nodes · cohesion 0.22
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **SettingsReference** (12 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.deconstruct()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **str** (1 connections)
-- **String subclass which references a current settings value. It's treated as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **CaptureOnCommitCallbacksTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.enqueue_callback()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_different_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_execute_tree()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_no_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_pre_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_with_rolled_back_savepoint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_execute_recursive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_execute_robust()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **A visualisation of the callback tree tested. Each node is expected to be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 136](Community_136.md) (1 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 407](Community_407.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 421](Community_421.md) (1 shared connections)
-- [Community 450](Community_450.md) (1 shared connections)
-- [Community 391](Community_391.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 451](Community_451.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

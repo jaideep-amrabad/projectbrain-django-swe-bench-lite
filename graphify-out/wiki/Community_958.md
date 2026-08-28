@@ -1,29 +1,33 @@
 # Community 958
 
-> 7 nodes · cohesion 0.48
+> 8 nodes · cohesion 0.54
 
 ## Key Concepts
 
-- **NoDatabaseTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
-- **databases/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
-- **AllDatabasesTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
-- **DefaultDatabaseSerializedTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
-- **DefaultDatabaseTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
-- **OtherDatabaseTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
-- **.test_nothing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **ConnectionHealthChecksTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.patch_settings_dict()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.run_query()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_health_checks_disabled()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_health_checks_enabled()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_health_checks_enabled_errors_occurred()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.test_set_autocommit_health_checks_enabled()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 21](Community_21.md) (4 shared connections)
+- [Community 79](Community_79.md) (4 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (84%)
+- INFERRED: 4 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

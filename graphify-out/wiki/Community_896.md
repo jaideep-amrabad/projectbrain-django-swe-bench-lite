@@ -1,32 +1,31 @@
 # Community 896
 
-> 9 nodes · cohesion 0.28
+> 10 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **BaseBackend** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **SimpleBackend** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.get_all_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **.get_group_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **.get_user_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **.authenticate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **.get_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **.get_group_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.get_user_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **TestRss2FeedWithDecoratedMethod** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **wraps_decorator()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TimeToLive** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.description()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.feed_copyright()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_title()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.title()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.categories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 246](Community_246.md) (2 shared connections)
+- [Community 148](Community_148.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

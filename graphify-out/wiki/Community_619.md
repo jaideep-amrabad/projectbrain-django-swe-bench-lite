@@ -1,46 +1,45 @@
 # Community 619
 
-> 17 nodes · cohesion 0.18
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **datetimes/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **DateTimesTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **datetimes/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.test_datetimes_ambiguous_and_invalid_times()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.test_21432()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_has_lazy_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_returns_available_dates_for_given_scope_and_given_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.test_datetimes_disallows_date_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_fails_when_given_invalid_kind_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_fails_when_given_invalid_order_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **skipUnless** (1 connections)
+- **DefaultRelatedNameTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- **default_related_name.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
+- **test_default_related_name.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- **Store** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
+- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
+- **EditorStore** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
+- **Author** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
+- **BookStore** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
+- **Editor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- **.test_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- **.test_default_related_name_in_queryset_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- **.test_inheritance_with_overridden_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- **.test_model_name_not_available_in_queryset_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- **.test_no_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- **.test_related_name_overrides_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 113](Community_113.md) (4 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 312](Community_312.md) (1 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (90%)
-- INFERRED: 4 (10%)
+- EXTRACTED: 31 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

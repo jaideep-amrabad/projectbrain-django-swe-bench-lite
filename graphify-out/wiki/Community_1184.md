@@ -1,20 +1,20 @@
 # Community 1184
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_inheritance16()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **A block within another block (level 2)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **urlify.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
+- **downcode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
+- **URLify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
 
 ## Relationships
 
-- [Community 847](Community_847.md) (1 shared connections)
-- [Community 846](Community_846.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
 
 ## Audit Trail
 

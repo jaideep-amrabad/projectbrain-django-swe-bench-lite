@@ -1,62 +1,62 @@
 # Community 288
 
-> 36 nodes · cohesion 0.10
+> 74 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **timesince()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **TimesinceTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **timeuntil()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **utils_tests/test_timesince.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **timesince.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- **is_aware()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **avoid_wrapping()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.test_different_timezones()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_date_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_both_date_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_depth()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_display_first_unit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_display_second_before_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_ignore_microseconds_and_seconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_leap_year()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_leap_year_new_years_eve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_naive_datetime_with_tzinfo_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_second_before_equal_first_humanize_time_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_thousand_years_ago()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_depth_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_equal_datetimes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_multiple_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **.test_other_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
-- **Avoid text wrapping in the middle of a phrase by adding non-breaking spaces…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **Take two datetime objects and return the time between d and now as a nicely…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- *... and 11 more nodes in this community*
+- **Client** (36 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **PasswordResetTest** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **._test_confirm_start()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **._handle_redirects()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **CustomUserPasswordResetTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **UUIDUserPasswordResetTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_invalid_uuid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **nested_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- **.delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.head()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.patch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.post()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.put()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.trace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._read_signup_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_custom_reset_url_token_link_redirects_to_set_password_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_different_passwords()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_invalid_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_link_redirects_to_set_password_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_login_post_reset_already_logged_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_login_post_reset_custom_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_invalid_link_if_going_directly_to_the_final_reset_password_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_poisoned_http_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- *... and 49 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (7 shared connections)
-- [Community 4](Community_4.md) (7 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 925](Community_925.md) (3 shared connections)
-- [Community 44](Community_44.md) (2 shared connections)
-- [Community 312](Community_312.md) (2 shared connections)
-- [Community 1039](Community_1039.md) (1 shared connections)
-- [Community 977](Community_977.md) (1 shared connections)
-- [Community 799](Community_799.md) (1 shared connections)
-- [Community 333](Community_333.md) (1 shared connections)
-- [Community 183](Community_183.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
+- [Community 4](Community_4.md) (9 shared connections)
+- [Community 59](Community_59.md) (6 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 71](Community_71.md) (4 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 110](Community_110.md) (2 shared connections)
+- [Community 195](Community_195.md) (2 shared connections)
+- [Community 358](Community_358.md) (2 shared connections)
+- [Community 399](Community_399.md) (1 shared connections)
+- [Community 585](Community_585.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 143 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,23 +1,26 @@
 # Community 1205
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_follow_relative_redirect_no_trailing_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A URL with a relative redirect with no trailing slash can be followed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **CallableLastmodFullSitemap** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **.lastmod()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **All items have `lastmod`.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
 
 ## Relationships
 
-- [Community 500](Community_500.md) (1 shared connections)
+- [Community 571](Community_571.md) (1 shared connections)
+- [Community 548](Community_548.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

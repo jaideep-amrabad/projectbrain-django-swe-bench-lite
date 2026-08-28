@@ -1,61 +1,78 @@
 # Community 53
 
-> 137 nodes · cohesion 0.02
+> 267 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **FormsFormsetTestCase** (77 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **formset_factory()** (66 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **ChoiceFormSet** (30 connections)
-- **get_default_renderer()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.make_choiceformset()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **all_valid()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **DeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_no_management_form_warning()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **TestEmptyFormSet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_invalid()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_warning()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_custom_renderer()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **AllValidTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_valid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_displaying_more_than_one_blank_form()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_empty_ordered_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_splitdatetimefield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_validate_max_flag()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_validate_min_flag()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_validate_min_unchanged_forms()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_with_deletion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_with_ordering_and_deletion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formsets_with_ordering()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_hard_limit_on_instantiated_forms()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_increase_hard_limit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- *... and 112 more nodes in this community*
+- **i18n/tests.py** (87 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **get_language()** (41 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **formats.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **views/i18n.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **FormattingTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **SafeString** (27 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
+- **get_format()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **humanize.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/humanize.py`
+- **TranslationTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **activate()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **localize()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **ngettext()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **test_percents.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **date_format()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **JavaScriptCatalog** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **date()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **deactivate()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **ngettext_lazy()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **translate_url()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **number_format()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **watch_for_translation_changes()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
+- **.test_l10n_disabled()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **NowTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
+- **MinimumLengthValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **time_format()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- *... and 242 more nodes in this community*
 
 ## Relationships
 
-- [Community 297](Community_297.md) (11 shared connections)
-- [Community 46](Community_46.md) (6 shared connections)
-- [Community 273](Community_273.md) (4 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 264](Community_264.md) (3 shared connections)
-- [Community 150](Community_150.md) (3 shared connections)
-- [Community 216](Community_216.md) (2 shared connections)
-- [Community 44](Community_44.md) (2 shared connections)
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 230](Community_230.md) (1 shared connections)
+- [Community 11](Community_11.md) (56 shared connections)
+- [Community 10](Community_10.md) (53 shared connections)
+- [Community 19](Community_19.md) (19 shared connections)
+- [Community 7](Community_7.md) (19 shared connections)
+- [Community 142](Community_142.md) (16 shared connections)
+- [Community 1](Community_1.md) (15 shared connections)
+- [Community 18](Community_18.md) (9 shared connections)
+- [Community 60](Community_60.md) (9 shared connections)
+- [Community 50](Community_50.md) (8 shared connections)
+- [Community 94](Community_94.md) (8 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/humanize.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/numberformat.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
+- `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
 
 ## Audit Trail
 
-- EXTRACTED: 266 (96%)
-- INFERRED: 10 (4%)
+- EXTRACTED: 789 (96%)
+- INFERRED: 30 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

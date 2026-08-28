@@ -1,60 +1,66 @@
 # Community 164
 
-> 106 nodes · cohesion 0.03
+> 62 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **GenericRelationsTests** (62 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **generic_relations/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **generic_relations/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **TaggedItem** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **ProxyRelatedModelTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **ForProxyModelModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **Mineral** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **Comparison** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **ProxyRelatedModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **Vegetable** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **AllowsNullGFK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **ConcreteRelatedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **ForConcreteModelModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **Gecko** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **Rock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **ValuableRock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **TestInitWithNoneArgument** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **Carrot** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **ManualPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **ValuableTaggedItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **.test_unsaved_generic_foreign_key_parent_bulk_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **AbstractComparison** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **TaggedItemForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **.test_assign_content_object_in_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **.test_unsaved_generic_foreign_key_parent_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- *... and 81 more nodes in this community*
+- **Cast** (68 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **CastTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **JSONObject** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **Now** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **.as_sql()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **JSONObjectTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_json_object.py`
+- **NullIf** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **NullIfTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
+- **.test_expression_wrapped_with_parentheses_on_postgresql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.as_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **.test_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_json_object.py`
+- **.test_cast_to_char_field_with_max_length()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_null_literal()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
+- **NowTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_now.py`
+- **.test_microseconds()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_now.py`
+- **.as_oracle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.test_aggregation_default_using_duration_from_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
+- **.test_cast_to_decimal_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_textfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_json_object.py`
+- **.test_null_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
+- **.test_join_key_transform_annotation_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_key_transform_annotation_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_nested_key_transform_annotation_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.as_mysql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.as_oracle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [Community 110](Community_110.md) (13 shared connections)
-- [Community 4](Community_4.md) (13 shared connections)
-- [Community 125](Community_125.md) (8 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 72](Community_72.md) (2 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 12](Community_12.md) (20 shared connections)
+- [Community 34](Community_34.md) (7 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 16](Community_16.md) (6 shared connections)
+- [Community 9](Community_9.md) (6 shared connections)
+- [Community 83](Community_83.md) (5 shared connections)
+- [Community 57](Community_57.md) (4 shared connections)
+- [Community 32](Community_32.md) (4 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 35](Community_35.md) (4 shared connections)
+- [Community 240](Community_240.md) (3 shared connections)
+- [Community 21](Community_21.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_json_object.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_now.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 175 (84%)
-- INFERRED: 34 (16%)
+- EXTRACTED: 186 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

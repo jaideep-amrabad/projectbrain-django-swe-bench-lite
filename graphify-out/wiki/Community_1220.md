@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_permanent_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **GET a URL that redirects permanently elsewhere** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.get_db_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return a list of functions needed to convert field data. Some field types on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 500](Community_500.md) (1 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 

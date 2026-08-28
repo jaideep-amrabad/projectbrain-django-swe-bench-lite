@@ -1,33 +1,31 @@
 # Community 1087
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **ExplainTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **.test_invalid_option_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **.test_option_sql_injection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **.test_unknown_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **.test_unknown_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
+- **SkippingTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_skip_if_db_feature()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_skip_unless_db_feature()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **._assert_skipping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Testing the django.test.skipIfDBFeature decorator.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Testing the django.test.skipUnlessDBFeature decorator.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 190](Community_190.md) (3 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 - [Community 21](Community_21.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 79](Community_79.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (85%)
-- INFERRED: 2 (15%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

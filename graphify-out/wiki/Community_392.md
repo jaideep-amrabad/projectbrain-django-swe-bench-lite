@@ -1,59 +1,63 @@
 # Community 392
 
-> 29 nodes · cohesion 0.10
+> 36 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Media** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **stable_topological_sort()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **CyclicDependencyError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **topological_sort_as_sets()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **test_topological_sort.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **.merge()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **topological_sort.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **.absolute_path()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **TopologicalSortTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **.media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.render_css()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.render_js()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._get_media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **._css()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._js()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_cyclic_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **Return all media required to render the widgets on this form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.__add__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Given a relative or absolute path to a static asset, return an absolute path.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Return a Media object that only contains media of the given type.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- *... and 4 more nodes in this community*
+- **Lower** (81 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **IndexesTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **LowerTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- **.test_func_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_eq_with_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_repr_with_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_new_object_create()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_func_unique_constraint_pointing_to_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_unique_constraint_pointing_to_non_local_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_index_complex_expression_custom_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_index_pointing_to_m2m_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_index_pointing_to_missing_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_func_index_required_db_features()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_include_pointing_to_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_include_pointing_to_m2m_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_include_pointing_to_missing_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_with_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_index_with_include()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_deconstruction_with_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_deferrable_with_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_expressions_and_fields_mutually_exclusive()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_expressions_with_opclasses()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- **.test_num_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 44](Community_44.md) (5 shared connections)
-- [Community 46](Community_46.md) (5 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 230](Community_230.md) (1 shared connections)
-- [Community 492](Community_492.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 98](Community_98.md) (24 shared connections)
+- [Community 12](Community_12.md) (13 shared connections)
+- [Community 108](Community_108.md) (9 shared connections)
+- [Community 324](Community_324.md) (6 shared connections)
+- [Community 21](Community_21.md) (6 shared connections)
+- [Community 88](Community_88.md) (5 shared connections)
+- [Community 9](Community_9.md) (4 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 134](Community_134.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
+- [Community 267](Community_267.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_lower.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 150 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

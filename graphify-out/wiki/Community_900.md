@@ -1,39 +1,31 @@
 # Community 900
 
-> 9 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **._order_by_pairs()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.find_ordering_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.get_distinct()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **get_order_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **._setup_joins()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Return the table alias (the name might be ambiguous, the alias will not be) and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Helper method for get_order_by() and get_distinct(). get_ordering() and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Return a quoted list of fields to use in DISTINCT ON part of the query. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Return the field name and direction for an order specification. For example,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **FilterTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **setup** (8 connections)
+- **.test_filter01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter05bis()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter06bis()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
 
 ## Relationships
 
-- [Community 668](Community_668.md) (4 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 105](Community_105.md) (3 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 764](Community_764.md) (2 shared connections)
-- [Community 194](Community_194.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

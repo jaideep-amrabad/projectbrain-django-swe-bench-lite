@@ -1,55 +1,60 @@
 # Community 451
 
-> 25 nodes · cohesion 0.10
+> 36 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **RelatedField** (30 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.check()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_clashes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.related_query_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_related_query_name_is_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_limit_choices_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.swappable_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_referencing_to_swapped_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_related_name_is_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_relation_model_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_forward_related_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.target_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **Field** (1 connections)
-- **Check accessor and reverse query name clashes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **Return the keyword arguments that when supplied to self.model.object.filter(),…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **Get the setting that this is powered from for swapping, or None if it's not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **Return ``limit_choices_to`` for this model field. If it is a callable, it will…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **Define the name that can be used to identify this related object in a table-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **When filtering against this relation, return the field on the remote model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **Base class that all relational fields inherit from.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_cache_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.related_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.set_attributes_from_rel()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **learn_cache_key()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **get_cache_key()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **CacheUtils** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **CacheI18nTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **TestWithTemplateResponse** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **_generate_cache_header_key()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **_generate_cache_key()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **_i18n_cache_key_suffix()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- **.check_accept_language_vary()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_key_i18n_timezone()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_key_i18n_translation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_key_i18n_translation_accept_language()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_key_varies_by_url()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_cache_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_cache_key_with_query()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_key_no_i18n()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_cache_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_cache_key_with_query()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_learn_cache_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_patch_vary_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.process_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- **.test_patch_vary_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **PrefixedCacheI18nTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **PrefixedCacheUtils** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Check whether the page is already cached and return the cached version if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 14](Community_14.md) (6 shared connections)
-- [Community 391](Community_391.md) (3 shared connections)
-- [Community 421](Community_421.md) (1 shared connections)
-- [Community 450](Community_450.md) (1 shared connections)
-- [Community 824](Community_824.md) (1 shared connections)
-- [Community 1044](Community_1044.md) (1 shared connections)
-- [Community 966](Community_966.md) (1 shared connections)
-- [Community 1001](Community_1001.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
+- [Community 1](Community_1.md) (11 shared connections)
+- [Community 23](Community_23.md) (10 shared connections)
+- [Community 7](Community_7.md) (9 shared connections)
+- [Community 46](Community_46.md) (7 shared connections)
+- [Community 349](Community_349.md) (5 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 75](Community_75.md) (3 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 643](Community_643.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/cache.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 109 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

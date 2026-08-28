@@ -1,78 +1,78 @@
 # Community 58
 
-> 137 nodes · cohesion 0.02
+> 73 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **django/forms/__init__.py** (125 connections) — `raw/code/hyd-evaluation/django-django/django/forms/__init__.py`
-- **WidgetTest** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
-- **widget_tests/base.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
-- **FormFieldAssertionsMixin** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
-- **field_tests/__init__.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
-- **field_tests/test_durationfield.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
-- **field_tests/test_imagefield.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **URLFieldTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **test_datetimeinput.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- **MultipleHiddenInputTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
-- **test_choicefield.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
-- **DurationFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
-- **RadioSelectTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- **EmailFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
-- **field_tests/test_timefield.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_timefield.py`
-- **test_multiwidget.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **test_select.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
-- **TextareaTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textarea.py`
-- **field_tests/test_charfield.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **test_emailfield.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
-- **field_tests/test_integerfield.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- **NullBooleanFieldTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
-- **test_urlfield.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **test_checkboxselectmultiple.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **DateInputTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
-- *... and 112 more nodes in this community*
+- **ignore_warnings** (129 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **RemovedInDjango51Warning** (42 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **SitemapTestsBase** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- **sitemaps_tests/base.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- **geoadmin_deprecated/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
+- **datetimes/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **test_generic.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **TestModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **citext.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **sitemaps_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **CIText** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **geoadmin_deprecated/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/models.py`
+- **invalid_models_tests/test_deprecated_fields.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- **test_use_l10n.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
+- **DeprecatedFieldsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- **test_https.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **CICharField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CIEmailField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CITextField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **datetimes/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/models.py`
+- **DeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
+- **.test_postgres_ci_fields_deprecated()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **I18nTestModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (41 shared connections)
-- [Community 4](Community_4.md) (22 shared connections)
-- [Community 46](Community_46.md) (21 shared connections)
-- [Community 55](Community_55.md) (17 shared connections)
-- [Community 3](Community_3.md) (14 shared connections)
-- [Community 312](Community_312.md) (13 shared connections)
-- [Community 107](Community_107.md) (12 shared connections)
-- [Community 213](Community_213.md) (10 shared connections)
-- [Community 15](Community_15.md) (9 shared connections)
-- [Community 109](Community_109.md) (7 shared connections)
-- [Community 52](Community_52.md) (6 shared connections)
-- [Community 273](Community_273.md) (6 shared connections)
+- [Community 11](Community_11.md) (26 shared connections)
+- [Community 4](Community_4.md) (17 shared connections)
+- [Community 1](Community_1.md) (15 shared connections)
+- [Community 12](Community_12.md) (11 shared connections)
+- [Community 52](Community_52.md) (11 shared connections)
+- [Community 124](Community_124.md) (11 shared connections)
+- [Community 7](Community_7.md) (11 shared connections)
+- [Community 10](Community_10.md) (11 shared connections)
+- [Community 20](Community_20.md) (9 shared connections)
+- [Community 298](Community_298.md) (9 shared connections)
+- [Community 28](Community_28.md) (8 shared connections)
+- [Community 18](Community_18.md) (8 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_slugfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_timefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_fileinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_hiddeninput.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 476 (98%)
-- INFERRED: 9 (2%)
+- EXTRACTED: 341 (90%)
+- INFERRED: 40 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

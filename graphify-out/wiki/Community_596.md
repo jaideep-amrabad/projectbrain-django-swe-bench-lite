@@ -1,69 +1,64 @@
 # Community 596
 
-> 111 nodes · cohesion 0.02
+> 29 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **RequestFactory** (92 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **SimpleLazyObject** (53 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **ASGIRequest** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **parse_cookie()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/http/cookie.py`
-- **.generic()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **AsyncRequestFactory** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **CookieTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **ClientMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **AsyncClient** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.request()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **test_api.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **postgres/utils.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/utils.py`
-- **.request()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **ViewTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **._encode_json()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.generic()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **RequestFactoryEnvironmentTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.login()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.logout()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **._base_environ()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.post()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **store_rendered_templates()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.test_authenticate_sensitive_variables()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **._base_scope()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- *... and 86 more nodes in this community*
+- **admin_views/test_forms.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- **AdminForm** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **AdminAuthenticationForm** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- **AdminHistoryViewTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **ArticleForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **AdminAuthenticationFormTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- **State** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **AdminFormTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **StateAdminForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **FieldOverridePostForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- **.test_changed_message_uses_form_labels()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **.confirm_login_allowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- **StoryForm** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.test_inactive_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- **A custom authentication form used in the admin app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- **.errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **.fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **.is_bound()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **.media()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **.non_field_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **.changed_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (32 shared connections)
-- [Community 1](Community_1.md) (13 shared connections)
-- [Community 0](Community_0.md) (12 shared connections)
-- [Community 13](Community_13.md) (12 shared connections)
-- [Community 10](Community_10.md) (6 shared connections)
-- [Community 89](Community_89.md) (6 shared connections)
-- [Community 98](Community_98.md) (6 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 59](Community_59.md) (5 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 851](Community_851.md) (4 shared connections)
-- [Community 138](Community_138.md) (4 shared connections)
+- [Community 69](Community_69.md) (9 shared connections)
+- [Community 11](Community_11.md) (7 shared connections)
+- [Community 60](Community_60.md) (4 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 393](Community_393.md) (1 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
+- [Community 191](Community_191.md) (1 shared connections)
+- [Community 176](Community_176.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- `raw/code/hyd-evaluation/django-django/django/http/cookie.py`
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
 
 ## Audit Trail
 
-- EXTRACTED: 315 (94%)
-- INFERRED: 20 (6%)
+- EXTRACTED: 61 (86%)
+- INFERRED: 10 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

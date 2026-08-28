@@ -1,45 +1,43 @@
 # Community 583
 
-> 19 nodes · cohesion 0.16
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **FormatStylePlaceholderCursor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.executemany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.execute()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **OracleParam** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **wrap_oracle_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._fix_for_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._format_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._guess_input_sizes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._output_type_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._param_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._commit()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._get_decimal_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._output_number_converter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Wrapper object for formatting parameters for Oracle. If the string…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Django uses "format" (e.g. '%s') style placeholders, but Oracle uses ":var"…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Called for each db column fetched from cursors. Return numbers as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **BasicTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_swappable_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_swappable_user_bad_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_swappable_user_nonexistent_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_get_user_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_superuser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_user_no_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_user_verbose_names_translatable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_superuser_no_email_or_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_unicode_username()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **The current user model must point to an installed model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **Default User model verbose names are translatable (#19945)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **Users can be created and can set their password** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **Users can be created without an email** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **Check the creation and properties of a superuser** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **The current user model can be retrieved** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **The current user model can be swapped out for another** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **The alternate user setting must point to something in the format app.model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 610](Community_610.md) (3 shared connections)
-- [Community 897](Community_897.md) (2 shared connections)
-- [Community 75](Community_75.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 4](Community_4.md) (5 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 27 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,58 +1,57 @@
 # Community 331
 
-> 53 nodes · cohesion 0.05
+> 35 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **QuerySetSetOperationTests** (60 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.assertNumbersEqual()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **ReservedName** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_union_in_subquery()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_union_in_subquery_related_outerref()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_order_raises_on_non_selected_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_ordering_by_f_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_ordering_subqueries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_simple_difference()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_simple_intersection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_union_in_with_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_union_in_with_ordering_and_slice()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_union_with_two_annotated_values_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_union_with_values_list_and_order_on_annotation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_count_difference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_count_intersection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_difference_with_empty_qs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_difference_with_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_exists_difference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_exists_intersection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_get_difference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_get_intersection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_intersection_with_empty_qs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_intersection_with_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **.test_order_by_same_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- *... and 28 more nodes in this community*
+- **must_be()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **ModelAdminChecks** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **.check()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_date_hierarchy()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_inlines()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_inlines_item()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display_links()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_editable()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_max_show_all()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_per_page()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_select_related()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_save_as()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_save_on_top()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_search_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_action_permission_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_actions_uniqueness()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_editable_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display_links_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that list_select_related is a boolean, a list or a tuple.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that list_per_page is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that list_max_show_all is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that list_editable is a sequence of editable fields from list_display…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 21](Community_21.md) (17 shared connections)
-- [Community 26](Community_26.md) (7 shared connections)
-- [Community 79](Community_79.md) (5 shared connections)
-- [Community 28](Community_28.md) (5 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 34](Community_34.md) (3 shared connections)
-- [Community 515](Community_515.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
-- [Community 354](Community_354.md) (1 shared connections)
+- [Community 374](Community_374.md) (10 shared connections)
+- [Community 753](Community_753.md) (5 shared connections)
+- [Community 683](Community_683.md) (4 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 983](Community_983.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 1137](Community_1137.md) (2 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
+- [Community 1042](Community_1042.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 104 (95%)
-- INFERRED: 6 (5%)
+- EXTRACTED: 93 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

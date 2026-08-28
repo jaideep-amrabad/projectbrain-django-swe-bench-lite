@@ -1,47 +1,57 @@
 # Community 589
 
-> 18 nodes · cohesion 0.16
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **get_object_or_404/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
-- **get_list_or_404()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- **get_object_or_404/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- **GetObjectOr404Tests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
-- **.test_get_object_or_404()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
-- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- **.test_bad_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
-- **.test_get_list_or_404_queryset_attribute_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
-- **.test_get_object_or_404_queryset_attribute_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
-- **ArticleManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- **AttributeErrorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- **Use filter() to return a list of objects, or raise an Http404 exception if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- **DB-API Shortcuts ``get_object_or_404()`` is a shortcut function to be used in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- **AttributeError raised by QuerySet.get() isn't hidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
-- **AttributeError raised by QuerySet.filter() isn't hidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **HttpResponseNotAllowed** (18 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **HttpResponseSubclassesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **require_http_methods()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- **.test_redirect_lazy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.test_invalid_redirect_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_not_allowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_not_allowed_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_not_allowed_repr_no_content_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_not_modified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_not_modified_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_redirect_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **Decorator to make a view only accept particular request methods. Usage::…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- **Make sure HttpResponseRedirect works with lazy strings.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **If HttpResponseRedirect raises DisallowedRedirect, its __repr__() should work…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (7 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 1](Community_1.md) (9 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 201](Community_201.md) (2 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 349](Community_349.md) (2 shared connections)
+- [Community 130](Community_130.md) (2 shared connections)
+- [Community 181](Community_181.md) (1 shared connections)
+- [Community 110](Community_110.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 52 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

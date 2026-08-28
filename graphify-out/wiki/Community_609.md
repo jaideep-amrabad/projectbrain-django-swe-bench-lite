@@ -1,43 +1,50 @@
 # Community 609
 
-> 17 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Team** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **TeamField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_custom_field_serialization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.last_executed_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Player** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Return a string of the query last executed by the given cursor, with…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.get_db_prep_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Custom fields serialize and deserialize intact** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **urlencode()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **URLEncodeTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_multivaluedict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_custom_iterable_not_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_dict_containing_empty_sequence_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_dict_containing_sequence_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_dict_containing_sequence_not_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_dict_containing_tuple_not_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_dict_with_bytearray()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_dict_with_bytes_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_dict_with_sequence_of_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_generator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_none_in_generator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_none_in_sequence()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_tuples()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **A version of Python's urllib.parse.urlencode() function that can operate on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
 
 ## Relationships
 
-- [Community 464](Community_464.md) (3 shared connections)
-- [Community 327](Community_327.md) (1 shared connections)
-- [Community 379](Community_379.md) (1 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 43](Community_43.md) (2 shared connections)
+- [Community 195](Community_195.md) (2 shared connections)
+- [Community 568](Community_568.md) (1 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 226](Community_226.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (86%)
-- INFERRED: 3 (14%)
+- EXTRACTED: 48 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

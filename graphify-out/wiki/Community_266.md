@@ -1,47 +1,60 @@
 # Community 266
 
-> 23 nodes · cohesion 0.09
+> 43 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Literal** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **TokenBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **TemplateLiteral** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **TemplateIfParser** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **EndToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.create_var()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **.display()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **.display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **.eval()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **.nud()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.eval()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.nud()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **A basic self-resolvable object similar to a Django template variable.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **Base class for operators and literals, mainly for debugging and for throwing…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **Return what to display in error messages for this node** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.led()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.nud()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **serializer.py** (50 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **BaseSerializer** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **RangeSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- **postgres/serializers.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- **BaseSimpleSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DatetimeDatetimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DateTimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **TypeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **ChoicesSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DecimalSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DictionarySerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **EnumSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FloatSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FunctionTypeSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FunctoolsPartialSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **IterableSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **PathLikeSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **PathSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **RegexSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **SettingsReferenceSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **UUIDSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 563](Community_563.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
+- [Community 915](Community_915.md) (11 shared connections)
+- [Community 8](Community_8.md) (6 shared connections)
+- [Community 840](Community_840.md) (6 shared connections)
+- [Community 97](Community_97.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 607](Community_607.md) (3 shared connections)
+- [Community 280](Community_280.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 867](Community_867.md) (1 shared connections)
+- [Community 1189](Community_1189.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 105 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

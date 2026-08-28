@@ -4,27 +4,27 @@
 
 ## Key Concepts
 
-- **TestRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
-- **migrations/routers.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
-- **DefaultOtherRouter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
-- **.allow_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
-- **The Tribble model should be the only one to appear in the 'other' db.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **YamlSerializerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **skipUnless** (2 connections)
+- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.test_yaml_deserializer_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
 
 ## Relationships
 
-- [Community 407](Community_407.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 202](Community_202.md) (1 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 372](Community_372.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (78%)
-- INFERRED: 2 (22%)
+- EXTRACTED: 9 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

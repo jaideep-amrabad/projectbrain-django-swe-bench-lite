@@ -1,59 +1,64 @@
 # Community 70
 
-> 34 nodes · cohesion 0.11
+> 54 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **delete/tests.py** (48 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **delete/models.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **RChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericB2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **R** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **DeleteTop** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericB1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericDeleteBottom** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Origin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **RChildChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Referrer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **DeleteBottom** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **get_default_r()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **HiddenUser** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **HiddenUserProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **M2MFrom** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **M2MTo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **MR** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- *... and 9 more nodes in this community*
+- **RegexPattern** (26 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **LocaleRegexDescriptorTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
+- **RoutePattern** (11 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **AssertionError** (6 connections)
+- **._check_pattern_startswith_slash()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **_route_to_regex()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **CheckURLMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **LocaleRegexDescriptor** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **NoURLPatternsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_no_urls_exception()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **ReverseLazySettingsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **_load_all_namespaces()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- **.describe()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **._check_include_trailing_dollar()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **._compile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.url_patterns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **0002_rename_foo.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/operations_migrations/0002_rename_foo.py`
+- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **RegexPatternTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **RoutePatternTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **.__get__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **LocaleRegexDescriptorPathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
+- **.test_nontranslated_regex_compiled_once()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Community 449](Community_449.md) (19 shared connections)
-- [Community 983](Community_983.md) (17 shared connections)
-- [Community 727](Community_727.md) (10 shared connections)
-- [Community 110](Community_110.md) (7 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 419](Community_419.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 11](Community_11.md) (15 shared connections)
+- [Community 269](Community_269.md) (6 shared connections)
+- [Community 44](Community_44.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 10](Community_10.md) (4 shared connections)
+- [Community 267](Community_267.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 313](Community_313.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 161](Community_161.md) (1 shared connections)
+- [Community 119](Community_119.md) (1 shared connections)
+- [Community 285](Community_285.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/operations_migrations/0002_rename_foo.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (73%)
-- INFERRED: 36 (27%)
+- EXTRACTED: 103 (87%)
+- INFERRED: 15 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,41 +1,45 @@
 # Community 603
 
-> 18 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **natural.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalKeyThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalPKWithDefault** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **FKAsPKNoNaturalKey** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **FKAsPKNoNaturalKeyManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalKeyAnchor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalKeyAnchorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **FKDataNaturalKey** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **Models for test_natural.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.validate_thread_sharing()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.validate_no_atomic_block()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._rollback()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._close()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._commit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._savepoint()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._savepoint_allowed()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._savepoint_commit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._savepoint_rollback()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._rollback()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **Commit a transaction and reset the dirty flag.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Roll back a transaction and reset the dirty flag.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Close the connection to the database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Create a savepoint inside the current transaction. Return an identifier for the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Roll back to a savepoint. Do nothing if savepoints are not supported.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Release a savepoint. Do nothing if savepoints are not supported.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Raise an error if an atomic block is active.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Validate that the connection isn't accessed by another thread than the one…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 223](Community_223.md) (9 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 503](Community_503.md) (3 shared connections)
+- [Community 662](Community_662.md) (1 shared connections)
+- [Community 1047](Community_1047.md) (1 shared connections)
+- [Community 410](Community_410.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
+- EXTRACTED: 43 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

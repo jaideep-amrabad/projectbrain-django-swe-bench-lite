@@ -1,25 +1,27 @@
 # Community 1090
 
-> 3 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.80
 
 ## Key Concepts
 
-- **ModifyingSaveData** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
-- **A save method that modifies the data in the object. A user-defined save()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- **theme.js** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **cycleTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **initTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **setTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
+- **setupTheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
 
 ## Relationships
 
-- [Community 155](Community_155.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/data.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/theme.js`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_unprintable_values_handling()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Unprintable values should not make the output generation choke.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cached_relation_invalidated_on_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **Model.save() invalidates stale ForeignKey relations after a primary key…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Relationships
 
-- [Community 592](Community_592.md) (1 shared connections)
-- [Community 534](Community_534.md) (1 shared connections)
+- [Community 403](Community_403.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

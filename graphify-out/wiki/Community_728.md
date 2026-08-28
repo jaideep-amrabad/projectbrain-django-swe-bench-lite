@@ -1,44 +1,61 @@
 # Community 728
 
-> 13 nodes · cohesion 0.22
+> 31 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **PasswordChangeForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **PasswordChangeFormTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **TestDataMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.clean_old_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_field_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_incorrect_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **A form that lets a user change their password by entering their old password.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Validate that the old_password field is correct.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **captured_stdout()** (55 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **RemoveStaleContentTypesTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **ShellCommandTestCase** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **captured_stdin()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_stdin_read()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **.test_stdin_read_globals()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **.test_stdin_read_inline_function_call()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **captured_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **patch** (5 connections)
+- **.test_contenttypes_removed_for_apps_not_in_installed_apps()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_contenttypes_removed_in_installed_apps_without_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_interactive_false()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_interactive_true_with_dependent_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_interactive_true_without_dependent_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_shell_with_bpython_not_installed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **.test_shell_with_ipython_not_installed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_unavailable_content_type_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **skipIf** (3 connections)
+- **.test_command_option_globals()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **.test_command_option_inline_function_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **dict** (2 connections)
+- **.test_command_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **Return a context manager used by captured_stdout/stdin/stderr that temporarily…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Capture the output of sys.stdout: with captured_stdout() as stdout:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 757](Community_757.md) (2 shared connections)
-- [Community 427](Community_427.md) (2 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 693](Community_693.md) (1 shared connections)
-- [Community 404](Community_404.md) (1 shared connections)
-- [Community 446](Community_446.md) (1 shared connections)
-- [Community 694](Community_694.md) (1 shared connections)
+- [Community 6](Community_6.md) (29 shared connections)
+- [Community 73](Community_73.md) (10 shared connections)
+- [Community 1174](Community_1174.md) (4 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 468](Community_468.md) (1 shared connections)
+- [Community 533](Community_533.md) (1 shared connections)
+- [Community 679](Community_679.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 117 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

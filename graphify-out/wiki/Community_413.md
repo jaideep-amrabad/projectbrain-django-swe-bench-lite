@@ -4,47 +4,48 @@
 
 ## Key Concepts
 
-- **ListViewTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **._make_authors()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_list_view_returns_useful_message_on_invalid_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_custom_page_kwarg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_custom_paginator_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_custom_paginator_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_get_last_page_by_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_get_page_by_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_get_page_by_urlvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_invalid_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_list_view_does_not_load_entire_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_orphaned_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_page_out_of_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_allow_empty_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_duplicate_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_explicitly_ordered_list_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_invalid_get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_missing_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_non_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_queryset_shortdata()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **AppConfigTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Stub** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_dunder_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_duplicate_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_empty_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_empty_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_multiple_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_multiple_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_no_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_no_dunder_path_or_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_explicit_path_overrides()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_path_set_explicitly()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_app_default_auto_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_default_auto_field_setting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_invalid_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Unit tests for AppConfig class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If subclass sets path as class attr, no module attributes needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If path set as class attr, overrides __path__ and __file__.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If single element in __path__, use it (in preference to __file__).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If there is no __path__ attr, use __file__.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If the __path__ attr is empty, use __file__ if set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If the __path__ attr is length>1, use __file__ if set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If there is no __path__ or __file__, raise ImproperlyConfigured.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If the __path__ attr is empty and there is no __file__, raise.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
 - *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 71](Community_71.md) (5 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 197](Community_197.md) (9 shared connections)
+- [Community 207](Community_207.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 52 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

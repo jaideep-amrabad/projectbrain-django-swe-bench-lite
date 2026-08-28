@@ -1,55 +1,50 @@
 # Community 281
 
-> 41 nodes · cohesion 0.05
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **model_enums/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **ChoicesTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **CustomChoicesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_integerchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_textchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **Constants** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **Separator** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **Set** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **Suit** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **YearInSchool** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **bytes** (1 connections)
-- **float** (1 connections)
-- **.test_do_not_call_in_templates_member()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_integerchoices_auto_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_integerchoices_containment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_integerchoices_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_integerchoices_functional_api()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_invalid_definition()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_label_member()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_property_names_conflict_with_member_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_textchoices_auto_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_textchoices_blank_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_textchoices_containment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_textchoices_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- *... and 16 more nodes in this community*
+- **BaseContext** (22 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__eq__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.flatten()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.push()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.push_state()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.new()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **._reset_dicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.set_upward()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__copy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.setdefault()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **Return a new context with the same properties, but with only the values given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **Return self.dicts as one dictionary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **Compare two contexts by comparing theirs 'dicts' attributes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **Set a variable in the current context** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **Set a variable in one of the higher contexts if it exists there, otherwise in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **Get a variable's value, starting at the current context and going upward** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 44](Community_44.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 312](Community_312.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 356](Community_356.md) (1 shared connections)
+- [Community 19](Community_19.md) (5 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 155](Community_155.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 34 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

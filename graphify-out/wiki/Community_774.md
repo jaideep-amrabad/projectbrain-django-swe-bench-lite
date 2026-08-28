@@ -1,36 +1,36 @@
 # Community 774
 
-> 12 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **UnprefixedDefaultLanguageTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_default_lang_without_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_no_redirect_on_404()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_unprefixed_language_with_accept_language()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_unprefixed_language_with_cookie_language()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **With i18n_patterns(..., prefix_default_language=False), the default language…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **Accept-Language' is respected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **A language set in the cookies is respected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **A request for a nonexistent URL shouldn't cause a redirect to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_other_lang_with_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_page_with_dash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_unprefixed_language_with_non_valid_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.order_by()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.last()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.reverse()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._earliest()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.first()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._check_ordering_first_last_queryset_aggregation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.latest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return the earliest object according to fields (if given) or by the model's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return the latest object according to fields (if given) or by the model's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return the first object of a query or None if no match is found.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return the last object of a query or None if no match is found.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a new QuerySet instance with the ordering changed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Reverse the ordering of the QuerySet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 92](Community_92.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 39](Community_39.md) (7 shared connections)
+- [Community 663](Community_663.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

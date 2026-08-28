@@ -1,63 +1,51 @@
 # Community 438
 
-> 31 nodes · cohesion 0.10
+> 26 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **resolve_url()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- **ResolveUrlTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **resolve_url/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **UnimportantThing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/models.py`
-- **.get_default_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_default_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.test_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_view_function()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.get_default_redirect_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **Return the default redirect URL.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.test_domain()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_full_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_lazy_reverse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_non_view_callable_raises_no_reverse_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_relative_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_url_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **.test_valid_view_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **resolve_url/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/urls.py`
-- **some_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/urls.py`
-- **Return a URL appropriate for the arguments passed. The arguments could be: * A…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/models.py`
-- **Tests for the resolve_url() function.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **Passing a URL path to resolve_url() results in the same url.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **Passing a relative URL path to resolve_url() results in the same url.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- **Passing a full URL to resolve_url() results in the same url.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- *... and 6 more nodes in this community*
+- **ForwardManyToOneDescriptor** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ReverseOneToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ForwardOneToOneDescriptor** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_queryset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__get__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__get__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.RelatedObjectDoesNotExist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_prefetch_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__reduce__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Accessor to the related object on the forward side of a many-to-one or one-to-…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Get the related instance through the forward relation. With the example above,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Get the related instance through the reverse relation. With the example above,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_prefetch_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.is_cached()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.RelatedObjectDoesNotExist()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Pickling should return the instance attached by self.field on the model, not a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Accessor to the related object on the reverse side of a one-to-one relation. In…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.is_cached()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 10](Community_10.md) (5 shared connections)
-- [Community 23](Community_23.md) (4 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 256](Community_256.md) (1 shared connections)
-- [Community 308](Community_308.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 5](Community_5.md) (10 shared connections)
+- [Community 797](Community_797.md) (1 shared connections)
+- [Community 437](Community_437.md) (1 shared connections)
+- [Community 506](Community_506.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- `raw/code/hyd-evaluation/django-django/tests/resolve_url/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/resolve_url/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 70 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 42 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

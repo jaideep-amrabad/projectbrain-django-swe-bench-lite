@@ -1,28 +1,29 @@
 # Community 1062
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **BachelorParty** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **AbstractEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **BirthdayParty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **MessyBachelorParty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **TestDbSignatureTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
+- **.test_get_test_db_clone_settings_not_supported()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
+- **object** (1 connections)
+- **skipUnless** (1 connections)
+- **.test_custom_test_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
+- **.test_get_test_db_clone_settings_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
 
 ## Relationships
 
-- [Community 436](Community_436.md) (7 shared connections)
-- [Community 304](Community_304.md) (3 shared connections)
-- [Community 841](Community_841.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (79%)
-- INFERRED: 3 (21%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

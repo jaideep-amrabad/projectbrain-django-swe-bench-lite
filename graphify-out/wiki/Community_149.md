@@ -4,58 +4,59 @@
 
 ## Key Concepts
 
-- **urlencode()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **URLEncodeTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.__init__()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **ForeignKeyRawIdWidget** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **ManyToManyRawIdWidget** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **FilteredSelectMultiple** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminSplitDateTime** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.base_url_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **Media** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminIntegerFieldWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminTimeWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminURLFieldWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.label_and_url_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.url_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **url_params_from_lookup_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.test_multivaluedict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **AdminBigIntegerFieldWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminEmailInputWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminTextareaWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **ProjectState** (106 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **UserManagerTestCase** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.reload_model()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.resolve_model_field_relations()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **get_references()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **._find_reload_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **._get_concrete_models_mapping_and_proxy_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.rename_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.resolve_model_relations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **field_is_referenced()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **.test_reload_related_model_on_non_relational_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.alter_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **._append_option()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.reload_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **._remove_option()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.rename_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.resolve_fields_and_relations()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.test_equality()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.add_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.add_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **._find_concrete_model_from_proxy()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.get_concrete_model_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **._reload()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.remove_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.update_model_field_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 - *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [Community 23](Community_23.md) (15 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 44](Community_44.md) (2 shared connections)
-- [Community 218](Community_218.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 596](Community_596.md) (2 shared connections)
-- [Community 890](Community_890.md) (1 shared connections)
-- [Community 506](Community_506.md) (1 shared connections)
-- [Community 230](Community_230.md) (1 shared connections)
-- [Community 489](Community_489.md) (1 shared connections)
+- [Community 74](Community_74.md) (21 shared connections)
+- [Community 8](Community_8.md) (14 shared connections)
+- [Community 79](Community_79.md) (13 shared connections)
+- [Community 102](Community_102.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 27](Community_27.md) (4 shared connections)
+- [Community 616](Community_616.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 96](Community_96.md) (2 shared connections)
+- [Community 354](Community_354.md) (2 shared connections)
+- [Community 138](Community_138.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 
 ## Audit Trail
 
-- EXTRACTED: 118 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 170 (89%)
+- INFERRED: 21 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

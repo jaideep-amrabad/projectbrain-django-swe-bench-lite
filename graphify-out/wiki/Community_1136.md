@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_set_many_returns_empty_list_on_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **set_many() returns an empty list when all keys are inserted.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.allowed_origin_subdomains()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **A mapping of allowed schemes to list of allowed netlocs, where all subdomains…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
 
 ## Relationships
 
-- [Community 268](Community_268.md) (1 shared connections)
+- [Community 104](Community_104.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
 
 ## Audit Trail
 

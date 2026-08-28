@@ -1,28 +1,30 @@
 # Community 1044
 
-> 4 nodes · cohesion 0.50
+> 4 nodes · cohesion 0.83
 
 ## Key Concepts
 
-- **.get_reverse_related_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_extra_descriptor_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **Complement to get_forward_related_filter(). Return the keyword arguments that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **Return an extra filter condition for related object fetching when user does…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **TestMultiDBChecks** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- **._patch_check_field_on()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- **.test_checks_called_on_the_default_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- **.test_checks_called_on_the_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
 
 ## Relationships
 
-- [Community 450](Community_450.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 451](Community_451.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (90%)
+- INFERRED: 1 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,30 +1,33 @@
 # Community 910
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **.get_decoded_attachments()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_non_utf8_text_as_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_utf8_text_as_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_text_as_bytes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attachments_two_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Encode the specified django.core.mail.message.EmailMessage, then decode it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Non-ASCII characters encoded as valid UTF-8 are correctly transported and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Binary data that can't be decoded as UTF-8 overrides the MIME type instead of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **TranslatableFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **TranslatableFileTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
+- **.test_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.__lt__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
 
 ## Relationships
 
-- [Community 182](Community_182.md) (9 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

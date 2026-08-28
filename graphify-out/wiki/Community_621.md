@@ -1,42 +1,47 @@
 # Community 621
 
-> 17 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ApiTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **DummyStorage** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **CustomRequest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **CustomRequestApiTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.__getattribute__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.test_middleware_missing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.test_middleware_missing_silently()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.test_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.test_request_is_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **dummy message-store to test the api methods** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **add_message() should use ducktyping to allow request wrappers such as the one…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **ModelTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Event** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **.test_metaclass_can_access_attribute_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_timezones()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_chained_fks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_get_next_prev_by_field_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_related_gte_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_related_lte_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Regression test for #10153: foreign key __gte lookups.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_date_filter_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_date_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_empty_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_get_next_prev_by_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_long_textfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_long_unicode_textfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.test_primary_key_foreign_key_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Chained foreign keys with to_field produce incorrect query.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Model metaclasses have access to the class attribute dict in __init__()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Relationships
 
-- [Community 596](Community_596.md) (4 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
+- [Community 789](Community_789.md) (8 shared connections)
+- [Community 892](Community_892.md) (3 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 1100](Community_1100.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 27 (77%)
+- INFERRED: 8 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

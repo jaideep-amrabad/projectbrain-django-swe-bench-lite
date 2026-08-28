@@ -1,27 +1,30 @@
 # Community 852
 
-> 10 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **tests_failures.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **ErrorTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **ExpectedFailureTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **FailureTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **UnexpectedSuccessTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **.test_sample()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **expectedFailure** (2 connections)
-- **.test_sample()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **DeprecatedTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **.test_field_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **.test_field_name_with_hidden_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **.test_field_name_with_hidden_input_and_non_matching_row_ender()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **.test_field_with_css_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **.test_field_without_css_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **BaseForm._html_output() should merge all the hidden input fields and put them…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **.test_errorlist_override_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **`css_classes` may be used as a key in _html_output() (class comes from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **#5749 - `field_name` may be used as a key in _html_output().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
+- **`css_classes` may be used as a key in _html_output() (empty classes).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
 
 ## Audit Trail
 

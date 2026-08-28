@@ -1,35 +1,35 @@
 # Community 913
 
-> 8 nodes · cohesion 0.46
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **model_package/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
-- **model_package/models/article.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
-- **publication.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/publication.py`
-- **model_package/models/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/__init__.py`
-- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
-- **Publication** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/publication.py`
-- **Site** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
-- **Advertisement** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.get_handler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.inner_run()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.execute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Run the server, using the autoreloader if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Return the default WSGI handler for the runner.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 698](Community_698.md) (3 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 315](Community_315.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 219](Community_219.md) (1 shared connections)
+- [Community 249](Community_249.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_package/models/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_package/models/article.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_package/models/publication.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (85%)
+- INFERRED: 3 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

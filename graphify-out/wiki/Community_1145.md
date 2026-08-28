@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **TestManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **_EnsureCsrfToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **._reject()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
 
 ## Relationships
 
-- [Community 330](Community_330.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
+- [Community 104](Community_104.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

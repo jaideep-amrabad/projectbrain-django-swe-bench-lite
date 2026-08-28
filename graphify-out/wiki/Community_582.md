@@ -1,43 +1,45 @@
 # Community 582
 
-> 18 nodes · cohesion 0.27
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **security/base.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **register** (14 connections)
-- **_security_middleware()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_secret_key_fallbacks()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_content_type_nosniff()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_cross_origin_opener_policy()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_referrer_policy()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **_check_secret_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_security_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_ssl_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_sts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_sts_include_subdomains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_sts_preload()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_xframe_deny()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_xframe_options_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **_xframe_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_allowed_hosts()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **AsyncRelatedManagersOperationTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **test_async_related_managers.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **ManyToManyModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- **RelatedModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aadd()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aadd_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aclear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aclear_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_acreate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_acreate_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aget_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aget_or_create_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aremove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aremove_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aset_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aupdate_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
+- **.test_aupdate_or_create_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
 
 ## Relationships
 
-- [Community 95](Community_95.md) (4 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 142](Community_142.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 921](Community_921.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/test_async_related_managers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 25 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

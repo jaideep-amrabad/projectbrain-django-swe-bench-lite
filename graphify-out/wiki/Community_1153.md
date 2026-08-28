@@ -1,24 +1,26 @@
 # Community 1153
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.83
 
 ## Key Concepts
 
-- **.test_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Regression test for #9367** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **SqliteDbshellCommandTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **.settings_to_cmd_args_env()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **.test_path_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
 
 ## Relationships
 
-- [Community 81](Community_81.md) (1 shared connections)
-- [Community 182](Community_182.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

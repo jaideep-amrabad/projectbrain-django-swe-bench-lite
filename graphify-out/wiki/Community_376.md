@@ -1,51 +1,71 @@
 # Community 376
 
-> 31 nodes · cohesion 0.06
+> 30 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **BasicExtractorTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_pot_charset_header_is_utf8()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_use_i18n_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_extraction_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_makemessages_find_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_template_comments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_template_message_context_extractor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_comments_extractor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_context_in_single_quotes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_extraction_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_invalid_locale_end_with_underscore()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_invalid_locale_hyphen()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_invalid_locale_lower_country()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_invalid_locale_plus()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_invalid_locale_private_subtag()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_invalid_locale_start_with_underscore()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_invalid_locale_uppercase()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_no_option()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_special_char_extracted()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_unicode_decode_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_unicode_file_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_valid_locale()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_valid_locale_private_subtag()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_valid_locale_tachelhit_latin_morocco()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_valid_locale_with_country()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- *... and 6 more nodes in this community*
+- **messages_tests/test_cookie.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **messages_tests/base.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **test_session.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **storage/cookie.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **test_fallback.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **messages/__init__.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/__init__.py`
+- **messages/storage/base.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **messages/apps.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/apps.py`
+- **messages/constants.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/constants.py`
+- **storage/session.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **messages_tests/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **MessageDecoder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **fallback.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **messages/utils.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
+- **get_level_tags()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
+- **stored_cookie_messages_count()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **.process_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **MessagesConfig** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/apps.py`
+- **update_level_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/apps.py`
+- **MessageSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **stored_session_messages_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **TestLevelTags** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- **.ready()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/apps.py`
+- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **.test_override_settings_level_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 984](Community_984.md) (2 shared connections)
-- [Community 459](Community_459.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1](Community_1.md) (13 shared connections)
+- [Community 11](Community_11.md) (11 shared connections)
+- [Community 10](Community_10.md) (11 shared connections)
+- [Community 575](Community_575.md) (8 shared connections)
+- [Community 803](Community_803.md) (7 shared connections)
+- [Community 497](Community_497.md) (6 shared connections)
+- [Community 549](Community_549.md) (6 shared connections)
+- [Community 284](Community_284.md) (5 shared connections)
+- [Community 462](Community_462.md) (5 shared connections)
+- [Community 522](Community_522.md) (4 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/constants.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 167 (97%)
+- INFERRED: 5 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

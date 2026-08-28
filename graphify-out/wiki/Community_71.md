@@ -4,62 +4,57 @@
 
 ## Key Concepts
 
-- **generic_views/views.py** (78 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **test_edit.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **Author** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **Book** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **test_dates.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **generic_views/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **Artist** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **test_list.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **AuthorForm** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
-- **TestDataMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **BookSigning** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **BookSigningConfig** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **generic_views/forms.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
-- **Page** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **BookConfig** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **ModelFormMixinTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **CustomContextView** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **ConfirmDeleteForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
-- **ContactForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
-- **AuthorDeleteFormView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **AuthorList** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **BookDetailGetObjectCustomQueryset** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get_object()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **SpecializedAuthorCreate** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **SpecializedAuthorUpdate** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.login()** (49 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **AuthViewsTestCase** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LogoutTest** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LoginTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.confirm_logged_out()** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **ChangelistTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **ChangePasswordTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LoginRedirectAuthenticatedUser** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LogoutThenLoginTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **logout_then_login()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.test_default_logout_then_login()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_default_logout_then_login_get()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.assertFormError()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_then_login_with_custom_login()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LoginSuccessURLAllowedHostsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_security_check()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_security_check_https()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **AuthViewNamedURLTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.get_user_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_user_change_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_view_user_password_is_readonly()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_session_without_hash_session_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_redirect_url_named_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 - *... and 83 more nodes in this community*
 
 ## Relationships
 
-- [Community 127](Community_127.md) (14 shared connections)
-- [Community 342](Community_342.md) (10 shared connections)
-- [Community 15](Community_15.md) (9 shared connections)
-- [Community 4](Community_4.md) (8 shared connections)
-- [Community 457](Community_457.md) (8 shared connections)
-- [Community 18](Community_18.md) (7 shared connections)
-- [Community 10](Community_10.md) (5 shared connections)
-- [Community 413](Community_413.md) (5 shared connections)
-- [Community 741](Community_741.md) (4 shared connections)
-- [Community 887](Community_887.md) (4 shared connections)
-- [Community 23](Community_23.md) (4 shared connections)
-- [Community 432](Community_432.md) (4 shared connections)
+- [Community 4](Community_4.md) (15 shared connections)
+- [Community 7](Community_7.md) (14 shared connections)
+- [Community 14](Community_14.md) (12 shared connections)
+- [Community 176](Community_176.md) (5 shared connections)
+- [Community 288](Community_288.md) (4 shared connections)
+- [Community 162](Community_162.md) (3 shared connections)
+- [Community 75](Community_75.md) (3 shared connections)
+- [Community 509](Community_509.md) (1 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
+- [Community 529](Community_529.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 130](Community_130.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 252 (78%)
-- INFERRED: 71 (22%)
+- EXTRACTED: 237 (97%)
+- INFERRED: 8 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

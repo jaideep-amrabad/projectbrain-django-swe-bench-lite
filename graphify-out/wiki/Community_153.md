@@ -4,27 +4,27 @@
 
 ## Key Concepts
 
-- **.get_template_names()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.render_to_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **Return a response, using the `response_class` for this view, with a template…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **Return a list of template names to be used for the request. Must return a list.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **TestRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **migrations/routers.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **DefaultOtherRouter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **.allow_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **The Tribble model should be the only one to appear in the 'other' db.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
 
 ## Relationships
 
-- [Community 127](Community_127.md) (3 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (78%)
+- INFERRED: 2 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

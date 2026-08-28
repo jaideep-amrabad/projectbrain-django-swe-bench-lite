@@ -1,37 +1,50 @@
 # Community 870
 
-> 9 nodes · cohesion 0.31
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **CallableVariablesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
-- **Doodad** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FancyDoodad** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.test_alters_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
-- **.test_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
-- **.test_do_not_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
-- **.test_do_not_call_and_alters_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
-- **FancyDoodadInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **ValidateConstraint** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **AddConstraintNotValid** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **AddConstraintNotValidTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.test_validate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.test_add()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.test_non_check_constraint_not_supported()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **Add a table constraint without enforcing validation, using PostgreSQL's NOT…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **Validate a table NOT VALID constraint.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 56](Community_56.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 345](Community_345.md) (3 shared connections)
+- [Community 193](Community_193.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 922](Community_922.md) (1 shared connections)
+- [Community 280](Community_280.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 229](Community_229.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (77%)
-- INFERRED: 5 (23%)
+- EXTRACTED: 33 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

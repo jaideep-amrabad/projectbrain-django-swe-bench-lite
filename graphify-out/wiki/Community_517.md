@@ -1,50 +1,68 @@
 # Community 517
 
-> 22 nodes · cohesion 0.13
+> 29 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **test_lazyobject.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **SimpleLazyObjectPickleTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **BaseBaz** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Baz** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_pickle_with_reduce()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **utils_tests/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
-- **BazProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
-- **CategoryInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
-- **.test_pickle_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__reduce_ex__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **A base class with a funky __reduce__ method, meant to simulate the __reduce__…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **A class that inherits from BaseBaz and has its own __reduce_ex__ method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **A class that acts as a proxy for Baz. It does some scary mucking about with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Regression test for pickling a SimpleLazyObject wrapping a model (#25389). Also…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Test in a fairly synthetic setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Test on an actual model, based on the report in #25426.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **auth_tests/urls.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **render()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **shortcuts/views.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- **context_processors/views.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/views.py`
+- **context_processors/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/models.py`
+- **auth_processor_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **CustomRequestAuthenticationForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **DebugObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/models.py`
+- **context_processors/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/urls.py`
+- **debug_processor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/views.py`
+- **shortcuts/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/urls.py`
+- **auth_processor_attr_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **auth_processor_no_attr_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **auth_processor_perm_in_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **auth_processor_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **auth_processor_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **request_processor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/views.py`
+- **render_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- **render_view_with_content_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- **render_view_with_multiple_templates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- **render_view_with_status()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- **render_view_with_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- **jsi18n()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **render_no_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **Return an HttpResponse whose content is filled with the result of calling…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 596](Community_596.md) (4 shared connections)
-- [Community 245](Community_245.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 31](Community_31.md) (7 shared connections)
+- [Community 23](Community_23.md) (6 shared connections)
+- [Community 130](Community_130.md) (6 shared connections)
+- [Community 147](Community_147.md) (4 shared connections)
+- [Community 59](Community_59.md) (3 shared connections)
+- [Community 497](Community_497.md) (3 shared connections)
+- [Community 84](Community_84.md) (3 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 420](Community_420.md) (2 shared connections)
+- [Community 53](Community_53.md) (2 shared connections)
+- [Community 393](Community_393.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/context_processors/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/context_processors/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/context_processors/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/context_processors/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/shortcuts/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/shortcuts/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 98 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

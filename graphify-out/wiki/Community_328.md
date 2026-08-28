@@ -1,60 +1,46 @@
 # Community 328
 
-> 35 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **FileResponse** (40 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **FileResponseTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **test_fileresponse.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.set_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **._set_streaming_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.streaming_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.test_buffer_explicit_absolute_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_compressed_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_file_from_named_pipe_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_unicode_attachment()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_disposition_buffer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_disposition_buffer_attachment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_disposition_buffer_explicit_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_disposition_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_disposition_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_length_buffer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_length_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_length_nonzero_starting_position_buffer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_length_nonzero_starting_position_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_length_nonzero_starting_position_file_seekable_no_tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_type_buffer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_type_buffer_explicit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_type_buffer_explicit_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_type_buffer_named()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- **.test_content_type_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
-- *... and 10 more nodes in this community*
+- **TestIterModulesAndFiles** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.assertFileFound()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.temporary_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_bytecode_conversion_to_source()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_errors()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_errors_catches_all_exceptions()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_file_added()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_zip_reload()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.import_and_cleanup()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.clear_autoreload_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_weakref_in_sys_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.assertFileNotFound()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_main_module_is_resolved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Since Python may raise arbitrary exceptions when importing code, check_errors()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Modules imported from zipped files have their archive location included in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.pyc and .pyo files are included in the files list.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **iter_all_python_module_file() ignores weakref modules.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **When a file is added, it's returned by iter_all_python_module_files().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **When a file containing an error is imported in a function wrapped by…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_paths_are_pathlib_instances()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (5 shared connections)
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 212](Community_212.md) (2 shared connections)
-- [Community 187](Community_187.md) (1 shared connections)
-- [Community 80](Community_80.md) (1 shared connections)
-- [Community 926](Community_926.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
+- [Community 207](Community_207.md) (6 shared connections)
+- [Community 702](Community_702.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 316](Community_316.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 45 (92%)
+- INFERRED: 4 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

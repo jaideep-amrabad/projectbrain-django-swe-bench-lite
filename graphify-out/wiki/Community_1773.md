@@ -1,25 +1,23 @@
 # Community 1773
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_boolean_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **Boolean fields have check constraints on their values.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **sitemaps_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/__init__.py`
 
 ## Relationships
 
-- [Community 684](Community_684.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (67%)
-- INFERRED: 1 (33%)
+- EXTRACTED: 0 (0%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

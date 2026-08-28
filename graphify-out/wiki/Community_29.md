@@ -1,67 +1,62 @@
 # Community 29
 
-> 47 nodes · cohesion 0.06
+> 167 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **method_decorator()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **MethodDecoratorTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **middleware/views.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
-- **no_append_slash()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
-- **.login()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.dispatch()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.dispatch()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.test_preserve_attributes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.catch_all_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **decorators/common.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
-- **ClsDec** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_wrapper_assignments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **SensitiveCBV** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
-- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.get_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.test_argumented()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_class_decoration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_invalid_method_name_to_decorate()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_invalid_non_callable_attribute_decoration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_new_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_tuple_of_decorators()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **middleware/extra_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/extra_urls.py`
-- *... and 22 more nodes in this community*
+- **OGRGeometry** (128 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **OGRGeomTest** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **._topology()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **._geomgen()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.test06_spatial_filter()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **.difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.equals()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.from_bbox()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.intersection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.sym_difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.union()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.test_polygons()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **.test_polygons_templates()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **.test_srs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **.test_srs_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **.geom()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__and__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.boundary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.convex_hull()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.crosses()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- *... and 142 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (13 shared connections)
-- [Community 1](Community_1.md) (12 shared connections)
-- [Community 50](Community_50.md) (4 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 127](Community_127.md) (3 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 140](Community_140.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 98](Community_98.md) (2 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
+- [Community 51](Community_51.md) (19 shared connections)
+- [Community 177](Community_177.md) (10 shared connections)
+- [Community 78](Community_78.md) (6 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 192](Community_192.md) (3 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 293](Community_293.md) (2 shared connections)
+- [Community 188](Community_188.md) (2 shared connections)
+- [Community 491](Community_491.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 723](Community_723.md) (1 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/extra_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
 
 ## Audit Trail
 
-- EXTRACTED: 119 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 275 (96%)
+- INFERRED: 11 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

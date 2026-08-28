@@ -1,53 +1,63 @@
 # Community 498
 
-> 29 nodes · cohesion 0.10
+> 32 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **RelatedLookupTypeTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **UnionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ObjectA** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ObjectC** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ValuesJoinPromotionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.check_union()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ChildObjectA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.setUpTestData()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_A_AB()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_A_AB2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_AB_ACB()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_BA_BCA__BAB_BAC_BCA()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_BAB_BAC()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_BAB_BACB()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **A ValueError is raised when the incorrect object type is passed to a query…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_correct_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_values_queryset_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_wrong_backward_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_wrong_type_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket_21376()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Tests for the union of two querysets. Bug #12252.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **When passing proxy model objects, child objects, or parent objects, lookups…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- *... and 4 more nodes in this community*
+- **csrf_tests/tests.py** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **csrf_tests/views.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **token_view()** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **csrf()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **rotate_token()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **test_context_processor.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
+- **CsrfFunctionTestMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **non_token_view_using_request_processor()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **sandwiched_rotate_token_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **TestingHttpResponse** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **ensured_and_protected_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **protected_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **.test_https_malformed_host()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_masked_unmasked_combinations()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_masked_unmasked_combinations()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **TestContextProcessor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
+- **ensure_csrf_cookie** (3 connections)
+- **.test_force_token_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
+- **_CsrfCookieRotator** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **csrf_protect** (3 connections)
+- **.process_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **csrf_rotating_token** (1 connections)
+- **Change the CSRF token in use for a request - should be done on login for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **Context processor that provides a CSRF token, or the string 'NOTPROVIDED' if it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **All combinations are allowed of (1) masked and unmasked cookies, (2) masked and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 79](Community_79.md) (18 shared connections)
-- [Community 19](Community_19.md) (7 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 126](Community_126.md) (19 shared connections)
+- [Community 162](Community_162.md) (19 shared connections)
+- [Community 104](Community_104.md) (13 shared connections)
+- [Community 1](Community_1.md) (11 shared connections)
+- [Community 4](Community_4.md) (7 shared connections)
+- [Community 23](Community_23.md) (7 shared connections)
+- [Community 765](Community_765.md) (6 shared connections)
+- [Community 19](Community_19.md) (5 shared connections)
+- [Community 75](Community_75.md) (4 shared connections)
+- [Community 10](Community_10.md) (4 shared connections)
+- [Community 482](Community_482.md) (4 shared connections)
+- [Community 93](Community_93.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (78%)
-- INFERRED: 15 (22%)
+- EXTRACTED: 146 (88%)
+- INFERRED: 20 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

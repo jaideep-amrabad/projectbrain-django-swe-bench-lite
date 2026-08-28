@@ -1,71 +1,61 @@
 # Community 138
 
-> 103 nodes · cohesion 0.03
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **override** (34 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **I18NViewTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **get_template()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader.py`
-- **test_defaults.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **RedirectView** (21 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **views/csrf.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/views/csrf.py`
-- **DefaultsTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **tests/test_csrf.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **.get()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **csrf_failure()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/csrf.py`
-- **generic_urls.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/generic_urls.py`
-- **view_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **CsrfViewTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **bad_request()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/defaults.py`
-- **HttpResponseForbidden** (8 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **permission_denied()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/defaults.py`
-- **server_error()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/defaults.py`
-- **.test_custom_templates_wrong()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **BaseArticle** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **.test_error_pages()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **DjangoJSONEncoderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **UrlArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- **requires_csrf_token** (5 connections)
-- **.get_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- *... and 78 more nodes in this community*
+- **.assertMigrationDependencies()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **isolate_lru_cache()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **BaseAutodetectorTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.make_project_state()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_last_dependency()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_first_dependency()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_circular_dependency_swappable()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_circular_dependency_swappable2()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_circular_dependency_swappable_self()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_swappable_changed()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_proxy_to_mti_with_fk_to_proxy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_proxy_to_mti_with_fk_to_proxy_proxy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_same_app_circular_fk_dependency_with_unique_together_and_indexes()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.repr_changes()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_arrange_for_graph()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_arrange_for_graph_with_multiple_initial()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_custom_migration_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_swappable_many_to_many_model_case()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_foreign_key_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_many_to_many_field_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **#23322 - The dependency resolver knows to explicitly resolve swappable models.** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **Clear the cache of an LRU cache object on entering and exiting.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Tests auto-naming of migrations for graph matching.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **Tests custom naming of migrations for graph matching.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **Shortcut to make ProjectStates from lists of predefined models** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (27 shared connections)
-- [Community 3](Community_3.md) (14 shared connections)
-- [Community 8](Community_8.md) (13 shared connections)
-- [Community 13](Community_13.md) (10 shared connections)
-- [Community 23](Community_23.md) (10 shared connections)
-- [Community 408](Community_408.md) (6 shared connections)
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 10](Community_10.md) (5 shared connections)
-- [Community 15](Community_15.md) (4 shared connections)
-- [Community 44](Community_44.md) (4 shared connections)
-- [Community 596](Community_596.md) (4 shared connections)
-- [Community 184](Community_184.md) (4 shared connections)
+- [Community 27](Community_27.md) (69 shared connections)
+- [Community 7](Community_7.md) (8 shared connections)
+- [Community 113](Community_113.md) (7 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 96](Community_96.md) (3 shared connections)
+- [Community 55](Community_55.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 302](Community_302.md) (2 shared connections)
+- [Community 133](Community_133.md) (2 shared connections)
+- [Community 76](Community_76.md) (2 shared connections)
+- [Community 79](Community_79.md) (2 shared connections)
+- [Community 645](Community_645.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loader.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/views/csrf.py`
-- `raw/code/hyd-evaluation/django-django/django/views/defaults.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/generic_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 279 (99%)
-- INFERRED: 4 (1%)
+- EXTRACTED: 143 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,53 +1,35 @@
 # Community 396
 
-> 29 nodes · cohesion 0.07
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ManyToOneTests** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_add_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_add_remove_set_by_pk_raises()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_add_then_remove_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_assign()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_assign_fk_id_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_assign_fk_id_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_cached_foreign_key_with_to_field_not_cleared_by_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_clear_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_create_relation_with_gettext_lazy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_deepcopy_and_circular_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_explicit_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_fk_instantiation_outside_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_fk_to_bigautofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_fk_to_smallautofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_manager_class_caching()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_multiple_foreignkeys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_related_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_remove_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_reverse_assignment_deprecation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_reverse_foreign_key_instance_to_field_caching()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_reverse_selects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- *... and 4 more nodes in this community*
+- **IntegerFieldFloatRounding** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_prep_lookup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IntegerGreaterThanOrEqual** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IntegerLessThan** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_prep_lhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_prep_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_prep_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **Allow floats to work as query values for IntegerField. Without this, the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 
 ## Relationships
 
-- [Community 570](Community_570.md) (12 shared connections)
-- [Community 911](Community_911.md) (8 shared connections)
-- [Community 878](Community_878.md) (6 shared connections)
-- [Community 1060](Community_1060.md) (3 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 1164](Community_1164.md) (1 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 49](Community_49.md) (3 shared connections)
+- [Community 85](Community_85.md) (2 shared connections)
+- [Community 199](Community_199.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (69%)
-- INFERRED: 18 (31%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

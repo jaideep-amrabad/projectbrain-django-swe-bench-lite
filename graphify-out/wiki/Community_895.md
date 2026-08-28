@@ -4,26 +4,28 @@
 
 ## Key Concepts
 
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- **PropertyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
-- **properties/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- **properties/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
-- **.test_setter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
-- **._get_full_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- **._set_full_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- **Using properties on models Use properties on models just like on any other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
-- **.test_getter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **Person** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **save_delete_hooks/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **save_delete_hooks/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- **SaveDeleteHookTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **Adding hooks before/after saving and deleting To execute arbitrary code around…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
 
 ## Audit Trail
 

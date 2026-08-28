@@ -1,63 +1,65 @@
 # Community 97
 
-> 94 nodes · cohesion 0.03
+> 82 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Statement** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **base/schema.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **test_ddl_references.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **Expressions** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **ddl_references.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Columns** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **ForeignKeyName** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **MockReference** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **IndexName** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **TableColumns** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **django/db/backends/oracle/schema.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **ExpressionsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **ForeignKeyNameTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **postgresql/schema.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
-- **ColumnsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **StatementTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **TableTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_rename_table_references_without_alias()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **IndexColumns** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **IndexNameTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **_related_non_m2m_objects()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.setUp()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **_is_relevant_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- *... and 69 more nodes in this community*
+- **fields/ranges.py** (34 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **postgres/apps.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **PostgresOperatorLookup** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **postgres/lookups.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **RangeField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **PostgresConfig** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **uninstall_if_needed()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **ContinuousRangeField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **AttributeSetter** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
+- **SearchLookup** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **SearchVectorField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchVectorExact** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **DateTimeRangeContains** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **RangeContainedBy** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **TrigramSimilar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **TrigramStrictWordSimilar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **TrigramWordSimilar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **Unaccent** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **HasKeys** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **Overlap** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **AdjacentToLookup** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **BigIntegerRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **DateRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **DateTimeRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- *... and 57 more nodes in this community*
 
 ## Relationships
 
-- [Community 60](Community_60.md) (33 shared connections)
-- [Community 14](Community_14.md) (12 shared connections)
-- [Community 4](Community_4.md) (9 shared connections)
+- [Community 85](Community_85.md) (12 shared connections)
 - [Community 5](Community_5.md) (8 shared connections)
-- [Community 698](Community_698.md) (5 shared connections)
-- [Community 115](Community_115.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 636](Community_636.md) (3 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 41](Community_41.md) (3 shared connections)
-- [Community 312](Community_312.md) (2 shared connections)
+- [Community 28](Community_28.md) (7 shared connections)
+- [Community 8](Community_8.md) (6 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 193](Community_193.md) (4 shared connections)
+- [Community 87](Community_87.md) (4 shared connections)
+- [Community 245](Community_245.md) (4 shared connections)
+- [Community 52](Community_52.md) (3 shared connections)
+- [Community 266](Community_266.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 131](Community_131.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 
 ## Audit Trail
 
-- EXTRACTED: 241 (93%)
-- INFERRED: 17 (7%)
+- EXTRACTED: 193 (89%)
+- INFERRED: 23 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

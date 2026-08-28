@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **.test_incomplete_data_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **POST incomplete data to a form** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **SelectBox.js** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectBox.js`
+- **get_hidden_node_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectBox.js`
 
 ## Relationships
 
-- [Community 500](Community_500.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectBox.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

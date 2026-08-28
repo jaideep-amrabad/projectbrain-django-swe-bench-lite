@@ -1,24 +1,29 @@
 # Community 1104
 
-> 2 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.conditional_expression_supported_in_where_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return True, if the conditional expression is supported in the WHERE clause.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **AsyncModelOperationTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **.test_adelete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **.test_arefresh_from_db()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
+- **.test_asave()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
 
 ## Relationships
 
-- [Community 327](Community_327.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 921](Community_921.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/test_async_model_methods.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

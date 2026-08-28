@@ -1,44 +1,40 @@
 # Community 645
 
-> 16 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **._get_POST_csrf_cookie_request()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._check_bad_or_missing_token()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_token_in_header_with_customized_name()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_process_request_csrf_cookie_no_token_exempt_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_token_in_header()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_masked_unmasked_combinations()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_masked_unmasked_combinations()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_cookie_bad_token_custom_header()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_cookie_bad_or_missing_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **All combinations are allowed of (1) masked and unmasked cookies, (2) masked and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **Masked and unmasked tokens are allowed both as POST and as the X-CSRFToken…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **If a CSRF cookie is present but the token is missing or invalid, the middleware…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **If a CSRF cookie is present and an invalid token is passed via a custom…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **If a CSRF cookie is present and no token, but the csrf_exempt decorator has…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **The token may be passed in a header instead of in the form.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **settings.CSRF_HEADER_NAME can be used to customize the CSRF header name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.assertOperationFieldAttributes()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **patch** (9 connections)
+- **.test_alter_field_to_not_null_oneoff_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_alter_field_to_not_null_with_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_alter_field_to_not_null_without_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_add_blank_textfield_and_charfield()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_add_many_to_many()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_add_non_blank_textfield_and_charfield()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_many_to_many_changed_to_concrete_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_add_date_fields_with_auto_now_add_asking_for_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_add_date_fields_with_auto_now_add_not_asking_for_null_addition()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_add_date_fields_with_auto_now_not_asking_for_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **#23609 - Tests autodetection of nullable to non-nullable alterations.** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **#22435 - Adding a ManyToManyField should not prompt for a default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **#23938 - Changing a ManyToManyField into a concrete field first removes the m2m…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **#23405 - Adding a NOT NULL and blank `CharField` or `TextField` without default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **#23405 - Adding a NOT NULL and non-blank `CharField` or `TextField` without…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Relationships
 
-- [Community 205](Community_205.md) (12 shared connections)
-- [Community 422](Community_422.md) (6 shared connections)
-- [Community 455](Community_455.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 319](Community_319.md) (1 shared connections)
-- [Community 646](Community_646.md) (1 shared connections)
+- [Community 27](Community_27.md) (47 shared connections)
+- [Community 138](Community_138.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (85%)
-- INFERRED: 6 (15%)
+- EXTRACTED: 72 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

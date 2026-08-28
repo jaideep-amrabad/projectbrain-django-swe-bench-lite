@@ -1,49 +1,57 @@
 # Community 447
 
-> 19 nodes · cohesion 0.12
+> 26 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **TimeFormat** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.f()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.P()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Formatter** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.h()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.O()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.Z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.a()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.T()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.u()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.format()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Time, in 12-hour hours and minutes, with minutes left off if they're zero.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Hour, 12-hour format; i.e. '01' to '12** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Hour, 24-hour format; i.e. '00' to '23** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Difference to Greenwich time in hours; e.g. '+0200', '-0430'. If timezone…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Time, in 12-hour hours, minutes and 'a.m.'/'p.m.', with minutes left off if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Time zone of this machine; e.g. 'EST' or 'MDT'. If timezone information is not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Microseconds; i.e. '000000' to '999999** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Time zone offset in seconds (i.e. '-43200' to '43200'). The offset for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **model_inheritance_regress/models.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **model_inheritance_regress/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **Congressman** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ParkingLot4A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ParkingLot4B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Station** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **BusStation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **DerivedM** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **M2MChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ParkingLot4** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Politician** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Profile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **SelfRefChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **SelfRefParent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Senator** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Supplier** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **TrainStation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Wholesaler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **BaseM** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **M2MBase** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Parent** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **SearchableLocation** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 503](Community_503.md) (4 shared connections)
-- [Community 338](Community_338.md) (1 shared connections)
-- [Community 374](Community_374.md) (1 shared connections)
-- [Community 715](Community_715.md) (1 shared connections)
-- [Community 973](Community_973.md) (1 shared connections)
-- [Community 430](Community_430.md) (1 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
-- [Community 239](Community_239.md) (1 shared connections)
+- [Community 308](Community_308.md) (18 shared connections)
+- [Community 891](Community_891.md) (13 shared connections)
+- [Community 935](Community_935.md) (12 shared connections)
+- [Community 1165](Community_1165.md) (7 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (86%)
-- INFERRED: 5 (14%)
+- EXTRACTED: 97 (85%)
+- INFERRED: 17 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

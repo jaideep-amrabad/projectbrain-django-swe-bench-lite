@@ -4,52 +4,55 @@
 
 ## Key Concepts
 
-- **Meta** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Answer** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **PKChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Chapter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Plot** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **UserProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Answer2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Color** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Color2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Language** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Pizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **PlotProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ReadablePizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ReadOnlyPizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FoodDelivery** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CategoryInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ChapterInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **DatabaseWrapper** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **CursorWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.create_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.disable_constraint_checking()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.enable_constraint_checking()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.get_new_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.data_type_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.display_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.get_database_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.init_connection_state()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.mysql_is_mariadb()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.mysql_server_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.mysql_server_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.mysql_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.sql_mode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **Disable foreign key checks, primarily for use in adding rows with forward…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
 - *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 67](Community_67.md) (16 shared connections)
-- [Community 56](Community_56.md) (16 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 260](Community_260.md) (3 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 615](Community_615.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 223](Community_223.md) (1 shared connections)
+- [Community 603](Community_603.md) (1 shared connections)
+- [Community 558](Community_558.md) (1 shared connections)
+- [Community 691](Community_691.md) (1 shared connections)
+- [Community 304](Community_304.md) (1 shared connections)
+- [Community 351](Community_351.md) (1 shared connections)
+- [Community 295](Community_295.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (91%)
-- INFERRED: 6 (9%)
+- EXTRACTED: 38 (83%)
+- INFERRED: 8 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,65 @@
 # Community 49
 
-> 143 nodes · cohesion 0.02
+> 140 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **admin_filters/tests.py** (67 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **ListFiltersTests** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookAdmin** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **SimpleListFilter** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **admin_filters/models.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **DecadeListFilter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **select_by()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **EmployeeAdmin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookAdminWithEmptyFieldListFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DecadeListFilterWithTitleAndParameter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **Bookmark** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **TaggedItem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **BookAdminRelatedOnlyFilter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookAdminWithCustomQueryset** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DepartmentListFilterLookupWithNonStringValue** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **Department** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **BookAdminWithTupleBooleanFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **CustomUserAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DepartmentAdminWithEmptyFieldListFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **EmployeeNameCustomDividerFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_datefieldlistfilter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_datefieldlistfilter_with_time_zone_support()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_parameter_ends_with__in__or__isnull()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- *... and 118 more nodes in this community*
+- **LookupTests** (65 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **lookup/tests.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **related_lookups.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **LookupQueryingTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **Exact** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **GreaterThan** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **lookup/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **LessThan** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **FieldGetDbPrepValueMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **GreaterThanOrEqual** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IsNull** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **LessThanOrEqual** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **RelatedLookupMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **DecimalFieldLookupTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- **lookup/test_decimalfield.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- **RelatedIn** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **TimeFieldLookupTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
+- **get_normalized_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **RelatedIsNull** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **SubqueryConstraint** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **Season** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **.as_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **IsNullWithNoneAsRHS** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- *... and 115 more nodes in this community*
 
 ## Relationships
 
-- [Community 218](Community_218.md) (17 shared connections)
-- [Community 3](Community_3.md) (13 shared connections)
-- [Community 1](Community_1.md) (11 shared connections)
-- [Community 110](Community_110.md) (4 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 5](Community_5.md) (35 shared connections)
+- [Community 9](Community_9.md) (27 shared connections)
+- [Community 32](Community_32.md) (12 shared connections)
+- [Community 199](Community_199.md) (10 shared connections)
+- [Community 350](Community_350.md) (8 shared connections)
+- [Community 85](Community_85.md) (8 shared connections)
+- [Community 22](Community_22.md) (7 shared connections)
+- [Community 35](Community_35.md) (7 shared connections)
+- [Community 12](Community_12.md) (6 shared connections)
+- [Community 21](Community_21.md) (6 shared connections)
+- [Community 18](Community_18.md) (6 shared connections)
+- [Community 136](Community_136.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 280 (96%)
-- INFERRED: 11 (4%)
+- EXTRACTED: 373 (93%)
+- INFERRED: 26 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

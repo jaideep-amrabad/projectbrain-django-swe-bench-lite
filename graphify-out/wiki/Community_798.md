@@ -1,36 +1,32 @@
 # Community 798
 
-> 11 nodes · cohesion 0.27
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **dictsortreversed()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **test_dictsortreversed.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **.test_invalid_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **.test_invalid_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **.test_sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **.test_sort_list_of_tuple_like_dicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **.test_sort_list_of_tuples()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **Given a list of dicts, return that list sorted in reverse order by the property…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **If dictsortreversed is passed something other than a list of dictionaries, fail…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **Fail silently if invalid lookups are passed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
+- **DynamicConverter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.register_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.register_to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **setter** (1 connections)
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 177](Community_177.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 243](Community_243.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (80%)
+- INFERRED: 2 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

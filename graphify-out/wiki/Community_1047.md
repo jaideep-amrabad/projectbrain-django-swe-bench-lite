@@ -1,25 +1,29 @@
 # Community 1047
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **ReadOnlyPizzaAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.has_add_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.has_change_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.has_delete_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **._prepare_cursor()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.make_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.make_debug_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Validate the connection is usable and perform database cursor wrapping.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Create a cursor that logs all queries in self.queries_log.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Create a cursor without debug logging.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
 
 ## Relationships
 
-- [Community 67](Community_67.md) (1 shared connections)
+- [Community 223](Community_223.md) (3 shared connections)
+- [Community 503](Community_503.md) (1 shared connections)
+- [Community 603](Community_603.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

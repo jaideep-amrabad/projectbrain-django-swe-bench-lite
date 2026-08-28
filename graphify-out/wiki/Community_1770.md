@@ -1,29 +1,23 @@
 # Community 1770
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_create_child_no_update()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.b()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **Creating a child with non-abstract parents only issues INSERTs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **signals/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/__init__.py`
 
 ## Relationships
 
-- [Community 190](Community_190.md) (2 shared connections)
-- [Community 112](Community_112.md) (1 shared connections)
-- [Community 375](Community_375.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/signals/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (57%)
-- INFERRED: 3 (43%)
+- EXTRACTED: 0 (0%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

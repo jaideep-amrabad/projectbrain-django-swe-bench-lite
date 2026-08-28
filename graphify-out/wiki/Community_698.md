@@ -1,68 +1,40 @@
 # Community 698
 
-> 63 nodes · cohesion 0.05
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **django/db/backends/utils.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **django/db/backends/mysql/operations.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **truncate_name()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **backends/test_utils.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- **OracleGISSchemaEditor** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **CursorWrapper** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **split_tzname_delta()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **postgresql/operations.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **split_identifier()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **parse_time()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateparse.py`
-- **gis/db/backends/oracle/schema.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **names_digest()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **CursorDebugWrapper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **TestUtils** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- **._create_spatial_index_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **ModelPackageTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
-- **.geo_quote_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **.set_name_with_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **db_typecasts/tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_typecasts/tests.py`
-- **.column_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **.remove_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **.run_geometry_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **.debug_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **._execute_with_wrappers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **format_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- *... and 38 more nodes in this community*
+- **Person** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.dummy_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **._get_full_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.a_cached_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.a_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.add_image()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.delete_image()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.get_groups_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.get_status_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.rename_company()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.save_changes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.set_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.suffix_company_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **Stores information about a person, related to :model:`myapp.Company`. **Notes**…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **Get the full name of the person** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (13 shared connections)
-- [Community 14](Community_14.md) (10 shared connections)
-- [Community 94](Community_94.md) (6 shared connections)
-- [Community 15](Community_15.md) (6 shared connections)
-- [Community 96](Community_96.md) (6 shared connections)
-- [Community 97](Community_97.md) (5 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 64](Community_64.md) (4 shared connections)
-- [Community 229](Community_229.md) (4 shared connections)
-- [Community 25](Community_25.md) (4 shared connections)
-- [Community 126](Community_126.md) (4 shared connections)
-- [Community 60](Community_60.md) (4 shared connections)
+- [Community 48](Community_48.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 542](Community_542.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateparse.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_typecasts/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_package/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 199 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 16 (84%)
+- INFERRED: 3 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,54 +1,47 @@
 # Community 561
 
-> 31 nodes · cohesion 0.07
+> 20 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **RenameIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **AddConstraint** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **RemoveConstraint** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **IndexOperation** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_forwards()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.model_name_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- *... and 6 more nodes in this community*
+- **RemoteTestResult** (33 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.check_picklable()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addSubTest()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.check_subtest_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._confirm_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addSubTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addExpectedFailure()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._print_unpicklable_subtest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.wasSuccessful()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Extend unittest.TestResult to record events in the child processes so they can…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Confirm that obj can be pickled and unpickled as multiprocessing will need to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Tells whether or not this result was a success.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addSkip()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addSuccess()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addUnexpectedSuccess()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._exc_info_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.startTestRun()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.stopTestRun()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- [Community 523](Community_523.md) (5 shared connections)
-- [Community 359](Community_359.md) (5 shared connections)
-- [Community 586](Community_586.md) (4 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 141](Community_141.md) (1 shared connections)
-- [Community 559](Community_559.md) (1 shared connections)
-- [Community 861](Community_861.md) (1 shared connections)
+- [Community 716](Community_716.md) (9 shared connections)
+- [Community 953](Community_953.md) (5 shared connections)
+- [Community 954](Community_954.md) (3 shared connections)
+- [Community 119](Community_119.md) (2 shared connections)
+- [Community 1028](Community_1028.md) (1 shared connections)
+- [Community 773](Community_773.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 45 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

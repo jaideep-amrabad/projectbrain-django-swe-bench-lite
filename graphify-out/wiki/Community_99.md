@@ -1,59 +1,68 @@
 # Community 99
 
-> 52 nodes · cohesion 0.05
+> 92 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **fields/ranges.py** (34 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **RangeField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **ContinuousRangeField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **AttributeSetter** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
-- **DateTimeRangeContains** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **RangeContainedBy** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **AdjacentToLookup** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **BigIntegerRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **DateRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **DateTimeRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **DecimalRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **IntegerRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **NotLessThan** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **RangeEndsWith** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **RangeStartsWith** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **fields/utils.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
-- **.value_to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **.db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **IsEmpty** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **LowerInclusive** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **LowerInfinite** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **.get_prep_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- *... and 27 more nodes in this community*
+- **file_uploads/views.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **JsonResponse** (32 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **FileUploadHandler** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **HttpResponseServerError** (13 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **file_uploads/uploadhandler.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **StopUpload** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **TemporaryFileUploadHandler** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **DirectoryCreationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **QuotaUploadHandler** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **JsonResponseTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **FileModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
+- **TraversalUploadHandler** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **StopUploadTemporaryFileHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **ErroringUploadHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **file_upload_echo()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_view_verify()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **.test_readonly_root()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **file_upload_filename_case_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_quota()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_quota_broken()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_unicode_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **CustomUploadError** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **file_uploads/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/urls.py`
+- **file_stop_upload_temporary_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- *... and 67 more nodes in this community*
 
 ## Relationships
 
-- [Community 633](Community_633.md) (9 shared connections)
-- [Community 168](Community_168.md) (9 shared connections)
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 174](Community_174.md) (2 shared connections)
-- [Community 111](Community_111.md) (2 shared connections)
-- [Community 312](Community_312.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
+- [Community 1](Community_1.md) (12 shared connections)
+- [Community 23](Community_23.md) (10 shared connections)
+- [Community 5](Community_5.md) (7 shared connections)
+- [Community 11](Community_11.md) (7 shared connections)
+- [Community 204](Community_204.md) (6 shared connections)
+- [Community 206](Community_206.md) (3 shared connections)
+- [Community 110](Community_110.md) (2 shared connections)
+- [Community 53](Community_53.md) (2 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 259](Community_259.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 176](Community_176.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 93 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 191 (94%)
+- INFERRED: 12 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

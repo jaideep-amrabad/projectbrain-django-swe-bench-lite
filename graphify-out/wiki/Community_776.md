@@ -1,33 +1,36 @@
 # Community 776
 
-> 9 nodes · cohesion 0.22
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **.assertMessageHasHeaders()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_encoding()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **HeadersCheckMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_custom_utf8_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_message_header_overrides()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Specifying dates or message-ids in the extra headers overrides the default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Asserts that the `message` has all `headers`. message: can be an instance of an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Regression for #12791 - Encode body correctly with other encodings than utf-8** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **A UTF-8 charset with a custom body encoding is respected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **DefaultNonExpiringCacheKeyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_caches_set_with_timeout_as_none_has_correct_default_timeout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_caches_set_with_timeout_as_none_set_non_expiring_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_caches_with_unset_timeout_set_expiring_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_caches_with_unset_timeout_has_correct_default_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_default_expiration_time_for_keys_is_5_minutes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Memory caches that have the TIMEOUT parameter set to `None` in the default…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Settings having Cache arguments with a TIMEOUT=None create Caches that will set…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **The default expiration time of a cache key is 5 minutes. This value is defined…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Caches that have the TIMEOUT parameter undefined in the default settings will…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Memory caches that have the TIMEOUT parameter unset will set cache keys having…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 182](Community_182.md) (7 shared connections)
-- [Community 378](Community_378.md) (3 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 434](Community_434.md) (1 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

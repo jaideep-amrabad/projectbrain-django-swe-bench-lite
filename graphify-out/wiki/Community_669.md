@@ -1,43 +1,39 @@
 # Community 669
 
-> 14 nodes · cohesion 0.22
+> 16 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **TypedChoiceField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **TypedChoiceFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **test_typedchoicefield.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **._coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_typedchoicefield_special_coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_5()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_6()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **Validate that the value can be coerced to the right type (if not empty).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **A coerce function which results in a value not present in choices should raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **ParsingTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.parse_definition()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.assertConstraint()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **IntrospectionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_check_and_unique_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_check_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_check_column_with_operators_and_functions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_check_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_unique_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_unique_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_unique_constraint_multicolumn()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.test_get_primary_key_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **skipUnless** (2 connections)
+- **.test_get_primary_key_column_pk_constraint()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **Get the primary key column regardless of whether or not it has quotation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **Parse a column or constraint definition.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
 
 ## Relationships
 
-- [Community 55](Community_55.md) (4 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
-- [Community 109](Community_109.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 58](Community_58.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (74%)
-- INFERRED: 8 (26%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

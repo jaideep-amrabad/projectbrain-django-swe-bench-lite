@@ -1,64 +1,62 @@
 # Community 359
 
-> 38 nodes · cohesion 0.07
+> 32 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **operations/models.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **Operation** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **migrations/utils.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- **operations/fields.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **resolve_relation()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- **field_references()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- **operations/base.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **special.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **get_references()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- **field_is_referenced()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- **more_operations.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
-- **.references_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.allow_migrate_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.describe()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.migration_name_fragment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.state_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Return True if there is a chance this operation references the given model name…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- *... and 13 more nodes in this community*
+- **SettingsTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.settings()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **clear_script_prefix()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **MediaURLStaticURLPrefixTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.set_script_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_add_script_name_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_not_prefixed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_nested()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_context_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_incorrect_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.disable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_class_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_no_secret_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_doesnt_leak()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_settings_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_settings_delete_wrapped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_signal_callback_context_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_signal_callback_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **Unset the script prefix for the current thread.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **patch** (1 connections)
+- **requires_tz_support** (1 connections)
+- **Allow deletion of a setting in an overridden settings set (#18824)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **override_settings uses the actual _wrapped attribute at runtime, not when it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 215](Community_215.md) (13 shared connections)
-- [Community 5](Community_5.md) (7 shared connections)
-- [Community 586](Community_586.md) (7 shared connections)
-- [Community 523](Community_523.md) (7 shared connections)
-- [Community 407](Community_407.md) (7 shared connections)
-- [Community 561](Community_561.md) (5 shared connections)
-- [Community 108](Community_108.md) (5 shared connections)
-- [Community 132](Community_132.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 162](Community_162.md) (4 shared connections)
-- [Community 511](Community_511.md) (3 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
+- [Community 7](Community_7.md) (8 shared connections)
+- [Community 10](Community_10.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 186](Community_186.md) (4 shared connections)
+- [Community 398](Community_398.md) (3 shared connections)
+- [Community 427](Community_427.md) (1 shared connections)
+- [Community 297](Community_297.md) (1 shared connections)
+- [Community 285](Community_285.md) (1 shared connections)
+- [Community 862](Community_862.md) (1 shared connections)
+- [Community 648](Community_648.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 146 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 54 (74%)
+- INFERRED: 19 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

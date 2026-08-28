@@ -1,39 +1,36 @@
 # Community 796
 
-> 11 nodes · cohesion 0.20
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **.build_suite()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.load_tests_for_label()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **._get_databases()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.setup_shuffler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **partition_suite_by_case()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.load_with_patterns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **find_top_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Partition a test suite by test case, preserving the order of tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Log the message at the given logging level (the default is INFO). If a logger…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **XMLEqualTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_comment_root()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_doctype_root()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_parsing_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_processing_instruction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_raises_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_unordered()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_with_leading_or_trailing_whitespace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal_with_whitespace_in_the_middle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 102](Community_102.md) (8 shared connections)
-- [Community 372](Community_372.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 368](Community_368.md) (1 shared connections)
-- [Community 519](Community_519.md) (1 shared connections)
-- [Community 508](Community_508.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

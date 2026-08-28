@@ -1,53 +1,45 @@
 # Community 592
 
-> 18 nodes · cohesion 0.15
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ExceptionReporter** (58 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **builtin_template_path()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_exception_traceback_frames()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **._get_lines_from_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_traceback_frames()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **._get_explicit_or_implicit_cause()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **CustomExceptionReporter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
-- **CustomExceptionReporter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **._get_source()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.html_template_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.text_template_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **TemplateOverrideExceptionReporter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **Organize and coordinate reporting on exceptions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Return a path to a builtin template. Avoid calling this function at the module…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Return context_lines before and after lineno from file. Return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_traceback_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
-- **.get_traceback_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **JsonSerializerTestCase** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_custom_encoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_helpful_error_message_for_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_helpful_error_message_for_many2many_natural1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_helpful_error_message_for_many2many_natural2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_helpful_error_message_for_many2many_non_natural()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_helpful_error_message_for_many2many_not_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_helpful_error_message_invalid_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_helpful_error_message_invalid_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **Invalid many-to-many keys should throw a helpful error message. This tests the…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_json_deserializer_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **If there is an invalid primary key, the error message should contain the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **If there is an invalid field value, the error message should contain the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **Invalid foreign keys with a natural key should throw a helpful error message,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **Invalid many-to-many keys should throw a helpful error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **Not iterable many-to-many field value throws a helpful error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
 
 ## Relationships
 
-- [Community 534](Community_534.md) (15 shared connections)
-- [Community 59](Community_59.md) (9 shared connections)
-- [Community 785](Community_785.md) (9 shared connections)
-- [Community 903](Community_903.md) (5 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 1097](Community_1097.md) (2 shared connections)
-- [Community 1089](Community_1089.md) (2 shared connections)
-- [Community 1038](Community_1038.md) (2 shared connections)
-- [Community 1098](Community_1098.md) (2 shared connections)
-- [Community 1248](Community_1248.md) (1 shared connections)
-- [Community 1249](Community_1249.md) (1 shared connections)
-- [Community 1250](Community_1250.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 372](Community_372.md) (1 shared connections)
+- [Community 1030](Community_1030.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

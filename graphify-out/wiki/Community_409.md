@@ -1,56 +1,42 @@
 # Community 409
 
-> 36 nodes · cohesion 0.06
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **BaseEmailBackend** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **EmailBackend** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **EmailBackend** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **EmailBackend** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- **.close()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **custombackend.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
-- **EmailBackend** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
-- **.send_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **EmailBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
-- **._get_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **.send_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **.write_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **.send_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- **ConsoleEmailBackend** (1 connections)
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **Open a network connection. This method can be overwritten by backend…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **Close a network connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **Base class for email backend implementations. Subclasses must at least…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **Send one or more EmailMessage objects and return the number of email messages…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- *... and 11 more nodes in this community*
+- **get_script_name()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **get_bytes_from_wsgi()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **get_str_from_wsgi()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **ScriptNameTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.COOKIES()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.GET()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.test_get_script_name_double_slashes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Get a value from the WSGI environ dictionary as bytes. key and default should…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.test_get_script_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Return the equivalent of the HTTP request's SCRIPT_NAME environment variable.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **WSGI squashes multiple successive slashes in PATH_INFO, get_script_name should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Relationships
 
-- [Community 81](Community_81.md) (8 shared connections)
-- [Community 15](Community_15.md) (5 shared connections)
-- [Community 208](Community_208.md) (2 shared connections)
-- [Community 181](Community_181.md) (1 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 101](Community_101.md) (3 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 301](Community_301.md) (1 shared connections)
+- [Community 209](Community_209.md) (1 shared connections)
+- [Community 315](Community_315.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 30 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

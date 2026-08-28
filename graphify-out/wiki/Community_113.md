@@ -1,72 +1,62 @@
 # Community 113
 
-> 76 nodes · cohesion 0.04
+> 78 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **ignore_warnings** (129 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **RemovedInDjango50Warning** (129 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **AssertFormErrorTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **geoadmin_deprecated/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
-- **FloatFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **GeoAdminTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
-- **PickleSerializer** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **test_deprecation_forms.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
-- **test_functional.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
-- **geoadmin_deprecated/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/models.py`
-- **test_datetime_safe.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **test_use_l10n.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
-- **DeprecationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
-- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/models.py`
-- **DeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
-- **PickleSerializerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.setUpClass()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **DeprecationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
-- **geoadmin_deprecated/admin.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/admin.py`
-- **.test_decimalfield_support_decimal_separator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **.test_decimalfield_support_thousands_separator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **UnmodifiableAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/admin.py`
-- **.test_olwidget_has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
-- **.test_serializer_loads_dumps()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serializer_protocol()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- *... and 51 more nodes in this community*
+- **MigrationAutodetector** (70 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._detect_changes()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.add_operation()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **resolve_relation()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- **.generate_altered_fields()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._get_dependencies_for_foreign_key()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.through()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.generate_created_models()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.deep_deconstruct()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_renamed_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._sort_migrations()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._build_migration_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.changes()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_added_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_altered_foo_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_deleted_models()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_removed_altered_foo_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_through_model_map()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._get_altered_foo_together_operations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.parse_number()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._resolve_dependency()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.arrange_for_graph()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.check_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.create_renamed_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_added_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- *... and 53 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (20 shared connections)
-- [Community 4](Community_4.md) (16 shared connections)
-- [Community 115](Community_115.md) (14 shared connections)
-- [Community 294](Community_294.md) (10 shared connections)
-- [Community 117](Community_117.md) (9 shared connections)
-- [Community 1](Community_1.md) (9 shared connections)
-- [Community 15](Community_15.md) (8 shared connections)
-- [Community 341](Community_341.md) (8 shared connections)
-- [Community 13](Community_13.md) (8 shared connections)
-- [Community 7](Community_7.md) (8 shared connections)
-- [Community 14](Community_14.md) (7 shared connections)
-- [Community 20](Community_20.md) (6 shared connections)
+- [Community 8](Community_8.md) (10 shared connections)
+- [Community 138](Community_138.md) (7 shared connections)
+- [Community 133](Community_133.md) (6 shared connections)
+- [Community 526](Community_526.md) (4 shared connections)
+- [Community 27](Community_27.md) (3 shared connections)
+- [Community 149](Community_149.md) (2 shared connections)
+- [Community 229](Community_229.md) (1 shared connections)
+- [Community 1189](Community_1189.md) (1 shared connections)
+- [Community 395](Community_395.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_l10n.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_deprecation_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin_deprecated/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 329 (82%)
-- INFERRED: 72 (18%)
+- EXTRACTED: 185 (92%)
+- INFERRED: 17 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

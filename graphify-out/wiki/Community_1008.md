@@ -1,27 +1,29 @@
 # Community 1008
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **IntrospectionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_get_primary_key_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **skipUnless** (2 connections)
-- **.test_get_primary_key_column_pk_constraint()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **Get the primary key column regardless of whether or not it has quotation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **TestCreateSuperUserSignals** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **Simple test case for ticket #20541** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.post_save_listener()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_create_superuser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_create_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 808](Community_808.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,34 +1,34 @@
 # Community 876
 
-> 9 nodes · cohesion 0.39
+> 10 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **m2m_intermediary/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
-- **m2m_intermediary/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **M2MIntermediaryTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
-- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **Writer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **.test_intermediary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
-- **Many-to-many relationships via an intermediary table For many-to-many…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **DatabaseCreation** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **.is_in_memory_db()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **.get_test_db_clone_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **.test_db_signature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **._clone_test_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **._create_test_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **._get_test_db_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **._destroy_test_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **.setup_worker_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **Return a tuple that uniquely identifies a test database. This takes into…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 312](Community_312.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 278](Community_278.md) (1 shared connections)
+- [Community 662](Community_662.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (81%)
-- INFERRED: 4 (19%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

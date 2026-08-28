@@ -1,37 +1,45 @@
 # Community 789
 
-> 11 nodes · cohesion 0.24
+> 13 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **UserAttributeSimilarityValidator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **UserAttributeSimilarityValidatorTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **exceeds_maximum_length_ratio()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.test_validate_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **Test that value is within a reasonable range of password. The following ratio…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **Validate that the password is sufficiently different from the user's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.get_help_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **model_regress/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **model_regress/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **NonAutoPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **ModelValidationTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Model1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Model2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Model3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Party** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **.test_pk_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **Movie** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- **# NOTE: Part of the regression test here is merely parsing the model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (4 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
+- [Community 621](Community_621.md) (8 shared connections)
+- [Community 892](Community_892.md) (6 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 44 (88%)
+- INFERRED: 6 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

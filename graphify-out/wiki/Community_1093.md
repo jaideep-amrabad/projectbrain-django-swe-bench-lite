@@ -1,24 +1,29 @@
 # Community 1093
 
-> 3 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_view_with_force_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_view_with_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that is protected with…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **check_csrf_trusted_origins()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/compatibility/django_4_0.py`
+- **CheckCSRFTrustedOrigins** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_4_0_compatibility.py`
+- **.test_invalid_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_4_0_compatibility.py`
+- **.test_valid_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_4_0_compatibility.py`
+- **register** (1 connections)
 
 ## Relationships
 
-- [Community 500](Community_500.md) (2 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/compatibility/django_4_0.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_4_0_compatibility.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

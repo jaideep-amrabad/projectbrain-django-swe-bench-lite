@@ -1,39 +1,40 @@
 # Community 746
 
-> 13 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **TestSaveLoad** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **UUIDModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_null_handling()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_pk_validated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_str_instance_bad_hyphens()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_str_instance_hyphens()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_str_instance_no_hyphens()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_uuid_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_wrong_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_nullable_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **urls/converters.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **IntConverter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **StringConverter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **get_converter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **UUIDConverter** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **get_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **PathConverter** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **SlugConverter** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 188](Community_188.md) (2 shared connections)
-- [Community 745](Community_745.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 44](Community_44.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 391](Community_391.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (81%)
-- INFERRED: 4 (19%)
+- EXTRACTED: 23 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

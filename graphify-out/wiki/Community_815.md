@@ -1,34 +1,35 @@
 # Community 815
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **M2mThroughFieldsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_explicit_field_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_invalid_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_invalid_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_field_argument_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_intersection_foreign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_superset_foreign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **ManyToManyField accepts the ``through_fields`` kwarg only if an intermediary…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **Mixing up the order of link fields to ManyToManyField.through_fields triggers…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **Providing invalid field names to ManyToManyField.through_fields triggers…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **If ``through_fields`` kwarg is given, it must specify both link fields of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **UnprefixedDefaultLanguageTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_default_lang_without_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_no_redirect_on_404()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_unprefixed_language_with_accept_language()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_unprefixed_language_with_cookie_language()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **With i18n_patterns(..., prefix_default_language=False), the default language…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **Accept-Language' is respected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **A language set in the cookies is respected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **A request for a nonexistent URL shouldn't cause a redirect to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_other_lang_with_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_page_with_dash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_unprefixed_language_with_non_valid_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
 
 ## Relationships
 
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

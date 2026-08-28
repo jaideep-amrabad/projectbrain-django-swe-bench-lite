@@ -1,25 +1,30 @@
 # Community 1109
 
-> 2 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.distinct_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return an SQL DISTINCT clause which removes duplicate rows from the result set.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **ManagerTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_manager_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_manager_method_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_manager_method_signature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **This test ensures that the correct set of methods from `QuerySet` are copied…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 327](Community_327.md) (1 shared connections)
+- [Community 439](Community_439.md) (2 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 611](Community_611.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (78%)
+- INFERRED: 2 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

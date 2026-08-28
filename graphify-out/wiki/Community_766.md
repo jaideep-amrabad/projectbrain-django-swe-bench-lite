@@ -1,51 +1,45 @@
 # Community 766
 
-> 20 nodes · cohesion 0.14
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **watch_for_translation_changes()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
-- **WatchForTranslationChangesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **reloader.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
-- **translation_file_changed()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
-- **TranslationFileChangedTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **is_django_module()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Trans** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.__getattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.test_i18n_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_ignores_non_mo_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_resets_cache_with_mo_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_app_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_app_dirs_ignore_django_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_enabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_local_locale()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_locale_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **Return True if the given module is nested under Django.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **The purpose of this class is to store the actual translation function upon…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **Register file watchers for .mo files in potential locale paths.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
-- **Clear the internal translations cache if a .mo file is modified.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
+- **ConnectionHandler** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **ConnectionHandlerTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_no_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.assertImproperlyConfigured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_connection_handler_no_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_makemigrations_empty_connections()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **.configure_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.create_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.test_databases_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_no_default_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_nonexistent_alias()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **Ensure runserver.check_migrations doesn't choke on empty DATABASES.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Empty DATABASES and empty 'default' settings default to the dummy backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
 
 ## Relationships
 
-- [Community 92](Community_92.md) (6 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 170](Community_170.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 545](Community_545.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 510](Community_510.md) (1 shared connections)
+- [Community 219](Community_219.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 32 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

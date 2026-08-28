@@ -1,43 +1,51 @@
 # Community 566
 
-> 19 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **BasicTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_swappable_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_swappable_user_bad_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_swappable_user_nonexistent_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_get_user_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_superuser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_user_no_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_user_verbose_names_translatable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_superuser_no_email_or_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_unicode_username()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **The current user model must point to an installed model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Default User model verbose names are translatable (#19945)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Users can be created and can set their password** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Users can be created without an email** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Check the creation and properties of a superuser** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **The current user model can be retrieved** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **The current user model can be swapped out for another** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **The alternate user setting must point to something in the format app.model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **NullableJSONModel** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestSaveLoad** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **JSONModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **JSONFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **TestSerialization** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **AbstractPersonWithHeight** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_json_null_different_from_sql_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_primitives()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_custom_encoder_decoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_xml_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **Abstract model that defines an ImageField with only one dimension field to make…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_db_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_invalid_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_realistic_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 21](Community_21.md) (4 shared connections)
+- [Community 83](Community_83.md) (2 shared connections)
+- [Community 259](Community_259.md) (2 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 537](Community_537.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 39 (81%)
+- INFERRED: 9 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,24 +1,28 @@
 # Community 1149
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_dump_and_load_m2m_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Test serializing and deserializing back models with simple M2M relations** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **SimpleDatabaseClientTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
+- **.test_runshell_use_environ()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
+- **.test_settings_to_cmd_args_env()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
 
 ## Relationships
 
-- [Community 330](Community_330.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

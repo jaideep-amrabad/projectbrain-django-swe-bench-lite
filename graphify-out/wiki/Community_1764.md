@@ -1,27 +1,22 @@
 # Community 1764
 
-> 4 nodes · cohesion 0.50
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **Tests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **skipUnless** (2 connections)
-- **.test_check_database_version_supported()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **object** (1 connections)
+- **select_related_regress/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/__init__.py`
 
 ## Relationships
 
-- [Community 673](Community_673.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

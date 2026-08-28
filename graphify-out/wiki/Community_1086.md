@@ -1,27 +1,28 @@
 # Community 1086
 
-> 6 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **DummyArrayField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **DummyContinuousRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **TestSerializedRollbackInhibitsPostMigrate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **patch** (1 connections)
+- **TransactionTestCase._fixture_teardown() inhibits the post_migrate signal for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

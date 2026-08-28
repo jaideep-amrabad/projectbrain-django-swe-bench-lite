@@ -1,59 +1,50 @@
 # Community 542
 
-> 35 nodes · cohesion 0.09
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Round** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **RoundTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **Log** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Mod** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **FixDecimalInputMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
-- **LogTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_log.py`
-- **ModTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
-- **.as_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
-- **.test_decimal_with_precision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_float_with_precision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_unsupported_negative_precision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_log.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_log.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_log.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_log.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_decimal_with_negative_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_float_with_negative_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_integer_with_negative_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- *... and 10 more nodes in this community*
+- **TestModelDetailView** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_model_with_no_backward_relations_render_only_relevant_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_app_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_descriptions_render_correctly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_instance_of_cached_property_methods_are_displayed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_instance_of_property_methods_are_displayed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_method_excludes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_methods_with_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_methods_with_arguments_display_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_methods_with_arguments_display_arguments_default_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_methods_with_multiple_arguments_display_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_model_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_model_with_many_to_one()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **Methods that begin with strings defined in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **Methods that take arguments should also displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **Methods with arguments should have their arguments displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **Methods with keyword arguments should have their arguments displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **Methods with multiple arguments should have all their arguments displayed, but…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **Model properties are displayed as fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **Model cached properties are displayed as fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **The ``description`` field should render correctly for each field type.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **A model with ``related_name`` of `+` shouldn't show backward relationship links.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_model_detail_title()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_model_docstring_renders_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (18 shared connections)
-- [Community 14](Community_14.md) (5 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 864](Community_864.md) (1 shared connections)
-- [Community 65](Community_65.md) (1 shared connections)
-- [Community 183](Community_183.md) (1 shared connections)
-- [Community 194](Community_194.md) (1 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
+- [Community 14](Community_14.md) (7 shared connections)
+- [Community 48](Community_48.md) (5 shared connections)
+- [Community 698](Community_698.md) (1 shared connections)
+- [Community 1174](Community_1174.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_log.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 82 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 35 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

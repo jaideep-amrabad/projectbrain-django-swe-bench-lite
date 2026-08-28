@@ -1,57 +1,55 @@
 # Community 369
 
-> 31 nodes · cohesion 0.11
+> 43 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **check_framework/test_templates.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **check_for_template_tags_with_the_same_name()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
-- **CheckTemplateTagLibrariesWithSameName** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **check_string_if_invalid_is_string()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
-- **get_template_tag_modules()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **CheckTemplateStringIfInvalidTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **check_setting_app_dirs_loaders()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
-- **get_package_libraries()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **CheckTemplateSettingsAppDirsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.get_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_template_tags_with_same_library_name_and_module_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **get_installed_libraries()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.test_app_dirs_and_loaders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_template_tags_same_library_in_installed_apps_libraries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **register** (3 connections)
-- **.test_string_if_invalid_not_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_template_tags_with_different_library_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_template_tags_with_different_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_template_tags_with_same_library_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_template_tags_with_same_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_app_dirs_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_loaders_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_string_if_invalid_both_are_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- *... and 6 more nodes in this community*
+- **Author** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **Book** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **DirectPrefetchedObjectCacheReuseTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **MultiTableInheritanceTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **MultiDbTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **ForeignKeyToFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **BookWithYear** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **RawQuerySetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **ReadPrefetchedObjectsCacheTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **TestDataMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **AuthorWithAge** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **Ticket21410Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_detect_is_fetched()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_retrieves_results_from_prefetched_objects_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_add_clears_prefetched_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_detect_is_fetched_with_to_attr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_reverse_foreign_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_remove_clears_prefetched_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_using_is_honored_custom_qs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_child_link_prefetch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreignkey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 95](Community_95.md) (6 shared connections)
-- [Community 142](Community_142.md) (4 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 371](Community_371.md) (1 shared connections)
-- [Community 239](Community_239.md) (1 shared connections)
+- [Community 72](Community_72.md) (26 shared connections)
+- [Community 339](Community_339.md) (8 shared connections)
+- [Community 268](Community_268.md) (7 shared connections)
+- [Community 35](Community_35.md) (7 shared connections)
+- [Community 325](Community_325.md) (4 shared connections)
+- [Community 806](Community_806.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
-- `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 71 (65%)
+- INFERRED: 38 (35%)
 - AMBIGUOUS: 0 (0%)
 
 ---

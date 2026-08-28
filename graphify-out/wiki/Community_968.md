@@ -1,30 +1,32 @@
 # Community 968
 
-> 6 nodes · cohesion 0.47
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **addslashes()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_addslashes.py`
-- **.test_backslashes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_addslashes.py`
-- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_addslashes.py`
-- **.test_quotes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_addslashes.py`
-- **Add slashes before quotes. Useful for escaping strings in CSV, for example.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **ChildNullableParent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **First** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **ToFieldChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- **.test_fk_assignment_and_related_object_cache()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **.test_save_nullable_fk_after_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- **.test_save_nullable_fk_after_parent_with_to_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 177](Community_177.md) (2 shared connections)
+- [Community 587](Community_587.md) (10 shared connections)
+- [Community 403](Community_403.md) (8 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_addslashes.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (80%)
+- INFERRED: 5 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

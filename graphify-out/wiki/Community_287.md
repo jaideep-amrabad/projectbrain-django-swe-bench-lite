@@ -1,55 +1,65 @@
 # Community 287
 
-> 40 nodes · cohesion 0.07
+> 35 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **DatabaseOperations** (45 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **._convert_tznames_to_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.quote_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **._quote_params_for_last_executed_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.sequence_reset_by_name_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.sql_flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.bulk_batch_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.check_expression_support()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.combine_duration_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.date_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.datetime_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.fetch_returned_insert_rows()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.format_for_duration_arithmetic()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.get_db_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.get_decimalfield_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.last_executed_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.return_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.time_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.bulk_insert_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- *... and 15 more nodes in this community*
+- **NumericOutputFieldMixin** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- **Random** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Degrees** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Mod** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Power** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Tan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **DegreesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
+- **TanTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
+- **ModTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
+- **PowerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
+- **RandomTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_random.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
+- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_random.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 210](Community_210.md) (2 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 327](Community_327.md) (1 shared connections)
-- [Community 637](Community_637.md) (1 shared connections)
-- [Community 698](Community_698.md) (1 shared connections)
+- [Community 12](Community_12.md) (22 shared connections)
+- [Community 306](Community_306.md) (5 shared connections)
+- [Community 35](Community_35.md) (5 shared connections)
+- [Community 34](Community_34.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 16](Community_16.md) (3 shared connections)
+- [Community 85](Community_85.md) (2 shared connections)
+- [Community 636](Community_636.md) (1 shared connections)
+- [Community 992](Community_992.md) (1 shared connections)
+- [Community 993](Community_993.md) (1 shared connections)
+- [Community 994](Community_994.md) (1 shared connections)
+- [Community 1050](Community_1050.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_random.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (95%)
-- INFERRED: 3 (5%)
+- EXTRACTED: 101 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

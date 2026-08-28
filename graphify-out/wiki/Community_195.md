@@ -1,59 +1,63 @@
 # Community 195
 
-> 78 nodes · cohesion 0.03
+> 61 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Queries1Tests** (99 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_excluded_intermediary_m2m_table_joined()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket_20250()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_common_mixed_case_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_double_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_exclude_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_filter_by_related_field_nested_transforms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_filter_by_related_field_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_nested_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_order_by_join_unref()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket10742()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket17429()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket19672()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket2306()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket3037()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket6074()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket6154()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket7096()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket7235()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket7277()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket8439()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket_10790_8()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_tickets_2080_3592()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_tickets_5324_6704()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- *... and 53 more nodes in this community*
+- **RequestFactory** (93 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.generic()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **AsyncRequestFactory** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.request()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **RequestFactoryStateTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.request()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.generic()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **ReverseLazyTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.request()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._encode_json()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **RequestFactoryEnvironmentTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **._base_environ()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.post()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **store_rendered_templates()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.common_test_that_should_always_pass()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.to_wsgi_names()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **._base_scope()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.check_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._encode_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.head()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.patch()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.put()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [Community 19](Community_19.md) (18 shared connections)
-- [Community 79](Community_79.md) (14 shared connections)
-- [Community 721](Community_721.md) (2 shared connections)
-- [Community 354](Community_354.md) (2 shared connections)
-- [Community 168](Community_168.md) (2 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 293](Community_293.md) (1 shared connections)
-- [Community 515](Community_515.md) (1 shared connections)
+- [Community 4](Community_4.md) (17 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 101](Community_101.md) (6 shared connections)
+- [Community 110](Community_110.md) (5 shared connections)
+- [Community 10](Community_10.md) (5 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 315](Community_315.md) (4 shared connections)
+- [Community 161](Community_161.md) (4 shared connections)
+- [Community 51](Community_51.md) (3 shared connections)
+- [Community 91](Community_91.md) (3 shared connections)
+- [Community 63](Community_63.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 104 (83%)
-- INFERRED: 21 (17%)
+- EXTRACTED: 197 (97%)
+- INFERRED: 7 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

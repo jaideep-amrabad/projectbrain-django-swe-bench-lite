@@ -1,68 +1,60 @@
 # Community 65
 
-> 110 nodes · cohesion 0.03
+> 115 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **Transform** (17 connections)
-- **Cot** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Degrees** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Radians** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **ACos** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **ASin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **ATan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Ceil** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Cos** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Exp** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Floor** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Ln** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Sin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Sqrt** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Tan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Sign** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **ACosTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- **ASinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
-- **ATanTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
-- **CeilTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- **CosTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
-- **CotTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
-- **DegreesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
-- **ExpTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
-- **FloorTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
-- *... and 85 more nodes in this community*
+- **GenericRelationsTests** (69 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **generic_relations/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **generic_relations/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **TaggedItem** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ProxyRelatedModelTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **ForProxyModelModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Mineral** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Animal** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Comparison** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ProxyRelatedModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Vegetable** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **AllowsNullGFK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ConcreteRelatedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ForConcreteModelModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Gecko** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **Rock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ValuableRock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **TestInitWithNoneArgument** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **Carrot** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ManualPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **ValuableTaggedItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **.test_unsaved_generic_foreign_key_parent_bulk_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **AbstractComparison** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **TaggedItemForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_assign_content_object_in_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- *... and 90 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (75 shared connections)
-- [Community 168](Community_168.md) (15 shared connections)
-- [Community 14](Community_14.md) (12 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 864](Community_864.md) (1 shared connections)
-- [Community 542](Community_542.md) (1 shared connections)
+- [Community 189](Community_189.md) (14 shared connections)
+- [Community 4](Community_4.md) (12 shared connections)
+- [Community 521](Community_521.md) (7 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sign.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sqrt.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 259 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 185 (84%)
+- INFERRED: 36 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

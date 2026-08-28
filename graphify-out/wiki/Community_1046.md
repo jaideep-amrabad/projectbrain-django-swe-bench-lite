@@ -4,27 +4,24 @@
 
 ## Key Concepts
 
-- **compare_xml()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.assertXMLEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertXMLNotEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that two XML snippets are semantically the same. Whitespace in most…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that two XML snippets are not semantically equivalent. Whitespace in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Try to do a 'xml-comparison' of want and got. Plain string comparison doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.constraint_checks_disabled()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.disable_constraint_checking()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.enable_constraint_checking()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Disable foreign key constraint checking.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Backends can implement as needed to temporarily disable foreign key constraint…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Backends can implement as needed to re-enable foreign key constraint checking.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 223](Community_223.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

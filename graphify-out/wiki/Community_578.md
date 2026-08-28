@@ -1,50 +1,47 @@
 # Community 578
 
-> 18 nodes · cohesion 0.12
+> 19 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **CustomJSONDecoder** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestValidation** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **ImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **TestImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestFormField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_invalid_decoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_invalid_encoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **ImageFile** (1 connections)
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.as_uuid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **Custom Field File class that records whether or not the underlying file was…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.open()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_formfield_custom_encoder_decoder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_custom_encoder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_validation_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **BrokenLinkEmailsMiddleware** (16 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **BrokenLinkEmailsMiddlewareTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.process_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **.is_ignorable_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **.is_internal_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **.test_referer_equal_to_requested_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_referer_equal_to_requested_url_without_trailing_slash_with_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_referer_equal_to_requested_url_without_trailing_slash_with_no_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_404_error_reporting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_404_error_reporting_ignored_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_404_error_reporting_no_referer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_referer_equal_to_requested_url_on_another_domain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Send broken link emails for relevant 404 NOT FOUND responses.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **Return True if the referring URL is the same domain as the current request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **Return True if the given request *shouldn't* notify the site managers according…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **.get_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_custom_request_checker()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Some bots set the referer to the current URL to avoid being blocked by an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Relationships
 
-- [Community 188](Community_188.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 44](Community_44.md) (3 shared connections)
-- [Community 326](Community_326.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 588](Community_588.md) (1 shared connections)
-- [Community 844](Community_844.md) (1 shared connections)
-- [Community 193](Community_193.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 118](Community_118.md) (2 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 237](Community_237.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (80%)
-- INFERRED: 7 (20%)
+- EXTRACTED: 37 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

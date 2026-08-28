@@ -1,68 +1,75 @@
 # Community 142
 
-> 73 nodes · cohesion 0.05
+> 78 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Warning** (70 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **check_framework/test_security.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **test_model_checks.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **ModelDefaultAutoFieldTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **test_caches.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **check_cache_location_not_exposed()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
-- **sessions.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
-- **DuplicateDBTableTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **CheckSecretKeyFallbacksTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **CheckCacheLocationTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **check_file_based_cache_is_absolute()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
-- **.get_settings()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **._check_pattern_startswith_slash()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **check_default_cache_is_configured()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
-- **.test_collision_across_apps_database_routers_installed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **check_session_cookie_httponly()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
-- **check_session_cookie_secure()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
-- **.describe()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **._check_include_trailing_dollar()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **CheckCacheAbsolutePath** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_cache_path_contains_media_static_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_cache_path_inside_media_static_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_cache_path_matches_media_static_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_staticfiles_dirs_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- *... and 48 more nodes in this community*
+- **gettext()** (71 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **timesince()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- **TimesinceTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **timeuntil()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- **yesno()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **utils_tests/test_timesince.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **timesince.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- **is_aware()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **filesizeformat()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **timesince_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **timeuntil_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **test_filesizeformat.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
+- **avoid_wrapping()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **feed()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/views.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_different_timezones()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_empty_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_date_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_maclines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_explicit_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_explicit_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_both_date_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- *... and 53 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (35 shared connections)
-- [Community 95](Community_95.md) (23 shared connections)
-- [Community 42](Community_42.md) (14 shared connections)
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 45](Community_45.md) (8 shared connections)
-- [Community 4](Community_4.md) (8 shared connections)
-- [Community 23](Community_23.md) (7 shared connections)
-- [Community 369](Community_369.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 184](Community_184.md) (4 shared connections)
-- [Community 582](Community_582.md) (3 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
+- [Community 10](Community_10.md) (23 shared connections)
+- [Community 11](Community_11.md) (21 shared connections)
+- [Community 53](Community_53.md) (16 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 18](Community_18.md) (6 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 50](Community_50.md) (4 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 60](Community_60.md) (3 shared connections)
+- [Community 214](Community_214.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/views.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/exclude/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/project_dir/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/project_dir/app_no_locale/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/project_dir/app_with_locale/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/unchanged/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
 
 ## Audit Trail
 
-- EXTRACTED: 254 (98%)
-- INFERRED: 5 (2%)
+- EXTRACTED: 243 (99%)
+- INFERRED: 3 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

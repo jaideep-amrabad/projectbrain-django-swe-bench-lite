@@ -1,50 +1,62 @@
 # Community 429
 
-> 19 nodes · cohesion 0.14
+> 27 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **create_default_site()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
-- **CreateDefaultSiteTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_basic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_custom_site_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_multi_db_with_router()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_no_site_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_save_another()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_unavailable_site_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_multi_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#15346, #15573 - create_default_site() creates an example site only if none…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#16353, #16828 - The default site creation should respect db routing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#17415 - Another site can be created right after the default one. On some…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#23641 - Sending the ``post_migrate`` signal triggers creation of the default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#23945 - The configured ``SITE_ID`` should be respected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#24488 - The pk should default to 1 if no ``SITE_ID`` is configured.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#24075 - A Site shouldn't be created if the model isn't available.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **RedirectView** (21 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.get()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **generic_urls.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/generic_urls.py`
+- **view_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **BaseArticle** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **UrlArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **.get_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **DateArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **.test_direct_instantiation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.head()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.patch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.post()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.put()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Provide a redirect on any GET request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Return the URL redirect to. Keyword arguments from the URL pattern match…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **It should be possible to use the view without going through .as_view() (#21564).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **Regression tests for Django built-in views.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **An abstract article Model so that we can create article models with and without…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **An Article class with a get_absolute_url defined.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 95](Community_95.md) (2 shared connections)
-- [Community 74](Community_74.md) (2 shared connections)
+- [Community 44](Community_44.md) (4 shared connections)
+- [Community 110](Community_110.md) (4 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 319](Community_319.md) (1 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
 - [Community 181](Community_181.md) (1 shared connections)
-- [Community 184](Community_184.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 289](Community_289.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 442](Community_442.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
-- `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/generic_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (90%)
-- INFERRED: 4 (10%)
+- EXTRACTED: 65 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

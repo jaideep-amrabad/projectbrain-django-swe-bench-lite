@@ -1,41 +1,43 @@
 # Community 626
 
-> 17 nodes · cohesion 0.26
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **StringLookupTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **string_lookup/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **string_lookup/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.test_string_form_referencing()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Foo** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Bar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **Whiz** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- **.test_ipaddress_on_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **.test_queries_on_textfields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **.test_unicode_chars_in_queries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Regression tests for #3937 make sure we can use unicode characters in queries.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Regression tests for #5087 make sure we can perform queries on TextFields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Regression test for #708 "like" queries on IP address fields require casting…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
-- **Regression test for #1661 and #1662 String form referencing of models works,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- **StaticTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_serve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_chunked()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_index_custom_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_invalid_if_modified_since()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_invalid_if_modified_since2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **Tests django views in django/views/static.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **The static view can serve static media** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **The static view should stream files in chunks to avoid large memory usage** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **Handle bogus If-Modified-Since values gracefully Assume that a file is modified…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **Handle even more bogus If-Modified-Since values gracefully Assume that a file…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_copes_with_empty_path_component()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_index_subdir()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_is_modified_since()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_not_modified_since()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_unknown_mime_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 176](Community_176.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/string_lookup/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/string_lookup/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (85%)
-- INFERRED: 6 (15%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

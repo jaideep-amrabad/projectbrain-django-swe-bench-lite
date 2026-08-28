@@ -1,28 +1,23 @@
 # Community 1763
 
-> 4 nodes · cohesion 0.50
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **SimpleDatabaseClientTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
-- **.test_runshell_use_environ()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
-- **.test_settings_to_cmd_args_env()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
+- **select_related_onetoone/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/__init__.py`
 
 ## Relationships
 
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_client.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 0 (0%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

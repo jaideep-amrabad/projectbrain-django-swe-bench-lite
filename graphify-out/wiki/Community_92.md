@@ -1,71 +1,64 @@
 # Community 92
 
-> 177 nodes · cohesion 0.02
+> 85 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **i18n/tests.py** (87 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **test/signals.py** (53 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- **trans_real.py** (48 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **receiver()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **FormattingTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **get_format()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **TranslationTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **date_format()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **get_language_info()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.test_l10n_disabled()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **time_format()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **to_locale()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **iter_format_modules()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **localize_input()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **check_for_language()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **translation()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **i18n/forms.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
-- **i18n/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
-- **.test_l10n_enabled()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **clear_url_caches()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **reset_format_cache()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- **get_language_from_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **get_supported_language_variant()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **CompanyForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
-- **Company** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
-- *... and 152 more nodes in this community*
+- **TestGeneralAggregate** (54 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **Aggregate** (33 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- **ArrayAgg** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **StringAgg** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **JSONBAgg** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **OrderableAggMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
+- **TestAggregateDistinct** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_default_argument()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_empty_result_set()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **AggregateTestModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **StatTestModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **.test_string_agg_array_agg_filter_in_subquery()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **BitAnd** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **BitOr** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **BitXor** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **DeprecatedConvertValueMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **.test_string_agg_array_agg_ordering_in_subquery()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **BoolAnd** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **BoolOr** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- **.test_array_agg_charfield_ordering()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_convert_value_deprecation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_jsonb_agg_charfield_ordering()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.test_string_agg_charfield_ordering()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- **.get_source_expressions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- **.test_array_agg_jsonfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- *... and 60 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (56 shared connections)
-- [Community 3](Community_3.md) (28 shared connections)
-- [Community 15](Community_15.md) (18 shared connections)
-- [Community 23](Community_23.md) (16 shared connections)
-- [Community 545](Community_545.md) (14 shared connections)
-- [Community 2](Community_2.md) (12 shared connections)
-- [Community 9](Community_9.md) (11 shared connections)
-- [Community 8](Community_8.md) (9 shared connections)
-- [Community 522](Community_522.md) (8 shared connections)
-- [Community 925](Community_925.md) (7 shared connections)
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 4](Community_4.md) (6 shared connections)
+- [Community 16](Community_16.md) (12 shared connections)
+- [Community 28](Community_28.md) (11 shared connections)
+- [Community 9](Community_9.md) (9 shared connections)
+- [Community 13](Community_13.md) (9 shared connections)
+- [Community 32](Community_32.md) (8 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 83](Community_83.md) (5 shared connections)
+- [Community 127](Community_127.md) (5 shared connections)
+- [Community 314](Community_314.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 165](Community_165.md) (3 shared connections)
+- [Community 21](Community_21.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- `raw/code/hyd-evaluation/django-django/django/test/signals.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 526 (97%)
-- INFERRED: 19 (3%)
+- EXTRACTED: 176 (67%)
+- INFERRED: 86 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

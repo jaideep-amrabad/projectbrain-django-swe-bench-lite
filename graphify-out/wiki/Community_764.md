@@ -1,44 +1,40 @@
 # Community 764
 
-> 12 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Ref** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.get_order_by()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.get_qualify_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Reference to column alias of the query. For example, Ref('sum_cost') in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.get_group_by_cols()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.get_source_expressions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.relabeled_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.resolve_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.set_source_expressions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **Return a list of 2-tuples of the form (expr, (sql, params, is_ref)) for the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **ManyToOneRel** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.remote_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.get_related_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.check_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
+- **.get_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **Return the Field in the 'to' object to which this relationship is tied.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.identity()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.set_field_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **Used by the ForeignKey field to store information about the relation.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
 
 ## Relationships
 
-- [Community 668](Community_668.md) (5 shared connections)
-- [Community 14](Community_14.md) (5 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 105](Community_105.md) (3 shared connections)
-- [Community 900](Community_900.md) (2 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 300](Community_300.md) (2 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
+- [Community 381](Community_381.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 19 (83%)
+- INFERRED: 4 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

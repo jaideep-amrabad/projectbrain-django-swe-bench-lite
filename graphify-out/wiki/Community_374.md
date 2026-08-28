@@ -1,56 +1,59 @@
 # Community 374
 
-> 31 nodes · cohesion 0.09
+> 30 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **MiscTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.g()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **get_language_from_request()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **CountrySpecificLanguageTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_support_for_deprecated_chinese_language_codes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_cache_resetting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_english_fallback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_language_from_path_real()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_supported_language_variant_real()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_patterns_returns_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_parse_language_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_special_fallback_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_subsequent_code_fallback_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_check_for_language()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_language_from_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_specific_language_codes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_language_from_path_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_supported_language_variant_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_parse_literal_http_header()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_parse_spec_http_header()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_plural_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **Hour, 12-hour format without leading zeros; i.e. '1' to '12** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Hour, 24-hour format without leading zeros; i.e. '0' to '23** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.test_check_for_language_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_get_language_from_request_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- *... and 6 more nodes in this community*
+- **BaseModelAdminChecks** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **.check()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **flatten()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **._check_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_fieldsets_item()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_filter_item()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_prepopulated_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_exclude()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_field_spec()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_fieldsets()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_filter_horizontal()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_filter_vertical()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_readonly_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_prepopulated_fields_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_field_spec_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_readonly_fields_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_view_on_site_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **.test_flatten()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **Check that `fields` only refer to existing fields, doesn't contain duplicates.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that fieldsets is properly formatted and doesn't contain duplicates.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check an item of `fieldsets`, i.e. check that this is a pair of a set name and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **`fields` should be an item of `fields` or an item of fieldset[1]['fields'] for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that exclude is a sequence without duplicates.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that filter_vertical is a sequence of field names.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that filter_horizontal is a sequence of field names.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 92](Community_92.md) (5 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 447](Community_447.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 753](Community_753.md) (11 shared connections)
+- [Community 331](Community_331.md) (10 shared connections)
+- [Community 1042](Community_1042.md) (4 shared connections)
+- [Community 1137](Community_1137.md) (3 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 683](Community_683.md) (2 shared connections)
+- [Community 983](Community_983.md) (2 shared connections)
+- [Community 43](Community_43.md) (2 shared connections)
+- [Community 60](Community_60.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (80%)
-- INFERRED: 12 (20%)
+- EXTRACTED: 85 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,59 @@
 # Community 117
 
-> 57 nodes · cohesion 0.10
+> 47 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **TestUtilsHashPass** (49 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **make_password()** (39 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **get_hasher()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **check_password()** (31 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **is_password_usable()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **identify_hasher()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **skipUnless** (12 connections)
-- **.test_crypt()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_sha1()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **TestUtilsHashPassArgon2** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_bcrypt()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_md5()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_unsalted_md5()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_unsalted_sha1()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **TestUtilsHashPassScrypt** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_bcrypt_sha256()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_bcrypt_upgrade()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_pbkdf2()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_argon2()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_bcrypt_harden_runtime()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_crypt_encode_invalid_hash()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_crypt_encode_invalid_salt()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_no_upgrade_on_incorrect_pass()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_unusable()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_upgrade()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- *... and 32 more nodes in this community*
+- **BaseForm** (39 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.full_clean()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **._bound_items()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.add_error()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **._clean_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **._clean_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.get_context()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.non_field_errors()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.add_initial_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.add_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.order_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **._post_clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.changed_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.hidden_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.is_multipart()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.is_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.visible_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.has_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (21 shared connections)
-- [Community 763](Community_763.md) (15 shared connections)
-- [Community 1](Community_1.md) (10 shared connections)
-- [Community 113](Community_113.md) (9 shared connections)
-- [Community 15](Community_15.md) (8 shared connections)
-- [Community 84](Community_84.md) (4 shared connections)
-- [Community 637](Community_637.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 62](Community_62.md) (2 shared connections)
-- [Community 1772](Community_1772.md) (1 shared connections)
-- [Community 1771](Community_1771.md) (1 shared connections)
-- [Community 1767](Community_1767.md) (1 shared connections)
+- [Community 50](Community_50.md) (8 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 249](Community_249.md) (2 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 560](Community_560.md) (1 shared connections)
+- [Community 224](Community_224.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 226](Community_226.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 234 (97%)
-- INFERRED: 8 (3%)
+- EXTRACTED: 75 (93%)
+- INFERRED: 6 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

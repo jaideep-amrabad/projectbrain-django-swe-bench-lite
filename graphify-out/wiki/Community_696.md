@@ -1,38 +1,32 @@
 # Community 696
 
-> 15 nodes · cohesion 0.13
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **GeometryCollection** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.add()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.point_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **MultiLineString** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **MultiPoint** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **MultiPolygon** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **The Geometry Collection class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Get the Geometry at the specified index.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the number of geometries in this Geometry Collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Add the geometry to this Geometry Collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the number of Points in this Geometry Collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return a tuple representation of this Geometry Collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **SerializeMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **TestSerializeMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
+- **TestSerializeMixinUse** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
+- **Enforce serialization of TestCases that share a common resource. Define a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init_subclass__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_init_without_lockfile()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
+- **.test_usage()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
 
 ## Relationships
 
-- [Community 75](Community_75.md) (6 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 537](Community_537.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_serializemixin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 14 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

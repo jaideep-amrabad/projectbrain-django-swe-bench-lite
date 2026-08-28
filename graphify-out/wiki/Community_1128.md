@@ -4,26 +4,29 @@
 
 ## Key Concepts
 
-- **OrderWrt** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **fields/proxy.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **Field-like classes that aren't really fields. It's easier to use objects that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
-- **A proxy for the _order database field that is used when…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
+- **CacheSessionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_load_overlong_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_non_default_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_create_and_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_default_cache()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 264](Community_264.md) (1 shared connections)
+- [Community 482](Community_482.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/proxy.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (90%)
+- INFERRED: 1 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

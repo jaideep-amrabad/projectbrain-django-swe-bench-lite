@@ -1,71 +1,78 @@
 # Community 12
 
-> 297 nodes · cohesion 0.01
+> 262 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **call_command()** (360 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **MakeMigrationsTests** (70 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **MigrateTests** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **AppLabelErrorTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **ChangepasswordManagementCommandTestCase** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **SquashMigrationsTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **ManageCommandParallelTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **ContentTypeOperationsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_operations.py`
-- **OptimizeMigrationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **object** (9 connections)
-- **SendTestEmailManagementCommand** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
-- **.test_migrate_inconsistent_history()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_migrate_prune()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_migrate_record_replaced()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_migrate_record_squashed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_showmigrations_list()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **patch** (6 connections)
-- **.test_makemigrations_inconsistent_history()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_interactive_unique_callable_default_addition()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_migrate_partially_applied_squashed_migration()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **object** (5 connections)
-- **.test_password_validation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_system_username()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.test_that_changepassword_command_changes_joes_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- *... and 272 more nodes in this community*
+- **django/db/models/__init__.py** (644 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/__init__.py`
+- **test/utils.py** (252 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **functions/__init__.py** (189 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/__init__.py`
+- **timezone.py** (114 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **math.py** (67 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **db_functions/models.py** (64 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
+- **test_extract_trunc.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **datetime.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **aggregation/tests.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
+- **Coalesce** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **functions/text.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Author** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
+- **Extract** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **FloatModel** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
+- **DecimalModel** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
+- **Left** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **IntegerModel** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
+- **test_json_object.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_json_object.py`
+- **Transform** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **test_greatest.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- **test_least.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- **TruncBase** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **test_filter_argument.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/test_filter_argument.py`
+- **test_cast.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **Transform** (15 connections)
+- *... and 237 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (65 shared connections)
-- [Community 289](Community_289.md) (37 shared connections)
-- [Community 300](Community_300.md) (25 shared connections)
-- [Community 128](Community_128.md) (24 shared connections)
-- [Community 347](Community_347.md) (23 shared connections)
-- [Community 261](Community_261.md) (20 shared connections)
-- [Community 2](Community_2.md) (18 shared connections)
-- [Community 24](Community_24.md) (16 shared connections)
-- [Community 407](Community_407.md) (16 shared connections)
-- [Community 6](Community_6.md) (10 shared connections)
-- [Community 104](Community_104.md) (8 shared connections)
-- [Community 190](Community_190.md) (8 shared connections)
+- [Community 0](Community_0.md) (218 shared connections)
+- [Community 11](Community_11.md) (137 shared connections)
+- [Community 5](Community_5.md) (98 shared connections)
+- [Community 18](Community_18.md) (87 shared connections)
+- [Community 35](Community_35.md) (69 shared connections)
+- [Community 4](Community_4.md) (53 shared connections)
+- [Community 85](Community_85.md) (46 shared connections)
+- [Community 20](Community_20.md) (40 shared connections)
+- [Community 28](Community_28.md) (38 shared connections)
+- [Community 1](Community_1.md) (37 shared connections)
+- [Community 107](Community_107.md) (33 shared connections)
+- [Community 8](Community_8.md) (31 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/empty_models/test_commands.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/update_catalogs.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/migrations/0002_logentry_remove_auto_add.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/another_app_waiting_migration/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_waiting_migration/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation/test_filter_argument.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/app_unmigrated/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/base/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 795 (98%)
-- INFERRED: 14 (2%)
+- EXTRACTED: 2363 (99%)
+- INFERRED: 16 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

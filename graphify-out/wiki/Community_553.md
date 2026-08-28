@@ -1,48 +1,55 @@
 # Community 553
 
-> 19 nodes · cohesion 0.17
+> 20 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **ASGITest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **get_asgi_application()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
-- **.test_static_file_response()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_file_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_get_asgi_application()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_concurrent_async_uses_multiple_thread_pools()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_disconnect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_get_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_non_unicode_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_post_body()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_request_lifecycle_signals_dispatched_with_thread_sensitive()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_untouched_request_body_gets_closed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_wrong_connection_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **The public interface to Django's ASGI support. Return an ASGI 3 callable.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
-- **get_asgi_application() returns a functioning ASGI callable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **Makes sure that FileResponse works over ASGI.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **fixtures/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **Article** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **CircularReferenceTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **DumpDataAssertMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **FixtureTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **SubclassTestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **TestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **ProxyModelWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
+- **CircularA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **CircularB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.test_circular_reference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_circular_reference_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_class_fixtures()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_class_fixtures()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Test case has installed 3 fixture objects** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **Make sure that subclasses can remove fixtures from parent class (#21089).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **There were no fixture objects installed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 158](Community_158.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 184](Community_184.md) (1 shared connections)
+- [Community 414](Community_414.md) (12 shared connections)
+- [Community 584](Community_584.md) (6 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 342](Community_342.md) (4 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
+- [Community 1185](Community_1185.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
-- `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 65 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

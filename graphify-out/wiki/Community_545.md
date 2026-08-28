@@ -1,63 +1,51 @@
 # Community 545
 
-> 69 nodes · cohesion 0.04
+> 20 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **activate()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **deactivate()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **ResolutionOrderI18NTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **LocalizedDateTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **LocalizedDateTimeTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **FrenchTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **CustomDateInputFormatsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **SimpleDateFormatTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.assertGettext()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **TranslationFilesMissing** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **LocalePathsResolutionOrderI18NTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **TranslationLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_translation_loading()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_override_exit()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.__enter__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.__exit__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **Localized DateFields act as unlocalized widgets** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_app_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **TranslationFallbackI18NTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_failure_finding_default_mo_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_override()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_override_decorator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **deactivate_all()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- *... and 44 more nodes in this community*
+- **trans_null.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **LookupError** (6 connections)
+- **.get_registered_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **.lazy_model_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **.get_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **get_supported_language_variant()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **ngettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **npgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **pgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **Return the model with the given case-insensitive model_name. Raise LookupError…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **Similar to get_model(), but doesn't require that an app exists with the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **Take a function and a number of ("app_label", "modelname") tuples, and when all…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **activate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **check_for_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **deactivate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_bidi()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_from_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_from_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
 
 ## Relationships
 
-- [Community 92](Community_92.md) (14 shared connections)
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 55](Community_55.md) (6 shared connections)
-- [Community 3](Community_3.md) (6 shared connections)
-- [Community 23](Community_23.md) (6 shared connections)
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 312](Community_312.md) (5 shared connections)
-- [Community 9](Community_9.md) (4 shared connections)
-- [Community 217](Community_217.md) (2 shared connections)
-- [Community 138](Community_138.md) (2 shared connections)
-- [Community 766](Community_766.md) (2 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
+- [Community 74](Community_74.md) (3 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
+- [Community 94](Community_94.md) (1 shared connections)
+- [Community 197](Community_197.md) (1 shared connections)
+- [Community 111](Community_111.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/base.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
 
 ## Audit Trail
 
-- EXTRACTED: 157 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 22 (71%)
+- INFERRED: 9 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,31 +1,27 @@
 # Community 1127
 
-> 5 nodes · cohesion 0.40
+> 5 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **classonlymethod** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **.as_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
-- **classmethod** (1 connections)
-- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **Main entry point for a request-response process.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.test_missing_django_version_unpickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_model_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_unsupported_unpickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **#21430 -- Verifies a warning is raised for querysets that are unpickled without…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **A model not defined on module level is picklable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Relationships
 
-- [Community 127](Community_127.md) (2 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
-- [Community 257](Community_257.md) (1 shared connections)
+- [Community 348](Community_348.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (78%)
-- INFERRED: 2 (22%)
+- EXTRACTED: 6 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
