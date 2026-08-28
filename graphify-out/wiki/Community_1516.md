@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **migrated_app/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_app/migrations/__init__.py`
+- **geoadmin/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_app/migrations/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoadmin/__init__.py`
 
 ## Audit Trail
 

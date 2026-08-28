@@ -1,8 +1,8 @@
 # call_command()
 
-> God node · 302 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+> God node · 303 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
-**Community:** [Community 13](Community_13.md)
+**Community:** [Community 6](Community_6.md)
 
 ## Connections by Relation
 
@@ -26,7 +26,7 @@
 - .test_include_materialized_views() `EXTRACTED`
 - .test_include_partitions() `EXTRACTED`
 - .test_makemigrations_inconsistent_history() `EXTRACTED`
-- .test_migrate_syncdb_deferred_sql_executed_with_schemaeditor() `EXTRACTED`
+- .test_migrate_partially_applied_squashed_migration() `EXTRACTED`
 
 ### contains
 - core/management/__init__.py `EXTRACTED`

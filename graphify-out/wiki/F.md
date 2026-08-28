@@ -2,7 +2,7 @@
 
 > God node · 453 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 19](Community_19.md)
+**Community:** [Community 13](Community_13.md)
 
 ## Connections by Relation
 
@@ -50,8 +50,8 @@
 - aggregation/tests.py `EXTRACTED`
 - lookup/tests.py `EXTRACTED`
 - postgres_tests/test_indexes.py `EXTRACTED`
-- sql/compiler.py `EXTRACTED`
 - annotations/tests.py `EXTRACTED`
+- sql/compiler.py `EXTRACTED`
 
 ### inherits
 - OuterRef `EXTRACTED`

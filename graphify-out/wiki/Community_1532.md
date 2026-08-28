@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **with_package_model/models/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_package_model/models/__init__.py`
+- **javascript_ignored.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/static/javascript_ignored.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_package_model/models/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/static/javascript_ignored.js`
 
 ## Audit Trail
 
