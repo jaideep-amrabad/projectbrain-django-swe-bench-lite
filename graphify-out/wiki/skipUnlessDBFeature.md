@@ -1,8 +1,8 @@
 # skipUnlessDBFeature()
 
-> God node · 550 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 559 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 21](Community_21.md)
+**Community:** [Community 25](Community_25.md)
 
 ## Connections by Relation
 

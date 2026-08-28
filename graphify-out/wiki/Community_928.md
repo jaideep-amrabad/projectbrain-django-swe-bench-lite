@@ -1,33 +1,41 @@
 # Community 928
 
-> 7 nodes · cohesion 0.48
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **FieldCacheMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **.get_cache_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **.delete_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **.get_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **.is_cached()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **.set_cached_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **Provide an API for working with the model's fields value cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **custom_has_permission_admin.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/custom_has_permission_admin.py`
+- **admin_views/urls.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/urls.py`
+- **admin_views/__init__.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/__init__.py`
+- **HasPermissionAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/custom_has_permission_admin.py`
+- **non_admin_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/urls.py`
+- **.has_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/custom_has_permission_admin.py`
+- **A custom AdminSite for AdminViewPermissionsTest.test_login_has_permission().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/custom_has_permission_admin.py`
 
 ## Relationships
 
-- [Community 151](Community_151.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 130](Community_130.md) (1 shared connections)
-- [Community 433](Community_433.md) (1 shared connections)
-- [Community 269](Community_269.md) (1 shared connections)
+- [Community 286](Community_286.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 89](Community_89.md) (2 shared connections)
+- [Community 597](Community_597.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 22](Community_22.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
+- [Community 140](Community_140.md) (1 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/custom_has_permission_admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

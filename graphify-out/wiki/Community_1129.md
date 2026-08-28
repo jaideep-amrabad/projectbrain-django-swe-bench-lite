@@ -1,24 +1,30 @@
 # Community 1129
 
-> 3 nodes · cohesion 0.67
+> 8 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **.test_view_with_method_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_view_with_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that is protected with @permission_required** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **gdal_version()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
+- **gdal_full_version()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
+- **gdal_tests/tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
+- **GDALTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
+- **.test_gdal_full_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
+- **.test_gdal_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
+- **Return only the GDAL version number information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
+- **Return the full GDAL version information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
 
 ## Relationships
 
-- [Community 495](Community_495.md) (2 shared connections)
+- [Community 116](Community_116.md) (6 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/libgdal.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,6 +1,6 @@
 # HttpResponse
 
-> God node · 341 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
+> God node · 344 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 **Community:** [Community 20](Community_20.md)
 
@@ -22,11 +22,11 @@
 - directory_index() `EXTRACTED`
 - trace_view() `EXTRACTED`
 - non_token_view_using_request_processor() `EXTRACTED`
+- .my_view() `EXTRACTED`
 - hello_world_view() `EXTRACTED`
 - .get_response() `EXTRACTED`
 - get_view() `EXTRACTED`
 - render_to_kml() `EXTRACTED`
-- .__call__() `EXTRACTED`
 
 ### contains
 - http/response.py `EXTRACTED`
@@ -36,10 +36,10 @@
 - http/__init__.py `EXTRACTED`
 - cache/tests.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
-- auth_tests/test_views.py `EXTRACTED`
 - tests/test_debug.py `EXTRACTED`
-- test_client/views.py `EXTRACTED`
+- auth_tests/test_views.py `EXTRACTED`
 - view_tests/views.py `EXTRACTED`
+- test_client/views.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
 - utils/cache.py `EXTRACTED`
@@ -49,9 +49,9 @@
 - patterns/tests.py `EXTRACTED`
 - test_client_regress/views.py `EXTRACTED`
 - auth_tests/urls.py `EXTRACTED`
-- urls/http.py `EXTRACTED`
 - sites_tests/tests.py `EXTRACTED`
-- decorators/tests.py `EXTRACTED`
+- urls/http.py `EXTRACTED`
+- test_client/tests.py `EXTRACTED`
 
 ### inherits
 - HttpResponseBase `EXTRACTED`

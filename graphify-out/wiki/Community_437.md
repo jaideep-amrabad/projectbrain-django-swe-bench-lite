@@ -1,56 +1,54 @@
 # Community 437
 
-> 26 nodes · cohesion 0.12
+> 28 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **DefaultTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **field_defaults/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **DBArticle** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **DBDefaultsFunction** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **.test_field_db_defaults_refresh()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **DBDefaults** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **DBDefaultsFK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **DBDefaultsPK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **.test_bulk_create_all_db_defaults()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **.test_bulk_create_all_db_defaults_one_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **.test_bulk_create_mixed_db_defaults()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **.test_bulk_create_mixed_db_defaults_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **.test_case_when_db_default_no_returning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **.test_field_db_defaults_returning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **.test_both_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **.test_case_when_db_default_returning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **.test_db_default_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **.test_field_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **Callable defaults You can pass callable objects as the ``default`` parameter to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **Values or expressions can be passed as the db_default parameter to a field.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **.test_foreign_key_db_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **.test_null_db_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- *... and 1 more nodes in this community*
+- **AsyncQuerySetTest** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_abulk_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aexplain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **async_to_sync** (3 connections)
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aaggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_acontains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_acount_cached_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **._get_db_feature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_abulk_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_acount()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_acreate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_adelete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aearliest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aexists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_afirst()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aget_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_ain_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aiterator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aiterator_invalid_chunk_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_aiterator_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_alast()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_alatest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- **.test_async_iteration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 21](Community_21.md) (10 shared connections)
-- [Community 28](Community_28.md) (8 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 56](Community_56.md) (2 shared connections)
-- [Community 32](Community_32.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 595](Community_595.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 1033](Community_1033.md) (5 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/test_async_queryset.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (91%)
-- INFERRED: 6 (9%)
+- EXTRACTED: 36 (88%)
+- INFERRED: 5 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

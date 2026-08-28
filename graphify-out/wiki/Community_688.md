@@ -1,39 +1,58 @@
 # Community 688
 
-> 14 nodes · cohesion 0.16
+> 27 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **BaseMemcachedTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **._perform_invalid_key_test()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **caches_setting_for_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_invalid_key_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_invalid_key_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_invalid_with_version_key_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_default_far_future_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_default_never_expiring_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_invalid_with_version_key_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_location_multiple_servers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_memcached_deletes_key_on_failed_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_set_many_returns_failing_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **While other backends merely warn, memcached should raise for an invalid key.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **cache_control()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- **decorators/test_cache.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **CacheControlDecoratorTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **NeverCacheDecoratorTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **HttpRequestProxy** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_decorator_http_request_proxy()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_http_request_proxy()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_decorator_http_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_decorator_http_request_async_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_empty_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_empty_decorator_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_full_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_cache_control_full_decorator_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_headers_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_http_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_http_request_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.__getattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_expires_not_overridden()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_never_cache_decorator_expires_not_overridden_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- **patch** (2 connections)
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 275](Community_275.md) (4 shared connections)
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 196](Community_196.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 82](Community_82.md) (15 shared connections)
+- [Community 416](Community_416.md) (8 shared connections)
+- [Community 485](Community_485.md) (4 shared connections)
+- [Community 327](Community_327.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 152](Community_152.md) (1 shared connections)
+- [Community 83](Community_83.md) (1 shared connections)
+- [Community 930](Community_930.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 79 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **source_map_data_uri.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/source_map_data_uri.js`
+- **test_exceptions/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/test_exceptions/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/source_map_data_uri.js`
+- `raw/code/hyd-evaluation/django-django/tests/test_exceptions/__init__.py`
 
 ## Audit Trail
 

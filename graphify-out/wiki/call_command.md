@@ -1,6 +1,6 @@
 # call_command()
 
-> God node · 366 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+> God node · 363 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
 **Community:** [Community 8](Community_8.md)
 

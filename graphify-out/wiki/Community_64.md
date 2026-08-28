@@ -1,78 +1,63 @@
 # Community 64
 
-> 199 nodes · cohesion 0.02
+> 116 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **ignore_warnings** (77 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **RemovedInDjango51Warning** (65 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **file_storage/tests.py** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **signing.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **files/storage/__init__.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/__init__.py`
-- **settings_tests/tests.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **File** (27 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **Storage** (27 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/base.py`
-- **files/base.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **safe_join()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- **SuspiciousFileOperation** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **Settings** (17 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **signing/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **test_storages.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_storages.py`
-- **staticfiles_tests/storage.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **files/storage/base.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/base.py`
-- **StorageHandler** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/handler.py`
-- **test_generate_filename.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **signed_cookies_tests/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/signed_cookies_tests/tests.py`
-- **default_storage()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
-- **ManifestStaticFilesStorage** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **file_storage/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- **citext.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **handler.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/handler.py`
-- **files/utils.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
-- *... and 174 more nodes in this community*
+- **GDALRaster** (76 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **GDALRasterTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
+- **RasterFieldTest** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
+- **GDALBandTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
+- **TransformPoint** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.srs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **._flush()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.geotransform()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.transform()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **setter** (5 connections)
+- **.test_all_gis_lookups_with_rasters()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
+- **.test_dwithin_gis_lookup_output_with_rasters()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
+- **.clone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.srid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.test_deserialize_with_pixeltype_flags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
+- **.hex()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.driver()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.origin()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.__repr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.scale()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.skew()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.warp()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.test_raster_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
+- *... and 91 more nodes in this community*
 
 ## Relationships
 
-- [Community 36](Community_36.md) (39 shared connections)
-- [Community 3](Community_3.md) (28 shared connections)
-- [Community 0](Community_0.md) (26 shared connections)
-- [Community 77](Community_77.md) (24 shared connections)
-- [Community 4](Community_4.md) (19 shared connections)
-- [Community 1](Community_1.md) (15 shared connections)
-- [Community 153](Community_153.md) (15 shared connections)
-- [Community 23](Community_23.md) (14 shared connections)
-- [Community 468](Community_468.md) (13 shared connections)
-- [Community 151](Community_151.md) (9 shared connections)
-- [Community 383](Community_383.md) (8 shared connections)
-- [Community 225](Community_225.md) (8 shared connections)
+- [Community 116](Community_116.md) (15 shared connections)
+- [Community 67](Community_67.md) (6 shared connections)
+- [Community 61](Community_61.md) (5 shared connections)
+- [Community 84](Community_84.md) (5 shared connections)
+- [Community 330](Community_330.md) (3 shared connections)
+- [Community 316](Community_316.md) (3 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/serializers.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage/handler.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_storages.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 700 (93%)
-- INFERRED: 51 (7%)
+- EXTRACTED: 200 (93%)
+- INFERRED: 15 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---
