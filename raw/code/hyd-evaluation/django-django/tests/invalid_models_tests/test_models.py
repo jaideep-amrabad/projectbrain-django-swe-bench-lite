@@ -1695,6 +1695,27 @@ class ConstraintsTests(TestCase):
         ])
 
     @skipUnlessDBFeature('supports_table_check_constraints')
+    def test_check_constraint_pointing_to_reverse_o2o(self):
+        class Model(models.Model):
+            parent = models.OneToOneField('self', models.CASCADE)
+
+            class Meta:
+                constraints = [
+                    models.CheckConstraint(
+                        name='name',
+                        check=models.Q(model__isnull=True),
+                    ),
+                ]
+
+        self.assertEqual(Model.check(databases=self.databases), [
+            Error(
+                "'constraints' refers to the nonexistent field 'model'.",
+                obj=Model,
+                id='models.E012',
+            ),
+        ])
+
+    @skipUnlessDBFeature('supports_table_check_constraints')
     def test_check_constraint_pointing_to_m2m_field(self):
         class Model(models.Model):
             m2m = models.ManyToManyField('self')
@@ -1778,6 +1799,7 @@ class ConstraintsTests(TestCase):
             field2 = models.PositiveSmallIntegerField()
             field3 = models.PositiveSmallIntegerField()
             parent = models.ForeignKey('self', models.CASCADE)
+            previous = models.OneToOneField('self', models.CASCADE, related_name='next')
 
             class Meta:
                 constraints = [
@@ -1792,9 +1814,18 @@ class ConstraintsTests(TestCase):
                     models.CheckConstraint(
                         name='name3', check=models.Q(parent__field3=models.F('field1'))
                     ),
+                    models.CheckConstraint(
+                        name='name4', check=models.Q(name=Lower('previous__name')),
+                    ),
                 ]
 
-        joined_fields = ['parent__field1', 'parent__field2', 'parent__field3', 'parent__name']
+        joined_fields = [
+            'parent__field1',
+            'parent__field2',
+            'parent__field3',
+            'parent__name',
+            'previous__name',
+        ]
         errors = Model.check(databases=self.databases)
         expected_errors = [
             Error(
@@ -1931,6 +1962,28 @@ class ConstraintsTests(TestCase):
                 obj=Model,
                 id='models.E041',
             )
+        ] if connection.features.supports_partial_indexes else [])
+
+    def test_unique_constraint_pointing_to_reverse_o2o(self):
+        class Model(models.Model):
+            parent = models.OneToOneField('self', models.CASCADE)
+
+            class Meta:
+                required_db_features = {'supports_partial_indexes'}
+                constraints = [
+                    models.UniqueConstraint(
+                        fields=['parent'],
+                        name='name',
+                        condition=models.Q(model__isnull=True),
+                    ),
+                ]
+
+        self.assertEqual(Model.check(databases=self.databases), [
+            Error(
+                "'constraints' refers to the nonexistent field 'model'.",
+                obj=Model,
+                id='models.E012',
+            ),
         ] if connection.features.supports_partial_indexes else [])
 
     def test_deferrable_unique_constraint(self):

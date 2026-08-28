@@ -461,6 +461,7 @@ class AdminSite:
 
             info = (app_label, model._meta.model_name)
             model_dict = {
+                'model': model,
                 'name': capfirst(model._meta.verbose_name_plural),
                 'object_name': model._meta.object_name,
                 'perms': perms,
@@ -524,6 +525,7 @@ class AdminSite:
         context = {
             **self.each_context(request),
             'title': self.index_title,
+            'subtitle': None,
             'app_list': app_list,
             **(extra_context or {}),
         }
@@ -541,6 +543,7 @@ class AdminSite:
         context = {
             **self.each_context(request),
             'title': _('%(app)s administration') % {'app': app_dict['name']},
+            'subtitle': None,
             'app_list': [app_dict],
             'app_label': app_label,
             **(extra_context or {}),

@@ -419,8 +419,8 @@ class Field(RegisterLookupMixin):
 
          * The name of the field on the model, if contribute_to_class() has
            been run.
-         * The import path of the field, including the class:e.g.
-           django.db.models.IntegerField This should be the most portable
+         * The import path of the field, including the class, e.g.
+           django.db.models.IntegerField. This should be the most portable
            version, so less specific may be better.
          * A list of positional arguments.
          * A dict of keyword arguments.
@@ -2524,7 +2524,7 @@ class AutoFieldMeta(type):
         return isinstance(instance, self._subclasses) or super().__instancecheck__(instance)
 
     def __subclasscheck__(self, subclass):
-        return subclass in self._subclasses or super().__subclasscheck__(subclass)
+        return issubclass(subclass, self._subclasses) or super().__subclasscheck__(subclass)
 
 
 class AutoField(AutoFieldMixin, IntegerField, metaclass=AutoFieldMeta):

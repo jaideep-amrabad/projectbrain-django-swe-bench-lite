@@ -1530,6 +1530,36 @@ class FTimeDeltaTests(TestCase):
         ))
         self.assertIsNone(queryset.first().shifted)
 
+    def test_durationfield_multiply_divide(self):
+        Experiment.objects.update(scalar=2)
+        tests = [
+            (Decimal('2'), 2),
+            (F('scalar'), 2),
+            (2, 2),
+            (3.2, 3.2),
+        ]
+        for expr, scalar in tests:
+            with self.subTest(expr=expr):
+                qs = Experiment.objects.annotate(
+                    multiplied=ExpressionWrapper(
+                        expr * F('estimated_time'),
+                        output_field=DurationField(),
+                    ),
+                    divided=ExpressionWrapper(
+                        F('estimated_time') / expr,
+                        output_field=DurationField(),
+                    ),
+                )
+                for experiment in qs:
+                    self.assertEqual(
+                        experiment.multiplied,
+                        experiment.estimated_time * scalar,
+                    )
+                    self.assertEqual(
+                        experiment.divided,
+                        experiment.estimated_time / scalar,
+                    )
+
     def test_duration_expressions(self):
         for delta in self.deltas:
             qs = Experiment.objects.annotate(duration=F('estimated_time') + delta)
@@ -1970,3 +2000,25 @@ class ExpressionWrapperTests(SimpleTestCase):
         group_by_cols = expr.get_group_by_cols(alias=None)
         self.assertEqual(group_by_cols, [expr.expression])
         self.assertEqual(group_by_cols[0].output_field, expr.output_field)
+
+
+class OrderByTests(SimpleTestCase):
+    def test_equal(self):
+        self.assertEqual(
+            OrderBy(F('field'), nulls_last=True),
+            OrderBy(F('field'), nulls_last=True),
+        )
+        self.assertNotEqual(
+            OrderBy(F('field'), nulls_last=True),
+            OrderBy(F('field'), nulls_last=False),
+        )
+
+    def test_hash(self):
+        self.assertEqual(
+            hash(OrderBy(F('field'), nulls_last=True)),
+            hash(OrderBy(F('field'), nulls_last=True)),
+        )
+        self.assertNotEqual(
+            hash(OrderBy(F('field'), nulls_last=True)),
+            hash(OrderBy(F('field'), nulls_last=False)),
+        )
