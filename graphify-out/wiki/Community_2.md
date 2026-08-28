@@ -1,6 +1,6 @@
 # Community 2
 
-> 400 nodes · cohesion 0.01
+> 397 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **optimizemigration.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/optimizemigration.py`
 - **questioner.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
 - **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- *... and 375 more nodes in this community*
+- *... and 372 more nodes in this community*
 
 ## Relationships
 
 - [Community 0](Community_0.md) (129 shared connections)
-- [Community 7](Community_7.md) (83 shared connections)
-- [Community 83](Community_83.md) (62 shared connections)
-- [Community 15](Community_15.md) (33 shared connections)
+- [Community 7](Community_7.md) (91 shared connections)
+- [Community 26](Community_26.md) (62 shared connections)
 - [Community 8](Community_8.md) (25 shared connections)
-- [Community 40](Community_40.md) (24 shared connections)
-- [Community 133](Community_133.md) (21 shared connections)
+- [Community 42](Community_42.md) (24 shared connections)
+- [Community 17](Community_17.md) (24 shared connections)
+- [Community 131](Community_131.md) (21 shared connections)
 - [Community 6](Community_6.md) (20 shared connections)
-- [Community 163](Community_163.md) (19 shared connections)
-- [Community 410](Community_410.md) (18 shared connections)
-- [Community 19](Community_19.md) (14 shared connections)
-- [Community 202](Community_202.md) (13 shared connections)
+- [Community 164](Community_164.md) (19 shared connections)
+- [Community 406](Community_406.md) (18 shared connections)
+- [Community 124](Community_124.md) (16 shared connections)
+- [Community 16](Community_16.md) (13 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 1592 (98%)
+- EXTRACTED: 1588 (98%)
 - INFERRED: 38 (2%)
 - AMBIGUOUS: 0 (0%)
 

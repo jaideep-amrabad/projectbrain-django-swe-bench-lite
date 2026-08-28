@@ -1,6 +1,6 @@
 # Community 7
 
-> 646 nodes · cohesion 0.01
+> 663 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -18,33 +18,33 @@
 - **model_fields/test_jsonfield.py** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
 - **IntegrityError** (45 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 - **query_utils.py** (44 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **test_writer.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 - **migrations/test_commands.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
 - **postgres_tests/test_operations.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
 - **sqlite3/base.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
 - **bulk_create/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
 - **related_descriptors.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **test_autodetector.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **migrations/test_state.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 - **postgres/operations.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
 - **db/utils.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 - **constraints/tests.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **fields/files.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **geogapp/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- **test_executor.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- *... and 621 more nodes in this community*
+- *... and 638 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (270 shared connections)
-- [Community 1](Community_1.md) (202 shared connections)
-- [Community 83](Community_83.md) (188 shared connections)
-- [Community 6](Community_6.md) (92 shared connections)
-- [Community 15](Community_15.md) (88 shared connections)
-- [Community 2](Community_2.md) (83 shared connections)
-- [Community 25](Community_25.md) (48 shared connections)
-- [Community 21](Community_21.md) (47 shared connections)
-- [Community 24](Community_24.md) (36 shared connections)
-- [Community 43](Community_43.md) (33 shared connections)
-- [Community 19](Community_19.md) (31 shared connections)
-- [Community 97](Community_97.md) (31 shared connections)
+- [Community 0](Community_0.md) (282 shared connections)
+- [Community 26](Community_26.md) (194 shared connections)
+- [Community 34](Community_34.md) (147 shared connections)
+- [Community 6](Community_6.md) (95 shared connections)
+- [Community 2](Community_2.md) (91 shared connections)
+- [Community 1](Community_1.md) (89 shared connections)
+- [Community 17](Community_17.md) (65 shared connections)
+- [Community 24](Community_24.md) (48 shared connections)
+- [Community 20](Community_20.md) (47 shared connections)
+- [Community 23](Community_23.md) (39 shared connections)
+- [Community 45](Community_45.md) (33 shared connections)
+- [Community 97](Community_97.md) (32 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 3716 (99%)
-- INFERRED: 41 (1%)
+- EXTRACTED: 3848 (98%)
+- INFERRED: 59 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

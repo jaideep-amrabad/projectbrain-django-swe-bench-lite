@@ -1,6 +1,6 @@
 # Community 5
 
-> 439 nodes · cohesion 0.01
+> 437 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **ExtendsNode** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
 - **test_parser.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
 - **VariableDoesNotExist** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- *... and 414 more nodes in this community*
+- *... and 412 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (114 shared connections)
-- [Community 26](Community_26.md) (44 shared connections)
-- [Community 13](Community_13.md) (34 shared connections)
-- [Community 46](Community_46.md) (33 shared connections)
-- [Community 490](Community_490.md) (31 shared connections)
-- [Community 39](Community_39.md) (23 shared connections)
+- [Community 4](Community_4.md) (113 shared connections)
+- [Community 10](Community_10.md) (59 shared connections)
+- [Community 35](Community_35.md) (42 shared connections)
+- [Community 52](Community_52.md) (33 shared connections)
+- [Community 606](Community_606.md) (30 shared connections)
 - [Community 0](Community_0.md) (23 shared connections)
-- [Community 83](Community_83.md) (22 shared connections)
-- [Community 63](Community_63.md) (14 shared connections)
-- [Community 175](Community_175.md) (8 shared connections)
+- [Community 26](Community_26.md) (22 shared connections)
+- [Community 65](Community_65.md) (14 shared connections)
+- [Community 174](Community_174.md) (8 shared connections)
 - [Community 2](Community_2.md) (7 shared connections)
-- [Community 100](Community_100.md) (6 shared connections)
+- [Community 108](Community_108.md) (6 shared connections)
+- [Community 23](Community_23.md) (6 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 1260 (93%)
+- EXTRACTED: 1257 (93%)
 - INFERRED: 94 (7%)
 - AMBIGUOUS: 0 (0%)
 

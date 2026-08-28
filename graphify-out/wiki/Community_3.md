@@ -1,6 +1,6 @@
 # Community 3
 
-> 375 nodes · cohesion 0.01
+> 367 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -16,7 +16,6 @@
 - **LoginURLSettings** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 - **RequestURLconfTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 - **UserModelChecksTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **TestMiscFinder** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
 - **CheckSecretKeyTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 - **FlatpageModelTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
 - **AsyncMiddlewareTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
@@ -29,22 +28,23 @@
 - **DefaultLoggingTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 - **MiddlewareNotUsedTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
 - **CheckCSRFCookieSecureTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- *... and 350 more nodes in this community*
+- **CheckSessionCookieHttpOnlyTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- *... and 342 more nodes in this community*
 
 ## Relationships
 
 - [Community 8](Community_8.md) (69 shared connections)
-- [Community 4](Community_4.md) (49 shared connections)
-- [Community 19](Community_19.md) (47 shared connections)
-- [Community 83](Community_83.md) (46 shared connections)
-- [Community 135](Community_135.md) (33 shared connections)
-- [Community 0](Community_0.md) (33 shared connections)
+- [Community 4](Community_4.md) (48 shared connections)
+- [Community 16](Community_16.md) (47 shared connections)
+- [Community 26](Community_26.md) (44 shared connections)
+- [Community 133](Community_133.md) (33 shared connections)
 - [Community 6](Community_6.md) (32 shared connections)
-- [Community 147](Community_147.md) (28 shared connections)
-- [Community 305](Community_305.md) (26 shared connections)
-- [Community 40](Community_40.md) (23 shared connections)
-- [Community 53](Community_53.md) (22 shared connections)
-- [Community 17](Community_17.md) (21 shared connections)
+- [Community 0](Community_0.md) (32 shared connections)
+- [Community 148](Community_148.md) (28 shared connections)
+- [Community 308](Community_308.md) (26 shared connections)
+- [Community 42](Community_42.md) (23 shared connections)
+- [Community 19](Community_19.md) (21 shared connections)
+- [Community 155](Community_155.md) (21 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 1936 (100%)
+- EXTRACTED: 1927 (100%)
 - INFERRED: 9 (0%)
 - AMBIGUOUS: 0 (0%)
 

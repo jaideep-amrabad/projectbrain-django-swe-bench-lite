@@ -1,6 +1,6 @@
 # Community 152
 
-> 122 nodes · cohesion 0.02
+> 116 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -10,15 +10,14 @@
 - **httpwrappers/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
 - **flatpages/views.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/views.py`
 - **HttpResponsePermanentRedirect** (19 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **HttpResponseNotAllowed** (18 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 - **MiddlewareMixinTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
 - **middleware/common.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
 - **parse_cookie()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/http/cookie.py`
 - **admin_docs/views.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/views.py`
 - **admindocs/middleware.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
 - **CookieTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **template_tests/views.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
 - **RemoteUserMiddleware** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **HttpResponseSubclassesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
 - **flatpage()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/views.py`
 - **MessageMiddleware** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
 - **SecurityMiddleware** (10 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/security.py`
@@ -29,22 +28,23 @@
 - **XViewMiddleware** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
 - **CurrentSiteMiddleware** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/middleware.py`
 - **security.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/security.py`
-- *... and 97 more nodes in this community*
+- **messages_tests/test_middleware.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
+- *... and 91 more nodes in this community*
 
 ## Relationships
 
 - [Community 0](Community_0.md) (35 shared connections)
-- [Community 20](Community_20.md) (34 shared connections)
-- [Community 9](Community_9.md) (24 shared connections)
-- [Community 35](Community_35.md) (22 shared connections)
-- [Community 19](Community_19.md) (18 shared connections)
-- [Community 135](Community_135.md) (13 shared connections)
-- [Community 16](Community_16.md) (12 shared connections)
-- [Community 993](Community_993.md) (10 shared connections)
-- [Community 82](Community_82.md) (9 shared connections)
-- [Community 4](Community_4.md) (8 shared connections)
-- [Community 107](Community_107.md) (8 shared connections)
-- [Community 148](Community_148.md) (8 shared connections)
+- [Community 18](Community_18.md) (33 shared connections)
+- [Community 49](Community_49.md) (29 shared connections)
+- [Community 37](Community_37.md) (24 shared connections)
+- [Community 16](Community_16.md) (18 shared connections)
+- [Community 133](Community_133.md) (13 shared connections)
+- [Community 83](Community_83.md) (9 shared connections)
+- [Community 13](Community_13.md) (9 shared connections)
+- [Community 330](Community_330.md) (8 shared connections)
+- [Community 109](Community_109.md) (8 shared connections)
+- [Community 149](Community_149.md) (8 shared connections)
+- [Community 26](Community_26.md) (8 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 560 (97%)
+- EXTRACTED: 541 (97%)
 - INFERRED: 17 (3%)
 - AMBIGUOUS: 0 (0%)
 

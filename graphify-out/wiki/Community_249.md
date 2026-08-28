@@ -30,11 +30,11 @@
 
 ## Relationships
 
-- [Community 273](Community_273.md) (12 shared connections)
+- [Community 276](Community_276.md) (12 shared connections)
 - [Community 0](Community_0.md) (3 shared connections)
 - [Community 4](Community_4.md) (3 shared connections)
-- [Community 407](Community_407.md) (3 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
+- [Community 225](Community_225.md) (3 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
 - [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files

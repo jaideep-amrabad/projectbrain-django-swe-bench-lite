@@ -1,6 +1,6 @@
 # Community 0
 
-> 443 nodes · cohesion 0.01
+> 437 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **files/storage/__init__.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage/__init__.py`
 - **django/db/backends/oracle/operations.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
 - **models/options.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- *... and 418 more nodes in this community*
+- *... and 412 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (270 shared connections)
+- [Community 7](Community_7.md) (282 shared connections)
 - [Community 2](Community_2.md) (129 shared connections)
-- [Community 83](Community_83.md) (119 shared connections)
-- [Community 1](Community_1.md) (95 shared connections)
+- [Community 26](Community_26.md) (119 shared connections)
+- [Community 34](Community_34.md) (84 shared connections)
 - [Community 6](Community_6.md) (77 shared connections)
-- [Community 4](Community_4.md) (58 shared connections)
-- [Community 9](Community_9.md) (57 shared connections)
-- [Community 19](Community_19.md) (53 shared connections)
-- [Community 24](Community_24.md) (47 shared connections)
-- [Community 26](Community_26.md) (41 shared connections)
+- [Community 49](Community_49.md) (67 shared connections)
+- [Community 4](Community_4.md) (56 shared connections)
+- [Community 16](Community_16.md) (51 shared connections)
+- [Community 23](Community_23.md) (47 shared connections)
+- [Community 35](Community_35.md) (42 shared connections)
+- [Community 11](Community_11.md) (40 shared connections)
 - [Community 95](Community_95.md) (40 shared connections)
-- [Community 18](Community_18.md) (39 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 3872 (97%)
+- EXTRACTED: 3865 (97%)
 - INFERRED: 138 (3%)
 - AMBIGUOUS: 0 (0%)
 

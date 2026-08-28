@@ -38,9 +38,9 @@
 - [Community 74](Community_74.md) (3 shared connections)
 - [Community 85](Community_85.md) (2 shared connections)
 - [Community 50](Community_50.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 414](Community_414.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
+- [Community 410](Community_410.md) (1 shared connections)
 
 ## Source Files
 

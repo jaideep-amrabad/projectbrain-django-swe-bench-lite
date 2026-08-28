@@ -35,10 +35,10 @@
 
 - [Community 3](Community_3.md) (8 shared connections)
 - [Community 355](Community_355.md) (6 shared connections)
-- [Community 531](Community_531.md) (4 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
+- [Community 533](Community_533.md) (4 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 1045](Community_1045.md) (1 shared connections)
+- [Community 1052](Community_1052.md) (1 shared connections)
 - [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files

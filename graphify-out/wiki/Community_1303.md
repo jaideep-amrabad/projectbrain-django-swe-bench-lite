@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **i18n_catalog.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/views/templates/i18n_catalog.js`
+- **sqlite3/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/templates/i18n_catalog.js`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/__init__.py`
 
 ## Audit Trail
 
