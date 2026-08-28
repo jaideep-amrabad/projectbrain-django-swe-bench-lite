@@ -449,8 +449,8 @@ class TestQuerying(PostgreSQLTestCase):
                     expected,
                 )
 
-    @skipUnlessDBFeature("allows_group_by_refs")
-    def test_group_by_order_by_aliases(self):
+    @skipUnlessDBFeature("allows_group_by_select_index")
+    def test_group_by_order_by_select_index(self):
         with self.assertNumQueries(1) as ctx:
             self.assertSequenceEqual(
                 NullableIntegerArrayModel.objects.filter(
@@ -467,7 +467,7 @@ class TestQuerying(PostgreSQLTestCase):
             )
         alias = connection.ops.quote_name("field__0")
         sql = ctx[0]["sql"]
-        self.assertIn(f"GROUP BY {alias}", sql)
+        self.assertIn("GROUP BY 1", sql)
         self.assertIn(f"ORDER BY {alias}", sql)
 
     def test_index(self):
@@ -776,12 +776,12 @@ class TestOtherTypesExactQuerying(PostgreSQLTestCase):
 class TestChecks(PostgreSQLSimpleTestCase):
     def test_field_checks(self):
         class MyModel(PostgreSQLModel):
-            field = ArrayField(models.CharField())
+            field = ArrayField(models.CharField(max_length=-1))
 
         model = MyModel()
         errors = model.check()
         self.assertEqual(len(errors), 1)
-        # The inner CharField is missing a max_length.
+        # The inner CharField has a non-positive max_length.
         self.assertEqual(errors[0].id, "postgres.E001")
         self.assertIn("max_length", errors[0].msg)
 
@@ -837,12 +837,12 @@ class TestChecks(PostgreSQLSimpleTestCase):
         """
 
         class MyModel(PostgreSQLModel):
-            field = ArrayField(ArrayField(models.CharField()))
+            field = ArrayField(ArrayField(models.CharField(max_length=-1)))
 
         model = MyModel()
         errors = model.check()
         self.assertEqual(len(errors), 1)
-        # The inner CharField is missing a max_length.
+        # The inner CharField has a non-positive max_length.
         self.assertEqual(errors[0].id, "postgres.E001")
         self.assertIn("max_length", errors[0].msg)
 

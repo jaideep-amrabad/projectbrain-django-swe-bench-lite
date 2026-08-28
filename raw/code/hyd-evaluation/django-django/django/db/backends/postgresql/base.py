@@ -1,7 +1,7 @@
 """
 PostgreSQL database backend for Django.
 
-Requires psycopg2 >= 2.8.4 or psycopg >= 3.1
+Requires psycopg2 >= 2.8.4 or psycopg >= 3.1.8
 """
 
 import asyncio
@@ -38,9 +38,9 @@ if psycopg_version() < (2, 8, 4):
     raise ImproperlyConfigured(
         f"psycopg2 version 2.8.4 or newer is required; you have {Database.__version__}"
     )
-if (3,) <= psycopg_version() < (3, 1):
+if (3,) <= psycopg_version() < (3, 1, 8):
     raise ImproperlyConfigured(
-        f"psycopg version 3.1 or newer is required; you have {Database.__version__}"
+        f"psycopg version 3.1.8 or newer is required; you have {Database.__version__}"
     )
 
 
@@ -80,6 +80,12 @@ from .operations import DatabaseOperations  # NOQA isort:skip
 from .schema import DatabaseSchemaEditor  # NOQA isort:skip
 
 
+def _get_varchar_column(data):
+    if data["max_length"] is None:
+        return "varchar"
+    return "varchar(%(max_length)s)" % data
+
+
 class DatabaseWrapper(BaseDatabaseWrapper):
     vendor = "postgresql"
     display_name = "PostgreSQL"
@@ -92,7 +98,7 @@ class DatabaseWrapper(BaseDatabaseWrapper):
         "BigAutoField": "bigint",
         "BinaryField": "bytea",
         "BooleanField": "boolean",
-        "CharField": "varchar(%(max_length)s)",
+        "CharField": _get_varchar_column,
         "DateField": "date",
         "DateTimeField": "timestamp with time zone",
         "DecimalField": "numeric(%(max_digits)s, %(decimal_places)s)",
@@ -215,7 +221,9 @@ class DatabaseWrapper(BaseDatabaseWrapper):
         else:
             conn_params = {**settings_dict["OPTIONS"]}
 
+        conn_params.pop("assume_role", None)
         conn_params.pop("isolation_level", None)
+        conn_params.pop("server_side_binding", None)
         if settings_dict["USER"]:
             conn_params["user"] = settings_dict["USER"]
         if settings_dict["PASSWORD"]:
@@ -261,14 +269,20 @@ class DatabaseWrapper(BaseDatabaseWrapper):
         connection = self.Database.connect(**conn_params)
         if set_isolation_level:
             connection.isolation_level = self.isolation_level
-        if not is_psycopg3:
+        if is_psycopg3:
+            connection.cursor_factory = (
+                ServerBindingCursor
+                if options.get("server_side_binding") is True
+                else Cursor
+            )
+        else:
             # Register dummy loads() to avoid a round trip from psycopg2's
             # decode to json.dumps() to json.loads(), when using a custom
             # decoder in JSONField.
             psycopg2.extras.register_default_jsonb(
                 conn_or_curs=connection, loads=lambda x: x
             )
-        connection.cursor_factory = Cursor
+            connection.cursor_factory = Cursor
         return connection
 
     def ensure_timezone(self):
@@ -282,14 +296,28 @@ class DatabaseWrapper(BaseDatabaseWrapper):
             return True
         return False
 
+    def ensure_role(self):
+        if self.connection is None:
+            return False
+        if new_role := self.settings_dict.get("OPTIONS", {}).get("assume_role"):
+            with self.connection.cursor() as cursor:
+                sql = self.ops.compose_sql("SET ROLE %s", [new_role])
+                cursor.execute(sql)
+            return True
+        return False
+
     def init_connection_state(self):
         super().init_connection_state()
 
-        timezone_changed = self.ensure_timezone()
-        if timezone_changed:
-            # Commit after setting the time zone (see #17062)
-            if not self.get_autocommit():
-                self.connection.commit()
+        # Commit after setting the time zone.
+        commit_tz = self.ensure_timezone()
+        # Set the role on the connection. This is useful if the credential used
+        # to login is not the same as the role that owns database resources. As
+        # can be the case when using temporary or ephemeral credentials.
+        commit_role = self.ensure_role()
+
+        if (commit_role or commit_tz) and not self.get_autocommit():
+            self.connection.commit()
 
     @async_unsafe
     def create_cursor(self, name=None):
@@ -415,7 +443,7 @@ class DatabaseWrapper(BaseDatabaseWrapper):
 
 if is_psycopg3:
 
-    class Cursor(Database.Cursor):
+    class CursorMixin:
         """
         A subclass of psycopg cursor implementing callproc.
         """
@@ -435,6 +463,12 @@ if is_psycopg3:
             stmt = sql.Composed(qparts)
             self.execute(stmt)
             return args
+
+    class ServerBindingCursor(CursorMixin, Database.Cursor):
+        pass
+
+    class Cursor(CursorMixin, Database.ClientCursor):
+        pass
 
     class CursorDebugWrapper(BaseCursorDebugWrapper):
         def copy(self, statement):

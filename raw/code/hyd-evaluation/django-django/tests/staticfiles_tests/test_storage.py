@@ -8,7 +8,7 @@ from io import StringIO
 from pathlib import Path
 from unittest import mock
 
-from django.conf import settings
+from django.conf import STATICFILES_STORAGE_ALIAS, settings
 from django.contrib.staticfiles import finders, storage
 from django.contrib.staticfiles.management.commands.collectstatic import (
     Command as CollectstaticCommand,
@@ -369,7 +369,13 @@ class TestHashedFiles:
         self.assertPostCondition()
 
 
-@override_settings(STATICFILES_STORAGE="staticfiles_tests.storage.ExtraPatternsStorage")
+@override_settings(
+    STORAGES={
+        STATICFILES_STORAGE_ALIAS: {
+            "BACKEND": "staticfiles_tests.storage.ExtraPatternsStorage",
+        },
+    }
+)
 class TestExtraPatternsStorage(CollectionTestCase):
     def setUp(self):
         storage.staticfiles_storage.hashed_files.clear()  # avoid cache interference
@@ -399,7 +405,11 @@ class TestExtraPatternsStorage(CollectionTestCase):
 
 
 @override_settings(
-    STATICFILES_STORAGE="django.contrib.staticfiles.storage.ManifestStaticFilesStorage",
+    STORAGES={
+        STATICFILES_STORAGE_ALIAS: {
+            "BACKEND": "django.contrib.staticfiles.storage.ManifestStaticFilesStorage",
+        },
+    }
 )
 class TestCollectionManifestStorage(TestHashedFiles, CollectionTestCase):
     """
@@ -436,7 +446,7 @@ class TestCollectionManifestStorage(TestHashedFiles, CollectionTestCase):
         # The in-memory version of the manifest matches the one on disk
         # since a properly created manifest should cover all filenames.
         if hashed_files:
-            manifest = storage.staticfiles_storage.load_manifest()
+            manifest, _ = storage.staticfiles_storage.load_manifest()
             self.assertEqual(hashed_files, manifest)
 
     def test_manifest_exists(self):
@@ -463,7 +473,7 @@ class TestCollectionManifestStorage(TestHashedFiles, CollectionTestCase):
 
     def test_parse_cache(self):
         hashed_files = storage.staticfiles_storage.hashed_files
-        manifest = storage.staticfiles_storage.load_manifest()
+        manifest, _ = storage.staticfiles_storage.load_manifest()
         self.assertEqual(hashed_files, manifest)
 
     def test_clear_empties_manifest(self):
@@ -476,7 +486,7 @@ class TestCollectionManifestStorage(TestHashedFiles, CollectionTestCase):
         hashed_files = storage.staticfiles_storage.hashed_files
         self.assertIn(cleared_file_name, hashed_files)
 
-        manifest_content = storage.staticfiles_storage.load_manifest()
+        manifest_content, _ = storage.staticfiles_storage.load_manifest()
         self.assertIn(cleared_file_name, manifest_content)
 
         original_path = storage.staticfiles_storage.path(cleared_file_name)
@@ -491,7 +501,7 @@ class TestCollectionManifestStorage(TestHashedFiles, CollectionTestCase):
         hashed_files = storage.staticfiles_storage.hashed_files
         self.assertNotIn(cleared_file_name, hashed_files)
 
-        manifest_content = storage.staticfiles_storage.load_manifest()
+        manifest_content, _ = storage.staticfiles_storage.load_manifest()
         self.assertNotIn(cleared_file_name, manifest_content)
 
     def test_missing_entry(self):
@@ -535,8 +545,37 @@ class TestCollectionManifestStorage(TestHashedFiles, CollectionTestCase):
             2,
         )
 
+    def test_manifest_hash(self):
+        # Collect the additional file.
+        self.run_collectstatic()
 
-@override_settings(STATICFILES_STORAGE="staticfiles_tests.storage.NoneHashStorage")
+        _, manifest_hash_orig = storage.staticfiles_storage.load_manifest()
+        self.assertNotEqual(manifest_hash_orig, "")
+        self.assertEqual(storage.staticfiles_storage.manifest_hash, manifest_hash_orig)
+        # Saving doesn't change the hash.
+        storage.staticfiles_storage.save_manifest()
+        self.assertEqual(storage.staticfiles_storage.manifest_hash, manifest_hash_orig)
+        # Delete the original file from the app, collect with clear.
+        os.unlink(self._clear_filename)
+        self.run_collectstatic(clear=True)
+        # Hash is changed.
+        _, manifest_hash = storage.staticfiles_storage.load_manifest()
+        self.assertNotEqual(manifest_hash, manifest_hash_orig)
+
+    def test_manifest_hash_v1(self):
+        storage.staticfiles_storage.manifest_name = "staticfiles_v1.json"
+        manifest_content, manifest_hash = storage.staticfiles_storage.load_manifest()
+        self.assertEqual(manifest_hash, "")
+        self.assertEqual(manifest_content, {"dummy.txt": "dummy.txt"})
+
+
+@override_settings(
+    STORAGES={
+        STATICFILES_STORAGE_ALIAS: {
+            "BACKEND": "staticfiles_tests.storage.NoneHashStorage",
+        },
+    }
+)
 class TestCollectionNoneHashStorage(CollectionTestCase):
     hashed_file_path = hashed_file_path
 
@@ -546,7 +585,11 @@ class TestCollectionNoneHashStorage(CollectionTestCase):
 
 
 @override_settings(
-    STATICFILES_STORAGE="staticfiles_tests.storage.NoPostProcessReplacedPathStorage"
+    STORAGES={
+        STATICFILES_STORAGE_ALIAS: {
+            "BACKEND": "staticfiles_tests.storage.NoPostProcessReplacedPathStorage",
+        },
+    }
 )
 class TestCollectionNoPostProcessReplacedPaths(CollectionTestCase):
     run_collectstatic_in_setUp = False
@@ -557,7 +600,13 @@ class TestCollectionNoPostProcessReplacedPaths(CollectionTestCase):
         self.assertIn("post-processed", stdout.getvalue())
 
 
-@override_settings(STATICFILES_STORAGE="staticfiles_tests.storage.SimpleStorage")
+@override_settings(
+    STORAGES={
+        STATICFILES_STORAGE_ALIAS: {
+            "BACKEND": "staticfiles_tests.storage.SimpleStorage",
+        },
+    }
+)
 class TestCollectionSimpleStorage(CollectionTestCase):
     hashed_file_path = hashed_file_path
 
@@ -710,7 +759,11 @@ class TestStaticFilePermissions(CollectionTestCase):
     @override_settings(
         FILE_UPLOAD_PERMISSIONS=0o655,
         FILE_UPLOAD_DIRECTORY_PERMISSIONS=0o765,
-        STATICFILES_STORAGE="staticfiles_tests.test_storage.CustomStaticFilesStorage",
+        STORAGES={
+            STATICFILES_STORAGE_ALIAS: {
+                "BACKEND": "staticfiles_tests.test_storage.CustomStaticFilesStorage",
+            },
+        },
     )
     def test_collect_static_files_subclass_of_static_storage(self):
         call_command("collectstatic", **self.command_params)
@@ -730,7 +783,11 @@ class TestStaticFilePermissions(CollectionTestCase):
 
 
 @override_settings(
-    STATICFILES_STORAGE="django.contrib.staticfiles.storage.ManifestStaticFilesStorage",
+    STORAGES={
+        STATICFILES_STORAGE_ALIAS: {
+            "BACKEND": "django.contrib.staticfiles.storage.ManifestStaticFilesStorage",
+        },
+    }
 )
 class TestCollectionHashedFilesCache(CollectionTestCase):
     """

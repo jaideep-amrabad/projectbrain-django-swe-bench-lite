@@ -18,6 +18,8 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     requires_explicit_null_ordering_when_grouping = True
     atomic_transactions = False
     can_clone_databases = True
+    supports_comments = True
+    supports_comments_inline = True
     supports_temporal_subtraction = True
     supports_slicing_ordering_in_compound = True
     supports_index_on_text_field = False
@@ -139,6 +141,16 @@ class DatabaseFeatures(BaseDatabaseFeatures):
                 {
                     "MariaDB and MySQL >= 8.0.18 specific.": {
                         "queries.test_explain.ExplainTests.test_mysql_analyze",
+                    },
+                }
+            )
+        if "ONLY_FULL_GROUP_BY" in self.connection.sql_mode:
+            skips.update(
+                {
+                    "GROUP BY cannot contain nonaggregated column when "
+                    "ONLY_FULL_GROUP_BY mode is enabled on MySQL, see #34262.": {
+                        "aggregation.tests.AggregateTestCase."
+                        "test_group_by_nested_expression_with_params",
                     },
                 }
             )
