@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **source_map_sensitive.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/source_map_sensitive.js`
+- **xor_lookups/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/xor_lookups/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/source_map_sensitive.js`
+- `raw/code/hyd-evaluation/django-django/tests/xor_lookups/__init__.py`
 
 ## Audit Trail
 

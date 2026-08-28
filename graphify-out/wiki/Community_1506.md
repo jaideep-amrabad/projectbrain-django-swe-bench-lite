@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **empty_models/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/empty_models/models.py`
+- **javascript_ignored.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/static/javascript_ignored.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/empty_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/static/javascript_ignored.js`
 
 ## Audit Trail
 
