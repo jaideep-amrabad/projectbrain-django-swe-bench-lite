@@ -1,6 +1,6 @@
 # Community 1
 
-> 293 nodes · cohesion 0.01
+> 315 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -16,35 +16,35 @@
 - **test_logentry.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
 - **UtilsTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
 - **test_html.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **NestedObjectsTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
 - **admin_utils/models.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
 - **TestUtilsHtml** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
 - **display_for_field()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **NestedObjects** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
 - **TestUtilsText** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
 - **SafeStringTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
 - **label_for_field()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
 - **Article** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
 - **flatten_fieldsets()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **date_hierarchy()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
 - **punycode()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
 - **urlize()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 - **admin_utils/admin.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/admin.py`
-- **test_escape.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- *... and 268 more nodes in this community*
+- *... and 290 more nodes in this community*
 
 ## Relationships
 
-- [Community 44](Community_44.md) (125 shared connections)
-- [Community 4](Community_4.md) (73 shared connections)
-- [Community 92](Community_92.md) (60 shared connections)
-- [Community 11](Community_11.md) (22 shared connections)
-- [Community 37](Community_37.md) (21 shared connections)
-- [Community 104](Community_104.md) (20 shared connections)
-- [Community 18](Community_18.md) (17 shared connections)
-- [Community 7](Community_7.md) (16 shared connections)
-- [Community 29](Community_29.md) (13 shared connections)
-- [Community 308](Community_308.md) (12 shared connections)
-- [Community 124](Community_124.md) (11 shared connections)
-- [Community 298](Community_298.md) (11 shared connections)
+- [Community 43](Community_43.md) (125 shared connections)
+- [Community 3](Community_3.md) (73 shared connections)
+- [Community 110](Community_110.md) (60 shared connections)
+- [Community 9](Community_9.md) (21 shared connections)
+- [Community 217](Community_217.md) (20 shared connections)
+- [Community 34](Community_34.md) (20 shared connections)
+- [Community 14](Community_14.md) (16 shared connections)
+- [Community 5](Community_5.md) (14 shared connections)
+- [Community 28](Community_28.md) (14 shared connections)
+- [Community 310](Community_310.md) (12 shared connections)
+- [Community 2](Community_2.md) (11 shared connections)
+- [Community 24](Community_24.md) (10 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 1095 (97%)
-- INFERRED: 36 (3%)
+- EXTRACTED: 1127 (97%)
+- INFERRED: 38 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

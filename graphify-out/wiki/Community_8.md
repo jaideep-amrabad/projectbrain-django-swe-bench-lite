@@ -1,6 +1,6 @@
 # Community 8
 
-> 299 nodes · cohesion 0.01
+> 284 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **CommandParser** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
 - **compilemessages.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/compilemessages.py`
 - **flush.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/flush.py`
-- *... and 274 more nodes in this community*
+- *... and 259 more nodes in this community*
 
 ## Relationships
 
-- [Community 44](Community_44.md) (46 shared connections)
-- [Community 24](Community_24.md) (34 shared connections)
-- [Community 10](Community_10.md) (31 shared connections)
-- [Community 19](Community_19.md) (27 shared connections)
-- [Community 33](Community_33.md) (21 shared connections)
-- [Community 0](Community_0.md) (21 shared connections)
-- [Community 69](Community_69.md) (20 shared connections)
-- [Community 270](Community_270.md) (17 shared connections)
-- [Community 3](Community_3.md) (16 shared connections)
-- [Community 109](Community_109.md) (16 shared connections)
-- [Community 369](Community_369.md) (15 shared connections)
-- [Community 21](Community_21.md) (14 shared connections)
+- [Community 43](Community_43.md) (46 shared connections)
+- [Community 52](Community_52.md) (34 shared connections)
+- [Community 12](Community_12.md) (29 shared connections)
+- [Community 30](Community_30.md) (25 shared connections)
+- [Community 0](Community_0.md) (23 shared connections)
+- [Community 32](Community_32.md) (19 shared connections)
+- [Community 80](Community_80.md) (18 shared connections)
+- [Community 274](Community_274.md) (16 shared connections)
+- [Community 2](Community_2.md) (16 shared connections)
+- [Community 37](Community_37.md) (15 shared connections)
+- [Community 423](Community_423.md) (15 shared connections)
+- [Community 22](Community_22.md) (14 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 1194 (97%)
+- EXTRACTED: 1175 (97%)
 - INFERRED: 32 (3%)
 - AMBIGUOUS: 0 (0%)
 
