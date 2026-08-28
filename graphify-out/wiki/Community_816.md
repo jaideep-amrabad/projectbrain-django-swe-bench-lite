@@ -1,36 +1,44 @@
 # Community 816
 
-> 9 nodes · cohesion 0.28
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **StaticFilesHandlerMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.get_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.serve()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.get_response_async()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **Common methods used by WSGI and ASGI handlers.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **Return the relative path to the media file on disk for the given URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **Serve the request path.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **.load_middleware()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **parse_header_parameters()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **ParseHeaderParameterTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **._set_content_type_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.test_rfc2231_wrong_title()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **_parseparam()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_rfc2231_parsing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **Initialize the MultiPartParser object. :META: The standard ``META`` dictionary…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Set content_type, content_params, and encoding.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **Parse a Content-type like header. Return the main content-type and a dictionary…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **Test wrongly formatted RFC 2231 headers (missing double single quotes). Parsing…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
 
 ## Relationships
 
-- [Community 776](Community_776.md) (2 shared connections)
-- [Community 96](Community_96.md) (2 shared connections)
-- [Community 220](Community_220.md) (2 shared connections)
-- [Community 329](Community_329.md) (1 shared connections)
-- [Community 661](Community_661.md) (1 shared connections)
-- [Community 978](Community_978.md) (1 shared connections)
+- [Community 7](Community_7.md) (7 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 504](Community_504.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 564](Community_564.md) (1 shared connections)
+- [Community 199](Community_199.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (84%)
-- INFERRED: 3 (16%)
+- EXTRACTED: 27 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **array_index_migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/array_index_migrations/__init__.py`
+- **test_migrations_clashing_prefix/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_clashing_prefix/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/array_index_migrations/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_clashing_prefix/__init__.py`
 
 ## Audit Trail
 

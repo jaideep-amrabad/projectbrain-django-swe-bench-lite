@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **complex_app/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/__init__.py`
+- **spatialite/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/__init__.py`
 
 ## Audit Trail
 

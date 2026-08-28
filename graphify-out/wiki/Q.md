@@ -1,15 +1,14 @@
 # Q
 
-> God node · 350 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+> God node · 356 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 18](Community_18.md)
+**Community:** [Community 11](Community_11.md)
 
 ## Connections by Relation
 
 ### calls
 - .test_expressions() `EXTRACTED`
 - .test_filtered_aggregates() `EXTRACTED`
-- .test_invalid_filter() `EXTRACTED`
 - .test_aggregate() `EXTRACTED`
 - .test_exact_booleanfield_annotation() `EXTRACTED`
 - .test_string_agg_array_agg_filter_in_subquery() `EXTRACTED`
@@ -19,14 +18,15 @@
 - .test_flatten() `EXTRACTED`
 - .test_q_annotation() `EXTRACTED`
 - .get_for_models() `EXTRACTED`
+- _filter_prefetch_queryset() `EXTRACTED`
 - .test_case_aggregate() `EXTRACTED`
 - .test_conditional_aggregation_example() `EXTRACTED`
 - .test_annotate_filter_decimal() `EXTRACTED`
+- .test_exclude() `EXTRACTED`
+- .test_filter() `EXTRACTED`
+- .test_filter_conditional_annotation() `EXTRACTED`
 - .test_geodetic_distance_lookups() `EXTRACTED`
 - .test_range_overlaps_custom() `EXTRACTED`
-- .test_range_overlaps_custom_opclasses() `EXTRACTED`
-- .test_op_class_descending_partial() `EXTRACTED`
-- .test_op_class_descending_partial_tablespace() `EXTRACTED`
 
 ### contains
 - query_utils.py `EXTRACTED`
@@ -36,14 +36,13 @@
 - queries/tests.py `EXTRACTED`
 - models/expressions.py `EXTRACTED`
 - expressions/tests.py `EXTRACTED`
-- schema/tests.py `EXTRACTED`
 - forms/models.py `EXTRACTED`
 - related.py `EXTRACTED`
 - contenttypes/models.py `EXTRACTED`
 - models/query.py `EXTRACTED`
 - sql/query.py `EXTRACTED`
-- model_fields/test_jsonfield.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
+- model_fields/test_jsonfield.py `EXTRACTED`
 - lookup/tests.py `EXTRACTED`
 - postgres_tests/test_indexes.py `EXTRACTED`
 - test_query.py `EXTRACTED`
@@ -52,6 +51,7 @@
 - annotations/tests.py `EXTRACTED`
 - distapp/tests.py `EXTRACTED`
 - postgres_tests/test_operations.py `EXTRACTED`
+- test_aggregates.py `EXTRACTED`
 
 ### method
 - .check() `EXTRACTED`
@@ -74,8 +74,8 @@
 - QuerySet `INFERRED`
 - Index `INFERRED`
 - Combinable `INFERRED`
-- UniqueConstraint `INFERRED`
 - CheckConstraint `INFERRED`
+- UniqueConstraint `INFERRED`
 
 ---
 

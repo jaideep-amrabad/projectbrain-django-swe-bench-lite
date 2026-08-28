@@ -1,8 +1,8 @@
 # skipUnlessDBFeature()
 
-> God node · 564 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 502 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 26](Community_26.md)
+**Community:** [Community 20](Community_20.md)
 
 ## Connections by Relation
 
@@ -20,29 +20,29 @@
 - model_forms/tests.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
 - expressions/tests.py `EXTRACTED`
-- schema/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
 - test_runner/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
 - test_extract_trunc.py `EXTRACTED`
 - model_formsets/tests.py `EXTRACTED`
+- expressions_window/tests.py `EXTRACTED`
 - model_fields/test_jsonfield.py `EXTRACTED`
 - delete_regress/tests.py `EXTRACTED`
 - delete/tests.py `EXTRACTED`
 - backends/tests.py `EXTRACTED`
-- expressions_window/tests.py `EXTRACTED`
 - geoapp/tests.py `EXTRACTED`
 - lookup/tests.py `EXTRACTED`
 - postgres_tests/test_indexes.py `EXTRACTED`
 - test_query.py `EXTRACTED`
+- aggregation/tests.py `EXTRACTED`
 
 ### rationale_for
 - Skip a test unless a database has all the named features. `EXTRACTED`
 
 ### references
 - TestQuerying `EXTRACTED`
-- QuerySetSetOperationTests `EXTRACTED`
 - WindowFunctionTests `EXTRACTED`
+- QuerySetSetOperationTests `EXTRACTED`
 - TestConnectionOnCommit `EXTRACTED`
 - AtomicTests `EXTRACTED`
 - RasterFieldTest `EXTRACTED`

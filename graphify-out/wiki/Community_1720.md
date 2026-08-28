@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **queryset_pickle/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/__init__.py`
+- **test_migrations_no_ancestor/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_no_ancestor/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_no_ancestor/__init__.py`
 
 ## Audit Trail
 

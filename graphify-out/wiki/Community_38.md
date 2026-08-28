@@ -1,13 +1,12 @@
 # Community 38
 
-> 169 nodes · cohesion 0.02
+> 159 nodes · cohesion 0.03
 
 ## Key Concepts
 
 - **admin_inlines/admin.py** (122 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
 - **admin_inlines/models.py** (68 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
 - **admin_inlines/tests.py** (65 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **TestReadOnlyChangeViewInlinePermissions** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 - **TestInlineMedia** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 - **TestVerboseNameInlineForms** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 - **SomeChildModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
@@ -29,22 +28,23 @@
 - **Class** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
 - **Course** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
 - **Holder** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- *... and 144 more nodes in this community*
+- **Holder2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- *... and 134 more nodes in this community*
 
 ## Relationships
 
-- [Community 319](Community_319.md) (22 shared connections)
-- [Community 21](Community_21.md) (15 shared connections)
-- [Community 5](Community_5.md) (9 shared connections)
-- [Community 9](Community_9.md) (8 shared connections)
-- [Community 3](Community_3.md) (7 shared connections)
-- [Community 29](Community_29.md) (6 shared connections)
-- [Community 7](Community_7.md) (6 shared connections)
-- [Community 577](Community_577.md) (5 shared connections)
-- [Community 215](Community_215.md) (3 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 110](Community_110.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
+- [Community 14](Community_14.md) (34 shared connections)
+- [Community 3](Community_3.md) (10 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 189](Community_189.md) (7 shared connections)
+- [Community 520](Community_520.md) (7 shared connections)
+- [Community 27](Community_27.md) (5 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 821](Community_821.md) (3 shared connections)
+- [Community 214](Community_214.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 157](Community_157.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
@@ -56,8 +56,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 349 (79%)
-- INFERRED: 95 (21%)
+- EXTRACTED: 337 (78%)
+- INFERRED: 95 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---
