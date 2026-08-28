@@ -9,8 +9,8 @@
 
 ## Relationships
 
-- [Community 212](Community_212.md) (1 shared connections)
-- [Community 984](Community_984.md) (1 shared connections)
+- [Community 209](Community_209.md) (1 shared connections)
+- [Community 980](Community_980.md) (1 shared connections)
 
 ## Source Files
 

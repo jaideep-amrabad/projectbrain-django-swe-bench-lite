@@ -1,6 +1,6 @@
 # Community 163
 
-> 114 nodes · cohesion 0.03
+> 112 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -28,23 +28,23 @@
 - **result_list()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
 - **get_package_libraries()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
 - **Template** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **make_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- *... and 89 more nodes in this community*
+- **parse_bits()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- *... and 87 more nodes in this community*
 
 ## Relationships
 
 - [Community 2](Community_2.md) (35 shared connections)
-- [Community 3](Community_3.md) (21 shared connections)
-- [Community 8](Community_8.md) (15 shared connections)
-- [Community 6](Community_6.md) (13 shared connections)
-- [Community 46](Community_46.md) (12 shared connections)
-- [Community 50](Community_50.md) (10 shared connections)
-- [Community 51](Community_51.md) (9 shared connections)
-- [Community 290](Community_290.md) (7 shared connections)
-- [Community 428](Community_428.md) (6 shared connections)
-- [Community 48](Community_48.md) (6 shared connections)
-- [Community 16](Community_16.md) (5 shared connections)
-- [Community 10](Community_10.md) (5 shared connections)
+- [Community 3](Community_3.md) (15 shared connections)
+- [Community 60](Community_60.md) (13 shared connections)
+- [Community 17](Community_17.md) (13 shared connections)
+- [Community 54](Community_54.md) (10 shared connections)
+- [Community 612](Community_612.md) (10 shared connections)
+- [Community 55](Community_55.md) (9 shared connections)
+- [Community 287](Community_287.md) (7 shared connections)
+- [Community 429](Community_429.md) (6 shared connections)
+- [Community 234](Community_234.md) (5 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
 
 ## Source Files
 
@@ -52,7 +52,6 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/base.py`
 - `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- `raw/code/hyd-evaluation/django-django/django/template/context.py`
 - `raw/code/hyd-evaluation/django-django/django/template/engine.py`
 - `raw/code/hyd-evaluation/django-django/django/template/exceptions.py`
 - `raw/code/hyd-evaluation/django-django/django/template/library.py`
@@ -63,7 +62,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 344 (91%)
+- EXTRACTED: 340 (91%)
 - INFERRED: 33 (9%)
 - AMBIGUOUS: 0 (0%)
 
