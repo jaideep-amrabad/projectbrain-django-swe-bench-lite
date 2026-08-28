@@ -1,40 +1,38 @@
 # Community 767
 
-> 15 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **_AssertFormErrorDeprecationHelper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertFormError()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertFormsetError()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **to_list()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertFormError()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertFormsetError()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._assert_form_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **patch_signature** (2 connections)
-- **.patch_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Search through all the rendered contexts of the `response` for a form named…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Search for a formset named "formset" in the "response" and dispatch to the new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Replace the decorated method with a new one that inspects the passed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that a field named "field" on the given form object has specific errors.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Put value into a list if it's not already one.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Similar to assertFormError() but for formsets. Use form_index=None to check the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **base36_to_int()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **int_to_base36()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **Base36IntTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_roundtrip()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_input_too_large()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_invalid_literal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_negative_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_to_base36_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_to_int_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **Convert a base 36 string to an int. Raise ValueError if the input won't fit…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **Convert an integer to a base36 string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 360](Community_360.md) (2 shared connections)
-- [Community 604](Community_604.md) (1 shared connections)
-- [Community 261](Community_261.md) (1 shared connections)
+- [Community 25](Community_25.md) (5 shared connections)
+- [Community 323](Community_323.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 28 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

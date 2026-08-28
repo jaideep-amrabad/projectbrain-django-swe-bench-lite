@@ -1,51 +1,62 @@
 # Community 430
 
-> 28 nodes · cohesion 0.10
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ListViewTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **._make_authors()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_list_view_returns_useful_message_on_invalid_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_custom_page_kwarg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_custom_paginator_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_custom_paginator_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_get_last_page_by_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_get_page_by_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_get_page_by_urlvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_invalid_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_list_view_does_not_load_entire_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_orphaned_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_page_out_of_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_allow_empty_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_duplicate_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_explicitly_ordered_list_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_invalid_get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_missing_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_non_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_queryset_shortdata()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- *... and 3 more nodes in this community*
+- **get_default_timezone()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **_get_next_prev()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **is_naive()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **localtime()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **get_current_timezone()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **template_localtime()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **get_current_timezone_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **make_naive()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **timezone_today()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **get_default_timezone_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **_get_timezone_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **localdate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **Return the name of the currently active time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Return the offset for fixed offset timezones, or the name of timezone if not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Check if value is a datetime and converts it to local time if necessary. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Convert an aware datetime.datetime to local time. Only aware datetimes are…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Convert an aware datetime to local time and return the value's date. Only aware…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Determine if a given datetime.datetime is naive. The concept is defined in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Make an aware datetime.datetime naive in a given time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Return the default time zone as a tzinfo instance. This is the time zone…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Return the name of the default time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Return the currently active time zone as a tzinfo instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Get the next or the previous valid date. The idea is to allow links on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 476](Community_476.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 90](Community_90.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 3](Community_3.md) (13 shared connections)
+- [Community 4](Community_4.md) (10 shared connections)
+- [Community 416](Community_416.md) (4 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 127](Community_127.md) (4 shared connections)
+- [Community 25](Community_25.md) (3 shared connections)
+- [Community 55](Community_55.md) (2 shared connections)
+- [Community 312](Community_312.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 678](Community_678.md) (2 shared connections)
+- [Community 98](Community_98.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 86 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

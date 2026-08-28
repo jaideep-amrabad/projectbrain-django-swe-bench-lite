@@ -1,22 +1,26 @@
 # Community 1761
 
-> 1 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **version/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/version/__init__.py`
+- **.encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **setter** (3 connections)
+- **.encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **Set the encoding used for GET/POST accesses. If the GET or POST dictionary has…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 175](Community_175.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/version/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

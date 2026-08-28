@@ -1,39 +1,38 @@
 # Community 777
 
-> 12 nodes · cohesion 0.23
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **parse_http_date()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **HttpDateProcessingTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_rfc850()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_asctime()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_asctime_nonascii_digits()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_rfc1123()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_year_less_than_70()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_http_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **Parse a date format as specified by HTTP RFC7231 section 7.1.1.1. The three…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **patch** (1 connections)
-- **skipIf** (1 connections)
-- **Non-ASCII unicode decimals raise an error.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **SignalTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **DatabaseReceiver** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_database_arg_m2m()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **WriteToOtherRouter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.override_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_database_arg_save_and_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Used in the tests for the database argument in signals (#13552)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **A router that sends all writes to the other database.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **The pre/post_save signal contains the correct database.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **The m2m_changed signal has a correct database arg.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.db_for_write()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Relationships
 
-- [Community 104](Community_104.md) (4 shared connections)
-- [Community 360](Community_360.md) (2 shared connections)
-- [Community 117](Community_117.md) (2 shared connections)
-- [Community 196](Community_196.md) (2 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 397](Community_397.md) (4 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 652](Community_652.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 484](Community_484.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (85%)
-- INFERRED: 4 (15%)
+- EXTRACTED: 18 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

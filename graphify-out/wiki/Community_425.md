@@ -1,50 +1,50 @@
 # Community 425
 
-> 21 nodes · cohesion 0.10
+> 27 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **serializers/test_data.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **SerializerDataTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **data_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **data_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **fk_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **fk_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **generic_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **generic_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **im2m_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **im2m_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **im_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **im_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **inherited_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **inherited_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **m2m_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **m2m_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **o2o_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **o2o_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **pk_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **pk_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **A test spanning all the capabilities of all the serializers. This class defines…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **schema/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Meta** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Thing** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Author** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorCharFieldWithIndex** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorTextFieldWithIndex** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithDefaultHeight** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithEvenLongerName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithIndexedName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithUniqueName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **AuthorWithUniqueNameAndBirthday** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Book** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookForeignObj** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWeak** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWithLongName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWithO2O** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWithoutAuthor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **BookWithSlug** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **IntegerPK** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Node** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Note** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **NoteRename** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **Tag** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **TagM2MTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- **TagUniqueRename** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 1000](Community_1000.md) (2 shared connections)
-- [Community 277](Community_277.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 522](Community_522.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (44%)
-- INFERRED: 18 (56%)
+- EXTRACTED: 53 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

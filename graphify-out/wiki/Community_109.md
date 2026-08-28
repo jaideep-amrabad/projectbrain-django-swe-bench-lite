@@ -1,62 +1,62 @@
 # Community 109
 
-> 79 nodes · cohesion 0.04
+> 50 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **MigrationLoader** (79 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
-- **LoaderTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.record_applied()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_loading_squashed_ref_squashed()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_check_consistent_history_squashed()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_loading_squashed()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_loading_squashed_complex()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_loading_squashed_complex_multi_apps_partially_applied()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_loading_squashed_erroneous()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.show_list()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **Command** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlmigrate.py`
-- **.test_check_consistent_history()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_first()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_load()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_loading_package_without__file__()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_plan_handles_repeated_migrations()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.show_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.test_explicit_missing_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_ignore_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_load_unmigrated_dependency()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_loading_namespace_package()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_loading_squashed_complex_multi_apps()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_marked_as_migrated()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- **.test_marked_as_unmigrated()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
-- *... and 54 more nodes in this community*
+- **ChoiceField** (30 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **MultipleChoiceField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **SelectMultipleTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **ChoiceFieldTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **MultipleChoiceFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
+- **test_multiplechoicefield.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
+- **.validate()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **CallableChoiceIterator** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.valid_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.validate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **FilePathField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_choicefield_callable_may_evaluate_to_different_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **._set_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_choicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_choicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_choicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_choicefield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_choicefield_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_choicefield_choices_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_choicefield_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_choicefield_enumeration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- **.test_disabled_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
+- **.test_multiplechoicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 125](Community_125.md) (25 shared connections)
-- [Community 8](Community_8.md) (23 shared connections)
-- [Community 1](Community_1.md) (21 shared connections)
-- [Community 79](Community_79.md) (19 shared connections)
-- [Community 0](Community_0.md) (12 shared connections)
-- [Community 22](Community_22.md) (6 shared connections)
-- [Community 454](Community_454.md) (2 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 176](Community_176.md) (1 shared connections)
-- [Community 217](Community_217.md) (1 shared connections)
-- [Community 165](Community_165.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
+- [Community 55](Community_55.md) (9 shared connections)
+- [Community 58](Community_58.md) (7 shared connections)
+- [Community 46](Community_46.md) (6 shared connections)
+- [Community 240](Community_240.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 133](Community_133.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 669](Community_669.md) (1 shared connections)
+- [Community 297](Community_297.md) (1 shared connections)
+- [Community 642](Community_642.md) (1 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
+- [Community 107](Community_107.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlmigrate.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_loader.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
 
 ## Audit Trail
 
-- EXTRACTED: 188 (80%)
-- INFERRED: 48 (20%)
+- EXTRACTED: 76 (74%)
+- INFERRED: 27 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

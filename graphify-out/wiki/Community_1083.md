@@ -1,25 +1,28 @@
 # Community 1083
 
-> 4 nodes · cohesion 0.67
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **EscapejsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- **.test_escapejs01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- **.test_escapejs02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- **setup** (2 connections)
+- **test_migrations_plan/0001_initial.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- **grow_tail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- **shrink_tail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- **Shrink salamander tail.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- **Grow salamander tail.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

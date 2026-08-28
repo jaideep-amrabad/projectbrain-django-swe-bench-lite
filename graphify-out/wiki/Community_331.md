@@ -1,61 +1,58 @@
 # Community 331
 
-> 27 nodes · cohesion 0.08
+> 53 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **.run_tests()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.build_suite()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **_init_worker()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.load_tests_for_label()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **._get_databases()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.run_suite()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.setup_shuffler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **partition_suite_by_case()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **TestRunnerInitializerTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.get_test_runner_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.run_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.setup_test_environment()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.teardown_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_no_initialize_suite_test_runner()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.get_resultclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.load_with_patterns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.setup_databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.suite_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.teardown_test_environment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **find_top_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Run the unit tests for all the test labels in the provided list. Test labels…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Partition a test suite by test case, preserving the order of tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Switch to databases dedicated to this worker. This helper lives at module-level…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- *... and 2 more nodes in this community*
+- **QuerySetSetOperationTests** (60 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.assertNumbersEqual()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **ReservedName** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.test_union_in_subquery()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_union_in_subquery_related_outerref()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_order_raises_on_non_selected_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_ordering_by_f_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_ordering_subqueries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_simple_difference()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_simple_intersection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_union_in_with_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_union_in_with_ordering_and_slice()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_union_with_two_annotated_values_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_union_with_values_list_and_order_on_annotation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_count_difference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_count_intersection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_difference_with_empty_qs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_difference_with_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_exists_difference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_exists_intersection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_get_difference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_get_intersection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_intersection_with_empty_qs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_intersection_with_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **.test_order_by_same_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 30](Community_30.md) (17 shared connections)
-- [Community 184](Community_184.md) (4 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 193](Community_193.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 649](Community_649.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 385](Community_385.md) (1 shared connections)
-- [Community 525](Community_525.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 746](Community_746.md) (1 shared connections)
+- [Community 21](Community_21.md) (17 shared connections)
+- [Community 26](Community_26.md) (7 shared connections)
+- [Community 79](Community_79.md) (5 shared connections)
+- [Community 28](Community_28.md) (5 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 34](Community_34.md) (3 shared connections)
+- [Community 515](Community_515.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 190](Community_190.md) (1 shared connections)
+- [Community 354](Community_354.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (95%)
-- INFERRED: 3 (5%)
+- EXTRACTED: 104 (95%)
+- INFERRED: 6 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,51 +1,57 @@
 # Community 428
 
-> 28 nodes · cohesion 0.10
+> 32 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **AppConfigTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **Stub** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_dunder_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_duplicate_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_empty_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_empty_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_multiple_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_multiple_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_no_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_no_dunder_path_or_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_explicit_path_overrides()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_path_set_explicitly()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_app_default_auto_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_default_auto_field_setting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_invalid_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **Unit tests for AppConfig class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If subclass sets path as class attr, no module attributes needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If path set as class attr, overrides __path__ and __file__.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If single element in __path__, use it (in preference to __file__).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If there is no __path__ attr, use __file__.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If the __path__ attr is empty, use __file__ if set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If the __path__ attr is length>1, use __file__ if set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If there is no __path__ or __file__, raise ImproperlyConfigured.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **If the __path__ attr is empty and there is no __file__, raise.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- *... and 3 more nodes in this community*
+- **Combinable** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **._combine()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **CombinableTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.__add__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.bitand()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.bitleftshift()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.bitor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.bitrightshift()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.bitxor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__mod__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__mul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__neg__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__pow__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__radd__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__rmod__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__rmul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__rpow__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__rsub__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__rtruediv__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__sub__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__truediv__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.test_and()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_negation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_or()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_reversed_and()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 133](Community_133.md) (9 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
+- [Community 28](Community_28.md) (3 shared connections)
+- [Community 40](Community_40.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 - [Community 3](Community_3.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 69 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

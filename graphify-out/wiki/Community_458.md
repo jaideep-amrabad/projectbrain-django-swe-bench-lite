@@ -1,51 +1,51 @@
 # Community 458
 
-> 26 nodes · cohesion 0.10
+> 25 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ExistingRelatedInstancesTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **known_related_objects/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
-- **known_related_objects/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **Organiser** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
-- **Pool** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
-- **PoolStyle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
-- **Tournament** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
-- **Existing related object instance caching. Queries are not redone when going…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_foreign_key_multiple_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_foreign_key_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_one_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_one_to_one_multi_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_one_to_one_multi_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_one_to_one_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_one_to_one_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_queryset_and()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_queryset_or()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_queryset_or_different_cached_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_queryset_or_only_one_with_precache()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_reverse_one_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_reverse_one_to_one_multi_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_reverse_one_to_one_multi_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- **.test_reverse_one_to_one_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
-- *... and 1 more nodes in this community*
+- **EarliestOrLatestTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **get_earliest_or_latest/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **TestFirstLast** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **get_earliest_or_latest/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **IndexErrorArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **Comment** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **IndexErrorQuerySet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **.test_first_last_unordered_qs_aggregation_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_index_error_not_suppressed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_earliest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_latest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_latest_manual()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_first()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_last()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **Emulates the case when some internal code raises an unexpected IndexError.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_earliest_sliced_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_latest_sliced_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **Tests for the earliest() and latest() objects methods** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **#23555 -- Unexpected IndexError exceptions in QuerySet iteration shouldn't be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 312](Community_312.md) (8 shared connections)
+- [Community 4](Community_4.md) (6 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 22](Community_22.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (89%)
-- INFERRED: 4 (11%)
+- EXTRACTED: 37 (73%)
+- INFERRED: 14 (27%)
 - AMBIGUOUS: 0 (0%)
 
 ---

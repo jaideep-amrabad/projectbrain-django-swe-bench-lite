@@ -1,50 +1,52 @@
 # Community 444
 
-> 27 nodes · cohesion 0.14
+> 25 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **schema/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Meta** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Thing** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Author** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorCharFieldWithIndex** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorTextFieldWithIndex** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithDefaultHeight** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithEvenLongerName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithIndexedName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithUniqueName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **AuthorWithUniqueNameAndBirthday** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Book** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookForeignObj** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookWeak** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookWithLongName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookWithO2O** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookWithoutAuthor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **BookWithSlug** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **IntegerPK** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Node** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Note** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **NoteRename** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **Tag** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **TagM2MTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- **TagUniqueRename** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
-- *... and 2 more nodes in this community*
+- **NestedObjectsTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **NestedObjects** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **._connect()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **._check()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **._collect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_cyclic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_non_added_parent()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_siblings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_unrelated_roots()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_on_delete_do_nothing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_relation_on_abstract()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.add_edge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.can_fast_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.collect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **._nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.test_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.related_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **Collector** (1 connections)
+- **Return the graph as a nested list.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **We always want to load the objects into memory so that we can display them to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **Tests for ``NestedObject`` utility collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **The nested collector doesn't query for DO_NOTHING objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **NestedObjects.collect() doesn't trip (AttributeError) on the special notation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 176](Community_176.md) (1 shared connections)
+- [Community 3](Community_3.md) (9 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
+- [Community 419](Community_419.md) (1 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
+- [Community 22](Community_22.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/schema/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 46 (85%)
+- INFERRED: 8 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

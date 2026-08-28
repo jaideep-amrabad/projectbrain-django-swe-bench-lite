@@ -1,22 +1,24 @@
 # Community 1771
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **wsgi/wsgi.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/wsgi.py`
+- **.has_usable_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **Return False if set_unusable_password() has been called for this user.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 117](Community_117.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/wsgi/wsgi.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

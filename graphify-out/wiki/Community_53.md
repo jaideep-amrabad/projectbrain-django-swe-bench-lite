@@ -1,64 +1,60 @@
 # Community 53
 
-> 108 nodes · cohesion 0.02
+> 137 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **TestQuerying** (74 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **RawSQL** (49 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **KeyTransform** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **JSONField** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTextTransform** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **compile_json_path()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.preprocess_lhs()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.test_contains_contained_by_with_key_transform()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.test_rawsql_group_by_collapse()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_aggregate_rawsql_annotation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_has_key_deep()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_has_key_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_key_sql_injection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_key_transform_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_nested_key_transform_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_nested_key_transform_on_subquery()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_ordering_grouping_by_key_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.as_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_mysql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_mysql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_oracle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- *... and 83 more nodes in this community*
+- **FormsFormsetTestCase** (77 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **formset_factory()** (66 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **ChoiceFormSet** (30 connections)
+- **get_default_renderer()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **.make_choiceformset()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **all_valid()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **DeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_no_management_form_warning()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **TestEmptyFormSet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_invalid()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_warning()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_custom_renderer()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **AllValidTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_valid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_displaying_more_than_one_blank_form()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_empty_ordered_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_splitdatetimefield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_validate_max_flag()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_validate_min_flag()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_validate_min_unchanged_forms()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_with_deletion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_with_ordering_and_deletion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formsets_with_ordering()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_hard_limit_on_instantiated_forms()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_increase_hard_limit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- *... and 112 more nodes in this community*
 
 ## Relationships
 
-- [Community 31](Community_31.md) (11 shared connections)
-- [Community 15](Community_15.md) (10 shared connections)
-- [Community 24](Community_24.md) (10 shared connections)
-- [Community 52](Community_52.md) (10 shared connections)
-- [Community 12](Community_12.md) (9 shared connections)
-- [Community 4](Community_4.md) (9 shared connections)
-- [Community 235](Community_235.md) (9 shared connections)
-- [Community 113](Community_113.md) (6 shared connections)
-- [Community 178](Community_178.md) (5 shared connections)
-- [Community 14](Community_14.md) (5 shared connections)
-- [Community 131](Community_131.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
+- [Community 297](Community_297.md) (11 shared connections)
+- [Community 46](Community_46.md) (6 shared connections)
+- [Community 273](Community_273.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 264](Community_264.md) (3 shared connections)
+- [Community 150](Community_150.md) (3 shared connections)
+- [Community 216](Community_216.md) (2 shared connections)
+- [Community 44](Community_44.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 230](Community_230.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 246 (96%)
+- EXTRACTED: 266 (96%)
 - INFERRED: 10 (4%)
 - AMBIGUOUS: 0 (0%)
 

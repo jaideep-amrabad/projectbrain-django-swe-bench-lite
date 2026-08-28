@@ -1,53 +1,55 @@
 # Community 416
 
-> 29 nodes · cohesion 0.07
+> 27 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ManyToOneTests** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_add_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_add_remove_set_by_pk_raises()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_add_then_remove_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_assign()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_assign_fk_id_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_assign_fk_id_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_cached_foreign_key_with_to_field_not_cleared_by_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_clear_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_create_relation_with_gettext_lazy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_deepcopy_and_circular_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_explicit_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_fk_instantiation_outside_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_fk_to_bigautofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_fk_to_smallautofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_manager_class_caching()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_multiple_foreignkeys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_related_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_remove_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_reverse_assignment_deprecation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_reverse_foreign_key_instance_to_field_caching()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_reverse_selects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- *... and 4 more nodes in this community*
+- **tz.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **do_timezone()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **GetCurrentTimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **LocalTimeNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **TimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **localtime()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **utc()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **datetimeobject** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **filter** (3 connections)
+- **Node** (3 connections)
+- **timezone_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **UnknownTimezoneException** (2 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **BaseException** (1 connections)
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **# HACK: the convert_to_local_time flag will prevent** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **Template node class used by ``localtime_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **Template node class used by ``timezone_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **Template node class used by ``get_current_timezone_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **# HACK: datetime instances cannot be assigned new attributes. Define a subclass** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **Convert a datetime to local time in the active time zone. This only makes sense…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **Convert a datetime to UTC.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **Convert a datetime to local time in a given time zone. The argument must be an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 583](Community_583.md) (12 shared connections)
-- [Community 922](Community_922.md) (8 shared connections)
-- [Community 882](Community_882.md) (6 shared connections)
-- [Community 1078](Community_1078.md) (3 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 430](Community_430.md) (4 shared connections)
+- [Community 312](Community_312.md) (2 shared connections)
+- [Community 590](Community_590.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
-- [Community 1161](Community_1161.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 136](Community_136.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (69%)
-- INFERRED: 18 (31%)
+- EXTRACTED: 54 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

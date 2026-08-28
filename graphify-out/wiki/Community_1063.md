@@ -4,22 +4,24 @@
 
 ## Key Concepts
 
-- **ReadOnlyPizzaAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.has_add_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.has_change_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.has_delete_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **no_models/tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
+- **NoModelTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
+- **.test_no_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
+- **It's possible to load an app with no models.py file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
 
 ## Relationships
 
-- [Community 86](Community_86.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

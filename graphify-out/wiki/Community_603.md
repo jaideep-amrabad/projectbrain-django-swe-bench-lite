@@ -1,47 +1,42 @@
 # Community 603
 
-> 18 nodes · cohesion 0.15
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **RemoteTestResult** (33 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.check_picklable()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addSubTest()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.check_subtest_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **._confirm_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addSubTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addExpectedFailure()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **._print_unpicklable_subtest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Extend unittest.TestResult to record events in the child processes so they can…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Confirm that obj can be pickled and unpickled as multiprocessing will need to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addSkip()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addSuccess()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addUnexpectedSuccess()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **._exc_info_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.startTestRun()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.stopTestRun()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **natural.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **NaturalKeyThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **NaturalPKWithDefault** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **FKAsPKNoNaturalKey** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **FKAsPKNoNaturalKeyManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **NaturalKeyAnchor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **NaturalKeyAnchorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **FKDataNaturalKey** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **Models for test_natural.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
 
 ## Relationships
 
-- [Community 791](Community_791.md) (9 shared connections)
-- [Community 906](Community_906.md) (5 shared connections)
-- [Community 907](Community_907.md) (3 shared connections)
-- [Community 1046](Community_1046.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 742](Community_742.md) (1 shared connections)
-- [Community 1138](Community_1138.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 21 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

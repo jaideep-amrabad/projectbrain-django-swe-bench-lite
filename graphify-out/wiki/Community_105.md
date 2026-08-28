@@ -1,61 +1,52 @@
 # Community 105
 
-> 101 nodes · cohesion 0.03
+> 19 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Query** (153 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **TestQuery** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
-- **.clone()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **TestQueryNoModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
-- **.set_values()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.test_q_annotation()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
-- **.set_annotation_mask()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.add_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.chain()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.clear_deferred_loading()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.get_aggregation()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.get_select_mask()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.set_extra_mask()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.add_extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.append_annotation_mask()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.clear_select_clause()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.exists()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.get_external_cols()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.sql_with_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.test_foreign_key_f()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
-- **.test_multiple_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
-- **.test_negated_nullable()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
-- **.test_non_alias_cols_query()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
-- **.test_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
-- **.add_deferred_loading()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- *... and 76 more nodes in this community*
+- **.compile()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.as_sql()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.as_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_select_for_update_of_arguments()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.quote_name_unless_alias()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **._as_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_from_clause()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **SQLUpdateCompiler** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.as_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.as_subquery_condition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.pre_sql_setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Create the SQL for this query. Return the SQL string and list of parameters.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **SQLAggregateCompiler** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.get_combinator_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Return a list of strings that are joined together to go after the "FROM" part…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Return a quoted list of arguments for the SELECT FOR UPDATE OF part of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **If the update depends on results from other tables, munge the "where"…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **A wrapper around connection.ops.quote_name that doesn't quote aliases for table…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Create the SQL for this query. Return the SQL string and list of parameters. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Relationships
 
-- [Community 194](Community_194.md) (32 shared connections)
-- [Community 412](Community_412.md) (15 shared connections)
-- [Community 12](Community_12.md) (13 shared connections)
-- [Community 2](Community_2.md) (11 shared connections)
-- [Community 564](Community_564.md) (9 shared connections)
-- [Community 554](Community_554.md) (6 shared connections)
-- [Community 271](Community_271.md) (6 shared connections)
-- [Community 120](Community_120.md) (4 shared connections)
-- [Community 24](Community_24.md) (4 shared connections)
-- [Community 41](Community_41.md) (3 shared connections)
-- [Community 601](Community_601.md) (3 shared connections)
-- [Community 52](Community_52.md) (3 shared connections)
+- [Community 668](Community_668.md) (11 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 764](Community_764.md) (3 shared connections)
+- [Community 900](Community_900.md) (3 shared connections)
+- [Community 855](Community_855.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 78](Community_78.md) (2 shared connections)
+- [Community 827](Community_827.md) (1 shared connections)
+- [Community 64](Community_64.md) (1 shared connections)
+- [Community 859](Community_859.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 1760](Community_1760.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_sqlcompiler.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 267 (92%)
-- INFERRED: 22 (8%)
+- EXTRACTED: 59 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

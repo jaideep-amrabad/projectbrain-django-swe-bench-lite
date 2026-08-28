@@ -1,23 +1,28 @@
 # Community 1152
 
-> 2 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **NaturalKeyWithFKDependencyManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Origin** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **A container to hold debug information as described in the template API…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
 
 ## Relationships
 
-- [Community 354](Community_354.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 273](Community_273.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

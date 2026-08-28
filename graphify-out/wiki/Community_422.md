@@ -1,54 +1,61 @@
 # Community 422
 
-> 28 nodes · cohesion 0.08
+> 27 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ListMixin** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.extend()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.append()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__iadd__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__add__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__imul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.insert()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__radd__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__lt__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__mul__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__rmul__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **add another list-like object** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **add to another list-like object** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **add another list-like object to self** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **A base class which provides complete list interface. Derived classes must call…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list count method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list append method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list extend method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list insert method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- *... and 3 more nodes in this community*
+- **CsrfViewMiddleware** (91 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._check_token()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._get_secret()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.process_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **RejectRequest** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.test_origin_malformed_host()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_put_and_delete_rejected()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._check_referer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_EnsureCsrfCookie** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **._bad_token_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._origin_verified()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._set_csrf_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_EnsureCsrfToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **._accept()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.allowed_origin_subdomains()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.process_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **Exception** (2 connections)
+- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **.allowed_origins_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.csrf_trusted_origins_hosts()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **Require a present and correct csrfmiddlewaretoken for POST requests that have a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **A mapping of allowed schemes to list of allowed netlocs, where all subdomains…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **Return the CSRF secret originally associated with the request, or None if it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._reject()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 832](Community_832.md) (6 shared connections)
-- [Community 897](Community_897.md) (5 shared connections)
-- [Community 733](Community_733.md) (3 shared connections)
-- [Community 1052](Community_1052.md) (2 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 49](Community_49.md) (1 shared connections)
-- [Community 187](Community_187.md) (1 shared connections)
+- [Community 205](Community_205.md) (29 shared connections)
+- [Community 98](Community_98.md) (17 shared connections)
+- [Community 319](Community_319.md) (12 shared connections)
+- [Community 455](Community_455.md) (10 shared connections)
+- [Community 13](Community_13.md) (7 shared connections)
+- [Community 645](Community_645.md) (6 shared connections)
+- [Community 25](Community_25.md) (5 shared connections)
+- [Community 646](Community_646.md) (3 shared connections)
+- [Community 899](Community_899.md) (2 shared connections)
+- [Community 865](Community_865.md) (2 shared connections)
+- [Community 906](Community_906.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 121 (90%)
+- INFERRED: 13 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

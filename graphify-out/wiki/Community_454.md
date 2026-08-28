@@ -1,56 +1,58 @@
 # Community 454
 
-> 24 nodes · cohesion 0.11
+> 25 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **BaseAutodetectorTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.make_project_state()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_last_dependency()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_first_dependency()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.assertOperationFieldAttributes()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **patch** (9 connections)
-- **.test_alter_field_to_not_null_oneoff_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_alter_field_to_not_null_with_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_alter_field_to_not_null_without_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_add_date_fields_with_auto_now_add_asking_for_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_add_date_fields_with_auto_now_add_not_asking_for_null_addition()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_add_date_fields_with_auto_now_not_asking_for_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_trim_apps()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.repr_changes()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_arrange_for_graph()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_arrange_for_graph_with_multiple_initial()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_custom_migration_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **#23609 - Tests autodetection of nullable to non-nullable alterations.** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Tests auto-naming of migrations for graph matching.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Trim does not remove dependencies but does remove unwanted apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Tests custom naming of migrations for graph matching.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Shortcut to make ProjectStates from lists of predefined models** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **A dependency to an app with no migrations uses __first__.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **A dependency to an app with existing migrations uses the last migration of that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **constraints/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **CheckConstraintTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **constraints/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **Product** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **UniqueConstraintConditionProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **ChildModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **UniqueConstraintDeferrable** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **UniqueConstraintInclude** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **get_constraints()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **AbstractModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **.test_abstract_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_validate_nullable_field_with_isnull()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_validate_nullable_field_with_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_database_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_database_constraint_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_validate_boolean_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_validate_rawsql_expressions_noop()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_deconstruction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_eq()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_invalid_check_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (58 shared connections)
-- [Community 110](Community_110.md) (7 shared connections)
-- [Community 165](Community_165.md) (4 shared connections)
-- [Community 176](Community_176.md) (3 shared connections)
-- [Community 138](Community_138.md) (2 shared connections)
-- [Community 109](Community_109.md) (2 shared connections)
-- [Community 125](Community_125.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 492](Community_492.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 311](Community_311.md) (1 shared connections)
+- [Community 270](Community_270.md) (12 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 4](Community_4.md) (6 shared connections)
+- [Community 21](Community_21.md) (6 shared connections)
+- [Community 141](Community_141.md) (2 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 109 (96%)
-- INFERRED: 4 (4%)
+- EXTRACTED: 76 (94%)
+- INFERRED: 5 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

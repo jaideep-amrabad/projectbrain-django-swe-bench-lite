@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **TestDbSignatureTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
-- **.test_get_test_db_clone_settings_not_supported()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
-- **object** (1 connections)
-- **skipUnless** (1 connections)
-- **.test_custom_test_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
-- **.test_get_test_db_clone_settings_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
+- **MyCustomAtom1Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.add_item_elements()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.add_root_elements()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.root_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **Test of a custom feed generator class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (2 shared connections)
+- [Community 180](Community_180.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

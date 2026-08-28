@@ -1,8 +1,8 @@
 # SimpleTestCase
 
-> God node · 1324 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1325 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 3](Community_3.md)
+**Community:** [Community 0](Community_0.md)
 
 ## Connections by Relation
 
@@ -49,9 +49,9 @@
 - OGRGeomTest `EXTRACTED`
 - BasicSyntaxTests `EXTRACTED`
 - OtherModelTests `EXTRACTED`
+- RequestsTests `EXTRACTED`
 - I18nBlockTransTagTests `EXTRACTED`
 - CommandTests `EXTRACTED`
-- FieldDeconstructionTests `EXTRACTED`
 
 ### method
 - .settings() `EXTRACTED`
@@ -77,6 +77,7 @@
 
 ### uses
 - RemovedInDjango50Warning `INFERRED`
+- RemovedInDjango51Warning `INFERRED`
 
 ---
 

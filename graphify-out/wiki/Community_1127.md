@@ -1,25 +1,31 @@
 # Community 1127
 
-> 3 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.test_view_with_force_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_view_with_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that is protected with…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **classonlymethod** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **.as_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **classmethod** (1 connections)
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **Main entry point for a request-response process.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
 
 ## Relationships
 
-- [Community 516](Community_516.md) (2 shared connections)
+- [Community 127](Community_127.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 98](Community_98.md) (1 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (78%)
+- INFERRED: 2 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,40 +1,42 @@
 # Community 689
 
-> 15 nodes · cohesion 0.18
+> 15 nodes · cohesion 0.30
 
 ## Key Concepts
 
-- **inspectdb/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **PeopleMoreData** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **CharFieldDbCollation** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **FuncUniqueConstraint** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **JSONFieldColumnType** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **SpecialName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **TextFieldDbCollation** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **UniqueTogether** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **ColumnTypes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **DigitsInColumnName** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **ForeignKeyToField** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **Message** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **People** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **PeopleData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **PerformConstraintChecksTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **validation/test_constraints.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **Product** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueConstraintProduct** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **ChildProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueConstraintConditionProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **ChildUniqueConstraintProduct** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_full_clean_with_check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_check_constraints_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_check_constraints_on_child_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_partial_unique_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_partial_unique_constraints_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_unique_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
+- **.test_full_clean_with_unique_constraints_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
 
 ## Relationships
 
+- [Community 279](Community_279.md) (8 shared connections)
+- [Community 21](Community_21.md) (6 shared connections)
 - [Community 4](Community_4.md) (3 shared connections)
-- [Community 251](Community_251.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_constraints.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 46 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

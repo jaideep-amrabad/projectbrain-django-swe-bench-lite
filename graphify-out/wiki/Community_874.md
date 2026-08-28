@@ -1,32 +1,37 @@
 # Community 874
 
-> 7 nodes · cohesion 0.43
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **MIMEText** (7 connections)
-- **PythonGlobalState** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_7bit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_8bit_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_8bit_non_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_utf8()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Tests for #12422 -- Django smarts (#2472/#11212) with charset of utf-8 text…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **ExpressionsNumericTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_filter_decimal_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_filter_not_equals_other_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_increment_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_decimal_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_fill_with_value_from_same_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **We can fill a value in all objects with an other value of the same object.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **We can increment a value of all objects in a query set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **We can filter for objects, where a value is not equals the value of an other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
 
 ## Relationships
 
-- [Community 111](Community_111.md) (2 shared connections)
-- [Community 369](Community_369.md) (1 shared connections)
-- [Community 212](Community_212.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 26](Community_26.md) (5 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 22](Community_22.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (57%)
-- INFERRED: 6 (43%)
+- EXTRACTED: 19 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

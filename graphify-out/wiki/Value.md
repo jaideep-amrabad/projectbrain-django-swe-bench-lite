@@ -2,7 +2,7 @@
 
 > God node · 255 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 36](Community_36.md)
+**Community:** [Community 34](Community_34.md)
 
 ## Connections by Relation
 
@@ -15,6 +15,7 @@
 - .__init__() `EXTRACTED`
 - .get_select() `EXTRACTED`
 - .test_default_argument() `EXTRACTED`
+- .check() `EXTRACTED`
 - ._parse_expressions() `EXTRACTED`
 - .bulk_update() `EXTRACTED`
 - .test_annotate_with_aggregation_in_condition() `EXTRACTED`
@@ -23,7 +24,6 @@
 - .test_flatten() `EXTRACTED`
 - .as_postgresql() `EXTRACTED`
 - .as_sql() `EXTRACTED`
-- .check() `EXTRACTED`
 - .test_annotation_aggregate_with_m2o() `EXTRACTED`
 - .test_custom_functions_can_ref_other_functions() `EXTRACTED`
 - .test_annotate_filter_decimal() `EXTRACTED`
@@ -43,8 +43,8 @@
 - sql/query.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
 - model_fields/test_jsonfield.py `EXTRACTED`
-- postgis/operations.py `EXTRACTED`
 - query_utils.py `EXTRACTED`
+- postgis/operations.py `EXTRACTED`
 - lookup/tests.py `EXTRACTED`
 - test_ranges.py `EXTRACTED`
 - test_query.py `EXTRACTED`

@@ -1,64 +1,61 @@
 # Community 175
 
-> 46 nodes · cohesion 0.07
+> 51 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **serializers/base.py** (34 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **serializers/json.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **DeserializationError** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **python.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **Deserializer()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **pyyaml.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **jsonl.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **DeserializedObject** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.save_deferred_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **test_deserializedobject.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserializedobject.py`
-- **deserialize_m2m_values()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **M2MDeserializationError** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **build_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **Deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **_get_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **Deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **DjangoSafeDumper** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **.WithData()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **deserialize_fk_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Exception** (3 connections)
-- **SerializationError** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **TestDeserializedObjectTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserializedobject.py`
-- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserializedobject.py`
-- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- *... and 21 more nodes in this community*
+- **QueryDict** (61 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **QueryDictTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **._assert_mutable()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.fromkeys()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **bytes_to_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.appendlist()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__copy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.setdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__setitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.setlist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.test_duplicates_in_fromkeys_iterable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_fromkeys_empty_iterable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_fromkeys_mutable_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_fromkeys_with_nondefault_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_fromkeys_with_nonempty_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_multiple_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_mutable_copy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_non_default_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_querydict_fromkeys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_single_key_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_update_from_querydict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (8 shared connections)
-- [Community 1000](Community_1000.md) (8 shared connections)
-- [Community 370](Community_370.md) (6 shared connections)
-- [Community 360](Community_360.md) (4 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 227](Community_227.md) (3 shared connections)
-- [Community 330](Community_330.md) (3 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 604](Community_604.md) (2 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 354](Community_354.md) (2 shared connections)
+- [Community 15](Community_15.md) (11 shared connections)
+- [Community 203](Community_203.md) (4 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 264](Community_264.md) (2 shared connections)
+- [Community 596](Community_596.md) (1 shared connections)
+- [Community 98](Community_98.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 52](Community_52.md) (1 shared connections)
+- [Community 1761](Community_1761.md) (1 shared connections)
+- [Community 89](Community_89.md) (1 shared connections)
+- [Community 670](Community_670.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserializedobject.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
 
 ## Audit Trail
 
-- EXTRACTED: 140 (97%)
-- INFERRED: 5 (3%)
+- EXTRACTED: 123 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,63 +1,61 @@
 # Community 38
 
-> 155 nodes · cohesion 0.03
+> 163 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **admin_inlines/admin.py** (122 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
-- **admin_inlines/models.py** (68 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **admin_inlines/tests.py** (65 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **TestInlineMedia** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **TestVerboseNameInlineForms** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **SomeChildModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **Meta** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **Profile** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **TestInlineProtectedOnDelete** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **Inner** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **Inner2** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **Question** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **TestInlineAdminForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **Child** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **FootNote** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **Inner4Stacked** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **Inner4Tabular** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **Chapter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **ChildModel1** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **ChildModel2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **Class** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **Course** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **Holder** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- **Holder2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- *... and 130 more nodes in this community*
+- **OGRGeometry** (128 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **OGRGeomTest** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **._topology()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **._geomgen()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.equals()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.from_bbox()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.intersection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.sym_difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.union()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.test_polygons()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **.test_polygons_templates()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **.test_srs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **.test_srs_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **.geom()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- **.__and__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.boundary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.convex_hull()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.crosses()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.disjoint()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__eq__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- *... and 138 more nodes in this community*
 
 ## Relationships
 
-- [Community 17](Community_17.md) (41 shared connections)
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 4](Community_4.md) (7 shared connections)
-- [Community 69](Community_69.md) (5 shared connections)
-- [Community 8](Community_8.md) (5 shared connections)
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 62](Community_62.md) (3 shared connections)
-- [Community 841](Community_841.md) (3 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 157](Community_157.md) (2 shared connections)
-- [Community 117](Community_117.md) (2 shared connections)
+- [Community 75](Community_75.md) (18 shared connections)
+- [Community 192](Community_192.md) (10 shared connections)
+- [Community 84](Community_84.md) (6 shared connections)
+- [Community 696](Community_696.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 119](Community_119.md) (2 shared connections)
+- [Community 482](Community_482.md) (2 shared connections)
+- [Community 296](Community_296.md) (2 shared connections)
+- [Community 198](Community_198.md) (2 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 695](Community_695.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
 
 ## Audit Trail
 
-- EXTRACTED: 333 (78%)
-- INFERRED: 95 (22%)
+- EXTRACTED: 269 (96%)
+- INFERRED: 11 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

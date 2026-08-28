@@ -4,24 +4,23 @@
 
 ## Key Concepts
 
-- **TestObj** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **Exception** (3 connections)
-- **ShouldNotExecuteException** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **SomeException** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.is_bad()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.is_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.is_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **setter** (5 connections)
+- **.make_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.charset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.reason_phrase()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.content()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **Turn a value into a bytestring encoded in the output charset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 1202](Community_1202.md) (1 shared connections)
-- [Community 1203](Community_1203.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 367](Community_367.md) (3 shared connections)
+- [Community 328](Community_328.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Audit Trail
 

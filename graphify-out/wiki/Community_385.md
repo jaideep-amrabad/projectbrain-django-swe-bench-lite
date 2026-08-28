@@ -1,51 +1,54 @@
 # Community 385
 
-> 22 nodes · cohesion 0.15
+> 30 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Shuffler** (26 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **ShufflerTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **test_shuffler.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **._hash_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **._hash_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.shuffle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **new_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **.test_hash_item_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_hash_item_seed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_hash_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_init_no_seed_argument()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_init_none_seed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_seed_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_shuffle_consistency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_shuffle_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **.test_shuffle_same_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
-- **This class implements shuffling with a special consistency property.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Return a new list of the items in a shuffled order. The `key` is a function…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.seed_display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_hash_text_hash_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- **AsyncQuerySetTest** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **SimpleModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/models.py`
+- **.test_update_conflicts_unique_field_unsupported()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_abulk_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aexplain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **async_to_sync** (3 connections)
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aaggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_acontains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_acount_cached_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **._get_db_feature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_abulk_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_acount()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_acreate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_adelete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aearliest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aexists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_afirst()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aget_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_ain_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aiterator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aiterator_invalid_chunk_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_aiterator_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- **.test_alast()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 184](Community_184.md) (6 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 331](Community_331.md) (1 shared connections)
-- [Community 193](Community_193.md) (1 shared connections)
-- [Community 317](Community_317.md) (1 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 21](Community_21.md) (3 shared connections)
+- [Community 312](Community_312.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 22](Community_22.md) (1 shared connections)
+- [Community 190](Community_190.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_shuffler.py`
+- `raw/code/hyd-evaluation/django-django/tests/async_queryset/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/async_queryset/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 41 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

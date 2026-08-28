@@ -1,40 +1,50 @@
 # Community 721
 
-> 14 nodes · cohesion 0.22
+> 16 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **m2m_and_m2o/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
-- **m2m_and_m2o/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
-- **Issue** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
-- **RelatedObjectTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
-- **RelatedObjectUnicodeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
-- **StringReferenceModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
-- **User** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
-- **.test_m2m_and_m2o()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
-- **.test_m2m_with_unicode_reference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
-- **Many-to-many and many-to-one relationships to the same table Make sure to set…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
-- **Regression test for #6045: references to other models can be strings, providing…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
-- **.test_related_objects_have_name_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **Item** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **test_sqlcompiler.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_sqlcompiler.py`
+- **QuerySetExceptionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Queries3Tests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **SQLCompilerTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_sqlcompiler.py`
+- **Ticket18785Tests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_sqlcompiler.py`
+- **.test_tickets_1878_2939()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.test_datetimes_invalid_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_ticket22023()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_ticket7107()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_invalid_order_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_invalid_order_by_raw_column_alias()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_invalid_queryset_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_ticket_18785()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 79](Community_79.md) (9 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 195](Community_195.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 354](Community_354.md) (1 shared connections)
+- [Community 293](Community_293.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 190](Community_190.md) (1 shared connections)
+- [Community 515](Community_515.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_sqlcompiler.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 31 (70%)
+- INFERRED: 13 (30%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,28 +1,35 @@
 # Community 976
 
-> 5 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **ActionAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **.get_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **.remove_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **A ModelAdmin for the Action model that changes the URL of the add_view to '<app…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **Remove all entries named 'name' from the ModelAdmin instance URL patterns list** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **.query()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **._filter_or_exclude_inplace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.negate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **setter** (1 connections)
+- **Negate the sense of the root connector.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
 
 ## Relationships
 
-- [Community 666](Community_666.md) (1 shared connections)
-- [Community 360](Community_360.md) (1 shared connections)
+- [Community 48](Community_48.md) (2 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 637](Community_637.md) (1 shared connections)
+- [Community 227](Community_227.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 9 (75%)
+- INFERRED: 3 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

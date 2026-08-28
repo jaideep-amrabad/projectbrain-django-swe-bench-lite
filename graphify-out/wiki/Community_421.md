@@ -1,55 +1,61 @@
 # Community 421
 
-> 28 nodes · cohesion 0.08
+> 27 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **CaseInsensitiveMapping** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **CaseInsensitiveMappingTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **._unpack_items()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_create_with_invalid_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_create_with_invalid_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **Mapping** (1 connections)
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **Return current object as a dict with singular values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **Mapping allowing case-insensitive key lookups. Original case of keys is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.test_copy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_del()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_getitem()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- *... and 3 more nodes in this community*
+- **ForeignKey** (38 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.test_no_index_for_foreignkey()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_proxy_model_parent()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.get_attname_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_attname()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_reverse_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.resolve_related_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_attname_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_reverse_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.related_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **Get path from the related model to this field's model.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_unique()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.__class_getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.convert_empty_strings()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.db_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_col()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_db_converters()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_db_prep_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_db_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.target_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **Return the to_field if the default value is an object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 441](Community_441.md) (4 shared connections)
-- [Community 221](Community_221.md) (4 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 360](Community_360.md) (2 shared connections)
-- [Community 873](Community_873.md) (1 shared connections)
-- [Community 517](Community_517.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 450](Community_450.md) (4 shared connections)
+- [Community 391](Community_391.md) (4 shared connections)
+- [Community 37](Community_37.md) (3 shared connections)
+- [Community 124](Community_124.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 824](Community_824.md) (1 shared connections)
+- [Community 451](Community_451.md) (1 shared connections)
+- [Community 966](Community_966.md) (1 shared connections)
+- [Community 1001](Community_1001.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 49 (92%)
+- INFERRED: 4 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

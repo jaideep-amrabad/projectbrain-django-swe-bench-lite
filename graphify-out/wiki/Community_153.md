@@ -1,46 +1,30 @@
 # Community 153
 
-> 13 nodes · cohesion 0.31
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **select_for_update/tests.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **select_for_update/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **Country** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **CountryProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **EUCountry** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **CityCountryProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **CountryProxyProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **EUCity** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **PersonProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **Entity** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
+- **.get_template_names()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.render_to_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Return a response, using the `response_class` for this view, with a template…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Return a list of template names to be used for the request. Must return a list.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
 
 ## Relationships
 
-- [Community 125](Community_125.md) (9 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 463](Community_463.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 127](Community_127.md) (3 shared connections)
 - [Community 15](Community_15.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (86%)
-- INFERRED: 7 (14%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

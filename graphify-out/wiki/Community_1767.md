@@ -1,22 +1,25 @@
 # Community 1767
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **app5/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/app5/__init__.py`
+- **._create_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.create_superuser()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **Create and save a user with the given username, email, and password.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 117](Community_117.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/app5/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,67 +1,61 @@
 # Community 317
 
-> 63 nodes · cohesion 0.04
+> 40 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **crypto.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **salted_hmac()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **signing/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **make_template_fragment_key()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- **TimestampSigner** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Signer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **pbkdf2()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **TestMakeTemplateFragmentKey** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **test_crypto.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **InvalidAlgorithm** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **TestUtilsCryptoMisc** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **cache/utils.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- **BadSignature** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.unsign()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **b64_decode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **base64_hmac()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **SignatureExpired** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.sign_object()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.signature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.unsign()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **TestUtilsCryptoPBKDF2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.get_session_auth_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
-- **b64_encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **dumps()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **loads()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- *... and 38 more nodes in this community*
+- **ModelChoiceFieldTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **test_modelchoicefield.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **Writer** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **Article** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **ModelChoiceIteratorValue** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **ModelChoiceIterator** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.choice()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.test_choice_value_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_overridable_choice_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_basics()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choice_iterator_passes_model_to_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_bool_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 360](Community_360.md) (20 shared connections)
-- [Community 152](Community_152.md) (7 shared connections)
-- [Community 3](Community_3.md) (7 shared connections)
-- [Community 187](Community_187.md) (4 shared connections)
-- [Community 15](Community_15.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 27](Community_27.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 48](Community_48.md) (3 shared connections)
-- [Community 666](Community_666.md) (2 shared connections)
-- [Community 295](Community_295.md) (2 shared connections)
-- [Community 267](Community_267.md) (2 shared connections)
+- [Community 114](Community_114.md) (9 shared connections)
+- [Community 46](Community_46.md) (5 shared connections)
+- [Community 353](Community_353.md) (5 shared connections)
+- [Community 271](Community_271.md) (4 shared connections)
+- [Community 9](Community_9.md) (4 shared connections)
+- [Community 623](Community_623.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 277](Community_277.md) (2 shared connections)
+- [Community 748](Community_748.md) (2 shared connections)
+- [Community 320](Community_320.md) (1 shared connections)
+- [Community 907](Community_907.md) (1 shared connections)
+- [Community 137](Community_137.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_mixins.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 164 (98%)
-- INFERRED: 3 (2%)
+- EXTRACTED: 72 (80%)
+- INFERRED: 18 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,39 +1,45 @@
 # Community 591
 
-> 14 nodes · cohesion 0.20
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **manage_translations.py** (12 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
-- **_get_locale_dirs()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
-- **update_catalogs()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
-- **fetch()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
-- **_check_diff()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
-- **lang_stats()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
-- **_tx_resource_for_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
-- **Output language statistics of committed translation files for each Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
-- **# TODO: merge first with the latest en catalog** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
-- **Fetch translations from Transifex, wrap long lines, generate mo files.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
-- **Return a tuple (contrib name, absolute path) for all locale directories,…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
-- **Return the Transifex resource name** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
-- **Output the approximate number of changed/added strings in the en catalog.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
-- **Update the en/LC_MESSAGES/django.po (main and contrib) files with new/updated…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **datetime_safe.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- **DatetimeTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
+- **.date()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- **date** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- **strftime()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- **new_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- **new_datetime()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- **.test_compare_datetimes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
+- **.test_safe_strftime()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
+- **.test_zero_padding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
+- **.strftime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- **.strftime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- **_findall()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- **Generate a safe date from a datetime.date object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- **Generate a safe datetime from a datetime.date or datetime.datetime object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
+- **Regression for #12524 Pre-1000AD dates are padded with zeros if necessary** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
+- **real_date** (1 connections)
 
 ## Relationships
 
+- [Community 312](Community_312.md) (7 shared connections)
+- [Community 113](Community_113.md) (4 shared connections)
 - [Community 15](Community_15.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 35 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

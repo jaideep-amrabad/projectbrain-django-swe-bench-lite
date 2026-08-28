@@ -1,57 +1,63 @@
 # Community 350
 
-> 35 nodes · cohesion 0.09
+> 47 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **PasswordResetTokenGenerator** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **TokenGeneratorTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.check_token()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._make_token_with_timestamp()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **MockedPasswordResetTokenGenerator** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.make_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._num_seconds()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._make_hash_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._now()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **.test_10265()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_check_token_secret_key_fallbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_check_token_secret_key_fallbacks_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_secret_lazy_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_timeout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_token_with_different_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_token_with_different_secret()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_check_token_secret_fallbacks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_check_token_with_nonexistent_token_and_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_make_token()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_token_with_different_secret_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **._get_fallbacks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._get_secret()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._set_fallbacks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._set_secret()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- *... and 10 more nodes in this community*
+- **servers/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerThread** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **WSGIServer** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **ThreadedWSGIServer** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.run()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **QuietWSGIRequestHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **LiveServerThreadTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **_AssertNumQueriesContext** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_broken_pipe_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **LiveServerSingleThread** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **CloseConnectionTestServer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **SingleThreadLiveServerViews** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertNumQueries()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.run_live_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **CloseConnectionTestLiveServerThread** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **FailingLiveServerThread** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **._create_server()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **SingleThreadLiveServerTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **is_broken_pipe_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **._close_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.close_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.handle_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 403](Community_403.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 688](Community_688.md) (2 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
-- [Community 317](Community_317.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 15](Community_15.md) (14 shared connections)
+- [Community 204](Community_204.md) (8 shared connections)
+- [Community 20](Community_20.md) (4 shared connections)
+- [Community 373](Community_373.md) (3 shared connections)
+- [Community 611](Community_611.md) (2 shared connections)
+- [Community 456](Community_456.md) (2 shared connections)
+- [Community 360](Community_360.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 917](Community_917.md) (1 shared connections)
+- [Community 858](Community_858.md) (1 shared connections)
+- [Community 190](Community_190.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
+- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 103 (93%)
+- INFERRED: 8 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

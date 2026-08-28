@@ -1,42 +1,41 @@
 # Community 757
 
-> 13 nodes · cohesion 0.15
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **SubqueryTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ManagedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_distinct_ordered_sliced_subquery()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ordered_subselect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_related_sliced_subquery()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slice_subquery_and_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_sliced_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Subselects honor any manual ordering** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Slice a query that has a sliced subquery** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Related objects constraints can safely contain sliced subqueries. refs #22434** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Delete queries can safely contain sliced subqueries** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **SetPasswordForm** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **SetPasswordFormTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_help_text_translation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_validates_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.clean_new_password2()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_no_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **A form that lets a user change set their password without entering the old…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 
 ## Relationships
 
-- [Community 84](Community_84.md) (3 shared connections)
-- [Community 355](Community_355.md) (2 shared connections)
-- [Community 431](Community_431.md) (1 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 728](Community_728.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 963](Community_963.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
-- [Community 464](Community_464.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 427](Community_427.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (77%)
-- INFERRED: 5 (23%)
+- EXTRACTED: 30 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

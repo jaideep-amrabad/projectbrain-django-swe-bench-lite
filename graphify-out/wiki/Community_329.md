@@ -1,68 +1,59 @@
 # Community 329
 
-> 30 nodes · cohesion 0.09
+> 35 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **render()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- **shortcuts/views.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
-- **context_processors/views.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/views.py`
-- **context_processors/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/models.py`
-- **DebugObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/models.py`
-- **context_processors/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/urls.py`
-- **debug_processor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/views.py`
-- **shortcuts/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/urls.py`
-- **request_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **auth_processor_attr_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **auth_processor_no_attr_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **auth_processor_perm_in_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **auth_processor_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **auth_processor_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **request_processor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/views.py`
-- **render_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
-- **render_view_with_content_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
-- **render_view_with_multiple_templates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
-- **render_view_with_status()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
-- **render_view_with_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
-- **request_context_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **return_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **jsi18n()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **jsi18n_multi_catalogs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **render_no_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- *... and 5 more nodes in this community*
+- **ContextList** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **ContextTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **_AssertTemplateUsedContext** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertTemplateUsed()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **_AssertTemplateNotUsedContext** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertTemplateNotUsed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._get_template_used()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__exit__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._check_test_client_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_contextlist_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_contextlist_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that the template with the provided name was used in rendering the…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._assert_template_used()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_inherited_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_nested_requests()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_single_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.on_template_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 18](Community_18.md) (7 shared connections)
-- [Community 136](Community_136.md) (7 shared connections)
-- [Community 62](Community_62.md) (6 shared connections)
-- [Community 218](Community_218.md) (3 shared connections)
-- [Community 117](Community_117.md) (2 shared connections)
-- [Community 204](Community_204.md) (1 shared connections)
-- [Community 316](Community_316.md) (1 shared connections)
-- [Community 507](Community_507.md) (1 shared connections)
-- [Community 122](Community_122.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 15](Community_15.md) (4 shared connections)
+- [Community 851](Community_851.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 350](Community_350.md) (1 shared connections)
+- [Community 190](Community_190.md) (1 shared connections)
+- [Community 596](Community_596.md) (1 shared connections)
+- [Community 163](Community_163.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/context_processors/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/context_processors/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/context_processors/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/context_processors/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/shortcuts/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/shortcuts/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 60 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

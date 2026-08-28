@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **rpm-install.sh** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
-- **rpm-install.sh script** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
+- **good_function_based_error_handlers.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_function_based_error_handlers.py`
+- **good_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_function_based_error_handlers.py`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_function_based_error_handlers.py`
 
 ## Audit Trail
 

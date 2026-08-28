@@ -1,60 +1,62 @@
 # Community 168
 
-> 53 nodes · cohesion 0.08
+> 70 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **django/db/models/lookups.py** (90 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **BuiltinLookup** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **In** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.process_rhs()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.rhs_is_direct_value()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **UUIDTextMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.as_sql()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **FieldGetDbPrepValueIterableMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **StartsWith** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.process_lhs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **EndsWith** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **PatternLookup** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **Contains** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.batch_process_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **IExact** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.process_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **IntegerFieldFloatRounding** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **Range** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **Regex** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **ArrayInLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.process_rhs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **IContains** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **IEndsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- *... and 28 more nodes in this community*
+- **register_lookup()** (196 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **gis/db/models/lookups.py** (49 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **GISLookup** (36 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **RegisterLookupTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **DistanceLookupBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **DistanceLookupFromFunction** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **DWithinLookup** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **.process_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **BBContainsLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **BBOverlapsLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **ContainedLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **.process_distance()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **.process_band_indices()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **LeftLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **OverlapsAboveLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **OverlapsBelowLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **OverlapsLeftLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **OverlapsRightLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **RelateLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **RightLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **SameAsLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **StrictlyAboveLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **StrictlyBelowLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **ContainsLookup** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **ContainsProperlyLookup** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [Community 47](Community_47.md) (22 shared connections)
-- [Community 97](Community_97.md) (21 shared connections)
-- [Community 320](Community_320.md) (19 shared connections)
-- [Community 2](Community_2.md) (11 shared connections)
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 36](Community_36.md) (5 shared connections)
-- [Community 116](Community_116.md) (5 shared connections)
-- [Community 96](Community_96.md) (4 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 411](Community_411.md) (2 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
+- [Community 4](Community_4.md) (48 shared connections)
+- [Community 252](Community_252.md) (15 shared connections)
+- [Community 65](Community_65.md) (15 shared connections)
+- [Community 166](Community_166.md) (14 shared connections)
+- [Community 99](Community_99.md) (9 shared connections)
+- [Community 26](Community_26.md) (8 shared connections)
+- [Community 47](Community_47.md) (7 shared connections)
+- [Community 77](Community_77.md) (7 shared connections)
+- [Community 773](Community_773.md) (7 shared connections)
+- [Community 14](Community_14.md) (6 shared connections)
+- [Community 42](Community_42.md) (5 shared connections)
+- [Community 111](Community_111.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_trim.py`
 
 ## Audit Trail
 
-- EXTRACTED: 232 (100%)
-- INFERRED: 1 (0%)
+- EXTRACTED: 326 (98%)
+- INFERRED: 5 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

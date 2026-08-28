@@ -1,29 +1,30 @@
 # Community 918
 
-> 7 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **LexerTestMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **DebugLexerTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **LexerTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.make_expected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.test_tokenize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.make_expected()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.make_expected()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
+- **SeparateDatabaseAndState** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **Take two lists of operations - ones that will be used for the database, and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
+- [Community 359](Community_359.md) (2 shared connections)
+- [Community 523](Community_523.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

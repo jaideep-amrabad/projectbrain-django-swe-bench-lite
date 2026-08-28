@@ -1,51 +1,71 @@
 # Community 92
 
-> 24 nodes · cohesion 0.10
+> 177 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **BaseSpatialField** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **get_srid_info()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.get_prep_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.geodetic()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.get_raster_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.get_srid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.get_placeholder()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.spheroid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.units_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.get_db_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **Return true if this field's SRID corresponds with a coordinate system that uses…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **Return the placeholder for the spatial column for the given value.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **Return the default SRID for the given geometry or raster, taking into account…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **Return a GDALRaster if conversion is successful, otherwise return None.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **The initialization function for geometry fields. In addition to the parameters…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **Return the units, unit name, and spheroid WKT associated with the given SRID…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **The Base GIS Field. It's used as a base class for GeometryField and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **The initialization function for base spatial fields. Takes the following as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
+- **i18n/tests.py** (87 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **test/signals.py** (53 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **trans_real.py** (48 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **receiver()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **FormattingTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **get_format()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **TranslationTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **date_format()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **get_language_info()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **.test_l10n_disabled()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **time_format()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **to_locale()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **iter_format_modules()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **localize_input()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **check_for_language()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **translation()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **i18n/forms.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
+- **i18n/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
+- **.test_l10n_enabled()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **clear_url_caches()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **reset_format_cache()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **get_language_from_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **get_supported_language_variant()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **CompanyForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
+- **Company** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
+- *... and 152 more nodes in this community*
 
 ## Relationships
 
-- [Community 29](Community_29.md) (7 shared connections)
-- [Community 58](Community_58.md) (1 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
-- [Community 879](Community_879.md) (1 shared connections)
-- [Community 200](Community_200.md) (1 shared connections)
-- [Community 49](Community_49.md) (1 shared connections)
+- [Community 0](Community_0.md) (56 shared connections)
+- [Community 3](Community_3.md) (28 shared connections)
+- [Community 15](Community_15.md) (18 shared connections)
+- [Community 23](Community_23.md) (16 shared connections)
+- [Community 545](Community_545.md) (14 shared connections)
+- [Community 2](Community_2.md) (12 shared connections)
+- [Community 9](Community_9.md) (11 shared connections)
+- [Community 8](Community_8.md) (9 shared connections)
+- [Community 522](Community_522.md) (8 shared connections)
+- [Community 925](Community_925.md) (7 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 4](Community_4.md) (6 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 526 (97%)
+- INFERRED: 19 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

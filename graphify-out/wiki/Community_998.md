@@ -1,36 +1,26 @@
 # Community 998
 
-> 8 nodes · cohesion 0.32
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **postgres_tests/fields.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **DummyArrayField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **DummyContinuousRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **Indirection layer for PostgreSQL-specific fields, so the tests don't fail when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **.date_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.time_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.time_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Given a lookup_type of 'hour', 'minute' or 'second', return the SQL that…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Given a lookup_type of 'year', 'month', or 'day', return the SQL that extracts…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
-- [Community 96](Community_96.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 306](Community_306.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 327](Community_327.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

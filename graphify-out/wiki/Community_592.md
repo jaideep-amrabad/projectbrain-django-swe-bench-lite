@@ -1,42 +1,53 @@
 # Community 592
 
-> 14 nodes · cohesion 0.15
+> 18 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Admin2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **DecoratorsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.my_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **.test_cache_page()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_require_safe_accepts_only_safe_methods()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_user_passes_test_composition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.get_app_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **.get_urls()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **.index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **.password_change()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **Test for the require_safe decorator. A view returns either a response or an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **Built-in decorators set certain attributes of the wrapped function.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **The user_passes_test decorator can be applied multiple times (#9474).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **ExceptionReporter** (58 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **builtin_template_path()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_exception_traceback_frames()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **._get_lines_from_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_frames()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **._get_explicit_or_implicit_cause()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **CustomExceptionReporter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
+- **CustomExceptionReporter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **._get_source()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.html_template_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.text_template_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **TemplateOverrideExceptionReporter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **Organize and coordinate reporting on exceptions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return a path to a builtin template. Avoid calling this function at the module…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return context_lines before and after lineno from file. Return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
+- **.get_traceback_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Relationships
 
-- [Community 62](Community_62.md) (2 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 945](Community_945.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
+- [Community 534](Community_534.md) (15 shared connections)
+- [Community 59](Community_59.md) (9 shared connections)
+- [Community 785](Community_785.md) (9 shared connections)
+- [Community 903](Community_903.md) (5 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 1097](Community_1097.md) (2 shared connections)
+- [Community 1089](Community_1089.md) (2 shared connections)
+- [Community 1038](Community_1038.md) (2 shared connections)
+- [Community 1098](Community_1098.md) (2 shared connections)
+- [Community 1248](Community_1248.md) (1 shared connections)
+- [Community 1249](Community_1249.md) (1 shared connections)
+- [Community 1250](Community_1250.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 74 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

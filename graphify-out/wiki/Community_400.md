@@ -1,52 +1,51 @@
 # Community 400
 
-> 30 nodes · cohesion 0.09
+> 29 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Serializer** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **SimplerXMLGenerator** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **.indent()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._start_relational_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **xmlutils.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **UnserializableContentError** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **.handle_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.addQuickElement()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **.end_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.end_serialization()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.handle_fk_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.handle_m2m_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.start_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.start_serialization()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.characters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **ValueError** (2 connections)
-- **.startElement()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **Handle a ForeignKey (they need to be treated slightly differently from regular…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Handle a ManyToManyField. Related objects are only serialized as references to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Output the <field> element for relational fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Serialize a QuerySet to XML.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Start serialization -- open the XML document and the root element.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **End serialization -- end the document.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Called as each object is handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Called after handling all fields for an object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- *... and 5 more nodes in this community*
+- **TemplateTestMixin** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **._engine()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_render_tag_error_in_extended_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_url_reverse_no_settings_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_compile_tag_error_27956()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_extends_generic_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_no_wrapped_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_render_built_in_type_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_super_errors()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_url_reverse_view_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_compile_filter_expression_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_compile_tag_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_compile_tag_error_27584()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_invalid_block_suggestion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_node_origin()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_string_origin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **.test_unknown_block_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **Errors raised while compiling nodes should include the token information.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **Errors in a child of {% extends %} are displayed correctly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **Errors in extended block are displayed correctly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **#18169 -- NoReverseMatch should not be silence in block.super.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **#24338 -- Allow extending django.template.backends.django.Template objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **#25848 -- Set origin on Node so debugging tools can determine which template…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **Templates should not crash when rendering methods for built-in types without…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- **#9005 -- url tag shouldn't require settings.SETTINGS_MODULE to be set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (4 shared connections)
-- [Community 279](Community_279.md) (4 shared connections)
-- [Community 436](Community_436.md) (2 shared connections)
-- [Community 313](Community_313.md) (1 shared connections)
+- [Community 9](Community_9.md) (9 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (92%)
-- INFERRED: 4 (8%)
+- EXTRACTED: 58 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

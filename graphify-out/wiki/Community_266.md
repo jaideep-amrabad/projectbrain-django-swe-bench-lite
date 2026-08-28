@@ -1,54 +1,47 @@
 # Community 266
 
-> 44 nodes · cohesion 0.09
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ReverseSelectRelatedTestCase** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **select_related_onetoone/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **select_related_onetoone/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Child1** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Child2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Parent1** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Parent2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **ReverseSelectRelatedValidationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **Child3** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Child4** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **.setUpTestData()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **AdvancedUserStat** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **UserStat** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Image** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **LinkedList** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **Product** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **StatDetails** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **UserProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **UserStatResult** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- **.test_onetoone_with_two_subclasses()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **Ticket #13839: select_related() should NOT cache None for missing objects on a…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **.test_missing_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **.test_multiinheritance_two_subclasses()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- **.test_nullable_missing_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
-- *... and 19 more nodes in this community*
+- **Literal** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **TokenBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **TemplateLiteral** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **TemplateIfParser** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **EndToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.create_var()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.display()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.eval()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.nud()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.eval()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.nud()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **A basic self-resolvable object similar to a Django template variable.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **Base class for operators and literals, mainly for debugging and for throwing…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **Return what to display in error messages for this node** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.led()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.nud()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
+- [Community 563](Community_563.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_related_onetoone/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
 
 ## Audit Trail
 
-- EXTRACTED: 84 (84%)
-- INFERRED: 16 (16%)
+- EXTRACTED: 31 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,28 +1,30 @@
 # Community 965
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **test_migrations_plan/0001_initial.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
-- **grow_tail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
-- **shrink_tail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
-- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
-- **Shrink salamander tail.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
-- **Grow salamander tail.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- **check_async_unsafe()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/async_checks.py`
+- **AsyncCheckTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
+- **.test_allowed_async_unsafe_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
+- **.test_no_allowed_async_unsafe()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
+- **dict** (2 connections)
+- **register** (1 connections)
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/async_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_async_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

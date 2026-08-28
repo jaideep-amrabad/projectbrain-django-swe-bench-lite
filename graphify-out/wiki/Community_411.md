@@ -1,56 +1,50 @@
 # Community 411
 
-> 23 nodes · cohesion 0.12
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **OrderedSet** (33 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **OrderedSetTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.get_parent_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.discard()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.test_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_discard()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_init_with_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_len()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_reversed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **Return all the ancestors of this model as a list ordered by MRO. Useful for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__reversed__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **A set which keeps the ordering of the inserted items.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **AppConfigTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Stub** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_dunder_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_duplicate_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_empty_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_empty_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_multiple_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_multiple_dunder_path_no_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_no_dunder_path_fallback_to_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_no_dunder_path_or_dunder_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_explicit_path_overrides()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_path_set_explicitly()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_app_default_auto_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_default_auto_field_setting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_invalid_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Unit tests for AppConfig class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If subclass sets path as class attr, no module attributes needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If path set as class attr, overrides __path__ and __file__.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If single element in __path__, use it (in preference to __file__).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If there is no __path__ attr, use __file__.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If the __path__ attr is empty, use __file__ if set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If the __path__ attr is length>1, use __file__ if set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If there is no __path__ or __file__, raise ImproperlyConfigured.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **If the __path__ attr is empty and there is no __file__, raise.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 672](Community_672.md) (2 shared connections)
-- [Community 168](Community_168.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 441](Community_441.md) (2 shared connections)
-- [Community 189](Community_189.md) (1 shared connections)
-- [Community 414](Community_414.md) (1 shared connections)
-- [Community 251](Community_251.md) (1 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 360](Community_360.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 130](Community_130.md) (9 shared connections)
+- [Community 103](Community_103.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
+- EXTRACTED: 52 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

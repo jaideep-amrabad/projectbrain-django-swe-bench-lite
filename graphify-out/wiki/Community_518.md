@@ -1,34 +1,43 @@
 # Community 518
 
-> 11 nodes · cohesion 0.25
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **MySQLGISSchemaEditor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **._create_spatial_index_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.create_spatial_indexes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.column_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.create_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.remove_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.quote_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.skip_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **DatabaseSchemaEditor** (1 connections)
+- **devDependencies** (7 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **package.json** (5 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **scripts** (3 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **eslint** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-cli** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-contrib-qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **puppeteer** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **engines** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **eslint** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-cli** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-contrib-qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **puppeteer** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **npm** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **name** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **private** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **pretest** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **test** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
 
 ## Relationships
 
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 595](Community_595.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- `raw/code/hyd-evaluation/django-django/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,60 +1,61 @@
 # Community 102
 
-> 27 nodes · cohesion 0.11
+> 82 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **_unmask_cipher_token()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **CsrfFunctionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.assertMaskedSecretCorrect()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **_check_token_format()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_does_token_match()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **CsrfFunctionTestMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **InvalidTokenFormat** (6 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **CsrfCookieMaskedTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_get_token_csrf_cookie_not_set()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_rotate_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **CsrfInErrorHandlingViewsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **TestContextProcessor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
-- **.test_get_token_csrf_cookie_not_set()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_get_token_csrf_cookie_set()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_force_token_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
-- **.test_does_token_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_token_on_404_stays_constant()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **Exception** (2 connections)
-- **.test_check_token_format_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_check_token_format_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_does_token_match_wrong_token_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_unmask_cipher_token()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **Raise an InvalidTokenFormat error if the token has an invalid length or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **Return whether the given CSRF token matches the given CSRF secret, after…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- *... and 2 more nodes in this community*
+- **DiscoverRunner** (97 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **DiscoverRunnerTests** (58 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **test_discover_runner.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.run_tests()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **change_cwd()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.run_suite()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **change_loader_patterns()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_buffer_mode_test_fail()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_buffer_mode_test_pass()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_empty_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_faulthandler_enabled_fileno()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_loader_patterns_not_mutated_when_test_label_is_file_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_name_patterns()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **patch** (4 connections)
+- **.get_test_runner_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.teardown_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_duplicates_ignored()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_excluded_tags_displayed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_faulthandler_already_enabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_faulthandler_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_faulthandler_enabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_ignore_adjacent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_included_tags_displayed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- *... and 57 more nodes in this community*
 
 ## Relationships
 
-- [Community 147](Community_147.md) (17 shared connections)
-- [Community 360](Community_360.md) (6 shared connections)
-- [Community 449](Community_449.md) (5 shared connections)
-- [Community 40](Community_40.md) (5 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 455](Community_455.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
-- [Community 253](Community_253.md) (1 shared connections)
-- [Community 604](Community_604.md) (1 shared connections)
-- [Community 214](Community_214.md) (1 shared connections)
+- [Community 289](Community_289.md) (16 shared connections)
+- [Community 2](Community_2.md) (10 shared connections)
+- [Community 796](Community_796.md) (8 shared connections)
+- [Community 552](Community_552.md) (6 shared connections)
+- [Community 532](Community_532.md) (4 shared connections)
+- [Community 959](Community_959.md) (4 shared connections)
+- [Community 63](Community_63.md) (4 shared connections)
+- [Community 1766](Community_1766.md) (3 shared connections)
+- [Community 468](Community_468.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 1035](Community_1035.md) (2 shared connections)
+- [Community 853](Community_853.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 84 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 209 (93%)
+- INFERRED: 15 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

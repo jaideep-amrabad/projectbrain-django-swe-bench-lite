@@ -1,31 +1,31 @@
 # Community 852
 
-> 10 nodes · cohesion 0.36
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **JoinTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **setup** (8 connections)
-- **.test_join06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **tests_failures.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **ErrorTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **ExpectedFailureTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **FailureTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **UnexpectedSuccessTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **.test_sample()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **expectedFailure** (2 connections)
+- **.test_sample()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
+- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (4 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/failures/tests_failures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

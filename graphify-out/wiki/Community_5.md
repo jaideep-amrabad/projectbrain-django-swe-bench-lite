@@ -1,54 +1,78 @@
 # Community 5
 
-> 30 nodes · cohesion 0.07
+> 528 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **SMTPBackendTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_connection_timeout_custom()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_auth_attempted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_connection_timeout_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_authentication_override_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_authentication_use_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_disabled_authentication()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_ssl_attempts_ssl_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_ssl_certfile_override_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_ssl_certfile_use_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_ssl_keyfile_override_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_ssl_keyfile_use_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_ssl_override_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_ssl_use_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_timeout_override_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_tls_attempts_starttls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_tls_override_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_tls_use_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_server_open()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Opening the backend with non empty username/password tries to authenticate…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **open() returns whether it opened a connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **The connection's timeout value is None by default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **The timeout parameter can be customized.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_ssl_certfile_default_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_email_ssl_default_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- *... and 5 more nodes in this community*
+- **django/db/__init__.py** (735 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- **db/migrations/__init__.py** (183 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/__init__.py`
+- **skipIfDBFeature()** (93 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **NotSupportedError** (87 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **db/transaction.py** (70 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **DatabaseError** (65 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **model_fields/test_jsonfield.py** (49 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **IntegrityError** (45 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **django/db/backends/oracle/base.py** (42 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **postgres_tests/test_operations.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **django/db/backends/oracle/operations.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **bulk_create/tests.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **postgres/operations.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **db/utils.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **test_executor.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **sqlite/tests.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **apps/registry.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **geogapp/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **CreateExtension** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **transactions/tests.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **base/test_operations.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **test_qs_combinators.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
+- **gis_migrations/test_operations.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **base/creation.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **recorder.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
+- *... and 503 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (14 shared connections)
-- [Community 346](Community_346.md) (3 shared connections)
-- [Community 111](Community_111.md) (3 shared connections)
-- [Community 690](Community_690.md) (2 shared connections)
-- [Community 459](Community_459.md) (2 shared connections)
-- [Community 212](Community_212.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
+- [Community 4](Community_4.md) (291 shared connections)
+- [Community 15](Community_15.md) (71 shared connections)
+- [Community 2](Community_2.md) (66 shared connections)
+- [Community 14](Community_14.md) (61 shared connections)
+- [Community 1](Community_1.md) (46 shared connections)
+- [Community 20](Community_20.md) (40 shared connections)
+- [Community 21](Community_21.md) (37 shared connections)
+- [Community 407](Community_407.md) (35 shared connections)
+- [Community 41](Community_41.md) (29 shared connections)
+- [Community 6](Community_6.md) (28 shared connections)
+- [Community 0](Community_0.md) (28 shared connections)
+- [Community 64](Community_64.md) (24 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/migrations/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/migrations/0003_logentry_add_action_flag_choices.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0002_alter_permission_name_max_length.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0003_alter_user_email_max_length.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0004_alter_user_username_opts.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0005_alter_user_last_login_null.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0006_require_contenttypes_0002.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0007_alter_validators_add_error_messages.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0008_alter_user_username_max_length.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0009_alter_user_last_name_max_length.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0010_alter_group_name_max_length.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0011_update_proxy_permissions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0012_alter_user_first_name_max_length.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/migrations/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/migrations/0002_remove_content_type_name.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/migrations/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 2522 (99%)
+- INFERRED: 16 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

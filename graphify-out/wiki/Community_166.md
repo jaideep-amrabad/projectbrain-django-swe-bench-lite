@@ -1,57 +1,48 @@
 # Community 166
 
-> 62 nodes · cohesion 0.05
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **RawQueryTests** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **raw_query/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.assertSuccessfulRawQuery()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **raw_query/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- **.assertNoAnnotations()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.assertProcessed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_pyformat_params()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **FriendlyAuthor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- **.assertAnnotations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- **BookFkAsPk** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- **Coffee** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- **MixedCaseIDColumn** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- **Reviewer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- **.test_db_column_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_extra_conversions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_FK_raw_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_order_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_pk_with_mixed_case_db_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_simple_raw_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_translations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **Test passing optional query parameters** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- *... and 37 more nodes in this community*
+- **UUIDTextMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **StartsWith** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **EndsWith** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **Contains** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IExact** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IContains** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IEndsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IStartsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDContains** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDEndsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDIContains** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDIEndsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDIExact** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDIStartsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDStartsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **CustomEndsWith** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **CustomStartsWith** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.get_extra_restriction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **Strip hyphens from a value when filtering a UUIDField on backends without a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 351](Community_351.md) (3 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 14](Community_14.md) (17 shared connections)
+- [Community 168](Community_168.md) (14 shared connections)
+- [Community 77](Community_77.md) (6 shared connections)
+- [Community 252](Community_252.md) (4 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/raw_query/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (93%)
-- INFERRED: 8 (7%)
+- EXTRACTED: 64 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

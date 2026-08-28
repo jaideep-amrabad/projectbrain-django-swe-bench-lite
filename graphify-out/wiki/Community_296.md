@@ -1,60 +1,66 @@
 # Community 296
 
-> 29 nodes · cohesion 0.12
+> 73 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **runtests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **SeleniumTestCaseBase** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **django_tests()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **.create_webdriver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **collect_test_modules()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **setup_collect_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **setup_run_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **.import_webdriver()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **ActionSelenium** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **get_filtered_test_modules()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **teardown_collect_tests()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **.create_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.import_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.__new__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **bisect_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **get_label_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **get_subprocess_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **get_test_modules()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **paired_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **teardown_run_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.get_capability()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **get_apps_to_install()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **get_installed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- *... and 4 more nodes in this community*
+- **layermapping.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **Field** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **field.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **test_ds.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **utils/ogrinspect.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- **gis/utils/__init__.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/__init__.py`
+- **OFTInteger** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTDateTime** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTDate** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTReal** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTTime** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.as_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTString** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **mapping()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- **add_srs_entry()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/srs.py`
+- **OFTInteger64** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **utils/srs.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/srs.py`
+- **.as_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **ogrinfo()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinfo.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- **.as_double()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.as_int()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (9 shared connections)
-- [Community 360](Community_360.md) (5 shared connections)
-- [Community 386](Community_386.md) (3 shared connections)
-- [Community 185](Community_185.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 604](Community_604.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 493](Community_493.md) (1 shared connections)
-- [Community 62](Community_62.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
+- [Community 75](Community_75.md) (34 shared connections)
+- [Community 27](Community_27.md) (16 shared connections)
+- [Community 482](Community_482.md) (9 shared connections)
+- [Community 15](Community_15.md) (4 shared connections)
+- [Community 312](Community_312.md) (3 shared connections)
+- [Community 580](Community_580.md) (3 shared connections)
+- [Community 84](Community_84.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 47](Community_47.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinfo.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/srs.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (94%)
-- INFERRED: 5 (6%)
+- EXTRACTED: 192 (93%)
+- INFERRED: 15 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

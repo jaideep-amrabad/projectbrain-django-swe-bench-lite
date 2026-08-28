@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **UserMessenger** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Dummy class for testing message_user functions on ModelAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.binary_placeholder_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Some backends require special syntax to insert binary content (MySQL for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
+- [Community 327](Community_327.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
