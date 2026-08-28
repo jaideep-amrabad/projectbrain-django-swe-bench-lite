@@ -123,6 +123,7 @@ class SQLCompiler:
         if self.query.group_by is None:
             return []
         expressions = []
+        allows_group_by_refs = self.connection.features.allows_group_by_refs
         if self.query.group_by is not True:
             # If the group by is set to a list (by .values() call most likely),
             # then we need to add everything in it to the GROUP BY clause.
@@ -131,18 +132,22 @@ class SQLCompiler:
             # Converts string references to expressions.
             for expr in self.query.group_by:
                 if not hasattr(expr, "as_sql"):
-                    expressions.append(self.query.resolve_ref(expr))
-                else:
-                    expressions.append(expr)
+                    expr = self.query.resolve_ref(expr)
+                if not allows_group_by_refs and isinstance(expr, Ref):
+                    expr = expr.source
+                expressions.append(expr)
         # Note that even if the group_by is set, it is only the minimal
         # set to group by. So, we need to add cols in select, order_by, and
         # having into the select in any case.
         ref_sources = {expr.source for expr in expressions if isinstance(expr, Ref)}
-        for expr, _, _ in select:
+        aliased_exprs = {}
+        for expr, _, alias in select:
             # Skip members of the select clause that are already included
             # by reference.
             if expr in ref_sources:
                 continue
+            if alias:
+                aliased_exprs[expr] = alias
             cols = expr.get_group_by_cols()
             for col in cols:
                 expressions.append(col)
@@ -160,6 +165,8 @@ class SQLCompiler:
         expressions = self.collapse_group_by(expressions, having_group_by)
 
         for expr in expressions:
+            if allows_group_by_refs and (alias := aliased_exprs.get(expr)):
+                expr = Ref(alias, expr)
             try:
                 sql, params = self.compile(expr)
             except EmptyResultSet:
@@ -344,7 +351,13 @@ class SQLCompiler:
                 if not self.query.standard_ordering:
                     field = field.copy()
                     field.reverse_ordering()
-                yield field, False
+                if isinstance(field.expression, F) and (
+                    annotation := self.query.annotation_select.get(
+                        field.expression.name
+                    )
+                ):
+                    field.expression = Ref(field.expression.name, annotation)
+                yield field, isinstance(field.expression, Ref)
                 continue
             if field == "?":  # random
                 yield OrderBy(Random()), False
@@ -432,24 +445,20 @@ class SQLCompiler:
         """
         result = []
         seen = set()
-
         for expr, is_ref in self._order_by_pairs():
             resolved = expr.resolve_expression(self.query, allow_joins=True, reuse=None)
-            if self.query.combinator and self.select:
-                src = resolved.get_source_expressions()[0]
-                expr_src = expr.get_source_expressions()[0]
-                # Relabel order by columns to raw numbers if this is a combined
-                # query; necessary since the columns can't be referenced by the
-                # fully qualified name and the simple column names may collide.
-                for idx, (sel_expr, _, col_alias) in enumerate(self.select):
-                    if is_ref and col_alias == src.refs:
-                        src = src.source
-                    elif col_alias and not (
+            if not is_ref and self.query.combinator and self.select:
+                src = resolved.expression
+                expr_src = expr.expression
+                for sel_expr, _, col_alias in self.select:
+                    if col_alias and not (
                         isinstance(expr_src, F) and col_alias == expr_src.name
                     ):
                         continue
                     if src == sel_expr:
-                        resolved.set_source_expressions([RawSQL("%d" % (idx + 1), ())])
+                        resolved.set_source_expressions(
+                            [Ref(col_alias if col_alias else src.target.column, src)]
+                        )
                         break
                 else:
                     if col_alias:
@@ -525,8 +534,8 @@ class SQLCompiler:
             if not query.is_empty()
         ]
         if not features.supports_slicing_ordering_in_compound:
-            for query, compiler in zip(self.query.combined_queries, compilers):
-                if query.low_mark or query.high_mark:
+            for compiler in compilers:
+                if compiler.query.is_sliced:
                     raise DatabaseError(
                         "LIMIT/OFFSET not allowed in subqueries of compound statements."
                     )
@@ -534,6 +543,11 @@ class SQLCompiler:
                     raise DatabaseError(
                         "ORDER BY not allowed in subqueries of compound statements."
                     )
+        elif self.query.is_sliced and combinator == "union":
+            limit = (self.query.low_mark, self.query.high_mark)
+            for compiler in compilers:
+                if not compiler.query.is_sliced:
+                    compiler.query.set_limits(*limit)
         parts = ()
         for compiler in compilers:
             try:
@@ -607,24 +621,41 @@ class SQLCompiler:
         select = {
             expr: alias for expr, _, alias in self.get_select(with_col_aliases=True)[0]
         }
+        select_aliases = set(select.values())
         qual_aliases = set()
         replacements = {}
-        expressions = list(self.qualify.leaves())
-        while expressions:
-            expr = expressions.pop()
-            if select_alias := (select.get(expr) or replacements.get(expr)):
-                replacements[expr] = select_alias
-            elif isinstance(expr, Lookup):
-                expressions.extend(expr.get_source_expressions())
-            else:
-                num_qual_alias = len(qual_aliases)
-                select_alias = f"qual{num_qual_alias}"
-                qual_aliases.add(select_alias)
-                inner_query.add_annotation(expr, select_alias)
-                replacements[expr] = select_alias
+
+        def collect_replacements(expressions):
+            while expressions:
+                expr = expressions.pop()
+                if expr in replacements:
+                    continue
+                elif select_alias := select.get(expr):
+                    replacements[expr] = select_alias
+                elif isinstance(expr, Lookup):
+                    expressions.extend(expr.get_source_expressions())
+                elif isinstance(expr, Ref):
+                    if expr.refs not in select_aliases:
+                        expressions.extend(expr.get_source_expressions())
+                else:
+                    num_qual_alias = len(qual_aliases)
+                    select_alias = f"qual{num_qual_alias}"
+                    qual_aliases.add(select_alias)
+                    inner_query.add_annotation(expr, select_alias)
+                    replacements[expr] = select_alias
+
+        collect_replacements(list(self.qualify.leaves()))
         self.qualify = self.qualify.replace_expressions(
             {expr: Ref(alias, expr) for expr, alias in replacements.items()}
         )
+        order_by = []
+        for order_by_expr, *_ in self.get_order_by():
+            collect_replacements(order_by_expr.get_source_expressions())
+            order_by.append(
+                order_by_expr.replace_expressions(
+                    {expr: Ref(alias, expr) for expr, alias in replacements.items()}
+                )
+            )
         inner_query_compiler = inner_query.get_compiler(
             self.using, elide_empty=self.elide_empty
         )
@@ -657,7 +688,18 @@ class SQLCompiler:
                 ")",
                 self.connection.ops.quote_name("qualify_mask"),
             ]
-        return result, list(inner_params) + qualify_params
+        params = list(inner_params) + qualify_params
+        # As the SQL spec is unclear on whether or not derived tables
+        # ordering must propagate it has to be explicitly repeated on the
+        # outer-most query to ensure it's preserved.
+        if order_by:
+            ordering_sqls = []
+            for ordering in order_by:
+                ordering_sql, ordering_params = self.compile(ordering)
+                ordering_sqls.append(ordering_sql)
+                params.extend(ordering_params)
+            result.extend(["ORDER BY", ", ".join(ordering_sqls)])
+        return result, params
 
     def as_sql(self, with_limits=True, with_col_aliases=False):
         """
@@ -825,7 +867,11 @@ class SQLCompiler:
                 for _, (o_sql, o_params, _) in order_by:
                     ordering.append(o_sql)
                     params.extend(o_params)
-                result.append("ORDER BY %s" % ", ".join(ordering))
+                order_by_sql = "ORDER BY %s" % ", ".join(ordering)
+                if combinator and features.requires_compound_order_by_subquery:
+                    result = ["SELECT * FROM (", *result, ")", order_by_sql]
+                else:
+                    result.append(order_by_sql)
 
             if with_limit_offset:
                 result.append(
@@ -973,12 +1019,14 @@ class SQLCompiler:
 
         # If we get to this point and the field is a relation to another model,
         # append the default ordering for that model unless it is the pk
-        # shortcut or the attribute name of the field that is specified.
+        # shortcut or the attribute name of the field that is specified or
+        # there are transforms to process.
         if (
             field.is_relation
             and opts.ordering
             and getattr(field, "attname", None) != pieces[-1]
             and name != "pk"
+            and not getattr(transform_function, "has_transforms", False)
         ):
             # Firstly, avoid infinite loops.
             already_seen = already_seen or set()

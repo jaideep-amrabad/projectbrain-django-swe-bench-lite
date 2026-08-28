@@ -27,6 +27,7 @@ from django.db.models import (
 )
 from django.db.models.expressions import RawSQL
 from django.db.models.fields.json import (
+    KT,
     KeyTextTransform,
     KeyTransform,
     KeyTransformFactory,
@@ -372,13 +373,9 @@ class TestQuerying(TestCase):
             self.assertSequenceEqual(qs, [self.objs[4]])
         none_val = "" if connection.features.interprets_empty_strings_as_nulls else None
         qs = NullableJSONModel.objects.filter(value__isnull=False)
-        self.assertQuerysetEqual(
+        self.assertQuerySetEqual(
             qs.filter(value__isnull=False)
-            .annotate(
-                key=KeyTextTransform(
-                    "f", KeyTransform("1", KeyTransform("d", "value"))
-                ),
-            )
+            .annotate(key=KT("value__d__1__f"))
             .values("key")
             .annotate(count=Count("key"))
             .order_by("count"),
@@ -395,7 +392,7 @@ class TestQuerying(TestCase):
             .annotate(count=Count("value__d__0"))
             .order_by("count")
         )
-        self.assertQuerysetEqual(qs, [0, 1], operator.itemgetter("count"))
+        self.assertQuerySetEqual(qs, [0, 1], operator.itemgetter("count"))
 
     def test_order_grouping_custom_decoder(self):
         NullableJSONModel.objects.create(value_custom={"a": "b"})
@@ -1078,3 +1075,20 @@ class TestQuerying(TestCase):
             ).filter(chain=F("related_key__0")),
             [related_obj],
         )
+
+    def test_key_text_transform_from_lookup(self):
+        qs = NullableJSONModel.objects.annotate(b=KT("value__bax__foo")).filter(
+            b__contains="ar",
+        )
+        self.assertSequenceEqual(qs, [self.objs[7]])
+        qs = NullableJSONModel.objects.annotate(c=KT("value__o")).filter(
+            c__contains="uot",
+        )
+        self.assertSequenceEqual(qs, [self.objs[4]])
+
+    def test_key_text_transform_from_lookup_invalid(self):
+        msg = "Lookup must contain key or index transforms."
+        with self.assertRaisesMessage(ValueError, msg):
+            KT("value")
+        with self.assertRaisesMessage(ValueError, msg):
+            KT("")
