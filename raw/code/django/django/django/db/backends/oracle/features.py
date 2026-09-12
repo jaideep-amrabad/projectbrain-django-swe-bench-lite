@@ -15,6 +15,7 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     select_for_update_of_column = True
     can_return_columns_from_insert = True
     supports_subqueries_in_group_by = False
+    ignores_unnecessary_order_by_in_subqueries = False
     supports_transactions = True
     supports_timezones = False
     has_native_duration_field = True
@@ -71,6 +72,7 @@ class DatabaseFeatures(BaseDatabaseFeatures):
         'non_default': 'SWEDISH_CI',
         'swedish_ci': 'SWEDISH_CI',
     }
+    test_now_utc_template = "CURRENT_TIMESTAMP AT TIME ZONE 'UTC'"
 
     django_test_skips = {
         "Oracle doesn't support SHA224.": {
