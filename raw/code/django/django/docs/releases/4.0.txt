@@ -58,6 +58,13 @@ For example::
 Functional unique constraints are added to models using the
 :attr:`Meta.constraints <django.db.models.Options.constraints>` option.
 
+``scrypt`` password hasher
+--------------------------
+
+The new :ref:`scrypt password hasher <scrypt-usage>` is more secure and
+recommended over PBKDF2. However, it's not the default as it requires OpenSSL
+1.1+ and more memory.
+
 Minor features
 --------------
 
@@ -71,6 +78,12 @@ Minor features
   keyword arguments passed to the constructor of a formset.
 
 * The navigation sidebar now has a quick filter toolbar.
+
+* The new context variable ``model`` which contains the model class for each
+  model is added to the :meth:`.AdminSite.each_context` method.
+
+* The new :attr:`.ModelAdmin.search_help_text` attribute allows specifying a
+  descriptive text for the search box.
 
 :mod:`django.contrib.admindocs`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -116,6 +129,20 @@ Minor features
 * The PostgreSQL backend now supports connecting by a service name. See
   :ref:`postgresql-connection-settings` for more details.
 
+* The new :class:`~django.contrib.postgres.operations.AddConstraintNotValid`
+  operation allows creating check constraints on PostgreSQL without verifying
+  that all existing rows satisfy the new constraint.
+
+* The new :class:`~django.contrib.postgres.operations.ValidateConstraint`
+  operation allows validating check constraints which were created using
+  :class:`~django.contrib.postgres.operations.AddConstraintNotValid` on
+  PostgreSQL.
+
+* The new
+  :class:`ArraySubquery() <django.contrib.postgres.expressions.ArraySubquery>`
+  expression allows using subqueries to construct lists of values on
+  PostgreSQL.
+
 :mod:`django.contrib.redirects`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -143,6 +170,15 @@ Minor features
   replaces paths to JavaScript source map references with their hashed
   counterparts.
 
+* :class:`~django.contrib.staticfiles.storage.ManifestStaticFilesStorage` now
+  replaces paths to JavaScript modules in ``import`` and ``export`` statements
+  with their hashed counterparts.
+
+* The new ``manifest_storage`` argument of
+  :class:`~django.contrib.staticfiles.storage.ManifestFilesMixin` and
+  :class:`~django.contrib.staticfiles.storage.ManifestStaticFilesStorage`
+  allows customizing the manifest file storage.
+
 :mod:`django.contrib.syndication`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -151,7 +187,13 @@ Minor features
 Cache
 ~~~~~
 
-* ...
+* The new async API for ``django.core.cache.backends.base.BaseCache`` begins
+  the process of making cache backends async-compatible. The new async methods
+  all have ``a`` prefixed names, e.g. ``aadd()``, ``aget()``, ``aset()``,
+  ``aget_or_set()``, or ``adelete_many()``.
+
+  Going forward, the ``a`` prefix will be used for async variants of methods
+  generally.
 
 CSRF
 ~~~~
@@ -194,10 +236,25 @@ Forms
   error message. This allows custom error messages to use the ``%(value)s``
   placeholder.
 
+* :class:`~django.forms.formsets.BaseFormSet` now renders non-form errors with
+  an additional class of ``nonform`` to help distinguish them from
+  form-specific errors.
+
+* :class:`~django.forms.formsets.BaseFormSet` now allows customizing the widget
+  used when deleting forms via
+  :attr:`~django.forms.formsets.BaseFormSet.can_delete` by setting the
+  :attr:`~django.forms.formsets.BaseFormSet.deletion_widget` attribute or
+  overriding :meth:`~django.forms.formsets.BaseFormSet.get_deletion_widget`
+  method.
+
 Generic Views
 ~~~~~~~~~~~~~
 
-* ...
+* :class:`~django.views.generic.edit.DeleteView` now uses
+  :class:`~django.views.generic.edit.FormMixin`, allowing you to provide a
+  :class:`~django.forms.Form` subclass, with a checkbox for example, to confirm
+  deletion. In addition, this allows ``DeleteView`` to function with
+  :class:`django.contrib.messages.views.SuccessMessageMixin`.
 
 Internationalization
 ~~~~~~~~~~~~~~~~~~~~
@@ -207,7 +264,8 @@ Internationalization
 Logging
 ~~~~~~~
 
-* ...
+* The alias of the database used in an SQL call is now passed as extra context
+  along with each message to the :ref:`django-db-logger` logger.
 
 Management Commands
 ~~~~~~~~~~~~~~~~~~~
@@ -216,6 +274,18 @@ Management Commands
   :option:`--skip-checks` option.
 
 * On PostgreSQL, :djadmin:`dbshell` now supports specifying a password file.
+
+* The :djadmin:`shell` command now respects :py:data:`sys.__interactivehook__`
+  at startup. This allows loading shell history between interactive sessions.
+  As a consequence, ``readline`` is no longer loaded if running in *isolated*
+  mode.
+
+* The new :attr:`BaseCommand.suppressed_base_arguments
+  <django.core.management.BaseCommand.suppressed_base_arguments>` attribute
+  allows suppressing unsupported default command options in the help output.
+
+* The new :option:`startapp --exclude` and :option:`startproject --exclude`
+  options allow excluding directories from the template.
 
 Migrations
 ~~~~~~~~~~
@@ -238,6 +308,21 @@ Models
 
 * :class:`~django.db.models.DurationField` now supports multiplying and
   dividing by scalar values on SQLite.
+
+* :meth:`.QuerySet.bulk_update` now returns the number of objects updated.
+
+* The new :attr:`.Aggregate.empty_aggregate_value` attribute allows specifying
+  a value to return when the aggregation is used over an empty result set.
+
+* The ``skip_locked`` argument of :meth:`.QuerySet.select_for_update()` is now
+  allowed on MariaDB 10.6+.
+
+* :class:`~django.db.models.Lookup` expressions may now be used in ``QuerySet``
+  annotations, aggregations, and directly in filters.
+
+* The new :ref:`default <aggregate-default>` argument for built-in aggregates
+  allows specifying a value to be returned when the queryset (or grouping)
+  contains no entries, rather than ``None``.
 
 Requests and Responses
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -270,7 +355,8 @@ Signals
 Templates
 ~~~~~~~~~
 
-* ...
+* :tfilter:`floatformat` template filter now allows using the ``u`` suffix to
+  force disabling localization.
 
 Tests
 ~~~~~
@@ -283,6 +369,21 @@ Tests
 
 * Django test runner now supports a :option:`--buffer <test --buffer>` option
   with parallel tests.
+
+* The new ``logger`` argument to :class:`~django.test.runner.DiscoverRunner`
+  allows a Python :py:ref:`logger <logger>` to be used for logging.
+
+* The new :meth:`.DiscoverRunner.log` method provides a way to log messages
+  that uses the ``DiscoverRunner.logger``, or prints to the console if not set.
+
+* Django test runner now supports a :option:`--shuffle <test --shuffle>` option
+  to execute tests in a random order.
+
+* The :option:`test --parallel` option now supports the value ``auto`` to run
+  one test process for each processor core.
+
+* :meth:`.TestCase.captureOnCommitCallbacks` now captures new callbacks added
+  while executing :func:`.transaction.on_commit` callbacks.
 
 URLs
 ~~~~
@@ -314,6 +415,9 @@ backends.
   ``year_lookup_bounds_for_datetime_field()`` methods now take the optional
   ``iso_year`` argument in order to support bounds for ISO-8601 week-numbering
   years.
+
+* The second argument of ``DatabaseSchemaEditor._unique_sql()`` and
+  ``_create_unique_sql()`` methods is now fields instead of columns.
 
 :mod:`django.contrib.gis`
 -------------------------
@@ -378,6 +482,18 @@ custom middleware::
 
 .. _Content-Security-Policy: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
 
+Migrations autodetector changes
+-------------------------------
+
+The migrations autodetector now uses model states instead of model classes.
+Also, migration operations for ``ForeignKey`` and ``ManyToManyField`` fields no
+longer specify attributes which were not passed to the fields during
+initialization.
+
+As a side-effect, running ``makemigrations`` might generate no-op
+``AlterField`` operations for ``ManyToManyField`` and ``ForeignKey`` fields in
+some cases.
+
 Miscellaneous
 -------------
 
@@ -413,20 +529,74 @@ Miscellaneous
 * Tests that fail to load, for example due to syntax errors, now always match
   when using :option:`test --tag`.
 
-* The migrations autodetector now uses model states instead of model classes.
-  As a side-effect ``makemigrations`` might generate no-op ``AlterField``
-  operations for ``ForeignKey`` fields in some cases.
-
 * The undocumented ``django.contrib.admin.utils.lookup_needs_distinct()``
   function is renamed to ``lookup_spawns_duplicates()``.
 
 * The undocumented ``HttpRequest.get_raw_uri()`` method is removed. The
   :meth:`.HttpRequest.build_absolute_uri` method may be a suitable alternative.
 
+* The ``object`` argument of undocumented ``ModelAdmin.log_addition()``,
+  ``log_change()``, and ``log_deletion()`` methods is renamed to ``obj``.
+
+* :class:`~django.utils.feedgenerator.RssFeed`,
+  :class:`~django.utils.feedgenerator.Atom1Feed`, and their subclasses now
+  emit elements with no content as self-closing tags.
+
+* ``NodeList.render()`` no longer casts the output of ``render()`` method for
+  individual nodes to a string. ``Node.render()`` should always return a string
+  as documented.
+
+* The ``where_class`` property of ``django.db.models.sql.query.Query`` and the
+  ``where_class`` argument to the private ``get_extra_restriction()`` method of
+  ``ForeignObject`` and ``ForeignObjectRel`` are removed. If needed, initialize
+  ``django.db.models.sql.where.WhereNode`` instead.
+
+* The ``filter_clause`` argument of the undocumented ``Query.add_filter()``
+  method is replaced by two positional arguments ``filter_lhs`` and
+  ``filter_rhs``.
+
+* :class:`~django.middleware.csrf.CsrfViewMiddleware` now uses
+  ``request.META['CSRF_COOKIE_NEEDS_UPDATE']`` in place of
+  ``request.META['CSRF_COOKIE_USED']``, ``request.csrf_cookie_needs_reset``,
+  and ``response.csrf_cookie_set`` to track whether the CSRF cookie should be
+  sent. This is an undocumented, private API.
+
+* The undocumented ``TRANSLATOR_COMMENT_MARK`` constant is moved from
+  ``django.template.base`` to ``django.utils.translation.template``.
+
+* The ``real_apps`` argument of the undocumented
+  ``django.db.migrations.state.ProjectState.__init__()`` method must now be a
+  set if provided.
+
+* :class:`~django.forms.RadioSelect` and
+  :class:`~django.forms.CheckboxSelectMultiple` widgets are now rendered in
+  ``<div>`` tags so they are announced more concisely by screen readers. If you
+  need the previous behavior, :ref:`override the widget template
+  <overriding-built-in-widget-templates>` with the appropriate template from
+  Django 3.2.
+
+* The :tfilter:`floatformat` template filter no longer depends on the
+  :setting:`USE_L10N` setting and always returns localized output. Use the
+  ``u`` suffix to disable localization.
+
 .. _deprecated-features-4.0:
 
 Features deprecated in 4.0
 ==========================
+
+Time zone support
+-----------------
+
+In order to follow good practice, the default value of the :setting:`USE_TZ`
+setting will change from ``False`` to ``True``, and time zone support will be
+enabled by default, in Django 5.0.
+
+Note that the default :file:`settings.py` file created by
+:djadmin:`django-admin startproject <startproject>` includes
+:setting:`USE_TZ = True <USE_TZ>` since Django 1.4.
+
+You can set ``USE_TZ`` to ``False`` in your project settings before then to
+opt-out.
 
 Miscellaneous
 -------------
@@ -438,6 +608,19 @@ Miscellaneous
 * The undocumented ``django.utils.baseconv`` module is deprecated.
 
 * The undocumented ``django.utils.datetime_safe`` module is deprecated.
+
+* The default sitemap protocol for sitemaps built outside the context of a
+  request will change from ``'http'`` to ``'https'`` in Django 5.0.
+
+* The ``extra_tests`` argument for :meth:`.DiscoverRunner.build_suite` and
+  :meth:`.DiscoverRunner.run_tests` is deprecated.
+
+* The :class:`~django.contrib.postgres.aggregates.ArrayAgg`,
+  :class:`~django.contrib.postgres.aggregates.JSONBAgg`, and
+  :class:`~django.contrib.postgres.aggregates.StringAgg` aggregates will return
+  ``None`` when there are no rows instead of ``[]``, ``[]``, and ``''``
+  respectively in Django 5.0. If you need the previous behavior, explicitly set
+  ``default`` to ``Value([])``, ``Value('[]')``, or ``Value('')``.
 
 Features removed in 4.0
 =======================
@@ -498,7 +681,7 @@ to remove usage of these features.
 * Support for the pre-Django 3.1 user sessions (that use the SHA-1 algorithm)
   is removed.
 
-* The ``get_request`` argument for
+* The ``get_response`` argument for
   ``django.utils.deprecation.MiddlewareMixin.__init__()`` is required and
   doesn't accept ``None``.
 
