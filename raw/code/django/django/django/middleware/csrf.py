@@ -98,7 +98,10 @@ def get_token(request):
         request.META["CSRF_COOKIE"] = _mask_cipher_secret(csrf_secret)
     else:
         csrf_secret = _unmask_cipher_token(request.META["CSRF_COOKIE"])
-    request.META["CSRF_COOKIE_USED"] = True
+    # Since the cookie is being used, flag to send the cookie in
+    # process_response() (even if the client already has it) in order to renew
+    # the expiry timer.
+    request.META['CSRF_COOKIE_NEEDS_UPDATE'] = True
     return _mask_cipher_secret(csrf_secret)
 
 
@@ -108,10 +111,9 @@ def rotate_token(request):
     for security purposes.
     """
     request.META.update({
-        "CSRF_COOKIE_USED": True,
-        "CSRF_COOKIE": _get_new_csrf_token(),
+        'CSRF_COOKIE': _get_new_csrf_token(),
+        'CSRF_COOKIE_NEEDS_UPDATE': True,
     })
-    request.csrf_cookie_needs_reset = True
 
 
 class InvalidTokenFormat(Exception):
@@ -136,7 +138,7 @@ def _sanitize_token(token):
     return token
 
 
-def _compare_masked_tokens(request_csrf_token, csrf_token):
+def _does_token_match(request_csrf_token, csrf_token):
     # Assume both arguments are sanitized -- that is, strings of
     # length CSRF_TOKEN_LENGTH, all CSRF_ALLOWED_CHARS.
     return constant_time_compare(
@@ -224,7 +226,7 @@ class CsrfViewMiddleware(MiddlewareMixin):
             if csrf_token != cookie_token:
                 # Then the cookie token had length CSRF_SECRET_LENGTH, so flag
                 # to replace it with the masked version.
-                request.csrf_cookie_needs_reset = True
+                request.META['CSRF_COOKIE_NEEDS_UPDATE'] = True
             return csrf_token
 
     def _set_token(self, request, response):
@@ -367,7 +369,7 @@ class CsrfViewMiddleware(MiddlewareMixin):
             reason = self._bad_token_message(exc.reason, token_source)
             raise RejectRequest(reason)
 
-        if not _compare_masked_tokens(request_csrf_token, csrf_token):
+        if not _does_token_match(request_csrf_token, csrf_token):
             reason = self._bad_token_message('incorrect', token_source)
             raise RejectRequest(reason)
 
@@ -376,7 +378,7 @@ class CsrfViewMiddleware(MiddlewareMixin):
             csrf_token = self._get_token(request)
         except InvalidTokenFormat:
             csrf_token = _get_new_csrf_token()
-            request.csrf_cookie_needs_reset = True
+            request.META["CSRF_COOKIE_NEEDS_UPDATE"] = True
 
         if csrf_token is not None:
             # Use same token next time.
@@ -438,25 +440,15 @@ class CsrfViewMiddleware(MiddlewareMixin):
         return self._accept(request)
 
     def process_response(self, request, response):
-        # Send the CSRF cookie whenever the cookie is being used (even if the
-        # client already has it) in order to renew the expiry timer, but only
-        # if it hasn't already been sent during this request-response cycle.
-        # Also, send the cookie no matter what if a reset was requested.
-        if (
-            getattr(request, 'csrf_cookie_needs_reset', False) or (
-                request.META.get('CSRF_COOKIE_USED') and
-                not getattr(response, 'csrf_cookie_set', False)
-            )
-        ):
+        if request.META.get('CSRF_COOKIE_NEEDS_UPDATE'):
             self._set_token(request, response)
-            # Update state to prevent _set_token() from being unnecessarily
+            # Unset the flag to prevent _set_token() from being unnecessarily
             # called again in process_response() by other instances of
-            # CsrfViewMiddleware. This can happen e.g. when both a decorator
-            # and middleware are used. However, the csrf_cookie_needs_reset
-            # attribute is still respected in subsequent calls e.g. in case
-            # rotate_token() is called in process_response() later by custom
-            # middleware but before those subsequent calls.
-            response.csrf_cookie_set = True
-            request.csrf_cookie_needs_reset = False
+            # CsrfViewMiddleware. This can happen e.g. when both a decorator and
+            # middleware are used. However, CSRF_COOKIE_NEEDS_UPDATE is still
+            # respected in subsequent calls e.g. in case rotate_token() is
+            # called in process_response() later by custom middleware but before
+            # those subsequent calls.
+            request.META['CSRF_COOKIE_NEEDS_UPDATE'] = False
 
         return response
