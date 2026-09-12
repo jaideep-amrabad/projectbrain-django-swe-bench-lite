@@ -1,10 +1,11 @@
 import itertools
 import math
+from copy import copy
 
 from django.core.exceptions import EmptyResultSet
-from django.db.models.expressions import Case, Expression, Func, Value, When
+from django.db.models.expressions import Case, Func, Value, When
 from django.db.models.fields import (
-    BooleanField, CharField, DateTimeField, Field, IntegerField, UUIDField,
+    CharField, DateTimeField, Field, IntegerField, UUIDField,
 )
 from django.db.models.query_utils import RegisterLookupMixin
 from django.utils.datastructures import OrderedSet
@@ -12,7 +13,7 @@ from django.utils.functional import cached_property
 from django.utils.hashable import make_hashable
 
 
-class Lookup(Expression):
+class Lookup:
     lookup_name = None
     prepare_rhs = True
     can_use_none_as_rhs = False
@@ -20,7 +21,6 @@ class Lookup(Expression):
     def __init__(self, lhs, rhs):
         self.lhs, self.rhs = lhs, rhs
         self.rhs = self.get_prep_lookup()
-        self.lhs = self.get_prep_lhs()
         if hasattr(self.lhs, 'get_bilateral_transforms'):
             bilateral_transforms = self.lhs.get_bilateral_transforms()
         else:
@@ -72,19 +72,11 @@ class Lookup(Expression):
             self.lhs, self.rhs = new_exprs
 
     def get_prep_lookup(self):
-        if not self.prepare_rhs or hasattr(self.rhs, 'resolve_expression'):
+        if hasattr(self.rhs, 'resolve_expression'):
             return self.rhs
-        if hasattr(self.lhs, 'output_field'):
-            if hasattr(self.lhs.output_field, 'get_prep_value'):
-                return self.lhs.output_field.get_prep_value(self.rhs)
-        elif self.rhs_is_direct_value():
-            return Value(self.rhs)
+        if self.prepare_rhs and hasattr(self.lhs.output_field, 'get_prep_value'):
+            return self.lhs.output_field.get_prep_value(self.rhs)
         return self.rhs
-
-    def get_prep_lhs(self):
-        if hasattr(self.lhs, 'resolve_expression'):
-            return self.lhs
-        return Value(self.lhs)
 
     def get_db_prep_lookup(self, value, connection):
         return ('%s', [value])
@@ -93,11 +85,7 @@ class Lookup(Expression):
         lhs = lhs or self.lhs
         if hasattr(lhs, 'resolve_expression'):
             lhs = lhs.resolve_expression(compiler.query)
-        sql, params = compiler.compile(lhs)
-        if isinstance(lhs, Lookup):
-            # Wrapped in parentheses to respect operator precedence.
-            sql = f'({sql})'
-        return sql, params
+        return compiler.compile(lhs)
 
     def process_rhs(self, compiler, connection):
         value = self.rhs
@@ -122,11 +110,21 @@ class Lookup(Expression):
     def rhs_is_direct_value(self):
         return not hasattr(self.rhs, 'as_sql')
 
+    def relabeled_clone(self, relabels):
+        new = copy(self)
+        new.lhs = new.lhs.relabeled_clone(relabels)
+        if hasattr(new.rhs, 'relabeled_clone'):
+            new.rhs = new.rhs.relabeled_clone(relabels)
+        return new
+
     def get_group_by_cols(self, alias=None):
-        cols = []
-        for source in self.get_source_expressions():
-            cols.extend(source.get_group_by_cols())
+        cols = self.lhs.get_group_by_cols()
+        if hasattr(self.rhs, 'get_group_by_cols'):
+            cols.extend(self.rhs.get_group_by_cols())
         return cols
+
+    def as_sql(self, compiler, connection):
+        raise NotImplementedError
 
     def as_oracle(self, compiler, connection):
         # Oracle doesn't allow EXISTS() and filters to be compared to another
@@ -142,8 +140,16 @@ class Lookup(Expression):
         return lookup.as_sql(compiler, connection)
 
     @cached_property
-    def output_field(self):
-        return BooleanField()
+    def contains_aggregate(self):
+        return self.lhs.contains_aggregate or getattr(self.rhs, 'contains_aggregate', False)
+
+    @cached_property
+    def contains_over_clause(self):
+        return self.lhs.contains_over_clause or getattr(self.rhs, 'contains_over_clause', False)
+
+    @property
+    def is_summary(self):
+        return self.lhs.is_summary or getattr(self.rhs, 'is_summary', False)
 
     @property
     def identity(self):
@@ -156,21 +162,6 @@ class Lookup(Expression):
 
     def __hash__(self):
         return hash(make_hashable(self.identity))
-
-    def resolve_expression(self, query=None, allow_joins=True, reuse=None, summarize=False, for_save=False):
-        c = self.copy()
-        c.is_summary = summarize
-        c.lhs = self.lhs.resolve_expression(query, allow_joins, reuse, summarize, for_save)
-        c.rhs = self.rhs.resolve_expression(query, allow_joins, reuse, summarize, for_save)
-        return c
-
-    def select_format(self, compiler, sql, params):
-        # Wrap filters with a CASE WHEN expression if a database backend
-        # (e.g. Oracle) doesn't support boolean expression in SELECT or GROUP
-        # BY list.
-        if not compiler.connection.features.supports_boolean_expr_in_select_clause:
-            sql = f'CASE WHEN {sql} THEN 1 ELSE 0 END'
-        return sql, params
 
 
 class Transform(RegisterLookupMixin, Func):

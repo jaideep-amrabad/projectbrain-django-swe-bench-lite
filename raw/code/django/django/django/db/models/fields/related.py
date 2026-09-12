@@ -359,12 +359,12 @@ class RelatedField(FieldCacheMixin, Field):
         select all instances of self.related_field.model related through
         this field to obj. obj is an instance of self.model.
         """
-        base_filter = (
-            (rh_field.attname, getattr(obj, lh_field.attname))
+        base_filter = {
+            rh_field.attname: getattr(obj, lh_field.attname)
             for lh_field, rh_field in self.related_fields
-        )
+        }
         descriptor_filter = self.get_extra_descriptor_filter(obj)
-        base_q = Q(*base_filter)
+        base_q = Q(**base_filter)
         if isinstance(descriptor_filter, dict):
             return base_q & Q(**descriptor_filter)
         elif descriptor_filter:
@@ -711,7 +711,7 @@ class ForeignObject(RelatedField):
         """
         return {}
 
-    def get_extra_restriction(self, alias, related_alias):
+    def get_extra_restriction(self, where_class, alias, related_alias):
         """
         Return a pair condition used for joining and subquery pushdown. The
         condition is something that responds to as_sql(compiler, connection)
@@ -815,13 +815,13 @@ class ForeignKey(ForeignObject):
         try:
             to._meta.model_name
         except AttributeError:
-            if not isinstance(to, str):
-                raise TypeError(
-                    '%s(%r) is invalid. First parameter to ForeignKey must be '
-                    'either a model, a model name, or the string %r' % (
-                        self.__class__.__name__, to, RECURSIVE_RELATIONSHIP_CONSTANT,
-                    )
+            assert isinstance(to, str), (
+                "%s(%r) is invalid. First parameter to ForeignKey must be "
+                "either a model, a model name, or the string %r" % (
+                    self.__class__.__name__, to,
+                    RECURSIVE_RELATIONSHIP_CONSTANT,
                 )
+            )
         else:
             # For backwards compatibility purposes, we need to *try* and set
             # the to_field during FK construction. It won't be guaranteed to
@@ -1169,20 +1169,18 @@ class ManyToManyField(RelatedField):
         try:
             to._meta
         except AttributeError:
-            if not isinstance(to, str):
-                raise TypeError(
-                    '%s(%r) is invalid. First parameter to ManyToManyField '
-                    'must be either a model, a model name, or the string %r' % (
-                        self.__class__.__name__, to, RECURSIVE_RELATIONSHIP_CONSTANT,
-                    )
-                )
+            assert isinstance(to, str), (
+                "%s(%r) is invalid. First parameter to ManyToManyField must be "
+                "either a model, a model name, or the string %r" %
+                (self.__class__.__name__, to, RECURSIVE_RELATIONSHIP_CONSTANT)
+            )
 
         if symmetrical is None:
             symmetrical = (to == RECURSIVE_RELATIONSHIP_CONSTANT)
 
-        if through is not None and db_table is not None:
-            raise ValueError(
-                'Cannot specify a db_table if an intermediary model is used.'
+        if through is not None:
+            assert db_table is None, (
+                "Cannot specify a db_table if an intermediary model is used."
             )
 
         kwargs['rel'] = self.rel_class(

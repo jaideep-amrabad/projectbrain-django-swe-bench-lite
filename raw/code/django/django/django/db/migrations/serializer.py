@@ -273,7 +273,7 @@ class TupleSerializer(BaseSequenceSerializer):
 class TypeSerializer(BaseSerializer):
     def serialize(self):
         special_cases = [
-            (models.Model, "models.Model", ['from django.db import models']),
+            (models.Model, "models.Model", []),
             (type(None), 'type(None)', []),
         ]
         for case, string, imports in special_cases:
