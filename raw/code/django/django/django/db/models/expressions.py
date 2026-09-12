@@ -153,6 +153,7 @@ class BaseExpression:
     # aggregate specific fields
     is_summary = False
     _output_field_resolved_to_none = False
+    empty_aggregate_value = NotImplemented
     # Can the expression be used in a WHERE clause?
     filterable = True
     # Can the expression can be used as a source expression in Window?
@@ -743,7 +744,7 @@ class Value(SQLiteNumericMixin, Expression):
         self.value = value
 
     def __repr__(self):
-        return "{}({})".format(self.__class__.__name__, self.value)
+        return f'{self.__class__.__name__}({self.value!r})'
 
     def as_sql(self, compiler, connection):
         connection.ops.check_expression_support(self)
@@ -794,6 +795,10 @@ class Value(SQLiteNumericMixin, Expression):
             return fields.BinaryField()
         if isinstance(self.value, UUID):
             return fields.UUIDField()
+
+    @property
+    def empty_aggregate_value(self):
+        return self.value
 
 
 class RawSQL(Expression):
@@ -1243,9 +1248,9 @@ class OrderBy(Expression):
         return (template % placeholders).rstrip(), params
 
     def as_oracle(self, compiler, connection):
-        # Oracle doesn't allow ORDER BY EXISTS() unless it's wrapped in
-        # a CASE WHEN.
-        if isinstance(self.expression, Exists):
+        # Oracle doesn't allow ORDER BY EXISTS() or filters unless it's wrapped
+        # in a CASE WHEN.
+        if connection.ops.conditional_expression_supported_in_where_clause(self.expression):
             copy = self.copy()
             copy.expression = Case(
                 When(self.expression, then=True),
