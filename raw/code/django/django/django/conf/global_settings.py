@@ -471,7 +471,7 @@ SESSION_COOKIE_HTTPONLY = True
 SESSION_COOKIE_SAMESITE = 'Lax'
 # Whether to save the session data on every request.
 SESSION_SAVE_EVERY_REQUEST = False
-# Whether a user's session cookie expires when the web browser is closed.
+# Whether a user's session cookie expires when the Web browser is closed.
 SESSION_EXPIRE_AT_BROWSER_CLOSE = False
 # The module to store session data
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
@@ -520,7 +520,6 @@ PASSWORD_HASHERS = [
     'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
     'django.contrib.auth.hashers.Argon2PasswordHasher',
     'django.contrib.auth.hashers.BCryptSHA256PasswordHasher',
-    'django.contrib.auth.hashers.ScryptPasswordHasher',
 ]
 
 AUTH_PASSWORD_VALIDATORS = []
@@ -635,8 +634,8 @@ SILENCED_SYSTEM_CHECKS = []
 #######################
 # SECURITY MIDDLEWARE #
 #######################
+SECURE_BROWSER_XSS_FILTER = False
 SECURE_CONTENT_TYPE_NOSNIFF = True
-SECURE_CROSS_ORIGIN_OPENER_POLICY = 'same-origin'
 SECURE_HSTS_INCLUDE_SUBDOMAINS = False
 SECURE_HSTS_PRELOAD = False
 SECURE_HSTS_SECONDS = 0

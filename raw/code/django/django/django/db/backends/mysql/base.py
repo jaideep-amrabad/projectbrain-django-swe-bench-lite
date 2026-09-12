@@ -200,9 +200,9 @@ class DatabaseWrapper(BaseDatabaseWrapper):
         if settings_dict['USER']:
             kwargs['user'] = settings_dict['USER']
         if settings_dict['NAME']:
-            kwargs['database'] = settings_dict['NAME']
+            kwargs['db'] = settings_dict['NAME']
         if settings_dict['PASSWORD']:
-            kwargs['password'] = settings_dict['PASSWORD']
+            kwargs['passwd'] = settings_dict['PASSWORD']
         if settings_dict['HOST'].startswith('/'):
             kwargs['unix_socket'] = settings_dict['HOST']
         elif settings_dict['HOST']:
@@ -230,14 +230,7 @@ class DatabaseWrapper(BaseDatabaseWrapper):
 
     @async_unsafe
     def get_new_connection(self, conn_params):
-        connection = Database.connect(**conn_params)
-        # bytes encoder in mysqlclient doesn't work and was added only to
-        # prevent KeyErrors in Django < 2.0. We can remove this workaround when
-        # mysqlclient 2.1 becomes the minimal mysqlclient supported by Django.
-        # See https://github.com/PyMySQL/mysqlclient/issues/489
-        if connection.encoders.get(bytes) is bytes:
-            connection.encoders.pop(bytes)
-        return connection
+        return Database.connect(**conn_params)
 
     def init_connection_state(self):
         assignments = []

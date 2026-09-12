@@ -11,8 +11,7 @@ class AutocompleteJsonView(BaseListView):
 
     def get(self, request, *args, **kwargs):
         """
-        Return a JsonResponse with search results as defined in
-        serialize_result(), by default:
+        Return a JsonResponse with search results of the form:
         {
             results: [{id: "123" text: "foo"}],
             pagination: {more: true}
@@ -27,18 +26,11 @@ class AutocompleteJsonView(BaseListView):
         context = self.get_context_data()
         return JsonResponse({
             'results': [
-                self.serialize_result(obj, to_field_name)
+                {'id': str(getattr(obj, to_field_name)), 'text': str(obj)}
                 for obj in context['object_list']
             ],
             'pagination': {'more': context['page_obj'].has_next()},
         })
-
-    def serialize_result(self, obj, to_field_name):
-        """
-        Convert the provided model object to a dictionary that is added to the
-        results list.
-        """
-        return {'id': str(getattr(obj, to_field_name)), 'text': str(obj)}
 
     def get_paginator(self, *args, **kwargs):
         """Use the ModelAdmin's paginator."""
@@ -98,8 +90,7 @@ class AutocompleteJsonView(BaseListView):
                 type(model_admin).__qualname__
             )
 
-        to_field_name = getattr(source_field.remote_field, 'field_name', remote_model._meta.pk.attname)
-        to_field_name = remote_model._meta.get_field(to_field_name).attname
+        to_field_name = getattr(source_field.remote_field, 'field_name', model_admin.model._meta.pk.name)
         if not model_admin.to_field_allowed(request, to_field_name):
             raise PermissionDenied
 

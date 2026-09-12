@@ -1009,17 +1009,9 @@ def _get_foreign_key(parent_model, model, fk_name=None, can_fail=False):
         fks_to_parent = [f for f in opts.fields if f.name == fk_name]
         if len(fks_to_parent) == 1:
             fk = fks_to_parent[0]
-            parent_list = parent_model._meta.get_parent_list()
-            if not isinstance(fk, ForeignKey) or (
-                # ForeignKey to proxy models.
-                fk.remote_field.model._meta.proxy and
-                fk.remote_field.model._meta.proxy_for_model not in parent_list
-            ) or (
-                # ForeignKey to concrete models.
-                not fk.remote_field.model._meta.proxy and
-                fk.remote_field.model != parent_model and
-                fk.remote_field.model not in parent_list
-            ):
+            if not isinstance(fk, ForeignKey) or \
+                    (fk.remote_field.model != parent_model and
+                     fk.remote_field.model not in parent_model._meta.get_parent_list()):
                 raise ValueError(
                     "fk_name '%s' is not a ForeignKey to '%s'." % (fk_name, parent_model._meta.label)
                 )
@@ -1029,15 +1021,11 @@ def _get_foreign_key(parent_model, model, fk_name=None, can_fail=False):
             )
     else:
         # Try to discover what the ForeignKey from model to parent_model is
-        parent_list = parent_model._meta.get_parent_list()
         fks_to_parent = [
             f for f in opts.fields
             if isinstance(f, ForeignKey) and (
                 f.remote_field.model == parent_model or
-                f.remote_field.model in parent_list or (
-                    f.remote_field.model._meta.proxy and
-                    f.remote_field.model._meta.proxy_for_model in parent_list
-                )
+                f.remote_field.model in parent_model._meta.get_parent_list()
             )
         ]
         if len(fks_to_parent) == 1:
@@ -1296,11 +1284,7 @@ class ModelChoiceField(ChoiceField):
                 value = getattr(value, key)
             value = self.queryset.get(**{key: value})
         except (ValueError, TypeError, self.queryset.model.DoesNotExist):
-            raise ValidationError(
-                self.error_messages['invalid_choice'],
-                code='invalid_choice',
-                params={'value': value},
-            )
+            raise ValidationError(self.error_messages['invalid_choice'], code='invalid_choice')
         return value
 
     def validate(self, value):

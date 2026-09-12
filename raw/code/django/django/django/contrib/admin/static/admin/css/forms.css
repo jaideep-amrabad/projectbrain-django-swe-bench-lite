@@ -226,7 +226,7 @@ fieldset.collapsed h2 {
 }
 
 fieldset .collapse-toggle {
-    color: var(--header-link-color);
+    color: var(--body-bg);
 }
 
 fieldset.collapsed .collapse-toggle {

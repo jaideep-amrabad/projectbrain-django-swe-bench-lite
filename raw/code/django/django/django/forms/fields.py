@@ -349,17 +349,6 @@ class DecimalField(IntegerField):
             raise ValidationError(self.error_messages['invalid'], code='invalid')
         return value
 
-    def validate(self, value):
-        super().validate(value)
-        if value in self.empty_values:
-            return
-        if not value.is_finite():
-            raise ValidationError(
-                self.error_messages['invalid'],
-                code='invalid',
-                params={'value': value},
-            )
-
     def widget_attrs(self, widget):
         attrs = super().widget_attrs(widget)
         if isinstance(widget, NumberInput) and 'step' not in widget.attrs:
@@ -1122,15 +1111,13 @@ class FilePathField(ChoiceField):
                             self.choices.append((f, f.replace(path, "", 1)))
         else:
             choices = []
-            with os.scandir(self.path) as entries:
-                for f in entries:
-                    if f.name == '__pycache__':
-                        continue
-                    if ((
-                        (self.allow_files and f.is_file()) or
-                        (self.allow_folders and f.is_dir())
-                    ) and (self.match is None or self.match_re.search(f.name))):
-                        choices.append((f.path, f.name))
+            for f in os.scandir(self.path):
+                if f.name == '__pycache__':
+                    continue
+                if (((self.allow_files and f.is_file()) or
+                        (self.allow_folders and f.is_dir())) and
+                        (self.match is None or self.match_re.search(f.name))):
+                    choices.append((f.path, f.name))
             choices.sort(key=operator.itemgetter(1))
             self.choices.extend(choices)
 
@@ -1262,8 +1249,6 @@ class JSONField(CharField):
     def bound_data(self, data, initial):
         if self.disabled:
             return initial
-        if data is None:
-            return None
         try:
             return json.loads(data, cls=self.decoder)
         except json.JSONDecodeError:

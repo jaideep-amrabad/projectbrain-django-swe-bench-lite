@@ -1,10 +1,9 @@
 import html.entities
 import re
 import unicodedata
-from gzip import GzipFile, compress as gzip_compress
+from gzip import GzipFile
 from io import BytesIO
 
-from django.core.exceptions import SuspiciousFileOperation
 from django.utils.functional import SimpleLazyObject, keep_lazy_text, lazy
 from django.utils.regex_helper import _lazy_re_compile
 from django.utils.translation import gettext as _, gettext_lazy, pgettext
@@ -13,11 +12,7 @@ from django.utils.translation import gettext as _, gettext_lazy, pgettext
 @keep_lazy_text
 def capfirst(x):
     """Capitalize the first letter of a string."""
-    if not x:
-        return x
-    if not isinstance(x, str):
-        x = str(x)
-    return x[0].upper() + x[1:]
+    return x and str(x)[0].upper() + str(x)[1:]
 
 
 # Set up regular expressions
@@ -222,7 +217,7 @@ class Truncator(SimpleLazyObject):
 
 
 @keep_lazy_text
-def get_valid_filename(name):
+def get_valid_filename(s):
     """
     Return the given string converted to a string that can be used for a clean
     filename. Remove leading and trailing spaces; convert other spaces to
@@ -231,11 +226,8 @@ def get_valid_filename(name):
     >>> get_valid_filename("john's portrait in 2004.jpg")
     'johns_portrait_in_2004.jpg'
     """
-    s = str(name).strip().replace(' ', '_')
-    s = re.sub(r'(?u)[^-\w.]', '', s)
-    if s in {'', '.', '..'}:
-        raise SuspiciousFileOperation("Could not derive file name from '%s'" % name)
-    return s
+    s = str(s).strip().replace(' ', '_')
+    return re.sub(r'(?u)[^-\w.]', '', s)
 
 
 @keep_lazy_text
@@ -280,8 +272,13 @@ def phone2numeric(phone):
     return ''.join(char2number.get(c, c) for c in phone.lower())
 
 
+# From http://www.xhaus.com/alan/python/httpcomp.html#gzip
+# Used with permission.
 def compress_string(s):
-    return gzip_compress(s, compresslevel=6, mtime=0)
+    zbuf = BytesIO()
+    with GzipFile(mode='wb', compresslevel=6, fileobj=zbuf, mtime=0) as zfile:
+        zfile.write(s)
+    return zbuf.getvalue()
 
 
 class StreamingBuffer(BytesIO):
