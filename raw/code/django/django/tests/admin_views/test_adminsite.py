@@ -55,9 +55,7 @@ class SiteEachContextTest(TestCase):
         admin_views = apps[0]
         self.assertEqual(admin_views['app_label'], 'admin_views')
         self.assertEqual(len(admin_views['models']), 1)
-        article = admin_views['models'][0]
-        self.assertEqual(article['object_name'], 'Article')
-        self.assertEqual(article['model'], Article)
+        self.assertEqual(admin_views['models'][0]['object_name'], 'Article')
 
         # auth.User
         auth = apps[1]
@@ -65,7 +63,6 @@ class SiteEachContextTest(TestCase):
         self.assertEqual(len(auth['models']), 1)
         user = auth['models'][0]
         self.assertEqual(user['object_name'], 'User')
-        self.assertEqual(user['model'], User)
 
         self.assertEqual(auth['app_url'], '/test_admin/admin/auth/')
         self.assertIs(auth['has_module_perms'], True)

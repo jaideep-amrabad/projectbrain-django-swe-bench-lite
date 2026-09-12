@@ -14,15 +14,15 @@ Related objects reference
 
             from django.db import models
 
-            class Blog(models.Model):
+            class Reporter(models.Model):
                 # ...
                 pass
 
-            class Entry(models.Model):
-                blog = models.ForeignKey(Blog, on_delete=models.CASCADE, null=True)
+            class Article(models.Model):
+                reporter = models.ForeignKey(Reporter, on_delete=models.CASCADE)
 
       In the above example, the methods below will be available on
-      the manager ``blog.entry_set``.
+      the manager ``reporter.article_set``.
 
     * Both sides of a :class:`~django.db.models.ManyToManyField` relation::
 

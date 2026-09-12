@@ -11,10 +11,6 @@ class Person(models.Model):
         ordering = ('name',)
 
 
-class PersonChild(Person):
-    pass
-
-
 class Group(models.Model):
     name = models.CharField(max_length=128)
     members = models.ManyToManyField(Person, through='Membership')
@@ -89,9 +85,8 @@ class SymmetricalFriendship(models.Model):
 class Event(models.Model):
     title = models.CharField(max_length=50)
     invitees = models.ManyToManyField(
-        to=Person,
-        through='Invitation',
-        through_fields=['event', 'invitee'],
+        Person, through='Invitation',
+        through_fields=('event', 'invitee'),
         related_name='events_invited',
     )
 

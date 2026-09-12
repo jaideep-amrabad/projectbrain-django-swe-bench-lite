@@ -1,8 +1,8 @@
-========================
-Django 3.2 release notes
-========================
+============================================
+Django 3.2 release notes - UNDER DEVELOPMENT
+============================================
 
-*April 6, 2021*
+*Expected April 2021*
 
 Welcome to Django 3.2!
 
@@ -95,11 +95,6 @@ or on a per-model basis::
 In anticipation of the changing default, a system check will provide a warning
 if you do not have an explicit setting for :setting:`DEFAULT_AUTO_FIELD`.
 
-When changing the value of :setting:`DEFAULT_AUTO_FIELD`, migrations for the
-primary key of existing auto-created through tables cannot be generated
-currently. See the :setting:`DEFAULT_AUTO_FIELD` docs for details on migrating
-such tables.
-
 .. _new_functional_indexes:
 
 Functional indexes
@@ -190,7 +185,7 @@ Minor features
   model.
 
 * The admin now installs a final catch-all view that redirects unauthenticated
-  users to the login page, regardless of whether the URL is otherwise valid.
+  users to the login page, regardless or whether the URLs is otherwise valid.
   This protects against a potential model enumeration privacy issue.
 
   Although not recommended, you may set the new
@@ -304,10 +299,10 @@ Decorators
 Error Reporting
 ~~~~~~~~~~~~~~~
 
-* Custom :class:`~django.views.debug.ExceptionReporter` subclasses can now
-  define the :attr:`~django.views.debug.ExceptionReporter.html_template_path`
-  and :attr:`~django.views.debug.ExceptionReporter.text_template_path`
-  properties to override the templates used to render exception reports.
+* Custom :class:`~django.views.debug.ExceptionReporter` subclasses can now set
+  the :attr:`~django.views.debug.ExceptionReporter.html_template_path` and
+  :attr:`~django.views.debug.ExceptionReporter.text_template_path` class
+  attributes to override the templates used to render exception reports.
 
 File Uploads
 ~~~~~~~~~~~~
@@ -743,9 +738,6 @@ Miscellaneous
 * :class:`~django.contrib.messages.storage.cookie.CookieStorage` now stores
   messages in the :rfc:`6265` compliant format. Support for cookies that use
   the old format remains until Django 4.1.
-
-* The minimum supported version of ``asgiref`` is increased from 3.2.10 to
-  3.3.2.
 
 .. _deprecated-features-3.2:
 

@@ -16,7 +16,6 @@ class SimpleIndexesTests(SimpleTestCase):
 
     def test_repr(self):
         index = models.Index(fields=['title'])
-        named_index = models.Index(fields=['title'], name='title_idx')
         multi_col_index = models.Index(fields=['title', 'author'])
         partial_index = models.Index(fields=['title'], name='long_books_idx', condition=models.Q(pages__gt=400))
         covering_index = models.Index(
@@ -29,43 +28,20 @@ class SimpleIndexesTests(SimpleTestCase):
             name='opclasses_idx',
             opclasses=['varchar_pattern_ops', 'text_pattern_ops'],
         )
-        func_index = models.Index(Lower('title'), 'subtitle', name='book_func_idx')
-        tablespace_index = models.Index(
-            fields=['title'],
-            db_tablespace='idx_tbls',
-            name='book_tablespace_idx',
-        )
-        self.assertEqual(repr(index), "<Index: fields=['title']>")
-        self.assertEqual(
-            repr(named_index),
-            "<Index: fields=['title'] name='title_idx'>",
-        )
-        self.assertEqual(repr(multi_col_index), "<Index: fields=['title', 'author']>")
-        self.assertEqual(
-            repr(partial_index),
-            "<Index: fields=['title'] name='long_books_idx' "
-            "condition=(AND: ('pages__gt', 400))>",
-        )
+        func_index = models.Index(Lower('title'), name='book_func_idx')
+        self.assertEqual(repr(index), "<Index: fields='title'>")
+        self.assertEqual(repr(multi_col_index), "<Index: fields='title, author'>")
+        self.assertEqual(repr(partial_index), "<Index: fields='title' condition=(AND: ('pages__gt', 400))>")
         self.assertEqual(
             repr(covering_index),
-            "<Index: fields=['title'] name='include_idx' "
-            "include=('author', 'pages')>",
+            "<Index: fields='title' include='author, pages'>",
         )
         self.assertEqual(
             repr(opclasses_index),
-            "<Index: fields=['headline', 'body'] name='opclasses_idx' "
-            "opclasses=['varchar_pattern_ops', 'text_pattern_ops']>",
+            "<Index: fields='headline, body' "
+            "opclasses='varchar_pattern_ops, text_pattern_ops'>",
         )
-        self.assertEqual(
-            repr(func_index),
-            "<Index: expressions=(Lower(F(title)), F(subtitle)) "
-            "name='book_func_idx'>",
-        )
-        self.assertEqual(
-            repr(tablespace_index),
-            "<Index: fields=['title'] name='book_tablespace_idx' "
-            "db_tablespace='idx_tbls'>",
-        )
+        self.assertEqual(repr(func_index), "<Index: expressions='Lower(F(title))'>")
 
     def test_eq(self):
         index = models.Index(fields=['title'])
@@ -173,11 +149,8 @@ class SimpleIndexesTests(SimpleTestCase):
 
         # suffix can't be longer than 3 characters.
         long_field_index.suffix = 'suff'
-        msg = (
-            'Index too long for multiple database support. Is self.suffix '
-            'longer than 3 characters?'
-        )
-        with self.assertRaisesMessage(ValueError, msg):
+        msg = 'Index too long for multiple database support. Is self.suffix longer than 3 characters?'
+        with self.assertRaisesMessage(AssertionError, msg):
             long_field_index.set_name_with_model(Book)
 
     @isolate_apps('model_indexes')

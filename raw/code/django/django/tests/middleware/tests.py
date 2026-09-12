@@ -51,13 +51,13 @@ class CommonMiddlewareTest(SimpleTestCase):
         Matches to explicit slashless URLs should go unmolested.
         """
         def get_response(req):
-            return HttpResponse("Here's the text of the web page.")
+            return HttpResponse("Here's the text of the Web page.")
 
         request = self.rf.get('/noslash')
         self.assertIsNone(CommonMiddleware(get_response).process_request(request))
         self.assertEqual(
             CommonMiddleware(get_response)(request).content,
-            b"Here's the text of the web page.",
+            b"Here's the text of the Web page.",
         )
 
     @override_settings(APPEND_SLASH=True)
@@ -206,12 +206,12 @@ class CommonMiddlewareTest(SimpleTestCase):
         Matches to explicit slashless URLs should go unmolested.
         """
         def get_response(req):
-            return HttpResponse("web content")
+            return HttpResponse("Web content")
 
         request = self.rf.get('/customurlconf/noslash')
         request.urlconf = 'middleware.extra_urls'
         self.assertIsNone(CommonMiddleware(get_response).process_request(request))
-        self.assertEqual(CommonMiddleware(get_response)(request).content, b'web content')
+        self.assertEqual(CommonMiddleware(get_response)(request).content, b'Web content')
 
     @override_settings(APPEND_SLASH=True)
     def test_append_slash_slashless_unknown_custom_urlconf(self):

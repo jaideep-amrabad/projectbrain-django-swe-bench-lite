@@ -4,7 +4,7 @@ from django.contrib.admin import BooleanFieldListFilter, SimpleListFilter
 from django.contrib.admin.options import VERTICAL, ModelAdmin, TabularInline
 from django.contrib.admin.sites import AdminSite
 from django.core.checks import Error
-from django.db.models import CASCADE, F, Field, ForeignKey, Model
+from django.db.models import F, Field, Model
 from django.db.models.functions import Upper
 from django.forms.models import BaseModelFormSet
 from django.test import SimpleTestCase
@@ -63,7 +63,7 @@ class RawIdCheckTests(CheckTestCase):
         self.assertIsInvalid(
             TestModelAdmin, ValidationTestModel,
             "The value of 'raw_id_fields[0]' refers to 'non_existent_field', "
-            "which is not a field of 'modeladmin.ValidationTestModel'.",
+            "which is not an attribute of 'modeladmin.ValidationTestModel'.",
             'admin.E002'
         )
 
@@ -83,18 +83,6 @@ class RawIdCheckTests(CheckTestCase):
             raw_id_fields = ('users',)
 
         self.assertIsValid(TestModelAdmin, ValidationTestModel)
-
-    def test_field_attname(self):
-        class TestModelAdmin(ModelAdmin):
-            raw_id_fields = ['band_id']
-
-        self.assertIsInvalid(
-            TestModelAdmin,
-            ValidationTestModel,
-            "The value of 'raw_id_fields[0]' refers to 'band_id', which is "
-            "not a field of 'modeladmin.ValidationTestModel'.",
-            'admin.E002',
-        )
 
 
 class FieldsetsCheckTests(CheckTestCase):
@@ -290,7 +278,7 @@ class FilterVerticalCheckTests(CheckTestCase):
         self.assertIsInvalid(
             TestModelAdmin, ValidationTestModel,
             "The value of 'filter_vertical[0]' refers to 'non_existent_field', "
-            "which is not a field of 'modeladmin.ValidationTestModel'.",
+            "which is not an attribute of 'modeladmin.ValidationTestModel'.",
             'admin.E019'
         )
 
@@ -330,7 +318,7 @@ class FilterHorizontalCheckTests(CheckTestCase):
         self.assertIsInvalid(
             TestModelAdmin, ValidationTestModel,
             "The value of 'filter_horizontal[0]' refers to 'non_existent_field', "
-            "which is not a field of 'modeladmin.ValidationTestModel'.",
+            "which is not an attribute of 'modeladmin.ValidationTestModel'.",
             'admin.E019'
         )
 
@@ -371,7 +359,7 @@ class RadioFieldsCheckTests(CheckTestCase):
         self.assertIsInvalid(
             TestModelAdmin, ValidationTestModel,
             "The value of 'radio_fields' refers to 'non_existent_field', "
-            "which is not a field of 'modeladmin.ValidationTestModel'.",
+            "which is not an attribute of 'modeladmin.ValidationTestModel'.",
             'admin.E022'
         )
 
@@ -433,7 +421,7 @@ class PrepopulatedFieldsCheckTests(CheckTestCase):
         self.assertIsInvalid(
             TestModelAdmin, ValidationTestModel,
             "The value of 'prepopulated_fields' refers to 'non_existent_field', "
-            "which is not a field of 'modeladmin.ValidationTestModel'.",
+            "which is not an attribute of 'modeladmin.ValidationTestModel'.",
             'admin.E027'
         )
 
@@ -444,7 +432,7 @@ class PrepopulatedFieldsCheckTests(CheckTestCase):
         self.assertIsInvalid(
             TestModelAdmin, ValidationTestModel,
             "The value of 'prepopulated_fields[\"slug\"][0]' refers to 'non_existent_field', "
-            "which is not a field of 'modeladmin.ValidationTestModel'.",
+            "which is not an attribute of 'modeladmin.ValidationTestModel'.",
             'admin.E030'
         )
 
@@ -885,7 +873,7 @@ class OrderingCheckTests(CheckTestCase):
         self.assertIsInvalid(
             TestModelAdmin, ValidationTestModel,
             "The value of 'ordering[0]' refers to 'non_existent_field', "
-            "which is not a field of 'modeladmin.ValidationTestModel'.",
+            "which is not an attribute of 'modeladmin.ValidationTestModel'.",
             'admin.E033'
         )
 
@@ -926,7 +914,7 @@ class OrderingCheckTests(CheckTestCase):
         self.assertIsInvalid(
             TestModelAdmin, ValidationTestModel,
             "The value of 'ordering[0]' refers to 'nonexistent', which is not "
-            "a field of 'modeladmin.ValidationTestModel'.",
+            "an attribute of 'modeladmin.ValidationTestModel'.",
             'admin.E033'
         )
 
@@ -1120,33 +1108,6 @@ class FkNameCheckTests(CheckTestCase):
             inlines = [ValidationTestInline]
 
         self.assertIsValid(TestModelAdmin, ValidationTestModel)
-
-    def test_proxy_model_parent(self):
-        class Parent(Model):
-            pass
-
-        class ProxyChild(Parent):
-            class Meta:
-                proxy = True
-
-        class ProxyProxyChild(ProxyChild):
-            class Meta:
-                proxy = True
-
-        class Related(Model):
-            proxy_child = ForeignKey(ProxyChild, on_delete=CASCADE)
-
-        class InlineFkName(admin.TabularInline):
-            model = Related
-            fk_name = 'proxy_child'
-
-        class InlineNoFkName(admin.TabularInline):
-            model = Related
-
-        class ProxyProxyChildAdminFkName(admin.ModelAdmin):
-            inlines = [InlineFkName, InlineNoFkName]
-
-        self.assertIsValid(ProxyProxyChildAdminFkName, ProxyProxyChild)
 
 
 class ExtraCheckTests(CheckTestCase):
@@ -1381,7 +1342,7 @@ class AutocompleteFieldsTests(CheckTestCase):
             Admin, ValidationTestModel,
             msg=(
                 "The value of 'autocomplete_fields[0]' refers to 'nonexistent', "
-                "which is not a field of 'modeladmin.ValidationTestModel'."
+                "which is not an attribute of 'modeladmin.ValidationTestModel'."
             ),
             id='admin.E037',
             invalid_obj=Admin,

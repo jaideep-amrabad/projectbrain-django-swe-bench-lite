@@ -150,7 +150,7 @@ uploads:
     from django.views.generic.edit import FormView
     from .forms import FileFieldForm
 
-    class FileFieldFormView(FormView):
+    class FileFieldView(FormView):
         form_class = FileFieldForm
         template_name = 'upload.html'  # Replace with your template.
         success_url = '...'  # Replace with your URL or reverse().

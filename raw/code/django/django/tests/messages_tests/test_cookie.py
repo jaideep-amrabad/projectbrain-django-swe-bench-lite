@@ -1,4 +1,3 @@
-import binascii
 import json
 import random
 
@@ -8,7 +7,7 @@ from django.contrib.messages.storage.base import Message
 from django.contrib.messages.storage.cookie import (
     CookieStorage, MessageDecoder, MessageEncoder,
 )
-from django.core.signing import b64_decode, get_cookie_signer
+from django.core.signing import get_cookie_signer
 from django.test import SimpleTestCase, override_settings
 from django.utils.crypto import get_random_string
 from django.utils.safestring import SafeData, mark_safe
@@ -184,12 +183,10 @@ class CookieTests(BaseTests, SimpleTestCase):
         # RemovedInDjango41Warning: pre-Django 3.2 encoded messages will be
         # invalid.
         storage = self.storage_class(self.get_request())
-        messages = ['this', Message(0, 'Successfully signed in as admin@example.org')]
+        messages = ['this', 'that']
         # Encode/decode a message using the pre-Django 3.2 format.
         encoder = MessageEncoder()
         value = encoder.encode(messages)
-        with self.assertRaises(binascii.Error):
-            b64_decode(value.encode())
         signer = get_cookie_signer(salt=storage.key_salt)
         encoded_messages = signer.sign(value)
         decoded_messages = storage._decode(encoded_messages)

@@ -1,4 +1,5 @@
 import datetime
+import os
 import tempfile
 import uuid
 
@@ -338,30 +339,13 @@ class Child(models.Model):
             raise ValidationError('invalid')
 
 
-class PKChild(models.Model):
-    """
-    Used to check autocomplete to_field resolution when ForeignKey is PK.
-    """
-    parent = models.ForeignKey(Parent, models.CASCADE, primary_key=True)
-    name = models.CharField(max_length=128)
-
-    class Meta:
-        ordering = ['parent']
-
-    def __str__(self):
-        return self.name
-
-
-class Toy(models.Model):
-    child = models.ForeignKey(PKChild, models.CASCADE)
-
-
 class EmptyModel(models.Model):
     def __str__(self):
         return "Primary key = %s" % self.id
 
 
 temp_storage = FileSystemStorage(tempfile.mkdtemp())
+UPLOAD_TO = os.path.join(temp_storage.location, 'test_upload')
 
 
 class Gallery(models.Model):
@@ -633,28 +617,13 @@ class Song(models.Model):
 class Employee(Person):
     code = models.CharField(max_length=20)
 
-    class Meta:
-        ordering = ['name']
-
 
 class WorkHour(models.Model):
     datum = models.DateField()
     employee = models.ForeignKey(Employee, models.CASCADE)
 
 
-class Manager(Employee):
-    """
-    A multi-layer MTI child.
-    """
-    pass
-
-
-class Bonus(models.Model):
-    recipient = models.ForeignKey(Manager, on_delete=models.CASCADE)
-
-
 class Question(models.Model):
-    big_id = models.BigAutoField(primary_key=True)
     question = models.CharField(max_length=20)
     posted = models.DateField(default=datetime.date.today)
     expires = models.DateTimeField(null=True, blank=True)
@@ -759,7 +728,7 @@ class PrePopulatedPostLargeSlug(models.Model):
     """
     Regression test for #15938: a large max_length for the slugfield must not
     be localized in prepopulated_fields_js.html or it might end up breaking
-    the JavaScript (ie, using THOUSAND_SEPARATOR ends up with maxLength=1,000)
+    the javascript (ie, using THOUSAND_SEPARATOR ends up with maxLength=1,000)
     """
     title = models.CharField(max_length=100)
     published = models.BooleanField(default=False)
@@ -1046,7 +1015,3 @@ class ReadOnlyRelatedField(models.Model):
     chapter = models.ForeignKey(Chapter, models.CASCADE)
     language = models.ForeignKey(Language, models.CASCADE)
     user = models.ForeignKey(User, models.CASCADE)
-
-
-class Héllo(models.Model):
-    pass

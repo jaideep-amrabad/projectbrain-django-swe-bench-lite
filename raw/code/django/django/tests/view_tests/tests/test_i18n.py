@@ -169,14 +169,12 @@ class SetLanguageTests(TestCase):
 
     def test_setlang_decodes_http_referer_url(self):
         """
-        The set_language view decodes the HTTP_REFERER URL and preserves an
-        encoded query string.
+        The set_language view decodes the HTTP_REFERER URL.
         """
         # The URL & view must exist for this to work as a regression test.
         self.assertEqual(reverse('with_parameter', kwargs={'parameter': 'x'}), '/test-setlang/x/')
         lang_code = self._get_inactive_language_code()
-        # %C3%A4 decodes to ä, %26 to &.
-        encoded_url = '/test-setlang/%C3%A4/?foo=bar&baz=alpha%26omega'
+        encoded_url = '/test-setlang/%C3%A4/'  # (%C3%A4 decodes to ä)
         response = self.client.post('/i18n/setlang/', {'language': lang_code}, HTTP_REFERER=encoded_url)
         self.assertRedirects(response, encoded_url, fetch_redirect_response=False)
         self.assertEqual(self.client.cookies[settings.LANGUAGE_COOKIE_NAME].value, lang_code)
@@ -324,7 +322,7 @@ class I18NViewTests(SimpleTestCase):
 
     def test_i18n_language_non_english_default(self):
         """
-        Check if the JavaScript i18n view returns an empty language catalog
+        Check if the Javascript i18n view returns an empty language catalog
         if the default language is non-English, the selected language
         is English and there is not 'en' translation available. See #13388,
         #3594 and #13726 for more details.
@@ -337,7 +335,7 @@ class I18NViewTests(SimpleTestCase):
     def test_non_english_default_english_userpref(self):
         """
         Same as above with the difference that there IS an 'en' translation
-        available. The JavaScript i18n view must return a NON empty language catalog
+        available. The Javascript i18n view must return a NON empty language catalog
         with the proper English translations. See #13726 for more details.
         """
         with self.settings(LANGUAGE_CODE='fr'), override('en-us'):

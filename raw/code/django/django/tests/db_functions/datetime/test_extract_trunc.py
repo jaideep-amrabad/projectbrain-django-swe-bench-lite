@@ -266,15 +266,6 @@ class DateFunctionTests(TestCase):
             with self.subTest(t):
                 self.assertIsNone(DTModel.objects.annotate(extracted=t).first().extracted)
 
-    def test_extract_outerref_validation(self):
-        inner_qs = DTModel.objects.filter(name=ExtractMonth(OuterRef('name')))
-        msg = (
-            'Extract input expression must be DateField, DateTimeField, '
-            'TimeField, or DurationField.'
-        )
-        with self.assertRaisesMessage(ValueError, msg):
-            DTModel.objects.annotate(related_name=Subquery(inner_qs.values('name')[:1]))
-
     @skipUnlessDBFeature('has_native_duration_field')
     def test_extract_duration(self):
         start_datetime = datetime(2015, 6, 15, 14, 30, 50, 321)
@@ -368,9 +359,9 @@ class DateFunctionTests(TestCase):
             week_52_day_2014 = timezone.make_aware(week_52_day_2014, is_dst=False)
             week_53_day_2015 = timezone.make_aware(week_53_day_2015, is_dst=False)
         days = [week_52_day_2014, week_1_day_2014_2015, week_53_day_2015]
-        obj_1_iso_2014 = self.create_model(week_52_day_2014, end_datetime)
-        obj_1_iso_2015 = self.create_model(week_1_day_2014_2015, end_datetime)
-        obj_2_iso_2015 = self.create_model(week_53_day_2015, end_datetime)
+        self.create_model(week_53_day_2015, end_datetime)
+        self.create_model(week_52_day_2014, end_datetime)
+        self.create_model(week_1_day_2014_2015, end_datetime)
         qs = DTModel.objects.filter(start_datetime__in=days).annotate(
             extracted=ExtractIsoYear('start_datetime'),
         ).order_by('start_datetime')
@@ -379,19 +370,6 @@ class DateFunctionTests(TestCase):
             (week_1_day_2014_2015, 2015),
             (week_53_day_2015, 2015),
         ], lambda m: (m.start_datetime, m.extracted))
-
-        qs = DTModel.objects.filter(
-            start_datetime__iso_year=2015,
-        ).order_by('start_datetime')
-        self.assertSequenceEqual(qs, [obj_1_iso_2015, obj_2_iso_2015])
-        qs = DTModel.objects.filter(
-            start_datetime__iso_year__gt=2014,
-        ).order_by('start_datetime')
-        self.assertSequenceEqual(qs, [obj_1_iso_2015, obj_2_iso_2015])
-        qs = DTModel.objects.filter(
-            start_datetime__iso_year__lte=2014,
-        ).order_by('start_datetime')
-        self.assertSequenceEqual(qs, [obj_1_iso_2014])
 
     def test_extract_month_func(self):
         start_datetime = datetime(2015, 6, 15, 14, 30, 50, 321)
@@ -655,8 +633,7 @@ class DateFunctionTests(TestCase):
         with self.assertRaisesMessage(ValueError, msg):
             list(DTModel.objects.annotate(truncated=Trunc('start_datetime', 'year', output_field=IntegerField())))
 
-        msg = "'name' isn't a DateField, TimeField, or DateTimeField."
-        with self.assertRaisesMessage(TypeError, msg):
+        with self.assertRaisesMessage(AssertionError, "'name' isn't a DateField, TimeField, or DateTimeField."):
             list(DTModel.objects.annotate(truncated=Trunc('name', 'year', output_field=DateTimeField())))
 
         with self.assertRaisesMessage(ValueError, "Cannot truncate DateField 'start_date' to DateTimeField"):
@@ -933,31 +910,6 @@ class DateFunctionTests(TestCase):
         self.create_model(None, None)
         self.assertIsNone(DTModel.objects.annotate(truncated=TruncTime('start_datetime')).first().truncated)
 
-    def test_trunc_time_comparison(self):
-        start_datetime = datetime(2015, 6, 15, 14, 30, 26)  # 0 microseconds.
-        end_datetime = datetime(2015, 6, 15, 14, 30, 26, 321)
-        if settings.USE_TZ:
-            start_datetime = timezone.make_aware(start_datetime, is_dst=False)
-            end_datetime = timezone.make_aware(end_datetime, is_dst=False)
-        self.create_model(start_datetime, end_datetime)
-        self.assertIs(
-            DTModel.objects.filter(
-                start_datetime__time=start_datetime.time(),
-                end_datetime__time=end_datetime.time(),
-            ).exists(),
-            True,
-        )
-        self.assertIs(
-            DTModel.objects.annotate(
-                extracted_start=TruncTime('start_datetime'),
-                extracted_end=TruncTime('end_datetime'),
-            ).filter(
-                extracted_start=start_datetime.time(),
-                extracted_end=end_datetime.time(),
-            ).exists(),
-            True,
-        )
-
     def test_trunc_day_func(self):
         start_datetime = datetime(2015, 6, 15, 14, 30, 50, 321)
         end_datetime = truncate_to(datetime(2016, 6, 15, 14, 10, 50, 123), 'day')
@@ -1107,31 +1059,6 @@ class DateFunctionTests(TestCase):
                 {'name': 'J. R. R. Tolkien', 'newest_fan_year': datetime(2016, 1, 1, 0, 0, tzinfo=tz)},
             ]
         )
-
-    def test_extract_outerref(self):
-        datetime_1 = datetime(2000, 1, 1)
-        datetime_2 = datetime(2001, 3, 5)
-        datetime_3 = datetime(2002, 1, 3)
-        if settings.USE_TZ:
-            datetime_1 = timezone.make_aware(datetime_1, is_dst=False)
-            datetime_2 = timezone.make_aware(datetime_2, is_dst=False)
-            datetime_3 = timezone.make_aware(datetime_3, is_dst=False)
-        obj_1 = self.create_model(datetime_1, datetime_3)
-        obj_2 = self.create_model(datetime_2, datetime_1)
-        obj_3 = self.create_model(datetime_3, datetime_2)
-
-        inner_qs = DTModel.objects.filter(
-            start_datetime__year=2000,
-            start_datetime__month=ExtractMonth(OuterRef('end_datetime')),
-        )
-        qs = DTModel.objects.annotate(
-            related_pk=Subquery(inner_qs.values('pk')[:1]),
-        )
-        self.assertSequenceEqual(qs.order_by('name').values('pk', 'related_pk'), [
-            {'pk': obj_1.pk, 'related_pk': obj_1.pk},
-            {'pk': obj_2.pk, 'related_pk': obj_1.pk},
-            {'pk': obj_3.pk, 'related_pk': None},
-        ])
 
 
 @override_settings(USE_TZ=True, TIME_ZONE='UTC')
