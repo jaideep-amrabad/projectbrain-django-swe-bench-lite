@@ -90,7 +90,7 @@ your view class, for example::
 
     from myapp.models import Contact
 
-    class ContactListView(ListView):
+    class ContactList(ListView):
         paginate_by = 2
         model = Contact
 

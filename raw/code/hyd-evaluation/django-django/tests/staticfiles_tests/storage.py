@@ -39,12 +39,11 @@ class PathNotImplementedStorage(storage.Storage):
     def listdir(self, path):
         path = self._path(path)
         directories, files = [], []
-        with os.scandir(path) as entries:
-            for entry in entries:
-                if entry.is_dir():
-                    directories.append(entry.name)
-                else:
-                    files.append(entry.name)
+        for entry in os.scandir(path):
+            if entry.is_dir():
+                directories.append(entry.name)
+            else:
+                files.append(entry.name)
         return directories, files
 
     def delete(self, name):
@@ -85,10 +84,7 @@ class ExtraPatternsStorage(ManifestStaticFilesStorage):
     patterns = tuple(ManifestStaticFilesStorage.patterns) + (
         (
             "*.js", (
-                (
-                    r"""(?P<matched>url\(['"]{0,1}\s*(?P<url>.*?)["']{0,1}\))""",
-                    'JS_URL("%(url)s")',
-                ),
+                (r"""(url\(['"]{0,1}\s*(.*?)["']{0,1}\))""", 'JS_URL("%s")'),
             ),
         ),
     )
@@ -97,7 +93,3 @@ class ExtraPatternsStorage(ManifestStaticFilesStorage):
 class NoneHashStorage(ManifestStaticFilesStorage):
     def file_hash(self, name, content=None):
         return None
-
-
-class NoPostProcessReplacedPathStorage(ManifestStaticFilesStorage):
-    max_post_process_passes = 0

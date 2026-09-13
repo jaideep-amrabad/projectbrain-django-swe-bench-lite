@@ -1,4 +1,3 @@
-import os
 from unittest import TestCase
 
 from django.template import Engine
@@ -25,8 +24,3 @@ class OriginTestCase(TestCase):
         # Use assertIs() to test __eq__/__ne__.
         self.assertIs(a.origin == b.origin, False)
         self.assertIs(a.origin != b.origin, True)
-
-    def test_repr(self):
-        a = self.engine.get_template('index.html')
-        name = os.path.join(TEMPLATE_DIR, 'index.html')
-        self.assertEqual(repr(a.origin), '<Origin name=%r>' % name)

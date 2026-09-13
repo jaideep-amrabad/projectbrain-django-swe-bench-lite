@@ -48,10 +48,9 @@ class Company(models.Model):
 class Number(models.Model):
     integer = models.BigIntegerField(db_column='the_integer')
     float = models.FloatField(null=True, db_column='the_float')
-    decimal_value = models.DecimalField(max_digits=20, decimal_places=17, null=True)
 
     def __str__(self):
-        return '%i, %.3f, %.17f' % (self.integer, self.float, self.decimal_value)
+        return '%i, %.3f' % (self.integer, self.float)
 
 
 class Experiment(models.Model):
@@ -61,7 +60,6 @@ class Experiment(models.Model):
     estimated_time = models.DurationField()
     start = models.DateTimeField()
     end = models.DateTimeField()
-    scalar = models.IntegerField(null=True)
 
     class Meta:
         db_table = 'expressions_ExPeRiMeNt'

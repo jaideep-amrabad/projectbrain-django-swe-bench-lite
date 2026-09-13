@@ -226,9 +226,8 @@ class BasicExtractorTests(ExtractorTests):
         )
         with self.assertRaisesMessage(SyntaxError, msg):
             management.call_command('makemessages', locale=[LOCALE], extensions=['tpl'], verbosity=0)
-        # The temporary files were cleaned up.
+        # The temporary file was cleaned up
         self.assertFalse(os.path.exists('./templates/template_with_error.tpl.py'))
-        self.assertFalse(os.path.exists('./templates/template_0_with_no_error.tpl.py'))
 
     def test_unicode_decode_error(self):
         shutil.copyfile('./not_utf8.sample', './not_utf8.txt')
@@ -445,7 +444,7 @@ class BasicExtractorTests(ExtractorTests):
             self.assertIn('mañana; charset=CHARSET', pot_contents)
 
 
-class JavaScriptExtractorTests(ExtractorTests):
+class JavascriptExtractorTests(ExtractorTests):
 
     PO_FILE = 'locale/%s/LC_MESSAGES/djangojs.po' % LOCALE
 
@@ -759,15 +758,9 @@ class CustomLayoutExtractionTests(ExtractorTests):
     work_subdir = 'project_dir'
 
     def test_no_locale_raises(self):
-        msg = (
-            "Unable to find a locale path to store translations for file "
-            "__init__.py. Make sure the 'locale' directory exists in an app "
-            "or LOCALE_PATHS setting is set."
-        )
+        msg = "Unable to find a locale path to store translations for file"
         with self.assertRaisesMessage(management.CommandError, msg):
-            management.call_command('makemessages', locale=[LOCALE], verbosity=0)
-        # Working files are cleaned up on an error.
-        self.assertFalse(os.path.exists('./app_no_locale/test.html.py'))
+            management.call_command('makemessages', locale=LOCALE, verbosity=0)
 
     def test_project_locale_paths(self):
         self._test_project_locale_paths(os.path.join(self.test_dir, 'project_locale'))

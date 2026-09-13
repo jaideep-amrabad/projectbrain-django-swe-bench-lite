@@ -9,9 +9,6 @@ from .settings import AUTH_MIDDLEWARE, AUTH_TEMPLATES
 
 
 class MockUser:
-    def __repr__(self):
-        return 'MockUser()'
-
     def has_module_perms(self, perm):
         return perm == 'mockapp'
 
@@ -35,10 +32,6 @@ class PermWrapperTests(SimpleTestCase):
                 return True
             self.eq_calls += 1
             return False
-
-    def test_repr(self):
-        perms = PermWrapper(MockUser())
-        self.assertEqual(repr(perms), 'PermWrapper(MockUser())')
 
     def test_permwrapper_in(self):
         """

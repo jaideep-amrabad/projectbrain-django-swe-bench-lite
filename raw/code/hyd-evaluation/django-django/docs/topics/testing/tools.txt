@@ -11,7 +11,7 @@ Django provides a small set of tools that come in handy when writing tests.
 The test client
 ===============
 
-The test client is a Python class that acts as a dummy web browser, allowing
+The test client is a Python class that acts as a dummy Web browser, allowing
 you to test your views and interact with your Django-powered application
 programmatically.
 
@@ -35,7 +35,7 @@ short:
   rendered and that the template is passed the correct context data.
 
 * Use in-browser frameworks like Selenium_ to test *rendered* HTML and the
-  *behavior* of web pages, namely JavaScript functionality. Django also
+  *behavior* of Web pages, namely JavaScript functionality. Django also
   provides special support for those frameworks; see the section on
   :class:`~django.test.LiveServerTestCase` for more details.
 
@@ -45,7 +45,7 @@ Overview and a quick example
 ----------------------------
 
 To use the test client, instantiate ``django.test.Client`` and retrieve
-web pages::
+Web pages::
 
     >>> from django.test import Client
     >>> c = Client()
@@ -61,8 +61,8 @@ of the Python interactive interpreter.
 
 Note a few important things about how the test client works:
 
-* The test client does *not* require the web server to be running. In fact,
-  it will run just fine with no web server running at all! That's because
+* The test client does *not* require the Web server to be running. In fact,
+  it will run just fine with no Web server running at all! That's because
   it avoids the overhead of HTTP and deals directly with the Django
   framework. This helps make the unit tests run quickly.
 
@@ -75,8 +75,8 @@ Note a few important things about how the test client works:
 
       >>> c.get('https://www.example.com/login/')
 
-  The test client is not capable of retrieving web pages that are not
-  powered by your Django project. If you need to retrieve other web pages,
+  The test client is not capable of retrieving Web pages that are not
+  powered by your Django project. If you need to retrieve other Web pages,
   use a Python standard library module such as :mod:`urllib`.
 
 * To resolve URLs, the test client uses whatever URLconf is pointed-to by
@@ -112,12 +112,12 @@ Use the ``django.test.Client`` class to make requests.
 .. class:: Client(enforce_csrf_checks=False, json_encoder=DjangoJSONEncoder, **defaults)
 
     It requires no arguments at time of construction. However, you can use
-    keyword arguments to specify some default headers. For example, this will
+    keywords arguments to specify some default headers. For example, this will
     send a ``User-Agent`` HTTP header in each request::
 
         >>> c = Client(HTTP_USER_AGENT='Mozilla/5.0')
 
-    The values from the ``extra`` keyword arguments passed to
+    The values from the ``extra`` keywords arguments passed to
     :meth:`~django.test.Client.get()`,
     :meth:`~django.test.Client.post()`, etc. have precedence over
     the defaults passed to the class constructor.
@@ -244,7 +244,7 @@ Use the ``django.test.Client`` class to make requests.
         wish to upload as a value. For example::
 
             >>> c = Client()
-            >>> with open('wishlist.doc', 'rb') as fp:
+            >>> with open('wishlist.doc') as fp:
             ...     c.post('/customers/wishes/', {'name': 'fred', 'attachment': fp})
 
         (The name ``attachment`` here is not relevant; use whatever name your
@@ -912,11 +912,6 @@ It also provides an additional method:
                 self.assertEqual(mail.outbox[0].subject, 'Contact Form')
                 self.assertEqual(mail.outbox[0].body, 'I like your site')
 
-    .. versionchanged:: 4.0
-
-        In older versions, new callbacks added while executing
-        :func:`.transaction.on_commit` callbacks were not captured.
-
 .. _live-test-server:
 
 ``LiveServerTestCase``
@@ -993,7 +988,7 @@ case you do not have Firefox installed or wish to use another browser. The
 example above is just a tiny fraction of what the Selenium client can do; check
 out the `full reference`_ for more details.
 
-.. _Selenium: https://www.selenium.dev/
+.. _Selenium: http://seleniumhq.org/
 .. _selenium package: https://pypi.org/project/selenium/
 .. _full reference: https://selenium-python.readthedocs.io/api.html
 .. _Firefox: https://www.mozilla.com/firefox/
@@ -1023,7 +1018,7 @@ out the `full reference`_ for more details.
                 lambda driver: driver.find_element_by_tag_name('body'))
 
     The tricky thing here is that there's really no such thing as a "page load,"
-    especially in modern web apps that generate HTML dynamically after the
+    especially in modern Web apps that generate HTML dynamically after the
     server generates the initial document. So, checking for the presence of
     ``<body>`` in the response might not necessarily be appropriate for all use
     cases. Please refer to the `Selenium FAQ`_ and `Selenium documentation`_
@@ -1265,7 +1260,7 @@ Django provides a standard Python context manager (see :pep:`343`) called
                 self.assertRedirects(response, '/other/login/?next=/sekrit/')
 
 This example will override the :setting:`LOGIN_URL` setting for the code
-in the ``with`` block and reset its value to the previous state afterward.
+in the ``with`` block and reset its value to the previous state afterwards.
 
 .. method:: SimpleTestCase.modify_settings()
 
@@ -1427,7 +1422,7 @@ Assertions
 As Python's normal :class:`unittest.TestCase` class implements assertion methods
 such as :meth:`~unittest.TestCase.assertTrue` and
 :meth:`~unittest.TestCase.assertEqual`, Django's custom :class:`TestCase` class
-provides a number of custom assertion methods that are useful for testing web
+provides a number of custom assertion methods that are useful for testing Web
 applications:
 
 The failure messages given by most of these assertion methods can be customized
@@ -1601,8 +1596,8 @@ your test suite.
       closed or the HTML document ends.
     * Empty tags are equivalent to their self-closing version.
     * The ordering of attributes of an HTML element is not significant.
-    * Boolean attributes (like ``checked``) without an argument are equal to
-      attributes that equal in name and value (see the examples).
+    * Attributes without an argument are equal to attributes that equal in
+      name and value (see the examples).
     * Text, character references, and entity references that refer to the same
       character are equivalent.
 
@@ -1620,16 +1615,10 @@ your test suite.
             '<input id="id_accept_terms" type="checkbox" checked>'
         )
 
-    ``html1`` and ``html2`` must contain HTML. An ``AssertionError`` will be
+    ``html1`` and ``html2`` must be valid HTML. An ``AssertionError`` will be
     raised if one of them cannot be parsed.
 
     Output in case of error can be customized with the ``msg`` argument.
-
-    .. versionchanged:: 4.0
-
-        In older versions, any attribute (not only boolean attributes) without
-        a value was considered equal to an attribute with the same name and
-        value.
 
 .. method:: SimpleTestCase.assertHTMLNotEqual(html1, html2, msg=None)
 
@@ -1637,7 +1626,7 @@ your test suite.
     comparison is based on HTML semantics. See
     :meth:`~SimpleTestCase.assertHTMLEqual` for details.
 
-    ``html1`` and ``html2`` must contain HTML. An ``AssertionError`` will be
+    ``html1`` and ``html2`` must be valid HTML. An ``AssertionError`` will be
     raised if one of them cannot be parsed.
 
     Output in case of error can be customized with the ``msg`` argument.
@@ -1672,7 +1661,7 @@ your test suite.
     of ``needle`` occurrences will be strictly verified.
 
     Whitespace in most cases is ignored, and attribute ordering is not
-    significant. See :meth:`~SimpleTestCase.assertHTMLEqual` for more details.
+    significant. The passed-in arguments must be valid HTML.
 
 .. method:: SimpleTestCase.assertJSONEqual(raw, expected_data, msg=None)
 
@@ -1701,7 +1690,7 @@ your test suite.
     provide an implicit ordering, you can set the ``ordered`` parameter to
     ``False``, which turns the comparison into a ``collections.Counter`` comparison.
     If the order is undefined (if the given ``qs`` isn't ordered and the
-    comparison is against more than one ordered value), a ``ValueError`` is
+    comparison is against more than one ordered values), a ``ValueError`` is
     raised.
 
     Output in case of error can be customized with the ``msg`` argument.
@@ -1976,10 +1965,9 @@ test if the database doesn't support a specific named feature.
 
 The decorators use a string identifier to describe database features.
 This string corresponds to attributes of the database connection
-features class. See
-:source:`django.db.backends.base.features.BaseDatabaseFeatures class
-<django/db/backends/base/features.py>` for a full list of database features
-that can be used as a basis for skipping tests.
+features class. See ``django.db.backends.BaseDatabaseFeatures``
+class for a full list of database features that can be used as a basis
+for skipping tests.
 
 .. function:: skipIfDBFeature(*feature_name_strings)
 

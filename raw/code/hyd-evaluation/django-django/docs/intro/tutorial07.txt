@@ -3,7 +3,7 @@ Writing your first Django app, part 7
 =====================================
 
 This tutorial begins where :doc:`Tutorial 6 </intro/tutorial06>` left off. We're
-continuing the web-poll application and will focus on customizing Django's
+continuing the Web-poll application and will focus on customizing Django's
 automatically-generated admin site that we first explored in :doc:`Tutorial 2
 </intro/tutorial02>`.
 
@@ -156,8 +156,8 @@ already-created object, you get another three extra slots.
 
 At the end of the three current slots you will find an "Add another Choice"
 link.  If you click on it, a new slot will be added. If you want to remove the
-added slot, you can click on the X to the top right of the added slot. This
-image shows an added slot:
+added slot, you can click on the X to the top right of the added slot. Note
+that you can't remove the original three slots. This image shows an added slot:
 
 .. image:: _images/admin14t.png
    :alt: Additional slot added dynamically

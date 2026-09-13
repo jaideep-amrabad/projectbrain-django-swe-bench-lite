@@ -1,13 +1,13 @@
 import platform
 import unittest
-from datetime import datetime, timezone
+from datetime import datetime
 from unittest import mock
 
 from django.test import SimpleTestCase
 from django.utils.datastructures import MultiValueDict
 from django.utils.http import (
     base36_to_int, escape_leading_slashes, http_date, int_to_base36,
-    is_same_domain, parse_etags, parse_http_date, quote_etag,
+    is_same_domain, parse_etags, parse_http_date, parse_qsl, quote_etag,
     url_has_allowed_host_and_scheme, urlencode, urlsafe_base64_decode,
     urlsafe_base64_encode,
 )
@@ -288,52 +288,38 @@ class HttpDateProcessingTests(unittest.TestCase):
 
     def test_parsing_rfc1123(self):
         parsed = parse_http_date('Sun, 06 Nov 1994 08:49:37 GMT')
-        self.assertEqual(
-            datetime.fromtimestamp(parsed, timezone.utc),
-            datetime(1994, 11, 6, 8, 49, 37, tzinfo=timezone.utc),
-        )
+        self.assertEqual(datetime.utcfromtimestamp(parsed), datetime(1994, 11, 6, 8, 49, 37))
 
     @unittest.skipIf(platform.architecture()[0] == '32bit', 'The Year 2038 problem.')
     @mock.patch('django.utils.http.datetime.datetime')
     def test_parsing_rfc850(self, mocked_datetime):
         mocked_datetime.side_effect = datetime
-        mocked_datetime.now = mock.Mock()
-        now_1 = datetime(2019, 11, 6, 8, 49, 37, tzinfo=timezone.utc)
-        now_2 = datetime(2020, 11, 6, 8, 49, 37, tzinfo=timezone.utc)
-        now_3 = datetime(2048, 11, 6, 8, 49, 37, tzinfo=timezone.utc)
+        mocked_datetime.utcnow = mock.Mock()
+        utcnow_1 = datetime(2019, 11, 6, 8, 49, 37)
+        utcnow_2 = datetime(2020, 11, 6, 8, 49, 37)
+        utcnow_3 = datetime(2048, 11, 6, 8, 49, 37)
         tests = (
-            (now_1, 'Tuesday, 31-Dec-69 08:49:37 GMT', datetime(2069, 12, 31, 8, 49, 37, tzinfo=timezone.utc)),
-            (now_1, 'Tuesday, 10-Nov-70 08:49:37 GMT', datetime(1970, 11, 10, 8, 49, 37, tzinfo=timezone.utc)),
-            (now_1, 'Sunday, 06-Nov-94 08:49:37 GMT', datetime(1994, 11, 6, 8, 49, 37, tzinfo=timezone.utc)),
-            (now_2, 'Wednesday, 31-Dec-70 08:49:37 GMT', datetime(2070, 12, 31, 8, 49, 37, tzinfo=timezone.utc)),
-            (now_2, 'Friday, 31-Dec-71 08:49:37 GMT', datetime(1971, 12, 31, 8, 49, 37, tzinfo=timezone.utc)),
-            (now_3, 'Sunday, 31-Dec-00 08:49:37 GMT', datetime(2000, 12, 31, 8, 49, 37, tzinfo=timezone.utc)),
-            (now_3, 'Friday, 31-Dec-99 08:49:37 GMT', datetime(1999, 12, 31, 8, 49, 37, tzinfo=timezone.utc)),
+            (utcnow_1, 'Tuesday, 31-Dec-69 08:49:37 GMT', datetime(2069, 12, 31, 8, 49, 37)),
+            (utcnow_1, 'Tuesday, 10-Nov-70 08:49:37 GMT', datetime(1970, 11, 10, 8, 49, 37)),
+            (utcnow_1, 'Sunday, 06-Nov-94 08:49:37 GMT', datetime(1994, 11, 6, 8, 49, 37)),
+            (utcnow_2, 'Wednesday, 31-Dec-70 08:49:37 GMT', datetime(2070, 12, 31, 8, 49, 37)),
+            (utcnow_2, 'Friday, 31-Dec-71 08:49:37 GMT', datetime(1971, 12, 31, 8, 49, 37)),
+            (utcnow_3, 'Sunday, 31-Dec-00 08:49:37 GMT', datetime(2000, 12, 31, 8, 49, 37)),
+            (utcnow_3, 'Friday, 31-Dec-99 08:49:37 GMT', datetime(1999, 12, 31, 8, 49, 37)),
         )
-        for now, rfc850str, expected_date in tests:
+        for utcnow, rfc850str, expected_date in tests:
             with self.subTest(rfc850str=rfc850str):
-                mocked_datetime.now.return_value = now
+                mocked_datetime.utcnow.return_value = utcnow
                 parsed = parse_http_date(rfc850str)
-                mocked_datetime.now.assert_called_once_with(tz=timezone.utc)
-                self.assertEqual(
-                    datetime.fromtimestamp(parsed, timezone.utc),
-                    expected_date,
-                )
-            mocked_datetime.reset_mock()
+                self.assertEqual(datetime.utcfromtimestamp(parsed), expected_date)
 
     def test_parsing_asctime(self):
         parsed = parse_http_date('Sun Nov  6 08:49:37 1994')
-        self.assertEqual(
-            datetime.fromtimestamp(parsed, timezone.utc),
-            datetime(1994, 11, 6, 8, 49, 37, tzinfo=timezone.utc),
-        )
+        self.assertEqual(datetime.utcfromtimestamp(parsed), datetime(1994, 11, 6, 8, 49, 37))
 
     def test_parsing_year_less_than_70(self):
         parsed = parse_http_date('Sun Nov  6 08:49:37 0037')
-        self.assertEqual(
-            datetime.fromtimestamp(parsed, timezone.utc),
-            datetime(2037, 11, 6, 8, 49, 37, tzinfo=timezone.utc),
-        )
+        self.assertEqual(datetime.utcfromtimestamp(parsed), datetime(2037, 11, 6, 8, 49, 37))
 
 
 class EscapeLeadingSlashesTests(unittest.TestCase):
@@ -345,3 +331,68 @@ class EscapeLeadingSlashesTests(unittest.TestCase):
         for url, expected in tests:
             with self.subTest(url=url):
                 self.assertEqual(escape_leading_slashes(url), expected)
+
+
+# TODO: Remove when dropping support for PY37. Backport of unit tests for
+# urllib.parse.parse_qsl() from Python 3.8. Copyright (C) 2020 Python Software
+# Foundation (see LICENSE.python).
+class ParseQSLBackportTests(unittest.TestCase):
+    def test_parse_qsl(self):
+        tests = [
+            ('', []),
+            ('&', []),
+            ('&&', []),
+            ('=', [('', '')]),
+            ('=a', [('', 'a')]),
+            ('a', [('a', '')]),
+            ('a=', [('a', '')]),
+            ('&a=b', [('a', 'b')]),
+            ('a=a+b&b=b+c', [('a', 'a b'), ('b', 'b c')]),
+            ('a=1&a=2', [('a', '1'), ('a', '2')]),
+            (b'', []),
+            (b'&', []),
+            (b'&&', []),
+            (b'=', [(b'', b'')]),
+            (b'=a', [(b'', b'a')]),
+            (b'a', [(b'a', b'')]),
+            (b'a=', [(b'a', b'')]),
+            (b'&a=b', [(b'a', b'b')]),
+            (b'a=a+b&b=b+c', [(b'a', b'a b'), (b'b', b'b c')]),
+            (b'a=1&a=2', [(b'a', b'1'), (b'a', b'2')]),
+            (';', []),
+            (';;', []),
+            (';a=b', [('a', 'b')]),
+            ('a=a+b;b=b+c', [('a', 'a b'), ('b', 'b c')]),
+            ('a=1;a=2', [('a', '1'), ('a', '2')]),
+            (b';', []),
+            (b';;', []),
+            (b';a=b', [(b'a', b'b')]),
+            (b'a=a+b;b=b+c', [(b'a', b'a b'), (b'b', b'b c')]),
+            (b'a=1;a=2', [(b'a', b'1'), (b'a', b'2')]),
+        ]
+        for original, expected in tests:
+            with self.subTest(original):
+                result = parse_qsl(original, keep_blank_values=True)
+                self.assertEqual(result, expected, 'Error parsing %r' % original)
+                expect_without_blanks = [v for v in expected if len(v[1])]
+                result = parse_qsl(original, keep_blank_values=False)
+                self.assertEqual(result, expect_without_blanks, 'Error parsing %r' % original)
+
+    def test_parse_qsl_encoding(self):
+        result = parse_qsl('key=\u0141%E9', encoding='latin-1')
+        self.assertEqual(result, [('key', '\u0141\xE9')])
+        result = parse_qsl('key=\u0141%C3%A9', encoding='utf-8')
+        self.assertEqual(result, [('key', '\u0141\xE9')])
+        result = parse_qsl('key=\u0141%C3%A9', encoding='ascii')
+        self.assertEqual(result, [('key', '\u0141\ufffd\ufffd')])
+        result = parse_qsl('key=\u0141%E9-', encoding='ascii')
+        self.assertEqual(result, [('key', '\u0141\ufffd-')])
+        result = parse_qsl('key=\u0141%E9-', encoding='ascii', errors='ignore')
+        self.assertEqual(result, [('key', '\u0141-')])
+
+    def test_parse_qsl_max_num_fields(self):
+        with self.assertRaises(ValueError):
+            parse_qsl('&'.join(['a=a'] * 11), max_num_fields=10)
+        with self.assertRaises(ValueError):
+            parse_qsl(';'.join(['a=a'] * 11), max_num_fields=10)
+        parse_qsl('&'.join(['a=a'] * 10), max_num_fields=10)

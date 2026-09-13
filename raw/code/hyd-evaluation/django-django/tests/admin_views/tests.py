@@ -293,7 +293,7 @@ class AdminViewBasicTest(AdminViewBasicTestCase):
         Ensure http response from a popup is properly escaped.
         """
         post_data = {
-            IS_POPUP_VAR: '1',
+            '_popup': '1',
             'title': 'title with a new\nline',
             'content': 'some content',
             'date_0': '2010-09-10',
@@ -1116,22 +1116,6 @@ class AdminViewBasicTest(AdminViewBasicTestCase):
         )
         self.assertContains(response, '<h1>View article</h1>')
         self.assertContains(response, '<h2>Article 2</h2>')
-
-    def test_formset_kwargs_can_be_overridden(self):
-        response = self.client.get(reverse('admin:admin_views_city_add'))
-        self.assertContains(response, 'overridden_name')
-
-    def test_render_views_no_subtitle(self):
-        tests = [
-            reverse('admin:index'),
-            reverse('admin:app_list', args=('admin_views',)),
-            reverse('admin:admin_views_article_delete', args=(self.a1.pk,)),
-            reverse('admin:admin_views_article_history', args=(self.a1.pk,)),
-        ]
-        for url in tests:
-            with self.subTest(url=url):
-                with self.assertNoLogs('django.template', 'DEBUG'):
-                    self.client.get(url)
 
 
 @override_settings(TEMPLATES=[{
@@ -3154,7 +3138,7 @@ class AdminViewListEditable(TestCase):
         # CSRF field = 1
         # field to track 'select all' across paginated views = 1
         # 6 + 4 + 4 + 1 + 2 + 1 + 1 = 19 inputs
-        self.assertContains(response, "<input", count=20)
+        self.assertContains(response, "<input", count=19)
         # 1 select per object = 3 selects
         self.assertContains(response, "<select", count=4)
 
@@ -3348,10 +3332,7 @@ class AdminViewListEditable(TestCase):
         response = self.client.post(reverse('admin:admin_views_person_changelist'), data)
         non_form_errors = response.context['cl'].formset.non_form_errors()
         self.assertIsInstance(non_form_errors, ErrorList)
-        self.assertEqual(
-            str(non_form_errors),
-            str(ErrorList(['Grace is not a Zombie'], error_class='nonform')),
-        )
+        self.assertEqual(str(non_form_errors), str(ErrorList(["Grace is not a Zombie"])))
 
     def test_list_editable_ordering(self):
         collector = Collector.objects.create(id=1, name="Frederick Clegg")
@@ -3556,7 +3537,6 @@ class AdminSearchTest(TestCase):
         cls.per2 = Person.objects.create(name='Grace Hopper', gender=1, alive=False)
         cls.per3 = Person.objects.create(name='Guido van Rossum', gender=1, alive=True)
         Person.objects.create(name='John Doe', gender=1)
-        Person.objects.create(name='John O"Hara', gender=1)
         Person.objects.create(name="John O'Hara", gender=1)
 
         cls.t1 = Recommender.objects.create()
@@ -3632,7 +3612,7 @@ class AdminSearchTest(TestCase):
             response = self.client.get(reverse('admin:admin_views_person_changelist') + '?q=Gui')
         self.assertContains(
             response,
-            """<span class="small quiet">1 result (<a href="?">6 total</a>)</span>""",
+            """<span class="small quiet">1 result (<a href="?">5 total</a>)</span>""",
             html=True
         )
 
@@ -3663,10 +3643,7 @@ class AdminSearchTest(TestCase):
             ("John Doe John", 0),
             ('"John Do"', 1),
             ("'John Do'", 1),
-            ("'John O\'Hara'", 0),
             ("'John O\\'Hara'", 1),
-            ('"John O\"Hara"', 0),
-            ('"John O\\"Hara"', 1),
         ]
         for search, hits in tests:
             with self.subTest(search=search):
@@ -4999,7 +4976,7 @@ class ReadonlyTest(AdminFieldExtractionMixin, TestCase):
         self.assertNotContains(response, 'name="posted"')
         # 3 fields + 2 submit buttons + 5 inline management form fields, + 2
         # hidden fields for inlines + 1 field for the inline + 2 empty form
-        self.assertContains(response, "<input", count=16)
+        self.assertContains(response, "<input", count=15)
         self.assertContains(response, formats.localize(datetime.date.today()))
         self.assertContains(response, "<label>Awesomeness level:</label>")
         self.assertContains(response, "Very awesome.")
@@ -5394,17 +5371,17 @@ class UserAdminTest(TestCase):
         response = self.client.get(reverse('admin:admin_views_album_add'))
         self.assertContains(response, reverse('admin:auth_user_add'))
         self.assertContains(response, 'class="related-widget-wrapper-link add-related" id="add_id_owner"')
-        response = self.client.get(reverse('admin:auth_user_add') + '?%s=1' % IS_POPUP_VAR)
+        response = self.client.get(reverse('admin:auth_user_add') + '?_popup=1')
         self.assertNotContains(response, 'name="_continue"')
         self.assertNotContains(response, 'name="_addanother"')
         data = {
             'username': 'newuser',
             'password1': 'newpassword',
             'password2': 'newpassword',
-            IS_POPUP_VAR: '1',
+            '_popup': '1',
             '_save': '1',
         }
-        response = self.client.post(reverse('admin:auth_user_add') + '?%s=1' % IS_POPUP_VAR, data, follow=True)
+        response = self.client.post(reverse('admin:auth_user_add') + '?_popup=1', data, follow=True)
         self.assertContains(response, '&quot;obj&quot;: &quot;newuser&quot;')
 
     def test_user_fk_change_popup(self):
@@ -5413,7 +5390,7 @@ class UserAdminTest(TestCase):
         self.assertContains(response, reverse('admin:auth_user_change', args=('__fk__',)))
         self.assertContains(response, 'class="related-widget-wrapper-link change-related" id="change_id_owner"')
         user = User.objects.get(username='changeuser')
-        url = reverse('admin:auth_user_change', args=(user.pk,)) + '?%s=1' % IS_POPUP_VAR
+        url = reverse('admin:auth_user_change', args=(user.pk,)) + '?_popup=1'
         response = self.client.get(url)
         self.assertNotContains(response, 'name="_continue"')
         self.assertNotContains(response, 'name="_addanother"')
@@ -5425,7 +5402,7 @@ class UserAdminTest(TestCase):
             'last_login_1': '13:20:10',
             'date_joined_0': '2007-05-30',
             'date_joined_1': '13:20:10',
-            IS_POPUP_VAR: '1',
+            '_popup': '1',
             '_save': '1',
         }
         response = self.client.post(url, data, follow=True)
@@ -5438,12 +5415,12 @@ class UserAdminTest(TestCase):
         self.assertContains(response, reverse('admin:auth_user_delete', args=('__fk__',)))
         self.assertContains(response, 'class="related-widget-wrapper-link change-related" id="change_id_owner"')
         user = User.objects.get(username='changeuser')
-        url = reverse('admin:auth_user_delete', args=(user.pk,)) + '?%s=1' % IS_POPUP_VAR
+        url = reverse('admin:auth_user_delete', args=(user.pk,)) + '?_popup=1'
         response = self.client.get(url)
         self.assertEqual(response.status_code, 200)
         data = {
             'post': 'yes',
-            IS_POPUP_VAR: '1',
+            '_popup': '1',
         }
         response = self.client.post(url, data, follow=True)
         self.assertContains(response, '&quot;action&quot;: &quot;delete&quot;')
@@ -6604,42 +6581,6 @@ class AdminSiteFinalCatchAllPatternTests(TestCase):
         known_url = reverse('admin:admin_views_article_changelist')
         response = self.client.get(known_url[:-1])
         self.assertRedirects(response, known_url, status_code=301, target_status_code=403)
-
-    @override_settings(APPEND_SLASH=True)
-    def test_missing_slash_append_slash_true_script_name(self):
-        superuser = User.objects.create_user(
-            username='staff',
-            password='secret',
-            email='staff@example.com',
-            is_staff=True,
-        )
-        self.client.force_login(superuser)
-        known_url = reverse('admin:admin_views_article_changelist')
-        response = self.client.get(known_url[:-1], SCRIPT_NAME='/prefix/')
-        self.assertRedirects(
-            response,
-            '/prefix' + known_url,
-            status_code=301,
-            fetch_redirect_response=False,
-        )
-
-    @override_settings(APPEND_SLASH=True, FORCE_SCRIPT_NAME='/prefix/')
-    def test_missing_slash_append_slash_true_force_script_name(self):
-        superuser = User.objects.create_user(
-            username='staff',
-            password='secret',
-            email='staff@example.com',
-            is_staff=True,
-        )
-        self.client.force_login(superuser)
-        known_url = reverse('admin:admin_views_article_changelist')
-        response = self.client.get(known_url[:-1])
-        self.assertRedirects(
-            response,
-            '/prefix' + known_url,
-            status_code=301,
-            fetch_redirect_response=False,
-        )
 
     @override_settings(APPEND_SLASH=True)
     def test_missing_slash_append_slash_true_non_staff_user(self):

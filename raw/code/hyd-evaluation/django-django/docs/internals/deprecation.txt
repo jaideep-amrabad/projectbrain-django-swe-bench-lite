@@ -15,25 +15,6 @@ about each item can often be found in the release notes of two versions prior.
 See the :ref:`Django 4.0 release notes <deprecated-features-4.0>` for more
 details on these changes.
 
-* The ``SERIALIZE`` test setting will be removed.
-
-* The undocumented ``django.utils.baseconv`` module will be removed.
-
-* The undocumented ``django.utils.datetime_safe`` module will be removed.
-
-* The default value of the ``USE_TZ`` setting will change from ``False`` to
-  ``True``.
-
-* The default sitemap protocol for sitemaps built outside the context of a
-  request will change from ``'http'`` to ``'https'``.
-
-* The ``extra_tests`` argument for ``DiscoverRunner.build_suite()`` and
-  ``DiscoverRunner.run_tests()`` will be removed.
-
-* The ``django.contrib.postgres.aggregates.ArrayAgg``, ``JSONBAgg``, and
-  ``StringAgg`` aggregates will return ``None`` when there are no rows instead
-  of ``[]``, ``[]``, and ``''`` respectively.
-
 .. _deprecation-removed-in-4.1:
 
 4.1
@@ -53,7 +34,7 @@ details on these changes.
 
 * The ``default_app_config`` module variable will be removed.
 
-* ``TransactionTestCase.assertQuerysetEqual()`` will no longer automatically
+* ``TransactionTestCase.assertQuerysetEqual()` will no longer automatically
   call ``repr()`` on a queryset when compared to string values.
 
 * ``django.core.cache.backends.memcached.MemcachedCache`` will be removed.
@@ -121,7 +102,7 @@ details on these changes.
 * Support for the pre-Django 3.1 user sessions (that use the SHA-1 algorithm)
   will be removed.
 
-* The ``get_response`` argument for
+* The ``get_request`` argument for
   ``django.utils.deprecation.MiddlewareMixin.__init__()`` will be required and
   won't accept ``None``.
 
@@ -1097,7 +1078,7 @@ details on these changes.
 * The ``django.contrib.gis.db.backend`` module will be removed in favor
   of the specific backends.
 
-* ``SMTPConnection`` will be removed in favor of a generic email backend API.
+* ``SMTPConnection`` will be removed in favor of a generic Email backend API.
 
 * The many to many SQL generation functions on the database backends
   will be removed.

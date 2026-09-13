@@ -1,7 +1,6 @@
 from django.contrib.messages import constants
 from django.contrib.messages.storage.base import Message
 from django.contrib.messages.storage.session import SessionStorage
-from django.core.exceptions import ImproperlyConfigured
 from django.http import HttpRequest
 from django.test import TestCase
 from django.utils.safestring import SafeData, mark_safe
@@ -42,7 +41,7 @@ class SessionTests(BaseTests, TestCase):
             'middleware to be installed, and come before the message '
             'middleware in the MIDDLEWARE list.'
         )
-        with self.assertRaisesMessage(ImproperlyConfigured, msg):
+        with self.assertRaisesMessage(AssertionError, msg):
             self.storage_class(HttpRequest())
 
     def test_get(self):

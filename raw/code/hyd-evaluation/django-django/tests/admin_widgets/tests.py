@@ -24,7 +24,7 @@ from django.utils import translation
 from .models import (
     Advisor, Album, Band, Bee, Car, Company, Event, Honeycomb, Individual,
     Inventory, Member, MyFileField, Profile, School, Student,
-    UnsafeLimitChoicesTo, VideoStream,
+    UnsafeLimitChoicesTo,
 )
 from .widgetadmin import site as widget_admin_site
 
@@ -624,17 +624,7 @@ class ForeignKeyRawIdWidgetTest(TestCase):
         self.assertHTMLEqual(
             w.render('test', None),
             '<input type="text" name="test" class="vForeignKeyRawIdAdminField">\n'
-            '<a href="/admin_widgets/band/?name=%22%26%3E%3Cescapeme&amp;_to_field=artist_ptr" '
-            'class="related-lookup" id="lookup_id_test" title="Lookup"></a>'
-        )
-
-    def test_render_fk_as_pk_model(self):
-        rel = VideoStream._meta.get_field('release_event').remote_field
-        w = widgets.ForeignKeyRawIdWidget(rel, widget_admin_site)
-        self.assertHTMLEqual(
-            w.render('test', None),
-            '<input type="text" name="test" class="vForeignKeyRawIdAdminField">\n'
-            '<a href="/admin_widgets/releaseevent/?_to_field=album" '
+            '<a href="/admin_widgets/band/?name=%22%26%3E%3Cescapeme&amp;_to_field=id" '
             'class="related-lookup" id="lookup_id_test" title="Lookup"></a>'
         )
 
@@ -995,7 +985,7 @@ class DateTimePickerShortcutsSeleniumTests(AdminWidgetSeleniumTestCase):
         with self.wait_page_loaded():
             self.selenium.find_element_by_name('_save').click()
 
-        # Make sure that "now" in JavaScript is within 10 seconds
+        # Make sure that "now" in javascript is within 10 seconds
         # from "now" on the server side.
         member = Member.objects.get(name='test')
         self.assertGreater(member.birthdate, now - error_margin)

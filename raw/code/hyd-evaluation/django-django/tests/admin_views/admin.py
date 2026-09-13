@@ -1,4 +1,6 @@
 import datetime
+import os
+import tempfile
 from io import StringIO
 from wsgiref.util import FileWrapper
 
@@ -9,6 +11,7 @@ from django.contrib.admin.views.main import ChangeList
 from django.contrib.auth.admin import GroupAdmin, UserAdmin
 from django.contrib.auth.models import Group, User
 from django.core.exceptions import ValidationError
+from django.core.files.storage import FileSystemStorage
 from django.core.mail import EmailMessage
 from django.db import models
 from django.forms.models import BaseModelFormSet
@@ -360,6 +363,10 @@ class OldSubscriberAdmin(admin.ModelAdmin):
     actions = None
 
 
+temp_storage = FileSystemStorage(tempfile.mkdtemp())
+UPLOAD_TO = os.path.join(temp_storage.location, 'test_upload')
+
+
 class PictureInline(admin.TabularInline):
     model = Picture
     extra = 1
@@ -653,16 +660,14 @@ class PluggableSearchPersonAdmin(admin.ModelAdmin):
     search_fields = ('name',)
 
     def get_search_results(self, request, queryset, search_term):
-        queryset, may_have_duplicates = super().get_search_results(
-            request, queryset, search_term,
-        )
+        queryset, use_distinct = super().get_search_results(request, queryset, search_term)
         try:
             search_term_as_int = int(search_term)
         except ValueError:
             pass
         else:
             queryset |= self.model.objects.filter(age=search_term_as_int)
-        return queryset, may_have_duplicates
+        return queryset, use_distinct
 
 
 class AlbumAdmin(admin.ModelAdmin):
@@ -945,12 +950,6 @@ class RestaurantInlineAdmin(admin.TabularInline):
 class CityAdmin(admin.ModelAdmin):
     inlines = [RestaurantInlineAdmin]
     view_on_site = True
-
-    def get_formset_kwargs(self, request, obj, inline, prefix):
-        return {
-            **super().get_formset_kwargs(request, obj, inline, prefix),
-            'form_kwargs': {'initial': {'name': 'overridden_name'}},
-        }
 
 
 class WorkerAdmin(admin.ModelAdmin):

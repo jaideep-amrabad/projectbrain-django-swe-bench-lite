@@ -24,7 +24,6 @@ from django.core.cache import (
 from django.core.cache.backends.base import InvalidCacheBackendError
 from django.core.cache.utils import make_template_fragment_key
 from django.db import close_old_connections, connection, connections
-from django.db.backends.utils import CursorWrapper
 from django.http import (
     HttpRequest, HttpResponse, HttpResponseNotModified, StreamingHttpResponse,
 )
@@ -40,7 +39,6 @@ from django.test import (
     ignore_warnings, override_settings,
 )
 from django.test.signals import setting_changed
-from django.test.utils import CaptureQueriesContext
 from django.utils import timezone, translation
 from django.utils.cache import (
     get_cache_key, learn_cache_key, patch_cache_control, patch_vary_headers,
@@ -139,8 +137,6 @@ class DummyCacheTests(SimpleTestCase):
             cache.incr('answer')
         with self.assertRaises(ValueError):
             cache.incr('does_not_exist')
-        with self.assertRaises(ValueError):
-            cache.incr('does_not_exist', -1)
 
     def test_decr(self):
         "Dummy cache values can't be decremented"
@@ -149,8 +145,6 @@ class DummyCacheTests(SimpleTestCase):
             cache.decr('answer')
         with self.assertRaises(ValueError):
             cache.decr('does_not_exist')
-        with self.assertRaises(ValueError):
-            cache.decr('does_not_exist', -1)
 
     def test_touch(self):
         """Dummy cache can't do touch()."""
@@ -213,7 +207,7 @@ class DummyCacheTests(SimpleTestCase):
     def test_delete_many_invalid_key(self):
         msg = KEY_ERRORS_WITH_MEMCACHED_MSG % ':1:key with spaces'
         with self.assertWarnsMessage(CacheKeyWarning, msg):
-            cache.delete_many(['key with spaces'])
+            cache.delete_many({'key with spaces': 'foo'})
 
     def test_clear(self):
         "clear does nothing for the dummy cache backend"
@@ -382,8 +376,6 @@ class BaseCacheTests:
         self.assertEqual(cache.incr('answer', -10), 42)
         with self.assertRaises(ValueError):
             cache.incr('does_not_exist')
-        with self.assertRaises(ValueError):
-            cache.incr('does_not_exist', -1)
         cache.set('null', None)
         with self.assertRaises(self.incr_decr_type_error):
             cache.incr('null')
@@ -398,8 +390,6 @@ class BaseCacheTests:
         self.assertEqual(cache.decr('answer', -10), 42)
         with self.assertRaises(ValueError):
             cache.decr('does_not_exist')
-        with self.assertRaises(ValueError):
-            cache.incr('does_not_exist', -1)
         cache.set('null', None)
         with self.assertRaises(self.incr_decr_type_error):
             cache.decr('null')
@@ -675,7 +665,7 @@ class BaseCacheTests:
         finally:
             cull_cache._max_entries = old_max_entries
 
-    def _perform_invalid_key_test(self, key, expected_warning, key_func=None):
+    def _perform_invalid_key_test(self, key, expected_warning):
         """
         All the builtin backends should warn (except memcached that should
         error) on keys that would be refused by memcached. This encourages
@@ -688,7 +678,7 @@ class BaseCacheTests:
             return key
 
         old_func = cache.key_func
-        cache.key_func = key_func or func
+        cache.key_func = func
 
         tests = [
             ('add', [key, 1]),
@@ -700,7 +690,7 @@ class BaseCacheTests:
             ('delete', [key]),
             ('get_many', [[key, 'b']]),
             ('set_many', [{key: 1, 'b': 2}]),
-            ('delete_many', [[key, 'b']]),
+            ('delete_many', [{key: 1, 'b': 2}]),
         ]
         try:
             for operation, args in tests:
@@ -724,19 +714,6 @@ class BaseCacheTests:
             '%r (longer than %s)' % (key, 250)
         )
         self._perform_invalid_key_test(key, expected_warning)
-
-    def test_invalid_with_version_key_length(self):
-        # Custom make_key() that adds a version to the key and exceeds the
-        # limit.
-        def key_func(key, *args):
-            return key + ':1'
-
-        key = 'a' * 249
-        expected_warning = (
-            'Cache key will cause errors if used with memcached: '
-            '%r (longer than %s)' % (key_func(key), 250)
-        )
-        self._perform_invalid_key_test(key, expected_warning, key_func=key_func)
 
     def test_cache_versioning_get_set(self):
         # set, using default version = 1
@@ -1139,39 +1116,6 @@ class DBCacheTests(BaseCacheTests, TransactionTestCase):
         with self.assertNumQueries(1):
             cache.delete_many(['a', 'b', 'c'])
 
-    def test_cull_count_queries(self):
-        old_max_entries = cache._max_entries
-        # Force _cull to delete on first cached record.
-        cache._max_entries = -1
-        with CaptureQueriesContext(connection) as captured_queries:
-            try:
-                cache.set('force_cull', 'value', 1000)
-            finally:
-                cache._max_entries = old_max_entries
-        num_count_queries = sum('COUNT' in query['sql'] for query in captured_queries)
-        self.assertEqual(num_count_queries, 1)
-
-    def test_delete_cursor_rowcount(self):
-        """
-        The rowcount attribute should not be checked on a closed cursor.
-        """
-        class MockedCursorWrapper(CursorWrapper):
-            is_closed = False
-
-            def close(self):
-                self.cursor.close()
-                self.is_closed = True
-
-            @property
-            def rowcount(self):
-                if self.is_closed:
-                    raise Exception('Cursor is closed.')
-                return self.cursor.rowcount
-
-        cache.set_many({'a': 1, 'b': 2})
-        with mock.patch('django.db.backends.utils.CursorWrapper', MockedCursorWrapper):
-            self.assertIs(cache.delete('a'), True)
-
     def test_zero_cull(self):
         self._perform_cull_test('zero_cull', 50, 18)
 
@@ -1422,22 +1366,13 @@ class BaseMemcachedTests(BaseCacheTests):
             ('delete', [key]),
             ('get_many', [[key, 'b']]),
             ('set_many', [{key: 1, 'b': 2}]),
-            ('delete_many', [[key, 'b']]),
+            ('delete_many', [{key: 1, 'b': 2}]),
         ]
         for operation, args in tests:
             with self.subTest(operation=operation):
                 with self.assertRaises(InvalidCacheKey) as cm:
                     getattr(cache, operation)(*args)
                 self.assertEqual(str(cm.exception), msg)
-
-    def test_invalid_with_version_key_length(self):
-        # make_key() adds a version to the key and exceeds the limit.
-        key = 'a' * 248
-        expected_warning = (
-            'Cache key will cause errors if used with memcached: '
-            '%r (longer than %s)' % (key, 250)
-        )
-        self._perform_invalid_key_test(key, expected_warning)
 
     def test_default_never_expiring_timeout(self):
         # Regression test for #22845
@@ -1765,19 +1700,6 @@ class CacheClosingTests(SimpleTestCase):
         self.assertFalse(cache.closed)
         signals.request_finished.send(self.__class__)
         self.assertTrue(cache.closed)
-
-    def test_close_only_initialized(self):
-        with self.settings(CACHES={
-            'cache_1': {
-                'BACKEND': 'cache.closeable_cache.CacheClass',
-            },
-            'cache_2': {
-                'BACKEND': 'cache.closeable_cache.CacheClass',
-            },
-        }):
-            self.assertEqual(caches.all(initialized_only=True), [])
-            signals.request_finished.send(self.__class__)
-            self.assertEqual(caches.all(initialized_only=True), [])
 
 
 DEFAULT_MEMORY_CACHES_SETTINGS = {
@@ -2681,20 +2603,3 @@ class CacheHandlerTest(SimpleTestCase):
         )
         with self.assertRaisesMessage(InvalidCacheBackendError, msg):
             test_caches['invalid_backend']
-
-    def test_all(self):
-        test_caches = CacheHandler({
-            'cache_1': {
-                'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
-            },
-            'cache_2': {
-                'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
-            },
-        })
-        self.assertEqual(test_caches.all(initialized_only=True), [])
-        cache_1 = test_caches['cache_1']
-        self.assertEqual(test_caches.all(initialized_only=True), [cache_1])
-        self.assertEqual(len(test_caches.all()), 2)
-        # .all() initializes all caches.
-        self.assertEqual(len(test_caches.all(initialized_only=True)), 2)
-        self.assertEqual(test_caches.all(), test_caches.all(initialized_only=True))

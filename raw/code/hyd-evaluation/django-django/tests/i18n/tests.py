@@ -23,9 +23,8 @@ from django.test import (
 )
 from django.utils import translation
 from django.utils.formats import (
-    date_format, get_format, iter_format_modules, localize, localize_input,
-    reset_format_cache, sanitize_separators, sanitize_strftime_format,
-    time_format,
+    date_format, get_format, get_format_modules, iter_format_modules, localize,
+    localize_input, reset_format_cache, sanitize_separators, time_format,
 )
 from django.utils.numberformat import format as nformat
 from django.utils.safestring import SafeString, mark_safe
@@ -314,16 +313,9 @@ class TranslationTests(SimpleTestCase):
             ('EN', 'en'),
             ('en-us', 'en_US'),
             ('EN-US', 'en_US'),
-            ('en_US', 'en_US'),
             # With > 2 characters after the dash.
             ('sr-latn', 'sr_Latn'),
             ('sr-LATN', 'sr_Latn'),
-            ('sr_Latn', 'sr_Latn'),
-            # 3-char language codes.
-            ('ber-MA', 'ber_MA'),
-            ('BER-MA', 'ber_MA'),
-            ('BER_MA', 'ber_MA'),
-            ('ber_MA', 'ber_MA'),
             # With private use subtag (x-informal).
             ('nl-nl-x-informal', 'nl_NL-x-informal'),
             ('NL-NL-X-INFORMAL', 'nl_NL-x-informal'),
@@ -510,28 +502,28 @@ class FormattingTests(SimpleTestCase):
             self.assertEqual(0, get_format('FIRST_DAY_OF_WEEK'))
             self.assertEqual('.', get_format('DECIMAL_SEPARATOR'))
             self.assertEqual('10:15 a.m.', time_format(self.t))
-            self.assertEqual('Des. 31, 2009', date_format(self.d))
+            self.assertEqual('des. 31, 2009', date_format(self.d))
             self.assertEqual('desembre 2009', date_format(self.d, 'YEAR_MONTH_FORMAT'))
             self.assertEqual('12/31/2009 8:50 p.m.', date_format(self.dt, 'SHORT_DATETIME_FORMAT'))
             self.assertEqual('No localizable', localize('No localizable'))
             self.assertEqual('66666.666', localize(self.n))
             self.assertEqual('99999.999', localize(self.f))
             self.assertEqual('10000', localize(self.long))
-            self.assertEqual('Des. 31, 2009', localize(self.d))
-            self.assertEqual('Des. 31, 2009, 8:50 p.m.', localize(self.dt))
+            self.assertEqual('des. 31, 2009', localize(self.d))
+            self.assertEqual('des. 31, 2009, 8:50 p.m.', localize(self.dt))
             self.assertEqual('66666.666', Template('{{ n }}').render(self.ctxt))
             self.assertEqual('99999.999', Template('{{ f }}').render(self.ctxt))
-            self.assertEqual('Des. 31, 2009', Template('{{ d }}').render(self.ctxt))
-            self.assertEqual('Des. 31, 2009, 8:50 p.m.', Template('{{ dt }}').render(self.ctxt))
-            self.assertEqual('66666.67', Template('{{ n|floatformat:"2u" }}').render(self.ctxt))
-            self.assertEqual('100000.0', Template('{{ f|floatformat:"u" }}').render(self.ctxt))
+            self.assertEqual('des. 31, 2009', Template('{{ d }}').render(self.ctxt))
+            self.assertEqual('des. 31, 2009, 8:50 p.m.', Template('{{ dt }}').render(self.ctxt))
+            self.assertEqual('66666.67', Template('{{ n|floatformat:2 }}').render(self.ctxt))
+            self.assertEqual('100000.0', Template('{{ f|floatformat }}').render(self.ctxt))
             self.assertEqual(
                 '66666.67',
-                Template('{{ n|floatformat:"2gu" }}').render(self.ctxt),
+                Template('{{ n|floatformat:"2g" }}').render(self.ctxt),
             )
             self.assertEqual(
                 '100000.0',
-                Template('{{ f|floatformat:"ug" }}').render(self.ctxt),
+                Template('{{ f|floatformat:"g" }}').render(self.ctxt),
             )
             self.assertEqual('10:15 a.m.', Template('{{ t|time:"TIME_FORMAT" }}').render(self.ctxt))
             self.assertEqual('12/31/2009', Template('{{ d|date:"SHORT_DATE_FORMAT" }}').render(self.ctxt))
@@ -552,7 +544,7 @@ class FormattingTests(SimpleTestCase):
             self.assertEqual(['Introdu\xefu un n\xfamero.'], form.errors['decimal_field'])
             self.assertEqual(['Introdu\xefu una data v\xe0lida.'], form.errors['date_field'])
             self.assertEqual(['Introdu\xefu una data/hora v\xe0lides.'], form.errors['datetime_field'])
-            self.assertEqual(['Introdu\xefu un n\xfamero enter.'], form.errors['integer_field'])
+            self.assertEqual(['Introdu\xefu un n\xfamero sencer.'], form.errors['integer_field'])
 
             form2 = SelectDateForm({
                 'date_field_month': '12',
@@ -628,12 +620,12 @@ class FormattingTests(SimpleTestCase):
             )
 
             # We shouldn't change the behavior of the floatformat filter re:
-            # thousand separator and grouping when localization is disabled
-            # even if the USE_THOUSAND_SEPARATOR, NUMBER_GROUPING and
-            # THOUSAND_SEPARATOR settings are specified.
+            # thousand separator and grouping when USE_L10N is False even
+            # if the USE_THOUSAND_SEPARATOR, NUMBER_GROUPING and
+            # THOUSAND_SEPARATOR settings are specified
             with self.settings(USE_THOUSAND_SEPARATOR=True, NUMBER_GROUPING=1, THOUSAND_SEPARATOR='!'):
-                self.assertEqual('66666.67', Template('{{ n|floatformat:"2u" }}').render(self.ctxt))
-                self.assertEqual('100000.0', Template('{{ f|floatformat:"u" }}').render(self.ctxt))
+                self.assertEqual('66666.67', Template('{{ n|floatformat:2 }}').render(self.ctxt))
+                self.assertEqual('100000.0', Template('{{ f|floatformat }}').render(self.ctxt))
 
     def test_false_like_locale_formats(self):
         """
@@ -1075,51 +1067,6 @@ class FormattingTests(SimpleTestCase):
                 with self.subTest(value=value):
                     self.assertEqual(localize_input(value), expected)
 
-    def test_sanitize_strftime_format(self):
-        for year in (1, 99, 999, 1000):
-            dt = datetime.date(year, 1, 1)
-            for fmt, expected in [
-                ('%C', '%02d' % (year // 100)),
-                ('%F', '%04d-01-01' % year),
-                ('%G', '%04d' % year),
-                ('%Y', '%04d' % year),
-            ]:
-                with self.subTest(year=year, fmt=fmt):
-                    fmt = sanitize_strftime_format(fmt)
-                    self.assertEqual(dt.strftime(fmt), expected)
-
-    def test_sanitize_strftime_format_with_escaped_percent(self):
-        dt = datetime.date(1, 1, 1)
-        for fmt, expected in [
-            ('%%C', '%C'),
-            ('%%F', '%F'),
-            ('%%G', '%G'),
-            ('%%Y', '%Y'),
-            ('%%%%C', '%%C'),
-            ('%%%%F', '%%F'),
-            ('%%%%G', '%%G'),
-            ('%%%%Y', '%%Y'),
-        ]:
-            with self.subTest(fmt=fmt):
-                fmt = sanitize_strftime_format(fmt)
-                self.assertEqual(dt.strftime(fmt), expected)
-
-        for year in (1, 99, 999, 1000):
-            dt = datetime.date(year, 1, 1)
-            for fmt, expected in [
-                ('%%%C', '%%%02d' % (year // 100)),
-                ('%%%F', '%%%04d-01-01' % year),
-                ('%%%G', '%%%04d' % year),
-                ('%%%Y', '%%%04d' % year),
-                ('%%%%%C', '%%%%%02d' % (year // 100)),
-                ('%%%%%F', '%%%%%04d-01-01' % year),
-                ('%%%%%G', '%%%%%04d' % year),
-                ('%%%%%Y', '%%%%%04d' % year),
-            ]:
-                with self.subTest(year=year, fmt=fmt):
-                    fmt = sanitize_strftime_format(fmt)
-                    self.assertEqual(dt.strftime(fmt), expected)
-
     def test_sanitize_separators(self):
         """
         Tests django.utils.formats.sanitize_separators.
@@ -1195,6 +1142,13 @@ class FormattingTests(SimpleTestCase):
     def test_get_format_modules_lang(self):
         with translation.override('de', deactivate=True):
             self.assertEqual('.', get_format('DECIMAL_SEPARATOR', lang='en'))
+
+    def test_get_format_modules_stability(self):
+        with self.settings(FORMAT_MODULE_PATH='i18n.other.locale'):
+            with translation.override('de', deactivate=True):
+                old = "%r" % get_format_modules(reverse=True)
+                new = "%r" % get_format_modules(reverse=True)  # second try
+                self.assertEqual(new, old, 'Value returned by get_formats_modules() must be preserved between calls.')
 
     def test_localize_templatetag_and_filter(self):
         """
@@ -1293,7 +1247,6 @@ class FormattingTests(SimpleTestCase):
         self.assertEqual(get_format('DEBUG'), 'DEBUG')
 
     def test_get_custom_format(self):
-        reset_format_cache()
         with self.settings(FORMAT_MODULE_PATH='i18n.other.locale'):
             with translation.override('fr', deactivate=True):
                 self.assertEqual('d/m/Y CUSTOM', get_format('CUSTOM_DAY_FORMAT'))
@@ -1462,26 +1415,6 @@ class MiscTests(SimpleTestCase):
         r.COOKIES = {}
         r.META = {'HTTP_ACCEPT_LANGUAGE': 'zh-my,en'}
         self.assertEqual(get_language_from_request(r), 'zh-hans')
-
-    def test_subsequent_code_fallback_language(self):
-        """
-        Subsequent language codes should be used when the language code is not
-        supported.
-        """
-        tests = [
-            ('zh-Hans-CN', 'zh-hans'),
-            ('zh-hans-mo', 'zh-hans'),
-            ('zh-hans-HK', 'zh-hans'),
-            ('zh-Hant-HK', 'zh-hant'),
-            ('zh-hant-tw', 'zh-hant'),
-            ('zh-hant-SG', 'zh-hant'),
-        ]
-        r = self.rf.get('/')
-        r.COOKIES = {}
-        for value, expected in tests:
-            with self.subTest(value=value):
-                r.META = {'HTTP_ACCEPT_LANGUAGE': f'{value},en'}
-                self.assertEqual(get_language_from_request(r), expected)
 
     def test_parse_language_cookie(self):
         """

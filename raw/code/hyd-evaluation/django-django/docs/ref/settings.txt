@@ -33,7 +33,7 @@ a model object and return its URL. This is a way of inserting or overriding
 ``get_absolute_url()`` methods on a per-installation basis. Example::
 
     ABSOLUTE_URL_OVERRIDES = {
-        'blogs.blog': lambda o: "/blogs/%s/" % o.slug,
+        'blogs.weblog': lambda o: "/blogs/%s/" % o.slug,
         'news.story': lambda o: "/stories/%s/%s/" % (o.pub_year, o.slug),
     }
 
@@ -232,8 +232,7 @@ consult your backend module's own documentation.
 Default: ``300``
 
 The number of seconds before a cache entry is considered stale. If the value of
-this setting is ``None``, cache entries will not expire. A value of ``0``
-causes keys to immediately expire (effectively "don't cache").
+this settings is ``None``, cache entries will not expire.
 
 .. setting:: CACHES-VERSION
 
@@ -458,31 +457,15 @@ should be ``'HTTP_X_XSRF_TOKEN'``.
 
 Default: ``[]`` (Empty list)
 
-A list of trusted origins for unsafe requests (e.g. ``POST``).
-
-For requests that include the ``Origin`` header, Django's CSRF protection
-requires that header match the origin present in the ``Host`` header.
-
+A list of hosts which are trusted origins for unsafe requests (e.g. ``POST``).
 For a :meth:`secure <django.http.HttpRequest.is_secure>` unsafe
-request that doesn't include the ``Origin`` header, the request must have a
-``Referer`` header that matches the origin present in the ``Host`` header.
-
-These checks prevent, for example, a ``POST`` request from
-``subdomain.example.com`` from succeeding against ``api.example.com``. If you
-need cross-origin unsafe requests, continuing the example, add
-``'https://subdomain.example.com'`` to this list (and/or ``http://...`` if
-requests originate from an insecure page).
-
-The setting also supports subdomains, so you could add
-``'https://*.example.com'``, for example, to allow access from all subdomains
-of ``example.com``.
-
-.. versionchanged:: 4.0
-
-    The values in older versions must only include the hostname (possibly with
-    a leading dot) and not the scheme or an asterisk.
-
-    Also, ``Origin`` header checking isn't performed in older versions.
+request, Django's CSRF protection requires that the request have a ``Referer``
+header that matches the origin present in the ``Host`` header. This prevents,
+for example, a ``POST`` request from ``subdomain.example.com`` from succeeding
+against ``api.example.com``. If you need cross-origin unsafe requests over
+HTTPS, continuing the example, add ``"subdomain.example.com"`` to this list.
+The setting also supports subdomains, so you could add ``".example.com"``, for
+example, to allow access from all subdomains of ``example.com``.
 
 .. setting:: DATABASES
 
@@ -837,12 +820,6 @@ database into an in-memory JSON string before running tests (used to restore
 the database state between tests if you don't have transactions). You can set
 this to ``False`` to speed up creation time if you don't have any test classes
 with :ref:`serialized_rollback=True <test-case-serialized-rollback>`.
-
-.. deprecated:: 4.0
-
-   This setting is deprecated as it can be inferred from the
-   :attr:`~django.test.TestCase.databases` with the
-   :ref:`serialized_rollback <test-case-serialized-rollback>` option enabled.
 
 .. setting:: TEST_TEMPLATE
 
@@ -1227,7 +1204,7 @@ Default: ``False``
 If set to ``True``, Django's exception handling of view functions
 (:data:`~django.conf.urls.handler500`, or the debug view if :setting:`DEBUG`
 is ``True``) and logging of 500 responses (:ref:`django-request-logger`) is
-skipped and exceptions propagate upward.
+skipped and exceptions propagate upwards.
 
 This can be useful for some test setups. It shouldn't be used on a live site
 unless you want your web server (instead of Django) to generate "Internal
@@ -1260,31 +1237,6 @@ Default: ``'``:class:`django.db.models.AutoField`\ ``'``
 
 Default primary key field type to use for models that don't have a field with
 :attr:`primary_key=True <django.db.models.Field.primary_key>`.
-
-.. admonition:: Migrating auto-created through tables
-
-    The value of ``DEFAULT_AUTO_FIELD`` will be respected when creating new
-    auto-created through tables for many-to-many relationships.
-
-    Unfortunately, the primary keys of existing auto-created through tables
-    cannot currently be updated by the migrations framework.
-
-    This means that if you switch the value of ``DEFAULT_AUTO_FIELD`` and then
-    generate migrations, the primary keys of the related models will be
-    updated, as will the foreign keys from the through table, but the primary
-    key of the auto-created through table will not be migrated.
-
-    In order to address this, you should add a
-    :class:`~django.db.migrations.operations.RunSQL` operation to your
-    migrations to perform the required ``ALTER TABLE`` step. You can check the
-    existing table name through ``sqlmigrate``, ``dbshell``, or with the
-    field’s ``remote_field.through._meta.db_table`` property.
-
-    Explicitly defined through models are already handled by the migrations
-    system.
-
-    Allowing automatic migrations for the primary key of existing auto-created
-    through tables :ticket:`may be implemented at a later date <32674>`.
 
 .. setting:: DEFAULT_CHARSET
 
@@ -2263,6 +2215,20 @@ affect them.
     startproject <startproject>` creates a unique ``SECRET_KEY`` for
     convenience.
 
+.. setting:: SECURE_BROWSER_XSS_FILTER
+
+``SECURE_BROWSER_XSS_FILTER``
+-----------------------------
+
+Default: ``False``
+
+If ``True``, the :class:`~django.middleware.security.SecurityMiddleware` sets
+the :ref:`x-xss-protection` header on all responses that do not already have it.
+
+Modern browsers don't honor ``X-XSS-Protection`` HTTP header anymore. Although
+the setting offers little practical benefit, you may still want to set the
+header if you support older browsers.
+
 .. setting:: SECURE_CONTENT_TYPE_NOSNIFF
 
 ``SECURE_CONTENT_TYPE_NOSNIFF``
@@ -2273,20 +2239,6 @@ Default: ``True``
 If ``True``, the :class:`~django.middleware.security.SecurityMiddleware`
 sets the :ref:`x-content-type-options` header on all responses that do not
 already have it.
-
-.. setting:: SECURE_CROSS_ORIGIN_OPENER_POLICY
-
-``SECURE_CROSS_ORIGIN_OPENER_POLICY``
--------------------------------------
-
-.. versionadded:: 4.0
-
-Default: ``'same-origin'``
-
-Unless set to ``None``, the
-:class:`~django.middleware.security.SecurityMiddleware` sets the
-:ref:`cross-origin-opener-policy` header on all responses that do not already
-have it to the value provided.
 
 .. setting:: SECURE_HSTS_INCLUDE_SUBDOMAINS
 
@@ -2809,10 +2761,6 @@ See also :setting:`DECIMAL_SEPARATOR`, :setting:`NUMBER_GROUPING` and
 ----------
 
 Default: ``False``
-
-.. note::
-
-    In Django 5.0, the default value will change from ``False`` to ``True``.
 
 A boolean that specifies if datetimes will be timezone-aware by default or not.
 If this is set to ``True``, Django will use timezone-aware datetimes internally.
@@ -3395,7 +3343,7 @@ Default: ``None``
 
 URL to use when referring to static files located in :setting:`STATIC_ROOT`.
 
-Example: ``"static/"`` or ``"http://static.example.com/"``
+Example: ``"/static/"`` or ``"http://static.example.com/"``
 
 If not ``None``, this will be used as the base path for
 :ref:`asset definitions<form-asset-paths>` (the ``Media`` class) and the
@@ -3452,7 +3400,7 @@ tuples, e.g.::
         ("downloads", "/opt/webfiles/stats"),
     ]
 
-For example, assuming you have :setting:`STATIC_URL` set to ``'static/'``, the
+For example, assuming you have :setting:`STATIC_URL` set to ``'/static/'``, the
 :djadmin:`collectstatic` management command would collect the "stats" files
 in a ``'downloads'`` subdirectory of :setting:`STATIC_ROOT`.
 
@@ -3627,8 +3575,8 @@ HTTP
 * :setting:`MIDDLEWARE`
 * Security
 
+  * :setting:`SECURE_BROWSER_XSS_FILTER`
   * :setting:`SECURE_CONTENT_TYPE_NOSNIFF`
-  * :setting:`SECURE_CROSS_ORIGIN_OPENER_POLICY`
   * :setting:`SECURE_HSTS_INCLUDE_SUBDOMAINS`
   * :setting:`SECURE_HSTS_PRELOAD`
   * :setting:`SECURE_HSTS_SECONDS`

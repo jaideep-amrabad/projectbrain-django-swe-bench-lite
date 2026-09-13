@@ -1,5 +1,4 @@
 from django.contrib.admin.utils import quote
-from django.contrib.admin.views.main import IS_POPUP_VAR
 from django.contrib.auth.models import User
 from django.template.response import TemplateResponse
 from django.test import TestCase, override_settings
@@ -59,7 +58,7 @@ class AdminCustomUrlsTest(TestCase):
         Ensure POST on add_view works.
         """
         post_data = {
-            IS_POPUP_VAR: '1',
+            '_popup': '1',
             "name": 'Action added through a popup',
             "description": "Description of added action",
         }

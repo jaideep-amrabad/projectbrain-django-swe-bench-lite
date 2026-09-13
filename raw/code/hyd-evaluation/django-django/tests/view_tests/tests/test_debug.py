@@ -12,7 +12,7 @@ from unittest import mock
 from django.core import mail
 from django.core.files.uploadedfile import SimpleUploadedFile
 from django.db import DatabaseError, connection
-from django.http import Http404, HttpRequest, HttpResponse
+from django.http import Http404
 from django.shortcuts import render
 from django.template import TemplateDoesNotExist
 from django.test import RequestFactory, SimpleTestCase, override_settings
@@ -122,11 +122,6 @@ class DebugViewTests(SimpleTestCase):
 
     def test_404(self):
         response = self.client.get('/raises404/')
-        self.assertNotContains(
-            response,
-            '<pre class="exception_value">',
-            status_code=404,
-        )
         self.assertContains(
             response,
             '<p>The current path, <code>not-in-urls</code>, didn’t match any '
@@ -138,11 +133,6 @@ class DebugViewTests(SimpleTestCase):
     def test_404_not_in_urls(self):
         response = self.client.get('/not-in-urls')
         self.assertNotContains(response, "Raised by:", status_code=404)
-        self.assertNotContains(
-            response,
-            '<pre class="exception_value">',
-            status_code=404,
-        )
         self.assertContains(response, "Django tried these URL patterns", status_code=404)
         self.assertContains(
             response,
@@ -170,12 +160,6 @@ class DebugViewTests(SimpleTestCase):
 
     def test_technical_404(self):
         response = self.client.get('/technical404/')
-        self.assertContains(
-            response,
-            '<pre class="exception_value">Testing technical 404.</pre>',
-            status_code=404,
-            html=True,
-        )
         self.assertContains(response, "Raised by:", status_code=404)
         self.assertContains(response, "view_tests.views.technical404", status_code=404)
         self.assertContains(
@@ -942,20 +926,6 @@ class ExceptionReporterTests(SimpleTestCase):
             reporter.get_traceback_text()
             m.assert_called_once_with(encoding='utf-8')
 
-    @override_settings(ALLOWED_HOSTS=['example.com'])
-    def test_get_raw_insecure_uri(self):
-        factory = RequestFactory(HTTP_HOST='evil.com')
-        tests = [
-            ('////absolute-uri', 'http://evil.com//absolute-uri'),
-            ('/?foo=bar', 'http://evil.com/?foo=bar'),
-            ('/path/with:colons', 'http://evil.com/path/with:colons'),
-        ]
-        for url, expected in tests:
-            with self.subTest(url=url):
-                request = factory.get(url)
-                reporter = ExceptionReporter(request, None, None, None)
-                self.assertEqual(reporter._get_raw_insecure_uri(), expected)
-
 
 class PlainTextReportTests(SimpleTestCase):
     rf = RequestFactory()
@@ -1635,17 +1605,3 @@ class DecoratorsTests(SimpleTestCase):
             @sensitive_post_parameters
             def test_func(request):
                 return index_page(request)
-
-    def test_sensitive_post_parameters_http_request(self):
-        class MyClass:
-            @sensitive_post_parameters()
-            def a_view(self, request):
-                return HttpResponse()
-
-        msg = (
-            "sensitive_post_parameters didn't receive an HttpRequest object. "
-            "If you are decorating a classmethod, make sure to use "
-            "@method_decorator."
-        )
-        with self.assertRaisesMessage(TypeError, msg):
-            MyClass().a_view(HttpRequest())

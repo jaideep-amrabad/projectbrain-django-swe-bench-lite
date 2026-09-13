@@ -72,11 +72,8 @@ def get_current_timezone_name():
 
 
 def _get_timezone_name(timezone):
-    """
-    Return the offset for fixed offset timezones, or the name of timezone if
-    not set.
-    """
-    return timezone.tzname(None) or str(timezone)
+    """Return the name of ``timezone``."""
+    return str(timezone)
 
 # Timezone selection functions.
 
@@ -197,7 +194,11 @@ def now():
     """
     Return an aware or naive datetime.datetime, depending on settings.USE_TZ.
     """
-    return datetime.now(tz=utc if settings.USE_TZ else None)
+    if settings.USE_TZ:
+        # timeit shows that datetime.now(tz=utc) is 24% slower
+        return datetime.utcnow().replace(tzinfo=utc)
+    else:
+        return datetime.now()
 
 
 # By design, these four functions don't perform any checks on their arguments.

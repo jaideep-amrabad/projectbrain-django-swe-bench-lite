@@ -13,7 +13,6 @@ from django.test import (
 )
 from django.test.utils import requires_tz_support
 from django.urls import clear_script_prefix, set_script_prefix
-from django.utils.deprecation import RemovedInDjango50Warning
 
 
 @modify_settings(ITEMS={
@@ -333,21 +332,6 @@ class SettingsTests(SimpleTestCase):
         with self.assertRaisesMessage(ValueError, 'Incorrect timezone setting: test'):
             settings._setup()
 
-    def test_use_tz_false_deprecation(self):
-        settings_module = ModuleType('fake_settings_module')
-        settings_module.SECRET_KEY = 'foo'
-        sys.modules['fake_settings_module'] = settings_module
-        msg = (
-            'The default value of USE_TZ will change from False to True in '
-            'Django 5.0. Set USE_TZ to False in your project settings if you '
-            'want to keep the current default behavior.'
-        )
-        try:
-            with self.assertRaisesMessage(RemovedInDjango50Warning, msg):
-                Settings('fake_settings_module')
-        finally:
-            del sys.modules['fake_settings_module']
-
 
 class TestComplexSettingOverride(SimpleTestCase):
     def setUp(self):
@@ -414,7 +398,6 @@ class IsOverriddenTest(SimpleTestCase):
     def test_module(self):
         settings_module = ModuleType('fake_settings_module')
         settings_module.SECRET_KEY = 'foo'
-        settings_module.USE_TZ = False
         sys.modules['fake_settings_module'] = settings_module
         try:
             s = Settings('fake_settings_module')
@@ -455,13 +438,12 @@ class IsOverriddenTest(SimpleTestCase):
         self.assertEqual(repr(lazy_settings), expected)
 
 
-class TestListSettings(SimpleTestCase):
+class TestListSettings(unittest.TestCase):
     """
     Make sure settings that should be lists or tuples throw
     ImproperlyConfigured if they are set to a string instead of a list or tuple.
     """
     list_or_tuple_settings = (
-        'ALLOWED_HOSTS',
         "INSTALLED_APPS",
         "TEMPLATE_DIRS",
         "LOCALE_PATHS",
@@ -470,12 +452,11 @@ class TestListSettings(SimpleTestCase):
     def test_tuple_settings(self):
         settings_module = ModuleType('fake_settings_module')
         settings_module.SECRET_KEY = 'foo'
-        msg = 'The %s setting must be a list or a tuple.'
         for setting in self.list_or_tuple_settings:
             setattr(settings_module, setting, ('non_list_or_tuple_value'))
             sys.modules['fake_settings_module'] = settings_module
             try:
-                with self.assertRaisesMessage(ImproperlyConfigured, msg % setting):
+                with self.assertRaises(ImproperlyConfigured):
                     Settings('fake_settings_module')
             finally:
                 del sys.modules['fake_settings_module']

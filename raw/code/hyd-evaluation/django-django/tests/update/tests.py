@@ -7,10 +7,7 @@ from django.db.models.functions import Abs, Concat, Lower
 from django.test import TestCase
 from django.test.utils import register_lookup
 
-from .models import (
-    A, B, Bar, D, DataPoint, Foo, RelatedPoint, UniqueNumber,
-    UniqueNumberChild,
-)
+from .models import A, B, Bar, D, DataPoint, Foo, RelatedPoint, UniqueNumber
 
 
 class SimpleTest(TestCase):
@@ -133,7 +130,7 @@ class AdvancedTests(TestCase):
         """
         method = DataPoint.objects.all()[:2].update
         msg = 'Cannot update a query once a slice has been taken.'
-        with self.assertRaisesMessage(TypeError, msg):
+        with self.assertRaisesMessage(AssertionError, msg):
             method(another_value='another thing')
 
     def test_update_respects_to_field(self):
@@ -252,26 +249,3 @@ class MySQLUpdateOrderByTest(TestCase):
             ).order_by('number_inverse').update(
                 number=F('number') + 1,
             )
-
-    def test_order_by_update_on_parent_unique_constraint(self):
-        # Ordering by inherited fields is omitted because joined fields cannot
-        # be used in the ORDER BY clause.
-        UniqueNumberChild.objects.create(number=3)
-        UniqueNumberChild.objects.create(number=4)
-        with self.assertRaises(IntegrityError):
-            UniqueNumberChild.objects.order_by('number').update(
-                number=F('number') + 1,
-            )
-
-    def test_order_by_update_on_related_field(self):
-        # Ordering by related fields is omitted because joined fields cannot be
-        # used in the ORDER BY clause.
-        data = DataPoint.objects.create(name='d0', value='apple')
-        related = RelatedPoint.objects.create(name='r0', data=data)
-        with self.assertNumQueries(1) as ctx:
-            updated = RelatedPoint.objects.order_by('data__name').update(name='new')
-        sql = ctx.captured_queries[0]['sql']
-        self.assertNotIn('ORDER BY', sql)
-        self.assertEqual(updated, 1)
-        related.refresh_from_db()
-        self.assertEqual(related.name, 'new')

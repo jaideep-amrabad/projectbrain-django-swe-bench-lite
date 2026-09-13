@@ -23,7 +23,7 @@ from django.test.utils import extend_sys_path
 from django.utils import autoreload
 from django.utils.autoreload import WatchmanUnavailable
 
-from .test_module import __main__ as test_main, main_module as test_main_module
+from .test_module import __main__ as test_main
 from .utils import on_macos_with_hfs
 
 
@@ -182,16 +182,6 @@ class TestChildArguments(SimpleTestCase):
             [sys.executable, '-m', 'utils_tests.test_module', 'runserver'],
         )
 
-    @mock.patch.dict(sys.modules, {'__main__': test_main_module})
-    @mock.patch('sys.argv', [test_main.__file__, 'runserver'])
-    @mock.patch('sys.warnoptions', [])
-    def test_run_as_non_django_module_non_package(self):
-        self.assertEqual(
-            autoreload.get_child_arguments(),
-            [sys.executable, '-m', 'utils_tests.test_module.main_module', 'runserver'],
-        )
-
-    @mock.patch('__main__.__spec__', None)
     @mock.patch('sys.argv', [__file__, 'runserver'])
     @mock.patch('sys.warnoptions', ['error'])
     def test_warnoptions(self):
@@ -200,48 +190,34 @@ class TestChildArguments(SimpleTestCase):
             [sys.executable, '-Werror', __file__, 'runserver']
         )
 
-    @mock.patch('__main__.__spec__', None)
     @mock.patch('sys.warnoptions', [])
     def test_exe_fallback(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             exe_path = Path(tmpdir) / 'django-admin.exe'
             exe_path.touch()
-            with mock.patch('sys.argv', [exe_path.with_suffix(''), 'runserver']):
+            with mock.patch('sys.argv', [str(exe_path.with_suffix('')), 'runserver']):
                 self.assertEqual(
                     autoreload.get_child_arguments(),
-                    [exe_path, 'runserver']
+                    [str(exe_path), 'runserver']
                 )
 
-    @mock.patch('__main__.__spec__', None)
     @mock.patch('sys.warnoptions', [])
     def test_entrypoint_fallback(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             script_path = Path(tmpdir) / 'django-admin-script.py'
             script_path.touch()
-            with mock.patch('sys.argv', [script_path.with_name('django-admin'), 'runserver']):
+            with mock.patch('sys.argv', [str(script_path.with_name('django-admin')), 'runserver']):
                 self.assertEqual(
                     autoreload.get_child_arguments(),
-                    [sys.executable, script_path, 'runserver']
+                    [sys.executable, str(script_path), 'runserver']
                 )
 
-    @mock.patch('__main__.__spec__', None)
     @mock.patch('sys.argv', ['does-not-exist', 'runserver'])
     @mock.patch('sys.warnoptions', [])
     def test_raises_runtimeerror(self):
         msg = 'Script does-not-exist does not exist.'
         with self.assertRaisesMessage(RuntimeError, msg):
             autoreload.get_child_arguments()
-
-    @mock.patch('sys.argv', [__file__, 'runserver'])
-    @mock.patch('sys.warnoptions', [])
-    def test_module_no_spec(self):
-        module = types.ModuleType('test_module')
-        del module.__spec__
-        with mock.patch.dict(sys.modules, {'__main__': module}):
-            self.assertEqual(
-                autoreload.get_child_arguments(),
-                [sys.executable, __file__, 'runserver']
-            )
 
 
 class TestUtilities(SimpleTestCase):
@@ -388,7 +364,7 @@ class StartDjangoTests(SimpleTestCase):
             mocked_thread.call_args[1],
             {'target': fake_main_func, 'args': (123,), 'kwargs': {'abc': 123}, 'name': 'django-main-thread'}
         )
-        self.assertIs(fake_thread.daemon, True)
+        self.assertSequenceEqual(fake_thread.setDaemon.call_args[0], [True])
         self.assertTrue(fake_thread.start.called)
 
 
@@ -479,8 +455,7 @@ class RestartWithReloaderTests(SimpleTestCase):
             script.touch()
             argv = [str(script), 'runserver']
             mock_call = self.patch_autoreload(argv)
-            with mock.patch('__main__.__spec__', None):
-                autoreload.restart_with_reloader()
+            autoreload.restart_with_reloader()
             self.assertEqual(mock_call.call_count, 1)
             self.assertEqual(
                 mock_call.call_args[0][0],
@@ -689,7 +664,7 @@ class WatchmanReloaderTests(ReloaderTests, IntegrationTests):
     def setUp(self):
         super().setUp()
         # Shorten the timeout to speed up tests.
-        self.reloader.client_timeout = int(os.environ.get('DJANGO_WATCHMAN_TIMEOUT', 2))
+        self.reloader.client_timeout = 0.1
 
     def test_watch_glob_ignores_non_existing_directories_two_levels(self):
         with mock.patch.object(self.reloader, '_subscribe') as mocked_subscribe:

@@ -11,7 +11,7 @@ API. Refer to the :doc:`data model reference </ref/models/index>` for full
 details of all the various model lookup options.
 
 Throughout this guide (and in the reference), we'll refer to the following
-models, which comprise a blog application:
+models, which comprise a Weblog application:
 
 .. _queryset-model-example:
 
@@ -1181,7 +1181,7 @@ object and returns the number of objects deleted and a dictionary with
 the number of deletions per object type. Example::
 
     >>> e.delete()
-    (1, {'blog.Entry': 1})
+    (1, {'weblog.Entry': 1})
 
 You can also delete objects in bulk. Every
 :class:`~django.db.models.query.QuerySet` has a
@@ -1233,15 +1233,12 @@ Copying model instances
 
 Although there is no built-in method for copying model instances, it is
 possible to easily create new instance with all fields' values copied. In the
-simplest case, you can set ``pk`` to ``None`` and
-:attr:`_state.adding <django.db.models.Model._state>` to ``True``. Using our
-blog example::
+simplest case, you can set ``pk`` to ``None``. Using our blog example::
 
     blog = Blog(name='My blog', tagline='Blogging is easy')
     blog.save() # blog.pk == 1
 
     blog.pk = None
-    blog._state.adding = True
     blog.save() # blog.pk == 2
 
 Things get more complicated if you use inheritance. Consider a subclass of
@@ -1254,11 +1251,10 @@ Things get more complicated if you use inheritance. Consider a subclass of
     django_blog.save() # django_blog.pk == 3
 
 Due to how inheritance works, you have to set both ``pk`` and ``id`` to
-``None``, and ``_state.adding`` to ``True``::
+``None``::
 
     django_blog.pk = None
     django_blog.id = None
-    django_blog._state.adding = True
     django_blog.save() # django_blog.pk == 4
 
 This process doesn't copy relations that aren't part of the model's database
@@ -1269,7 +1265,6 @@ entry::
     entry = Entry.objects.all()[0] # some previous entry
     old_authors = entry.authors.all()
     entry.pk = None
-    entry._state.adding = True
     entry.save()
     entry.authors.set(old_authors)
 
@@ -1279,7 +1274,6 @@ For example, assuming ``entry`` is already duplicated as above::
 
     detail = EntryDetail.objects.all()[0]
     detail.pk = None
-    detail._state.adding = True
     detail.entry = entry
     detail.save()
 

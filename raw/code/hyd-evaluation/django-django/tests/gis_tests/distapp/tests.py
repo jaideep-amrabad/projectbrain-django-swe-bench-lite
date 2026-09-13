@@ -204,12 +204,10 @@ class DistanceTest(TestCase):
         # With spheroid param
         if connection.features.supports_distance_geodetic:
             hobart = AustraliaCity.objects.get(name='Hobart')
-            AustraliaCity.objects.update(ref_point=hobart.point)
-            for ref_point in [hobart.point, F('ref_point')]:
-                qs = AustraliaCity.objects.filter(
-                    point__distance_lte=(ref_point, F('radius') * 70, 'spheroid'),
-                ).order_by('name')
-                self.assertEqual(self.get_names(qs), ['Canberra', 'Hobart', 'Melbourne'])
+            qs = AustraliaCity.objects.filter(
+                point__distance_lte=(hobart.point, F('radius') * 70, 'spheroid'),
+            ).order_by('name')
+            self.assertEqual(self.get_names(qs), ['Canberra', 'Hobart', 'Melbourne'])
 
         # With a complex geometry expression
         self.assertFalse(SouthTexasCity.objects.filter(point__distance_gt=(Union('point', 'point'), 0)))
@@ -367,12 +365,16 @@ class DistanceFunctionsTests(FuncTestMixin, TestCase):
         dist2 = SouthTexasCityFt.objects.annotate(distance=Distance('point', lagrange)).order_by('id')
         dist_qs = [dist1, dist2]
 
+        # Original query done on PostGIS, have to adjust AlmostEqual tolerance
+        # for Oracle.
+        tol = 2 if connection.ops.oracle else 5
+
         # Ensuring expected distances are returned for each distance queryset.
         for qs in dist_qs:
             for i, c in enumerate(qs):
                 with self.subTest(c=c):
-                    self.assertAlmostEqual(m_distances[i], c.distance.m, -1)
-                    self.assertAlmostEqual(ft_distances[i], c.distance.survey_ft, -1)
+                    self.assertAlmostEqual(m_distances[i], c.distance.m, tol)
+                    self.assertAlmostEqual(ft_distances[i], c.distance.survey_ft, tol)
 
     @skipUnlessDBFeature("has_Distance_function", "supports_distance_geodetic")
     def test_distance_geodetic(self):

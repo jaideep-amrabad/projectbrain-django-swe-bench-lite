@@ -5,7 +5,7 @@ from django.db.models import Exists, F, IntegerField, OuterRef, Value
 from django.test import TestCase, skipIfDBFeature, skipUnlessDBFeature
 from django.test.utils import CaptureQueriesContext
 
-from .models import Celebrity, Number, ReservedName
+from .models import Number, ReservedName
 
 
 @skipUnlessDBFeature('supports_select_union')
@@ -234,24 +234,6 @@ class QuerySetSetOperationTests(TestCase):
             operator.itemgetter('num'),
         )
 
-    def test_union_multiple_models_with_values_list_and_order(self):
-        reserved_name = ReservedName.objects.create(name='rn1', order=0)
-        qs1 = Celebrity.objects.all()
-        qs2 = ReservedName.objects.all()
-        self.assertSequenceEqual(
-            qs1.union(qs2).order_by('name').values_list('pk', flat=True),
-            [reserved_name.pk],
-        )
-
-    def test_union_multiple_models_with_values_list_and_order_by_extra_select(self):
-        reserved_name = ReservedName.objects.create(name='rn1', order=0)
-        qs1 = Celebrity.objects.extra(select={'extra_name': 'name'})
-        qs2 = ReservedName.objects.extra(select={'extra_name': 'name'})
-        self.assertSequenceEqual(
-            qs1.union(qs2).order_by('extra_name').values_list('pk', flat=True),
-            [reserved_name.pk],
-        )
-
     def test_count_union(self):
         qs1 = Number.objects.filter(num__lte=1).values('num')
         qs2 = Number.objects.filter(num__gte=2, num__lte=3).values('num')
@@ -422,12 +404,6 @@ class QuerySetSetOperationTests(TestCase):
                         msg % (operation, combinator),
                     ):
                         getattr(getattr(qs, combinator)(qs), operation)()
-            with self.assertRaisesMessage(
-                NotSupportedError,
-                msg % ('contains', combinator),
-            ):
-                obj = Number.objects.first()
-                getattr(qs, combinator)(qs).contains(obj)
 
     def test_get_with_filters_unsupported_on_combined_qs(self):
         qs = Number.objects.all()
