@@ -309,7 +309,7 @@ class FieldGetDbPrepValueIterableMixin(FieldGetDbPrepValueMixin):
         return sql, tuple(params)
 
 
-class PostgresOperatorLookup(Lookup):
+class PostgresOperatorLookup(FieldGetDbPrepValueMixin, Lookup):
     """Lookup defined by operators on PostgreSQL."""
 
     postgres_operator = None

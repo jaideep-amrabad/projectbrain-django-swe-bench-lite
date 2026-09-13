@@ -473,7 +473,7 @@ login page::
 
     def my_view(request):
         if not request.user.is_authenticated:
-            return redirect(f'{settings.LOGIN_URL}?next={request.path}')
+            return redirect('%s?next=%s' % (settings.LOGIN_URL, request.path))
         # ...
 
 ...or display an error message::
@@ -565,8 +565,8 @@ The ``login_required`` decorator
 
 .. currentmodule:: django.contrib.auth.mixins
 
-The ``LoginRequiredMixin`` mixin
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The ``LoginRequired`` mixin
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When using :doc:`class-based views </topics/class-based-views/index>`, you can
 achieve the same behavior as with ``login_required`` by using the
