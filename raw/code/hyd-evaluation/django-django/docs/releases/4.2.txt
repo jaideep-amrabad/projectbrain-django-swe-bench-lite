@@ -102,6 +102,9 @@ Minor features
   <django.contrib.postgres.search.TrigramStrictWordDistance>` expressions allow
   using trigram strict word similarity.
 
+* The :lookup:`arrayfield.overlap` lookup now supports ``QuerySet.values()``
+  and ``values_list()`` as a right-hand side.
+
 :mod:`django.contrib.redirects`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -236,6 +239,18 @@ Models
 * :class:`~django.db.models.functions.Now` now supports microsecond precision
   on MySQL and millisecond precision on SQLite.
 
+* :class:`F() <django.db.models.F>` expressions that output ``BooleanField``
+  can now be negated using ``~F()`` (inversion operator).
+
+* ``Model`` now provides asynchronous versions of some methods that use the
+  database, using an ``a`` prefix: :meth:`~.Model.adelete`,
+  :meth:`~.Model.arefresh_from_db`, and :meth:`~.Model.asave`.
+
+* Related managers now provide asynchronous versions of methods that change a
+  set of related objects, using an ``a`` prefix: :meth:`~.RelatedManager.aadd`,
+  :meth:`~.RelatedManager.aclear`, :meth:`~.RelatedManager.aremove`, and
+  :meth:`~.RelatedManager.aset`.
+
 Requests and Responses
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -266,6 +281,22 @@ Tests
 
 * The :option:`test --debug-sql` option now formats SQL queries with
   ``sqlparse``.
+
+* The :class:`~django.test.RequestFactory`,
+  :class:`~django.test.AsyncRequestFactory`, :class:`~django.test.Client`, and
+  :class:`~django.test.AsyncClient` classes now support the ``headers``
+  parameter, which accepts a dictionary of header names and values. This allows
+  a more natural syntax for declaring headers.
+
+  .. code-block:: python
+
+     # Before:
+     self.client.get("/home/", HTTP_ACCEPT_LANGUAGE="fr")
+     await self.async_client.get("/home/", ACCEPT_LANGUAGE="fr")
+
+     # After:
+     self.client.get("/home/", headers={"accept-language": "fr"})
+     await self.async_client.get("/home/", headers={"accept-language": "fr"})
 
 URLs
 ~~~~
@@ -302,7 +333,12 @@ Database backend API
 This section describes changes that may be needed in third-party database
 backends.
 
-* ...
+* ``DatabaseFeatures.allows_group_by_pk`` is removed as it only remained to
+  accommodate a MySQL extension that has been supplanted by proper functional
+  dependency detection in MySQL 5.7.15. Note that
+  ``DatabaseFeatures.allows_group_by_selected_pks`` is still supported and
+  should be enabled if your backend supports functional dependency detection in
+  ``GROUP BY`` clauses as specified by the ``SQL:1999`` standard.
 
 Dropped support for MariaDB 10.3
 --------------------------------
@@ -321,6 +357,16 @@ Dropped support for PostgreSQL 11
 
 Upstream support for PostgreSQL 11 ends in November 2023. Django 4.2 supports
 PostgreSQL 12 and higher.
+
+Setting ``update_fields`` in ``Model.save()`` may now be required
+-----------------------------------------------------------------
+
+In order to avoid updating unnecessary columns,
+:meth:`.QuerySet.update_or_create` now passes ``update_fields`` to the
+:meth:`Model.save() <django.db.models.Model.save>` calls. As a consequence, any
+fields modified in the custom ``save()`` methods should be added to the
+``update_fields`` keyword argument before calling ``super()``. See
+:ref:`overriding-model-methods` for more details.
 
 Miscellaneous
 -------------
@@ -344,6 +390,9 @@ Miscellaneous
 
 * The minimum supported version of ``sqlparse`` is increased from 0.2.2 to
   0.2.3.
+
+* The undocumented ``negated`` parameter of the
+  :class:`~django.db.models.Exists` expression is removed.
 
 .. _deprecated-features-4.2:
 

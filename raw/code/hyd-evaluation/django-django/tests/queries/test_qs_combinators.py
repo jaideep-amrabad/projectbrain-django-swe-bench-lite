@@ -61,6 +61,32 @@ class QuerySetSetOperationTests(TestCase):
         self.assertSequenceEqual(qs3.none(), [])
         self.assertNumbersEqual(qs3, [0, 1, 8, 9], ordered=False)
 
+    def test_union_none_slice(self):
+        qs1 = Number.objects.filter(num__lte=0)
+        qs2 = Number.objects.none()
+        qs3 = qs1.union(qs2)
+        self.assertNumbersEqual(qs3[:1], [0])
+
+    def test_union_empty_filter_slice(self):
+        qs1 = Number.objects.filter(num__lte=0)
+        qs2 = Number.objects.filter(pk__in=[])
+        qs3 = qs1.union(qs2)
+        self.assertNumbersEqual(qs3[:1], [0])
+
+    @skipUnlessDBFeature("supports_slicing_ordering_in_compound")
+    def test_union_slice_compound_empty(self):
+        qs1 = Number.objects.filter(num__lte=0)[:1]
+        qs2 = Number.objects.none()
+        qs3 = qs1.union(qs2)
+        self.assertNumbersEqual(qs3[:1], [0])
+
+    @skipUnlessDBFeature("supports_slicing_ordering_in_compound")
+    def test_union_combined_slice_compound_empty(self):
+        qs1 = Number.objects.filter(num__lte=2)[:3]
+        qs2 = Number.objects.none()
+        qs3 = qs1.union(qs2)
+        self.assertNumbersEqual(qs3.order_by("num")[2:3], [2])
+
     def test_union_order_with_null_first_last(self):
         Number.objects.filter(other_num=5).update(other_num=None)
         qs1 = Number.objects.filter(num__lte=1)
@@ -277,6 +303,34 @@ class QuerySetSetOperationTests(TestCase):
             [6, 7, 8, 9, 0, 1, 2, 3, 4, 5],
             operator.itemgetter("num"),
         )
+
+    def test_union_with_select_related_and_order(self):
+        e1 = ExtraInfo.objects.create(value=7, info="e1")
+        a1 = Author.objects.create(name="a1", num=1, extra=e1)
+        a2 = Author.objects.create(name="a2", num=3, extra=e1)
+        Author.objects.create(name="a3", num=2, extra=e1)
+        base_qs = Author.objects.select_related("extra").order_by()
+        qs1 = base_qs.filter(name="a1")
+        qs2 = base_qs.filter(name="a2")
+        self.assertSequenceEqual(qs1.union(qs2).order_by("pk"), [a1, a2])
+
+    @skipUnlessDBFeature("supports_slicing_ordering_in_compound")
+    def test_union_with_select_related_and_first(self):
+        e1 = ExtraInfo.objects.create(value=7, info="e1")
+        a1 = Author.objects.create(name="a1", num=1, extra=e1)
+        Author.objects.create(name="a2", num=3, extra=e1)
+        base_qs = Author.objects.select_related("extra")
+        qs1 = base_qs.filter(name="a1")
+        qs2 = base_qs.filter(name="a2")
+        self.assertEqual(qs1.union(qs2).first(), a1)
+
+    def test_union_with_first(self):
+        e1 = ExtraInfo.objects.create(value=7, info="e1")
+        a1 = Author.objects.create(name="a1", num=1, extra=e1)
+        base_qs = Author.objects.order_by()
+        qs1 = base_qs.filter(name="a1")
+        qs2 = base_qs.filter(name="a2")
+        self.assertEqual(qs1.union(qs2).first(), a1)
 
     def test_union_multiple_models_with_values_list_and_order(self):
         reserved_name = ReservedName.objects.create(name="rn1", order=0)
