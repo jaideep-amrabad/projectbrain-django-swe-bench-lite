@@ -295,7 +295,7 @@ cause a conflict. For example::
     IntegrityError: duplicate key value violates unique constraint
     "auth_user_pkey" DETAIL:  Key (id)=(1) already exists.
 
-If you need to specify such values, reset the sequence afterwards to avoid
+If you need to specify such values, reset the sequence afterward to avoid
 reusing a value that's already in the table. The :djadmin:`sqlsequencereset`
 management command generates the SQL statements to do that.
 
@@ -528,7 +528,7 @@ Several other `MySQLdb connection options`_ may be useful, such as ``ssl``,
 Setting ``sql_mode``
 ~~~~~~~~~~~~~~~~~~~~
 
-From MySQL 5.7 onwards, the default value of the ``sql_mode`` option contains
+From MySQL 5.7 onward, the default value of the ``sql_mode`` option contains
 ``STRICT_TRANS_TABLES``. That option escalates warnings into errors when data
 are truncated upon insertion, so Django highly recommends activating a
 `strict mode`_ for MySQL to prevent data loss (either ``STRICT_TRANS_TABLES``
