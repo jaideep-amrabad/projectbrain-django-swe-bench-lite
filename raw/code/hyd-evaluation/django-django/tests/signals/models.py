@@ -30,8 +30,3 @@ class Book(models.Model):
 
     def __str__(self):
         return self.name
-
-
-class Page(models.Model):
-    book = models.ForeignKey(Book, on_delete=models.CASCADE)
-    text = models.TextField()

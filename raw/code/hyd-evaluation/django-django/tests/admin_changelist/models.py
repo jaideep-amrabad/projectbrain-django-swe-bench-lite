@@ -1,6 +1,5 @@
 import uuid
 
-from django.contrib.auth.models import User
 from django.db import models
 
 
@@ -39,7 +38,7 @@ class Musician(models.Model):
 
 class Group(models.Model):
     name = models.CharField(max_length=30)
-    members = models.ManyToManyField(Musician, through="Membership")
+    members = models.ManyToManyField(Musician, through='Membership')
 
     def __str__(self):
         return self.name
@@ -66,7 +65,7 @@ class ChordsMusician(Musician):
 
 class ChordsBand(models.Model):
     name = models.CharField(max_length=30)
-    members = models.ManyToManyField(ChordsMusician, through="Invitation")
+    members = models.ManyToManyField(ChordsMusician, through='Invitation')
 
 
 class Invitation(models.Model):
@@ -82,7 +81,7 @@ class Swallow(models.Model):
     speed = models.FloatField()
 
     class Meta:
-        ordering = ("speed", "load")
+        ordering = ('speed', 'load')
 
 
 class SwallowOneToOne(models.Model):
@@ -94,13 +93,12 @@ class UnorderedObject(models.Model):
     Model without any defined `Meta.ordering`.
     Refs #17198.
     """
-
     bool = models.BooleanField(default=True)
 
 
 class OrderedObjectManager(models.Manager):
     def get_queryset(self):
-        return super().get_queryset().order_by("number")
+        return super().get_queryset().order_by('number')
 
 
 class OrderedObject(models.Model):
@@ -108,10 +106,9 @@ class OrderedObject(models.Model):
     Model with Manager that defines a default order.
     Refs #17198.
     """
-
     name = models.CharField(max_length=255)
     bool = models.BooleanField(default=True)
-    number = models.IntegerField(default=0, db_column="number_val")
+    number = models.IntegerField(default=0, db_column='number_val')
 
     objects = OrderedObjectManager()
 
@@ -122,8 +119,3 @@ class CustomIdUser(models.Model):
 
 class CharPK(models.Model):
     char_pk = models.CharField(max_length=100, primary_key=True)
-
-
-class ProxyUser(User):
-    class Meta:
-        proxy = True

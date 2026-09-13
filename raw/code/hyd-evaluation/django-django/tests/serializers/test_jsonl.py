@@ -27,8 +27,7 @@ class JsonlSerializerTestCase(SerializersTestBase, TestCase):
         '"headline": "Poker has no place on ESPN",'
         '"pub_date": "2006-06-16T11:00:00",'
         '"categories": [%(first_category_pk)s,%(second_category_pk)s],'
-        '"meta_data": [],'
-        '"topics": []}}\n'
+        '"meta_data": []}}\n'
     )
 
     @staticmethod
@@ -45,24 +44,20 @@ class JsonlSerializerTestCase(SerializersTestBase, TestCase):
     @staticmethod
     def _get_pk_values(serial_str):
         serial_list = [json.loads(line) for line in serial_str.split("\n") if line]
-        return [obj_dict["pk"] for obj_dict in serial_list]
+        return [obj_dict['pk'] for obj_dict in serial_list]
 
     @staticmethod
     def _get_field_values(serial_str, field_name):
         serial_list = [json.loads(line) for line in serial_str.split("\n") if line]
-        return [
-            obj_dict["fields"][field_name]
-            for obj_dict in serial_list
-            if field_name in obj_dict["fields"]
-        ]
+        return [obj_dict['fields'][field_name] for obj_dict in serial_list if field_name in obj_dict['fields']]
 
     def test_no_indentation(self):
         s = serializers.jsonl.Serializer()
         json_data = s.serialize([Score(score=5.0), Score(score=6.0)], indent=2)
         for line in json_data.splitlines():
-            self.assertIsNone(re.search(r".+,\s*$", line))
+            self.assertIsNone(re.search(r'.+,\s*$', line))
 
-    @isolate_apps("serializers")
+    @isolate_apps('serializers')
     def test_custom_encoder(self):
         class ScoreDecimal(models.Model):
             score = models.DecimalField()
@@ -75,8 +70,7 @@ class JsonlSerializerTestCase(SerializersTestBase, TestCase):
 
         s = serializers.jsonl.Serializer()
         json_data = s.serialize(
-            [ScoreDecimal(score=decimal.Decimal(1.0))],
-            cls=CustomJSONEncoder,
+            [ScoreDecimal(score=decimal.Decimal(1.0))], cls=CustomJSONEncoder,
         )
         self.assertIn('"fields": {"score": "1"}', json_data)
 
@@ -94,10 +88,8 @@ class JsonlSerializerTestCase(SerializersTestBase, TestCase):
             '{"pk": "badpk","model": "serializers.player",'
             '"fields": {"name": "Bob","rank": 1,"team": "Team"}}'
         )
-        with self.assertRaisesMessage(
-            DeserializationError, "(serializers.player:pk=badpk)"
-        ):
-            list(serializers.deserialize("jsonl", test_string))
+        with self.assertRaisesMessage(DeserializationError, "(serializers.player:pk=badpk)"):
+            list(serializers.deserialize('jsonl', test_string))
 
     def test_helpful_error_message_invalid_field(self):
         """
@@ -110,7 +102,7 @@ class JsonlSerializerTestCase(SerializersTestBase, TestCase):
         )
         expected = "(serializers.player:pk=1) field_value was 'invalidint'"
         with self.assertRaisesMessage(DeserializationError, expected):
-            list(serializers.deserialize("jsonl", test_string))
+            list(serializers.deserialize('jsonl', test_string))
 
     def test_helpful_error_message_for_foreign_keys(self):
         """
@@ -126,7 +118,7 @@ class JsonlSerializerTestCase(SerializersTestBase, TestCase):
         key = ["doesnotexist", "metadata"]
         expected = "(serializers.category:pk=1) field_value was '%r'" % key
         with self.assertRaisesMessage(DeserializationError, expected):
-            list(serializers.deserialize("jsonl", test_string))
+            list(serializers.deserialize('jsonl', test_string))
 
     def test_helpful_error_message_for_many2many_non_natural(self):
         """
@@ -152,12 +144,12 @@ class JsonlSerializerTestCase(SerializersTestBase, TestCase):
                 "pk": 1,
                 "model": "serializers.category",
                 "fields": {"name": "Reference"}
-            }""",
+            }"""
         ]
         test_string = "\n".join([s.replace("\n", "") for s in test_strings])
         expected = "(serializers.article:pk=1) field_value was 'doesnotexist'"
         with self.assertRaisesMessage(DeserializationError, expected):
-            list(serializers.deserialize("jsonl", test_string))
+            list(serializers.deserialize('jsonl', test_string))
 
     def test_helpful_error_message_for_many2many_natural1(self):
         """
@@ -188,13 +180,13 @@ class JsonlSerializerTestCase(SerializersTestBase, TestCase):
                 "pk": 1,
                 "model": "serializers.author",
                 "fields": {"name": "Agnes"}
-            }""",
+            }"""
         ]
         test_string = "\n".join([s.replace("\n", "") for s in test_strings])
         key = ["doesnotexist", "meta1"]
         expected = "(serializers.article:pk=1) field_value was '%r'" % key
         with self.assertRaisesMessage(DeserializationError, expected):
-            for obj in serializers.deserialize("jsonl", test_string):
+            for obj in serializers.deserialize('jsonl', test_string):
                 obj.save()
 
     def test_helpful_error_message_for_many2many_natural2(self):
@@ -222,12 +214,12 @@ class JsonlSerializerTestCase(SerializersTestBase, TestCase):
                 "pk": 1,
                 "model": "serializers.author",
                 "fields": {"name": "Agnes"}
-            }""",
+            }"""
         ]
         test_string = "\n".join([s.replace("\n", "") for s in test_strings])
         expected = "(serializers.article:pk=1) field_value was 'doesnotexist'"
         with self.assertRaisesMessage(DeserializationError, expected):
-            for obj in serializers.deserialize("jsonl", test_string, ignore=False):
+            for obj in serializers.deserialize('jsonl', test_string, ignore=False):
                 obj.save()
 
     def test_helpful_error_message_for_many2many_not_iterable(self):
@@ -239,12 +231,10 @@ class JsonlSerializerTestCase(SerializersTestBase, TestCase):
         )
         expected = "(serializers.m2mdata:pk=1) field_value was 'None'"
         with self.assertRaisesMessage(DeserializationError, expected):
-            next(serializers.deserialize("jsonl", test_string, ignore=False))
+            next(serializers.deserialize('jsonl', test_string, ignore=False))
 
 
-class JsonSerializerTransactionTestCase(
-    SerializersTransactionTestBase, TransactionTestCase
-):
+class JsonSerializerTransactionTestCase(SerializersTransactionTestBase, TransactionTestCase):
     serializer_name = "jsonl"
     fwd_ref_str = [
         """{
@@ -266,6 +256,6 @@ class JsonSerializerTransactionTestCase(
             "pk": 1,
             "model": "serializers.author",
             "fields": {"name": "Agnes"}
-        }""",
+        }"""
     ]
     fwd_ref_str = "\n".join([s.replace("\n", "") for s in fwd_ref_str])
