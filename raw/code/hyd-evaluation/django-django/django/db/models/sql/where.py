@@ -178,7 +178,7 @@ class WhereNode(tree.Node):
                 sql_string = "(%s)" % sql_string
         return sql_string, result_params
 
-    def get_group_by_cols(self, alias=None):
+    def get_group_by_cols(self):
         cols = []
         for child in self.children:
             cols.extend(child.get_group_by_cols())
@@ -243,6 +243,10 @@ class WhereNode(tree.Node):
     @cached_property
     def contains_over_clause(self):
         return self._contains_over_clause(self)
+
+    @property
+    def is_summary(self):
+        return any(child.is_summary for child in self.children)
 
     @staticmethod
     def _resolve_leaf(expr, query, *args, **kwargs):

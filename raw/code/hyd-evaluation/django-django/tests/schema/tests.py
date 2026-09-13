@@ -1873,6 +1873,57 @@ class SchemaTests(TransactionTestCase):
         with connection.schema_editor() as editor:
             editor.alter_field(SmallIntegerPK, old_field, new_field, strict=True)
 
+    @isolate_apps("schema")
+    @unittest.skipUnless(connection.vendor == "postgresql", "PostgreSQL specific")
+    def test_alter_serial_auto_field_to_bigautofield(self):
+        class SerialAutoField(Model):
+            id = SmallAutoField(primary_key=True)
+
+            class Meta:
+                app_label = "schema"
+
+        table = SerialAutoField._meta.db_table
+        column = SerialAutoField._meta.get_field("id").column
+        with connection.cursor() as cursor:
+            cursor.execute(
+                f'CREATE TABLE "{table}" '
+                f'("{column}" smallserial NOT NULL PRIMARY KEY)'
+            )
+        try:
+            old_field = SerialAutoField._meta.get_field("id")
+            new_field = BigAutoField(primary_key=True)
+            new_field.model = SerialAutoField
+            new_field.set_attributes_from_name("id")
+            with connection.schema_editor() as editor:
+                editor.alter_field(SerialAutoField, old_field, new_field, strict=True)
+            sequence_name = f"{table}_{column}_seq"
+            with connection.cursor() as cursor:
+                cursor.execute(
+                    "SELECT data_type FROM pg_sequences WHERE sequencename = %s",
+                    [sequence_name],
+                )
+                row = cursor.fetchone()
+                sequence_data_type = row[0] if row and row[0] else None
+                self.assertEqual(sequence_data_type, "bigint")
+            # Rename the column.
+            old_field = new_field
+            new_field = AutoField(primary_key=True)
+            new_field.model = SerialAutoField
+            new_field.set_attributes_from_name("renamed_id")
+            with connection.schema_editor() as editor:
+                editor.alter_field(SerialAutoField, old_field, new_field, strict=True)
+            with connection.cursor() as cursor:
+                cursor.execute(
+                    "SELECT data_type FROM pg_sequences WHERE sequencename = %s",
+                    [sequence_name],
+                )
+                row = cursor.fetchone()
+                sequence_data_type = row[0] if row and row[0] else None
+                self.assertEqual(sequence_data_type, "integer")
+        finally:
+            with connection.cursor() as cursor:
+                cursor.execute(f'DROP TABLE "{table}"')
+
     def test_alter_int_pk_to_int_unique(self):
         """
         Should be able to rename an IntegerField(primary_key=True) to
@@ -2719,6 +2770,74 @@ class SchemaTests(TransactionTestCase):
         # Alter it back
         with connection.schema_editor() as editor:
             editor.alter_unique_together(Book, [["author", "title"]], [])
+
+    def _test_composed_index_with_fk(self, index):
+        with connection.schema_editor() as editor:
+            editor.create_model(Author)
+            editor.create_model(Book)
+        table = Book._meta.db_table
+        self.assertEqual(Book._meta.indexes, [])
+        Book._meta.indexes = [index]
+        with connection.schema_editor() as editor:
+            editor.add_index(Book, index)
+        self.assertIn(index.name, self.get_constraints(table))
+        Book._meta.indexes = []
+        with connection.schema_editor() as editor:
+            editor.remove_index(Book, index)
+        self.assertNotIn(index.name, self.get_constraints(table))
+
+    def test_composed_index_with_fk(self):
+        index = Index(fields=["author", "title"], name="book_author_title_idx")
+        self._test_composed_index_with_fk(index)
+
+    def test_composed_desc_index_with_fk(self):
+        index = Index(fields=["-author", "title"], name="book_author_title_idx")
+        self._test_composed_index_with_fk(index)
+
+    @skipUnlessDBFeature("supports_expression_indexes")
+    def test_composed_func_index_with_fk(self):
+        index = Index(F("author"), F("title"), name="book_author_title_idx")
+        self._test_composed_index_with_fk(index)
+
+    @skipUnlessDBFeature("supports_expression_indexes")
+    def test_composed_desc_func_index_with_fk(self):
+        index = Index(F("author").desc(), F("title"), name="book_author_title_idx")
+        self._test_composed_index_with_fk(index)
+
+    @skipUnlessDBFeature("supports_expression_indexes")
+    def test_composed_func_transform_index_with_fk(self):
+        index = Index(F("title__lower"), name="book_title_lower_idx")
+        with register_lookup(CharField, Lower):
+            self._test_composed_index_with_fk(index)
+
+    def _test_composed_constraint_with_fk(self, constraint):
+        with connection.schema_editor() as editor:
+            editor.create_model(Author)
+            editor.create_model(Book)
+        table = Book._meta.db_table
+        self.assertEqual(Book._meta.constraints, [])
+        Book._meta.constraints = [constraint]
+        with connection.schema_editor() as editor:
+            editor.add_constraint(Book, constraint)
+        self.assertIn(constraint.name, self.get_constraints(table))
+        Book._meta.constraints = []
+        with connection.schema_editor() as editor:
+            editor.remove_constraint(Book, constraint)
+        self.assertNotIn(constraint.name, self.get_constraints(table))
+
+    def test_composed_constraint_with_fk(self):
+        constraint = UniqueConstraint(
+            fields=["author", "title"],
+            name="book_author_title_uniq",
+        )
+        self._test_composed_constraint_with_fk(constraint)
+
+    @skipUnlessDBFeature(
+        "supports_column_check_constraints", "can_introspect_check_constraints"
+    )
+    def test_composed_check_constraint_with_fk(self):
+        constraint = CheckConstraint(check=Q(author__gt=0), name="book_author_check")
+        self._test_composed_constraint_with_fk(constraint)
 
     @skipUnlessDBFeature("allows_multiple_constraints_on_same_fields")
     def test_remove_unique_together_does_not_remove_meta_constraints(self):
