@@ -442,7 +442,11 @@ class Model(metaclass=ModelBase):
                 if val is _DEFERRED:
                     continue
                 _setattr(self, field.attname, val)
-                kwargs.pop(field.name, None)
+                if kwargs.pop(field.name, NOT_PROVIDED) is not NOT_PROVIDED:
+                    raise TypeError(
+                        f"{cls.__qualname__}() got both positional and "
+                        f"keyword arguments for field '{field.name}'."
+                    )
 
         # Now we're left with the unprocessed fields that *must* come from
         # keywords, or default.
@@ -2039,6 +2043,25 @@ class Model(metaclass=ModelBase):
                         id='models.W039',
                     )
                 )
+            if not (
+                connection.features.supports_expression_indexes or
+                'supports_expression_indexes' in cls._meta.required_db_features
+            ) and any(
+                isinstance(constraint, UniqueConstraint) and constraint.contains_expressions
+                for constraint in cls._meta.constraints
+            ):
+                errors.append(
+                    checks.Warning(
+                        '%s does not support unique constraints on '
+                        'expressions.' % connection.display_name,
+                        hint=(
+                            "A constraint won't be created. Silence this "
+                            "warning if you don't care about it."
+                        ),
+                        obj=cls,
+                        id='models.W044',
+                    )
+                )
             fields = set(chain.from_iterable(
                 (*constraint.fields, *constraint.include)
                 for constraint in cls._meta.constraints if isinstance(constraint, UniqueConstraint)
@@ -2051,6 +2074,12 @@ class Model(metaclass=ModelBase):
                         'supports_partial_indexes' not in cls._meta.required_db_features
                     ) and isinstance(constraint.condition, Q):
                         references.update(cls._get_expr_references(constraint.condition))
+                    if (
+                        connection.features.supports_expression_indexes or
+                        'supports_expression_indexes' not in cls._meta.required_db_features
+                    ) and constraint.contains_expressions:
+                        for expression in constraint.expressions:
+                            references.update(cls._get_expr_references(expression))
                 elif isinstance(constraint, CheckConstraint):
                     if (
                         connection.features.supports_table_check_constraints or

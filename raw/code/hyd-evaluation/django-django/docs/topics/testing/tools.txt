@@ -244,7 +244,7 @@ Use the ``django.test.Client`` class to make requests.
         wish to upload as a value. For example::
 
             >>> c = Client()
-            >>> with open('wishlist.doc') as fp:
+            >>> with open('wishlist.doc', 'rb') as fp:
             ...     c.post('/customers/wishes/', {'name': 'fred', 'attachment': fp})
 
         (The name ``attachment`` here is not relevant; use whatever name your
@@ -1596,8 +1596,8 @@ your test suite.
       closed or the HTML document ends.
     * Empty tags are equivalent to their self-closing version.
     * The ordering of attributes of an HTML element is not significant.
-    * Attributes without an argument are equal to attributes that equal in
-      name and value (see the examples).
+    * Boolean attributes (like ``checked``) without an argument are equal to
+      attributes that equal in name and value (see the examples).
     * Text, character references, and entity references that refer to the same
       character are equivalent.
 
@@ -1615,10 +1615,16 @@ your test suite.
             '<input id="id_accept_terms" type="checkbox" checked>'
         )
 
-    ``html1`` and ``html2`` must be valid HTML. An ``AssertionError`` will be
+    ``html1`` and ``html2`` must contain HTML. An ``AssertionError`` will be
     raised if one of them cannot be parsed.
 
     Output in case of error can be customized with the ``msg`` argument.
+
+    .. versionchanged:: 4.0
+
+        In older versions, any attribute (not only boolean attributes) without
+        a value was considered equal to an attribute with the same name and
+        value.
 
 .. method:: SimpleTestCase.assertHTMLNotEqual(html1, html2, msg=None)
 
@@ -1626,7 +1632,7 @@ your test suite.
     comparison is based on HTML semantics. See
     :meth:`~SimpleTestCase.assertHTMLEqual` for details.
 
-    ``html1`` and ``html2`` must be valid HTML. An ``AssertionError`` will be
+    ``html1`` and ``html2`` must contain HTML. An ``AssertionError`` will be
     raised if one of them cannot be parsed.
 
     Output in case of error can be customized with the ``msg`` argument.
@@ -1661,7 +1667,7 @@ your test suite.
     of ``needle`` occurrences will be strictly verified.
 
     Whitespace in most cases is ignored, and attribute ordering is not
-    significant. The passed-in arguments must be valid HTML.
+    significant. See :meth:`~SimpleTestCase.assertHTMLEqual` for more details.
 
 .. method:: SimpleTestCase.assertJSONEqual(raw, expected_data, msg=None)
 
@@ -1690,7 +1696,7 @@ your test suite.
     provide an implicit ordering, you can set the ``ordered`` parameter to
     ``False``, which turns the comparison into a ``collections.Counter`` comparison.
     If the order is undefined (if the given ``qs`` isn't ordered and the
-    comparison is against more than one ordered values), a ``ValueError`` is
+    comparison is against more than one ordered value), a ``ValueError`` is
     raised.
 
     Output in case of error can be customized with the ``msg`` argument.
