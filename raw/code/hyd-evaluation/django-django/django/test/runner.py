@@ -336,14 +336,24 @@ class RemoteTestRunner:
         return result
 
 
-def parallel_type(value):
-    """Parse value passed to the --parallel option."""
+def get_max_test_processes():
+    """
+    The maximum number of test processes when using the --parallel option.
+    """
     # The current implementation of the parallel test runner requires
     # multiprocessing to start subprocesses with fork().
     if multiprocessing.get_start_method() != 'fork':
         return 1
-    if value == 'auto':
+    try:
+        return int(os.environ['DJANGO_TEST_PROCESSES'])
+    except KeyError:
         return multiprocessing.cpu_count()
+
+
+def parallel_type(value):
+    """Parse value passed to the --parallel option."""
+    if value == 'auto':
+        return value
     try:
         return int(value)
     except ValueError:
@@ -551,7 +561,7 @@ class DiscoverRunner:
                  reverse=False, debug_mode=False, debug_sql=False, parallel=0,
                  tags=None, exclude_tags=None, test_name_patterns=None,
                  pdb=False, buffer=False, enable_faulthandler=True,
-                 timing=False, shuffle=False, **kwargs):
+                 timing=False, shuffle=False, logger=None, **kwargs):
 
         self.pattern = pattern
         self.top_level = top_level
@@ -585,6 +595,7 @@ class DiscoverRunner:
             }
         self.shuffle = shuffle
         self._shuffler = None
+        self.logger = logger
 
     @classmethod
     def add_arguments(cls, parser):
@@ -616,12 +627,8 @@ class DiscoverRunner:
             '-d', '--debug-sql', action='store_true',
             help='Prints logged SQL queries on failure.',
         )
-        try:
-            default_parallel = int(os.environ['DJANGO_TEST_PROCESSES'])
-        except KeyError:
-            default_parallel = 0
         parser.add_argument(
-            '--parallel', nargs='?', const='auto', default=default_parallel,
+            '--parallel', nargs='?', const='auto', default=0,
             type=parallel_type, metavar='N',
             help=(
                 'Run tests using up to N parallel processes. Use the value '
@@ -671,16 +678,23 @@ class DiscoverRunner:
 
     def log(self, msg, level=None):
         """
-        Log the given message at the given logging level.
+        Log the message at the given logging level (the default is INFO).
 
-        A verbosity of 1 logs INFO (the default level) or above, and verbosity
-        2 or higher logs all levels.
+        If a logger isn't set, the message is instead printed to the console,
+        respecting the configured verbosity. A verbosity of 0 prints no output,
+        a verbosity of 1 prints INFO and above, and a verbosity of 2 or higher
+        prints all levels.
         """
-        if self.verbosity <= 0 or (
-            self.verbosity == 1 and level is not None and level < logging.INFO
-        ):
-            return
-        print(msg)
+        if level is None:
+            level = logging.INFO
+        if self.logger is None:
+            if self.verbosity <= 0 or (
+                self.verbosity == 1 and level < logging.INFO
+            ):
+                return
+            print(msg)
+        else:
+            self.logger.log(level, msg)
 
     def setup_test_environment(self, **kwargs):
         setup_test_environment(debug=self.debug_mode)

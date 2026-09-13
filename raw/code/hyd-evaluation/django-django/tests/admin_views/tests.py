@@ -5,15 +5,15 @@ import unittest
 from unittest import mock
 from urllib.parse import parse_qsl, urljoin, urlparse
 
-import pytz
-
 try:
     import zoneinfo
 except ImportError:
-    try:
-        from backports import zoneinfo
-    except ImportError:
-        zoneinfo = None
+    from backports import zoneinfo
+
+try:
+    import pytz
+except ImportError:
+    pytz = None
 
 from django.contrib import admin
 from django.contrib.admin import AdminSite, ModelAdmin
@@ -73,10 +73,10 @@ MULTIPART_ENCTYPE = 'enctype="multipart/form-data"'
 
 def make_aware_datetimes(dt, iana_key):
     """Makes one aware datetime for each supported time zone provider."""
-    yield pytz.timezone(iana_key).localize(dt, is_dst=None)
+    yield dt.replace(tzinfo=zoneinfo.ZoneInfo(iana_key))
 
-    if zoneinfo is not None:
-        yield dt.replace(tzinfo=zoneinfo.ZoneInfo(iana_key))
+    if pytz is not None:
+        yield pytz.timezone(iana_key).localize(dt, is_dst=None)
 
 
 class AdminFieldExtractionMixin:
@@ -109,7 +109,7 @@ class AdminFieldExtractionMixin:
                 return field
 
 
-@override_settings(ROOT_URLCONF='admin_views.urls', USE_I18N=True, USE_L10N=False, LANGUAGE_CODE='en')
+@override_settings(ROOT_URLCONF='admin_views.urls', USE_I18N=True, LANGUAGE_CODE='en')
 class AdminViewBasicTestCase(TestCase):
 
     @classmethod
@@ -802,12 +802,12 @@ class AdminViewBasicTest(AdminViewBasicTestCase):
         response = self.client.get(reverse('admin-extra-context:jsi18n'))
         self.assertEqual(response.status_code, 200)
 
-    def test_L10N_deactivated(self):
+    def test_jsi18n_format_fallback(self):
         """
-        Check if L10N is deactivated, the JavaScript i18n view doesn't
-        return localized date/time formats. Refs #14824.
+        The JavaScript i18n view doesn't return localized date/time formats
+        when the selected language cannot be found.
         """
-        with self.settings(LANGUAGE_CODE='ru', USE_L10N=False), translation.override('none'):
+        with self.settings(LANGUAGE_CODE='ru'), translation.override('none'):
             response = self.client.get(reverse('admin:jsi18n'))
             self.assertNotContains(response, '%d.%m.%Y %H:%M:%S')
             self.assertContains(response, '%Y-%m-%d %H:%M:%S')
@@ -4541,7 +4541,7 @@ class PrePopulatedTest(TestCase):
             "&quot;id&quot;: &quot;#id_prepopulatedsubpost_set-0-subslug&quot;"
         )
 
-    @override_settings(USE_THOUSAND_SEPARATOR=True, USE_L10N=True)
+    @override_settings(USE_THOUSAND_SEPARATOR=True)
     def test_prepopulated_maxlength_localized(self):
         """
         Regression test for #15938: if USE_THOUSAND_SEPARATOR is set, make sure
@@ -5704,7 +5704,7 @@ class ValidXHTMLTests(TestCase):
         self.assertNotContains(response, ' xml:lang=""')
 
 
-@override_settings(ROOT_URLCONF='admin_views.urls', USE_THOUSAND_SEPARATOR=True, USE_L10N=True)
+@override_settings(ROOT_URLCONF='admin_views.urls', USE_THOUSAND_SEPARATOR=True)
 class DateHierarchyTests(TestCase):
 
     @classmethod

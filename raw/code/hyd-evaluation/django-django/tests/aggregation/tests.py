@@ -26,14 +26,10 @@ class NowUTC(Now):
     template = 'CURRENT_TIMESTAMP'
     output_field = DateTimeField()
 
-    def as_mysql(self, compiler, connection, **extra_context):
-        return self.as_sql(compiler, connection, template='UTC_TIMESTAMP', **extra_context)
-
-    def as_oracle(self, compiler, connection, **extra_context):
-        return self.as_sql(compiler, connection, template="CURRENT_TIMESTAMP AT TIME ZONE 'UTC'", **extra_context)
-
-    def as_postgresql(self, compiler, connection, **extra_context):
-        return self.as_sql(compiler, connection, template="STATEMENT_TIMESTAMP() AT TIME ZONE 'UTC'", **extra_context)
+    def as_sql(self, compiler, connection, **extra_context):
+        if connection.features.test_now_utc_template:
+            extra_context['template'] = connection.features.test_now_utc_template
+        return super().as_sql(compiler, connection, **extra_context)
 
 
 class AggregateTestCase(TestCase):
@@ -1607,3 +1603,17 @@ class AggregateTestCase(TestCase):
             value=Sum('price', filter=Q(rating__lt=3.0), default=Avg('pages') / 10.0),
         )
         self.assertAlmostEqual(result['value'], Decimal('61.72'), places=2)
+
+    def test_exists_none_with_aggregate(self):
+        qs = Book.objects.all().annotate(
+            count=Count('id'),
+            exists=Exists(Author.objects.none()),
+        )
+        self.assertEqual(len(qs), 6)
+
+    def test_exists_extra_where_with_aggregate(self):
+        qs = Book.objects.all().annotate(
+            count=Count('id'),
+            exists=Exists(Author.objects.extra(where=['1=0'])),
+        )
+        self.assertEqual(len(qs), 6)

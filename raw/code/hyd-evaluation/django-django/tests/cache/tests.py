@@ -22,6 +22,7 @@ from django.core.cache import (
     caches,
 )
 from django.core.cache.backends.base import InvalidCacheBackendError
+from django.core.cache.backends.redis import RedisCacheClient
 from django.core.cache.utils import make_template_fragment_key
 from django.db import close_old_connections, connection, connections
 from django.db.backends.utils import CursorWrapper
@@ -139,6 +140,8 @@ class DummyCacheTests(SimpleTestCase):
             cache.incr('answer')
         with self.assertRaises(ValueError):
             cache.incr('does_not_exist')
+        with self.assertRaises(ValueError):
+            cache.incr('does_not_exist', -1)
 
     def test_decr(self):
         "Dummy cache values can't be decremented"
@@ -147,6 +150,8 @@ class DummyCacheTests(SimpleTestCase):
             cache.decr('answer')
         with self.assertRaises(ValueError):
             cache.decr('does_not_exist')
+        with self.assertRaises(ValueError):
+            cache.decr('does_not_exist', -1)
 
     def test_touch(self):
         """Dummy cache can't do touch()."""
@@ -209,7 +214,7 @@ class DummyCacheTests(SimpleTestCase):
     def test_delete_many_invalid_key(self):
         msg = KEY_ERRORS_WITH_MEMCACHED_MSG % ':1:key with spaces'
         with self.assertWarnsMessage(CacheKeyWarning, msg):
-            cache.delete_many({'key with spaces': 'foo'})
+            cache.delete_many(['key with spaces'])
 
     def test_clear(self):
         "clear does nothing for the dummy cache backend"
@@ -378,6 +383,8 @@ class BaseCacheTests:
         self.assertEqual(cache.incr('answer', -10), 42)
         with self.assertRaises(ValueError):
             cache.incr('does_not_exist')
+        with self.assertRaises(ValueError):
+            cache.incr('does_not_exist', -1)
         cache.set('null', None)
         with self.assertRaises(self.incr_decr_type_error):
             cache.incr('null')
@@ -392,6 +399,8 @@ class BaseCacheTests:
         self.assertEqual(cache.decr('answer', -10), 42)
         with self.assertRaises(ValueError):
             cache.decr('does_not_exist')
+        with self.assertRaises(ValueError):
+            cache.incr('does_not_exist', -1)
         cache.set('null', None)
         with self.assertRaises(self.incr_decr_type_error):
             cache.decr('null')
@@ -667,7 +676,7 @@ class BaseCacheTests:
         finally:
             cull_cache._max_entries = old_max_entries
 
-    def _perform_invalid_key_test(self, key, expected_warning):
+    def _perform_invalid_key_test(self, key, expected_warning, key_func=None):
         """
         All the builtin backends should warn (except memcached that should
         error) on keys that would be refused by memcached. This encourages
@@ -680,7 +689,7 @@ class BaseCacheTests:
             return key
 
         old_func = cache.key_func
-        cache.key_func = func
+        cache.key_func = key_func or func
 
         tests = [
             ('add', [key, 1]),
@@ -692,7 +701,7 @@ class BaseCacheTests:
             ('delete', [key]),
             ('get_many', [[key, 'b']]),
             ('set_many', [{key: 1, 'b': 2}]),
-            ('delete_many', [{key: 1, 'b': 2}]),
+            ('delete_many', [[key, 'b']]),
         ]
         try:
             for operation, args in tests:
@@ -716,6 +725,19 @@ class BaseCacheTests:
             '%r (longer than %s)' % (key, 250)
         )
         self._perform_invalid_key_test(key, expected_warning)
+
+    def test_invalid_with_version_key_length(self):
+        # Custom make_key() that adds a version to the key and exceeds the
+        # limit.
+        def key_func(key, *args):
+            return key + ':1'
+
+        key = 'a' * 249
+        expected_warning = (
+            'Cache key will cause errors if used with memcached: '
+            '%r (longer than %s)' % (key_func(key), 250)
+        )
+        self._perform_invalid_key_test(key, expected_warning, key_func=key_func)
 
     def test_cache_versioning_get_set(self):
         # set, using default version = 1
@@ -1352,10 +1374,9 @@ class LocMemCacheTests(BaseCacheTests, TestCase):
         self.assertEqual(cache.get(9), 9)
 
 
-# memcached backend isn't guaranteed to be available.
-# To check the memcached backend, the test settings file will
-# need to contain at least one cache backend setting that points at
-# your memcache server.
+# memcached and redis backends aren't guaranteed to be available.
+# To check the backends, the test settings file will need to contain at least
+# one cache backend setting that points at your cache server.
 configured_caches = {}
 for _cache_params in settings.CACHES.values():
     configured_caches[_cache_params['BACKEND']] = _cache_params
@@ -1365,6 +1386,11 @@ PyMemcacheCache_params = configured_caches.get('django.core.cache.backends.memca
 
 # The memcached backends don't support cull-related options like `MAX_ENTRIES`.
 memcached_excluded_caches = {'cull', 'zero_cull'}
+
+RedisCache_params = configured_caches.get('django.core.cache.backends.redis.RedisCache')
+
+# The redis backend does not support cull-related options like `MAX_ENTRIES`.
+redis_excluded_caches = {'cull', 'zero_cull'}
 
 
 class BaseMemcachedTests(BaseCacheTests):
@@ -1401,13 +1427,22 @@ class BaseMemcachedTests(BaseCacheTests):
             ('delete', [key]),
             ('get_many', [[key, 'b']]),
             ('set_many', [{key: 1, 'b': 2}]),
-            ('delete_many', [{key: 1, 'b': 2}]),
+            ('delete_many', [[key, 'b']]),
         ]
         for operation, args in tests:
             with self.subTest(operation=operation):
                 with self.assertRaises(InvalidCacheKey) as cm:
                     getattr(cache, operation)(*args)
                 self.assertEqual(str(cm.exception), msg)
+
+    def test_invalid_with_version_key_length(self):
+        # make_key() adds a version to the key and exceeds the limit.
+        key = 'a' * 248
+        expected_warning = (
+            'Cache key will cause errors if used with memcached: '
+            '%r (longer than %s)' % (key, 250)
+        )
+        self._perform_invalid_key_test(key, expected_warning)
 
     def test_default_never_expiring_timeout(self):
         # Regression test for #22845
@@ -1695,6 +1730,60 @@ class FileBasedCacheTests(BaseCacheTests, TestCase):
             fh.write(b'')
         with open(cache_file, 'rb') as fh:
             self.assertIs(cache._is_expired(fh), True)
+
+
+@unittest.skipUnless(RedisCache_params, "Redis backend not configured")
+@override_settings(CACHES=caches_setting_for_tests(
+    base=RedisCache_params,
+    exclude=redis_excluded_caches,
+))
+class RedisCacheTests(BaseCacheTests, TestCase):
+
+    def setUp(self):
+        import redis
+        super().setUp()
+        self.lib = redis
+
+    @property
+    def incr_decr_type_error(self):
+        return self.lib.ResponseError
+
+    def test_cache_client_class(self):
+        self.assertIs(cache._class, RedisCacheClient)
+        self.assertIsInstance(cache._cache, RedisCacheClient)
+
+    def test_get_backend_timeout_method(self):
+        positive_timeout = 10
+        positive_backend_timeout = cache.get_backend_timeout(positive_timeout)
+        self.assertEqual(positive_backend_timeout, positive_timeout)
+
+        negative_timeout = -5
+        negative_backend_timeout = cache.get_backend_timeout(negative_timeout)
+        self.assertEqual(negative_backend_timeout, 0)
+
+        none_timeout = None
+        none_backend_timeout = cache.get_backend_timeout(none_timeout)
+        self.assertIsNone(none_backend_timeout)
+
+    def test_get_connection_pool_index(self):
+        pool_index = cache._cache._get_connection_pool_index(write=True)
+        self.assertEqual(pool_index, 0)
+        pool_index = cache._cache._get_connection_pool_index(write=False)
+        if len(cache._cache._servers) == 1:
+            self.assertEqual(pool_index, 0)
+        else:
+            self.assertGreater(pool_index, 0)
+            self.assertLess(pool_index, len(cache._cache._servers))
+
+    def test_get_connection_pool(self):
+        pool = cache._cache._get_connection_pool(write=True)
+        self.assertIsInstance(pool, self.lib.ConnectionPool)
+
+        pool = cache._cache._get_connection_pool(write=False)
+        self.assertIsInstance(pool, self.lib.ConnectionPool)
+
+    def test_get_client(self):
+        self.assertIsInstance(cache._cache.get_client(), self.lib.Redis)
 
 
 class FileBasedCachePathLibTests(FileBasedCacheTests):
