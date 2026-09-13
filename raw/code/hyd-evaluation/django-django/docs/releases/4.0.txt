@@ -72,6 +72,9 @@ Minor features
 
 * The navigation sidebar now has a quick filter toolbar.
 
+* The new context variable ``model`` which contains the model class for each
+  model is added to the :meth:`.AdminSite.each_context` method.
+
 :mod:`django.contrib.admindocs`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -101,6 +104,9 @@ Minor features
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Added support for SpatiaLite 5.
+
+* :class:`~django.contrib.gis.gdal.GDALRaster` now allows creating rasters in
+  any GDAL virtual filesystem.
 
 :mod:`django.contrib.messages`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -233,6 +239,9 @@ Models
 * :meth:`.QuerySet.bulk_create` now sets the primary key on objects when using
   SQLite 3.35+.
 
+* :class:`~django.db.models.DurationField` now supports multiplying and
+  dividing by scalar values on SQLite.
+
 Requests and Responses
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -354,6 +363,24 @@ subdomains by setting :setting:`CSRF_COOKIE_DOMAIN` (or
 :setting:`SESSION_COOKIE_DOMAIN` if :setting:`CSRF_USE_SESSIONS` is enabled) to
 a value starting with a dot.
 
+``SecurityMiddleware`` no longer sets the ``X-XSS-Protection`` header
+---------------------------------------------------------------------
+
+The :class:`~django.middleware.security.SecurityMiddleware` no longer sets the
+``X-XSS-Protection`` header if the ``SECURE_BROWSER_XSS_FILTER`` setting is
+``True``. The setting is removed.
+
+Most modern browsers don't honor the ``X-XSS-Protection`` HTTP header. You can
+use Content-Security-Policy_ without allowing ``'unsafe-inline'`` scripts
+instead.
+
+If you want to support legacy browsers and set the header, use this line in a
+custom middleware::
+
+    response.headers.setdefault('X-XSS-Protection', '1; mode=block')
+
+.. _Content-Security-Policy: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
+
 Miscellaneous
 -------------
 
@@ -389,6 +416,16 @@ Miscellaneous
 * Tests that fail to load, for example due to syntax errors, now always match
   when using :option:`test --tag`.
 
+* The migrations autodetector now uses model states instead of model classes.
+  As a side-effect ``makemigrations`` might generate no-op ``AlterField``
+  operations for ``ForeignKey`` fields in some cases.
+
+* The undocumented ``django.contrib.admin.utils.lookup_needs_distinct()``
+  function is renamed to ``lookup_spawns_duplicates()``.
+
+* The undocumented ``HttpRequest.get_raw_uri()`` method is removed. The
+  :meth:`.HttpRequest.build_absolute_uri` method may be a suitable alternative.
+
 .. _deprecated-features-4.0:
 
 Features deprecated in 4.0
@@ -400,6 +437,10 @@ Miscellaneous
 * ``SERIALIZE`` test setting is deprecated as it can be inferred from the
   :attr:`~django.test.TestCase.databases` with the
   :ref:`serialized_rollback <test-case-serialized-rollback>` option enabled.
+
+* The undocumented ``django.utils.baseconv`` module is deprecated.
+
+* The undocumented ``django.utils.datetime_safe`` module is deprecated.
 
 Features removed in 4.0
 =======================
