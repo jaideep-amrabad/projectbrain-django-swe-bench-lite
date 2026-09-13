@@ -109,9 +109,9 @@ Troubleshooting
 If you can't find the solution to your problem here then participate in the
 community!  You can:
 
-* Join the ``#geodjango`` IRC channel on Freenode. Please be patient and polite
-  -- while you may not get an immediate response, someone will attempt to answer
-  your question as soon as they see it.
+* Join the ``#django-geo`` IRC channel on Libera.Chat. Please be patient and
+  polite -- while you may not get an immediate response, someone will attempt
+  to answer your question as soon as they see it.
 * Ask your question on the `GeoDjango`__ mailing list.
 * File a ticket on the `Django trac`__ if you think there's a bug.  Make
   sure to provide a complete description of the problem, versions used,
@@ -292,7 +292,7 @@ Download the framework packages for:
 Install the packages in the order they are listed above, as the GDAL and SQLite
 packages require the packages listed before them.
 
-Afterwards, you can also install the KyngChaos binary packages for `PostgreSQL
+Afterward, you can also install the KyngChaos binary packages for `PostgreSQL
 and PostGIS`__.
 
 After installing the binary packages, you'll want to add the following to
@@ -484,7 +484,7 @@ Install Django and set up database
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :ref:`install Django <installing-official-release>` on your system. It is
-recommended that you create a :doc:`virtural environment
+recommended that you create a :doc:`virtual environment
 <python:tutorial/venv>` for each project you create.
 
 psycopg2

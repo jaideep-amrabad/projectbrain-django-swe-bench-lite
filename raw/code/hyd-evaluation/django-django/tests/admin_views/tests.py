@@ -293,7 +293,7 @@ class AdminViewBasicTest(AdminViewBasicTestCase):
         Ensure http response from a popup is properly escaped.
         """
         post_data = {
-            '_popup': '1',
+            IS_POPUP_VAR: '1',
             'title': 'title with a new\nline',
             'content': 'some content',
             'date_0': '2010-09-10',
@@ -3348,7 +3348,10 @@ class AdminViewListEditable(TestCase):
         response = self.client.post(reverse('admin:admin_views_person_changelist'), data)
         non_form_errors = response.context['cl'].formset.non_form_errors()
         self.assertIsInstance(non_form_errors, ErrorList)
-        self.assertEqual(str(non_form_errors), str(ErrorList(["Grace is not a Zombie"])))
+        self.assertEqual(
+            str(non_form_errors),
+            str(ErrorList(['Grace is not a Zombie'], error_class='nonform')),
+        )
 
     def test_list_editable_ordering(self):
         collector = Collector.objects.create(id=1, name="Frederick Clegg")
@@ -5391,17 +5394,17 @@ class UserAdminTest(TestCase):
         response = self.client.get(reverse('admin:admin_views_album_add'))
         self.assertContains(response, reverse('admin:auth_user_add'))
         self.assertContains(response, 'class="related-widget-wrapper-link add-related" id="add_id_owner"')
-        response = self.client.get(reverse('admin:auth_user_add') + '?_popup=1')
+        response = self.client.get(reverse('admin:auth_user_add') + '?%s=1' % IS_POPUP_VAR)
         self.assertNotContains(response, 'name="_continue"')
         self.assertNotContains(response, 'name="_addanother"')
         data = {
             'username': 'newuser',
             'password1': 'newpassword',
             'password2': 'newpassword',
-            '_popup': '1',
+            IS_POPUP_VAR: '1',
             '_save': '1',
         }
-        response = self.client.post(reverse('admin:auth_user_add') + '?_popup=1', data, follow=True)
+        response = self.client.post(reverse('admin:auth_user_add') + '?%s=1' % IS_POPUP_VAR, data, follow=True)
         self.assertContains(response, '&quot;obj&quot;: &quot;newuser&quot;')
 
     def test_user_fk_change_popup(self):
@@ -5410,7 +5413,7 @@ class UserAdminTest(TestCase):
         self.assertContains(response, reverse('admin:auth_user_change', args=('__fk__',)))
         self.assertContains(response, 'class="related-widget-wrapper-link change-related" id="change_id_owner"')
         user = User.objects.get(username='changeuser')
-        url = reverse('admin:auth_user_change', args=(user.pk,)) + '?_popup=1'
+        url = reverse('admin:auth_user_change', args=(user.pk,)) + '?%s=1' % IS_POPUP_VAR
         response = self.client.get(url)
         self.assertNotContains(response, 'name="_continue"')
         self.assertNotContains(response, 'name="_addanother"')
@@ -5422,7 +5425,7 @@ class UserAdminTest(TestCase):
             'last_login_1': '13:20:10',
             'date_joined_0': '2007-05-30',
             'date_joined_1': '13:20:10',
-            '_popup': '1',
+            IS_POPUP_VAR: '1',
             '_save': '1',
         }
         response = self.client.post(url, data, follow=True)
@@ -5435,12 +5438,12 @@ class UserAdminTest(TestCase):
         self.assertContains(response, reverse('admin:auth_user_delete', args=('__fk__',)))
         self.assertContains(response, 'class="related-widget-wrapper-link change-related" id="change_id_owner"')
         user = User.objects.get(username='changeuser')
-        url = reverse('admin:auth_user_delete', args=(user.pk,)) + '?_popup=1'
+        url = reverse('admin:auth_user_delete', args=(user.pk,)) + '?%s=1' % IS_POPUP_VAR
         response = self.client.get(url)
         self.assertEqual(response.status_code, 200)
         data = {
             'post': 'yes',
-            '_popup': '1',
+            IS_POPUP_VAR: '1',
         }
         response = self.client.post(url, data, follow=True)
         self.assertContains(response, '&quot;action&quot;: &quot;delete&quot;')
