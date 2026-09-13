@@ -1,13 +1,8 @@
-.. _logging-ref:
+.. _logging_ref:
 
 =======
 Logging
 =======
-
-.. seealso::
-
-    * :ref:`logging-how-to`
-    * :ref:`Django logging overview <logging-explanation>`
 
 .. module:: django.utils.log
    :synopsis: Logging tools for Django applications
@@ -51,17 +46,11 @@ parents, up to the root ``django`` logger. The ``console`` and ``mail_admins``
 handlers are attached to the root logger to provide the behavior described
 above.
 
-Python's own defaults send records of level ``WARNING`` and higher
-to the console.
-
-.. _default-logging-definition:
-
 Default logging definition
 --------------------------
 
-Django's default logging configuration inherits Python's defaults. It's
-available as ``django.utils.log.DEFAULT_LOGGING`` and defined in
-:source:`django/utils/log.py`::
+The default configuration is available as ``django.utils.log.DEFAULT_LOGGING``
+and defined in :source:`django/utils/log.py`::
 
     {
         'version': 1,
@@ -189,7 +178,6 @@ Messages to this logger have the following extra context:
 * ``duration``: The time taken to execute the SQL statement.
 * ``sql``: The SQL statement that was executed.
 * ``params``: The parameters that were used in the SQL call.
-* ``alias``: The alias of the database used in the SQL call.
 
 For performance reasons, SQL logging is only enabled when
 ``settings.DEBUG`` is set to ``True``, regardless of the logging
@@ -199,10 +187,6 @@ This logging does not include framework-level initialization (e.g.
 ``SET TIMEZONE``) or transaction management queries (e.g. ``BEGIN``,
 ``COMMIT``, and ``ROLLBACK``). Turn on query logging in your database if you
 wish to view all database queries.
-
-.. versionchanged:: 4.0
-
-    The database ``alias`` was added to log messages.
 
 .. _django-security-logger:
 
@@ -257,8 +241,8 @@ as explained in :ref:`django-db-logger`.
 Handlers
 --------
 
-Django provides one log handler in addition to :mod:`those provided by the
-Python logging module <python:logging.handlers>`.
+Django provides one log handler in addition to those provided by the
+Python logging module.
 
 .. class:: AdminEmailHandler(include_html=False, email_backend=None, reporter_class=None)
 
@@ -275,7 +259,7 @@ Python logging module <python:logging.handlers>`.
 
     The ``include_html`` argument of ``AdminEmailHandler`` is used to
     control whether the traceback email includes an HTML attachment
-    containing the full content of the debug web page that would have been
+    containing the full content of the debug Web page that would have been
     produced if :setting:`DEBUG` were ``True``. To set this value in your
     configuration, include it in the handler definition for
     ``django.utils.log.AdminEmailHandler``, like this::

@@ -265,6 +265,7 @@ modindex_common_prefix = ["django."]
 # Appended to every page
 rst_epilog = """
 .. |django-users| replace:: :ref:`django-users <django-users-mailing-list>`
+.. |django-core-mentorship| replace:: :ref:`django-core-mentorship <django-core-mentorship-mailing-list>`
 .. |django-developers| replace:: :ref:`django-developers <django-developers-mailing-list>`
 .. |django-announce| replace:: :ref:`django-announce <django-announce-mailing-list>`
 .. |django-updates| replace:: :ref:`django-updates <django-updates-mailing-list>`
@@ -317,7 +318,7 @@ latex_documents = [
 man_pages = [(
     'ref/django-admin',
     'django-admin',
-    'Utility script for the Django web framework',
+    'Utility script for the Django Web framework',
     ['Django Software Foundation'],
     1
 )]

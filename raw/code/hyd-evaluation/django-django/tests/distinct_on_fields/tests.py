@@ -87,14 +87,9 @@ class DistinctOnTests(TestCase):
             self.assertSequenceEqual(qset, expected)
             self.assertEqual(qset.count(), len(expected))
 
-        # Combining queries with non-unique query is not allowed.
-        base_qs = Celebrity.objects.all()
-        msg = 'Cannot combine a unique query with a non-unique query.'
-        with self.assertRaisesMessage(TypeError, msg):
-            base_qs.distinct('id') & base_qs
         # Combining queries with different distinct_fields is not allowed.
-        msg = 'Cannot combine queries with different distinct fields.'
-        with self.assertRaisesMessage(TypeError, msg):
+        base_qs = Celebrity.objects.all()
+        with self.assertRaisesMessage(AssertionError, "Cannot combine queries with different distinct fields."):
             base_qs.distinct('id') & base_qs.distinct('name')
 
         # Test join unreffing

@@ -1,6 +1,6 @@
-=========================
-How to override templates
-=========================
+====================
+Overriding templates
+====================
 
 In your project, you might want to override a template in another Django
 application, whether it be a third-party application or a contrib application

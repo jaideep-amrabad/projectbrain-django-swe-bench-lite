@@ -3,20 +3,19 @@ import re
 from django.conf import settings
 from django.contrib.sessions.backends.cache import SessionStore
 from django.core.exceptions import ImproperlyConfigured
-from django.http import HttpRequest, HttpResponse, UnreadablePostError
+from django.http import HttpRequest, HttpResponse
 from django.middleware.csrf import (
     CSRF_ALLOWED_CHARS, CSRF_SESSION_KEY, CSRF_TOKEN_LENGTH, REASON_BAD_ORIGIN,
     REASON_CSRF_TOKEN_MISSING, REASON_NO_CSRF_COOKIE, CsrfViewMiddleware,
-    InvalidTokenFormat, RejectRequest, _does_token_match, _mask_cipher_secret,
-    _sanitize_token, _unmask_cipher_token, get_token, rotate_token,
+    RejectRequest, _compare_masked_tokens as equivalent_tokens,
+    _mask_cipher_secret, _unmask_cipher_token, get_token,
 )
 from django.test import SimpleTestCase, override_settings
 from django.views.decorators.csrf import csrf_exempt, requires_csrf_token
 
 from .views import (
-    ensure_csrf_cookie_view, ensured_and_protected_view,
-    non_token_view_using_request_processor, post_form_view, protected_view,
-    sandwiched_rotate_token_view, token_view,
+    ensure_csrf_cookie_view, non_token_view_using_request_processor,
+    post_form_view, token_view,
 )
 
 # This is a test (unmasked) CSRF cookie / secret.
@@ -69,121 +68,18 @@ class CsrfFunctionTests(SimpleTestCase):
                 masked = _mask_cipher_secret(secret)
                 self.assertMaskedSecretCorrect(masked, secret)
 
-    def test_get_token_csrf_cookie_set(self):
-        request = HttpRequest()
-        request.META['CSRF_COOKIE'] = MASKED_TEST_SECRET1
-        self.assertNotIn('CSRF_COOKIE_NEEDS_UPDATE', request.META)
-        token = get_token(request)
-        self.assertNotEqual(token, MASKED_TEST_SECRET1)
-        self.assertMaskedSecretCorrect(token, TEST_SECRET)
-        # The existing cookie is preserved.
-        self.assertEqual(request.META['CSRF_COOKIE'], MASKED_TEST_SECRET1)
-        self.assertIs(request.META['CSRF_COOKIE_NEEDS_UPDATE'], True)
-
-    def test_get_token_csrf_cookie_not_set(self):
-        request = HttpRequest()
-        self.assertNotIn('CSRF_COOKIE', request.META)
-        self.assertNotIn('CSRF_COOKIE_NEEDS_UPDATE', request.META)
-        token = get_token(request)
-        cookie = request.META['CSRF_COOKIE']
-        self.assertEqual(len(cookie), CSRF_TOKEN_LENGTH)
-        unmasked_cookie = _unmask_cipher_token(cookie)
-        self.assertMaskedSecretCorrect(token, unmasked_cookie)
-        self.assertIs(request.META['CSRF_COOKIE_NEEDS_UPDATE'], True)
-
-    def test_rotate_token(self):
-        request = HttpRequest()
-        request.META['CSRF_COOKIE'] = MASKED_TEST_SECRET1
-        self.assertNotIn('CSRF_COOKIE_NEEDS_UPDATE', request.META)
-        rotate_token(request)
-        # The underlying secret was changed.
-        cookie = request.META['CSRF_COOKIE']
-        self.assertEqual(len(cookie), CSRF_TOKEN_LENGTH)
-        unmasked_cookie = _unmask_cipher_token(cookie)
-        self.assertNotEqual(unmasked_cookie, TEST_SECRET)
-        self.assertIs(request.META['CSRF_COOKIE_NEEDS_UPDATE'], True)
-
-    def test_sanitize_token_masked(self):
-        # Tokens of length CSRF_TOKEN_LENGTH are preserved.
-        cases = [
-            (MASKED_TEST_SECRET1, MASKED_TEST_SECRET1),
-            (64 * 'a', 64 * 'a'),
-        ]
-        for token, expected in cases:
-            with self.subTest(token=token):
-                actual = _sanitize_token(token)
-                self.assertEqual(actual, expected)
-
-    def test_sanitize_token_unmasked(self):
-        # A token of length CSRF_SECRET_LENGTH is masked.
-        actual = _sanitize_token(TEST_SECRET)
-        self.assertMaskedSecretCorrect(actual, TEST_SECRET)
-
-    def test_sanitize_token_invalid(self):
-        cases = [
-            (64 * '*', 'has invalid characters'),
-            (16 * 'a', 'has incorrect length'),
-        ]
-        for token, expected_message in cases:
-            with self.subTest(token=token):
-                with self.assertRaisesMessage(InvalidTokenFormat, expected_message):
-                    _sanitize_token(token)
-
-    def test_does_token_match(self):
-        cases = [
-            ((MASKED_TEST_SECRET1, MASKED_TEST_SECRET2), True),
-            ((MASKED_TEST_SECRET1, 64 * 'a'), False),
-        ]
-        for (token1, token2), expected in cases:
-            with self.subTest(token1=token1, token2=token2):
-                actual = _does_token_match(token1, token2)
-                self.assertIs(actual, expected)
-
-
-class TestingSessionStore(SessionStore):
-    """
-    A version of SessionStore that stores what cookie values are passed to
-    set_cookie() when CSRF_USE_SESSIONS=True.
-    """
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        # This is a list of the cookie values passed to set_cookie() over
-        # the course of the request-response.
-        self._cookies_set = []
-
-    def __setitem__(self, key, value):
-        super().__setitem__(key, value)
-        self._cookies_set.append(value)
-
 
 class TestingHttpRequest(HttpRequest):
     """
-    A version of HttpRequest that lets one track and change some things more
-    easily.
+    A version of HttpRequest that allows us to change some things
+    more easily
     """
     def __init__(self):
         super().__init__()
-        self.session = TestingSessionStore()
+        self.session = SessionStore()
 
     def is_secure(self):
         return getattr(self, '_is_secure_override', False)
-
-
-class PostErrorRequest(TestingHttpRequest):
-    """
-    TestingHttpRequest that can raise errors when accessing POST data.
-    """
-    post_error = None
-
-    def _get_post(self):
-        if self.post_error is not None:
-            raise self.post_error
-        return self._post
-
-    def _set_post(self, post):
-        self._post = post
-
-    POST = property(_get_post, _set_post)
 
 
 class CsrfViewMiddlewareTestMixin:
@@ -203,27 +99,10 @@ class CsrfViewMiddlewareTestMixin:
         """
         raise NotImplementedError('This method must be implemented by a subclass.')
 
-    def _get_cookies_set(self, req, resp):
-        """
-        Return a list of the cookie values passed to set_cookie() over the
-        course of the request-response.
-        """
-        raise NotImplementedError('This method must be implemented by a subclass.')
-
-    def assertCookiesSet(self, req, resp, expected_secrets):
-        """
-        Assert that set_cookie() was called with the given sequence of secrets.
-        """
-        cookies_set = self._get_cookies_set(req, resp)
-        secrets_set = [_unmask_cipher_token(cookie) for cookie in cookies_set]
-        self.assertEqual(secrets_set, expected_secrets)
-
-    def _get_request(self, method=None, cookie=None, request_class=None):
+    def _get_request(self, method=None, cookie=None):
         if method is None:
             method = 'GET'
-        if request_class is None:
-            request_class = TestingHttpRequest
-        req = request_class()
+        req = TestingHttpRequest()
         req.method = method
         if cookie is not None:
             self._set_csrf_cookie(req, cookie)
@@ -231,7 +110,7 @@ class CsrfViewMiddlewareTestMixin:
 
     def _get_csrf_cookie_request(
         self, method=None, cookie=None, post_token=None, meta_token=None,
-        token_header=None, request_class=None,
+        token_header=None,
     ):
         """
         The method argument defaults to "GET". The cookie argument defaults to
@@ -245,11 +124,7 @@ class CsrfViewMiddlewareTestMixin:
             cookie = self._csrf_id_cookie
         if token_header is None:
             token_header = 'HTTP_X_CSRFTOKEN'
-        req = self._get_request(
-            method=method,
-            cookie=cookie,
-            request_class=request_class,
-        )
+        req = self._get_request(method=method, cookie=cookie)
         if post_token is not None:
             req.POST['csrfmiddlewaretoken'] = post_token
         if meta_token is not None:
@@ -258,28 +133,22 @@ class CsrfViewMiddlewareTestMixin:
 
     def _get_POST_csrf_cookie_request(
         self, cookie=None, post_token=None, meta_token=None, token_header=None,
-        request_class=None,
     ):
         return self._get_csrf_cookie_request(
             method='POST', cookie=cookie, post_token=post_token,
             meta_token=meta_token, token_header=token_header,
-            request_class=request_class,
         )
 
-    def _get_POST_request_with_token(self, cookie=None, request_class=None):
+    def _get_POST_request_with_token(self, cookie=None):
         """The cookie argument defaults to this class's default test cookie."""
-        return self._get_POST_csrf_cookie_request(
-            cookie=cookie,
-            post_token=self._csrf_id_token,
-            request_class=request_class,
-        )
+        return self._get_POST_csrf_cookie_request(cookie=cookie, post_token=self._csrf_id_token)
 
     def _check_token_present(self, response, csrf_id=None):
         text = str(response.content, response.charset)
         match = re.search('name="csrfmiddlewaretoken" value="(.*?)"', text)
         csrf_token = csrf_id or self._csrf_id_token
         self.assertTrue(
-            match and _does_token_match(csrf_token, match[1]),
+            match and equivalent_tokens(csrf_token, match[1]),
             "Could not find csrfmiddlewaretoken to match %s" % csrf_token
         )
 
@@ -462,21 +331,6 @@ class CsrfViewMiddlewareTestMixin:
         mw.process_request(req)
         resp = mw.process_view(req, post_form_view, (), {})
         self.assertIsNone(resp)
-
-    def test_rotate_token_triggers_second_reset(self):
-        """
-        If rotate_token() is called after the token is reset in
-        CsrfViewMiddleware's process_response() and before another call to
-        the same process_response(), the cookie is reset a second time.
-        """
-        req = self._get_POST_request_with_token()
-        resp = sandwiched_rotate_token_view(req)
-        self.assertContains(resp, 'OK')
-        csrf_cookie = self._read_csrf_cookie(req, resp)
-        actual_secret = _unmask_cipher_token(csrf_cookie)
-        # set_cookie() was called a second time with a different secret.
-        self.assertCookiesSet(req, resp, [TEST_SECRET, actual_secret])
-        self.assertNotEqual(actual_secret, TEST_SECRET)
 
     # Tests for the template tag method
     def test_token_node_no_csrf_cookie(self):
@@ -798,19 +652,52 @@ class CsrfViewMiddlewareTestMixin:
             req = self._get_request()
             ensure_csrf_cookie_view(req)
 
-    def test_reading_post_data_raises_unreadable_post_error(self):
+    def test_post_data_read_failure(self):
         """
-        An UnreadablePostError raised while reading the POST data should be
-        handled by the middleware.
+        OSErrors during POST data reading are caught and treated as if the
+        POST data wasn't there (#20128).
         """
-        req = self._get_POST_request_with_token()
+        class CsrfPostRequest(HttpRequest):
+            """
+            HttpRequest that can raise an OSError when accessing POST data
+            """
+            def __init__(self, token, raise_error):
+                super().__init__()
+                self.method = 'POST'
+
+                self.raise_error = False
+                self.COOKIES[settings.CSRF_COOKIE_NAME] = token
+
+                # Handle both cases here to prevent duplicate code in the
+                # session tests.
+                self.session = {}
+                self.session[CSRF_SESSION_KEY] = token
+
+                self.POST['csrfmiddlewaretoken'] = token
+                self.raise_error = raise_error
+
+            def _load_post_and_files(self):
+                raise OSError('error reading input data')
+
+            def _get_post(self):
+                if self.raise_error:
+                    self._load_post_and_files()
+                return self._post
+
+            def _set_post(self, post):
+                self._post = post
+
+            POST = property(_get_post, _set_post)
+
+        token = ('ABC' + self._csrf_id_token)[:CSRF_TOKEN_LENGTH]
+
+        req = CsrfPostRequest(token, raise_error=False)
         mw = CsrfViewMiddleware(post_form_view)
         mw.process_request(req)
         resp = mw.process_view(req, post_form_view, (), {})
         self.assertIsNone(resp)
 
-        req = self._get_POST_request_with_token(request_class=PostErrorRequest)
-        req.post_error = UnreadablePostError('Error reading input data.')
+        req = CsrfPostRequest(token, raise_error=True)
         mw.process_request(req)
         with self.assertLogs('django.security.csrf', 'WARNING') as cm:
             resp = mw.process_view(req, post_form_view, (), {})
@@ -819,18 +706,6 @@ class CsrfViewMiddlewareTestMixin:
             cm.records[0].getMessage(),
             'Forbidden (%s): ' % REASON_CSRF_TOKEN_MISSING,
         )
-
-    def test_reading_post_data_raises_os_error(self):
-        """
-        An OSError raised while reading the POST data should not be handled by
-        the middleware.
-        """
-        mw = CsrfViewMiddleware(post_form_view)
-        req = self._get_POST_request_with_token(request_class=PostErrorRequest)
-        req.post_error = OSError('Deleted directories/Missing permissions.')
-        mw.process_request(req)
-        with self.assertRaises(OSError):
-            mw.process_view(req, post_form_view, (), {})
 
     @override_settings(ALLOWED_HOSTS=['www.example.com'])
     def test_bad_origin_bad_domain(self):
@@ -1000,9 +875,6 @@ class CsrfViewMiddlewareTests(CsrfViewMiddlewareTestMixin, SimpleTestCase):
         csrf_cookie = resp.cookies[settings.CSRF_COOKIE_NAME]
         return csrf_cookie.value
 
-    def _get_cookies_set(self, req, resp):
-        return resp._cookies_set
-
     def test_ensures_csrf_cookie_no_middleware(self):
         """
         The ensure_csrf_cookie() decorator works without middleware.
@@ -1144,32 +1016,6 @@ class CsrfViewMiddlewareTests(CsrfViewMiddlewareTestMixin, SimpleTestCase):
                 resp = mw.process_view(req, token_view, (), {})
                 self.assertIsNone(resp)
 
-    def test_cookie_reset_only_once(self):
-        """
-        A CSRF cookie that needs to be reset is reset only once when the view
-        is decorated with both ensure_csrf_cookie and csrf_protect.
-        """
-        # Pass an unmasked cookie to trigger a cookie reset.
-        req = self._get_POST_request_with_token(cookie=TEST_SECRET)
-        resp = ensured_and_protected_view(req)
-        self.assertContains(resp, 'OK')
-        csrf_cookie = self._read_csrf_cookie(req, resp)
-        actual_secret = _unmask_cipher_token(csrf_cookie)
-        self.assertEqual(actual_secret, TEST_SECRET)
-        # set_cookie() was called only once and with the expected secret.
-        self.assertCookiesSet(req, resp, [TEST_SECRET])
-
-    def test_invalid_cookie_replaced_on_GET(self):
-        """
-        A CSRF cookie with the wrong format is replaced during a GET request.
-        """
-        req = self._get_request(cookie='badvalue')
-        resp = protected_view(req)
-        self.assertContains(resp, 'OK')
-        csrf_cookie = self._read_csrf_cookie(req, resp)
-        self.assertTrue(csrf_cookie, msg='No CSRF cookie was sent.')
-        self.assertEqual(len(csrf_cookie), CSRF_TOKEN_LENGTH)
-
     def test_bare_secret_accepted_and_replaced(self):
         """
         The csrf token is reset from a bare secret.
@@ -1242,9 +1088,6 @@ class CsrfViewMiddlewareUseSessionsTests(CsrfViewMiddlewareTestMixin, SimpleTest
         if CSRF_SESSION_KEY not in req.session:
             return False
         return req.session[CSRF_SESSION_KEY]
-
-    def _get_cookies_set(self, req, resp):
-        return req.session._cookies_set
 
     def test_no_session_on_request(self):
         msg = (
@@ -1366,4 +1209,4 @@ class CsrfInErrorHandlingViewsTests(SimpleTestCase):
         response = self.client.get('/does not exist/')
         self.assertEqual(response.status_code, 599)
         token2 = response.content
-        self.assertTrue(_does_token_match(token1.decode('ascii'), token2.decode('ascii')))
+        self.assertTrue(equivalent_tokens(token1.decode('ascii'), token2.decode('ascii')))

@@ -1,6 +1,6 @@
-=================================
-How to create custom model fields
-=================================
+===========================
+Writing custom model fields
+===========================
 
 .. currentmodule:: django.db.models
 

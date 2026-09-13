@@ -1,6 +1,6 @@
-==============================================
-How to create custom ``django-admin`` commands
-==============================================
+========================================
+Writing custom ``django-admin`` commands
+========================================
 
 .. module:: django.core.management
 

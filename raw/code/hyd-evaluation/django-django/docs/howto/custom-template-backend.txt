@@ -1,6 +1,6 @@
-==========================================
-How to implement a custom template backend
-==========================================
+=======================
+Custom template backend
+=======================
 
 Custom backends
 ---------------

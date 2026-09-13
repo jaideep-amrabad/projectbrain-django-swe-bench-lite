@@ -1,6 +1,6 @@
-===================================
-How to write a custom storage class
-===================================
+===============================
+Writing a custom storage system
+===============================
 
 .. currentmodule:: django.core.files.storage
 

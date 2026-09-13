@@ -12,8 +12,7 @@ on:
 
 jobs:
   docs:
-    # OS must be the same as on djangoproject.com.
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     name: docs
     steps:
       - name: Checkout
