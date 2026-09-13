@@ -26,6 +26,30 @@ and only officially support the latest release of each series.
 What's new in Django 4.2
 ========================
 
+Psycopg 3 support
+-----------------
+
+Django now supports `psycopg`_ version 3.1 or higher. To update your code,
+install the `psycopg library`_, you don't need to change the
+:setting:`ENGINE <DATABASE-ENGINE>` as ``django.db.backends.postgresql``
+supports both libraries.
+
+Support for ``psycopg2`` is likely to be deprecated and removed at some point
+in the future.
+
+.. _psycopg: https://www.psycopg.org/psycopg3/
+.. _psycopg library: https://pypi.org/project/psycopg/
+
+Mitigation for the BREACH attack
+--------------------------------
+
+:class:`~django.middleware.gzip.GZipMiddleware` now includes a mitigation for
+the BREACH attack. It will add up to 100 random bytes to gzip responses to make
+BREACH attacks harder. Read more about the mitigation technique in the `Heal
+The Breach (HTB) paper`_.
+
+.. _Heal The Breach (HTB) paper: https://ieeexplore.ieee.org/document/9754554
+
 Minor features
 --------------
 
@@ -121,7 +145,8 @@ Minor features
 :mod:`django.contrib.sitemaps`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* ...
+* The new :meth:`.Sitemap.get_languages_for_item` method allows customizing the
+  list of languages for which the item is displayed.
 
 :mod:`django.contrib.sites`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -261,7 +286,8 @@ Models
 Requests and Responses
 ~~~~~~~~~~~~~~~~~~~~~~
 
-* ...
+* :class:`~django.http.StreamingHttpResponse` now supports async iterators
+  when Django is served via ASGI.
 
 Security
 ~~~~~~~~
@@ -412,6 +438,9 @@ Miscellaneous
 * :djadmin:`inspectdb` now uses ``display_size`` from
   ``DatabaseIntrospection.get_table_description()`` rather than
   ``internal_size`` for ``CharField``.
+
+* The minimum supported version of ``asgiref`` is increased from 3.5.2 to
+  3.6.0.
 
 .. _deprecated-features-4.2:
 
