@@ -1,8 +1,8 @@
-============================================
-Django 3.2 release notes - UNDER DEVELOPMENT
-============================================
+========================
+Django 3.2 release notes
+========================
 
-*Expected April 2021*
+*April 6, 2021*
 
 Welcome to Django 3.2!
 
@@ -299,10 +299,10 @@ Decorators
 Error Reporting
 ~~~~~~~~~~~~~~~
 
-* Custom :class:`~django.views.debug.ExceptionReporter` subclasses can now set
-  the :attr:`~django.views.debug.ExceptionReporter.html_template_path` and
-  :attr:`~django.views.debug.ExceptionReporter.text_template_path` class
-  attributes to override the templates used to render exception reports.
+* Custom :class:`~django.views.debug.ExceptionReporter` subclasses can now
+  define the :attr:`~django.views.debug.ExceptionReporter.html_template_path`
+  and :attr:`~django.views.debug.ExceptionReporter.text_template_path`
+  properties to override the templates used to render exception reports.
 
 File Uploads
 ~~~~~~~~~~~~
@@ -738,6 +738,9 @@ Miscellaneous
 * :class:`~django.contrib.messages.storage.cookie.CookieStorage` now stores
   messages in the :rfc:`6265` compliant format. Support for cookies that use
   the old format remains until Django 4.1.
+
+* The minimum supported version of ``asgiref`` is increased from 3.2.10 to
+  3.3.2.
 
 .. _deprecated-features-3.2:
 

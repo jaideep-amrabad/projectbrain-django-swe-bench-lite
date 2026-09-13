@@ -595,7 +595,18 @@ class DiscoverRunner:
             if tests.countTestCases():
                 return tests
         # Try discovery if "label" is a package or directory.
-        if not is_discoverable(label):
+        is_importable, is_package = try_importing(label)
+        if is_importable:
+            if not is_package:
+                return tests
+        elif not os.path.isdir(label_as_path):
+            if os.path.exists(label_as_path):
+                assert tests is None
+                raise RuntimeError(
+                    f'One of the test labels is a path to a file: {label!r}, '
+                    f'which is not supported. Use a dotted module name '
+                    f'instead.'
+                )
             return tests
 
         kwargs = discover_kwargs.copy()
@@ -774,20 +785,18 @@ class DiscoverRunner:
         return self.suite_result(suite, result)
 
 
-def is_discoverable(label):
+def try_importing(label):
     """
-    Check if a test label points to a Python package or file directory.
+    Try importing a test label, and return (is_importable, is_package).
 
     Relative labels like "." and ".." are seen as directories.
     """
     try:
         mod = import_module(label)
     except (ImportError, TypeError):
-        pass
-    else:
-        return hasattr(mod, '__path__')
+        return (False, False)
 
-    return os.path.isdir(os.path.abspath(label))
+    return (True, hasattr(mod, '__path__'))
 
 
 def find_top_level(top_level):
@@ -852,6 +861,10 @@ def partition_suite_by_case(suite):
 
 
 def test_match_tags(test, tags, exclude_tags):
+    if isinstance(test, unittest.loader._FailedTest):
+        # Tests that couldn't load always match to prevent tests from falsely
+        # passing due e.g. to syntax errors.
+        return True
     test_tags = set(getattr(test, 'tags', []))
     test_fn_name = getattr(test, '_testMethodName', str(test))
     if hasattr(test, test_fn_name):
