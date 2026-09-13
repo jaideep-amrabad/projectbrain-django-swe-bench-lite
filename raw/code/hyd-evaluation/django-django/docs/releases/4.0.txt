@@ -1,8 +1,8 @@
-============================================
-Django 4.0 release notes - UNDER DEVELOPMENT
-============================================
+========================
+Django 4.0 release notes
+========================
 
-*Expected December 2021*
+*December 7, 2021*
 
 Welcome to Django 4.0!
 
@@ -48,10 +48,10 @@ current timezone, conversion of datetime instances to the current timezone in
 forms and templates, as well as operations on aware datetimes in UTC are
 unaffected.
 
-However, if you are you are working with non-UTC time zones, and using the
-``pytz`` ``normalize()`` and ``localize()`` APIs, possibly with the
-:setting:`DATABASE-TIME_ZONE` setting, you will need to audit your code, since
-``pytz`` and ``zoneinfo`` are not entirely equivalent.
+However, if you are working with non-UTC time zones, and using the ``pytz``
+``normalize()`` and ``localize()`` APIs, possibly with the :setting:`TIME_ZONE
+<DATABASE-TIME_ZONE>` setting, you will need to audit your code, since ``pytz``
+and ``zoneinfo`` are not entirely equivalent.
 
 To give time for such an audit, the transitional :setting:`USE_DEPRECATED_PYTZ`
 setting allows continued use of ``pytz`` during the 4.x release cycle. This
@@ -87,7 +87,7 @@ For example::
         last_name = models.CharField(max_length=255)
 
         class Meta:
-            indexes = [
+            constraints = [
                 UniqueConstraint(
                     Lower('first_name'),
                     Lower('last_name').desc(),
@@ -115,6 +115,16 @@ in Django <redis>`.
 
 .. _`redis-py`: https://pypi.org/project/redis/
 
+Template based form rendering
+-----------------------------
+
+:class:`Forms <django.forms.Form>`, :doc:`Formsets </topics/forms/formsets>`,
+and :class:`~django.forms.ErrorList` are now rendered using the template engine
+to enhance customization. See the new :meth:`~django.forms.Form.render`,
+:meth:`~django.forms.Form.get_context`, and
+:attr:`~django.forms.Form.template_name` for ``Form`` and
+:ref:`formset rendering <formset-rendering>` for ``Formset``.
+
 Minor features
 --------------
 
@@ -138,6 +148,8 @@ Minor features
 * The :attr:`.InlineModelAdmin.verbose_name_plural` attribute now fallbacks to
   the :attr:`.InlineModelAdmin.verbose_name` + ``'s'``.
 
+* jQuery is upgraded from version 3.5.1 to 3.6.0.
+
 :mod:`django.contrib.admindocs`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -158,11 +170,6 @@ Minor features
   :meth:`~django.contrib.auth.views.LoginView.get_default_redirect_url` method
   allow customizing the redirect after login.
 
-:mod:`django.contrib.contenttypes`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* ...
-
 :mod:`django.contrib.gis`
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -174,11 +181,6 @@ Minor features
 * The new :class:`~django.contrib.gis.admin.GISModelAdmin` class allows
   customizing the widget used for ``GeometryField``. This is encouraged instead
   of deprecated ``GeoModelAdmin`` and ``OSMGeoAdmin``.
-
-:mod:`django.contrib.messages`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* ...
 
 :mod:`django.contrib.postgres`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -207,26 +209,6 @@ Minor features
   <django.contrib.postgres.search.TrigramWordSimilarity>` expressions allow
   using trigram word similarity.
 
-:mod:`django.contrib.redirects`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* ...
-
-:mod:`django.contrib.sessions`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* ...
-
-:mod:`django.contrib.sitemaps`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* ...
-
-:mod:`django.contrib.sites`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* ...
-
 :mod:`django.contrib.staticfiles`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -234,19 +216,10 @@ Minor features
   replaces paths to JavaScript source map references with their hashed
   counterparts.
 
-* :class:`~django.contrib.staticfiles.storage.ManifestStaticFilesStorage` now
-  replaces paths to JavaScript modules in ``import`` and ``export`` statements
-  with their hashed counterparts.
-
 * The new ``manifest_storage`` argument of
   :class:`~django.contrib.staticfiles.storage.ManifestFilesMixin` and
   :class:`~django.contrib.staticfiles.storage.ManifestStaticFilesStorage`
   allows customizing the manifest file storage.
-
-:mod:`django.contrib.syndication`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* ...
 
 Cache
 ~~~~~
@@ -265,31 +238,6 @@ CSRF
 * CSRF protection now consults the ``Origin`` header, if present. To facilitate
   this, :ref:`some changes <csrf-trusted-origins-changes-4.0>` to the
   :setting:`CSRF_TRUSTED_ORIGINS` setting are required.
-
-Decorators
-~~~~~~~~~~
-
-* ...
-
-Email
-~~~~~
-
-* ...
-
-Error Reporting
-~~~~~~~~~~~~~~~
-
-* ...
-
-File Storage
-~~~~~~~~~~~~
-
-* ...
-
-File Uploads
-~~~~~~~~~~~~
-
-* ...
 
 Forms
 ~~~~~
@@ -311,6 +259,11 @@ Forms
   overriding :meth:`~django.forms.formsets.BaseFormSet.get_deletion_widget`
   method.
 
+Internationalization
+~~~~~~~~~~~~~~~~~~~~
+
+* Added support and translations for the Malay language.
+
 Generic Views
 ~~~~~~~~~~~~~
 
@@ -320,10 +273,9 @@ Generic Views
   deletion. In addition, this allows ``DeleteView`` to function with
   :class:`django.contrib.messages.views.SuccessMessageMixin`.
 
-Internationalization
-~~~~~~~~~~~~~~~~~~~~
-
-* ...
+  In accordance with ``FormMixin``, object deletion for POST requests is
+  handled in ``form_valid()``. Custom delete logic in ``delete()`` handlers
+  should be moved to ``form_valid()``, or a shared helper method, as needed.
 
 Logging
 ~~~~~~~
@@ -351,11 +303,6 @@ Management Commands
 * The new :option:`startapp --exclude` and :option:`startproject --exclude`
   options allow excluding directories from the template.
 
-Migrations
-~~~~~~~~~~
-
-* ...
-
 Models
 ~~~~~~
 
@@ -375,8 +322,9 @@ Models
 
 * :meth:`.QuerySet.bulk_update` now returns the number of objects updated.
 
-* The new :attr:`.Aggregate.empty_aggregate_value` attribute allows specifying
-  a value to return when the aggregation is used over an empty result set.
+* The new :attr:`.Expression.empty_result_set_value` attribute allows
+  specifying a value to return when the function is used over an empty result
+  set.
 
 * The ``skip_locked`` argument of :meth:`.QuerySet.select_for_update()` is now
   allowed on MariaDB 10.6+.
@@ -396,16 +344,6 @@ Requests and Responses
   value of ``'same-origin'`` to prevent cross-origin popups from sharing the
   same browsing context. You can prevent this header from being added by
   setting the :setting:`SECURE_CROSS_ORIGIN_OPENER_POLICY` setting to ``None``.
-
-Security
-~~~~~~~~
-
-* ...
-
-Serialization
-~~~~~~~~~~~~~
-
-* ...
 
 Signals
 ~~~~~~~
@@ -449,21 +387,6 @@ Tests
 * :meth:`.TestCase.captureOnCommitCallbacks` now captures new callbacks added
   while executing :func:`.transaction.on_commit` callbacks.
 
-URLs
-~~~~
-
-* ...
-
-Utilities
-~~~~~~~~~
-
-* ...
-
-Validators
-~~~~~~~~~~
-
-* ...
-
 .. _backwards-incompatible-4.0:
 
 Backwards incompatible changes in 4.0
@@ -481,7 +404,7 @@ backends.
   years.
 
 * The second argument of ``DatabaseSchemaEditor._unique_sql()`` and
-  ``_create_unique_sql()`` methods is now fields instead of columns.
+  ``_create_unique_sql()`` methods is now ``fields`` instead of ``columns``.
 
 :mod:`django.contrib.gis`
 -------------------------
@@ -495,6 +418,9 @@ Dropped support for PostgreSQL 9.6
 
 Upstream support for PostgreSQL 9.6 ends in November 2021. Django 4.0 supports
 PostgreSQL 10 and higher.
+
+Also, the minimum supported version of ``psycopg2`` is increased from 2.5.4 to
+2.8.4, as ``psycopg2`` 2.8.4 is the first release to support Python 3.8.
 
 Dropped support for Oracle 12.2 and 18c
 ---------------------------------------
@@ -558,6 +484,23 @@ As a side-effect, running ``makemigrations`` might generate no-op
 ``AlterField`` operations for ``ManyToManyField`` and ``ForeignKey`` fields in
 some cases.
 
+``DeleteView`` changes
+----------------------
+
+:class:`~django.views.generic.edit.DeleteView` now uses
+:class:`~django.views.generic.edit.FormMixin` to handle POST requests. As a
+consequence, any custom deletion logic in ``delete()`` handlers should be
+moved to ``form_valid()``, or a shared helper method, if required.
+
+Table and column naming scheme changes on Oracle
+------------------------------------------------
+
+Django 4.0 inadvertently changed the table and column naming scheme on Oracle.
+This causes errors for models and fields with names longer than 30 characters.
+Unfortunately, renaming some Oracle tables and columns is required. Use the
+upgrade script in :ticket:`33789 <33789#comment:15>` to generate ``RENAME``
+statements to change naming scheme.
+
 Miscellaneous
 -------------
 
@@ -603,8 +546,8 @@ Miscellaneous
   ``log_change()``, and ``log_deletion()`` methods is renamed to ``obj``.
 
 * :class:`~django.utils.feedgenerator.RssFeed`,
-  :class:`~django.utils.feedgenerator.Atom1Feed`, and their subclasses now
-  emit elements with no content as self-closing tags.
+  :class:`~django.utils.feedgenerator.Atom1Feed`, and their subclasses now emit
+  elements with no content as self-closing tags.
 
 * ``NodeList.render()`` no longer casts the output of ``render()`` method for
   individual nodes to a string. ``Node.render()`` should always return a string
@@ -650,6 +593,9 @@ Miscellaneous
   :attr:`django.utils.timezone.utc` is changed to alias
   :attr:`datetime.timezone.utc`.
 
+* The minimum supported version of ``asgiref`` is increased from 3.3.2 to
+  3.4.1.
+
 .. _deprecated-features-4.0:
 
 Features deprecated in 4.0
@@ -663,17 +609,17 @@ zones is deprecated.
 
 Accordingly, the ``is_dst`` arguments to the following are also deprecated:
 
-* :meth:`django.db.models.query.QuerySet.datetimes()`
-* :func:`django.db.models.functions.Trunc()`
-* :func:`django.db.models.functions.TruncSecond()`
-* :func:`django.db.models.functions.TruncMinute()`
-* :func:`django.db.models.functions.TruncHour()`
-* :func:`django.db.models.functions.TruncDay()`
-* :func:`django.db.models.functions.TruncWeek()`
-* :func:`django.db.models.functions.TruncMonth()`
-* :func:`django.db.models.functions.TruncQuarter()`
-* :func:`django.db.models.functions.TruncYear()`
-* :func:`django.utils.timezone.make_aware()`
+* :meth:`django.db.models.query.QuerySet.datetimes`
+* :func:`django.db.models.functions.Trunc`
+* :func:`django.db.models.functions.TruncSecond`
+* :func:`django.db.models.functions.TruncMinute`
+* :func:`django.db.models.functions.TruncHour`
+* :func:`django.db.models.functions.TruncDay`
+* :func:`django.db.models.functions.TruncWeek`
+* :func:`django.db.models.functions.TruncMonth`
+* :func:`django.db.models.functions.TruncQuarter`
+* :func:`django.db.models.functions.TruncYear`
+* :func:`django.utils.timezone.make_aware`
 
 Support for use of ``pytz`` will be removed in Django 5.0.
 
@@ -732,6 +678,12 @@ Miscellaneous
 * The ``django.contrib.gis.admin.GeoModelAdmin`` and ``OSMGeoAdmin`` classes
   are deprecated. Use :class:`~django.contrib.admin.ModelAdmin` and
   :class:`~django.contrib.gis.admin.GISModelAdmin` instead.
+
+* Since form rendering now uses the template engine, the undocumented
+  ``BaseForm._html_output()`` helper method is deprecated.
+
+* The ability to return a ``str`` from ``ErrorList`` and ``ErrorDict`` is
+  deprecated. It is expected these methods return a ``SafeString``.
 
 Features removed in 4.0
 =======================

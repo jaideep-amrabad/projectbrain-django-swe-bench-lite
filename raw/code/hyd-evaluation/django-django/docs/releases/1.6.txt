@@ -74,7 +74,7 @@ Persistent database connections
 -------------------------------
 
 Django now supports reusing the same database connection for several requests.
-This avoids the overhead of re-establishing a connection at the beginning of
+This avoids the overhead of reestablishing a connection at the beginning of
 each request. For backwards compatibility, this feature is disabled by
 default. See :ref:`persistent-database-connections` for details.
 
@@ -946,7 +946,7 @@ Miscellaneous
   with ``localhost`` as the domain.
 
 * The new :option:`makemessages --keep-pot` option prevents deleting the
-  temporary .pot file generated before creating the .po file.
+  temporary ``.pot`` file generated before creating the ``.po`` file.
 
 * The undocumented ``django.core.servers.basehttp.WSGIServerException`` has
   been removed. Use ``socket.error`` provided by the standard library instead.

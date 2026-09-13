@@ -363,8 +363,6 @@ progress bar is shown in the terminal.
 Fixtures compression
 ~~~~~~~~~~~~~~~~~~~~
 
-.. versionadded:: 3.2
-
 The output file can be compressed with one of the ``bz2``, ``gz``, ``lzma``, or
 ``xz`` formats by ending the filename with the corresponding extension.
 For example, to output the data as a compressed JSON file::
@@ -379,7 +377,7 @@ For example, to output the data as a compressed JSON file::
 Removes all data from the database and re-executes any post-synchronization
 handlers. The table of which migrations have been applied is not cleared.
 
-If you would rather start from an empty database and re-run all migrations, you
+If you would rather start from an empty database and rerun all migrations, you
 should drop and recreate the database and then run :djadmin:`migrate` instead.
 
 .. django-admin-option:: --noinput, --no-input
@@ -627,10 +625,6 @@ installation will be aborted, and any data installed in the call to
     constraints, so if you use MyISAM, you won't get validation of fixture
     data, or a rollback if multiple transaction files are found.
 
-.. versionchanged:: 3.2
-
-    Support for XZ archives (``.xz``) and LZMA archives (``.lzma``) was added.
-
 Database-specific fixtures
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -638,10 +632,10 @@ If you're in a multi-database setup, you might have fixture data that
 you want to load onto one database, but not onto another. In this
 situation, you can add a database identifier into the names of your fixtures.
 
-For example, if your :setting:`DATABASES` setting has a 'master' database
-defined, name the fixture ``mydata.master.json`` or
-``mydata.master.json.gz`` and the fixture will only be loaded when you
-specify you want to load data into the ``master`` database.
+For example, if your :setting:`DATABASES` setting has a 'users' database
+defined, name the fixture ``mydata.users.json`` or
+``mydata.users.json.gz`` and the fixture will only be loaded when you
+specify you want to load data into the ``users`` database.
 
 .. _loading-fixtures-stdin:
 
@@ -831,11 +825,19 @@ Generate migration files without Django version and timestamp header.
 Makes ``makemigrations`` exit with a non-zero status when model changes without
 migrations are detected.
 
-.. versionchanged:: 3.2
+.. django-admin-option:: --scriptable
 
-    Support for calling ``makemigrations`` without an active database
-    connection was added. In that case, check for a consistent migration
-    history is skipped.
+.. versionadded:: 4.1
+
+Diverts log output and input prompts to ``stderr``, writing only paths of
+generated migration files to ``stdout``.
+
+.. django-admin-option:: --update
+
+.. versionadded:: 4.2
+
+Merges model changes into the latest migration and optimize the resulting
+operations.
 
 ``migrate``
 -----------
@@ -912,6 +914,31 @@ content types.
 
 Makes ``migrate`` exit with a non-zero status when unapplied migrations are
 detected.
+
+.. django-admin-option:: --prune
+
+.. versionadded:: 4.1
+
+Deletes nonexistent migrations from the ``django_migrations`` table. This is
+useful when migration files replaced by a squashed migration have been removed.
+See :ref:`migration-squashing` for more details.
+
+``optimizemigration``
+---------------------
+
+.. versionadded:: 4.1
+
+.. django-admin:: optimizemigration app_label migration_name
+
+Optimizes the operations for the named migration and overrides the existing
+file. If the migration contains functions that must be manually copied, the
+command creates a new migration file suffixed with ``_optimized`` that is meant
+to replace the named migration.
+
+.. django-admin-option:: --check
+
+Makes ``optimizemigration`` exit with a non-zero status when a migration can be
+optimized.
 
 ``runserver``
 -------------
@@ -1006,10 +1033,6 @@ multithreaded by default.
 
 Uses IPv6 for the development server. This changes the default IP address from
 ``127.0.0.1`` to ``::1``.
-
-.. versionchanged:: 4.0
-
-    Support for the ``--skip-checks`` option was added.
 
 Examples of using different ports and addresses
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1291,7 +1314,7 @@ fly.
 For example, taking advantage of GitHub's feature to expose repositories as
 zip files, you can use a URL like::
 
-    django-admin startapp --template=https://github.com/githubuser/django-app-template/archive/master.zip myapp
+    django-admin startapp --template=https://github.com/githubuser/django-app-template/archive/main.zip myapp
 
 .. django-admin-option:: --extension EXTENSIONS, -e EXTENSIONS
 
@@ -1305,8 +1328,6 @@ Specifies which files in the app template (in addition to those matching
 empty list.
 
 .. django-admin-option:: --exclude DIRECTORIES, -x DIRECTORIES
-
-.. versionadded:: 4.0
 
 Specifies which directories in the app template should be excluded, in addition
 to ``.git`` and ``__pycache__``. If this option is not provided, directories
@@ -1383,8 +1404,6 @@ empty list.
 
 .. django-admin-option:: --exclude DIRECTORIES, -x DIRECTORIES
 
-.. versionadded:: 4.0
-
 Specifies which directories in the project template should be excluded, in
 addition to ``.git`` and ``__pycache__``. If this option is not provided,
 directories named ``__pycache__`` or starting with ``.`` will be excluded.
@@ -1442,8 +1461,6 @@ subsequent run. Unless the :setting:`MIGRATE <TEST_MIGRATE>` test setting is
 before running the test suite.
 
 .. django-admin-option:: --shuffle [SEED]
-
-.. versionadded:: 4.0
 
 Randomizes the order of tests before running them. This can help detect tests
 that aren't properly isolated. The test order generated by this option is a
@@ -1528,20 +1545,12 @@ don't.
     in order to exchange them between processes. See
     :ref:`python:pickle-picklable` for details.
 
-.. versionchanged:: 4.0
-
-    Support for the value ``auto`` was added.
-
 .. option:: --tag TAGS
 
 Runs only tests :ref:`marked with the specified tags <topics-tagging-tests>`.
 May be specified multiple times and combined with :option:`test --exclude-tag`.
 
 Tests that fail to load are always considered matching.
-
-.. versionchanged:: 4.0
-
-    In older versions, tests that failed to load did not match tags.
 
 .. option:: --exclude-tag EXCLUDE_TAGS
 
@@ -1565,15 +1574,11 @@ as :option:`unittest's --buffer option<unittest.-b>`.
 
 .. django-admin-option:: --no-faulthandler
 
-.. versionadded:: 3.2
-
 Django automatically calls :func:`faulthandler.enable()` when starting the
 tests, which allows it to print a traceback if the interpreter crashes. Pass
 ``--no-faulthandler`` to disable this behavior.
 
 .. django-admin-option:: --timing
-
-.. versionadded:: 3.2
 
 Outputs timings, including database setup and total run time.
 
@@ -1940,10 +1945,6 @@ but which are not automatically detected as supported by Django, may "fake" the
 installation of ``ANSICON`` by setting the appropriate environmental variable,
 ``ANSICON="on"``.
 
-.. versionchanged:: 3.2
-
-    Updated support for syntax coloring on Windows.
-
 .. _`Windows Terminal`: https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701
 .. _`VS Code`: https://code.visualstudio.com
 .. _ANSICON: http://adoxa.altervista.org/ansicon/
@@ -2044,7 +2045,7 @@ Bash completion
 ---------------
 
 If you use the Bash shell, consider installing the Django bash completion
-script, which lives in ``extras/django_bash_completion`` in the Django source
+script, which lives in :source:`extras/django_bash_completion` in the Django source
 distribution. It enables tab-completion of ``django-admin`` and
 ``manage.py`` commands, so you can, for instance...
 
@@ -2054,6 +2055,25 @@ distribution. It enables tab-completion of ``django-admin`` and
   with ``sql``.
 
 See :doc:`/howto/custom-management-commands` for how to add customized actions.
+
+Black formatting
+----------------
+
+.. versionadded:: 4.1
+
+The Python files created by :djadmin:`startproject`, :djadmin:`startapp`,
+:djadmin:`optimizemigration`, :djadmin:`makemigrations`, and
+:djadmin:`squashmigrations` are formatted using the ``black`` command if it is
+present on your ``PATH``.
+
+If you have ``black`` globally installed, but do not wish it used for the
+current project, you can set the ``PATH`` explicitly::
+
+    PATH=path/to/venv/bin django-admin makemigrations
+
+For commands using ``stdout`` you can pipe the output to ``black`` if needed::
+
+    django-admin inspectdb | black -
 
 ==========================================
 Running management commands from your code

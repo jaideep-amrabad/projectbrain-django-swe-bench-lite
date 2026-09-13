@@ -72,11 +72,6 @@ Adds a few conveniences for perfectionists:
         """View to be excluded from APPEND_SLASH."""
         return HttpResponse()
 
-  .. versionchanged:: 3.2
-
-    Support for the :func:`~django.views.decorators.common.no_append_slash`
-    decorator was added.
-
 * Sets the ``Content-Length`` header for non-streaming responses.
 
 .. attribute:: CommonMiddleware.response_redirect_class
@@ -302,10 +297,11 @@ for:
 
 .. warning::
     When your site is served via HTTPS, :ref:`Django's CSRF protection system
-    <using-csrf>` requires the ``Referer`` header to be present, so completely
-    disabling the ``Referer`` header will interfere with CSRF protection. To
-    gain most of the benefits of disabling ``Referer`` headers while also
-    keeping CSRF protection, consider enabling only same-origin referrers.
+    <how-csrf-works>` requires the ``Referer`` header to be present, so
+    completely disabling the ``Referer`` header will interfere with CSRF
+    protection. To gain most of the benefits of disabling ``Referer`` headers
+    while also keeping CSRF protection, consider enabling only same-origin
+    referrers.
 
 ``SecurityMiddleware`` can set the ``Referrer-Policy`` header for you, based on
 the :setting:`SECURE_REFERRER_POLICY` setting (note spelling: browsers send a
@@ -358,8 +354,6 @@ this setting are:
 
 Cross-Origin Opener Policy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. versionadded:: 4.0
 
 Some browsers have the ability to isolate top-level windows from other
 documents by putting them in a separate browsing context group based on the
