@@ -58,6 +58,13 @@ For example::
 Functional unique constraints are added to models using the
 :attr:`Meta.constraints <django.db.models.Options.constraints>` option.
 
+``scrypt`` password hasher
+--------------------------
+
+The new :ref:`scrypt password hasher <scrypt-usage>` is more secure and
+recommended over PBKDF2. However, it's not the default as it requires OpenSSL
+1.1+ and more memory.
+
 Minor features
 --------------
 
@@ -503,6 +510,11 @@ Miscellaneous
 * ``NodeList.render()`` no longer casts the output of ``render()`` method for
   individual nodes to a string. ``Node.render()`` should always return a string
   as documented.
+
+* The ``where_class`` property of ``django.db.models.sql.query.Query`` and the
+  ``where_class`` argument to the private ``get_extra_restriction()`` method of
+  ``ForeignObject`` and ``ForeignObjectRel`` are removed. If needed, initialize
+  ``django.db.models.sql.where.WhereNode`` instead.
 
 .. _deprecated-features-4.0:
 
