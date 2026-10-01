@@ -11,7 +11,6 @@ you quickly accomplish common tasks.
    :maxdepth: 1
 
    auth-remote-user
-   csrf
    custom-management-commands
    custom-model-fields
    custom-lookups

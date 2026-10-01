@@ -7,4 +7,6 @@ class Migration(migrations.Migration):
         ("migrations", "0003_third"),
     ]
 
-    operations = [migrations.RunSQL("SELECT * FROM migrations_author WHERE id = 1")]
+    operations = [
+        migrations.RunSQL('SELECT * FROM migrations_author WHERE id = 1')
+    ]

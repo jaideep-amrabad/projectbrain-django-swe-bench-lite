@@ -36,8 +36,10 @@ function GeometryTypeControl(opt_options) {
 ol.inherits(GeometryTypeControl, ol.control.Control);
 
 // TODO: allow deleting individual features (#8972)
-class MapWidget {
-    constructor(options) {
+{
+    const jsonFormat = new ol.format.GeoJSON();
+
+    function MapWidget(options) {
         this.map = null;
         this.interactions = {draw: null, modify: null};
         this.typeChoices = false;
@@ -61,11 +63,6 @@ class MapWidget {
             this.options.base_layer = new ol.layer.Tile({source: new ol.source.OSM()});
         }
 
-        // RemovedInDjango51Warning: when the deprecation ends, remove setting
-        // width/height (3 lines below).
-        const mapContainer = document.getElementById(this.options.map_id);
-        mapContainer.style.width = `${mapContainer.dataset.width}px`;
-        mapContainer.style.height = `${mapContainer.dataset.height}px`;
         this.map = this.createMap();
         this.featureCollection = new ol.Collection();
         this.featureOverlay = new ol.layer.Vector({
@@ -95,7 +92,6 @@ class MapWidget {
 
         const initial_value = document.getElementById(this.options.id).value;
         if (initial_value) {
-            const jsonFormat = new ol.format.GeoJSON();
             const features = jsonFormat.readFeatures('{"type": "Feature", "geometry": ' + initial_value + '}');
             const extent = ol.extent.createEmpty();
             features.forEach(function(feature) {
@@ -103,7 +99,7 @@ class MapWidget {
                 ol.extent.extend(extent, feature.getGeometry().getExtent());
             }, this);
             // Center/zoom the map
-            this.map.getView().fit(extent, {minResolution: 1});
+            this.map.getView().fit(extent, {maxZoom: this.options.default_zoom});
         } else {
             this.map.getView().setCenter(this.defaultCenter());
         }
@@ -111,27 +107,21 @@ class MapWidget {
         if (initial_value && !this.options.is_collection) {
             this.disableDrawing();
         }
-        const clearNode = document.getElementById(this.map.getTarget()).nextElementSibling;
-        if (clearNode.classList.contains('clear_features')) {
-            clearNode.querySelector('a').addEventListener('click', (ev) => {
-                ev.preventDefault();
-                self.clearFeatures();
-            });
-        }
         this.ready = true;
     }
 
-    createMap() {
-        return new ol.Map({
+    MapWidget.prototype.createMap = function() {
+        const map = new ol.Map({
             target: this.options.map_id,
             layers: [this.options.base_layer],
             view: new ol.View({
                 zoom: this.options.default_zoom
             })
         });
-    }
+        return map;
+    };
 
-    createInteractions() {
+    MapWidget.prototype.createInteractions = function() {
         // Initialize the modify interaction
         this.interactions.modify = new ol.interaction.Modify({
             features: this.featureCollection,
@@ -159,17 +149,17 @@ class MapWidget {
 
         this.map.addInteraction(this.interactions.draw);
         this.map.addInteraction(this.interactions.modify);
-    }
+    };
 
-    defaultCenter() {
+    MapWidget.prototype.defaultCenter = function() {
         const center = [this.options.default_lon, this.options.default_lat];
         if (this.options.map_srid) {
             return ol.proj.transform(center, 'EPSG:4326', this.map.getView().getProjection());
         }
         return center;
-    }
+    };
 
-    enableDrawing() {
+    MapWidget.prototype.enableDrawing = function() {
         this.interactions.draw.setActive(true);
         if (this.typeChoices) {
             // Show geometry type icons
@@ -178,9 +168,9 @@ class MapWidget {
                 divs[i].style.visibility = "visible";
             }
         }
-    }
+    };
 
-    disableDrawing() {
+    MapWidget.prototype.disableDrawing = function() {
         if (this.interactions.draw) {
             this.interactions.draw.setActive(false);
             if (this.typeChoices) {
@@ -191,16 +181,16 @@ class MapWidget {
                 }
             }
         }
-    }
+    };
 
-    clearFeatures() {
+    MapWidget.prototype.clearFeatures = function() {
         this.featureCollection.clear();
         // Empty textarea widget
         document.getElementById(this.options.id).value = '';
         this.enableDrawing();
-    }
+    };
 
-    serializeFeatures() {
+    MapWidget.prototype.serializeFeatures = function() {
         // Three use cases: GeometryCollection, multigeometries, and single geometry
         let geometry = null;
         const features = this.featureOverlay.getSource().getFeatures();
@@ -231,7 +221,8 @@ class MapWidget {
                 geometry = features[0].getGeometry();
             }
         }
-        const jsonFormat = new ol.format.GeoJSON();
         document.getElementById(this.options.id).value = jsonFormat.writeGeometry(geometry);
-    }
+    };
+
+    window.MapWidget = MapWidget;
 }

@@ -4,6 +4,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     operations = [
+
         migrations.CreateModel(
             "Author",
             [
@@ -14,11 +15,13 @@ class Migration(migrations.Migration):
                 ("silly_field", models.BooleanField(default=False)),
             ],
         ),
+
         migrations.CreateModel(
             "Tribble",
             [
                 ("id", models.AutoField(primary_key=True)),
                 ("fluffy", models.BooleanField(default=True)),
             ],
-        ),
+        )
+
     ]

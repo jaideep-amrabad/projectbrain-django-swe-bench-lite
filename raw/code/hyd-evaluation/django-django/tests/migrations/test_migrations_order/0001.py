@@ -5,4 +5,5 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    operations = []
+    operations = [
+    ]

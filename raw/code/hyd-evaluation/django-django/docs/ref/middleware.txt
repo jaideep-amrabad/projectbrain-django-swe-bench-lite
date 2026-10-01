@@ -72,6 +72,11 @@ Adds a few conveniences for perfectionists:
         """View to be excluded from APPEND_SLASH."""
         return HttpResponse()
 
+  .. versionchanged:: 3.2
+
+    Support for the :func:`~django.views.decorators.common.no_append_slash`
+    decorator was added.
+
 * Sets the ``Content-Length`` header for non-streaming responses.
 
 .. attribute:: CommonMiddleware.response_redirect_class
@@ -93,33 +98,18 @@ GZip middleware
 
 .. class:: GZipMiddleware
 
-    .. attribute:: max_random_bytes
+.. warning::
 
-        Defaults to 100. Subclass ``GZipMiddleware`` and override the attribute
-        to change the maximum number of random bytes that is included with
-        compressed responses.
+    Security researchers recently revealed that when compression techniques
+    (including ``GZipMiddleware``) are used on a website, the site may become
+    exposed to a number of possible attacks. Before using ``GZipMiddleware`` on
+    your site, you should consider very carefully whether you are subject to
+    these attacks. If you're in *any* doubt about whether you're affected, you
+    should avoid using ``GZipMiddleware``. For more details, see the `the BREACH
+    paper (PDF)`_ and `breachattack.com`_.
 
-.. note::
-
-    Security researchers revealed that when compression techniques (including
-    ``GZipMiddleware``) are used on a website, the site may become exposed to a
-    number of possible attacks.
-
-    To mitigate attacks, Django implements a technique called *Heal The Breach
-    (HTB)*. It adds up to 100 bytes (see
-    :attr:`.max_random_bytes`) of random bytes to each response
-    to make the attacks less effective.
-
-    For more details, see the `BREACH paper (PDF)`_, `breachattack.com`_, and
-    the `Heal The Breach (HTB) paper`_.
-
-    .. _BREACH paper (PDF): https://www.breachattack.com/resources/BREACH%20-%20SSL,%20gone%20in%2030%20seconds.pdf
-    .. _breachattack.com: https://www.breachattack.com/
-    .. _Heal The Breach (HTB) paper: https://ieeexplore.ieee.org/document/9754554
-
-.. versionchanged:: 4.2
-
-    Mitigation for the BREACH attack was added.
+    .. _the BREACH paper (PDF): http://breachattack.com/resources/BREACH%20-%20SSL,%20gone%20in%2030%20seconds.pdf
+    .. _breachattack.com: http://breachattack.com
 
 The ``django.middleware.gzip.GZipMiddleware`` compresses content for browsers
 that understand GZip compression (all modern browsers).
@@ -137,7 +127,7 @@ It will NOT compress content if any of the following are true:
   containing ``gzip``.
 
 If the response has an ``ETag`` header, the ETag is made weak to comply with
-:rfc:`9110#section-8.8.1`.
+:rfc:`7232#section-2.1`.
 
 You can apply GZip compression to individual views using the
 :func:`~django.views.decorators.gzip.gzip_page()` decorator.
@@ -312,11 +302,10 @@ for:
 
 .. warning::
     When your site is served via HTTPS, :ref:`Django's CSRF protection system
-    <how-csrf-works>` requires the ``Referer`` header to be present, so
-    completely disabling the ``Referer`` header will interfere with CSRF
-    protection. To gain most of the benefits of disabling ``Referer`` headers
-    while also keeping CSRF protection, consider enabling only same-origin
-    referrers.
+    <using-csrf>` requires the ``Referer`` header to be present, so completely
+    disabling the ``Referer`` header will interfere with CSRF protection. To
+    gain most of the benefits of disabling ``Referer`` headers while also
+    keeping CSRF protection, consider enabling only same-origin referrers.
 
 ``SecurityMiddleware`` can set the ``Referrer-Policy`` header for you, based on
 the :setting:`SECURE_REFERRER_POLICY` setting (note spelling: browsers send a
@@ -369,6 +358,8 @@ this setting are:
 
 Cross-Origin Opener Policy
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. versionadded:: 4.0
 
 Some browsers have the ability to isolate top-level windows from other
 documents by putting them in a separate browsing context group based on the

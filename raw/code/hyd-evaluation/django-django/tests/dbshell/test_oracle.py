@@ -5,20 +5,18 @@ from django.db.backends.oracle.client import DatabaseClient
 from django.test import SimpleTestCase
 
 
-@skipUnless(connection.vendor == "oracle", "Requires cx_Oracle to be installed")
+@skipUnless(connection.vendor == 'oracle', 'Requires cx_Oracle to be installed')
 class OracleDbshellTests(SimpleTestCase):
     def settings_to_cmd_args_env(self, settings_dict, parameters=None, rlwrap=False):
         if parameters is None:
             parameters = []
-        with mock.patch(
-            "shutil.which", return_value="/usr/bin/rlwrap" if rlwrap else None
-        ):
+        with mock.patch('shutil.which', return_value='/usr/bin/rlwrap' if rlwrap else None):
             return DatabaseClient.settings_to_cmd_args_env(settings_dict, parameters)
 
     def test_without_rlwrap(self):
         expected_args = [
-            "sqlplus",
-            "-L",
+            'sqlplus',
+            '-L',
             connection.client.connect_string(connection.settings_dict),
         ]
         self.assertEqual(
@@ -28,9 +26,9 @@ class OracleDbshellTests(SimpleTestCase):
 
     def test_with_rlwrap(self):
         expected_args = [
-            "/usr/bin/rlwrap",
-            "sqlplus",
-            "-L",
+            '/usr/bin/rlwrap',
+            'sqlplus',
+            '-L',
             connection.client.connect_string(connection.settings_dict),
         ]
         self.assertEqual(
@@ -40,15 +38,15 @@ class OracleDbshellTests(SimpleTestCase):
 
     def test_parameters(self):
         expected_args = [
-            "sqlplus",
-            "-L",
+            'sqlplus',
+            '-L',
             connection.client.connect_string(connection.settings_dict),
-            "-HELP",
+            '-HELP',
         ]
         self.assertEqual(
             self.settings_to_cmd_args_env(
                 connection.settings_dict,
-                parameters=["-HELP"],
+                parameters=['-HELP'],
             ),
             (expected_args, None),
         )

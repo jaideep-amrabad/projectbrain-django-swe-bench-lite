@@ -23,7 +23,6 @@ class Person(models.Model):
     """
     A simple concrete base class.
     """
-
     name = models.CharField(max_length=50)
 
     objects = PersonManager()
@@ -36,7 +35,6 @@ class Abstract(models.Model):
     """
     A simple abstract base class, to be used for error checking.
     """
-
     data = models.CharField(max_length=10)
 
     class Meta:
@@ -48,11 +46,12 @@ class MyPerson(Person):
     A proxy subclass, this should not get a new table. Overrides the default
     manager.
     """
-
     class Meta:
         proxy = True
         ordering = ["name"]
-        permissions = (("display_users", "May display users information"),)
+        permissions = (
+            ("display_users", "May display users information"),
+        )
 
     objects = SubManager()
     other = PersonManager()
@@ -72,7 +71,6 @@ class OtherPerson(Person, ManagerMixin):
     """
     A class with the default manager from Person, plus a secondary manager.
     """
-
     class Meta:
         proxy = True
         ordering = ["name"]
@@ -82,11 +80,9 @@ class StatusPerson(MyPerson):
     """
     A non-proxy subclass of a proxy, it should get a new table.
     """
-
     status = models.CharField(max_length=80)
 
     objects = models.Manager()
-
 
 # We can even have proxies of proxies (and subclass of those).
 
@@ -128,7 +124,6 @@ class MultiUserProxy(UserProxy, AnotherUserProxy):
     class Meta:
         proxy = True
 
-
 # We can still use `select_related()` to include related models in our querysets.
 
 
@@ -148,7 +143,6 @@ class StateProxy(State):
     class Meta:
         proxy = True
 
-
 # Proxy models still works with filters (on related fields)
 # and select_related, even when mixed with model inheritance
 
@@ -157,12 +151,7 @@ class BaseUser(models.Model):
     name = models.CharField(max_length=255)
 
     def __str__(self):
-        return ":".join(
-            (
-                self.__class__.__name__,
-                self.name,
-            )
-        )
+        return ':'.join((self.__class__.__name__, self.name,))
 
 
 class TrackerUser(BaseUser):
@@ -176,17 +165,10 @@ class ProxyTrackerUser(TrackerUser):
 
 class Issue(models.Model):
     summary = models.CharField(max_length=255)
-    assignee = models.ForeignKey(
-        ProxyTrackerUser, models.CASCADE, related_name="issues"
-    )
+    assignee = models.ForeignKey(ProxyTrackerUser, models.CASCADE, related_name='issues')
 
     def __str__(self):
-        return ":".join(
-            (
-                self.__class__.__name__,
-                self.summary,
-            )
-        )
+        return ':'.join((self.__class__.__name__, self.summary,))
 
 
 class Bug(Issue):
@@ -198,7 +180,6 @@ class ProxyBug(Bug):
     """
     Proxy of an inherited class
     """
-
     class Meta:
         proxy = True
 
@@ -207,7 +188,6 @@ class ProxyProxyBug(ProxyBug):
     """
     A proxy of proxy model with related field
     """
-
     class Meta:
         proxy = True
 
@@ -217,7 +197,6 @@ class Improvement(Issue):
     A model that has relation to a proxy model
     or to a proxy of proxy model
     """
-
     version = models.CharField(max_length=50)
     reporter = models.ForeignKey(ProxyTrackerUser, models.CASCADE)
     associated_bug = models.ForeignKey(ProxyProxyBug, models.CASCADE)

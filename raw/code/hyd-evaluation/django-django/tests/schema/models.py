@@ -62,13 +62,22 @@ class AuthorWithUniqueName(models.Model):
         apps = new_apps
 
 
+class AuthorWithIndexedNameAndBirthday(models.Model):
+    name = models.CharField(max_length=255)
+    birthday = models.DateField()
+
+    class Meta:
+        apps = new_apps
+        index_together = [['name', 'birthday']]
+
+
 class AuthorWithUniqueNameAndBirthday(models.Model):
     name = models.CharField(max_length=255)
     birthday = models.DateField()
 
     class Meta:
         apps = new_apps
-        unique_together = [["name", "birthday"]]
+        unique_together = [['name', 'birthday']]
 
 
 class Book(models.Model):
@@ -171,6 +180,15 @@ class Tag(models.Model):
         apps = new_apps
 
 
+class TagIndexed(models.Model):
+    title = models.CharField(max_length=255)
+    slug = models.SlugField(unique=True)
+
+    class Meta:
+        apps = new_apps
+        index_together = [["slug", "title"]]
+
+
 class TagM2MTest(models.Model):
     title = models.CharField(max_length=255)
     slug = models.SlugField(unique=True)
@@ -194,7 +212,7 @@ class Thing(models.Model):
 
     class Meta:
         apps = new_apps
-        db_table = "drop"
+        db_table = 'drop'
 
     def __str__(self):
         return self.when
@@ -211,7 +229,7 @@ class UniqueTest(models.Model):
 
 class Node(models.Model):
     node_id = models.AutoField(primary_key=True)
-    parent = models.ForeignKey("self", models.CASCADE, null=True, blank=True)
+    parent = models.ForeignKey('self', models.CASCADE, null=True, blank=True)
 
     class Meta:
         apps = new_apps
