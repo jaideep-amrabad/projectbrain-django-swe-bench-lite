@@ -16,7 +16,7 @@ from django.db.models import (
 )
 from django.db.models.fields.json import KeyTextTransform
 from django.db.models.functions import Cast, Left, Lower
-from django.test import ignore_warnings, modify_settings, skipUnlessDBFeature
+from django.test import ignore_warnings, skipUnlessDBFeature
 from django.test.utils import isolate_apps
 from django.utils import timezone
 from django.utils.deprecation import RemovedInDjango50Warning
@@ -25,19 +25,17 @@ from . import PostgreSQLTestCase
 from .models import HotelReservation, IntegerArrayModel, RangesModel, Room, Scene
 
 try:
-    from psycopg2.extras import DateRange, NumericRange
-
     from django.contrib.postgres.constraints import ExclusionConstraint
     from django.contrib.postgres.fields import (
         DateTimeRangeField,
         RangeBoundary,
         RangeOperators,
     )
+    from django.db.backends.postgresql.psycopg_any import DateRange, NumericRange
 except ImportError:
     pass
 
 
-@modify_settings(INSTALLED_APPS={"append": "django.contrib.postgres"})
 class SchemaTests(PostgreSQLTestCase):
     get_opclass_query = """
         SELECT opcname, c.relname FROM pg_opclass AS oc
@@ -71,6 +69,16 @@ class SchemaTests(PostgreSQLTestCase):
         constraint = CheckConstraint(
             check=Q(field__contains=[1]),
             name="array_contains",
+        )
+        msg = f"Constraint “{constraint.name}” is violated."
+        with self.assertRaisesMessage(ValidationError, msg):
+            constraint.validate(IntegerArrayModel, IntegerArrayModel())
+        constraint.validate(IntegerArrayModel, IntegerArrayModel(field=[1]))
+
+    def test_check_constraint_array_length(self):
+        constraint = CheckConstraint(
+            check=Q(field__len=1),
+            name="array_length",
         )
         msg = f"Constraint “{constraint.name}” is violated."
         with self.assertRaisesMessage(ValidationError, msg):
@@ -255,7 +263,6 @@ class SchemaTests(PostgreSQLTestCase):
         Scene.objects.create(scene="ScEnE 10", setting="Sir Bedemir's Castle")
 
 
-@modify_settings(INSTALLED_APPS={"append": "django.contrib.postgres"})
 class ExclusionConstraintTests(PostgreSQLTestCase):
     def get_constraints(self, table):
         """Get the constraints on the table using a new cursor."""
@@ -1198,7 +1205,6 @@ class ExclusionConstraintTests(PostgreSQLTestCase):
         )
 
 
-@modify_settings(INSTALLED_APPS={"append": "django.contrib.postgres"})
 class ExclusionConstraintOpclassesDepracationTests(PostgreSQLTestCase):
     def get_constraints(self, table):
         """Get the constraints on the table using a new cursor."""
