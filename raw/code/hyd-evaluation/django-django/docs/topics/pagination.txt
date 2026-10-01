@@ -78,8 +78,6 @@ accessing the items for each page::
     objects such as Django's ``QuerySet`` to use a more efficient ``count()``
     method when available.
 
-.. _paginating-a-list-view:
-
 Paginating a ``ListView``
 =========================
 
