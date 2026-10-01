@@ -69,6 +69,11 @@ PostgreSQL
 PostgreSQL is the most capable of all the databases here in terms of schema
 support.
 
+The only caveat is that prior to PostgreSQL 11, adding columns with default
+values causes a full rewrite of the table, for a time proportional to its size.
+For this reason, it's recommended you always create new columns with
+``null=True``, as this way they will be added immediately.
+
 MySQL
 -----
 
@@ -421,7 +426,7 @@ historical model versions rather than importing them directly.
 
   If you import models directly rather than using the historical models,
   your migrations *may work initially* but will fail in the future when you
-  try to rerun old migrations (commonly, when you set up a new installation
+  try to re-run old migrations (commonly, when you set up a new installation
   and run through all the migrations to set up the database).
 
   This means that historical model problems may not be immediately obvious.
@@ -561,7 +566,7 @@ the historical model and iterate over the rows::
         # version than this migration expects. We use the historical version.
         Person = apps.get_model('yourappname', 'Person')
         for person in Person.objects.all():
-            person.name = f'{person.first_name} {person.last_name}'
+            person.name = '%s %s' % (person.first_name, person.last_name)
             person.save()
 
     class Migration(migrations.Migration):
@@ -710,13 +715,6 @@ You must then transition the squashed migration to a normal migration by:
     Once you've squashed a migration, you should not then re-squash that squashed
     migration until you have fully transitioned it to a normal migration.
 
-.. admonition:: Pruning references to deleted migrations
-
-    .. versionadded:: 4.1
-
-    If it is likely that you may reuse the name of a deleted migration in the
-    future, you should remove references to it from Django’s migrations table
-    with the :option:`migrate --prune` option.
 
 .. _migration-serializing:
 
@@ -739,7 +737,7 @@ Django can serialize the following:
 - ``datetime.date``, ``datetime.time``, and ``datetime.datetime`` instances
   (include those that are timezone-aware)
 - ``decimal.Decimal`` instances
-- ``enum.Enum``  and ``enum.Flag`` instances
+- ``enum.Enum`` instances
 - ``uuid.UUID`` instances
 - :func:`functools.partial` and :class:`functools.partialmethod` instances
   which have serializable ``func``, ``args``, and ``keywords`` values.
@@ -756,9 +754,10 @@ Django can serialize the following:
 - Any class reference (must be in module's top-level scope)
 - Anything with a custom ``deconstruct()`` method (:ref:`see below <custom-deconstruct-method>`)
 
-.. versionchanged:: 4.2
+.. versionchanged:: 3.2
 
-    Serialization support for ``enum.Flag`` was added.
+    Serialization support for pure and concrete path objects from
+    :mod:`pathlib`, and :class:`os.PathLike` instances was added.
 
 Django cannot serialize:
 

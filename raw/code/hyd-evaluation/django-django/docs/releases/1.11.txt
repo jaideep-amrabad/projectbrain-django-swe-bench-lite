@@ -215,11 +215,11 @@ Minor features
   parameter to specify a custom class to encode data types not supported by the
   standard encoder.
 
-* The new ``CIText`` mixin and
+* The new :class:`~django.contrib.postgres.fields.CIText` mixin and
   :class:`~django.contrib.postgres.operations.CITextExtension` migration
   operation allow using PostgreSQL's ``citext`` extension for case-insensitive
-  lookups. Three fields are provided: ``CICharField``, ``CIEmailField``, and
-  ``CITextField``.
+  lookups. Three fields are provided: :class:`.CICharField`,
+  :class:`.CIEmailField`, and :class:`.CITextField`.
 
 * The new :class:`~django.contrib.postgres.aggregates.JSONBAgg` allows
   aggregating values as a JSON array.
@@ -256,11 +256,10 @@ Database backends
 * Added the :setting:`TEST['TEMPLATE'] <TEST_TEMPLATE>` setting to let
   PostgreSQL users specify a template for creating the test database.
 
-* :meth:`.QuerySet.iterator()` now uses `server-side cursors`_ on PostgreSQL.
-  This feature transfers some of the worker memory load (used to hold query
-  results) to the database and might increase database memory usage.
-
-  .. _server-side cursors: https://www.psycopg.org/docs/usage.html#server-side-cursors
+* :meth:`.QuerySet.iterator()` now uses :ref:`server-side cursors
+  <psycopg2:server-side-cursors>` on PostgreSQL. This feature transfers some of
+  the worker memory load (used to hold query results) to the database and might
+  increase database memory usage.
 
 * Added MySQL support for the ``'isolation_level'`` option in
   :setting:`OPTIONS` to allow specifying the :ref:`transaction isolation level

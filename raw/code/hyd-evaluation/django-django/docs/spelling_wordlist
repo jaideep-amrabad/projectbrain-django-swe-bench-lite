@@ -20,6 +20,7 @@ args
 async
 atomicity
 auth
+autoclobber
 autocommit
 autocomplete
 autocompletion
@@ -56,6 +57,7 @@ Bjørn
 blazingly
 boilerplatish
 Bokmål
+bolded
 Bonham
 bookmarklet
 bookmarklets
@@ -95,12 +97,14 @@ contenttypes
 contrib
 coroutine
 coroutines
+covariance
 criticals
 cron
 crontab
 cryptographic
 cryptographically
 csrfmiddlewaretoken
+css
 csv
 ctime
 Ctrl
@@ -136,7 +140,7 @@ dimensioned
 discoverable
 Disqus
 distro
-django
+Django
 djangoproject
 dm
 docstring
@@ -149,6 +153,7 @@ Dreamweaver
 drilldown
 dropdown
 dropdowns
+drupal
 Dunck
 editability
 encodings
@@ -171,9 +176,8 @@ filesystem
 filesystems
 flatpage
 flatpages
-focusable
+Flatpages
 fooapp
-formatter
 formatters
 formfield
 formset
@@ -192,10 +196,10 @@ geospatial
 Gettext
 GiB
 gis
-GiST
 Googol
 Greenhill
 gunicorn
+gz
 GZip
 gzipped
 hardcode
@@ -213,8 +217,10 @@ hostname
 hostnames
 hstore
 html
+http
 https
 Hypercorn
+ie
 ies
 iframe
 Igbo
@@ -226,6 +232,8 @@ init
 inlines
 instantiation
 interdependencies
+interoperability
+iOS
 ipsum
 IPv
 IPython
@@ -247,6 +255,7 @@ kilometre
 Koziarski
 kwarg
 kwargs
+Kyngesburye
 Kyrgyz
 latin
 lawrence
@@ -305,6 +314,8 @@ multitenancy
 multithreaded
 multithreading
 multivalued
+myapp
+mysite
 mysql
 mysqlclient
 naïve
@@ -352,22 +363,22 @@ Pinterest
 plaintext
 pluggable
 pluralizations
+po
 pooler
 postfix
 postgis
 postgres
 postgresql
+pq
 pre
 precisions
 precomputation
 preconfigured
-preescaped
 prefetch
 prefetched
 prefetches
 prefetching
 preload
-preloaded
 prepend
 prepended
 prepending
@@ -386,7 +397,9 @@ pseudocode
 psycopg
 Punycode
 Puthraya
+py
 pyformat
+pysqlite
 pythonic
 qs
 queryset
@@ -394,6 +407,7 @@ querysets
 querystring
 queueing
 Quickstart
+QUnit
 quoteless
 Radziej
 rasters
@@ -413,7 +427,7 @@ redisplay
 redisplayed
 redisplaying
 redisplays
-reenable
+refactorings
 referer
 referers
 reflow
@@ -452,6 +466,7 @@ serializability
 serializable
 serializer
 serializers
+sessionid
 shapefile
 shapefiles
 sharding
@@ -459,7 +474,7 @@ sitewide
 sliceable
 SMTP
 solaris
-Sorani
+Solr
 sortable
 Spectre
 Springmeyer
@@ -468,6 +483,9 @@ stacktrace
 stateful
 staticfile
 staticfiles
+stderr
+stdlib
+stdout
 storages
 stylesheet
 stylesheets
@@ -524,6 +542,7 @@ titlecase
 tokenized
 toolkits
 toolset
+Tox
 trac
 tracebacks
 transactional
@@ -536,6 +555,7 @@ trigram
 trigrams
 Turkmen
 tv
+ul
 umask
 unannotated
 unapplied
@@ -556,6 +576,7 @@ unhashable
 unioning
 uniterated
 unlocalized
+unmaintained
 unmanaged
 unparseable
 unparsed
@@ -583,11 +604,15 @@ UTF
 util
 utils
 Uvicorn
+uwsgi
 uWSGI
 validator
 validators
+validsite
+VARCHAR
 variadic
 vendored
+viewable
 virtualized
 whitespace
 whitespaces
@@ -599,5 +624,6 @@ wrappable
 wsgi
 www
 xe
+xgettext
 xxxxx
 Zope

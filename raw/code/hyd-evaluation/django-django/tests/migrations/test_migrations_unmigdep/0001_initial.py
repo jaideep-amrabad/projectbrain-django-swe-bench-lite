@@ -8,6 +8,7 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
+
         migrations.CreateModel(
             "Book",
             [
@@ -15,4 +16,5 @@ class Migration(migrations.Migration):
                 ("user", models.ForeignKey("auth.User", models.SET_NULL, null=True)),
             ],
         )
+
     ]
