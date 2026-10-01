@@ -75,6 +75,16 @@ General-purpose aggregation functions
     Returns an ``int`` of the bitwise ``OR`` of all non-null input values, or
     ``default`` if all values are null.
 
+``BitXor``
+----------
+
+.. versionadded:: 4.1
+
+.. class:: BitXor(expression, filter=None, default=None, **extra)
+
+    Returns an ``int`` of the bitwise ``XOR`` of all non-null input values, or
+    ``default`` if all values are null. It requires PostgreSQL 14+.
+
 ``BoolAnd``
 -----------
 
@@ -130,14 +140,10 @@ General-purpose aggregation functions
 
     .. attribute:: distinct
 
-        .. versionadded:: 3.2
-
         An optional boolean argument that determines if array values will be
         distinct. Defaults to ``False``.
 
     .. attribute:: ordering
-
-        .. versionadded:: 3.2
 
         An optional string of a field name (with an optional ``"-"`` prefix
         which indicates descending order) or an expression (or a tuple or list
@@ -234,13 +240,11 @@ field or an expression returning a numeric data. Both are required.
     Returns the population covariance as a ``float``, or ``default`` if there
     aren't any matching rows.
 
-    Has one optional argument:
-
     .. attribute:: sample
 
-        By default ``CovarPop`` returns the general population covariance.
-        However, if ``sample=True``, the return value will be the sample
-        population covariance.
+        Optional. By default ``CovarPop`` returns the general population
+        covariance. However, if ``sample=True``, the return value will be the
+        sample population covariance.
 
 ``RegrAvgX``
 ------------
