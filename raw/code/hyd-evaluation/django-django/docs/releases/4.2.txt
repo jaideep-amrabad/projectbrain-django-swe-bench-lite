@@ -26,6 +26,30 @@ and only officially support the latest release of each series.
 What's new in Django 4.2
 ========================
 
+Psycopg 3 support
+-----------------
+
+Django now supports `psycopg`_ version 3.1 or higher. To update your code,
+install the `psycopg library`_, you don't need to change the
+:setting:`ENGINE <DATABASE-ENGINE>` as ``django.db.backends.postgresql``
+supports both libraries.
+
+Support for ``psycopg2`` is likely to be deprecated and removed at some point
+in the future.
+
+.. _psycopg: https://www.psycopg.org/psycopg3/
+.. _psycopg library: https://pypi.org/project/psycopg/
+
+Mitigation for the BREACH attack
+--------------------------------
+
+:class:`~django.middleware.gzip.GZipMiddleware` now includes a mitigation for
+the BREACH attack. It will add up to 100 random bytes to gzip responses to make
+BREACH attacks harder. Read more about the mitigation technique in the `Heal
+The Breach (HTB) paper`_.
+
+.. _Heal The Breach (HTB) paper: https://ieeexplore.ieee.org/document/9754554
+
 Minor features
 --------------
 
@@ -64,6 +88,9 @@ Minor features
 
 * The default iteration count for the PBKDF2 password hasher is increased from
   390,000 to 480,000.
+
+* :class:`~django.contrib.auth.forms.UserCreationForm` now saves many-to-many
+  form fields for a custom user model.
 
 :mod:`django.contrib.contenttypes`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -118,7 +145,8 @@ Minor features
 :mod:`django.contrib.sitemaps`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* ...
+* The new :meth:`.Sitemap.get_languages_for_item` method allows customizing the
+  list of languages for which the item is displayed.
 
 :mod:`django.contrib.sites`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -128,7 +156,9 @@ Minor features
 :mod:`django.contrib.staticfiles`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* ...
+* :class:`~django.contrib.staticfiles.storage.ManifestStaticFilesStorage` now
+  replaces paths to JavaScript modules in ``import`` and ``export`` statements
+  with their hashed counterparts.
 
 :mod:`django.contrib.syndication`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -158,7 +188,8 @@ Email
 Error Reporting
 ~~~~~~~~~~~~~~~
 
-* ...
+* The debug page now shows :pep:`exception notes <678>` and
+  :pep:`fine-grained error locations <657>` on Python 3.11+.
 
 File Storage
 ~~~~~~~~~~~~
@@ -199,7 +230,8 @@ Internationalization
 Logging
 ~~~~~~~
 
-* ...
+* The :ref:`django-db-logger` logger now logs transaction management queries
+  (``BEGIN``, ``COMMIT``, and ``ROLLBACK``) at the ``DEBUG`` level.
 
 Management Commands
 ~~~~~~~~~~~~~~~~~~~
@@ -254,7 +286,8 @@ Models
 Requests and Responses
 ~~~~~~~~~~~~~~~~~~~~~~
 
-* ...
+* :class:`~django.http.StreamingHttpResponse` now supports async iterators
+  when Django is served via ASGI.
 
 Security
 ~~~~~~~~
@@ -315,6 +348,9 @@ Utilities
   ``url_has_allowed_host_and_scheme()`` function, instead of using one of the
   documented functions for handling URL redirects. The Django functions were
   not affected.
+
+* The new :func:`django.utils.http.content_disposition_header` function returns
+  a ``Content-Disposition`` HTTP header value as specified by :rfc:`6266`.
 
 Validators
 ~~~~~~~~~~
@@ -394,6 +430,18 @@ Miscellaneous
 * The undocumented ``negated`` parameter of the
   :class:`~django.db.models.Exists` expression is removed.
 
+* The ``is_summary`` argument of the undocumented ``Query.add_annotation()``
+  method is removed.
+
+* The minimum supported version of SQLite is increased from 3.9.0 to 3.21.0.
+
+* :djadmin:`inspectdb` now uses ``display_size`` from
+  ``DatabaseIntrospection.get_table_description()`` rather than
+  ``internal_size`` for ``CharField``.
+
+* The minimum supported version of ``asgiref`` is increased from 3.5.2 to
+  3.6.0.
+
 .. _deprecated-features-4.2:
 
 Features deprecated in 4.2
@@ -435,6 +483,42 @@ still part of the public API, and there's no plan to deprecate or remove it,
 but it should not be used for new migrations. Use
 :class:`~django.db.migrations.operations.AddIndex` and
 :class:`~django.db.migrations.operations.RemoveIndex` operations instead.
+
+Passing encoded JSON string literals to ``JSONField`` is deprecated
+-------------------------------------------------------------------
+
+``JSONField`` and its associated lookups and aggregates use to allow passing
+JSON encoded string literals which caused ambiguity on whether string literals
+were already encoded from database backend's perspective.
+
+During the deprecation period string literals will be attempted to be JSON
+decoded and a warning will be emitted on success that points at passing
+non-encoded forms instead.
+
+Code that use to pass JSON encoded string literals::
+
+    Document.objects.bulk_create(
+        Document(data=Value("null")),
+        Document(data=Value("[]")),
+        Document(data=Value('"foo-bar"')),
+    )
+    Document.objects.annotate(
+        JSONBAgg("field", default=Value('[]')),
+    )
+
+Should become::
+
+    Document.objects.bulk_create(
+        Document(data=Value(None, JSONField())),
+        Document(data=[]),
+        Document(data="foo-bar"),
+    )
+    Document.objects.annotate(
+        JSONBAgg("field", default=[]),
+    )
+
+From Django 5.1+ string literals will be implicitly interpreted as JSON string
+literals.
 
 Miscellaneous
 -------------
@@ -485,3 +569,6 @@ Miscellaneous
 
 * ``TransactionTestCase.assertQuerysetEqual()`` is deprecated in favor of
   ``assertQuerySetEqual()``.
+
+* Passing positional arguments to ``Signer`` and ``TimestampSigner`` is
+  deprecated in favor of keyword-only arguments.
